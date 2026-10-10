@@ -49,6 +49,17 @@ def test_targeted_mutate_flips_only_rows_holding_a_target_label() -> None:
     assert "Use18 | SE | SE | P" in untargeted
 
 
+def test_mutate_leaves_dotted_citations_alone() -> None:
+    text = "Wholesale and P P P Sec.3.01.02.C.24 F.S.\nIndustrial, Heavy C P, P, Sec.\n"
+
+    mutated, flips = mutate(text, random.Random(0), 2, targets={"Wholesale and", "Industrial, Heavy"})
+
+    assert "Sec.3.01.02.C.24 F.S." in mutated
+    assert "Wholesale and SE SE SE Sec.3.01.02.C.24 F.S." in mutated
+    assert "Industrial, Heavy P SE, SE, Sec." in mutated
+    assert len(flips) == 6
+
+
 def _mutation_root(tiny_root: Path, filler_rows: int = 0) -> Path:
     base = tiny_root / "jurisdictions" / "us-00000"
     filler = "".join(f"Filler{index} | P | P | P\n" for index in range(filler_rows))

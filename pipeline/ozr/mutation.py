@@ -17,7 +17,7 @@ from ozr.labels import label_jurisdiction
 from ozr.models import run_claude
 
 SYMBOLS = {"P": "SE", "SE": "P", "C": "P", "S": "P", "CU": "P", "SUP": "P", "X": "P", "PS": "SE"}
-_TOKEN = re.compile(r"(?<!\w)(?:P|SE|C|S|CU|SUP|X|PS)(?!\w)")
+_TOKEN = re.compile(r"(?<![\w.])(?:P|SE|C|S|CU|SUP|X|PS)(?![\w.])")
 _MARKER = re.compile(r"^=== (?P<source>.+) page (?P<page>\d+) ===\n", re.MULTILINE)
 
 
