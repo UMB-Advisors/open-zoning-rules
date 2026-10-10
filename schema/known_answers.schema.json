@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/UMB-Advisors/open-zoning-rules/schema/known_answers.schema.json",
+  "title": "Known triage answers",
+  "description": "Frozen known answers and amendments used to check triage data.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["frozen_at", "taxonomy", "cells", "amendments"],
+  "$defs": {
+    "date": {"type": "string", "maxLength": 10, "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "jurisdiction_id": {"type": "string", "pattern": "^us-([0-9]{5}|[0-9]{7})$"},
+    "nonempty": {"type": "string", "minLength": 1},
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "quote"],
+      "properties": {
+        "url": {"type": "string", "pattern": "^https://"},
+        "quote": {"$ref": "#/$defs/nonempty"},
+        "section": {"$ref": "#/$defs/nonempty"}
+      }
+    }
+  },
+  "properties": {
+    "frozen_at": {"$ref": "#/$defs/date"},
+    "taxonomy": {"const": "v1"},
+    "cells": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "jurisdiction_id", "district_code", "use_class", "expected_status", "basis", "citation", "quote_verified"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "jurisdiction_id": {"$ref": "#/$defs/jurisdiction_id"},
+          "district_code": {"$ref": "#/$defs/nonempty"},
+          "use_class": {"$ref": "#/$defs/nonempty"},
+          "expected_status": {"enum": ["permitted", "conditional", "prohibited", "unlisted"]},
+          "basis": {"enum": ["code_text", "adopted_amendment", "official_record"]},
+          "citation": {"$ref": "#/$defs/citation"},
+          "quote_verified": {"type": "boolean"},
+          "source_text_status": {"enum": ["permitted", "conditional", "prohibited", "unlisted"]},
+          "parcel_specific": {"type": "boolean"},
+          "notes": {"$ref": "#/$defs/nonempty"}
+        }
+      }
+    },
+    "amendments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "jurisdiction_id", "kind", "use_classes", "districts", "citation", "quote_verified"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "jurisdiction_id": {"$ref": "#/$defs/jurisdiction_id"},
+          "kind": {"enum": ["moratorium", "pending_text_amendment", "adopted_text_amendment", "use_determination"]},
+          "use_classes": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/nonempty"}},
+          "districts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/nonempty"}},
+          "dates": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {"introduced": {"$ref": "#/$defs/date"}, "adopted": {"$ref": "#/$defs/date"}, "expires": {"$ref": "#/$defs/date"}}
+          },
+          "citation": {"$ref": "#/$defs/citation"},
+          "quote_verified": {"type": "boolean"},
+          "notes": {"$ref": "#/$defs/nonempty"}
+        }
+      }
+    }
+  }
+}
