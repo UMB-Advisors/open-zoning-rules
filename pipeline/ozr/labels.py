@@ -105,7 +105,8 @@ def normalise_label(
 ) -> dict:
     """Turn one model response row into the record shape used by later stages."""
     source_id = raw.get("source_id")
-    match = re.fullmatch(r"(?P<id>.+) page \d+", source_id) if isinstance(source_id, str) else None
+    # A page marker ("<id> page 85") or a page-image name ("<id>-p85") copied into source_id.
+    match = re.fullmatch(r"(?P<id>.+)(?: page |-p)\d+", source_id) if isinstance(source_id, str) else None
     if isinstance(source_id, str) and source_id not in sources_by_id and match and match["id"] in sources_by_id:
         source_id = match["id"]
     source = sources_by_id.get(source_id, {}) if isinstance(source_id, str) else {}
