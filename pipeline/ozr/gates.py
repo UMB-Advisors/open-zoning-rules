@@ -188,6 +188,11 @@ def _term_in(haystack: str, term: str) -> bool:
     return re.search(pattern, haystack, re.IGNORECASE) is not None
 
 
+def term_in(haystack: str, term: str) -> bool:
+    """Return whether a taxonomy term occurs as a whole word."""
+    return _term_in(haystack, term)
+
+
 def absence_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> list[str]:
     """Return absence-gate errors for an unlisted cell."""
     if cell.get("status") != "unlisted":

@@ -1,0 +1,58 @@
+"""Offline tests for segmentation."""
+
+from __future__ import annotations
+
+import hashlib
+import json
+
+from ozr.segment import segment_jurisdiction
+from pdfgen import make_pdf
+
+
+def test_segments_pdf_html_and_missing_bytes(tiny_root):
+    pdf = make_pdf(
+        [
+            ["Zoning districts are hereby established: I-1 Light Industrial, I-2 Heavy Industrial"],
+            [
+                "Table 4-2 Table of Permitted Uses",
+                "Warehouse P P",
+                "I-1 I-2",
+                "Any use not listed in Table 4-2 is prohibited.",
+            ],
+            ["Definitions", "Data center means a facility housing servers."],
+        ]
+    )
+    digest = hashlib.sha256(pdf).hexdigest()
+    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache" / digest).write_bytes(pdf)
+    sources_path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
+    document = json.loads(sources_path.read_text())
+    document["sources"][0]["sha256"] = digest
+    document["sources"].append({**document["sources"][0], "source_id": "missing", "sha256": "f" * 64})
+    sources_path.write_text(json.dumps(document))
+    manifest = segment_jurisdiction(tiny_root, "us-00000")
+    by_kind = {item["kind"]: item for item in manifest["segments"]}
+    assert by_kind["district_list"]["pages"] == [1, 2]
+    assert by_kind["use_table"]["pages"] == [2]
+    assert by_kind["not_listed"]["pages"] == [2]
+    assert by_kind["definitions"]["pages"] == [3]
+    assert "Warehouse P P" in (tiny_root / "cache" / "text" / "us-00000-zo.txt").read_text()
+    assert "=== us-00000-zo page 2 ===" in (tiny_root / "cache" / by_kind["use_table"]["text"]).read_text()
+    image = by_kind["use_table"]["images"][0]
+    assert hashlib.sha256((tiny_root / "cache" / image["path"]).read_bytes()).hexdigest() == image["sha256"]
+    before = (tiny_root / "jurisdictions" / "us-00000" / "segments.json").read_bytes()
+    segment_jurisdiction(tiny_root, "us-00000")
+    assert (tiny_root / "jurisdictions" / "us-00000" / "segments.json").read_bytes() == before
+    assert "missing" in manifest["missing_bytes"]
+
+
+def test_html_is_one_tag_stripped_page(tiny_root):
+    source = json.loads((tiny_root / "jurisdictions" / "us-00000" / "sources.json").read_text())["sources"][0]
+    data = b"<p>Hello <b>zoning</b></p><script>nope</script><div>world &amp; more</div>"
+    digest = hashlib.sha256(data).hexdigest()
+    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache" / digest).write_bytes(data)
+    source["sha256"] = digest
+    (tiny_root / "jurisdictions" / "us-00000" / "sources.json").write_text(json.dumps({"sources": [source]}))
+    segment_jurisdiction(tiny_root, "us-00000")
+    assert (tiny_root / "cache" / "text" / "us-00000-zo.txt").read_text() == "Hello zoning\nworld & more"

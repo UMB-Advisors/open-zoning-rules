@@ -39,7 +39,7 @@ def _url_errors(path: Path, root: Path, url: object, denylist: frozenset[str]) -
     return [f"{path.relative_to(root)}: {error}" for error in check_url(url, denylist)]
 
 
-def _host_allowed(url: object, policy: object, org_id: object = None) -> bool:
+def host_allowed(url: object, policy: object, org_id: object = None) -> bool:
     if not isinstance(url, str) or not isinstance(policy, dict):
         return False
     parsed = urllib.parse.urlsplit(url)
@@ -173,7 +173,7 @@ def triage_errors(root: Path) -> list[str]:
                 errors.append(f"{sources_path.relative_to(root)}: source jurisdiction_id does not match directory")
             errors.extend(_url_errors(sources_path, root, source.get("url"), denylist))
             errors.extend(_url_errors(sources_path, root, source.get("final_url"), denylist))
-            if policy is not None and not _host_allowed(source.get("url"), policy, source.get("arcgis_org_id")):
+            if policy is not None and not host_allowed(source.get("url"), policy, source.get("arcgis_org_id")):
                 errors.append(
                     f"{sources_path.relative_to(root)}: source url is not a primary host: {source.get('url')}"
                 )
@@ -184,13 +184,15 @@ def triage_errors(root: Path) -> list[str]:
             if isinstance(geometry, dict) and "layer_url" in geometry:
                 url = geometry["layer_url"]
                 errors.extend(_url_errors(jurisdiction_path, root, url, denylist))
-                if policy is not None and not _host_allowed(url, policy, _layer_org_id(url)):
+                if policy is not None and not host_allowed(url, policy, _layer_org_id(url)):
                     errors.append(
                         f"{jurisdiction_path.relative_to(root)}: geometry layer_url is not a primary host: {url}"
                     )
     state_validator = _validator(root, "state_rule.schema.json")
     state_base = root / "state_rules"
     for path in sorted(state_base.glob("*.json")) if state_base.exists() else []:
+        if path.name == "sources.json":
+            continue
         state = path.stem
         document = _read(path, root, errors)
         if not _STATE_FILE.fullmatch(state):
