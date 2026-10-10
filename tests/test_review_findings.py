@@ -6,6 +6,7 @@ import json
 import shutil
 from pathlib import Path
 
+from jsonschema import Draft202012Validator
 from ozr import fetch, release
 from ozr.gates import release_errors
 from ozr.grade import grade_jurisdiction
@@ -78,3 +79,12 @@ def test_a_wrong_other_files_hash_fails_the_release_gate(tmp_path: Path) -> None
     manifest_path.write_text(json.dumps(manifest))
     errors = release_errors(out, root / "cache" / "text")
     assert any("hash: denylist.txt" in error for error in errors)
+
+
+def test_jurisdiction_schema_accepts_the_case_lookup_that_grade_reads() -> None:
+    schema = json.loads((ROOT / "schema" / "jurisdiction.schema.json").read_text())
+    jurisdiction = json.loads((FIXTURE / "release" / "jurisdictions.json").read_text())[0]
+    jurisdiction["case_lookup_url"] = "https://planning.example.org/cases"
+    assert list(Draft202012Validator(schema).iter_errors(jurisdiction)) == []
+    jurisdiction["case_lookup_url"] = "http://planning.example.org/cases"
+    assert list(Draft202012Validator(schema).iter_errors(jurisdiction)) != []
