@@ -25,9 +25,31 @@ def _row(line: str) -> bool:
     return " | " in line or len(_TOKEN.findall(line)) >= 3
 
 
-def mutate(text: str, rng: random.Random, n: int, targets: Collection[str] | None = None) -> tuple[str, list[dict]]:
+def flip_map(texts: list[str]) -> dict[str, str]:
+    """Choose the table's dominant conditional symbol for symbol flips."""
+    counts = {symbol: 0 for symbol in ("SE", "S", "C", "CU", "SUP")}
+    for text in texts:
+        for line in text.splitlines():
+            if _row(line):
+                for token in _TOKEN.findall(line):
+                    if token in counts:
+                        counts[token] += 1
+    conditional = max(counts, key=counts.__getitem__)
+    if not counts[conditional]:
+        return dict(SYMBOLS)
+    return {"P": conditional, "PS": conditional, **{symbol: "P" for symbol in counts}, "X": "P"}
+
+
+def mutate(
+    text: str,
+    rng: random.Random,
+    n: int,
+    targets: Collection[str] | None = None,
+    symbols: dict[str, str] | None = None,
+) -> tuple[str, list[dict]]:
     """Flip up to n symbols (or, with targets, n whole rows holding a target label), using the supplied RNG."""
     lines = text.splitlines(keepends=True)
+    symbols = symbols or SYMBOLS
     if targets is None:
         candidates = [(i, match) for i, line in enumerate(lines) if _row(line) for match in _TOKEN.finditer(line)]
         selected = rng.sample(candidates, min(n, len(candidates)))
@@ -50,7 +72,7 @@ def mutate(text: str, rng: random.Random, n: int, targets: Collection[str] | Non
         for match in _TOKEN.finditer(before):
             rendered.append(before[cursor : match.start()])
             token = match.group()
-            rendered.append(SYMBOLS[token] if match.start() in replacements else token)
+            rendered.append(symbols[token] if match.start() in replacements else token)
             if match.start() in replacements:
                 flips.append(
                     {
@@ -58,7 +80,7 @@ def mutate(text: str, rng: random.Random, n: int, targets: Collection[str] | Non
                         "line_before": before.rstrip("\n"),
                         "line_after": "",
                         "from": token,
-                        "to": SYMBOLS[token],
+                        "to": symbols[token],
                     }
                 )
             cursor = match.end()
@@ -89,20 +111,26 @@ def _replace_pages(
     rng: random.Random,
     n: int,
     targets: Collection[str] | None = None,
-) -> list[dict]:
+) -> tuple[list[dict], dict[str, str] | None]:
     manifest = read_json(root / "jurisdictions" / jid / "segments.json")
+    segments = [
+        segment
+        for segment in (manifest.get("segments", []) if isinstance(manifest, dict) else [])
+        if isinstance(segment, dict) and segment.get("kind") == "use_table" and isinstance(segment.get("text"), str)
+    ]
+    symbols = (
+        flip_map([(root / "cache" / segment["text"]).read_text(encoding="utf-8") for segment in segments])
+        if targets is not None
+        else None
+    )
     flips: list[dict] = []
     remaining = n
-    for segment in manifest.get("segments", []) if isinstance(manifest, dict) else []:
-        if not isinstance(segment, dict) or segment.get("kind") != "use_table":
-            continue
-        relative = segment.get("text")
-        if not isinstance(relative, str):
-            continue
+    for segment in segments:
+        relative = segment["text"]
         original_path = root / "cache" / relative
         mutated_path = target / "cache" / relative
         original = original_path.read_text(encoding="utf-8")
-        mutated, changes = mutate(original, rng, remaining, targets)
+        mutated, changes = mutate(original, rng, remaining, targets, symbols)
         if targets is None:
             remaining -= len(changes)
         else:
@@ -126,7 +154,7 @@ def _replace_pages(
                 source_path.write_text(
                     source_path.read_text(encoding="utf-8").replace(old_page, new_page, 1), encoding="utf-8"
                 )
-    return flips
+    return flips, symbols
 
 
 def _row_label(cell: dict | None) -> str:
@@ -162,7 +190,7 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
     with tempfile.TemporaryDirectory() as temporary:
         target = Path(temporary)
         _copy_root(root, target, jid)
-        flips = _replace_pages(root, target, jid, random.Random(seed), n, targets if targeted else None)
+        flips, symbols = _replace_pages(root, target, jid, random.Random(seed), n, targets if targeted else None)
         mutated = label_jurisdiction(target, jid, template, call, "claude", "mutation", today, with_images=False)
         run_path = target / "runs" / f"{jid}.jsonl"
         if run_path.is_file():
@@ -189,6 +217,24 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
     }
     compared_keys = set(before) & set(after)
     unflipped_keys = compared_keys - flipped_keys
+    outcomes = {name: 0 for name in ("to_conditional", "to_permitted", "dropped", "other_change", "unchanged")}
+    cell_outcomes: dict[tuple[object, object, object], str] = {}
+    for key in flipped_keys:
+        before_status = before[key].get("status")
+        after_status = (after.get(key) or {}).get("status")
+        if before_status == "permitted" and after_status == "conditional":
+            outcome = "to_conditional"
+        elif before_status == "conditional" and after_status == "permitted":
+            outcome = "to_permitted"
+        elif after_status is None:
+            outcome = "dropped"
+        elif after_status != before_status:
+            outcome = "other_change"
+        else:
+            outcome = "unchanged"
+        outcomes[outcome] += 1
+        cell_outcomes[key] = outcome
+    expected_direction = outcomes["to_conditional"] + outcomes["to_permitted"]
     for flip in flips:
         # A flip is detected when a table cell whose row label is on the flipped line changed status.
         flip["flip_detected"] = any(
@@ -199,6 +245,7 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
         "seed": seed,
         "n": n,
         "targeted": targeted,
+        "flip_symbols": symbols,
         "flips": flips,
         "rows_flipped": len({flip["line_no"] for flip in flips}),
         "flipped_cells": len(flipped_keys),
@@ -206,6 +253,9 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
         "unflipped_cells": len(unflipped_keys),
         "unflipped_cells_changed": len(unflipped_keys & status_changed),
         "detection_rate": round(len(flipped_keys & status_changed) / len(flipped_keys), 3) if flipped_keys else None,
+        "flipped_outcomes": outcomes,
+        "expected_direction": expected_direction,
+        "expected_rate": round(expected_direction / len(flipped_keys), 3) if flipped_keys else None,
         "noise_rate": round(len(unflipped_keys & status_changed) / len(unflipped_keys), 3) if unflipped_keys else None,
         "cells": [
             {
@@ -213,6 +263,7 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
                 "before": (before.get(key) or {}).get("status"),
                 "after": (after.get(key) or {}).get("status"),
                 "flipped": key in flipped_keys,
+                "outcome": cell_outcomes.get(key),
             }
             for key in keys
         ],
@@ -239,7 +290,8 @@ def cli(args: argparse.Namespace) -> int:
         result = run(args.root, jid, today=args.today)
         print(
             f"{jid}: {result['result']} rows_flipped={result['rows_flipped']} "
-            f"detection={result['flipped_cells_changed']}/{result['flipped_cells']} "
+            f"expected={result['expected_direction']}/{result['flipped_cells']} "
+            f"dropped={result['flipped_outcomes']['dropped']} other={result['flipped_outcomes']['other_change']} "
             f"noise={result['unflipped_cells_changed']}/{result['unflipped_cells']}"
         )
     return 0

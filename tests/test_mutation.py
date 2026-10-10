@@ -7,7 +7,7 @@ import random
 from pathlib import Path
 
 from ozr.models import ModelResult
-from ozr.mutation import mutate, run
+from ozr.mutation import SYMBOLS, flip_map, mutate, run
 
 
 def test_mutate_is_seeded_and_leaves_prose_symbols_alone() -> None:
@@ -20,6 +20,14 @@ def test_mutate_is_seeded_and_leaves_prose_symbols_alone() -> None:
     assert flips == again
     assert first.splitlines()[0] == "Prose mentions a lone P but is not a table."
     assert all(flip["line_before"] != flip["line_after"] for flip in flips)
+
+
+def test_flip_map_uses_the_tables_own_conditional_symbol() -> None:
+    symbols = flip_map(["Use1 P C P\nUse2 C C P\n"])
+    assert symbols["P"] == "C"
+    assert symbols["C"] == "P"
+    assert flip_map(["Use1 P SE S | x\nUse2 S S P | x\n"])["P"] == "S"
+    assert flip_map(["Use1 P X PS\n"]) == SYMBOLS
 
 
 def test_targeted_mutate_flips_only_rows_holding_a_target_label() -> None:
@@ -60,9 +68,9 @@ def test_mutate_leaves_dotted_citations_alone() -> None:
     assert len(flips) == 6
 
 
-def _mutation_root(tiny_root: Path, filler_rows: int = 0) -> Path:
+def _mutation_root(tiny_root: Path, filler_rows: int = 0, conditional_symbol: str = "SE") -> Path:
     base = tiny_root / "jurisdictions" / "us-00000"
-    filler = "".join(f"Filler{index} | P | P | P\n" for index in range(filler_rows))
+    filler = "".join(f"Filler{index} | P | {conditional_symbol} | P\n" for index in range(filler_rows))
     text = "Sec. 4-2\n" + filler + "Warehouse | I-1 | P\n"
     segment = "=== us-00000-zo page 1 ===\n" + text
     path = tiny_root / "cache" / "segments" / "us-00000" / "use_table-us-00000-zo.txt"
@@ -89,8 +97,8 @@ def _mutation_root(tiny_root: Path, filler_rows: int = 0) -> Path:
     return base
 
 
-def _response(status: str) -> ModelResult:
-    symbol = "P" if status == "permitted" else "SE"
+def _response(status: str, conditional_symbol: str = "SE") -> ModelResult:
+    symbol = "P" if status == "permitted" else conditional_symbol
     return ModelResult(
         json.dumps(
             {
@@ -155,6 +163,7 @@ def test_run_targets_the_cited_row_and_reports_a_noise_floor(tiny_root: Path) ->
             "before": "permitted",
             "after": "conditional",
             "flipped": True,
+            "outcome": "to_conditional",
         }
     ]
 
@@ -168,3 +177,27 @@ def test_run_reports_unchanged_for_an_extractor_that_ignores_text(tiny_root: Pat
     result = run(tiny_root, "us-00000", ignores_table, n=1, seed=0, today="2026-10-10")
 
     assert result["result"] == "unchanged"
+
+
+def test_run_counts_only_expected_direction_moves(tiny_root: Path) -> None:
+    _mutation_root(tiny_root, filler_rows=30, conditional_symbol="C")
+
+    def reads_c_table(prompt, _images, _workdir):
+        return _response("conditional" if "Warehouse | I-1 | C" in prompt else "permitted", "C")
+
+    result = run(tiny_root, "us-00000", reads_c_table, n=1, seed=0, today="2026-10-10")
+
+    assert result["flips"][0]["to"] == "C"
+    assert result["flipped_outcomes"]["to_conditional"] == 1
+    assert result["expected_rate"] == 1.0
+
+    def drops_mutated_cell(prompt, _images, _workdir):
+        if "Warehouse | I-1 | C" in prompt:
+            return ModelResult(json.dumps({"cells": []}), "fake", 1, 1, 0, 0, 0.0, 0.0, {})
+        return _response("permitted", "C")
+
+    result = run(tiny_root, "us-00000", drops_mutated_cell, n=1, seed=0, today="2026-10-10")
+
+    assert result["flipped_outcomes"]["dropped"] == 1
+    assert result["expected_direction"] == 0
+    assert result["expected_rate"] == 0.0
