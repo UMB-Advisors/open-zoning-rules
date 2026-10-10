@@ -1,0 +1,390 @@
+{
+  "jurisdiction_id": "us-51143",
+  "sources": [
+    {
+      "source_id": "us-51143-zo-ch35",
+      "sha256": "3d6e44bfc8eb8112b8b7fdc62ff97d7174de7b34b0dc4db276f8130e8d96ebab",
+      "pages": 211,
+      "text_sha256": "d84f561246b7b0a0df0f2f7c1f97e664292dc6f798d34dce8b0328242b4228ad"
+    }
+  ],
+  "segments": [
+    {
+      "kind": "use_table",
+      "source_id": "us-51143-zo-ch35",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        47,
+        48,
+        63,
+        64,
+        82,
+        83,
+        85,
+        86,
+        98,
+        99,
+        100,
+        102,
+        103,
+        106,
+        107,
+        108,
+        111,
+        112,
+        115,
+        116,
+        123,
+        124,
+        127,
+        128,
+        131,
+        132,
+        137,
+        138,
+        146,
+        147,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        160,
+        161,
+        162,
+        163,
+        179,
+        180,
+        192,
+        193
+      ],
+      "text": "segments/us-51143/use_table-us-51143-zo-ch35.txt",
+      "text_sha256": "c9affe1a0e8aaa122ffcd4427f9e59bc79913c20f521a9721ff225ab18a77fbe",
+      "images": [
+        {
+          "page": 6,
+          "path": "segments/us-51143/us-51143-zo-ch35-p6.png",
+          "sha256": "d4aeb00cabd16533d2ae7b2f11abf2d4d43c686cbc048f3bfe7c6da7d34bc716"
+        },
+        {
+          "page": 7,
+          "path": "segments/us-51143/us-51143-zo-ch35-p7.png",
+          "sha256": "12db0f0dd5d93e519a73427e45d8032ba46cfadf7d6466d8dcaa5de4b2b7390e"
+        },
+        {
+          "page": 8,
+          "path": "segments/us-51143/us-51143-zo-ch35-p8.png",
+          "sha256": "53bd6974e013f0b349594b3d8c068749f9b1b771c4901be1ac0808d75d286e45"
+        },
+        {
+          "page": 9,
+          "path": "segments/us-51143/us-51143-zo-ch35-p9.png",
+          "sha256": "1990bc4ce8bf1d8643a1300aea42e2347168011c1a7fcfa0dcea6fc5381ba9d8"
+        },
+        {
+          "page": 10,
+          "path": "segments/us-51143/us-51143-zo-ch35-p10.png",
+          "sha256": "eb85f3cdcd9a7789a27bb104fd662e6d8c6689b18314bc45a44978890264d512"
+        },
+        {
+          "page": 11,
+          "path": "segments/us-51143/us-51143-zo-ch35-p11.png",
+          "sha256": "eba496dbf0f3cc8ad6097cd9a7e7da4155579468d1292669b30f5efe7cedf75d"
+        },
+        {
+          "page": 12,
+          "path": "segments/us-51143/us-51143-zo-ch35-p12.png",
+          "sha256": "36baa901b26359faef8519d7aaa3cb95ebabe4d1f006c6d41f32a857d0b2a14e"
+        },
+        {
+          "page": 13,
+          "path": "segments/us-51143/us-51143-zo-ch35-p13.png",
+          "sha256": "083e0b081de1bcf43c8e67dd362dd2625d2eda98e0d2e7f41493e1649d2c12ce"
+        },
+        {
+          "page": 47,
+          "path": "segments/us-51143/us-51143-zo-ch35-p47.png",
+          "sha256": "b53798e4e0e7fa0e05c543ee99c8accf59b5c92c76a44e13452a27676cc6ec2a"
+        },
+        {
+          "page": 48,
+          "path": "segments/us-51143/us-51143-zo-ch35-p48.png",
+          "sha256": "cc2d0d21b9634dbfaffce82f9bc43e6dfbb8d32062c366d65ee021a4784af1c3"
+        },
+        {
+          "page": 63,
+          "path": "segments/us-51143/us-51143-zo-ch35-p63.png",
+          "sha256": "3feac90e784e37b8c29e9f067b9017913c0245d550fa33c8293e2e8fb3569983"
+        },
+        {
+          "page": 64,
+          "path": "segments/us-51143/us-51143-zo-ch35-p64.png",
+          "sha256": "95be282e0a58282cd4385cf6b18f2a81388a3ccfcf746024528dc73bcd4abd48"
+        },
+        {
+          "page": 82,
+          "path": "segments/us-51143/us-51143-zo-ch35-p82.png",
+          "sha256": "e7368423bf0bdc250cc76185014b109ca1cab9709bf8a0b64a3bd72a1eabaea0"
+        },
+        {
+          "page": 83,
+          "path": "segments/us-51143/us-51143-zo-ch35-p83.png",
+          "sha256": "96bdb828bc42833bdcf5a31ff179ca372da364d83ed639364bac7b7b1f0d0f8a"
+        },
+        {
+          "page": 85,
+          "path": "segments/us-51143/us-51143-zo-ch35-p85.png",
+          "sha256": "2245fd76e946417e82bc88169d0ac0ea45a641c8858af5824e4136a19c699e1c"
+        },
+        {
+          "page": 86,
+          "path": "segments/us-51143/us-51143-zo-ch35-p86.png",
+          "sha256": "64c7d2a493fb89ce872cecfb6ce8c75f906c4ec4ffd33a813734d556ceef1666"
+        },
+        {
+          "page": 98,
+          "path": "segments/us-51143/us-51143-zo-ch35-p98.png",
+          "sha256": "296421cae3a1f72bb3ba4f74bcf01e26791cc5639289851d2d7c1161e33777d2"
+        },
+        {
+          "page": 99,
+          "path": "segments/us-51143/us-51143-zo-ch35-p99.png",
+          "sha256": "244eee8a173fd2bb0d35c73b26cbebc8da7f41af0c7f4c52287e78f39ba4a38a"
+        },
+        {
+          "page": 100,
+          "path": "segments/us-51143/us-51143-zo-ch35-p100.png",
+          "sha256": "e4db4010aeb169f28b88895c4d310abae9be314455a2e30c6731b218fec2168c"
+        },
+        {
+          "page": 102,
+          "path": "segments/us-51143/us-51143-zo-ch35-p102.png",
+          "sha256": "4e0acdf08c61958ed74c9bee27a0cba738a52391921f05ba595b39ec138ce338"
+        },
+        {
+          "page": 103,
+          "path": "segments/us-51143/us-51143-zo-ch35-p103.png",
+          "sha256": "360a4715eb7e79042dc2bd7c0e288002092b5082a4d10f14cad67cf67138419b"
+        },
+        {
+          "page": 106,
+          "path": "segments/us-51143/us-51143-zo-ch35-p106.png",
+          "sha256": "0be83f019ed59e0f1f82f412bc85e0fef08b7de40201a75b18bdc6a004e518bd"
+        },
+        {
+          "page": 107,
+          "path": "segments/us-51143/us-51143-zo-ch35-p107.png",
+          "sha256": "d63765a18fff3a5f0effd641b94ec36627b788ff6125f9ef48a50dc63e4effa1"
+        },
+        {
+          "page": 108,
+          "path": "segments/us-51143/us-51143-zo-ch35-p108.png",
+          "sha256": "45916563baf4165e269ae9dff21e5421f7647aaa74aae58fcbe067731a93c5ac"
+        },
+        {
+          "page": 111,
+          "path": "segments/us-51143/us-51143-zo-ch35-p111.png",
+          "sha256": "ebe50ef9ae70e6f0d4766c8a009f3120990cdbb0ffe8468ad65ecaaedf957f9f"
+        },
+        {
+          "page": 112,
+          "path": "segments/us-51143/us-51143-zo-ch35-p112.png",
+          "sha256": "885ea9e27af4273e0d7496a2bf3291e7cb44f32df644f8ded152913661ccab0b"
+        },
+        {
+          "page": 115,
+          "path": "segments/us-51143/us-51143-zo-ch35-p115.png",
+          "sha256": "c7f29b41fa1c3ea75c8c73ce5cc7d526c646f7b14bd3d8f9d21f1a8c142fcb69"
+        },
+        {
+          "page": 116,
+          "path": "segments/us-51143/us-51143-zo-ch35-p116.png",
+          "sha256": "da6a92c4a8bdf72749c56a703b635fb82a0e55adb5ea529c5851e991e6019dff"
+        },
+        {
+          "page": 123,
+          "path": "segments/us-51143/us-51143-zo-ch35-p123.png",
+          "sha256": "e946a4c65edb8eb31cdab5b64561b4fcb4f6d7cdf1579f88db0640adc310c3d6"
+        },
+        {
+          "page": 124,
+          "path": "segments/us-51143/us-51143-zo-ch35-p124.png",
+          "sha256": "b8e07ac301abb759b7b70f7713b4e3705a7d9e7a953570cfd82d051e3168f96c"
+        },
+        {
+          "page": 127,
+          "path": "segments/us-51143/us-51143-zo-ch35-p127.png",
+          "sha256": "2ceb56bda42eb5e688997d2cb5ae575281c37c6d36208dda8850cada9d859a3e"
+        },
+        {
+          "page": 128,
+          "path": "segments/us-51143/us-51143-zo-ch35-p128.png",
+          "sha256": "bce9c25e7bc0b6818a6f486972dc664faa68e24ae3fd7ef8718e3ac0e167adbb"
+        },
+        {
+          "page": 131,
+          "path": "segments/us-51143/us-51143-zo-ch35-p131.png",
+          "sha256": "c425a904af3d2d07307301a0ad30e8639f2a8da3f3f61503c4a836dadfe288d7"
+        },
+        {
+          "page": 132,
+          "path": "segments/us-51143/us-51143-zo-ch35-p132.png",
+          "sha256": "4dad72c15743c9fe8ea9524c6b4bcc861b24c076bbfa1afb6b86e53b2a6d8f97"
+        },
+        {
+          "page": 137,
+          "path": "segments/us-51143/us-51143-zo-ch35-p137.png",
+          "sha256": "ceae09e491c9247f902e0faba2008bdefba5e43c38db00a338b4313bfacf688f"
+        },
+        {
+          "page": 138,
+          "path": "segments/us-51143/us-51143-zo-ch35-p138.png",
+          "sha256": "0a33f37e89b19106db455210808a0135227c5859844bed292657fc13a50c350c"
+        },
+        {
+          "page": 146,
+          "path": "segments/us-51143/us-51143-zo-ch35-p146.png",
+          "sha256": "4a63b39cad1f737e5a14ff421e44f1542c3b600f58972da5c895382f0f05f7e2"
+        },
+        {
+          "page": 147,
+          "path": "segments/us-51143/us-51143-zo-ch35-p147.png",
+          "sha256": "c2ed3f1950152a1fda70a37b59e52ce20c56185f9fa516554898d99e5d5fa206"
+        },
+        {
+          "page": 152,
+          "path": "segments/us-51143/us-51143-zo-ch35-p152.png",
+          "sha256": "5b44ada30493ce585ce47402fbd617de1fd11952cfd9acadcf7a84e3525818d5"
+        },
+        {
+          "page": 153,
+          "path": "segments/us-51143/us-51143-zo-ch35-p153.png",
+          "sha256": "28068a94fa9cb0fe4fb0aae137f8ae6effcb5a229b4b5f73d4188fef07419f95"
+        },
+        {
+          "page": 154,
+          "path": "segments/us-51143/us-51143-zo-ch35-p154.png",
+          "sha256": "d2e3463904ea36699a11ff1a6c4777e0df7a0231704993e2eb59281be7d8abd0"
+        },
+        {
+          "page": 155,
+          "path": "segments/us-51143/us-51143-zo-ch35-p155.png",
+          "sha256": "e2ba09e3b47b983631a73be689d3fde564d54ce640b7741f9fcc9a87ca278c49"
+        },
+        {
+          "page": 156,
+          "path": "segments/us-51143/us-51143-zo-ch35-p156.png",
+          "sha256": "72591235c2790aa5607d1da63641ba75f5383915a2bdf17e2e837bfb0d100fa5"
+        },
+        {
+          "page": 157,
+          "path": "segments/us-51143/us-51143-zo-ch35-p157.png",
+          "sha256": "6a6d3b13c1aeec981992a72df670358cab46c233a52bda6b4cd079446cf3cf37"
+        },
+        {
+          "page": 160,
+          "path": "segments/us-51143/us-51143-zo-ch35-p160.png",
+          "sha256": "bd299f57f0513d4069d5e56370e102dcff729769f52c8d6c644e7e4058088c4b"
+        },
+        {
+          "page": 161,
+          "path": "segments/us-51143/us-51143-zo-ch35-p161.png",
+          "sha256": "9199e029a6ce0b3303553435f89caa31fbcafcf2548e4ca8c751692fbcabe857"
+        },
+        {
+          "page": 162,
+          "path": "segments/us-51143/us-51143-zo-ch35-p162.png",
+          "sha256": "f587d1d66ee088e08b2256e51fce0892e701337483030a81d5ca7e0784f7c2b0"
+        },
+        {
+          "page": 163,
+          "path": "segments/us-51143/us-51143-zo-ch35-p163.png",
+          "sha256": "0dd0faa8e28ea8c202ac52856df90f537a0b309f8e52fed0b76a6f62295c7833"
+        },
+        {
+          "page": 179,
+          "path": "segments/us-51143/us-51143-zo-ch35-p179.png",
+          "sha256": "3383cdbd5241df9f21d1e7098d38592ffd711ab7e9e369285fa37fe2ce32b0e7"
+        },
+        {
+          "page": 180,
+          "path": "segments/us-51143/us-51143-zo-ch35-p180.png",
+          "sha256": "7f4887b5324a99ff3eafe059626baa11d2b2c4fba1b49a06ca93ed6687190d2a"
+        },
+        {
+          "page": 192,
+          "path": "segments/us-51143/us-51143-zo-ch35-p192.png",
+          "sha256": "4b4d25f643ea2c49699afeecb945c45a73aadb4a5740daeb6ff48d093207f202"
+        },
+        {
+          "page": 193,
+          "path": "segments/us-51143/us-51143-zo-ch35-p193.png",
+          "sha256": "d1cc45e0c3f3ed93134ca0988c4dee6589e22cdc351a306cda05e6c4006b9fba"
+        }
+      ]
+    },
+    {
+      "kind": "definitions",
+      "source_id": "us-51143-zo-ch35",
+      "pages": [
+        160
+      ],
+      "text": "segments/us-51143/definitions-us-51143-zo-ch35.txt",
+      "text_sha256": "8b79dacba009e99b9b5f4e8861f6da400f61f31af4c02ecfb5b41399860a74b3",
+      "images": []
+    },
+    {
+      "kind": "not_listed",
+      "source_id": "us-51143-zo-ch35",
+      "pages": [
+        42,
+        184
+      ],
+      "text": "segments/us-51143/not_listed-us-51143-zo-ch35.txt",
+      "text_sha256": "a9e59d75bdac575c7ff9a01f9df82942c06eb195dc1ab381bb728921ea9fc1b4",
+      "images": []
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-51143-zo-ch35",
+      "pages": [
+        22,
+        31,
+        45,
+        46,
+        58,
+        62,
+        76,
+        84,
+        85,
+        98,
+        102,
+        107,
+        110,
+        123,
+        127,
+        137,
+        145,
+        152,
+        173,
+        176,
+        177,
+        183,
+        191
+      ],
+      "text": "segments/us-51143/district_list-us-51143-zo-ch35.txt",
+      "text_sha256": "a3e72c86a867b7a1268c8c7374f13921cf414d9a7668c2ea1310d85870411794",
+      "images": []
+    }
+  ],
+  "missing": [],
+  "missing_bytes": []
+}
