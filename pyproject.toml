@@ -6,12 +6,18 @@ build-backend = "hatchling.build"
 name = "open-zoning-rules"
 version = "0.0.0"
 requires-python = ">=3.12"
+dependencies = [
+    "jsonschema>=4.23",
+]
 
 [tool.hatch.build.targets.wheel]
 packages = ["pipeline/ozr"]
 
 [dependency-groups]
-dev = ["pytest>=8", "ruff>=0.6"]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
