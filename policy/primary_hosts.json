@@ -1,0 +1,12 @@
+{
+  "us-12105": {"hosts": ["polkfl.gov", "polk-county.net"], "arcgis_org_ids": []},
+  "us-12057": {"hosts": ["hcfl.gov", "hillsboroughcounty.org"], "arcgis_org_ids": ["apTfC6SUmnNfnxuF"]},
+  "us-12069": {"hosts": ["lakecountyfl.gov"], "arcgis_org_ids": []},
+  "us-51107": {"hosts": ["loudoun.gov"], "arcgis_org_ids": []},
+  "us-51143": {"hosts": ["pittsylvaniacountyva.gov"], "arcgis_org_ids": ["mTpBDvIjv8OhMDVd"]},
+  "us-5183136": {"hosts": ["warrentonva.gov"], "arcgis_org_ids": ["7Q2bdSYWSeUYx2U5"]},
+  "us-51061": {"hosts": ["fauquiercounty.gov"], "arcgis_org_ids": ["oAoeYJ1kqmAwcEC2"]},
+  "us-13077": {"hosts": ["coweta.ga.us"], "arcgis_org_ids": []},
+  "us-13097": {"hosts": ["douglascountyga.gov"], "arcgis_org_ids": []},
+  "us-1304000": {"hosts": ["atlantaga.gov"], "arcgis_org_ids": []}
+}
