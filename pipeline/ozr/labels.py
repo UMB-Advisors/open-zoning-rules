@@ -4,13 +4,14 @@ from __future__ import annotations
 
 import re
 import tempfile
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
 from ozr.common import append_run, read_json, text_path, utc_now
 from ozr.common import today as default_today
 from ozr.contamination import check_url, load_denylist
-from ozr.gates import absence_errors, absence_hits, enum_errors, quote_errors, section_errors, term_in
+from ozr.gates import absence_errors, absence_hits, enum_errors, matched_layers, quote_errors, section_errors, term_in
 from ozr.models import ModelError, ModelResult, parse_json_object
 from ozr.segment import _terms, load_segments
 
@@ -289,6 +290,7 @@ def label_jurisdiction(
         if errors:
             rejected.append({"cell": cell, "errors": errors})
         else:
+            cell["matched_text"] = matched_layers(cell, full_texts.get(source_id, ""))
             cells.append(cell)
     class_ids = [
         item.get("id")
@@ -302,6 +304,7 @@ def label_jurisdiction(
         for use_class in class_ids
         if (district, use_class) not in covered
     ]
+    matched_counts = Counter(f"{field}:{layer}" for cell in cells for field, layer in cell["matched_text"].items())
     output = {
         "jurisdiction_id": jid,
         "prompt": template.name,
@@ -309,6 +312,7 @@ def label_jurisdiction(
         "run_id": run_id,
         "checked_at": checked_at,
         "cells": cells,
+        "matched_text_counts": dict(sorted(matched_counts.items())),
         "rejected": rejected,
         "missing": missing,
     }
