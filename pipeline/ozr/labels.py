@@ -104,6 +104,9 @@ def normalise_label(
 ) -> dict:
     """Turn one model response row into the record shape used by later stages."""
     source_id = raw.get("source_id")
+    match = re.fullmatch(r"(?P<id>.+) page \d+", source_id) if isinstance(source_id, str) else None
+    if isinstance(source_id, str) and source_id not in sources_by_id and match and match["id"] in sources_by_id:
+        source_id = match["id"]
     source = sources_by_id.get(source_id, {}) if isinstance(source_id, str) else {}
     district = next((item for item in jurisdiction.get("districts", []) if _is_district(item, raw)), {})
     evidence = raw.get("evidence") if isinstance(raw.get("evidence"), dict) else {}

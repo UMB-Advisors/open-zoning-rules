@@ -113,6 +113,19 @@ def test_label_gates_reject_bad_cells_and_write_ledger(tiny_root: Path) -> None:
     assert ledger["cache_write_tokens"] == 4
 
 
+def test_marker_page_suffix_in_source_id_is_stripped(tiny_root: Path) -> None:
+    _prepare(tiny_root)
+    valid = json.loads(_good())
+    valid["cells"][0]["source_id"] = "us-00000-zo page 2"
+    output = extract(tiny_root, "us-00000", lambda *_args: _result(json.dumps(valid)), "2026-10-10")
+    assert output["cells"][0]["source"]["id"] == "us-00000-zo"
+
+    unknown = json.loads(_good())
+    unknown["cells"][0]["source_id"] = "us-99999-zo page 2"
+    output = extract(tiny_root, "us-00000", lambda *_args: _result(json.dumps(unknown)), "2026-10-10")
+    assert any("source_id not in sources" in error for error in output["rejected"][0]["errors"])
+
+
 def test_grok_review_is_never_given_images(tiny_root: Path) -> None:
     _prepare(tiny_root)
     seen: dict[str, list] = {}
