@@ -1,0 +1,178 @@
+{
+  "jurisdiction_id": "us-12069",
+  "sources": [
+    {
+      "source_id": "us-12069-ord-2026-xx-draft",
+      "sha256": "ce3fa13e3319ae8b43baf21b69edfde2776d2fb668c777e19eb6c7d8edc52f8f",
+      "pages": 22,
+      "text_sha256": "9a58326b7c4a59d9855ad0fdede994ca4e2def70e53b7d3cd8f31698093102a7"
+    }
+  ],
+  "segments": [
+    {
+      "kind": "use_table",
+      "source_id": "us-12069-ord-2026-xx-draft",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "text": "segments/us-12069/use_table-us-12069-ord-2026-xx-draft.txt",
+      "text_sha256": "235279fdfd53189394ba6d36092cc8eb375ed16cb745958113770e9af73b73b2",
+      "images": [
+        {
+          "page": 2,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p2.png",
+          "sha256": "81d1aa8dd810ca97c6533e42450185339001aebd02fbb26f07a3f284edf54b38"
+        },
+        {
+          "page": 3,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p3.png",
+          "sha256": "6e8b1ad2d4ec9196b03e1bfe01c7b63628f8ed5fbec6ca152a273b605a208b61"
+        },
+        {
+          "page": 4,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p4.png",
+          "sha256": "fb6147fea880a71449f036cf74daae004c716a166508bcb5cbaedea36a82bb21"
+        },
+        {
+          "page": 5,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p5.png",
+          "sha256": "e299185027b533cee85b7f1910c88d08f959bdf9a4574a1b5c120ece74bb983c"
+        },
+        {
+          "page": 6,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p6.png",
+          "sha256": "d2242030d5a6c887c78988f59045dde05e0f46860b5fdab2f004ec2d7719b1af"
+        },
+        {
+          "page": 7,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p7.png",
+          "sha256": "e7f6fd630b49e3a1201d9c95a4041e2794170c037e5d03342ba69d2e9e680fe9"
+        },
+        {
+          "page": 8,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p8.png",
+          "sha256": "9d77abd947d321c4f69990a7ab7bd44814da09e7bbd47e40291a534afb4c307c"
+        },
+        {
+          "page": 9,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p9.png",
+          "sha256": "fda0288a0486163335844c05270b9bfbf5620fb462778a796378ec7062c1ec26"
+        },
+        {
+          "page": 10,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p10.png",
+          "sha256": "bffde2e4035518c4a493cfdbfbb5861c0800e2aabd1cd257a6b8a996d1a03a39"
+        },
+        {
+          "page": 11,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p11.png",
+          "sha256": "fbef62eba5ed7d528f03c0c6d3b9e39622acce0bd28423f461e7b48e53850b52"
+        },
+        {
+          "page": 12,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p12.png",
+          "sha256": "db1fd6e5db36387216f19b44b612eba0b96bdcf30d093a27f6bb7750e51e5719"
+        },
+        {
+          "page": 13,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p13.png",
+          "sha256": "f53179f439302a9ce3d6ff406c63f18c3ed4d8f1ce870ca201a595af7472bdd4"
+        },
+        {
+          "page": 14,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p14.png",
+          "sha256": "9ec379332670e03e066aaaaa93f5177974de8f75e7266944a24b6cb8b9c0e8e6"
+        },
+        {
+          "page": 15,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p15.png",
+          "sha256": "9a11600c574f56515509c5f4bbd7e054a9dce755be7da1c7a1c745547033d998"
+        },
+        {
+          "page": 16,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p16.png",
+          "sha256": "7e9a777cbaa5844d3fef7e7492d6dd1c5a16ad12de50e9dacff6566759217a8b"
+        },
+        {
+          "page": 17,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p17.png",
+          "sha256": "7fe92b52ba55af36eb63cba4c264e5a701e021d79132afcf03646de76042e961"
+        },
+        {
+          "page": 18,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p18.png",
+          "sha256": "d50a158f14aef5e597fea819ea4b8f128f12780ee6d40cff7cce5148e2b68281"
+        },
+        {
+          "page": 19,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p19.png",
+          "sha256": "de10628bda5e105ceed7373cc94f82a1eb85472dcc4cb2cd8eb0cf5c1b7b9291"
+        },
+        {
+          "page": 20,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p20.png",
+          "sha256": "d16d02626da4129db2460464a8a2f220987ff10a1525e21dfe1a753154965ab7"
+        },
+        {
+          "page": 21,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p21.png",
+          "sha256": "8273eec4352cb21dd7492d4a343d03ae0c379316b95df1e1032a74c2b5a32890"
+        },
+        {
+          "page": 22,
+          "path": "segments/us-12069/us-12069-ord-2026-xx-draft-p22.png",
+          "sha256": "415d015123ad3a5092cbff30f255900b22e1583eb8746d46406443d052302ceb"
+        }
+      ]
+    },
+    {
+      "kind": "definitions",
+      "source_id": "us-12069-ord-2026-xx-draft",
+      "pages": [
+        6,
+        7
+      ],
+      "text": "segments/us-12069/definitions-us-12069-ord-2026-xx-draft.txt",
+      "text_sha256": "9a11261e098591195065ea2cd2e7f3177027eb8a53284c53deb4f9dcccddc8b3",
+      "images": []
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-12069-ord-2026-xx-draft",
+      "pages": [
+        1,
+        5,
+        15
+      ],
+      "text": "segments/us-12069/district_list-us-12069-ord-2026-xx-draft.txt",
+      "text_sha256": "7f1983e5e23c5d3706b96e4a89a8954ccb632488f5d41c1be61aa05c484330c8",
+      "images": []
+    }
+  ],
+  "missing": [
+    "not_listed"
+  ],
+  "missing_bytes": [
+    "us-12069-planning-page"
+  ]
+}
