@@ -250,22 +250,47 @@ def label_jurisdiction(
         chunks = [[]]
     results: list[ModelResult] = []
     raw_cells: list[object] = []
+    retries = 0
     try:
         with tempfile.TemporaryDirectory() as temporary:
             for chunk in chunks:
                 prompt = build_prompt(template, taxonomy, {**jurisdiction, "districts": chunk}, segments, hits)
-                result: ModelResult = call(prompt, _images(segments, taxonomy) if with_images else [], Path(temporary))
-                answer = parse_json_object(result.text)
-                chunk_cells = answer.get("cells")
-                if not isinstance(chunk_cells, list):
-                    raise ModelError("model output cells is not a list")
-                results.append(result)
-                raw_cells.extend(chunk_cells)
+                for attempt in range(2):
+                    result: ModelResult = call(
+                        prompt, _images(segments, taxonomy) if with_images else [], Path(temporary)
+                    )
+                    results.append(result)
+                    try:
+                        answer = parse_json_object(result.text)
+                        chunk_cells = answer.get("cells")
+                        if not isinstance(chunk_cells, list):
+                            raise ModelError("model output cells is not a list")
+                    except ModelError:
+                        if attempt:
+                            raise
+                        retries += 1
+                        continue
+                    raw_cells.extend(chunk_cells)
+                    break
     except ModelError as error:
         # Calls that completed before the failure were still paid for, so their usage is kept.
-        spent = [result.cost_usd for result in results]
-        record = {"step": run_step, "run_id": run_id, "at": utc_now(), "error": str(error), "calls": len(results)}
-        record["cost_usd"] = sum(spent) if all(cost is not None for cost in spent) else None
+        cost_usd = None
+        if all(result.cost_usd is not None for result in results):
+            cost_usd = sum(result.cost_usd for result in results)
+        record = {
+            "step": run_step,
+            "run_id": run_id,
+            "at": utc_now(),
+            "error": str(error),
+            "input_tokens": sum(result.input_tokens for result in results),
+            "output_tokens": sum(result.output_tokens for result in results),
+            "cache_read_tokens": sum(result.cache_read_tokens for result in results),
+            "cache_write_tokens": sum(result.cache_write_tokens for result in results),
+            "cost_usd": cost_usd,
+            "wall_s": sum(result.wall_s for result in results),
+            "calls": len(results),
+            "retries": retries,
+        }
         append_run(root, jid, record)
         raise
     district_codes = [item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
@@ -335,6 +360,7 @@ def label_jurisdiction(
             "cost_usd": cost_usd,
             "wall_s": sum(result.wall_s for result in results),
             "calls": len(results),
+            "retries": retries,
             "cells": len(cells),
             "rejected": len(rejected),
         },

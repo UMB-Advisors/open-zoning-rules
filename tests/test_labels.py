@@ -6,10 +6,11 @@ import hashlib
 import json
 from pathlib import Path
 
+import pytest
 from ozr.extract import run as extract
 from ozr.gates import TABLE_TEXT_MARKER
 from ozr.labels import _images
-from ozr.models import ModelResult
+from ozr.models import ModelError, ModelResult
 from ozr.review import run as review
 from ozr.segment import segment_jurisdiction
 from pdfgen import make_pdf
@@ -283,6 +284,36 @@ def test_labelling_is_chunked_by_district_and_usage_is_summed(tiny_root: Path) -
     assert ledger["cache_read_tokens"] == 6
     assert ledger["cache_write_tokens"] == 8
     assert ledger["cost_usd"] == 0.02
+
+
+def test_a_malformed_chunk_is_retried_once(tiny_root: Path) -> None:
+    _prepare(tiny_root)
+    calls = 0
+
+    def call(_prompt, _images, _workdir):
+        nonlocal calls
+        calls += 1
+        return _result('{"cells": [ {"a": 1} {"b": 2} ]}') if calls == 1 else _result(_good())
+
+    output = extract(tiny_root, "us-00000", call, "2026-10-10")
+    assert output["cells"][0]["district_code"] == "I-1"
+    ledger = json.loads((tiny_root / "runs" / "us-00000.jsonl").read_text().splitlines()[-1])
+    assert ledger["calls"] == 2
+    assert ledger["retries"] == 1
+
+
+def test_a_chunk_malformed_twice_raises_and_records_both_calls(tiny_root: Path) -> None:
+    _prepare(tiny_root)
+
+    def call(_prompt, _images, _workdir):
+        return _result('{"cells": [ {"a": 1} {"b": 2} ]}')
+
+    with pytest.raises(ModelError):
+        extract(tiny_root, "us-00000", call, "2026-10-10")
+    ledger = json.loads((tiny_root / "runs" / "us-00000.jsonl").read_text().splitlines()[-1])
+    assert "error" in ledger
+    assert ledger["calls"] == 2
+    assert ledger["retries"] == 1
 
 
 def test_image_cap_keeps_pages_naming_a_taxonomy_term(tiny_root: Path) -> None:
