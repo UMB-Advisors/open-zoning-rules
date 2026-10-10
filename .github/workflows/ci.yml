@@ -1,0 +1,34 @@
+# GPU/network-dependent checks are deliberately not in CI; the online redirect check runs in the pipeline, not CI.
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      - run: uv run python -m ozr.contamination
+      - name: Check private fingerprints
+        env:
+          FINGERPRINT_KEY: ${{ secrets.FINGERPRINT_KEY }}
+        run: |
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ]; then
+            uv run python -m ozr.fingerprints
+          else
+            uv run python -m ozr.fingerprints --rev-range "$base..${{ github.sha }}"
+          fi
