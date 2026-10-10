@@ -115,7 +115,9 @@ def normalise_label(
         "district_code": raw.get("district_code"),
         "use_class": raw.get("use_class"),
         "status": raw.get("status"),
-        "local_uses": raw.get("local_uses") if isinstance(raw.get("local_uses"), list) else [],
+        "local_uses": [item for item in raw.get("local_uses", []) if isinstance(item, str)]
+        if isinstance(raw.get("local_uses"), list)
+        else [],
         "evidence": {key: evidence[key] for key in _EVIDENCE_KEYS if key in evidence},
         "source": {"id": source_id, "url": source.get("url"), "date": source_date},
         "parcel_specific": district.get("parcel_specific", False) if isinstance(district, dict) else False,

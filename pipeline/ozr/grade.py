@@ -35,7 +35,8 @@ def _pending(path: Path, cell: dict) -> bool:
             continue
         classes = amendment.get("use_classes", [])
         districts = amendment.get("districts", [])
-        if cell.get("use_class") in classes and ("*" in districts or cell.get("district_code") in districts):
+        class_match = "*" in classes or cell.get("use_class") in classes
+        if class_match and ("*" in districts or cell.get("district_code") in districts):
             return True
     return False
 

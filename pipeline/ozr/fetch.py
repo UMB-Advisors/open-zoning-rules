@@ -217,6 +217,8 @@ def fetch_geometry(
                 page_features = page.get("features", [])
                 if not isinstance(page_features, list):
                     raise ValueError("invalid GeoJSON features")
+                if not page_features:
+                    break
                 features.extend(page_features)
                 properties = page.get("properties")
                 more = page.get("exceededTransferLimit") is True or (
@@ -224,7 +226,8 @@ def fetch_geometry(
                 )
                 if not more:
                     break
-                offset += 1000
+                # Servers may cap a page below the requested count; advance by what was returned.
+                offset += len(page_features)
         except Exception as error:  # Network and malformed-page errors are isolated per source.
             results.append({"source_id": source_id, "status": "error", "error": str(error)})
         else:
@@ -298,7 +301,10 @@ def fetch_state_rules(
     for source in document["sources"]:
         url = source["url"]
 
-        def final_check(final_url: str) -> list[str]:
+        def final_check(final_url: str, requested: str = url) -> list[str]:
+            # Statutes have no per-state host list, so a redirect must stay on the host triage approved.
+            if urlsplit(final_url).hostname != urlsplit(requested).hostname:
+                return [f"redirected off the statute host: {final_url}"]
             return check_url(final_url, denylist)
 
         results.append(_fetch_source(root, source, opener, check_url(url, denylist), final_check, now, delay, sleep))

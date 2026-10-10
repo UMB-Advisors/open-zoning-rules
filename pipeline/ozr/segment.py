@@ -91,6 +91,7 @@ def render_pages(data: bytes, pages: list[int], out_dir: Path, source_id: str = 
                 image = bitmap.to_pil()
                 path = out_dir / f"{source_id}-p{page_number}.png"
                 image.save(path, "PNG")
+                bitmap.close()
             finally:
                 page.close()
             images.append(

@@ -19,6 +19,26 @@ SYSTEM = (
 )
 
 
+CODEX_DISABLED = (
+    "shell_tool",
+    "unified_exec",
+    "code_mode_host",
+    "browser_use",
+    "computer_use",
+    "in_app_browser",
+    "apps",
+    "view_image",
+)
+
+
+# grok ignores an empty --tools allowlist and will read files; each built-in tool is removed by name instead.
+GROK_DISALLOWED = (
+    "read_file,search_replace,grep,list_dir,run_terminal_cmd,task,get_task_output,kill_task,web_fetch,"
+    "enter_plan_mode,exit_plan_mode,ask_user_question,todo_write,monitor,search_tool,use_tool,workflow,"
+    "send_feedback,image_gen,image_edit,image_to_video,reference_to_video,write"
+)
+
+
 class ModelError(RuntimeError):
     """Raised when a model CLI fails or does not emit its documented output."""
 
@@ -166,7 +186,8 @@ def run_claude(
 
 def price(model: str, result: ModelResult) -> float | None:
     """Price a result from the optional local model-price policy."""
-    document = read_json(Path(__file__).resolve().parents[2] / "policy" / "model_prices.json")
+    path = Path(__file__).resolve().parents[2] / "policy" / "model_prices.json"
+    document = read_json(path) if path.is_file() else {}
     prices = document.get("models", {}) if isinstance(document, dict) else {}
     entry = prices.get(model) if isinstance(prices, dict) else None
     fields = ("input", "cached_input", "output")
@@ -202,6 +223,11 @@ def run_codex(
         "--skip-git-repo-check",
         "-c",
         "web_search=disabled",
+        # Blindness is enforced, not asked for: with no shell, exec, browser, app or MCP tool,
+        # codex cannot read the repository (where the other answers live) or the web.
+        "-c",
+        "mcp_servers={}",
+        *(part for feature in CODEX_DISABLED for part in ("--disable", feature)),
         "-C",
         str(workdir),
         *image_args,
@@ -251,8 +277,8 @@ def run_grok(
         "--output-format",
         "json",
         "--disable-web-search",
-        "--tools",
-        "",
+        "--disallowed-tools",
+        GROK_DISALLOWED,
         "--no-subagents",
         "--cwd",
         str(workdir),

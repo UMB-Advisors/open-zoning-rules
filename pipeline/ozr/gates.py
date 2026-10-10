@@ -374,7 +374,8 @@ def _hash_errors(release_dir: Path, manifest: object, skip_cells: bool) -> list[
     if not isinstance(manifest, dict) or not isinstance(manifest.get("files"), list):
         return []
     errors: list[str] = []
-    for entry in manifest["files"]:
+    others = manifest.get("other_files") if isinstance(manifest.get("other_files"), list) else []
+    for entry in [*manifest["files"], *others]:
         if not isinstance(entry, dict):
             errors.append("hash: file entry is not an object")
             continue
