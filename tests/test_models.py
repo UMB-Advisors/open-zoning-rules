@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import base64
+import subprocess
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -125,6 +126,27 @@ def test_model_error_never_contains_prompt(tmp_path: Path) -> None:
     with pytest.raises(ModelError, match="bad CLI") as error:
         run_grok("private prompt", tmp_path, runner=runner)
     assert "private prompt" not in str(error.value)
+
+
+def test_a_cli_timeout_is_a_model_error(tmp_path: Path) -> None:
+    def runner(argv, **_kwargs):
+        raise subprocess.TimeoutExpired(argv, 5)
+
+    with pytest.raises(ModelError, match="timed out"):
+        run_grok("prompt", tmp_path, runner=runner)
+    with pytest.raises(ModelError, match="timed out"):
+        run_codex("prompt", [], tmp_path, runner=runner)
+
+
+def test_grok_default_timeout_is_an_hour(tmp_path: Path) -> None:
+    timeouts = []
+
+    def runner(_argv, **kwargs):
+        timeouts.append(kwargs["timeout"])
+        return _completed((Path(__file__).parent / "fixtures" / "cli" / "grok.json").read_text())
+
+    run_grok("prompt", tmp_path, runner=runner)
+    assert timeouts == [3600]
 
 
 def test_parse_json_object_handles_fences_and_rejects_arrays() -> None:
