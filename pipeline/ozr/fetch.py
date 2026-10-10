@@ -4,11 +4,13 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import json
 import time
 import urllib.request
 from collections.abc import Callable
 from functools import partial
 from pathlib import Path
+from urllib.parse import quote, urlsplit, urlunsplit
 
 from ozr.common import append_run, cache_dir, jurisdiction_ids, read_json, utc_now, write_json
 from ozr.contamination import USER_AGENT, check_url, follow_redirects, load_denylist
@@ -140,6 +142,102 @@ def fetch_jurisdiction(
     return results
 
 
+def _layer_url(url: str) -> str:
+    """Return an ArcGIS layer endpoint without request-specific query parameters."""
+    parts = urlsplit(url)
+    return urlunsplit((parts.scheme, parts.netloc, parts.path.rstrip("/"), "", ""))
+
+
+def fetch_geometry(
+    root: Path,
+    jid: str,
+    opener: Opener = default_opener,
+    online: bool = False,
+    delay: float = 0.0,
+    sleep: Callable[[float], None] = time.sleep,
+) -> list[dict]:
+    """Fetch paged GeoJSON only for GIS layers licensed for redistribution."""
+    base = root / "jurisdictions" / jid
+    sources_doc = read_json(base / "sources.json")
+    jurisdiction = read_json(base / "jurisdiction.json")
+    if not isinstance(sources_doc, dict) or not isinstance(jurisdiction, dict):
+        raise ValueError(f"invalid jurisdiction documents: {jid}")
+    primary_hosts = read_json(root / "policy" / "primary_hosts.json")
+    policy = primary_hosts.get(jid) if isinstance(primary_hosts, dict) else None
+    denylist = load_denylist(root / "policy" / "denylist.txt")
+    layer_fields = {
+        ref.get("layer_url"): ref.get("field")
+        for district in jurisdiction.get("districts", [])
+        if isinstance(district, dict)
+        for ref in [district.get("geometry_ref")]
+        if isinstance(ref, dict) and isinstance(ref.get("layer_url"), str) and isinstance(ref.get("field"), str)
+    }
+    results: list[dict] = []
+    for source in sources_doc.get("sources", []):
+        if not isinstance(source, dict) or source.get("kind") != "gis_layer":
+            continue
+        if source.get("redistribute_geometry") != "yes":
+            continue
+        source_id, url = source.get("source_id"), source.get("url")
+        if not isinstance(source_id, str) or not isinstance(url, str):
+            results.append({"source_id": str(source_id or ""), "status": "refused", "errors": ["missing URL"]})
+            continue
+        layer = _layer_url(url)
+        field = layer_fields.get(layer)
+        if not isinstance(field, str):
+            results.append({"source_id": source_id, "status": "refused", "errors": ["no district geometry field"]})
+            continue
+        initial_errors = policy_errors(
+            layer, policy, source.get("arcgis_org_id"), denylist, follow_redirects if online else None
+        )
+        if initial_errors:
+            results.append({"source_id": source_id, "status": "refused", "errors": initial_errors})
+            continue
+        final_check = partial(policy_errors, policy=policy, org_id=source.get("arcgis_org_id"), denylist=denylist)
+        features: list[object] = []
+        offset = 0
+        try:
+            while True:
+                query = (
+                    f"{layer}/query?where=1%3D1&outFields={quote(field, safe='')}&outSR=4326&f=geojson"
+                    f"&resultOffset={offset}&resultRecordCount=1000"
+                )
+                request_errors = policy_errors(
+                    query, policy, source.get("arcgis_org_id"), denylist, follow_redirects if online else None
+                )
+                if request_errors:
+                    raise ValueError("; ".join(request_errors))
+                final_url, data = opener(query)
+                final_errors = final_check(final_url)
+                if final_errors:
+                    raise ValueError("; ".join(final_errors))
+                page = json.loads(data.decode("utf-8"))
+                if not isinstance(page, dict):
+                    raise ValueError("invalid GeoJSON response")
+                page_features = page.get("features", [])
+                if not isinstance(page_features, list):
+                    raise ValueError("invalid GeoJSON features")
+                features.extend(page_features)
+                properties = page.get("properties")
+                more = page.get("exceededTransferLimit") is True or (
+                    isinstance(properties, dict) and properties.get("exceededTransferLimit") is True
+                )
+                if not more:
+                    break
+                offset += 1000
+        except Exception as error:  # Network and malformed-page errors are isolated per source.
+            results.append({"source_id": source_id, "status": "error", "error": str(error)})
+        else:
+            write_json(
+                root / "cache" / "geometry" / f"{source_id}.geojson",
+                {"type": "FeatureCollection", "features": features},
+            )
+            results.append({"source_id": source_id, "status": "new"})
+        finally:
+            sleep(delay)
+    return results
+
+
 def _state_sources(root: Path) -> dict:
     """Build stable statute source records from non-empty state-rule evidence."""
     jurisdictions: dict[str, str] = {}
@@ -221,6 +319,12 @@ def cli(args: argparse.Namespace) -> int:
     ]
     if args.state_rules:
         results.extend(fetch_state_rules(args.root, delay=args.delay))
+    if args.geometry:
+        results.extend(
+            result
+            for jid in args.jurisdiction_ids
+            for result in fetch_geometry(args.root, jid, online=args.online, delay=args.delay)
+        )
     for result in results:
         print(f"{result['source_id']}: {result['status']}")
     failed = sum(result["status"] in {"refused", "error"} for result in results)

@@ -77,3 +77,46 @@ def test_state_sources_are_schema_valid(tiny_root):
     schema = json.loads((tiny_root / "schema" / "sources.schema.json").read_text())
     jsonschema.validate(document, schema)
     assert [item["url"] for item in document["sources"]] == ["https://laws.example.org/a"]
+
+
+def test_fetch_geometry_pages_allowed_layers_and_skips_unknown(tiny_root):
+    path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
+    document = json.loads(path.read_text())
+    document["sources"][0].update(
+        {
+            "kind": "gis_layer",
+            "url": "https://planning.example.org/arcgis/rest/services/Zoning/MapServer/0?token=x",
+            "redistribute_geometry": "yes",
+        }
+    )
+    document["sources"].append(
+        {
+            **document["sources"][0],
+            "source_id": "us-00000-unknown",
+            "redistribute_geometry": "unknown",
+        }
+    )
+    path.write_text(json.dumps(document))
+    jurisdiction_path = tiny_root / "jurisdictions" / "us-00000" / "jurisdiction.json"
+    jurisdiction = json.loads(jurisdiction_path.read_text())
+    for district in jurisdiction["districts"]:
+        district["geometry_ref"]["layer_url"] = "https://planning.example.org/arcgis/rest/services/Zoning/MapServer/0"
+    jurisdiction_path.write_text(json.dumps(jurisdiction))
+    calls = []
+
+    def opener(url):
+        calls.append(url)
+        offset = 0 if "resultOffset=0" in url else 1000
+        return url, json.dumps(
+            {
+                "type": "FeatureCollection",
+                "features": [{"type": "Feature", "properties": {"ZONE": f"I-{offset // 1000 + 1}"}, "geometry": None}],
+                "exceededTransferLimit": offset == 0,
+            }
+        ).encode()
+
+    results = fetch.fetch_geometry(tiny_root, "us-00000", opener)
+    assert [result["status"] for result in results] == ["new"]
+    assert len(calls) == 2
+    output = json.loads((tiny_root / "cache" / "geometry" / "us-00000-zo.geojson").read_text())
+    assert [feature["properties"]["ZONE"] for feature in output["features"]] == ["I-1", "I-2"]

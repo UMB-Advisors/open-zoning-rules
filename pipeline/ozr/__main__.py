@@ -25,6 +25,7 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--single", action="store_true")
     parser.add_argument("--delay", type=float, default=2.0)
     parser.add_argument("--state-rules", action="store_true")
+    parser.add_argument("--geometry", action="store_true")
     parser.add_argument("--reviewer", choices=("codex", "grok", "both"), default="both")
     parser.add_argument("--version", default="0.1.0")
     parser.add_argument("--published", default=today())
@@ -37,7 +38,9 @@ def main(argv: list[str] | None = None) -> int:
     args = _parser().parse_args(argv)
     args.root = args.root.resolve()
     known = jurisdiction_ids(args.root)
-    if args.all:
+    if args.command == "release" and not args.jurisdiction_ids:
+        args.jurisdiction_ids = known
+    elif args.all:
         args.jurisdiction_ids = known
     elif not args.jurisdiction_ids:
         _parser().error("provide jurisdiction ids or --all")
