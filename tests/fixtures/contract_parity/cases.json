@@ -1,0 +1,1081 @@
+{
+  "answers": [
+    {
+      "name": "graded answer passes",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "unverified answer passes",
+      "input": {
+        "value": null,
+        "confidence": "unverified",
+        "jurisdiction": null,
+        "district": null,
+        "evidence": null,
+        "source": {
+          "id": "stub",
+          "url": null,
+          "date": null
+        },
+        "release": null
+      }
+    },
+    {
+      "name": "null is not an answer",
+      "input": null
+    },
+    {
+      "name": "string is not an answer",
+      "input": "permitted"
+    },
+    {
+      "name": "unknown value",
+      "input": {
+        "value": "maybe",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "unknown confidence",
+      "input": {
+        "value": "permitted",
+        "confidence": "D",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "value graded unverified",
+      "input": {
+        "value": "permitted",
+        "confidence": "unverified",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "null value with a grade",
+      "input": {
+        "value": null,
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "missing value key is not null",
+      "input": {
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "missing source",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "source id not a string",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": 7,
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "empty jurisdiction",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "missing district",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "null release",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": null
+      }
+    },
+    {
+      "name": "numeric release",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": 1
+      }
+    },
+    {
+      "name": "null evidence",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": null,
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "empty quote",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "missing section",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "http source",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "http://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "upper-case scheme",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "HTTPS://planning.example.org/zoning.pdf",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "missing url",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "municode host",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://municode.com/x",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "municode subdomain",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://library.municode.com/xx/codes",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "municode with port",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://library.municode.com:443/x",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "amlegal code library",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://codelibrary.amlegal.com/codes/x",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "upper-case nza host",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://WWW.ZONINGATLAS.ORG/map",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "ecode360",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://ecode360.com/12345",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "trailing-dot host is not banned by the contract",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://library.municode.com./x",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "lookalike host",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://notmunicode.com/x",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "denylist-only host passes the contract",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://www.codepublishing.com/xx/town/",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "unparseable https url",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://",
+          "date": "2026-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "short date",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-1-9"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "date with trailing newline",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "2026-01-15\n"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "date with full-width digits",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf",
+          "date": "２０２６-01-15"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "missing date",
+      "input": {
+        "value": "permitted",
+        "confidence": "B",
+        "jurisdiction": "us-00000",
+        "district": "I-2",
+        "evidence": {
+          "quote": "Warehouse",
+          "section": "Sec. 4-2"
+        },
+        "source": {
+          "id": "us-00000-zo",
+          "url": "https://planning.example.org/zoning.pdf"
+        },
+        "release": "0.1.0"
+      }
+    },
+    {
+      "name": "unverified with bad grade and no source",
+      "input": {
+        "value": null,
+        "confidence": "maybe",
+        "source": null
+      }
+    }
+  ],
+  "manifests": [
+    {
+      "name": "manifest passes",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "null manifest",
+      "input": null
+    },
+    {
+      "name": "wrong schema",
+      "input": {
+        "schema": "zoning-atlas.release/0.2",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "missing schema",
+      "input": {
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-part version",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "version with newline",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0\n",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "numeric version",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": 1,
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "missing version",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "bad published",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "9 Oct 2026",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty licence",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "missing licence",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "http schema_url",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "http://example.org/s.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          {
+            "format": "geoparquet",
+            "path": "geo/districts.geoparquet",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "no files",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": []
+      }
+    },
+    {
+      "name": "missing files",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json"
+      }
+    },
+    {
+      "name": "text format",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "text",
+            "path": "denylist.txt",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "absolute path",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "/etc/cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "dot-dot inside a name",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "a..b.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "parent path",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "../cells.json",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty path",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "numeric path",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": 7,
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    },
+    {
+      "name": "upper-case sha256",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        ]
+      }
+    },
+    {
+      "name": "short sha256",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "json",
+            "path": "cells.json",
+            "sha256": "ab"
+          }
+        ]
+      }
+    },
+    {
+      "name": "missing sha256 and format",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "path": "cells.json"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nameless bad file",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "csv",
+            "sha256": "z"
+          }
+        ]
+      }
+    },
+    {
+      "name": "numeric path with bad format",
+      "input": {
+        "schema": "zoning-atlas.release/0.1",
+        "version": "0.1.0",
+        "published": "2026-10-09",
+        "licence": "CC-BY-4.0",
+        "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+        "files": [
+          {
+            "format": "csv",
+            "path": 7,
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "jurisdiction_id": "us-00000",
+  "district_code": "I-1",
+  "use_class": "warehouse_distribution",
+  "status": "permitted",
+  "local_uses": [
+    "Warehouse"
+  ],
+  "evidence": {
+    "kind": "table",
+    "quote": "Warehouse | I-1 Light Industrial | P",
+    "section": "Sec. 9-9",
+    "row_label": "Warehouse",
+    "column_header": "I-1 Light Industrial",
+    "symbol": "P"
+  },
+  "source": {
+    "id": "us-00000-zo",
+    "url": "https://planning.example.org/zoning/ordinance.pdf",
+    "date": "2026-06-30"
+  },
+  "confidence": "B",
+  "review": "agree",
+  "parcel_specific": false,
+  "checked_at": "2026-09-01",
+  "stale": false,
+  "history": [
+    {
+      "date": "2026-06-30",
+      "from": null,
+      "to": "permitted",
+      "by": "extractor",
+      "ref": "table-4-2"
+    }
+  ]
+}

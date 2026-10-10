@@ -1,0 +1,364 @@
+{
+  "answers": [
+    {
+      "name": "graded answer passes",
+      "errors": []
+    },
+    {
+      "name": "unverified answer passes",
+      "errors": []
+    },
+    {
+      "name": "null is not an answer",
+      "errors": [
+        "an answer is an object"
+      ]
+    },
+    {
+      "name": "string is not an answer",
+      "errors": [
+        "an answer is an object"
+      ]
+    },
+    {
+      "name": "unknown value",
+      "errors": [
+        "value is one of permitted, conditional, prohibited, unlisted or null"
+      ]
+    },
+    {
+      "name": "unknown confidence",
+      "errors": [
+        "confidence is A, B, C, unverified"
+      ]
+    },
+    {
+      "name": "value graded unverified",
+      "errors": [
+        "a value comes with a grade, and no value is unverified"
+      ]
+    },
+    {
+      "name": "null value with a grade",
+      "errors": [
+        "a value comes with a grade, and no value is unverified"
+      ]
+    },
+    {
+      "name": "missing value key is not null",
+      "errors": [
+        "value is one of permitted, conditional, prohibited, unlisted or null"
+      ]
+    },
+    {
+      "name": "missing source",
+      "errors": [
+        "an answer names its source",
+        "a graded answer links its primary source (https)",
+        "a graded answer dates its source YYYY-MM-DD"
+      ]
+    },
+    {
+      "name": "source id not a string",
+      "errors": [
+        "an answer names its source"
+      ]
+    },
+    {
+      "name": "empty jurisdiction",
+      "errors": [
+        "a graded answer names its jurisdiction"
+      ]
+    },
+    {
+      "name": "missing district",
+      "errors": [
+        "a graded answer names its district"
+      ]
+    },
+    {
+      "name": "null release",
+      "errors": [
+        "a graded answer names its release"
+      ]
+    },
+    {
+      "name": "numeric release",
+      "errors": [
+        "a graded answer names its release"
+      ]
+    },
+    {
+      "name": "null evidence",
+      "errors": [
+        "a graded answer quotes its evidence and section"
+      ]
+    },
+    {
+      "name": "empty quote",
+      "errors": [
+        "a graded answer quotes its evidence and section"
+      ]
+    },
+    {
+      "name": "missing section",
+      "errors": [
+        "a graded answer quotes its evidence and section"
+      ]
+    },
+    {
+      "name": "http source",
+      "errors": [
+        "a graded answer links its primary source (https)"
+      ]
+    },
+    {
+      "name": "upper-case scheme",
+      "errors": [
+        "a graded answer links its primary source (https)"
+      ]
+    },
+    {
+      "name": "missing url",
+      "errors": [
+        "a graded answer links its primary source (https)"
+      ]
+    },
+    {
+      "name": "municode host",
+      "errors": [
+        "source https://municode.com/x is a third-party code host or the NZA: primary sources only"
+      ]
+    },
+    {
+      "name": "municode subdomain",
+      "errors": [
+        "source https://library.municode.com/xx/codes is a third-party code host or the NZA: primary sources only"
+      ]
+    },
+    {
+      "name": "municode with port",
+      "errors": [
+        "source https://library.municode.com:443/x is a third-party code host or the NZA: primary sources only"
+      ]
+    },
+    {
+      "name": "amlegal code library",
+      "errors": [
+        "source https://codelibrary.amlegal.com/codes/x is a third-party code host or the NZA: primary sources only"
+      ]
+    },
+    {
+      "name": "upper-case nza host",
+      "errors": [
+        "source https://WWW.ZONINGATLAS.ORG/map is a third-party code host or the NZA: primary sources only"
+      ]
+    },
+    {
+      "name": "ecode360",
+      "errors": [
+        "source https://ecode360.com/12345 is a third-party code host or the NZA: primary sources only"
+      ]
+    },
+    {
+      "name": "trailing-dot host is not banned by the contract",
+      "errors": []
+    },
+    {
+      "name": "lookalike host",
+      "errors": []
+    },
+    {
+      "name": "denylist-only host passes the contract",
+      "errors": []
+    },
+    {
+      "name": "unparseable https url",
+      "errors": []
+    },
+    {
+      "name": "short date",
+      "errors": [
+        "a graded answer dates its source YYYY-MM-DD"
+      ]
+    },
+    {
+      "name": "date with trailing newline",
+      "errors": [
+        "a graded answer dates its source YYYY-MM-DD"
+      ]
+    },
+    {
+      "name": "date with full-width digits",
+      "errors": [
+        "a graded answer dates its source YYYY-MM-DD"
+      ]
+    },
+    {
+      "name": "missing date",
+      "errors": [
+        "a graded answer dates its source YYYY-MM-DD"
+      ]
+    },
+    {
+      "name": "unverified with bad grade and no source",
+      "errors": [
+        "confidence is A, B, C, unverified",
+        "a value comes with a grade, and no value is unverified",
+        "an answer names its source"
+      ]
+    }
+  ],
+  "manifests": [
+    {
+      "name": "manifest passes",
+      "errors": []
+    },
+    {
+      "name": "null manifest",
+      "errors": [
+        "schema is not zoning-atlas.release/0.1"
+      ]
+    },
+    {
+      "name": "wrong schema",
+      "errors": [
+        "schema is not zoning-atlas.release/0.1"
+      ]
+    },
+    {
+      "name": "missing schema",
+      "errors": [
+        "schema is not zoning-atlas.release/0.1"
+      ]
+    },
+    {
+      "name": "two-part version",
+      "errors": [
+        "version is semver"
+      ]
+    },
+    {
+      "name": "version with newline",
+      "errors": [
+        "version is semver"
+      ]
+    },
+    {
+      "name": "numeric version",
+      "errors": [
+        "version is semver"
+      ]
+    },
+    {
+      "name": "missing version",
+      "errors": [
+        "version is semver"
+      ]
+    },
+    {
+      "name": "bad published",
+      "errors": [
+        "published is YYYY-MM-DD"
+      ]
+    },
+    {
+      "name": "empty licence",
+      "errors": [
+        "names its data licence"
+      ]
+    },
+    {
+      "name": "missing licence",
+      "errors": [
+        "names its data licence"
+      ]
+    },
+    {
+      "name": "http schema_url",
+      "errors": [
+        "links its published record schema (schema_url)"
+      ]
+    },
+    {
+      "name": "no files",
+      "errors": [
+        "lists its files"
+      ]
+    },
+    {
+      "name": "missing files",
+      "errors": [
+        "lists its files"
+      ]
+    },
+    {
+      "name": "text format",
+      "errors": [
+        "denylist.txt: format is geoparquet or json"
+      ]
+    },
+    {
+      "name": "absolute path",
+      "errors": [
+        "a file path stays inside the release"
+      ]
+    },
+    {
+      "name": "dot-dot inside a name",
+      "errors": [
+        "a file path stays inside the release"
+      ]
+    },
+    {
+      "name": "parent path",
+      "errors": [
+        "a file path stays inside the release"
+      ]
+    },
+    {
+      "name": "empty path",
+      "errors": []
+    },
+    {
+      "name": "numeric path",
+      "errors": [
+        "a file path stays inside the release"
+      ]
+    },
+    {
+      "name": "upper-case sha256",
+      "errors": [
+        "cells.json: carries its sha256"
+      ]
+    },
+    {
+      "name": "short sha256",
+      "errors": [
+        "cells.json: carries its sha256"
+      ]
+    },
+    {
+      "name": "missing sha256 and format",
+      "errors": [
+        "cells.json: format is geoparquet or json",
+        "cells.json: carries its sha256"
+      ]
+    },
+    {
+      "name": "nameless bad file",
+      "errors": [
+        "?: format is geoparquet or json",
+        "a file path stays inside the release",
+        "?: carries its sha256"
+      ]
+    },
+    {
+      "name": "numeric path with bad format",
+      "errors": [
+        "7: format is geoparquet or json",
+        "a file path stays inside the release"
+      ]
+    }
+  ]
+}
