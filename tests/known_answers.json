@@ -1,0 +1,486 @@
+{
+  "frozen_at": "2026-10-09",
+  "taxonomy": "v1",
+  "cells": [
+    {
+      "id": "loudoun-ip-datacenter",
+      "jurisdiction_id": "us-51107",
+      "district_code": "IP",
+      "use_class": "datacenter",
+      "expected_status": "conditional",
+      "basis": "adopted_amendment",
+      "citation": {
+        "url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta",
+        "quote": "requiring Special Exception (SPEX) approval for data center uses in the Industrial Park (IP), General Industry (GI), and Mineral Resources-Heavy Industry (MR-HI) zoning districts"
+      },
+      "quote_verified": true,
+      "source_text_status": "permitted",
+      "notes": "Amended after the source: the county's own 2023 ordinance PDF (Table 3.02.05-1) shows P; ZOAM-2024-0001, adopted 2025-03-18, requires a special exception. Applications accepted before 2025-02-12 are grandfathered."
+    },
+    {
+      "id": "loudoun-gi-datacenter",
+      "jurisdiction_id": "us-51107",
+      "district_code": "GI",
+      "use_class": "datacenter",
+      "expected_status": "conditional",
+      "basis": "adopted_amendment",
+      "citation": {
+        "url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta",
+        "quote": "requiring Special Exception (SPEX) approval for data center uses in the Industrial Park (IP), General Industry (GI), and Mineral Resources-Heavy Industry (MR-HI) zoning districts"
+      },
+      "quote_verified": true,
+      "source_text_status": "permitted",
+      "notes": "Amended after the source: the county's own 2023 ordinance PDF (Table 3.02.05-1) shows P; ZOAM-2024-0001, adopted 2025-03-18, requires a special exception. Applications accepted before 2025-02-12 are grandfathered."
+    },
+    {
+      "id": "loudoun-mrhi-datacenter",
+      "jurisdiction_id": "us-51107",
+      "district_code": "MRHI",
+      "use_class": "datacenter",
+      "expected_status": "conditional",
+      "basis": "adopted_amendment",
+      "citation": {
+        "url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta",
+        "quote": "requiring Special Exception (SPEX) approval for data center uses in the Industrial Park (IP), General Industry (GI), and Mineral Resources-Heavy Industry (MR-HI) zoning districts"
+      },
+      "quote_verified": true,
+      "source_text_status": "permitted",
+      "notes": "Amended after the source: the county's own 2023 ordinance PDF (Table 3.02.05-1) shows P; ZOAM-2024-0001, adopted 2025-03-18, requires a special exception. Applications accepted before 2025-02-12 are grandfathered."
+    },
+    {
+      "id": "pittsylvania-m-2-datacenter",
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "datacenter",
+      "expected_status": "conditional",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "quote": "The following uses shall be permitted only by special use permit:",
+        "section": "Sec. 35-403"
+      },
+      "quote_verified": true,
+      "notes": "Lead-in of Sec. 35-403 (Division 12, M-2 Heavy Industry); its list includes the bullet 'Data centers'."
+    },
+    {
+      "id": "pittsylvania-m-svms-datacenter",
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-SVMS",
+      "use_class": "datacenter",
+      "expected_status": "permitted",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "quote": "Within the M-SVMS District, permitted uses shall be for the following:",
+        "section": "Sec. 35-534"
+      },
+      "quote_verified": true,
+      "notes": "Lead-in of Sec. 35-534 (Division 14); its list includes the bullet 'Data centers'. Sec. 35-142 standards do not apply in M-SVMS, which has its own data center standards."
+    },
+    {
+      "id": "warrenton-i-datacenter",
+      "jurisdiction_id": "us-5183136",
+      "district_code": "I",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "Sec. 2-10"
+      },
+      "quote_verified": true,
+      "notes": "Neither the I district by-right list (Sec. 3-4.12.2) nor its special use list (Sec. 3-4.12.3) in the July 2026 Article 3 names data centers, after the town removed them in July 2025. Article 12 still defines 'Data Center', so the use is named in the code and cannot be published as unlisted (the absence gate would hit the definition). Recorded as prohibited: a defined use the code lists in no district, under a clause that makes unlisted uses prohibited. The alternative reading is unlisted with unlisted_rule prohibited_by_default."
+    },
+    {
+      "id": "fauquier-bp-datacenter",
+      "jurisdiction_id": "us-51061",
+      "district_code": "BP",
+      "use_class": "datacenter",
+      "expected_status": "permitted",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+        "quote": "A data center use shall only be located in a Service District when proposed in the Business Park District.",
+        "section": "Article 3, footnote 25"
+      },
+      "quote_verified": false,
+      "notes": "Permitted with conditions (recycled-water cooling, new power lines underground, Service District only). Quote not verified: the county site refuses automated fetches (HTTP 403 bot wall), so the text was not fetched in this step. The use-table row is an image with no text layer."
+    },
+    {
+      "id": "douglas-oi-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "OI",
+      "use_class": "datacenter",
+      "expected_status": "conditional",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 shows S (Use Requires Special Use Approval) in the OI, LI, LI-R and HI columns, read from the rendered page; Sec. 352 adds standards."
+    },
+    {
+      "id": "douglas-li-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "LI",
+      "use_class": "datacenter",
+      "expected_status": "conditional",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 shows S (Use Requires Special Use Approval) in the OI, LI, LI-R and HI columns, read from the rendered page; Sec. 352 adds standards."
+    },
+    {
+      "id": "douglas-li-r-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "LI-R",
+      "use_class": "datacenter",
+      "expected_status": "conditional",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 shows S (Use Requires Special Use Approval) in the OI, LI, LI-R and HI columns, read from the rendered page; Sec. 352 adds standards."
+    },
+    {
+      "id": "douglas-hi-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "HI",
+      "use_class": "datacenter",
+      "expected_status": "conditional",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 shows S (Use Requires Special Use Approval) in the OI, LI, LI-R and HI columns, read from the rendered page; Sec. 352 adds standards."
+    },
+    {
+      "id": "douglas-ag-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "AG",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-r-a-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "R-A",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-r-ld-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "R-LD",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-r-md-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "R-MD",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-r-hd-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "R-HD",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-r-mh-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "R-MH",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-prd-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "PRD",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-c-g-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "C-G",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-c-h-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "C-H",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "douglas-psp-datacenter",
+      "jurisdiction_id": "us-13097",
+      "district_code": "PSP",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "code_text",
+      "citation": {
+        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      },
+      "quote_verified": true,
+      "notes": "NAICS 518210 row of Table 2.2 is blank in this column; the table key says a blank means the use is not allowed (spec 3.1 rule 1)."
+    },
+    {
+      "id": "atlanta-beltline-datacenter",
+      "jurisdiction_id": "us-1304000",
+      "district_code": "BELTLINE",
+      "use_class": "datacenter",
+      "expected_status": "prohibited",
+      "basis": "adopted_amendment",
+      "citation": {
+        "url": "https://atlantacityga.iqm2.com/Citizens/FileOpen.aspx?Type=30&ID=409457&MeetingID=4061",
+        "quote": "Data Centers (either as a principal or accessory use) are prohibited.",
+        "section": "Sec. 16-36.008(2)"
+      },
+      "quote_verified": true,
+      "notes": "Ordinance 24-O-1218, adopted 2024-09-03, BeltLine Overlay. Cited from the City Council's legislation portal, which a vendor hosts; it is not on the city's own domain, so it is not a registered source until the primary-host question is decided. Later amendments to Part 16 were not checked."
+    },
+    {
+      "id": "atlanta-i-mix-datacenter",
+      "jurisdiction_id": "us-1304000",
+      "district_code": "I-MIX",
+      "use_class": "datacenter",
+      "expected_status": "permitted",
+      "basis": "adopted_amendment",
+      "citation": {
+        "url": "https://atlantacityga.iqm2.com/Citizens/FileOpen.aspx?Type=30&ID=409458&MeetingID=4061",
+        "quote": "Data centers, except where any part of the property is within 2,640 feet of a high capacity transit stop",
+        "section": "Sec. 16-16A.004(3)"
+      },
+      "quote_verified": true,
+      "parcel_specific": true,
+      "notes": "Ordinance 24-O-1222, adopted 2024-09-03. Permitted except within 2,640 ft of a high capacity transit stop, so the answer depends on the parcel. Cited from the City Council's legislation portal, which a vendor hosts; it is not on the city's own domain, so it is not a registered source until the primary-host question is decided."
+    },
+    {
+      "id": "hillsborough-base-datacenter",
+      "jurisdiction_id": "us-12057",
+      "district_code": "M",
+      "use_class": "datacenter",
+      "expected_status": "unlisted",
+      "basis": "official_record",
+      "citation": {
+        "url": "https://eagenda.hcfl.gov/portal/PTL29560/search?D=08/05/2026&T=Regular%20BOCC%20Meeting&Y=Backup&o=F-2.pdf",
+        "quote": "Data centers are not currently contemplated or listed uses in the County's Land Development Code, so any data center development in unincorporated Hillsborough County would need to be a specifically-approved use in a planned development zoning."
+      },
+      "quote_verified": true,
+      "notes": "Agenda backup for the 2026-08-05 Board meeting, on the county's domain. It applies to every base district; M (Manufacturing) is recorded as the representative cell. A PD district would carry its own case-specific answer."
+    },
+    {
+      "id": "lake-lm-datacenter",
+      "jurisdiction_id": "us-12069",
+      "district_code": "LM",
+      "use_class": "datacenter",
+      "expected_status": "unlisted",
+      "basis": "official_record",
+      "citation": {
+        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+        "quote": "WHEREAS, the Board finds that Lake County currently lacks specific zoning provisions or development regulations addressing the unique operational characteristics, infrastructure requirements, and environmental considerations associated with data centers, data center facilities, and data center utilities; and"
+      },
+      "quote_verified": true,
+      "notes": "Recital of a draft ordinance (Planning and Zoning Board, 2026-10-07) on the county's server, describing the adopted code. Applies to every district; LM (Light Industrial) is the representative cell. If the draft is adopted (Board hearing expected around 2026-10-13), data centers become conditional in some districts and this answer must be re-frozen."
+    }
+  ],
+  "amendments": [
+    {
+      "id": "lake-datacenter-moratorium-2026",
+      "jurisdiction_id": "us-12069",
+      "kind": "moratorium",
+      "use_classes": [
+        "datacenter"
+      ],
+      "districts": [
+        "*"
+      ],
+      "dates": {
+        "adopted": "2026-09-08"
+      },
+      "citation": {
+        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+        "quote": "WHEREAS, on September 8, 2026, the Board adopted an ordinance suspending the acceptance of applications for data centers, data center facilities, and data center utilities; and"
+      },
+      "quote_verified": true,
+      "notes": "The moratorium ordinance itself was not read (the county ordinances page refuses automated fetches); its number and duration are unresolved. ch. 2025-190 s. 28 may bear on it."
+    },
+    {
+      "id": "lake-datacenter-schedule-of-uses-2026",
+      "jurisdiction_id": "us-12069",
+      "kind": "pending_text_amendment",
+      "use_classes": [
+        "datacenter"
+      ],
+      "districts": [
+        "*"
+      ],
+      "dates": {
+        "introduced": "2026-10-07"
+      },
+      "citation": {
+        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+        "quote": "WHEREAS, the Board finds that Lake County currently lacks specific zoning provisions or development regulations addressing the unique operational characteristics, infrastructure requirements, and environmental considerations associated with data centers, data center facilities, and data center utilities; and"
+      },
+      "quote_verified": true,
+      "notes": "Draft Ordinance 2026-XX adds data center rows to the Sec. 3.01.03 schedule of uses (conditional in some districts, via a conditional use permit under a new Sec. 3.14.00)."
+    },
+    {
+      "id": "coweta-datacenter-moratorium-2026",
+      "jurisdiction_id": "us-13077",
+      "kind": "moratorium",
+      "use_classes": [
+        "datacenter"
+      ],
+      "districts": [
+        "*"
+      ],
+      "dates": {
+        "adopted": "2026-06-16",
+        "expires": "2026-12-13"
+      },
+      "citation": {
+        "url": "https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3543,plainText=true)",
+        "quote": "The proposed Resolution would enact a one hundred-eighty (180) day moratorium beginning on June 16, 2026, and expiring on December 13, 2026,"
+      },
+      "quote_verified": true,
+      "notes": "Board minutes on the county's meeting portal, which a vendor hosts; not a registered source until the primary-host question is decided. Coweta has no cell known answer: its zoning ordinance has no primary copy. Re-check before release; the moratorium expires 2026-12-13."
+    },
+    {
+      "id": "loudoun-datacenter-zoam-2024-0001",
+      "jurisdiction_id": "us-51107",
+      "kind": "adopted_text_amendment",
+      "use_classes": [
+        "datacenter"
+      ],
+      "districts": [
+        "IP",
+        "GI",
+        "MRHI"
+      ],
+      "dates": {
+        "adopted": "2025-03-18"
+      },
+      "citation": {
+        "url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta",
+        "quote": "requiring Special Exception (SPEX) approval for data center uses in the Industrial Park (IP), General Industry (GI), and Mineral Resources-Heavy Industry (MR-HI) zoning districts"
+      },
+      "quote_verified": true,
+      "notes": "Not in the county's own 2023 ordinance PDFs; the current text is only on a third-party interactive host, which is not used."
+    },
+    {
+      "id": "warrenton-datacenter-removal-2025",
+      "jurisdiction_id": "us-5183136",
+      "kind": "adopted_text_amendment",
+      "use_classes": [
+        "datacenter"
+      ],
+      "districts": [
+        "I"
+      ],
+      "dates": {
+        "adopted": "2025-07-08"
+      },
+      "citation": {
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+        "quote": "Permissible Uses (by special use permit upon approval of the Town Council)",
+        "section": "Sec. 3-4.12.3"
+      },
+      "quote_verified": true,
+      "notes": "The amendment removing data centers from the industrial district (2025-07-08, reported by local news; case number not seen on a town page) is evidenced in the town's own July 2026 Article 3, whose I-district lists no longer name data centers. The town's amendment table omits it."
+    }
+  ]
+}
