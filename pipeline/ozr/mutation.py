@@ -8,6 +8,7 @@ import random
 import re
 import shutil
 import tempfile
+from collections.abc import Collection
 from pathlib import Path
 from typing import Any
 
@@ -24,11 +25,19 @@ def _row(line: str) -> bool:
     return " | " in line or len(_TOKEN.findall(line)) >= 3
 
 
-def mutate(text: str, rng: random.Random, n: int) -> tuple[str, list[dict]]:
-    """Flip up to n whole symbols on table-row lines, using the supplied RNG."""
+def mutate(text: str, rng: random.Random, n: int, targets: Collection[str] | None = None) -> tuple[str, list[dict]]:
+    """Flip up to n symbols (or, with targets, n whole rows holding a target label), using the supplied RNG."""
     lines = text.splitlines(keepends=True)
-    candidates = [(index, match) for index, line in enumerate(lines) if _row(line) for match in _TOKEN.finditer(line)]
-    selected = rng.sample(candidates, min(n, len(candidates)))
+    if targets is None:
+        candidates = [(i, match) for i, line in enumerate(lines) if _row(line) for match in _TOKEN.finditer(line)]
+        selected = rng.sample(candidates, min(n, len(candidates)))
+    else:
+        # Targeted: pick up to n whole rows that hold a target label and flip every symbol on them.
+        rows = [
+            i for i, line in enumerate(lines) if _row(line) and _TOKEN.search(line) and any(t in line for t in targets)
+        ]
+        chosen = rng.sample(rows, min(n, len(rows)))
+        selected = [(i, match) for i in chosen for match in _TOKEN.finditer(lines[i])]
     selected_by_line: dict[int, list[re.Match[str]]] = {}
     for index, match in selected:
         selected_by_line.setdefault(index, []).append(match)
@@ -73,7 +82,14 @@ def _copy_root(root: Path, target: Path, jid: str) -> None:
             shutil.copytree(source, target / "cache" / name)
 
 
-def _replace_pages(root: Path, target: Path, jid: str, rng: random.Random, n: int) -> list[dict]:
+def _replace_pages(
+    root: Path,
+    target: Path,
+    jid: str,
+    rng: random.Random,
+    n: int,
+    targets: Collection[str] | None = None,
+) -> list[dict]:
     manifest = read_json(root / "jurisdictions" / jid / "segments.json")
     flips: list[dict] = []
     remaining = n
@@ -86,8 +102,11 @@ def _replace_pages(root: Path, target: Path, jid: str, rng: random.Random, n: in
         original_path = root / "cache" / relative
         mutated_path = target / "cache" / relative
         original = original_path.read_text(encoding="utf-8")
-        mutated, changes = mutate(original, rng, remaining)
-        remaining -= len(changes)
+        mutated, changes = mutate(original, rng, remaining, targets)
+        if targets is None:
+            remaining -= len(changes)
+        else:
+            remaining -= len({change["line_no"] for change in changes})
         mutated_path.parent.mkdir(parents=True, exist_ok=True)
         mutated_path.write_text(mutated, encoding="utf-8")
         flips.extend(changes)
@@ -116,6 +135,19 @@ def _row_label(cell: dict | None) -> str:
     return label if isinstance(label, str) else ""
 
 
+def _is_table_cell(cell: dict | None) -> bool:
+    evidence = cell.get("evidence") if isinstance(cell, dict) else None
+    if not isinstance(evidence, dict):
+        return False
+    return (
+        evidence.get("kind") == "table"
+        and isinstance(evidence.get("symbol"), str)
+        and bool(evidence["symbol"])
+        and isinstance(evidence.get("row_label"), str)
+        and bool(evidence["row_label"])
+    )
+
+
 def _index(cells: list[dict]) -> dict[tuple[object, object, object], dict]:
     return {(cell.get("jurisdiction_id"), cell.get("district_code"), cell.get("use_class")): cell for cell in cells}
 
@@ -125,10 +157,12 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
     call = call or run_claude
     template = Path(__file__).resolve().parents[2] / "prompts" / "extract.v1.md"
     baseline = label_jurisdiction(root, jid, template, call, "claude", "mutation-baseline", today, with_images=False)
+    targets = sorted({_row_label(cell) for cell in baseline["cells"] if _is_table_cell(cell)})
+    targeted = bool(targets)
     with tempfile.TemporaryDirectory() as temporary:
         target = Path(temporary)
         _copy_root(root, target, jid)
-        flips = _replace_pages(root, target, jid, random.Random(seed), n)
+        flips = _replace_pages(root, target, jid, random.Random(seed), n, targets if targeted else None)
         mutated = label_jurisdiction(target, jid, template, call, "claude", "mutation", today, with_images=False)
         run_path = target / "runs" / f"{jid}.jsonl"
         if run_path.is_file():
@@ -148,6 +182,13 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
     status_changed = {
         key for key in keys if (before.get(key) or {}).get("status") != (after.get(key) or {}).get("status")
     }
+    flipped_keys = {
+        key
+        for key in before
+        if _is_table_cell(before[key]) and any(_row_label(before[key]) in flip["line_before"] for flip in flips)
+    }
+    compared_keys = set(before) & set(after)
+    unflipped_keys = compared_keys - flipped_keys
     for flip in flips:
         # A flip is detected when a table cell whose row label is on the flipped line changed status.
         flip["flip_detected"] = any(
@@ -157,7 +198,24 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
     result = {
         "seed": seed,
         "n": n,
+        "targeted": targeted,
         "flips": flips,
+        "rows_flipped": len({flip["line_no"] for flip in flips}),
+        "flipped_cells": len(flipped_keys),
+        "flipped_cells_changed": len(flipped_keys & status_changed),
+        "unflipped_cells": len(unflipped_keys),
+        "unflipped_cells_changed": len(unflipped_keys & status_changed),
+        "detection_rate": round(len(flipped_keys & status_changed) / len(flipped_keys), 3) if flipped_keys else None,
+        "noise_rate": round(len(unflipped_keys & status_changed) / len(unflipped_keys), 3) if unflipped_keys else None,
+        "cells": [
+            {
+                "key": "/".join(str(value) for value in key),
+                "before": (before.get(key) or {}).get("status"),
+                "after": (after.get(key) or {}).get("status"),
+                "flipped": key in flipped_keys,
+            }
+            for key in keys
+        ],
         "cells_compared": len(keys),
         "status_changed": len(status_changed),
         "quote_changed": sum(
@@ -179,5 +237,9 @@ def run(root: Path, jid: str, call: Any = None, n: int = 10, seed: int = 0, toda
 def cli(args: argparse.Namespace) -> int:
     for jid in args.jurisdiction_ids:
         result = run(args.root, jid, today=args.today)
-        print(f"{jid}: {result['result']} ({result['flips_detected']}/{result['flips_total']} flips detected)")
+        print(
+            f"{jid}: {result['result']} rows_flipped={result['rows_flipped']} "
+            f"detection={result['flipped_cells_changed']}/{result['flipped_cells']} "
+            f"noise={result['unflipped_cells_changed']}/{result['unflipped_cells']}"
+        )
     return 0
