@@ -94,7 +94,7 @@ def pdf_pages(data: bytes) -> tuple[list[str], list[str]]:
                 rules = list(page.lines) + [rect for rect in page.rects if min(rect["width"], rect["height"]) <= 2]
                 horizontal = [rule for rule in rules if rule["width"] >= rule["height"]]
                 vertical = [rule for rule in rules if rule["width"] < rule["height"]]
-                if not horizontal or not vertical:
+                if len(horizontal) < 2 or len(vertical) < 2:
                     table_pages.append("")
                     continue
                 settings = {

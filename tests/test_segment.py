@@ -6,7 +6,7 @@ import hashlib
 import json
 
 from ozr.gates import canonical, contains, text_layers
-from ozr.segment import cell_text, segment_jurisdiction
+from ozr.segment import cell_text, pdf_pages, segment_jurisdiction
 from pdfgen import make_pdf, make_table_pdf
 
 
@@ -118,3 +118,12 @@ def test_cell_text_joins_hyphenated_fragments():
     assert contains(cell_text("SCN-\n16"), "SCN-16")
     assert contains(cell_text("CC\n-\nNC"), "CC-NC")
     assert contains(cell_text("Post-\nProduction"), "Post-Production")
+
+
+def test_a_page_with_a_single_rule_has_no_table_text():
+    pdf = make_table_pdf([[["Sec. 1 Purpose"]]], [300])
+    # Thicken the right border so the page keeps a single thin vertical rule.
+    pdf = pdf.replace(b"0 g 371.6 703 0.8 17 re f", b"0 g 371.6 703 8.0 17 re f")
+    raw, tables = pdf_pages(pdf)
+    assert "Purpose" in raw[0]
+    assert tables == [""]
