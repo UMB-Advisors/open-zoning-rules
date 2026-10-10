@@ -10,7 +10,7 @@
     "conditions": [
       "The 2026 law expressly preserves local land-development authority over large-load customers, including data centers.",
       "A large load customer may not be treated as an electric substation for s. 163.3208.",
-      "Not class-specific: ch. 2025-190 (SB 180) s. 28 (uncodified) bars counties in FEMA declarations DR-4806, DR-4828 and DR-4834 from adopting moratoria or more restrictive land development regulations before 2027-10-01. Not checked whether 2026 legislation amended s. 28."
+      "Not class-specific: ch. 2025-190 (SB 180) s. 28 (uncodified; enrolled text https://www.flsenate.gov/Session/Bill/2025/180/BillText/er/HTML) bars each county listed in the disaster declarations DR-4806, DR-4828 and DR-4834, and municipalities in them, from adopting more restrictive or burdensome amendments to land development regulations before October 1, 2027 (and moratoria on construction of hurricane-damaged property); such amendments are null and void ab initio. Which counties are listed was not read from the declarations. Not checked whether 2026 legislation amended s. 28."
     ],
     "checked_at": "2026-10-09"
   },
@@ -44,7 +44,7 @@
     "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0366/Sections/0366.032.html",
     "conditions": [
       "s. 366.032(1)(e) preempts local restrictions on LP gas as a fuel source supplied by licensed LP gas dealers; it does not address zoning or siting of LP gas storage.",
-      "Ch. 527 has the state set rules on the location and installation of LP gas storage equipment but does not displace local zoning."
+      "Ch. 527, F.S. (LP gas safety) was not read in this step; triage reports that it does not displace local zoning."
     ],
     "checked_at": "2026-10-09"
   },
@@ -68,7 +68,7 @@
       "Applies to medical marijuana treatment centers only.",
       "A county or municipality may ban dispensing facilities by ordinance (s. 381.986(11)(b)1.); dispensing is outside this class.",
       "Local building and fire code enforcement is preserved (s. 381.986(11)(d)).",
-      "Effective date is that of ch. 2017-232 (approved by the Governor June 23, 2017; takes effect upon becoming law), which created the subsection; later amendments to s. 381.986 were not traced to subsection (11).",
+      "Effective date is that of ch. 2017-232 (https://laws.flrules.org/2017/232: approved by the Governor June 23, 2017; takes effect upon becoming a law), which created the subsection; later amendments to s. 381.986 were not traced to subsection (11).",
       "The effect value is a judgement call: 'preempted to the state' could also be read as local_ban_preempted."
     ],
     "checked_at": "2026-10-09"

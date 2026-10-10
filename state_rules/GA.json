@@ -6,8 +6,7 @@
     "effect": "none_found",
     "citation": "O.C.G.A. 48-8-3(68.1) (sales tax exemption only)",
     "conditions": [
-      "The only enacted data-center statute found is a sales tax exemption, which does not touch zoning.",
-      "Reported by grok and not independently checked: 2026 moratorium bills HB 1012 and HB 1059 did not pass, and 2024 HB 1192 was vetoed."
+      "No statute preempting local zoning of data centers was found. Triage reported only a sales tax exemption; it was not read in this step, and the status of 2024-2026 data-center bills was not confirmed on the legislature's site."
     ],
     "checked_at": "2026-10-09"
   },
@@ -17,7 +16,7 @@
     "use_class": "warehouse_distribution",
     "effect": "none_found",
     "conditions": [
-      "No enacted statute found limiting local zoning of warehouse or distribution uses (grok search of 2025 and 2026 enactments; not independently checked)."
+      "No statute found limiting local zoning of warehouse or distribution uses. The search was not exhaustive and was not confirmed against the legislature's site."
     ],
     "checked_at": "2026-10-09"
   },
@@ -71,7 +70,7 @@
     ],
     "conditions": [
       "No clause preempts or occupies local zoning of production or processing.",
-      "SB 195 (2021) lets local governments relax the buffer for dispensing licensees only."
+      "Dispensing is outside this class; local rules for dispensing licensees were not checked."
     ],
     "checked_at": "2026-10-09"
   },
@@ -86,7 +85,7 @@
     "effective_date": "2024-07-01",
     "conditions": [
       "Narrow: caps only local decommissioning-bond requirements for solar leased under a conforming agreement.",
-      "No state siting preemption for generating plants found; per grok (not independently checked) the PSC certificate under O.C.G.A. 46-3A-3 does not displace zoning.",
+      "No state siting preemption for generating plants was found; whether a Public Service Commission certificate displaces zoning was not checked.",
       "The bill PDF interleaves line numbers with the text; the quote matches once line-number lines are removed."
     ],
     "checked_at": "2026-10-09"
@@ -97,7 +96,7 @@
     "use_class": "battery_storage",
     "effect": "none_found",
     "conditions": [
-      "No enacted battery storage siting preemption through the 2026 session, per a grok search (not independently checked). HB 300 (2024) mentions storage only as equipment of a leased solar facility."
+      "No battery storage siting preemption was found. The search was not exhaustive and was not confirmed against the legislature's site."
     ],
     "checked_at": "2026-10-09"
   }
