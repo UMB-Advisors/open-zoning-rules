@@ -34,7 +34,7 @@
       "jurisdiction_id": "us-12057",
       "kind": "minutes",
       "url": "https://eagenda.hcfl.gov/portal/PTL29560/search?D=08/05/2026&T=Regular%20BOCC%20Meeting&Y=Backup&o=F-2.pdf",
-      "fetched_at": "2026-10-10T06:43:21Z",
+      "fetched_at": "2026-10-10T08:46:19Z",
       "source_date": "2026-08-05",
       "sha256": "77a38b1c3c252fa81c4da8a534930a498a0a3f73b4d99eee2f0daa1c780a96fd",
       "licence_terms": {
@@ -48,7 +48,7 @@
       "jurisdiction_id": "us-12057",
       "kind": "gis_layer",
       "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0?f=json",
-      "fetched_at": "2026-10-10T06:43:22Z",
+      "fetched_at": "2026-10-10T08:46:22Z",
       "source_date": "2026-10-10",
       "sha256": "e37e25c8316415bb0569206dec738dadd805f1c59ca89e78b02f0e171d39cdc1",
       "licence_terms": {

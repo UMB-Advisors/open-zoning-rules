@@ -1,0 +1,12 @@
+{
+  "jurisdiction_id": "us-1304000",
+  "sources": [],
+  "segments": [],
+  "missing": [
+    "use_table",
+    "definitions",
+    "not_listed",
+    "district_list"
+  ],
+  "missing_bytes": []
+}
