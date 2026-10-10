@@ -1,0 +1,3936 @@
+{
+  "jurisdiction_id": "us-51143",
+  "prompt": "review.v1.md",
+  "model": "grok-4.7-build",
+  "run_id": "review-grok-us-51143-20261010T112155Z",
+  "checked_at": "2026-10-10",
+  "cells": [
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Data Center is a regulated use in SEC. 35-142 and is mentioned with Power Station standards for M-SVMS. It is not enumerated in Sec. 35-178 permitted uses. SEC. 35-179 is titled Special Use Permits and the ordinance text does not enumerate those special uses."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities",
+        "Agricultural warehouses"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Agricultural warehouses are permitted in Sec. 35-178. Truck and freight terminals, Freight stations, and Warehouse and storage facilities are not enumerated in that list. The most restrictive mapped use controls."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Smelting operations are a listed use elsewhere. They are not enumerated in the Agricultural District permitted uses. Heavy industry is the M-2 district, which is a different district."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "LP gas and natural gas storage appears as a listed use. It is not among the Sec. 35-178 permitted uses."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 35-178. PERMITTED USES",
+        "section": "Sec. 35-178"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "utility_generation",
+      "status": "prohibited",
+      "local_uses": [
+        "Utility-Scale Solar Energy Facility",
+        "Power stations",
+        "Power generation"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "definition_evidence": {
+        "quote": "b. Serves off-site electrical load.",
+        "section": "SEC. 35-141"
+      },
+      "notes": "Utility-Scale Solar Energy Facility requires a special use permit unless otherwise permitted by right. Power stations and Power generation are not enumerated in the Agricultural District permitted uses. Small-scale solar is permitted by right in all zoning districts and is outside this class because it serves only the host parcel. The most restrictive mapped use controls."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery Energy Storage Projects are regulated as accessory to approved solar facilities under § 35-143. Stand-alone grid-scale battery systems are not enumerated as a principal use. Accessory-only authorization is prohibited for the stand-alone class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Data Center is not enumerated in SEC. 35-346 permitted uses. The SEC. 35-347 special-use list in the text begins with amusement centers and assembly halls and does not include Data Center."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities",
+        "Agricultural warehouses"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "None of these local uses is enumerated in the Limited Business District permitted uses. SEC. 35-345 limits the district to retail establishments with no outside storage."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Smelting operations are not enumerated in the Limited Business District permitted uses."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "LP gas and natural gas storage is not enumerated in the Limited Business District permitted uses."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-346. PERMITTED USES",
+        "section": "SEC. 35-346"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "utility_generation",
+      "status": "prohibited",
+      "local_uses": [
+        "Utility-Scale Solar Energy Facility",
+        "Power stations",
+        "Power generation"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "definition_evidence": {
+        "quote": "b. Serves off-site electrical load.",
+        "section": "SEC. 35-141"
+      },
+      "notes": "Utility-Scale Solar Energy Facility requires a special use permit unless otherwise permitted by right. Power stations and Power generation are not enumerated in the Limited Business District permitted uses. The most restrictive mapped use controls."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery Energy Storage Projects are regulated as accessory to approved solar facilities under § 35-143. Stand-alone grid-scale battery systems are not enumerated as a principal use. Accessory-only authorization is prohibited for the stand-alone class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Data Center standards are in SEC. 35-142 and M-SVMS provisions. No Data Center use line places it in the General Business District."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities",
+        "Agricultural warehouses"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "SEC. 35-364 states this district is limited to commercial, retail and wholesale establishments which may have outdoor displays of product, but not outside storage, and which do not manufacture their product on the premises. Truck and freight terminals are a separate listed use and are not enumerated in the visible General Business District permitted uses."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Smelting operations are not enumerated in the visible General Business District permitted uses. SEC. 35-364 states uses in this district do not manufacture their product on the premises."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "LP gas and natural gas storage is a listed use and is not enumerated in the visible General Business District permitted uses."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-365. PERMITTED USES",
+        "section": "SEC. 35-365"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "utility_generation",
+      "status": "prohibited",
+      "local_uses": [
+        "Utility-Scale Solar Energy Facility",
+        "Power stations",
+        "Power generation"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "definition_evidence": {
+        "quote": "b. Serves off-site electrical load.",
+        "section": "SEC. 35-141"
+      },
+      "notes": "Utility-Scale Solar Energy Facility requires a special use permit unless otherwise permitted by right. Power stations and Power generation are not enumerated in the visible General Business District permitted uses. The most restrictive mapped use controls."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery Energy Storage Projects are regulated as accessory to approved solar facilities under § 35-143. Stand-alone grid-scale battery systems are not enumerated as a principal use. Accessory-only authorization is prohibited for the stand-alone class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Data Center lines in the ordinance are SEC. 35-142 standards and M-SVMS provisions. They do not place Data Center in the Conservation District."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities",
+        "Agricultural warehouses"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Truck and freight terminals and Freight stations are listed uses. No Conservation District use line enumerates them. The most restrictive mapped use controls."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Smelting operations are listed under the heavy-industry regulations. They are not a Conservation District use."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "LP gas and natural gas storage is a listed use and is not enumerated for the Conservation District."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "§ 35-530. Permitted Uses",
+        "section": "§ 35-530"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "utility_generation",
+      "status": "prohibited",
+      "local_uses": [
+        "Utility-Scale Solar Energy Facility",
+        "Power stations",
+        "Power generation"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "definition_evidence": {
+        "quote": "b. Serves off-site electrical load.",
+        "section": "SEC. 35-141"
+      },
+      "notes": "Utility-Scale Solar Energy Facility requires a special use permit unless otherwise permitted by right. Power stations are tied to M-SVMS standards, and Power generation is enumerated in other districts' special-use lists. Neither is enumerated for the Conservation District. The most restrictive mapped use controls."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery Energy Storage Projects are regulated as accessory to approved solar facilities under § 35-143. Stand-alone grid-scale battery systems are not enumerated as a principal use. Accessory-only authorization is prohibited for the stand-alone class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "SEC. 35-170 establishes the districts and does not include a Double-Zoned district. Data Center is not given a permitted or special-use status in a DZ district."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities",
+        "Agricultural warehouses"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "SEC. 35-170 does not establish a Double-Zoned district. SEC. 35-47 states that each parcel shall have one district zoning classification. These warehouse and terminal uses have no DZ permission."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "SEC. 35-170 does not establish a Double-Zoned district. Smelting operations have no DZ permission."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "SEC. 35-170 does not establish a Double-Zoned district. LP gas and natural gas storage has no DZ permission."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-170. ESTABLISHMENT OF DISTRICTS",
+        "section": "SEC. 35-170"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "utility_generation",
+      "status": "prohibited",
+      "local_uses": [
+        "Utility-Scale Solar Energy Facility",
+        "Power stations",
+        "Power generation"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "definition_evidence": {
+        "quote": "b. Serves off-site electrical load.",
+        "section": "SEC. 35-141"
+      },
+      "notes": "SEC. 35-170 does not establish a Double-Zoned district. Power stations and Power generation have no DZ permission, so the class is prohibited in DZ."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery Energy Storage Projects are regulated as accessory to approved solar facilities under § 35-143. Stand-alone grid-scale battery systems are not enumerated as a principal use in a Double-Zoned district. Accessory-only authorization is prohibited for the stand-alone class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-1",
+      "use_class": "datacenter",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "computer equipment",
+          "quote": "• Computer equipment manufacturing",
+          "section": "§ 35-383",
+          "reason": "Manufacturing of computer equipment is production of goods, not a building whose primary use is housing servers and network equipment."
+        },
+        {
+          "term": "data center",
+          "quote": "§ 35-142. Data Center",
+          "section": "§ 35-142",
+          "reason": "Section heading for data center standards; it does not state that a data center is permitted or a special use in this district."
+        },
+        {
+          "term": "data center",
+          "quote": "SEC. 35-142. DATA CENTER.",
+          "section": "SEC. 35-142",
+          "reason": "Section heading for data center standards; it does not place the use in this district."
+        },
+        {
+          "term": "data center",
+          "quote": "(A) Due to the high-water demand, data centers shall be connected to a public water system if a",
+          "section": "SEC. 35-142",
+          "reason": "Water-connection standard for data centers; it does not authorize the use in this district."
+        },
+        {
+          "term": "data center",
+          "quote": "(1) Data centers shall not establish commercial wells for any operations.",
+          "section": "SEC. 35-142",
+          "reason": "Prohibits commercial wells for data center operations; it does not authorize the use in this district."
+        },
+        {
+          "term": "data center",
+          "quote": "infrastructure necessary for the operations of the data center shall be within an enclosed structure",
+          "section": "SEC. 35-142",
+          "reason": "Enclosure standard for data center equipment; it does not authorize the use in this district."
+        },
+        {
+          "term": "servers",
+          "quote": "computer and/or network equipment, systems, servers,",
+          "section": "SEC. 35-142",
+          "reason": "Equipment list describing a data center; it does not grant the use in this district."
+        }
+      ],
+      "notes": "SEC. 35-142 regulates data centers. No line that names a data center grants a district permission."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "hazardous materials",
+          "quote": "16. Additional distance setbacks hazardous materials, operations will exist.",
+          "section": "SEC. 35-141",
+          "reason": "Distance-setback standard where hazardous-materials operations exist; it does not list heavy industry or hazmat storage as a use in M-1."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(2). Disposal or recycling of batteries and hazardous materials in accordance with all",
+          "section": "§ 35-145",
+          "reason": "Disposal standard for batteries and hazardous materials; it is not a principal heavy-industrial or hazmat use permission."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "hazardous materials.",
+          "section": "§ 35-144",
+          "reason": "Fragment of a hazardous-materials standard; it does not authorize a heavy-industrial or hazmat use in M-1."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(6). Ventilation, exhaust, gas detection, and hazardous materials control measures.",
+          "section": "§ 35-144",
+          "reason": "Ventilation and hazardous-materials control standard, not a district use permission."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+          "section": "Division 12",
+          "reason": "Name of the M-2 district, not an M-1 use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. INDUSTRIAL DISTRICT, HEAVY INDUSTRY, M-2",
+          "section": "Division 12",
+          "reason": "M-2 district title, not an M-1 use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "DIVISION 12. INDUSTRIAL DISTRICT (M-2); HEAVY INDUSTRY",
+          "section": "Division 12",
+          "reason": "M-2 district title, not an M-1 use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+          "section": "§ 35-402",
+          "reason": "Introduces permitted uses in M-2, not in M-1, and does not name a heavy-manufacturing or hazmat use."
+        },
+        {
+          "term": "smelting",
+          "quote": "• Smelting operations",
+          "section": "§ 35-402",
+          "reason": "Smelting is heavy industry. The bullet occurs twice and no sentence places it in the M-1 use list."
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "§ 35-402",
+          "reason": "Bulk LP-gas storage would map to this class. The bullet occurs twice and no sentence places it in the M-1 use list."
+        }
+      ],
+      "notes": "The bullet is bulk LP-gas and natural gas storage, which is the class rather than a retail cylinder-exchange cage. Its district heading is not printed with the bullet."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-1",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Utility-Scale Solar Energy Facility (≥1 MW)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "d. Requires a Special Use Permit unless otherwise permitted by right.",
+        "section": "SEC. 35-141"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Utility-scale solar is ground-mounted, at least 1 MW, and serves off-site load. No use list permits that facility by right. Small-scale solar is permitted by right in every district and serves only the host parcel, so it is outside this class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-1",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Projects Accessory to Approved Solar Facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Stand-alone grid-scale battery storage is prohibited. The ordinance regulates battery energy storage projects as accessory to approved solar facilities."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "datacenter",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "computer equipment",
+          "quote": "• Computer equipment manufacturing",
+          "section": "§ 35-383",
+          "reason": "Manufacturing of computer equipment is production of goods, not a building whose primary use is housing servers and network equipment."
+        },
+        {
+          "term": "data center",
+          "quote": "§ 35-142. Data Center",
+          "section": "§ 35-142",
+          "reason": "Section heading for data center standards; it does not state that a data center is permitted or a special use in this district."
+        },
+        {
+          "term": "data center",
+          "quote": "SEC. 35-142. DATA CENTER.",
+          "section": "SEC. 35-142",
+          "reason": "Section heading for data center standards; it does not place the use in this district."
+        },
+        {
+          "term": "data center",
+          "quote": "(A) Due to the high-water demand, data centers shall be connected to a public water system if a",
+          "section": "SEC. 35-142",
+          "reason": "Water-connection standard for data centers; it does not authorize the use in this district."
+        },
+        {
+          "term": "data center",
+          "quote": "(1) Data centers shall not establish commercial wells for any operations.",
+          "section": "SEC. 35-142",
+          "reason": "Prohibits commercial wells for data center operations; it does not authorize the use in this district."
+        },
+        {
+          "term": "data center",
+          "quote": "infrastructure necessary for the operations of the data center shall be within an enclosed structure",
+          "section": "SEC. 35-142",
+          "reason": "Enclosure standard for data center equipment; it does not authorize the use in this district."
+        },
+        {
+          "term": "servers",
+          "quote": "computer and/or network equipment, systems, servers,",
+          "section": "SEC. 35-142",
+          "reason": "Equipment list describing a data center; it does not grant the use in this district."
+        }
+      ],
+      "notes": "SEC. 35-142 regulates data centers. No line that names a data center grants a district permission."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+        "section": "§ 35-402"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "hazardous materials",
+          "quote": "16. Additional distance setbacks hazardous materials, operations will exist.",
+          "section": "SEC. 35-141",
+          "reason": "Distance-setback standard where hazardous-materials operations exist; it does not list a hazmat or heavy-manufacturing use."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(2). Disposal or recycling of batteries and hazardous materials in accordance with all",
+          "section": "§ 35-145",
+          "reason": "Disposal standard for batteries and hazardous materials; it is not a principal heavy-industrial or hazmat use permission."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "hazardous materials.",
+          "section": "§ 35-144",
+          "reason": "Fragment of a hazardous-materials standard; it does not authorize a heavy-industrial or hazmat use."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(6). Ventilation, exhaust, gas detection, and hazardous materials control measures.",
+          "section": "§ 35-144",
+          "reason": "Ventilation and hazardous-materials control standard, not a district use permission."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+          "section": "Division 12",
+          "reason": "Name of the M-2 district, not a listed heavy-industrial use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. INDUSTRIAL DISTRICT, HEAVY INDUSTRY, M-2",
+          "section": "Division 12",
+          "reason": "District title, not a listed use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "DIVISION 12. INDUSTRIAL DISTRICT (M-2); HEAVY INDUSTRY",
+          "section": "Division 12",
+          "reason": "District title, not a listed use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+          "section": "§ 35-402",
+          "reason": "Introduces the M-2 permitted-use list and does not name chemical manufacturing, refining, bulk hazmat storage, or smelting."
+        },
+        {
+          "term": "smelting",
+          "quote": "• Smelting operations",
+          "section": "§ 35-402",
+          "reason": "Smelting is heavy industry. The bullet occurs twice and no sentence places it under the M-2 permitted-use or special-use heading."
+        }
+      ],
+      "notes": "The district name establishes M-2 as heavy industry. Permission is limited to the enumerated uses that follow the chapeau, and smelting is not tied to that chapeau by the printed text."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+        "section": "§ 35-402"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "§ 35-402",
+          "reason": "Bulk LP-gas storage would map to this class. The bullet occurs twice and no sentence places it in the M-2 use list."
+        }
+      ],
+      "notes": "The M-2 permitted-use chapeau does not name LP-gas storage."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+        "section": "§ 35-402"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Utility-Scale Solar Energy Facility (≥1 MW)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "d. Requires a Special Use Permit unless otherwise permitted by right.",
+        "section": "SEC. 35-141"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Utility-scale solar is ground-mounted, at least 1 MW, and serves off-site load. No use list permits that facility by right. Small-scale solar is permitted by right in every district and serves only the host parcel, so it is outside this class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Projects Accessory to Approved Solar Facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Stand-alone grid-scale battery storage is prohibited. The ordinance regulates battery energy storage projects as accessory to approved solar facilities."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-SVMS",
+      "use_class": "datacenter",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "computer equipment",
+          "quote": "• Computer equipment manufacturing",
+          "section": "§ 35-383",
+          "reason": "Manufacturing of computer equipment is production of goods, not a building whose primary use is housing servers and network equipment."
+        },
+        {
+          "term": "data center",
+          "quote": "§ 35-142. Data Center",
+          "section": "§ 35-142",
+          "reason": "Section heading for data center standards; it does not state that a data center is permitted or a special use in M-SVMS."
+        },
+        {
+          "term": "data center",
+          "quote": "SEC. 35-142. DATA CENTER.",
+          "section": "SEC. 35-142",
+          "reason": "Section heading for data center standards; it does not place the use in M-SVMS."
+        },
+        {
+          "term": "data center",
+          "quote": "(A) Due to the high-water demand, data centers shall be connected to a public water system if a",
+          "section": "SEC. 35-142",
+          "reason": "Water-connection standard for data centers; it does not authorize the use in M-SVMS."
+        },
+        {
+          "term": "data center",
+          "quote": "(1) Data centers shall not establish commercial wells for any operations.",
+          "section": "SEC. 35-142",
+          "reason": "Prohibits commercial wells for data center operations; it does not authorize the use in M-SVMS."
+        },
+        {
+          "term": "data center",
+          "quote": "infrastructure necessary for the operations of the data center shall be within an enclosed structure",
+          "section": "SEC. 35-142",
+          "reason": "Enclosure standard for data center equipment; it does not authorize the use in M-SVMS."
+        },
+        {
+          "term": "data center",
+          "quote": "operations at a Power Station and/or a Data Center.",
+          "section": "§ 35-537",
+          "reason": "Mentions operations at a data center and does not state that a data center is permitted or a special use in M-SVMS."
+        },
+        {
+          "term": "data center",
+          "quote": "Data Centers set forth herein, and (ii) Power Station uses in M-SVMS shall",
+          "section": "§ 35-537",
+          "reason": "Refers to data center standards in a clause about which standards govern Power Station uses in M-SVMS. It does not state a permitted or special-use status for a data center."
+        },
+        {
+          "term": "servers",
+          "quote": "computer and/or network equipment, systems, servers,",
+          "section": "SEC. 35-142",
+          "reason": "Equipment list describing a data center; it does not grant the use in M-SVMS."
+        }
+      ],
+      "notes": "The M-SVMS clause names Data Center standards beside Power Station uses and does not give data centers a permitted or special-use status."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-SVMS",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "hazardous materials",
+          "quote": "16. Additional distance setbacks hazardous materials, operations will exist.",
+          "section": "SEC. 35-141",
+          "reason": "Distance-setback standard where hazardous-materials operations exist; it does not list a hazmat or heavy-manufacturing use in M-SVMS."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(2). Disposal or recycling of batteries and hazardous materials in accordance with all",
+          "section": "§ 35-145",
+          "reason": "Disposal standard for batteries and hazardous materials; it is not a principal heavy-industrial or hazmat use permission."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "hazardous materials.",
+          "section": "§ 35-144",
+          "reason": "Fragment of a hazardous-materials standard; it does not authorize a heavy-industrial or hazmat use in M-SVMS."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(6). Ventilation, exhaust, gas detection, and hazardous materials control measures.",
+          "section": "§ 35-144",
+          "reason": "Ventilation and hazardous-materials control standard, not a district use permission."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+          "section": "Division 12",
+          "reason": "Name of the M-2 district, not an M-SVMS use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. INDUSTRIAL DISTRICT, HEAVY INDUSTRY, M-2",
+          "section": "Division 12",
+          "reason": "M-2 district title, not an M-SVMS use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "DIVISION 12. INDUSTRIAL DISTRICT (M-2); HEAVY INDUSTRY",
+          "section": "Division 12",
+          "reason": "M-2 district title, not an M-SVMS use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+          "section": "§ 35-402",
+          "reason": "Introduces permitted uses in M-2, not in M-SVMS."
+        },
+        {
+          "term": "smelting",
+          "quote": "• Smelting operations",
+          "section": "§ 35-534",
+          "reason": "Smelting is heavy industry. The bullet occurs twice and no sentence places it in the M-SVMS use list."
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-SVMS",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "§ 35-534",
+          "reason": "Bulk LP-gas storage would map to this class. The bullet occurs twice and no sentence places it in the M-SVMS use list."
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-SVMS",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-SVMS",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Utility-Scale Solar Energy Facility (≥1 MW)",
+        "Power stations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "d. Requires a Special Use Permit unless otherwise permitted by right.",
+        "section": "SEC. 35-141"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Utility-scale solar requires a special use permit unless permitted by right, and no list permits it by right, so the class is conditional even where Power Station uses in M-SVMS are separately regulated. Small-scale solar serves only the host parcel and is outside this class. The M-SVMS sentence is: Data Centers set forth herein, and (ii) Power Station uses in M-SVMS shall."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-SVMS",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Projects Accessory to Approved Solar Facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Stand-alone grid-scale battery storage is prohibited. The ordinance regulates battery energy storage projects as accessory to approved solar facilities."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "MHP",
+      "use_class": "datacenter",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Manufactured Housing Park (MHP) District, permitted uses shall be for the following:",
+        "section": "Sec. 35-317"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "computer equipment",
+          "quote": "• Computer equipment manufacturing",
+          "section": "§ 35-383",
+          "reason": "Manufacturing of computer equipment is not a data center, and it is not in the MHP permitted uses or special use permits."
+        },
+        {
+          "term": "data center",
+          "quote": "§ 35-142. Data Center",
+          "section": "§ 35-142",
+          "reason": "Section heading for data center standards; data centers are not listed in Sec. 35-317 or SEC. 35-318."
+        },
+        {
+          "term": "data center",
+          "quote": "SEC. 35-142. DATA CENTER.",
+          "section": "SEC. 35-142",
+          "reason": "Section heading for data center standards; it does not place the use in MHP."
+        },
+        {
+          "term": "data center",
+          "quote": "(A) Due to the high-water demand, data centers shall be connected to a public water system if a",
+          "section": "SEC. 35-142",
+          "reason": "Water-connection standard; data centers are not an MHP permitted or special use."
+        },
+        {
+          "term": "data center",
+          "quote": "(1) Data centers shall not establish commercial wells for any operations.",
+          "section": "SEC. 35-142",
+          "reason": "Well limitation for data centers; it does not authorize the use in MHP."
+        },
+        {
+          "term": "data center",
+          "quote": "infrastructure necessary for the operations of the data center shall be within an enclosed structure",
+          "section": "SEC. 35-142",
+          "reason": "Enclosure standard; it does not authorize the use in MHP."
+        },
+        {
+          "term": "servers",
+          "quote": "computer and/or network equipment, systems, servers,",
+          "section": "SEC. 35-142",
+          "reason": "Equipment list describing a data center; MHP's use lists do not include a data center."
+        }
+      ],
+      "notes": "MHP permitted uses are Sec. 35-317 and special use permits are SEC. 35-318. Neither lists a data center."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "MHP",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Manufactured Housing Park (MHP) District, permitted uses shall be for the following:",
+        "section": "Sec. 35-317"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "hazardous materials",
+          "quote": "16. Additional distance setbacks hazardous materials, operations will exist.",
+          "section": "SEC. 35-141",
+          "reason": "Setback standard, not an MHP heavy-industrial use."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(2). Disposal or recycling of batteries and hazardous materials in accordance with all",
+          "section": "§ 35-145",
+          "reason": "Disposal standard, not an MHP use permission."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "hazardous materials.",
+          "section": "§ 35-144",
+          "reason": "Fragment of a hazardous-materials standard; smelting, refining, and chemical manufacturing are not MHP uses."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(6). Ventilation, exhaust, gas detection, and hazardous materials control measures.",
+          "section": "§ 35-144",
+          "reason": "Control standard, not an MHP use permission."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+          "section": "Division 12",
+          "reason": "Name of the M-2 district, not an MHP use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. INDUSTRIAL DISTRICT, HEAVY INDUSTRY, M-2",
+          "section": "Division 12",
+          "reason": "M-2 district title, not an MHP use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "DIVISION 12. INDUSTRIAL DISTRICT (M-2); HEAVY INDUSTRY",
+          "section": "Division 12",
+          "reason": "M-2 district title, not an MHP use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+          "section": "§ 35-402",
+          "reason": "Introduces permitted uses in M-2, not in MHP."
+        },
+        {
+          "term": "smelting",
+          "quote": "• Smelting operations",
+          "section": "§ 35-402",
+          "reason": "Smelting is not listed in Sec. 35-317 or SEC. 35-318."
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "MHP",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Manufactured Housing Park (MHP) District, permitted uses shall be for the following:",
+        "section": "Sec. 35-317"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "§ 35-402",
+          "reason": "LP gas and natural gas storage is not listed in Sec. 35-317 or SEC. 35-318."
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "MHP",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Manufactured Housing Park (MHP) District, permitted uses shall be for the following:",
+        "section": "Sec. 35-317"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "MHP",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Public utilities (including substations, power generation, water and sewer plants for treatment)",
+        "Utility-Scale Solar Energy Facility (≥1 MW)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "• Public utilities (including substations, power generation, water and sewer plants for treatment)",
+        "section": "SEC. 35-318"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "SEC. 35-318 lists this use only by special use permit. Utility-scale solar also requires a special use permit under SEC. 35-141 unless permitted by right. Small-scale solar is permitted by right in every district and serves only the host parcel, so it is outside this class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "MHP",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Projects Accessory to Approved Solar Facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Stand-alone grid-scale battery storage is prohibited. The ordinance regulates battery energy storage projects as accessory to approved solar facilities. MHP's own use lists do not include a battery energy storage project."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "R-1",
+      "use_class": "datacenter",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Residential Suburban Subdivision District (R-l), structures to be erected or land to be used shall be permitted for one of the following uses:",
+        "section": "SEC. 35-222"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "computer equipment",
+          "quote": "• Computer equipment manufacturing",
+          "section": "§ 35-383",
+          "reason": "Manufacturing of computer equipment is not a data center, and it is not in the R-1 permitted uses or special use permits."
+        },
+        {
+          "term": "data center",
+          "quote": "§ 35-142. Data Center",
+          "section": "§ 35-142",
+          "reason": "Section heading for data center standards; data centers are not listed in SEC. 35-222 or SEC. 35-223."
+        },
+        {
+          "term": "data center",
+          "quote": "SEC. 35-142. DATA CENTER.",
+          "section": "SEC. 35-142",
+          "reason": "Section heading for data center standards; it does not place the use in R-1."
+        },
+        {
+          "term": "data center",
+          "quote": "(A) Due to the high-water demand, data centers shall be connected to a public water system if a",
+          "section": "SEC. 35-142",
+          "reason": "Water-connection standard; data centers are not an R-1 permitted or special use."
+        },
+        {
+          "term": "data center",
+          "quote": "(1) Data centers shall not establish commercial wells for any operations.",
+          "section": "SEC. 35-142",
+          "reason": "Well limitation for data centers; it does not authorize the use in R-1."
+        },
+        {
+          "term": "data center",
+          "quote": "infrastructure necessary for the operations of the data center shall be within an enclosed structure",
+          "section": "SEC. 35-142",
+          "reason": "Enclosure standard; it does not authorize the use in R-1."
+        },
+        {
+          "term": "servers",
+          "quote": "computer and/or network equipment, systems, servers,",
+          "section": "SEC. 35-142",
+          "reason": "Equipment list describing a data center; R-1's use lists do not include a data center."
+        }
+      ],
+      "notes": "R-1 permitted uses are SEC. 35-222 and special use permits are SEC. 35-223. Neither lists a data center."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "R-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Residential Suburban Subdivision District (R-l), structures to be erected or land to be used shall be permitted for one of the following uses:",
+        "section": "SEC. 35-222"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "hazardous materials",
+          "quote": "16. Additional distance setbacks hazardous materials, operations will exist.",
+          "section": "SEC. 35-141",
+          "reason": "Setback standard, not an R-1 heavy-industrial use."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(2). Disposal or recycling of batteries and hazardous materials in accordance with all",
+          "section": "§ 35-145",
+          "reason": "Disposal standard, not an R-1 use permission."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "hazardous materials.",
+          "section": "§ 35-144",
+          "reason": "Fragment of a hazardous-materials standard; smelting, refining, and chemical manufacturing are not R-1 uses."
+        },
+        {
+          "term": "hazardous materials",
+          "quote": "(6). Ventilation, exhaust, gas detection, and hazardous materials control measures.",
+          "section": "§ 35-144",
+          "reason": "Control standard, not an R-1 use permission."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+          "section": "Division 12",
+          "reason": "Name of the M-2 district, not an R-1 use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Division 12. INDUSTRIAL DISTRICT, HEAVY INDUSTRY, M-2",
+          "section": "Division 12",
+          "reason": "M-2 district title, not an R-1 use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "DIVISION 12. INDUSTRIAL DISTRICT (M-2); HEAVY INDUSTRY",
+          "section": "Division 12",
+          "reason": "M-2 district title, not an R-1 use."
+        },
+        {
+          "term": "heavy industry",
+          "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+          "section": "§ 35-402",
+          "reason": "Introduces permitted uses in M-2, not in R-1."
+        },
+        {
+          "term": "smelting",
+          "quote": "• Smelting operations",
+          "section": "§ 35-402",
+          "reason": "Smelting is not listed in SEC. 35-222 or SEC. 35-223."
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "R-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Residential Suburban Subdivision District (R-l), structures to be erected or land to be used shall be permitted for one of the following uses:",
+        "section": "SEC. 35-222"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "§ 35-402",
+          "reason": "LP gas and natural gas storage is not listed in SEC. 35-222 or SEC. 35-223."
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "R-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Residential Suburban Subdivision District (R-l), structures to be erected or land to be used shall be permitted for one of the following uses:",
+        "section": "SEC. 35-222"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "R-1",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Public utilities (including substations, power generation, water and sewer plants for treatment)",
+        "Utility-Scale Solar Energy Facility (≥1 MW)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "• Public utilities (including substations, power generation, water and sewer plants for treatment),",
+        "section": "SEC. 35-223"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "SEC. 35-223 lists this use only by special use permit. Utility-scale solar also requires a special use permit under SEC. 35-141 unless permitted by right. Small-scale solar is permitted by right in every district and serves only the host parcel, so it is outside this class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "R-1",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Projects Accessory to Approved Solar Facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Stand-alone grid-scale battery storage is prohibited. The ordinance regulates battery energy storage projects as accessory to approved solar facilities. R-1's own use lists do not include a battery energy storage project."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Data Center is regulated under SEC. 35-142 and is not listed in SEC. 35-267 or SEC. 35-268. Computer equipment manufacturing does not house servers as a primary use."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Those warehouse and freight uses are not listed in SEC. 35-267 or SEC. 35-268. Agricultural warehouses do not cover general storage, fulfilment, or truck terminals."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Smelting operations are not listed in SEC. 35-267 or SEC. 35-268. Hazardous-materials wording in the ordinance is setback, disposal, and battery-safety language, not a principal hazmat use in this district."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "LP gas and natural gas storage is not listed in SEC. 35-267 or SEC. 35-268."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Residential Combined Subdivision District (RC-1), the following uses are permitted.",
+        "section": "SEC. 35-267"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Public utilities (substations, power generation, water and sewer treatment plants)",
+        "Utility-Scale Solar Energy Facility"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "The following uses shall be permitted only by special use permits:",
+        "section": "SEC. 35-268"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Power generation is inside the SEC. 35-268 public-utilities special use. Utility-Scale Solar Energy Facility text states it requires a special use permit unless otherwise permitted by right, and RC-1 does not permit it by right. Small-scale solar, permitted by right in all districts, is outside this class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery energy storage is regulated only as accessory to approved solar facilities. Stand-alone grid-scale battery storage is not a permitted or special use in SEC. 35-267 or SEC. 35-268."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Data Center is regulated under SEC. 35-142 and is not listed in SEC. 35-192 or SEC. 35-193. Computer equipment manufacturing does not house servers as a primary use."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Those warehouse and freight uses are not listed in SEC. 35-192 or SEC. 35-193. Public facilities (office, storage yards) are public facilities, not general warehousing or distribution. Agricultural warehouses do not cover this class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Smelting operations are not listed in SEC. 35-192 or SEC. 35-193. Hazardous-materials wording in the ordinance is setback, disposal, and battery-safety language, not a principal hazmat use in this district."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "LP gas and natural gas storage is not listed in SEC. 35-192 or SEC. 35-193."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Residential Estates District (RE), structures to be erected or land to be used shall be permitted for one of the following uses:",
+        "section": "SEC. 35-192"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Power generation",
+        "Utility-Scale Solar Energy Facility"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "The following uses shall be permitted only by special use permit:",
+        "section": "SEC. 35-193"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Power generation is its own SEC. 35-193 special use. Utility-Scale Solar Energy Facility text states it requires a special use permit unless otherwise permitted by right, and RE does not permit it by right. Small-scale solar, permitted by right in all districts, is outside this class. Public utilities (substations) are not generating plants."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery energy storage is regulated only as accessory to approved solar facilities. Stand-alone grid-scale battery storage is not a permitted or special use in SEC. 35-192 or SEC. 35-193."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Data Center is regulated under SEC. 35-142 and is not listed in SEC. 35-280 or SEC. 35-281. Computer equipment manufacturing does not house servers as a primary use."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Those warehouse and freight uses are not listed in SEC. 35-280 or SEC. 35-281. Public facilities (offices, storage yards) are public facilities, not general warehousing or distribution."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Smelting operations are not listed in SEC. 35-280 or SEC. 35-281. Hazardous-materials wording in the ordinance is setback, disposal, and battery-safety language, not a principal hazmat use in this district."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "LP gas and natural gas storage is not listed in SEC. 35-280 or SEC. 35-281."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Residential Multi-family District (RMF), the following uses are permitted:",
+        "section": "SEC. 35-280"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Public utilities (including substations, power generation, water and sewer plants for treatment)",
+        "Utility-Scale Solar Energy Facility"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "The following uses shall be permitted only by special use permit:",
+        "section": "SEC. 35-281"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Power generation is inside the SEC. 35-281 public-utilities special use. Utility-Scale Solar Energy Facility text states it requires a special use permit unless otherwise permitted by right, and RMF does not permit it by right. Small-scale solar, permitted by right in all districts, is outside this class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery energy storage is regulated only as accessory to approved solar facilities. Stand-alone grid-scale battery storage is not a permitted or special use in SEC. 35-280 or SEC. 35-281."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "Data Center"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Data Center is regulated under SEC. 35-142 and is not listed in SEC. 35-294 or SEC. 35-295. RPD commercial special uses are resident-serving retail and services, not data centers."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "Truck and freight terminals",
+        "Freight stations",
+        "Warehouse and storage facilities"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Those warehouse and freight uses are not listed in SEC. 35-294 or SEC. 35-295. Public facilities (offices, storage yards) are public facilities, not general warehousing or distribution."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "Smelting operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Smelting operations are not listed in SEC. 35-294 or SEC. 35-295. Hazardous-materials wording in the ordinance is setback, disposal, and battery-safety language, not a principal hazmat use in this district."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "lp_gas",
+      "status": "prohibited",
+      "local_uses": [
+        "LP gas and natural gas storage"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+        "section": "SEC. 35-48"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "LP gas and natural gas storage is not listed in SEC. 35-294 or SEC. 35-295."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Within the Residential Planned Unit Development District (RPD), the following uses are permitted:",
+        "section": "SEC. 35-294"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Public utilities (including substations, power generation)",
+        "Utility-Scale Solar Energy Facility"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "The following uses shall be permitted only by special use permits:",
+        "section": "SEC. 35-295"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "conditional",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Power generation is inside the SEC. 35-295 public-utilities special use. Utility-Scale Solar Energy Facility text states it requires a special use permit unless otherwise permitted by right, and RPD does not permit it by right. Small-scale solar, permitted by right in all districts, is outside this class."
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "battery_storage",
+      "status": "prohibited",
+      "local_uses": [
+        "Battery Energy Storage Project (BESS)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+        "section": "§ 35-143"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "prohibited",
+          "by": "grok",
+          "ref": "review-grok-us-51143-20261010T112155Z"
+        }
+      ],
+      "notes": "Battery energy storage is regulated only as accessory to approved solar facilities. Stand-alone grid-scale battery storage is not a permitted or special use in SEC. 35-294 or SEC. 35-295."
+    }
+  ],
+  "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-1",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+          "section": "SEC. 35-48"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-10",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-10",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-51143-20261010T112155Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "freight",
+            "quote": "• Freight stations",
+            "section": "§ 35-383",
+            "reason": "A freight-station listing would map to distribution, but no sentence places this bullet in the M-1 permitted or special-use list."
+          },
+          {
+            "term": "freight",
+            "quote": "• Truck and freight terminals",
+            "section": "§ 35-383",
+            "reason": "A truck and freight terminal would map to this class, but no sentence places this bullet in the M-1 use list."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal Land used for switching, storing, assembling, distributing,",
+            "section": "§ 35-536",
+            "reason": "Definition of a truck/freight terminal; it does not grant the use in M-1."
+          },
+          {
+            "term": "freight",
+            "quote": "freight by road or rail; rail appurtenances may be incidental.",
+            "section": "§ 35-536",
+            "reason": "Remainder of the truck/freight terminal definition; it does not grant the use in M-1."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "5. Bus and Truck Terminals. There shall be provided sufficient space to accommodate the",
+            "section": "§ 35-82",
+            "reason": "Parking or loading standard for bus and truck terminals, not a district use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "i. Warehouse and storage facilities Three (3) spaces per 1,000 square feet of floor",
+            "section": "§ 35-82",
+            "reason": "Off-street parking ratio for warehouse floor area, not a district use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "Agricultural warehouses are a farm-storage use, including in the Agricultural District under Sec. 35-178. They do not cover general warehousing, fulfilment, or truck terminals."
+          }
+        ],
+        "notes": "Freight stations and truck and freight terminals each appear once as bullets and are not tied to M-1 by any sentence."
+      },
+      "errors": [
+        "us-51143/M-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-2",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+          "section": "SEC. 35-48"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-10",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-10",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-51143-20261010T112155Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "freight",
+            "quote": "• Freight stations",
+            "section": "§ 35-402",
+            "reason": "A freight-station listing would map to distribution, but no sentence places this bullet in the M-2 permitted or special-use list."
+          },
+          {
+            "term": "freight",
+            "quote": "• Truck and freight terminals",
+            "section": "§ 35-402",
+            "reason": "A truck and freight terminal would map to this class, but no sentence places this bullet in the M-2 use list."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal Land used for switching, storing, assembling, distributing,",
+            "section": "§ 35-536",
+            "reason": "Definition of a truck/freight terminal; it does not grant the use in M-2."
+          },
+          {
+            "term": "freight",
+            "quote": "freight by road or rail; rail appurtenances may be incidental.",
+            "section": "§ 35-536",
+            "reason": "Remainder of the truck/freight terminal definition; it does not grant the use in M-2."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "5. Bus and Truck Terminals. There shall be provided sufficient space to accommodate the",
+            "section": "§ 35-82",
+            "reason": "Parking or loading standard for bus and truck terminals, not a district use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "i. Warehouse and storage facilities Three (3) spaces per 1,000 square feet of floor",
+            "section": "§ 35-82",
+            "reason": "Off-street parking ratio for warehouse floor area, not a district use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "Agricultural warehouses are a farm-storage use, including in the Agricultural District under Sec. 35-178. They do not cover general warehousing, fulfilment, or truck terminals."
+          }
+        ],
+        "notes": "The M-2 chapeau says the following uses are permitted and does not name a warehouse, freight station, or truck terminal."
+      },
+      "errors": [
+        "us-51143/M-2/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-SVMS",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "No structure shall hereafter be erected and no existing structure shall be moved, altered, added to, or enlarged, nor shall any land or structure be used, or arranged to be used for any purpose other than the permitted uses listed in the following Articles for the zoning district in which the structure or land is located, nor shall any land or structure be used in any manner contrary to any other requirements specified in this Ordinance.",
+          "section": "SEC. 35-48"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-10",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-10",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-51143-20261010T112155Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "freight",
+            "quote": "• Freight stations",
+            "section": "§ 35-534",
+            "reason": "A freight-station listing would map to distribution, but no sentence places this bullet in the M-SVMS permitted or special-use list."
+          },
+          {
+            "term": "freight",
+            "quote": "• Truck and freight terminals",
+            "section": "§ 35-534",
+            "reason": "A truck and freight terminal would map to this class, but no sentence places this bullet in the M-SVMS use list."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal Land used for switching, storing, assembling, distributing,",
+            "section": "§ 35-536",
+            "reason": "Definition of a truck/freight terminal; it does not grant the use in M-SVMS."
+          },
+          {
+            "term": "freight",
+            "quote": "freight by road or rail; rail appurtenances may be incidental.",
+            "section": "§ 35-536",
+            "reason": "Remainder of the truck/freight terminal definition; it does not grant the use in M-SVMS."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "5. Bus and Truck Terminals. There shall be provided sufficient space to accommodate the",
+            "section": "§ 35-82",
+            "reason": "Parking or loading standard for bus and truck terminals, not a district use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "i. Warehouse and storage facilities Three (3) spaces per 1,000 square feet of floor",
+            "section": "§ 35-82",
+            "reason": "Off-street parking ratio for warehouse floor area, not a district use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "Agricultural warehouses are a farm-storage use and do not cover general warehousing, fulfilment, or truck terminals."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-SVMS/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "MHP",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Within the Manufactured Housing Park (MHP) District, permitted uses shall be for the following:",
+          "section": "Sec. 35-317"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-10",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-10",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-51143-20261010T112155Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "freight",
+            "quote": "• Freight stations",
+            "section": "§ 35-402",
+            "reason": "Freight stations are not listed in Sec. 35-317 or SEC. 35-318."
+          },
+          {
+            "term": "freight",
+            "quote": "• Truck and freight terminals",
+            "section": "§ 35-402",
+            "reason": "Truck and freight terminals are not listed in the MHP permitted or special-use lists."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal Land used for switching, storing, assembling, distributing,",
+            "section": "§ 35-536",
+            "reason": "Definition of a truck/freight terminal; it does not grant the use in MHP."
+          },
+          {
+            "term": "freight",
+            "quote": "freight by road or rail; rail appurtenances may be incidental.",
+            "section": "§ 35-536",
+            "reason": "Remainder of the truck/freight terminal definition; it does not grant the use in MHP."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "5. Bus and Truck Terminals. There shall be provided sufficient space to accommodate the",
+            "section": "§ 35-82",
+            "reason": "Parking or loading standard, not an MHP use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "i. Warehouse and storage facilities Three (3) spaces per 1,000 square feet of floor",
+            "section": "§ 35-82",
+            "reason": "Parking ratio, not an MHP use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "Agricultural warehouses are listed in the Agricultural District and are not on the MHP use lists. They do not cover general warehousing or truck terminals."
+          }
+        ],
+        "notes": "MHP special uses include public facilities (offices, storage yards). That is a public-facility yard, not a warehouse, distribution center, or truck terminal."
+      },
+      "errors": [
+        "us-51143/MHP/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "R-1",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Within the Residential Suburban Subdivision District (R-l), structures to be erected or land to be used shall be permitted for one of the following uses:",
+          "section": "SEC. 35-222"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-10",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-10",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-51143-20261010T112155Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "freight",
+            "quote": "• Freight stations",
+            "section": "§ 35-402",
+            "reason": "Freight stations are not listed in SEC. 35-222 or SEC. 35-223."
+          },
+          {
+            "term": "freight",
+            "quote": "• Truck and freight terminals",
+            "section": "§ 35-402",
+            "reason": "Truck and freight terminals are not listed in the R-1 permitted or special-use lists."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal Land used for switching, storing, assembling, distributing,",
+            "section": "§ 35-536",
+            "reason": "Definition of a truck/freight terminal; it does not grant the use in R-1."
+          },
+          {
+            "term": "freight",
+            "quote": "freight by road or rail; rail appurtenances may be incidental.",
+            "section": "§ 35-536",
+            "reason": "Remainder of the truck/freight terminal definition; it does not grant the use in R-1."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "5. Bus and Truck Terminals. There shall be provided sufficient space to accommodate the",
+            "section": "§ 35-82",
+            "reason": "Parking or loading standard, not an R-1 use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "i. Warehouse and storage facilities Three (3) spaces per 1,000 square feet of floor",
+            "section": "§ 35-82",
+            "reason": "Parking ratio, not an R-1 use permission."
+          },
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "Agricultural warehouses are listed in the Agricultural District and are not on the R-1 use lists. They do not cover general warehousing or truck terminals."
+          }
+        ],
+        "notes": "R-1 special uses include storage yards. A storage yard is not a warehouse, distribution center, fulfilment use, or truck terminal."
+      },
+      "errors": [
+        "us-51143/R-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained"
+      ]
+    }
+  ],
+  "missing": [
+    [
+      "M-1",
+      "warehouse_distribution"
+    ],
+    [
+      "M-2",
+      "warehouse_distribution"
+    ],
+    [
+      "M-SVMS",
+      "warehouse_distribution"
+    ],
+    [
+      "MHP",
+      "warehouse_distribution"
+    ],
+    [
+      "R-1",
+      "warehouse_distribution"
+    ]
+  ]
+}
