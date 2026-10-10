@@ -11,7 +11,7 @@ from ozr.labels import label_jurisdiction
 from ozr.models import run_codex, run_grok
 
 
-def run(root: Path, jid: str, reviewer: str, call: Any = None, today: str | None = None) -> dict:
+def run(root: Path, jid: str, reviewer: str, call: Any = None, today: str | None = None, chunk_size: int = 5) -> dict:
     """Review labels without reading any previous model output."""
     if reviewer not in {"codex", "grok"}:
         raise ValueError(f"unknown reviewer: {reviewer}")
@@ -20,7 +20,15 @@ def run(root: Path, jid: str, reviewer: str, call: Any = None, today: str | None
     template = Path(__file__).resolve().parents[2] / "prompts" / "review.v1.md"
     # Grok reads text only (spec section 5), so it is never handed page images.
     output = label_jurisdiction(
-        root, jid, template, call, reviewer, f"review-{reviewer}", today, with_images=reviewer == "codex"
+        root,
+        jid,
+        template,
+        call,
+        reviewer,
+        f"review-{reviewer}",
+        today,
+        with_images=reviewer == "codex",
+        chunk_size=chunk_size,
     )
     write_json(root / "jurisdictions" / jid / f"cells.review.{reviewer}.json", output)
     return output
