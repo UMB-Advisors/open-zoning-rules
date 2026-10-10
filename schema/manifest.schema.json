@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/UMB-Advisors/open-zoning-rules/schema/manifest.schema.json",
+  "title": "Release manifest",
+  "description": "Release manifest for the consumer contract zoning-atlas.release/0.1. Unknown top-level keys are ignored.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "version",
+    "published",
+    "licence",
+    "schema_url",
+    "files",
+    "stale_after_months",
+    "denylist",
+    "reliance_notice"
+  ],
+  "properties": {
+    "schema": {
+      "const": "zoning-atlas.release/0.1"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "published": {
+      "type": "string",
+      "maxLength": 10,
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "licence": {
+      "const": "CC-BY-4.0"
+    },
+    "schema_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["format", "path", "sha256"],
+        "properties": {
+          "format": {
+            "enum": ["geoparquet", "json"]
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*\\.\\.).+$"
+          },
+          "sha256": {
+            "type": "string",
+            "maxLength": 64,
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "source_terms": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["redistribute_geometry"],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https://"
+              },
+              "redistribute_geometry": {
+                "enum": ["yes", "no", "unknown"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "stale_after_months": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 12
+    },
+    "denylist": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9.-]+$"
+      }
+    },
+    "reliance_notice": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/UMB-Advisors/open-zoning-rules/schema/state_rule.schema.json",
+  "title": "State preemption rule",
+  "description": "One row of the state preemption table. effect none_found means triage found no preemption for that state and use class.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "state", "use_class", "effect", "checked_at"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}-[a-z_]+$"
+    },
+    "state": {
+      "type": "string",
+      "maxLength": 2,
+      "pattern": "^[A-Z]{2}$"
+    },
+    "use_class": {
+      "enum": [
+        "datacenter",
+        "warehouse_distribution",
+        "heavy_industrial_hazmat",
+        "lp_gas",
+        "cannabis_cultivation_processing",
+        "utility_generation",
+        "battery_storage"
+      ]
+    },
+    "effect": {
+      "enum": [
+        "local_ban_preempted",
+        "state_siting_optional",
+        "state_siting_exclusive",
+        "local_standards_capped",
+        "none_found"
+      ]
+    },
+    "citation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "quote": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "effective_date": {
+      "type": "string",
+      "maxLength": 10,
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "setbacks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value", "unit", "from"],
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "unit": {
+            "enum": ["ft", "m", "mi"]
+          },
+          "from": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "checked_at": {
+      "type": "string",
+      "maxLength": 10,
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    }
+  },
+  "if": {
+    "properties": {
+      "effect": { "const": "none_found" }
+    },
+    "required": ["effect"]
+  },
+  "then": {},
+  "else": {
+    "required": ["citation", "quote", "url", "effective_date"]
+  }
+}

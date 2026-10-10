@@ -1,0 +1,329 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/UMB-Advisors/open-zoning-rules/schema/record.schema.json",
+  "title": "Cell record",
+  "description": "One published cells.json row: the local status of a use class in a district. Unknown top-level keys are ignored by the consumer contract zoning-atlas.release/0.1.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "jurisdiction_id",
+    "district_code",
+    "use_class",
+    "status",
+    "local_uses",
+    "evidence",
+    "source",
+    "confidence",
+    "review",
+    "parcel_specific",
+    "checked_at",
+    "stale",
+    "history"
+  ],
+  "properties": {
+    "jurisdiction_id": {
+      "type": "string",
+      "maxLength": 10,
+      "pattern": "^us-([0-9]{5}|[0-9]{7})$"
+    },
+    "district_code": {
+      "type": "string",
+      "minLength": 1
+    },
+    "use_class": {
+      "enum": [
+        "datacenter",
+        "warehouse_distribution",
+        "heavy_industrial_hazmat",
+        "lp_gas",
+        "cannabis_cultivation_processing",
+        "utility_generation",
+        "battery_storage"
+      ]
+    },
+    "status": {
+      "enum": ["permitted", "conditional", "prohibited", "unlisted"]
+    },
+    "local_uses": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "quote", "section"],
+      "properties": {
+        "kind": {
+          "enum": ["table", "prose", "absence"]
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "row_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "column_header": {
+          "type": "string",
+          "minLength": 1
+        },
+        "symbol": {
+          "type": "string"
+        }
+      },
+      "if": {
+        "properties": {
+          "kind": { "const": "table" }
+        },
+        "required": ["kind"]
+      },
+      "then": {
+        "required": ["row_label", "column_header"]
+      }
+    },
+    "definition_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quote", "section"],
+      "properties": {
+        "quote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "absence_hits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["term", "quote", "section", "reason"],
+        "properties": {
+          "term": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "section": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "url", "date"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "date": {
+          "type": "string",
+          "maxLength": 10,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        }
+      }
+    },
+    "confidence": {
+      "enum": ["A", "B", "C"]
+    },
+    "review": {
+      "enum": ["agree", "disputed", "single", "human_correction"]
+    },
+    "preemption": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state_rule_id", "effect"],
+      "properties": {
+        "state_rule_id": {
+          "type": "string",
+          "pattern": "^[a-z]{2}-[a-z_]+$"
+        },
+        "effect": {
+          "enum": [
+            "local_ban_preempted",
+            "state_siting_optional",
+            "state_siting_exclusive",
+            "local_standards_capped",
+            "none_found"
+          ]
+        }
+      }
+    },
+    "parcel_specific": {
+      "type": "boolean"
+    },
+    "see_case": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "string",
+          "pattern": "^https://"
+        }
+      ]
+    },
+    "checked_at": {
+      "type": "string",
+      "maxLength": 10,
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "stale": {
+      "type": "boolean"
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "from", "to", "by", "ref"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "maxLength": 10,
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "from": {
+            "enum": ["permitted", "conditional", "prohibited", "unlisted", null]
+          },
+          "to": {
+            "enum": ["permitted", "conditional", "prohibited", "unlisted"]
+          },
+          "by": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": ["permitted", "conditional", "prohibited"]
+          }
+        },
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "local_uses": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "answer": {
+      "title": "Lookup answer",
+      "description": "Lookup record for the consumer contract zoning-atlas.release/0.1. release is the manifest version. A null value with confidence unverified means the cell was not published.",
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "value",
+        "confidence",
+        "jurisdiction",
+        "district",
+        "evidence",
+        "source",
+        "release"
+      ],
+      "properties": {
+        "value": {
+          "enum": ["permitted", "conditional", "prohibited", "unlisted", null]
+        },
+        "confidence": {
+          "enum": ["A", "B", "C", "unverified"]
+        },
+        "jurisdiction": {
+          "type": "string",
+          "maxLength": 10,
+          "pattern": "^us-([0-9]{5}|[0-9]{7})$"
+        },
+        "district": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["quote", "section"],
+              "properties": {
+                "quote": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "section": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          ]
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "url", "date"],
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "url": {
+              "type": "string",
+              "pattern": "^https://"
+            },
+            "date": {
+              "type": "string",
+              "maxLength": 10,
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            }
+          }
+        },
+        "release": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        }
+      }
+    }
+  }
+}

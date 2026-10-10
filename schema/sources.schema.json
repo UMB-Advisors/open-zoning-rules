@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/UMB-Advisors/open-zoning-rules/schema/sources.schema.json",
+  "title": "Sources file",
+  "description": "The sources.json release file: one entry per fetched primary source.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sources"],
+  "properties": {
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_id",
+          "jurisdiction_id",
+          "kind",
+          "url",
+          "fetched_at",
+          "source_date",
+          "sha256",
+          "licence_terms",
+          "redistribute_geometry",
+          "triage"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "jurisdiction_id": {
+            "type": "string",
+            "maxLength": 10,
+            "pattern": "^us-([0-9]{5}|[0-9]{7})$"
+          },
+          "kind": {
+            "enum": ["ordinance", "gis_layer", "amendment", "minutes", "statute"]
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "final_url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "fetched_at": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T"
+          },
+          "source_date": {
+            "type": "string",
+            "maxLength": 10,
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "sha256": {
+            "type": "string",
+            "maxLength": 64,
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "licence_terms": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https://"
+              }
+            },
+            "anyOf": [
+              { "required": ["text"] },
+              { "required": ["url"] }
+            ]
+          },
+          "redistribute_geometry": {
+            "enum": ["yes", "no", "unknown"]
+          },
+          "triage": {
+            "enum": ["ok", "geometry_restricted", "analyst_fetch"]
+          },
+          "arcgis_org_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}
