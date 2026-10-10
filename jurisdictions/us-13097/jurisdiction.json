@@ -1,0 +1,291 @@
+{
+  "jurisdiction_id": "us-13097",
+  "name": "Douglas County",
+  "type": "county",
+  "state": "GA",
+  "unlisted_rule": "none",
+  "code_version": "unknown",
+  "conditional_zoning_unmapped": false,
+  "sources": [
+    "us-13097-udc-page",
+    "us-13097-udc",
+    "us-13097-gis-zoning"
+  ],
+  "districts": [
+    {
+      "district_code": "AG",
+      "district_name": "Agricultural",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "AG"
+      }
+    },
+    {
+      "district_code": "C-G",
+      "district_name": "General Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "C-G"
+      }
+    },
+    {
+      "district_code": "C-G-C",
+      "district_name": "General Commercial - Conditions",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "C-G-C"
+      }
+    },
+    {
+      "district_code": "C-H",
+      "district_name": "Heavy Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "C-H"
+      }
+    },
+    {
+      "district_code": "C-H-C",
+      "district_name": "Heavy Commercial - Conditions",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "C-H-C"
+      }
+    },
+    {
+      "district_code": "HI",
+      "district_name": "Heavy Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "HI"
+      }
+    },
+    {
+      "district_code": "LI",
+      "district_name": "Light Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "LI"
+      }
+    },
+    {
+      "district_code": "LI-C",
+      "district_name": "Light Industrial - Conditions",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "LI-C"
+      }
+    },
+    {
+      "district_code": "LI-R",
+      "district_name": "Restricted Light Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "LI-R"
+      }
+    },
+    {
+      "district_code": "LI-R-C",
+      "district_name": "Restricted Light Industrial - Conditions",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "LI-R-C"
+      }
+    },
+    {
+      "district_code": "OI",
+      "district_name": "Office/Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "OI"
+      }
+    },
+    {
+      "district_code": "PRD",
+      "district_name": "Planned Residential District",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "PRD"
+      }
+    },
+    {
+      "district_code": "PSP",
+      "district_name": "Public Semi-Public",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "PSP"
+      }
+    },
+    {
+      "district_code": "PUD",
+      "district_name": "Planned Unit Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "PUD"
+      }
+    },
+    {
+      "district_code": "PUD-C",
+      "district_name": "Planned Unit Development - Conditions",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "PUD-C"
+      }
+    },
+    {
+      "district_code": "R-A",
+      "district_name": "Residential-Agricultural",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-A"
+      }
+    },
+    {
+      "district_code": "R-A-C",
+      "district_name": "Residential-Agricultural - Conditions",
+      "family": "agricultural",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-A-C"
+      }
+    },
+    {
+      "district_code": "R-HD",
+      "district_name": "Residential-High Density",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-HD"
+      }
+    },
+    {
+      "district_code": "R-HD-C",
+      "district_name": "Residential-High Density - Conditions",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-HD-C"
+      }
+    },
+    {
+      "district_code": "R-LD",
+      "district_name": "Low Density Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-LD"
+      }
+    },
+    {
+      "district_code": "R-LD-C",
+      "district_name": "Low Density Single-Family Residential - Conditions",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-LD-C"
+      }
+    },
+    {
+      "district_code": "R-MD",
+      "district_name": "Medium Density Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-MD"
+      }
+    },
+    {
+      "district_code": "R-MD-C",
+      "district_name": "Medium Density Single-Family Residential - Conditions",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-MD-C"
+      }
+    },
+    {
+      "district_code": "R-MF",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-MF"
+      }
+    },
+    {
+      "district_code": "R-MH",
+      "district_name": "Manufactured Home Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+        "field": "ZONING_GIS",
+        "value": "R-MH"
+      }
+    }
+  ]
+}

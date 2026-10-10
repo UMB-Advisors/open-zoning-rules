@@ -1,0 +1,169 @@
+{
+  "jurisdiction_id": "us-51143",
+  "name": "Pittsylvania County",
+  "type": "county",
+  "state": "VA",
+  "unlisted_rule": "none",
+  "code_version": "2026-08-18",
+  "conditional_zoning_unmapped": true,
+  "sources": [
+    "us-51143-zo-ch35",
+    "us-51143-gis-zoning"
+  ],
+  "districts": [
+    {
+      "district_code": "A-1",
+      "district_name": "Agricultural",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "A-1"
+      }
+    },
+    {
+      "district_code": "B-1",
+      "district_name": "Business District (Limited)",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "B-1"
+      }
+    },
+    {
+      "district_code": "B-2",
+      "district_name": "Business District (General)",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "B-2"
+      }
+    },
+    {
+      "district_code": "C-1",
+      "district_name": "Conservation",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "C-1"
+      }
+    },
+    {
+      "district_code": "DZ",
+      "district_name": "Double-Zoned",
+      "family": "other",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "DZ"
+      }
+    },
+    {
+      "district_code": "M-1",
+      "district_name": "Industrial (Light)",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "M-1"
+      }
+    },
+    {
+      "district_code": "M-2",
+      "district_name": "Industrial (Heavy)",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "M-2"
+      }
+    },
+    {
+      "district_code": "M-SVMS",
+      "district_name": "Industrial (Mega-Site)",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "M-SVMS"
+      }
+    },
+    {
+      "district_code": "MHP",
+      "district_name": "Residential Manufactured Housing",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "MHP"
+      }
+    },
+    {
+      "district_code": "R-1",
+      "district_name": "Residential Suburban Subd.",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "R-1"
+      }
+    },
+    {
+      "district_code": "RC-1",
+      "district_name": "Residential Combined Subd.",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "RC-1"
+      }
+    },
+    {
+      "district_code": "RE",
+      "district_name": "Residential Estates",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "RE"
+      }
+    },
+    {
+      "district_code": "RMF",
+      "district_name": "Residential Multi-Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "RMF"
+      }
+    },
+    {
+      "district_code": "RPD",
+      "district_name": "Residential Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+        "field": "PC_ZONE_CODE",
+        "value": "RPD"
+      }
+    }
+  ]
+}

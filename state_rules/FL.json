@@ -1,0 +1,108 @@
+[
+  {
+    "id": "fl-datacenter",
+    "state": "FL",
+    "use_class": "datacenter",
+    "effect": "none_found",
+    "citation": "s. 163.326, F.S. (created by ch. 2026-65); definitions s. 373.203(3)-(4), F.S.",
+    "quote": "Local governments shall maintain the authority to exercise the powers and responsibilities for comprehensive planning and land development regulation granted by law with respect to large load customers.",
+    "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199/0163/Sections/0163.326.html",
+    "conditions": [
+      "The 2026 law expressly preserves local land-development authority over large-load customers, including data centers.",
+      "A large load customer may not be treated as an electric substation for s. 163.3208.",
+      "Not class-specific: ch. 2025-190 (SB 180) s. 28 (uncodified) bars counties in FEMA declarations DR-4806, DR-4828 and DR-4834 from adopting moratoria or more restrictive land development regulations before 2027-10-01. Not checked whether 2026 legislation amended s. 28."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "fl-warehouse_distribution",
+    "state": "FL",
+    "use_class": "warehouse_distribution",
+    "effect": "none_found",
+    "conditions": [
+      "No Florida statute found preempting local zoning of warehouse or distribution uses. The SB 180 s. 28 general cap (see the datacenter row) applies in the listed counties until 2027-10-01."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "fl-heavy_industrial_hazmat",
+    "state": "FL",
+    "use_class": "heavy_industrial_hazmat",
+    "effect": "none_found",
+    "conditions": [
+      "No Florida statute found preempting local zoning of heavy industrial or hazardous-materials uses. Not exhaustively searched."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "fl-lp_gas",
+    "state": "FL",
+    "use_class": "lp_gas",
+    "effect": "none_found",
+    "citation": "s. 366.032(1)(e), F.S.; ch. 527, F.S.",
+    "quote": "may not enact or enforce a resolution, ordinance, rule, code, or policy or take any action that restricts or prohibits or has the effect of restricting or prohibiting the types or fuel sources of energy production which may be used, delivered, converted, or supplied by the following entities to serve customers that such entities are authorized to serve:",
+    "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0366/Sections/0366.032.html",
+    "conditions": [
+      "s. 366.032(1)(e) preempts local restrictions on LP gas as a fuel source supplied by licensed LP gas dealers; it does not address zoning or siting of LP gas storage.",
+      "Ch. 527 has the state set rules on the location and installation of LP gas storage equipment but does not displace local zoning."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "fl-cannabis_cultivation_processing",
+    "state": "FL",
+    "use_class": "cannabis_cultivation_processing",
+    "effect": "state_siting_exclusive",
+    "citation": "s. 381.986(11), F.S. (created by ch. 2017-232)",
+    "quote": "Regulation of cultivation, processing, and delivery of marijuana by medical marijuana treatment centers is preempted to the state except as provided in this subsection.",
+    "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0381/Sections/0381.986.html",
+    "effective_date": "2017-06-23",
+    "setbacks": [
+      {
+        "value": 500,
+        "unit": "ft",
+        "from": "real property of a public or private elementary, middle or secondary school"
+      }
+    ],
+    "conditions": [
+      "Applies to medical marijuana treatment centers only.",
+      "A county or municipality may ban dispensing facilities by ordinance (s. 381.986(11)(b)1.); dispensing is outside this class.",
+      "Local building and fire code enforcement is preserved (s. 381.986(11)(d)).",
+      "Effective date is that of ch. 2017-232 (approved by the Governor June 23, 2017; takes effect upon becoming law), which created the subsection; later amendments to s. 381.986 were not traced to subsection (11).",
+      "The effect value is a judgement call: 'preempted to the state' could also be read as local_ban_preempted."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "fl-utility_generation",
+    "state": "FL",
+    "use_class": "utility_generation",
+    "effect": "state_siting_exclusive",
+    "citation": "ss. 403.503, 403.506, 403.511(3), F.S. (Florida Electrical Power Plant Siting Act)",
+    "quote": "The certification and any order on land use and zoning issued under this act shall be in lieu of any license, permit, certificate, or similar document required by any state, regional, or local agency pursuant to, but not limited to, chapter 125, chapter 161, chapter 163, chapter 166,",
+    "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0403/Sections/0403.511.html",
+    "effective_date": "unknown",
+    "conditions": [
+      "Covers only an electrical power plant as defined in s. 403.503: a steam or solar electrical generating facility; facilities under 75 MW are outside the Act unless the applicant elects certification (state_siting_optional below 75 MW).",
+      "Non-steam generation such as simple-cycle combustion turbines is outside the Act.",
+      "s. 163.3205(3) makes a solar facility a permitted use in all agricultural land use categories and agricultural zoning districts in unincorporated areas, and caps county buffer and landscaping requirements (s. 163.3205(4)).",
+      "Effective date not established: the history note lists ch. 73-33 through ch. 2018-34 and the act that last changed subsection (3) was not identified."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "fl-battery_storage",
+    "state": "FL",
+    "use_class": "battery_storage",
+    "effect": "none_found",
+    "citation": "s. 163.3205(2), F.S. (solar-paired storage only)",
+    "quote": "Consists principally of photovoltaic modules, a mounting or racking system, power inverters, transformers, collection systems, battery systems, fire suppression equipment, and associated components.",
+    "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199/0163/Sections/0163.3205.html",
+    "conditions": [
+      "No statute found preempting local zoning of stand-alone battery energy storage.",
+      "Battery systems that are part of a solar facility fall under s. 163.3205.",
+      "s. 163.3208 limits local rules for electric substations to setback, landscaping, buffering, screening, lighting and aesthetic standards; whether that reaches co-located storage is unclear."
+    ],
+    "checked_at": "2026-10-09"
+  }
+]

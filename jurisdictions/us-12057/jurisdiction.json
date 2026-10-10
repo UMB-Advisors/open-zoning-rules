@@ -1,0 +1,1062 @@
+{
+  "jurisdiction_id": "us-12057",
+  "name": "Hillsborough County (unincorporated)",
+  "type": "county",
+  "state": "FL",
+  "unlisted_rule": "unknown",
+  "code_version": "2022-06-15",
+  "conditional_zoning_unmapped": true,
+  "sources": [
+    "us-12057-ldc-page",
+    "us-12057-ldc-supp50",
+    "us-12057-bocc-2026-08-05",
+    "us-12057-gis-zoning"
+  ],
+  "districts": [
+    {
+      "district_code": "A",
+      "district_name": "Agriculture",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "A"
+      }
+    },
+    {
+      "district_code": "AI",
+      "district_name": "Agricultural - Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "AI"
+      }
+    },
+    {
+      "district_code": "AM",
+      "district_name": "Agricultural - Mining",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "AM"
+      }
+    },
+    {
+      "district_code": "AR",
+      "district_name": "Agricultural - Rural",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "AR"
+      }
+    },
+    {
+      "district_code": "AS-0.4",
+      "district_name": "Agricultural - Single-Family Estate",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "AS-0.4"
+      }
+    },
+    {
+      "district_code": "AS-1",
+      "district_name": "Agricultural - Single-Family",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "AS-1"
+      }
+    },
+    {
+      "district_code": "ASC-1",
+      "district_name": "Agricultural - Single-Family Conventional",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "ASC-1"
+      }
+    },
+    {
+      "district_code": "BMS-GW",
+      "district_name": "Brandon Main Street",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "BMS-GW"
+      }
+    },
+    {
+      "district_code": "BMS-NS",
+      "district_name": "Brandon Main Street",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "BMS-NS"
+      }
+    },
+    {
+      "district_code": "BMS-TC1",
+      "district_name": "Brandon Main Street",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "BMS-TC1"
+      }
+    },
+    {
+      "district_code": "BMS-TC2",
+      "district_name": "Brandon Main Street",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "BMS-TC2"
+      }
+    },
+    {
+      "district_code": "BPO",
+      "district_name": "Business - Professional Office",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "BPO"
+      }
+    },
+    {
+      "district_code": "CG",
+      "district_name": "Commercial - General",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CG"
+      }
+    },
+    {
+      "district_code": "CI",
+      "district_name": "Commercial - Intensive",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CI"
+      }
+    },
+    {
+      "district_code": "CN",
+      "district_name": "Commercial - Neighborhood",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CN"
+      }
+    },
+    {
+      "district_code": "CPV-A-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-A-1"
+      }
+    },
+    {
+      "district_code": "CPV-A-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-A-2"
+      }
+    },
+    {
+      "district_code": "CPV-A-3",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-A-3"
+      }
+    },
+    {
+      "district_code": "CPV-A-4",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-A-4"
+      }
+    },
+    {
+      "district_code": "CPV-A-5",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-A-5"
+      }
+    },
+    {
+      "district_code": "CPV-A-6",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-A-6"
+      }
+    },
+    {
+      "district_code": "CPV-B-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-B-1"
+      }
+    },
+    {
+      "district_code": "CPV-B-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-B-2"
+      }
+    },
+    {
+      "district_code": "CPV-B-3",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-B-3"
+      }
+    },
+    {
+      "district_code": "CPV-B-4",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-B-4"
+      }
+    },
+    {
+      "district_code": "CPV-B-5",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-B-5"
+      }
+    },
+    {
+      "district_code": "CPV-C",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-C"
+      }
+    },
+    {
+      "district_code": "CPV-D-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-D-1"
+      }
+    },
+    {
+      "district_code": "CPV-D-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-D-2"
+      }
+    },
+    {
+      "district_code": "CPV-D-3",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-D-3"
+      }
+    },
+    {
+      "district_code": "CPV-D-4",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-D-4"
+      }
+    },
+    {
+      "district_code": "CPV-E-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-E-1"
+      }
+    },
+    {
+      "district_code": "CPV-E-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-E-2"
+      }
+    },
+    {
+      "district_code": "CPV-F-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-F-1"
+      }
+    },
+    {
+      "district_code": "CPV-F-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-F-2"
+      }
+    },
+    {
+      "district_code": "CPV-F-3",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-F-3"
+      }
+    },
+    {
+      "district_code": "CPV-G-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-G-1"
+      }
+    },
+    {
+      "district_code": "CPV-G-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-G-2"
+      }
+    },
+    {
+      "district_code": "CPV-G-3",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-G-3"
+      }
+    },
+    {
+      "district_code": "CPV-G-4",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-G-4"
+      }
+    },
+    {
+      "district_code": "CPV-G-5",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-G-5"
+      }
+    },
+    {
+      "district_code": "CPV-G-7",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-G-7"
+      }
+    },
+    {
+      "district_code": "CPV-G-8",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-G-8"
+      }
+    },
+    {
+      "district_code": "CPV-H-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-H-1"
+      }
+    },
+    {
+      "district_code": "CPV-H-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-H-2"
+      }
+    },
+    {
+      "district_code": "CPV-I-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-I-1"
+      }
+    },
+    {
+      "district_code": "CPV-I-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-I-2"
+      }
+    },
+    {
+      "district_code": "CPV-I-3",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-I-3"
+      }
+    },
+    {
+      "district_code": "CPV-I-4",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-I-4"
+      }
+    },
+    {
+      "district_code": "CPV-P-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-P-1"
+      }
+    },
+    {
+      "district_code": "CPV-P-2",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-P-2"
+      }
+    },
+    {
+      "district_code": "CPV-P-3",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-P-3"
+      }
+    },
+    {
+      "district_code": "CPV-U-1",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-U-1"
+      }
+    },
+    {
+      "district_code": "CPV-U-3",
+      "district_name": "Citrus Park Village",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "CPV-U-3"
+      }
+    },
+    {
+      "district_code": "IPD-1",
+      "district_name": "Interstate Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "IPD-1"
+      }
+    },
+    {
+      "district_code": "IPD-2",
+      "district_name": "Interstate Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "IPD-2"
+      }
+    },
+    {
+      "district_code": "IPD-3",
+      "district_name": "Interstate Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "IPD-3"
+      }
+    },
+    {
+      "district_code": "LDC",
+      "district_name": "Lutz Downtown Center",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "LDC"
+      }
+    },
+    {
+      "district_code": "M",
+      "district_name": "Manufacturing",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "M"
+      }
+    },
+    {
+      "district_code": "OR",
+      "district_name": "Office Residential",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "OR"
+      }
+    },
+    {
+      "district_code": "PD",
+      "district_name": "Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "PD"
+      }
+    },
+    {
+      "district_code": "PD-MU",
+      "district_name": "Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "PD-MU"
+      }
+    },
+    {
+      "district_code": "RDC-12",
+      "district_name": "Residential - Duplex Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RDC-12"
+      }
+    },
+    {
+      "district_code": "RDC-6",
+      "district_name": "Residential - Duplex Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RDC-6"
+      }
+    },
+    {
+      "district_code": "RDD-DT1",
+      "district_name": "Riverview Downtown District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RDD-DT1"
+      }
+    },
+    {
+      "district_code": "RDD-DT2",
+      "district_name": "Riverview Downtown District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RDD-DT2"
+      }
+    },
+    {
+      "district_code": "RDD-RW2",
+      "district_name": "Riverview Downtown District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RDD-RW2"
+      }
+    },
+    {
+      "district_code": "RDD-RW3",
+      "district_name": "Riverview Downtown District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RDD-RW3"
+      }
+    },
+    {
+      "district_code": "RDD-RW4",
+      "district_name": "Riverview Downtown District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RDD-RW4"
+      }
+    },
+    {
+      "district_code": "RMC-12",
+      "district_name": "Residential - Multi-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RMC-12"
+      }
+    },
+    {
+      "district_code": "RMC-16",
+      "district_name": "Residential - Multi-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RMC-16"
+      }
+    },
+    {
+      "district_code": "RMC-20",
+      "district_name": "Residential - Multi-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RMC-20"
+      }
+    },
+    {
+      "district_code": "RMC-6",
+      "district_name": "Residential - Multi-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RMC-6"
+      }
+    },
+    {
+      "district_code": "RMC-9",
+      "district_name": "Residential - Multi-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RMC-9"
+      }
+    },
+    {
+      "district_code": "RSB",
+      "district_name": "Residential - Show Business",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RSB"
+      }
+    },
+    {
+      "district_code": "RSC-2",
+      "district_name": "Residential - Single-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RSC-2"
+      }
+    },
+    {
+      "district_code": "RSC-3",
+      "district_name": "Residential - Single-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RSC-3"
+      }
+    },
+    {
+      "district_code": "RSC-4",
+      "district_name": "Residential - Single-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RSC-4"
+      }
+    },
+    {
+      "district_code": "RSC-6",
+      "district_name": "Residential - Single-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RSC-6"
+      }
+    },
+    {
+      "district_code": "RSC-9",
+      "district_name": "Residential - Single-Family Conventional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RSC-9"
+      }
+    },
+    {
+      "district_code": "RTC-1",
+      "district_name": "Ruskin Town Center",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RTC-1"
+      }
+    },
+    {
+      "district_code": "RTC-2",
+      "district_name": "Ruskin Town Center",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "RTC-2"
+      }
+    },
+    {
+      "district_code": "SPI-AP-1",
+      "district_name": "Special Public Interest - Airport",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-AP-1"
+      }
+    },
+    {
+      "district_code": "SPI-AP-2",
+      "district_name": "Special Public Interest - Airport",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-AP-2"
+      }
+    },
+    {
+      "district_code": "SPI-AP-3",
+      "district_name": "Special Public Interest - Airport",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-AP-3"
+      }
+    },
+    {
+      "district_code": "SPI-AP-4",
+      "district_name": "Special Public Interest - Airport",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-AP-4"
+      }
+    },
+    {
+      "district_code": "SPI-AP-5",
+      "district_name": "Special Public Interest - Airport",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-AP-5"
+      }
+    },
+    {
+      "district_code": "SPI-AP-V",
+      "district_name": "Special Public Interest - Airport",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-AP-V"
+      }
+    },
+    {
+      "district_code": "SPI-HC",
+      "district_name": "Historic and Cultural Conservation",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-HC"
+      }
+    },
+    {
+      "district_code": "SPI-UC-1",
+      "district_name": "Special Public Interest - University Community",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-UC-1"
+      }
+    },
+    {
+      "district_code": "SPI-UC-2",
+      "district_name": "Special Public Interest - University Community",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-UC-2"
+      }
+    },
+    {
+      "district_code": "SPI-UC-3",
+      "district_name": "Special Public Interest - University Community",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "SPI-UC-3"
+      }
+    },
+    {
+      "district_code": "TND",
+      "district_name": "Traditional Neighborhood Development",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "TND"
+      }
+    },
+    {
+      "district_code": "UCA-MS",
+      "district_name": "University Community Area",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "UCA-MS"
+      }
+    },
+    {
+      "district_code": "UCA-NHO",
+      "district_name": "University Community Area",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "NZONE",
+        "value": "UCA-NHO"
+      }
+    }
+  ]
+}

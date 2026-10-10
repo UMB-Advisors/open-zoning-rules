@@ -1,0 +1,258 @@
+{
+  "jurisdiction_id": "us-12069",
+  "name": "Lake County (unincorporated)",
+  "type": "county",
+  "state": "FL",
+  "unlisted_rule": "none",
+  "code_version": "unknown",
+  "conditional_zoning_unmapped": false,
+  "sources": [
+    "us-12069-planning-page",
+    "us-12069-ord-2026-xx-draft",
+    "us-12069-gis-zoning"
+  ],
+  "districts": [
+    {
+      "district_code": "A",
+      "district_name": "Agriculture",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "A"
+      }
+    },
+    {
+      "district_code": "AR",
+      "district_name": "Agricultural Residential",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "AR"
+      }
+    },
+    {
+      "district_code": "C-1",
+      "district_name": "Neighborhood Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "C-1"
+      }
+    },
+    {
+      "district_code": "C-2",
+      "district_name": "Community Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "C-2"
+      }
+    },
+    {
+      "district_code": "C-3",
+      "district_name": "C-3",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "C-3"
+      }
+    },
+    {
+      "district_code": "CFD",
+      "district_name": "Community Facility District",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "CFD"
+      }
+    },
+    {
+      "district_code": "CP",
+      "district_name": "Planned Commercial",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "CP"
+      }
+    },
+    {
+      "district_code": "HM",
+      "district_name": "Heavy Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "HM"
+      }
+    },
+    {
+      "district_code": "LM",
+      "district_name": "Light Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "LM"
+      }
+    },
+    {
+      "district_code": "MP",
+      "district_name": "Planned Industrial",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "MP"
+      }
+    },
+    {
+      "district_code": "PUD",
+      "district_name": "Planned Unit Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "PUD"
+      }
+    },
+    {
+      "district_code": "R-1",
+      "district_name": "Rural Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "R-1"
+      }
+    },
+    {
+      "district_code": "R-2",
+      "district_name": "Estate Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "R-2"
+      }
+    },
+    {
+      "district_code": "R-3",
+      "district_name": "Medium Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "R-3"
+      }
+    },
+    {
+      "district_code": "R-4",
+      "district_name": "Medium Suburban Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "R-4"
+      }
+    },
+    {
+      "district_code": "R-6",
+      "district_name": "Urban Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "R-6"
+      }
+    },
+    {
+      "district_code": "R-7",
+      "district_name": "Mixed Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "R-7"
+      }
+    },
+    {
+      "district_code": "RA",
+      "district_name": "Ranchette District",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "RA"
+      }
+    },
+    {
+      "district_code": "RM",
+      "district_name": "Mixed Home Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "RM"
+      }
+    },
+    {
+      "district_code": "RMRP",
+      "district_name": "Mobile Home Rental Park",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "RMRP"
+      }
+    },
+    {
+      "district_code": "RP",
+      "district_name": "Residential Professional",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "RP"
+      }
+    },
+    {
+      "district_code": "RV",
+      "district_name": "Recreational Vehicle Park",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+        "field": "Zoning",
+        "value": "RV"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "source_id": "us-13077-zoning-division",
+      "jurisdiction_id": "us-13077",
+      "kind": "ordinance",
+      "url": "https://www.coweta.ga.us/306/Zoning-Division",
+      "fetched_at": "2026-10-10T06:44:04Z",
+      "source_date": "unknown",
+      "sha256": "de297c4bc3c856317f8eb802b5db1cbc106ffbee4da90395d45dd94ec145b69c",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch"
+    },
+    {
+      "source_id": "us-13077-gis-zoning",
+      "jurisdiction_id": "us-13077",
+      "kind": "gis_layer",
+      "url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0?f=json",
+      "fetched_at": "2026-10-10T06:44:05Z",
+      "source_date": "2026-10-01",
+      "sha256": "bf069b2842787b0f9f3809d65478e87a99cd0360b370486d62618f800ac2b255",
+      "licence_terms": {
+        "text": "GIS Information Policy: data goes to non-governmental organisations under a Data Exchange Agreement that prohibits selling and re-use of the data.",
+        "url": "https://www.coweta.ga.us/DocumentCenter/View/665/GIS-Information-Policy-PDF"
+      },
+      "redistribute_geometry": "no",
+      "triage": "geometry_restricted"
+    }
+  ]
+}

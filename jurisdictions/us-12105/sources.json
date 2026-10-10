@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "source_id": "us-12105-planning-tools",
+      "jurisdiction_id": "us-12105",
+      "kind": "ordinance",
+      "url": "https://www.polkfl.gov/government/planning-and-development/planning-and-development-tools/",
+      "fetched_at": "2026-10-10T06:43:10Z",
+      "source_date": "unknown",
+      "sha256": "3c669fbcd8bbff531ee4348f7b4ead71ee30cf39f74f9c8f7b9769353abe21a0",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch"
+    },
+    {
+      "source_id": "us-12105-ordinance-index",
+      "jurisdiction_id": "us-12105",
+      "kind": "amendment",
+      "url": "https://apps.polk-county.net/ordinances/",
+      "fetched_at": "2026-10-10T06:43:12Z",
+      "source_date": "unknown",
+      "sha256": "c7808746487c707299981b457c3c653e7f40c5714a5cf3343c19e83668a1e95c",
+      "licence_terms": {
+        "text": "To obtain a copy of an ordinance, please submit a Public Records Request"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch"
+    },
+    {
+      "source_id": "us-12105-gis-flu",
+      "jurisdiction_id": "us-12105",
+      "kind": "gis_layer",
+      "url": "https://gis.polk-county.net/hosting/rest/services/PublicViewer/Map_Land_Use_and_Zoning/MapServer/9?f=json",
+      "fetched_at": "2026-10-10T06:43:14Z",
+      "source_date": "2016-09-20",
+      "sha256": "c774c0391bd3bbd9bc4dd84b014983c0d4627c31b0534196903808526ac9695f",
+      "licence_terms": {
+        "text": "Updated September 20, 2016. Polk County GIS/IT Division and Polk County Office of Planning and Development"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted"
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "jurisdiction_id": "us-51107",
+  "name": "Loudoun County",
+  "type": "county",
+  "state": "VA",
+  "unlisted_rule": "prohibited_by_default",
+  "unlisted_rule_quote": {
+    "quote": "If the Zoning Administrator determines that an unlisted proposed use does not fall within the definition of a use identified and defined in the Zoning Ordinance, the use is not permitted unless the Board of Supervisors, in its discretion, approves a Zoning Ordinance Amendment (Section 10.10.02) to allow such use.",
+    "section": "3.01.G.3"
+  },
+  "code_version": "2023-12-13",
+  "conditional_zoning_unmapped": true,
+  "sources": [
+    "us-51107-zo-ch3",
+    "us-51107-zo-ch12",
+    "us-51107-zo-faq",
+    "us-51107-dc-phase1",
+    "us-51107-gis-zoning"
+  ],
+  "districts": [
+    {
+      "district_code": "A10",
+      "district_name": "Agriculture",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "A10"
+      }
+    },
+    {
+      "district_code": "A3",
+      "district_name": "Agricultural/Residential",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "A3"
+      }
+    },
+    {
+      "district_code": "AR1",
+      "district_name": "Agricultural Rural - 1",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "AR1"
+      }
+    },
+    {
+      "district_code": "AR2",
+      "district_name": "Agricultural Rural - 2",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "AR2"
+      }
+    },
+    {
+      "district_code": "C1",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "C1"
+      }
+    },
+    {
+      "district_code": "CCCC",
+      "district_name": "Commercial Center - Community Center",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "CCCC"
+      }
+    },
+    {
+      "district_code": "CCNC",
+      "district_name": "Commercial Center - Neighborhood Center",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "CCNC"
+      }
+    },
+    {
+      "district_code": "CCSC",
+      "district_name": "Commercial Center - Small Regional Center",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "CCSC"
+      }
+    },
+    {
+      "district_code": "CLI",
+      "district_name": "Commercial/Light Industry",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "CLI"
+      }
+    },
+    {
+      "district_code": "CR1",
+      "district_name": "Countryside Residential-1",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "CR1"
+      }
+    },
+    {
+      "district_code": "CR2",
+      "district_name": "Countryside Residential-2",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "CR2"
+      }
+    },
+    {
+      "district_code": "CR3",
+      "district_name": "Countryside Residential-3",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "CR3"
+      }
+    },
+    {
+      "district_code": "CR4",
+      "district_name": "Countryside Residential-4",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "CR4"
+      }
+    },
+    {
+      "district_code": "GB",
+      "district_name": "General Business",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "GB"
+      }
+    },
+    {
+      "district_code": "GI",
+      "district_name": "General Industry",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "GI"
+      }
+    },
+    {
+      "district_code": "IP",
+      "district_name": "Industrial Park",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "IP"
+      }
+    },
+    {
+      "district_code": "JLMA1",
+      "district_name": "Joint Land Management Area-1",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "JLMA1"
+      }
+    },
+    {
+      "district_code": "JLMA2",
+      "district_name": "Joint Land Management Area-2",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "JLMA2"
+      }
+    },
+    {
+      "district_code": "JLMA20",
+      "district_name": "Joint Land Management Area-20",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "JLMA20"
+      }
+    },
+    {
+      "district_code": "JLMA3",
+      "district_name": "Joint Land Management Area-3",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "JLMA3"
+      }
+    },
+    {
+      "district_code": "MRHI",
+      "district_name": "Mineral Resource/Heavy Industry",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "MRHI"
+      }
+    },
+    {
+      "district_code": "OP",
+      "district_name": "Office Park",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "OP"
+      }
+    },
+    {
+      "district_code": "PDAAAR",
+      "district_name": "Planned Development-Active Adult/Age Restricted",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDAAAR"
+      }
+    },
+    {
+      "district_code": "PDCCRC",
+      "district_name": "Planned Development-Commercial Center (Regional Center)",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDCCRC"
+      }
+    },
+    {
+      "district_code": "PDCH",
+      "district_name": "Planned Development-Commercial Highway",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDCH"
+      }
+    },
+    {
+      "district_code": "PDGI",
+      "district_name": "Planned Development-General Industrial",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDGI"
+      }
+    },
+    {
+      "district_code": "PDH3",
+      "district_name": "Planned Development Housing-3",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDH3"
+      }
+    },
+    {
+      "district_code": "PDH4",
+      "district_name": "Planned Development Housing-4",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDH4"
+      }
+    },
+    {
+      "district_code": "PDH6",
+      "district_name": "Planned Development Housing-6",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDH6"
+      }
+    },
+    {
+      "district_code": "PDIP",
+      "district_name": "Planned Development-Industrial Park",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDIP"
+      }
+    },
+    {
+      "district_code": "PDMUB",
+      "district_name": "Planned Development-Mixed Use Business",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDMUB"
+      }
+    },
+    {
+      "district_code": "PDOP",
+      "district_name": "Planned Development-Office Park",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDOP"
+      }
+    },
+    {
+      "district_code": "PDRDP",
+      "district_name": "Planned Development-Research and Development Park",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDRDP"
+      }
+    },
+    {
+      "district_code": "PDRV",
+      "district_name": "Planned Development-Rural Village",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDRV"
+      }
+    },
+    {
+      "district_code": "PDSA",
+      "district_name": "Planned Development-Special Activity",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDSA"
+      }
+    },
+    {
+      "district_code": "PDSC",
+      "district_name": "Planned Development-Shopping Center",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PDSC"
+      }
+    },
+    {
+      "district_code": "PUD-1",
+      "district_name": "Planned Unit Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "PUD-1"
+      }
+    },
+    {
+      "district_code": "R1",
+      "district_name": "Single Family Residential-1",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "R1"
+      }
+    },
+    {
+      "district_code": "R16",
+      "district_name": "Townhouse/Multifamily Residential-16",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "R16"
+      }
+    },
+    {
+      "district_code": "R2",
+      "district_name": "Single Family Residential-2",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "R2"
+      }
+    },
+    {
+      "district_code": "R24",
+      "district_name": "Multifamily Residential-24",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "R24"
+      }
+    },
+    {
+      "district_code": "R3",
+      "district_name": "Single Family Residential-3",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "R3"
+      }
+    },
+    {
+      "district_code": "R4",
+      "district_name": "Single Family Residential-4",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "R4"
+      }
+    },
+    {
+      "district_code": "R8",
+      "district_name": "Single Family Residential-8",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "R8"
+      }
+    },
+    {
+      "district_code": "RC",
+      "district_name": "Rural Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "RC"
+      }
+    },
+    {
+      "district_code": "SCN16",
+      "district_name": "Suburban Compact Neighborhood-16",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "SCN16"
+      }
+    },
+    {
+      "district_code": "SCN24",
+      "district_name": "Suburban Compact Neighborhood-24",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "SCN24"
+      }
+    },
+    {
+      "district_code": "SCN8",
+      "district_name": "Suburban Compact Neighborhood-8",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "SCN8"
+      }
+    },
+    {
+      "district_code": "TC",
+      "district_name": "Town Center",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TC"
+      }
+    },
+    {
+      "district_code": "TR10",
+      "district_name": "Transitional Residential - 10",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TR10"
+      }
+    },
+    {
+      "district_code": "TR1LF",
+      "district_name": "Transitional Residential - 1 (Lower Foley)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TR1LF"
+      }
+    },
+    {
+      "district_code": "TR1UBF",
+      "district_name": "Transitional Residential - 1 (Upper Broad Run and Upper Foley)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TR1UBF"
+      }
+    },
+    {
+      "district_code": "TR2",
+      "district_name": "Transitional Residential - 2",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TR2"
+      }
+    },
+    {
+      "district_code": "TR3LBR",
+      "district_name": "Transitional Residential - 3 (Lower Bull Run)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TR3LBR"
+      }
+    },
+    {
+      "district_code": "TR3LF",
+      "district_name": "Transitional Residential - 3 (Lower Foley)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TR3LF"
+      }
+    },
+    {
+      "district_code": "TR3UBF",
+      "district_name": "Transitional Residential - 3 (Upper Broad Run and Upper Foley)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TR3UBF"
+      }
+    },
+    {
+      "district_code": "TRC",
+      "district_name": "Transit Related Center",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+        "field": "ZO_ZONE",
+        "value": "TRC"
+      }
+    }
+  ]
+}
