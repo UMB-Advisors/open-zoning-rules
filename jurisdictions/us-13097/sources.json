@@ -5,7 +5,7 @@
       "jurisdiction_id": "us-13097",
       "kind": "ordinance",
       "url": "https://www.douglascountyga.gov/612/Unified-Development-Code",
-      "fetched_at": "2026-10-10T06:44:12Z",
+      "fetched_at": "2026-10-10T08:46:43Z",
       "source_date": "unknown",
       "sha256": "9a782035d2cceaacfc5788c9f9c4485c793efaa33df563607b08e430e8804557",
       "licence_terms": {
@@ -20,7 +20,7 @@
       "kind": "ordinance",
       "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
       "final_url": "https://www.douglascountyga.gov/DocumentCenter/View/14787/Douglas-County-Unified-Development-Code_Updates-through-August-2026?bidId=",
-      "fetched_at": "2026-10-10T06:44:10Z",
+      "fetched_at": "2026-10-10T08:46:47Z",
       "source_date": "2026-08-18",
       "sha256": "36d41e6407d3e61b6c7537e1f4110e24d4d867fb5e9db12f5af34f9e24838569",
       "licence_terms": {
@@ -34,7 +34,7 @@
       "jurisdiction_id": "us-13097",
       "kind": "gis_layer",
       "url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7?f=json",
-      "fetched_at": "2026-10-10T06:44:14Z",
+      "fetched_at": "2026-10-10T08:46:50Z",
       "source_date": "unknown",
       "sha256": "c533b463d4f2c9e625098928aa1e03fc35d602a4d7a3df794fd719db9b442618",
       "licence_terms": {
