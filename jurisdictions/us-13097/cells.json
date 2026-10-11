@@ -1373,7 +1373,7 @@
       "definition_section": "raw",
       "symbol": "table"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -1423,7 +1423,7 @@
       "definition_section": "raw",
       "symbol": "table"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "ga-heavy_industrial_hazmat",
@@ -1612,7 +1612,7 @@
       "definition_section": "raw",
       "symbol": "table"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -1662,8 +1662,8 @@
       "definition_section": "raw",
       "symbol": "table"
     },
-    "review": "agree",
-    "confidence": "B",
+    "review": "single",
+    "confidence": "C",
     "preemption": {
       "state_rule_id": "ga-heavy_industrial_hazmat",
       "effect": "local_ban_preempted"
@@ -1851,7 +1851,7 @@
       "definition_section": "raw",
       "symbol": "table"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -1901,8 +1901,8 @@
       "definition_section": "raw",
       "symbol": "table"
     },
-    "review": "agree",
-    "confidence": "B",
+    "review": "single",
+    "confidence": "C",
     "preemption": {
       "state_rule_id": "ga-heavy_industrial_hazmat",
       "effect": "local_ban_preempted"

@@ -828,411 +828,6 @@
     {
       "jurisdiction_id": "us-13097",
       "district_code": "HI",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "Warehouse and Truck Terminal are defined as storage and distribution uses. No Table 2.2 row for those names shows a symbol under HI. Section 338 mini-warehouses and warehouse clubs are excluded from the class. Postal bulk-mailing distribution centers are a parking line, not this class.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "207 (m) says LI is for uses that need office and distribution facilities, but allowed principal uses are only those shown on Table 2.2. No Warehouse or Truck Terminal symbol is printed under LI.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-C",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "No LI-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2, so Warehouse and Truck Terminal are not shown as allowed there.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "No Table 2.2 symbol under LI-R for Warehouse or Truck Terminal. The LI-R purpose names data storage and offices, not general warehousing or truck terminals.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R-C",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "No LI-R-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "HI",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Sec. 210(d)(3) states uses and manufacturing processes specifically prohibited in all zoning districts are listed in Division IV of Article 3. Item (6) is that chemical-manufacturing ban. The carved-out row Chemical Manufacturing: Pharmaceutical and Medicine is ** under HI, which is less restrictive: permitted only in an existing structure with no expansion, otherwise a special use permit. Most restrictive status is prohibited.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Countywide chemical-manufacturing ban, with pharmaceutical and medicine manufacturing separately marked ** under LI on Table 2.2. Most restrictive status is prohibited.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-C",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "The chemical-manufacturing ban is countywide. LI-C is not a Table 2.2 column. Pharmaceutical manufacturing is not given a symbol for LI-C.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Countywide chemical-manufacturing ban. Pharmaceutical and medicine manufacturing is ** under LI-R, which is less restrictive than prohibited.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R-C",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "The chemical-manufacturing ban is countywide. LI-R-C is not a Table 2.2 column.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "HI",
       "use_class": "utility_generation",
       "status": "conditional",
       "local_uses": [
@@ -2553,15 +2148,428 @@
   ],
   "matched_text_counts": {
     "column_header:raw": 44,
-    "definition_quote:raw": 5,
-    "definition_section:raw": 5,
-    "quote:raw": 18,
+    "quote:raw": 8,
     "row_label:raw": 14,
     "row_label:table": 30,
-    "section:raw": 62,
+    "section:raw": 52,
     "symbol:table": 44
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "HI",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "Warehouse and Truck Terminal are defined as storage and distribution uses. No Table 2.2 row for those names shows a symbol under HI. Section 338 mini-warehouses and warehouse clubs are excluded from the class. Postal bulk-mailing distribution centers are a parking line, not this class."
+      },
+      "errors": [
+        "us-13097/HI/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'hi'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "207 (m) says LI is for uses that need office and distribution facilities, but allowed principal uses are only those shown on Table 2.2. No Warehouse or Truck Terminal symbol is printed under LI."
+      },
+      "errors": [
+        "us-13097/LI/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'li'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-C",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "No LI-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2, so Warehouse and Truck Terminal are not shown as allowed there."
+      },
+      "errors": [
+        "us-13097/LI-C/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'li'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "No Table 2.2 symbol under LI-R for Warehouse or Truck Terminal. The LI-R purpose names data storage and offices, not general warehousing or truck terminals."
+      },
+      "errors": [
+        "us-13097/LI-R/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'lir'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R-C",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "No LI-R-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2."
+      },
+      "errors": [
+        "us-13097/LI-R-C/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'lir'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "HI",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Sec. 210(d)(3) states uses and manufacturing processes specifically prohibited in all zoning districts are listed in Division IV of Article 3. Item (6) is that chemical-manufacturing ban. The carved-out row Chemical Manufacturing: Pharmaceutical and Medicine is ** under HI, which is less restrictive: permitted only in an existing structure with no expansion, otherwise a special use permit. Most restrictive status is prohibited."
+      },
+      "errors": [
+        "us-13097/HI/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'hi'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Countywide chemical-manufacturing ban, with pharmaceutical and medicine manufacturing separately marked ** under LI on Table 2.2. Most restrictive status is prohibited."
+      },
+      "errors": [
+        "us-13097/LI/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'li'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-C",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "The chemical-manufacturing ban is countywide. LI-C is not a Table 2.2 column. Pharmaceutical manufacturing is not given a symbol for LI-C."
+      },
+      "errors": [
+        "us-13097/LI-C/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'li'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Countywide chemical-manufacturing ban. Pharmaceutical and medicine manufacturing is ** under LI-R, which is less restrictive than prohibited."
+      },
+      "errors": [
+        "us-13097/LI-R/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'lir'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R-C",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "The chemical-manufacturing ban is countywide. LI-R-C is not a Table 2.2 column."
+      },
+      "errors": [
+        "us-13097/LI-R-C/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'lir'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-13097",
@@ -9880,6 +9888,14 @@
     ],
     [
       "HI",
+      "warehouse_distribution"
+    ],
+    [
+      "HI",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "HI",
       "lp_gas"
     ],
     [
@@ -9892,6 +9908,14 @@
     ],
     [
       "LI",
+      "warehouse_distribution"
+    ],
+    [
+      "LI",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "LI",
       "lp_gas"
     ],
     [
@@ -9901,6 +9925,14 @@
     [
       "LI-C",
       "datacenter"
+    ],
+    [
+      "LI-C",
+      "warehouse_distribution"
+    ],
+    [
+      "LI-C",
+      "heavy_industrial_hazmat"
     ],
     [
       "LI-C",
@@ -9924,6 +9956,14 @@
     ],
     [
       "LI-R",
+      "warehouse_distribution"
+    ],
+    [
+      "LI-R",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "LI-R",
       "lp_gas"
     ],
     [
@@ -9933,6 +9973,14 @@
     [
       "LI-R-C",
       "datacenter"
+    ],
+    [
+      "LI-R-C",
+      "warehouse_distribution"
+    ],
+    [
+      "LI-R-C",
+      "heavy_industrial_hazmat"
     ],
     [
       "LI-R-C",

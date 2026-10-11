@@ -8,12 +8,12 @@
     {
       "format": "json",
       "path": "cells.json",
-      "sha256": "a47feefc0720ae2187968912ea60684f26cbdef699ebad2b9943ee713e687489"
+      "sha256": "68c9cf144e6ed1384e4a48a9ed20dd9743c4c0e737d2fafb3609a70ecffabeee"
     },
     {
       "format": "geoparquet",
       "path": "cells.parquet",
-      "sha256": "b1d338e4419432a994067f309b02d6b80007251eaabe04b7a5547bdb782dd790"
+      "sha256": "69029edbc985c8d8364f75432c5f7f0dd51c17615773d970883600c08c70ecb0"
     },
     {
       "format": "json",
@@ -28,7 +28,7 @@
     {
       "format": "json",
       "path": "amendments.json",
-      "sha256": "3a40fe77f2c9c6524988ad470d0e9829225682f3b50f9c7581ed0528932f2f49"
+      "sha256": "edd76ab349fab9fd3d5e61b4a90df1cdc100361185376156bc647c6eb1fe3db1"
     },
     {
       "format": "json",
@@ -38,7 +38,7 @@
     {
       "format": "json",
       "path": "withheld.json",
-      "sha256": "5645b745cf0682aa05b6fcacfc750938eec2e1910e7a42d0935aca2b3481dbc0"
+      "sha256": "3b73203571357c9720d5ab46cd5e95befbe8f730cad9d66d2db47b3e3530ad08"
     },
     {
       "format": "json",
@@ -48,7 +48,7 @@
     {
       "format": "json",
       "path": "accuracy.json",
-      "sha256": "30a3b4f30716954d1665cbcc4bd10fafac8c933bb22818e05e5c98ea7fc6f380"
+      "sha256": "966a93d09ac83aa1cbf4f4ac7f9644d4d61f022aafb9f28ca7f1f32b2cd253c3"
     }
   ],
   "other_files": [

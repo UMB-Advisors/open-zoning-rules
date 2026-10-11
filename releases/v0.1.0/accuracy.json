@@ -4,25 +4,25 @@
   "reliance_notice": "This is a research dataset, not a legal determination. Before relying on any answer, at every grade, get a zoning verification letter or use determination from the planning department, or a land-use attorney or planner.",
   "counts": {
     "universe": 1071,
-    "gold": 323,
-    "disputed": 33,
-    "reviewer_missing": 715
+    "gold": 321,
+    "disputed": 29,
+    "reviewer_missing": 721
   },
-  "listed_agreement": 0.973404255319149,
+  "listed_agreement": 0.9731182795698925,
   "unlisted_recall": 0.9851851851851852,
   "unlisted_precision": 1.0,
-  "disputed_share": 0.03081232492997199,
+  "disputed_share": 0.02707749766573296,
   "gold_counts": {
     "permitted": 2,
     "conditional": 15,
-    "prohibited": 171,
+    "prohibited": 169,
     "unlisted": 135
   },
-  "lower_bound": 0.8876404494382022,
-  "kappa": 0.8338988802171702,
+  "lower_bound": 0.8971428571428571,
+  "kappa": 0.8506078714197403,
   "gates": {
     "listed_agreement": {
-      "value": 0.973404255319149,
+      "value": 0.9731182795698925,
       "threshold": 0.9,
       "result": "insufficient data"
     },
@@ -37,7 +37,7 @@
       "result": "pass"
     },
     "disputed_share": {
-      "value": 0.03081232492997199,
+      "value": 0.02707749766573296,
       "threshold": 0.15,
       "result": "pass"
     }
@@ -94,14 +94,14 @@
     "us-13097": {
       "counts": {
         "universe": 175,
-        "gold": 46,
-        "disputed": 6,
-        "reviewer_missing": 123
+        "gold": 44,
+        "disputed": 2,
+        "reviewer_missing": 129
       },
       "listed_agreement": 1.0,
       "unlisted_recall": null,
       "unlisted_precision": null,
-      "disputed_share": 0.03428571428571429
+      "disputed_share": 0.011428571428571429
     },
     "us-51061": {
       "counts": {
@@ -156,14 +156,14 @@
     "industrial": {
       "counts": {
         "universe": 133,
-        "gold": 32,
-        "disputed": 12,
-        "reviewer_missing": 89
+        "gold": 30,
+        "disputed": 8,
+        "reviewer_missing": 95
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 0.9166666666666666,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.09022556390977443
+      "disputed_share": 0.06015037593984962
     },
     "mixed": {
       "counts": {
@@ -203,9 +203,9 @@
     }
   },
   "gate_rejection_rate": {
-    "extractor": 0.484593837535014,
+    "extractor": 0.4864612511671335,
     "codex": 0.5182072829131653,
-    "grok": 0.5267686424474187
+    "grok": 0.5363288718929254
   },
   "known_answers": [
     {
