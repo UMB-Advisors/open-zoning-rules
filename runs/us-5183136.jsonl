@@ -11,3 +11,11 @@
 {"step": "grade", "run_id": "grade-us-5183136-20261011T110853Z", "at": "2026-10-11T11:08:54Z", "published": 44, "withheld": 40}
 {"step": "regate", "run_id": "regate-us-5183136-20261011T145836Z", "at": "2026-10-11T14:58:36Z", "files": {"cells.extracted.json": {"cells": 49, "rejected": 35}, "cells.review.codex.json": {"cells": 44, "rejected": 40}, "cells.review.grok.json": {"cells": 36, "rejected": 48}}}
 {"step": "grade", "run_id": "grade-us-5183136-9df91feea7876cf2", "at": "2026-10-11T15:07:23Z", "published": 44, "withheld": 40}
+{"step": "regate", "run_id": "regate-us-5183136-9670889743697271", "at": "2026-10-11T15:20:26Z", "files": {"cells.extracted.json": {"cells": 49, "rejected": 35}, "cells.review.codex.json": {"cells": 44, "rejected": 40}, "cells.review.grok.json": {"cells": 36, "rejected": 48}}}
+{"step": "grade", "run_id": "grade-us-5183136-b96774d799d90e0f", "at": "2026-10-11T15:28:51Z", "published": 44, "withheld": 40}
+{"step": "regate", "run_id": "regate-us-5183136-9670889743697271", "at": "2026-10-11T15:29:08Z", "files": {"cells.extracted.json": {"cells": 49, "rejected": 35}, "cells.review.codex.json": {"cells": 44, "rejected": 40}, "cells.review.grok.json": {"cells": 36, "rejected": 48}}}
+{"step": "grade", "run_id": "grade-us-5183136-1e766c3c67724ac4", "at": "2026-10-11T15:37:41Z", "published": 44, "withheld": 40}
+{"step": "regate", "run_id": "regate-us-5183136-9670889743697271", "at": "2026-10-11T15:40:24Z", "files": {"cells.extracted.json": {"cells": 49, "rejected": 35}, "cells.review.codex.json": {"cells": 44, "rejected": 40}, "cells.review.grok.json": {"cells": 36, "rejected": 48}}}
+{"step": "grade", "run_id": "grade-us-5183136-8a9117381b031aa5", "at": "2026-10-11T15:48:24Z", "published": 44, "withheld": 40}
+{"step": "regate", "run_id": "regate-us-5183136-9670889743697271", "at": "2026-10-11T15:48:40Z", "files": {"cells.extracted.json": {"cells": 49, "rejected": 35}, "cells.review.codex.json": {"cells": 44, "rejected": 40}, "cells.review.grok.json": {"cells": 36, "rejected": 48}}}
+{"step": "grade", "run_id": "grade-us-5183136-8a9117381b031aa5", "at": "2026-10-11T15:57:18Z", "published": 44, "withheld": 40}

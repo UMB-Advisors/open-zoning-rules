@@ -18,7 +18,7 @@
     {
       "format": "json",
       "path": "jurisdictions.json",
-      "sha256": "6db6aa5c9aa14655cc4aceafd23184d1627fa2c7a7e6729944d173aba03fb62b"
+      "sha256": "454e24e2a3859d31dba32d59d998190bbc8b7241463f00ff4e1d9d48c63c534c"
     },
     {
       "format": "json",
@@ -38,7 +38,7 @@
     {
       "format": "json",
       "path": "withheld.json",
-      "sha256": "32fb5c2a2fe987a3fb7746210d604087310f09a9623d71bebe41268f508da2b6"
+      "sha256": "5645b745cf0682aa05b6fcacfc750938eec2e1910e7a42d0935aca2b3481dbc0"
     },
     {
       "format": "json",

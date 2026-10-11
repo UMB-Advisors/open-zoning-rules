@@ -15,3 +15,11 @@
 {"step": "grade", "run_id": "grade-us-51107-20261011T110856Z", "at": "2026-10-11T11:08:58Z", "published": 288, "withheld": 111}
 {"step": "regate", "run_id": "regate-us-51107-20261011T145957Z", "at": "2026-10-11T14:59:57Z", "files": {"cells.extracted.json": {"cells": 257, "rejected": 142}, "cells.review.codex.json": {"cells": 251, "rejected": 148}, "cells.review.grok.json": {"cells": 188, "rejected": 186}}}
 {"step": "grade", "run_id": "grade-us-51107-64dc9330e3fefac4", "at": "2026-10-11T15:07:26Z", "published": 247, "withheld": 152}
+{"step": "regate", "run_id": "regate-us-51107-fb7d412b907ebf52", "at": "2026-10-11T15:22:04Z", "files": {"cells.extracted.json": {"cells": 257, "rejected": 142}, "cells.review.codex.json": {"cells": 251, "rejected": 148}, "cells.review.grok.json": {"cells": 188, "rejected": 186}}}
+{"step": "grade", "run_id": "grade-us-51107-a917b8d604869cfc", "at": "2026-10-11T15:28:54Z", "published": 247, "withheld": 152}
+{"step": "regate", "run_id": "regate-us-51107-fb7d412b907ebf52", "at": "2026-10-11T15:30:27Z", "files": {"cells.extracted.json": {"cells": 257, "rejected": 142}, "cells.review.codex.json": {"cells": 251, "rejected": 148}, "cells.review.grok.json": {"cells": 188, "rejected": 186}}}
+{"step": "grade", "run_id": "grade-us-51107-317f5861c8b39824", "at": "2026-10-11T15:37:44Z", "published": 247, "withheld": 152}
+{"step": "regate", "run_id": "regate-us-51107-fb7d412b907ebf52", "at": "2026-10-11T15:41:42Z", "files": {"cells.extracted.json": {"cells": 257, "rejected": 142}, "cells.review.codex.json": {"cells": 251, "rejected": 148}, "cells.review.grok.json": {"cells": 188, "rejected": 186}}}
+{"step": "grade", "run_id": "grade-us-51107-a27ba66ef10b8ca3", "at": "2026-10-11T15:48:27Z", "published": 247, "withheld": 152}
+{"step": "regate", "run_id": "regate-us-51107-fb7d412b907ebf52", "at": "2026-10-11T15:49:52Z", "files": {"cells.extracted.json": {"cells": 257, "rejected": 142}, "cells.review.codex.json": {"cells": 251, "rejected": 148}, "cells.review.grok.json": {"cells": 188, "rejected": 186}}}
+{"step": "grade", "run_id": "grade-us-51107-a27ba66ef10b8ca3", "at": "2026-10-11T15:57:21Z", "published": 247, "withheld": 152}
