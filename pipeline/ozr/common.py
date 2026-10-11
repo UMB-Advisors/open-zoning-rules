@@ -35,12 +35,24 @@ def segment_dir(root: Path, jid: str) -> Path:
     return cache_dir(root) / "segments" / jid
 
 
-def jurisdiction_ids(root: Path) -> list[str]:
+def jurisdiction_ids(root: Path, *, include_retired: bool = False) -> list[str]:
     """Return sorted jurisdiction directories that contain jurisdiction.json."""
     base = root / "jurisdictions"
     if not base.exists():
         return []
-    return sorted(path.name for path in base.iterdir() if path.is_dir() and (path / "jurisdiction.json").is_file())
+    ids: list[str] = []
+    for path in base.iterdir():
+        jurisdiction_path = path / "jurisdiction.json"
+        if not path.is_dir() or not jurisdiction_path.is_file():
+            continue
+        try:
+            jurisdiction = read_json(jurisdiction_path)
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+            ids.append(path.name)
+            continue
+        if include_retired or not (isinstance(jurisdiction, dict) and isinstance(jurisdiction.get("retired"), dict)):
+            ids.append(path.name)
+    return sorted(ids)
 
 
 def append_run(root: Path, jid: str, record: dict) -> None:
