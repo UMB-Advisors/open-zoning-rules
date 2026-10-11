@@ -235,7 +235,8 @@ def gate_cells(
         for source_id in sources_by_id
         if text_path(root, source_id).is_file()
     }
-    all_text = jurisdiction_text(root / "cache" / "text", jurisdiction["sources"])
+    exempt = {source_id for source_id, source in sources_by_id.items() if source.get("kind") == "gis_layer"}
+    all_text = jurisdiction_text(root / "cache" / "text", jurisdiction["sources"], exempt=exempt)
     district_codes = [item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
     district_codes = [code for code in district_codes if isinstance(code, str)]
     denylist = load_denylist(root / "policy" / "denylist.txt")
@@ -250,11 +251,10 @@ def gate_cells(
         pair = (cell.get("district_code"), cell.get("use_class"))
         if pair in seen:
             errors.append(f"{cell.get('jurisdiction_id')}/{pair[0]}/{pair[1]}: duplicate cell")
-        else:
-            seen.add(pair)
         if errors:
             rejected.append({"cell": cell, "errors": errors})
         else:
+            seen.add(pair)
             cell["matched_text"] = matched_layers(cell, full_texts.get(source_id, ""))
             accepted.append(cell)
     return accepted, rejected
@@ -285,7 +285,8 @@ def label_jurisdiction(
     segments = load_segments(root, jid)
     checked_at = today or default_today()
     run_id = _run_id(run_step, jid)
-    all_text = jurisdiction_text(root / "cache" / "text", jurisdiction["sources"])
+    exempt = {source_id for source_id, source in sources_by_id.items() if source.get("kind") == "gis_layer"}
+    all_text = jurisdiction_text(root / "cache" / "text", jurisdiction["sources"], exempt=exempt)
     hits = term_hits(all_text, taxonomy)
     districts = [item for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
     if chunk_size < 1:

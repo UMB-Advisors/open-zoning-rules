@@ -187,7 +187,8 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
     pairs = [row["pair"] for row in rows if row["pair"]]
     disputed_failed = (summary["disputed_share"] or 0) > 0.15
     listed_enough = all(gold_counts[status] >= 50 for status in LISTED)
-    unlisted_enough = sum(row["extractor"] == "unlisted" and row["gold"] is not None for row in rows) >= 50
+    unlisted_recall_enough = gold_counts["unlisted"] >= 50
+    unlisted_precision_enough = sum(row["extractor"] == "unlisted" and row["gold"] is not None for row in rows) >= 50
     gates = {
         "listed_agreement": _gate(
             summary["listed_agreement"], 0.90, listed_enough, "disputed share exceeds 0.15" if disputed_failed else None
@@ -195,13 +196,13 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
         "unlisted_recall": _gate(
             summary["unlisted_recall"],
             0.85,
-            unlisted_enough,
+            unlisted_recall_enough,
             "disputed share exceeds 0.15" if disputed_failed else None,
         ),
         "unlisted_precision": _gate(
             summary["unlisted_precision"],
             0.85,
-            unlisted_enough,
+            unlisted_precision_enough,
             "disputed share exceeds 0.15" if disputed_failed else None,
         ),
         "disputed_share": {

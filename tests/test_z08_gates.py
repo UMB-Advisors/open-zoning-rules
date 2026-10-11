@@ -140,7 +140,7 @@ def test_absence_explanations_cover_each_occurrence() -> None:
         "battery_storage",
         [{"term": "BESS", "quote": "BESS is not this use", "section": "Sec. 1", "reason": "Context."}],
     )
-    assert absence_errors(covered, "BESS is not this use", TAXONOMY, {"unlisted_rule": "none"}) == []
+    assert absence_errors(covered, "Sec. 1 BESS is not this use", TAXONOMY, {"unlisted_rule": "none"}) == []
 
 
 def test_cell_errors_uses_jurisdiction_absence_text() -> None:

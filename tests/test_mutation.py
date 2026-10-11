@@ -72,15 +72,31 @@ def test_mutate_leaves_dotted_citations_alone() -> None:
 
 def _mutation_root(tiny_root: Path, filler_rows: int = 0, conditional_symbol: str = "SE") -> Path:
     base = tiny_root / "jurisdictions" / "us-00000"
+    jurisdiction_path = base / "jurisdiction.json"
+    jurisdiction = json.loads(jurisdiction_path.read_text(encoding="utf-8"))
+    jurisdiction["table_key"] = [
+        {"symbol": "P", "status": "permitted", "quote": "P = permitted", "section": "Sec. 4-2"},
+        {
+            "symbol": conditional_symbol,
+            "status": "conditional",
+            "quote": f"{conditional_symbol} = conditional",
+            "section": "Sec. 4-2",
+        },
+        {"symbol": "", "status": "prohibited", "quote": "blank = not permitted", "section": "Sec. 4-2"},
+    ]
+    jurisdiction_path.write_text(json.dumps(jurisdiction), encoding="utf-8")
     filler = "".join(f"Filler{index} | P | {conditional_symbol} | P\n" for index in range(filler_rows))
     table = "Use | I-1 | I-2 | I-3\n" + filler + "Warehouse | P | P | P\n"
-    raw = "Sec. 4-2\nSec. 4-3\nAny use not listed in Table 4-2 is prohibited.\n"
+    raw = (
+        f"Sec. 4-2\nP = permitted\n{conditional_symbol} = conditional\nblank = not permitted\n"
+        "Sec. 4-3\nAny use not listed in Table 4-2 is prohibited.\n"
+    )
     segment = "=== us-00000-zo page 1 ===\n" + raw + "\n[reconstructed table text]\n" + table
     path = tiny_root / "cache" / "segments" / "us-00000" / "use_table-us-00000-zo.txt"
     path.parent.mkdir(parents=True)
     path.write_text(segment, encoding="utf-8")
     source = tiny_root / "cache" / "text" / "us-00000-zo.txt"
-    source.parent.mkdir(parents=True)
+    source.parent.mkdir(parents=True, exist_ok=True)
     source.write_text(raw + TABLE_TEXT_MARKER + "[page 1]\n" + table, encoding="utf-8")
     (base / "segments.json").write_text(
         json.dumps(

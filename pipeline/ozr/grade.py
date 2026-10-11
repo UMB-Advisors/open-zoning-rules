@@ -3,12 +3,13 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 from datetime import date
 from pathlib import Path
 
 from ozr.common import append_run, read_json, text_path, utc_now, write_json
 from ozr.contamination import load_denylist
-from ozr.gates import apply_grade_rules, cell_errors, jurisdiction_text, ocr_only
+from ozr.gates import OCR_TEXT_MARKER, apply_grade_rules, cell_errors, jurisdiction_text, ocr_only, superseded_errors
 
 
 def _key(cell: dict) -> tuple[object, object, object]:
@@ -54,12 +55,38 @@ def _pending(path: Path, cell: dict) -> bool:
     return False
 
 
+def _grade_run_id(root: Path, base: Path, jid: str, today: str, source_ids: list[str]) -> str:
+    """Derive a grade run id from its deterministic inputs."""
+    digest = hashlib.sha256()
+    digest.update(b"today\0")
+    digest.update(today.encode())
+    paths = [
+        base / "jurisdiction.json",
+        base / "sources.json",
+        base / "amendments.json",
+        base / "cells.extracted.json",
+        base / "cells.review.codex.json",
+        base / "cells.review.grok.json",
+        root / "taxonomy" / "v1.json",
+    ]
+    state = read_json(base / "jurisdiction.json").get("state")
+    if isinstance(state, str):
+        paths.append(root / "state_rules" / f"{state}.json")
+    paths.extend(root / "cache" / "text" / f"{source_id}.txt" for source_id in source_ids)
+    for path in paths:
+        if path.is_file():
+            digest.update(str(path.relative_to(root)).encode())
+            digest.update(path.read_bytes())
+    return f"grade-{jid}-{digest.hexdigest()[:16]}"
+
+
 def grade_jurisdiction(root: Path, jid: str, today: str) -> dict:
     """Publish extractor cells only when a blind reviewer label passed its gates."""
     base = root / "jurisdictions" / jid
     jurisdiction = read_json(base / "jurisdiction.json")
+    source_document = read_json(base / "sources.json")
     taxonomy = read_json(root / "taxonomy" / "v1.json")
-    if not isinstance(jurisdiction, dict) or not isinstance(taxonomy, dict):
+    if not isinstance(jurisdiction, dict) or not isinstance(taxonomy, dict) or not isinstance(source_document, dict):
         raise ValueError(f"invalid jurisdiction inputs: {jid}")
     extractor = _cells(base / "cells.extracted.json")
     extracted_path = base / "cells.extracted.json"
@@ -71,14 +98,24 @@ def grade_jurisdiction(root: Path, jid: str, today: str) -> dict:
     rules_path = root / "state_rules" / f"{jurisdiction.get('state')}.json"
     rules = read_json(rules_path) if rules_path.is_file() else []
     rules = rules if isinstance(rules, list) else []
+    amendments_path = base / "amendments.json"
+    amendments = read_json(amendments_path) if amendments_path.is_file() else []
+    amendments = amendments if isinstance(amendments, list) else []
+    sources = {
+        source.get("source_id"): source
+        for source in source_document.get("sources", [])
+        if isinstance(source, dict) and isinstance(source.get("source_id"), str)
+    }
     denylist = load_denylist(root / "policy" / "denylist.txt")
     classes = [item.get("id") for item in taxonomy.get("classes", []) if isinstance(item, dict)]
     order = {value: index for index, value in enumerate(classes)}
     published: list[dict] = []
     withheld: list[dict] = []
     extractor_by_key = {_key(cell): cell for cell in extractor}
-    run_id = f"grade-{jid}-{utc_now().replace('-', '').replace(':', '')}"
-    absence_text = jurisdiction_text(root / "cache" / "text", jurisdiction.get("sources", []))
+    source_ids = [source_id for source_id in jurisdiction.get("sources", []) if isinstance(source_id, str)]
+    run_id = _grade_run_id(root, base, jid, today, source_ids)
+    exempt = {source_id for source_id in source_ids if sources.get(source_id, {}).get("kind") == "gis_layer"}
+    absence_text = jurisdiction_text(root / "cache" / "text", source_ids, exempt=exempt)
     districts = [item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
     for district in districts:
         for use_class in classes:
@@ -143,9 +180,19 @@ def grade_jurisdiction(root: Path, jid: str, today: str) -> dict:
             )
             if ocr_only(cell, text):
                 cell["confidence"] = "C"
+            if cell.get("status") == "unlisted" and OCR_TEXT_MARKER in absence_text:
+                cell["confidence"] = "C"
             errors = cell_errors(cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text)
-            if errors:
-                withheld.append({"key": rendered, "gate": "grade", "reason": errors, "run_id": run_id})
+            superseded = superseded_errors(cell, amendments, sources, jurisdiction, text)
+            if errors or superseded:
+                withheld.append(
+                    {
+                        "key": rendered,
+                        "gate": "superseded" if superseded else "grade",
+                        "reason": [*errors, *superseded],
+                        "run_id": run_id,
+                    }
+                )
             else:
                 published.append(cell)
     published.sort(key=lambda cell: (str(cell.get("district_code")), order.get(cell.get("use_class"), len(order))))

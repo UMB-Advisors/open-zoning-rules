@@ -134,7 +134,7 @@ def test_ocr_layers_do_not_cross_boundaries():
 def test_text_pdf_without_images_is_byte_identical(tiny_root):
     data = make_pdf([["Zoning districts are hereby established: I-1 Light Industrial"]])
     digest = hashlib.sha256(data).hexdigest()
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     (tiny_root / "cache" / digest).write_bytes(data)
     path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
     document = json.loads(path.read_text())
@@ -158,11 +158,11 @@ def _table_cell(symbol: str = "P") -> dict:
     }
 
 
-def test_ocr_grid_is_used_only_when_table_grid_cannot_place_cell():
+def test_ocr_grid_must_agree_with_table_grid():
     ocr = "[ocr engine: test]\n[page 1]\nUse | BP\nData Center | P"
     text = "raw" + TABLE_TEXT_MARKER + "Use | BP\nData Center | SE" + OCR_TEXT_MARKER + ocr
     cell = _table_cell()
-    assert _table_grid_errors("key", "Data Center", "BP", "SE", text) == []
+    assert _table_grid_errors("key", "Data Center", "BP", "SE", text)
     assert _table_grid_errors("key", "Data Center", "BP", "P", text)
     only_ocr = "raw" + OCR_TEXT_MARKER + ocr
     assert _table_grid_errors("key", "Data Center", "BP", "P", only_ocr) == []
@@ -176,7 +176,11 @@ def _release_cell() -> dict:
 
 
 def _ocr_source_text() -> str:
-    return OCR_TEXT_MARKER + "[ocr engine: test]\n[page 1]\nSec. 4-2\nUse | I-1 Light Industrial\nWarehouse | P"
+    return (
+        "P = permitted\nColumns: I-1 Light Industrial, I-2 Heavy Industrial, PD-1 Planned Development.\n"
+        + OCR_TEXT_MARKER
+        + "[ocr engine: test]\n[page 1]\nSec. 4-2\nUse | I-1 Light Industrial\nWarehouse | P"
+    )
 
 
 def test_ocr_only_evidence_is_capped_to_grade_c(tiny_root):
@@ -185,7 +189,7 @@ def test_ocr_only_evidence_is_capped_to_grade_c(tiny_root):
     for name in ("cells.extracted.json", "cells.review.codex.json", "cells.review.grok.json"):
         (base / name).write_text(json.dumps({"cells": [cell], "rejected": [], "missing": []}))
     text_path = tiny_root / "cache" / "text" / "us-00000-zo.txt"
-    text_path.parent.mkdir(parents=True)
+    text_path.parent.mkdir(parents=True, exist_ok=True)
     text_path.write_text(_ocr_source_text())
     grade_jurisdiction(tiny_root, "us-00000", "2026-10-10")
     published = json.loads((base / "cells.json").read_text())
@@ -196,7 +200,7 @@ def test_ocr_only_evidence_is_capped_to_grade_c(tiny_root):
 def test_release_cell_check_requires_c_for_ocr_only_evidence(tiny_root):
     cell = _release_cell()
     text_dir = tiny_root / "cache" / "text"
-    text_dir.mkdir(parents=True)
+    text_dir.mkdir(parents=True, exist_ok=True)
     (text_dir / "us-00000-zo.txt").write_text(_ocr_source_text())
     jurisdiction = json.loads((tiny_root / "jurisdictions" / "us-00000" / "jurisdiction.json").read_text())
     source = _source(tiny_root, "us-00000-zo")
@@ -218,7 +222,7 @@ def test_release_cell_check_requires_c_for_ocr_only_evidence(tiny_root):
 def test_segment_adds_marked_ocr_layer_for_image_only_page(tiny_root):
     data = _image_table_pdf()
     digest = hashlib.sha256(data).hexdigest()
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     (tiny_root / "cache" / digest).write_bytes(data)
     path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
     document = json.loads(path.read_text())
