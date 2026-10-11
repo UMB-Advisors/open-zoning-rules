@@ -1,0 +1,3175 @@
+[
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "C",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "C",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "C",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Building canopy/awning structure, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "C",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "C",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail/service in the I district, not grid-scale energy storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "CBD",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "CBD",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "CBD",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Building canopy/awning structure, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "CBD",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "CBD",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail/service in the I district, not grid-scale energy storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "I",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Wholesale establishment, storage warehouse, or distribution center. furniture moving",
+      "Contractor’s office and warehouse without outdoor storage"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture moving",
+      "section": "3-4.12.2"
+    },
+    "source": {
+      "id": "us-5183136-zo-art3",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+      "date": "2026-07-14"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "notes": "Self-service mini-warehouse (conditional) is self-storage and excluded from the class.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "I",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "I district allows only light manufacturing; no heavy industry or hazmat use is listed.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "I",
+    "use_class": "lp_gas",
+    "status": "conditional",
+    "local_uses": [
+      "Fuel, coal, oil distribution storage yards"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "Fuel, coal, oil distribution storage yards",
+      "section": "3-4.12.3"
+    },
+    "source": {
+      "id": "us-5183136-zo-art3",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+      "date": "2026-07-14"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "notes": "Mapped to bulk fuel storage; LP-gas is not named expressly.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "I",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Building canopy/awning structure, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "I",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "I",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail/service, not grid-scale energy storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PSP",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PSP",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PSP",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Building canopy/awning structure, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PSP",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PSP",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail/service in the I district, not grid-scale energy storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PUD",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PUD",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PUD",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Building canopy/awning structure, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Architectural canopy definition."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PUD",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "PUD",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail/service in the I district, not grid-scale energy storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "Planned Residential Developmen",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Definition only; no PUD use list names a data center."
+      },
+      {
+        "term": "data storage",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Same definition; not a use listed in the PUD."
+      }
+    ],
+    "notes": "PUD is an overlay in the text (3-5.2). Uses are limited to those listed plus the underlying district's uses. The district name 'Planned Residential Developmen' is mapped to the PUD. unlisted_rule is prohibited_by_default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "Planned Residential Developmen",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "Planned Residential Developmen",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "Planned Residential Developmen",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Awning definition; a structure, not cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated to cannabis."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "Planned Residential Developmen",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "Planned Residential Developmen",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-10",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Definition only; no R-10 use list names a data center."
+      },
+      {
+        "term": "data storage",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Same definition; not a use listed in R-10."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-10",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-10",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-10",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Awning definition; a structure, not cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated to cannabis."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-10",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "The R-10 SUP entry for treatment plants, transmission lines, substations and similar facilities does not name or define electric generating plants.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-10",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-15",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Definition only; no R-15 use list names a data center."
+      },
+      {
+        "term": "data storage",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Same definition; not a use listed in R-15."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-15",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-15",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-15",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Awning definition; a structure, not cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated to cannabis."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-15",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "The R-15 SUP entry for treatment plants, transmission lines, substations and similar facilities does not name or define electric generating plants.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-15",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-6",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Definition only; no R-6 use list names a data center."
+      },
+      {
+        "term": "data storage",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Same definition; not a use listed in R-6."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-6",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-6",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-6",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Awning definition; a structure, not cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated to cannabis."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-6",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "The R-6 SUP entry for treatment plants, transmission lines, substations and similar facilities does not name or define electric generating plants.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "R-6",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RMF",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Definition only; no RMF use list names a data center."
+      },
+      {
+        "term": "data storage",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Same definition; not a use listed in RMF."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RMF",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RMF",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RMF",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Awning definition; a structure, not cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Building canopy, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type, unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition, unrelated to cannabis."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RMF",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "The RMF SUP entry for treatment plants, transmission lines, substations and similar facilities does not name or define electric generating plants.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RMF",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RO",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Definition only; no RO permitted or permissible use list names a data center."
+      },
+      {
+        "term": "data storage",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Same definition; it is not a listed use in RO."
+      }
+    ],
+    "notes": "Uses-not-listed clause (2-10) makes unlisted uses prohibited by default; the cell stays unlisted. The source_id for the Article 12 definition quotes is inferred because that page was not in the supplied text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RO",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No term hits for this class; 2-10 prohibits unlisted uses by default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RO",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No term hits for this class; 2-10 prohibits unlisted uses by default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RO",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Awning or canopy structure definition; unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Building canopy definition; unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Building canopy definition; unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type; unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition; unrelated to cannabis."
+      }
+    ],
+    "notes": "2-10 prohibits unlisted uses by default. The source_id for the Article 12 quotes is inferred.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RO",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No term hits for this class. The RO utilities entry covers distribution and local service lines, not generation. 2-10 prohibits unlisted uses by default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RO",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "- Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Retail sales and service of vehicle batteries in the I district; not grid-scale energy storage."
+      }
+    ],
+    "notes": "2-10 prohibits unlisted uses by default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RT",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Definition only; no RT permitted or permissible use list names a data center."
+      },
+      {
+        "term": "data storage",
+        "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+        "section": "Article 12",
+        "reason": "Same definition; it is not a listed use in RT."
+      }
+    ],
+    "notes": "Uses-not-listed clause (2-10) makes unlisted uses prohibited by default; the cell stays unlisted. The source_id for the Article 12 definition quotes is inferred because that page was not in the supplied text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RT",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No term hits for this class; 2-10 prohibits unlisted uses by default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RT",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No term hits for this class; 2-10 prohibits unlisted uses by default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RT",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "canopy",
+        "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+        "section": "Article 12",
+        "reason": "Awning or canopy structure definition; unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+        "section": "Article 12",
+        "reason": "Building canopy definition; unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+        "section": "Article 12",
+        "reason": "Building canopy definition; unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "marquee signs, suspended signs, and canopy signs.",
+        "section": "Article 12",
+        "reason": "Sign type; unrelated to cannabis."
+      },
+      {
+        "term": "canopy",
+        "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+        "section": "Article 12",
+        "reason": "Sign definition; unrelated to cannabis."
+      }
+    ],
+    "notes": "2-10 prohibits unlisted uses by default. The source_id for the Article 12 quotes is inferred.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RT",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No term hits for this class. The RT utilities entry covers distribution and local service lines, not generation. 2-10 prohibits unlisted uses by default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "district_code": "RT",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "source": {
+      "id": "us-5183136-zo-art2",
+      "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-5183136-20261010T233535Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "- Tire and battery sales and service, tire recapping and retreading",
+        "section": "3-4.12.3",
+        "reason": "Retail sales and service of vehicle batteries in the I district; not grid-scale energy storage."
+      }
+    ],
+    "notes": "2-10 prohibits unlisted uses by default.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  }
+]

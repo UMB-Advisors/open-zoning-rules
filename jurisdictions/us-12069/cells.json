@@ -1,0 +1,5209 @@
+[
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "A",
+    "use_class": "warehouse_distribution",
+    "status": "conditional",
+    "local_uses": [
+      "Truck Yard"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Truck Yard | A | C",
+      "section": "Sec. 3.01.02.C.22",
+      "row_label": "Truck Yard",
+      "column_header": "A",
+      "symbol": "C"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Truck Yard is mapped to the truck terminal element of the class. Wholesale and Warehouse is blank in A and the table has no key.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "A",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "The Industrial, Heavy definition mentions bulk petroleum storage, but it does not name LP-gas, so it is not treated as capturing the class.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "A",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "A",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Solar Facility",
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Solar Facility | A | P",
+      "section": "F.S. §163.3205",
+      "row_label": "Solar Facility",
+      "column_header": "A",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Floating Solar Facility is also P in A.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "AR",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "Warehouse",
+        "section": "3.01.03",
+        "reason": "This is the wrapped label of the Wholesale and Warehouse row, whose AR cell is blank. The table has no key for blanks."
+      },
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Bars classifying data centers as a warehouse use; it assigns no district status."
+      }
+    ],
+    "notes": "The Wholesale and Warehouse row exists but its AR cell is blank and the table has no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "AR",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "AR",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "AR",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | AR | P",
+      "section": "F.S. §163.32051",
+      "row_label": "Floating Solar Facility",
+      "column_header": "AR",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "The Solar Facility row is blank in AR.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-1",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "Warehouse",
+        "section": "3.01.03",
+        "reason": "This is the wrapped label of the Wholesale and Warehouse row, whose C-1 cell is blank. The table has no key for blanks."
+      },
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Bars classifying data centers as a warehouse use; it assigns no district status."
+      }
+    ],
+    "notes": "The Wholesale and Warehouse and Truck Yard rows exist but their C-1 cells are blank and the table has no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-1",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-1",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-1",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | C1 2 | P",
+      "section": "F.S. §163.32051",
+      "row_label": "Floating Solar Facility",
+      "column_header": "C1 2",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-2",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Wholesale and Warehouse"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Wholesale and Warehouse | C2 2 | P",
+      "section": "Sec.3.01.02.C.24",
+      "row_label": "Wholesale and Warehouse",
+      "column_header": "C2 2",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-2",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-2",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-2",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | C2 2 | P",
+      "section": "F.S. §163.32051",
+      "row_label": "Floating Solar Facility",
+      "column_header": "C2 2",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-3",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Wholesale and Warehouse"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Wholesale and Warehouse | C3 2 | P",
+      "section": "Sec.3.01.02.C.24",
+      "row_label": "Wholesale and Warehouse",
+      "column_header": "C3 2",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-3",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-3",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "C-3",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | C3 2 | P",
+      "section": "F.S. §163.32051",
+      "row_label": "Floating Solar Facility",
+      "column_header": "C3 2",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CFD",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Centers, to establish appropriate zoning districts and regulations for Data Centers with the issuance",
+        "section": "Summary of Ordinance",
+        "reason": "Summary of the ordinance's purpose; it assigns no status in CFD."
+      },
+      {
+        "term": "data center",
+        "quote": "TO BE ENTITLED DATA CENTERS; ESTABLISHING APPROPRIATE",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status in CFD."
+      },
+      {
+        "term": "data center",
+        "quote": "DATA CENTERS; PROVIDING FOR SEVERABILITY; PROVIDING FOR",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status in CFD."
+      },
+      {
+        "term": "data center",
+        "quote": "acceptance of applications for data centers, data center facilities, and data center utilities; and",
+        "section": "Recitals",
+        "reason": "Recital about a moratorium; it assigns no status in CFD."
+      },
+      {
+        "term": "data center",
+        "quote": "WHEREAS, data centers, data center facilities, and data center utilities may require",
+        "section": "Recitals",
+        "reason": "Recital about impacts; it assigns no status in CFD."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)(a)",
+        "reason": "Part of an exclusion for internal-use IT facilities, not a status for CFD."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)(d)",
+        "reason": "Part of an exclusion for telecom facilities, not a status for CFD."
+      }
+    ],
+    "notes": "The Data Centers; Data Center Campus row is blank under CFD6 and the table has no key saying a blank means not permitted. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CFD",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Anti-circumvention clause about data centers; it assigns no status to warehouses in CFD."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row is blank under CFD6 and the table has no key saying a blank means not permitted."
+      }
+    ],
+    "notes": "The Wholesale and Warehouse row is blank under CFD6 and the table has no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CFD",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "hazardous materials",
+        "quote": "8. Hazardous materials inventory",
+        "section": "3.14.04.I",
+        "reason": "Application item for data centers, not a use status."
+      },
+      {
+        "term": "hazardous materials",
+        "quote": "access, emergency water supply, hazardous materials response, and emergency",
+        "section": "3.14.05.G",
+        "reason": "Approval standard for data centers, not a use status."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "building floor area. Heavy Industrial uses include, but are not limited to: junkyards,",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under CFD6 with no key."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "secondary metals recovery/manufacturing facility. Heavy Industrial uses also",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under CFD6 with no key."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "intended to be comprehensive and may not include all heavy industrial uses. If a",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under CFD6 with no key."
+      }
+    ],
+    "notes": "The Industrial, Heavy row is blank under CFD6 and the table has no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CFD",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Bulk petroleum storage falls under Industrial, Heavy, whose row is blank under CFD6 with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CFD",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CFD",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | CFD6 | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "CFD6",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Floating solar is mapped as a solar energy facility; the code does not define its scale. The Solar Facility row is blank in CFD. Note 6 limits P in CFD to uses specifically identified in an approved zoning ordinance.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CP",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Centers, to establish appropriate zoning districts and regulations for Data Centers with the issuance",
+        "section": "Summary of Ordinance",
+        "reason": "Summary of the ordinance's purpose; it assigns no status in CP."
+      },
+      {
+        "term": "data center",
+        "quote": "TO BE ENTITLED DATA CENTERS; ESTABLISHING APPROPRIATE",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status in CP."
+      },
+      {
+        "term": "data center",
+        "quote": "DATA CENTERS; PROVIDING FOR SEVERABILITY; PROVIDING FOR",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status in CP."
+      },
+      {
+        "term": "data center",
+        "quote": "acceptance of applications for data centers, data center facilities, and data center utilities; and",
+        "section": "Recitals",
+        "reason": "Recital about a moratorium; it assigns no status in CP."
+      },
+      {
+        "term": "data center",
+        "quote": "WHEREAS, data centers, data center facilities, and data center utilities may require",
+        "section": "Recitals",
+        "reason": "Recital about impacts; it assigns no status in CP."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)(a)",
+        "reason": "Part of an exclusion for internal-use IT facilities, not a status for CP."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)(d)",
+        "reason": "Part of an exclusion for telecom facilities, not a status for CP."
+      }
+    ],
+    "notes": "The Data Centers; Data Center Campus row is blank under CP 6, 7 and the table has no key saying a blank means not permitted. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CP",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Wholesale and Warehouse"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Wholesale and Warehouse | CP 6, 7 | P",
+      "section": "3.01.03",
+      "row_label": "Wholesale and Warehouse",
+      "column_header": "CP 6, 7",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Notes 6 and 7 limit P in CP to uses specifically identified in an approved zoning ordinance for the property.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CP",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "hazardous materials",
+        "quote": "8. Hazardous materials inventory",
+        "section": "3.14.04.I",
+        "reason": "Application item for data centers, not a use status."
+      },
+      {
+        "term": "hazardous materials",
+        "quote": "access, emergency water supply, hazardous materials response, and emergency",
+        "section": "3.14.05.G",
+        "reason": "Approval standard for data centers, not a use status."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "building floor area. Heavy Industrial uses include, but are not limited to: junkyards,",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under CP 6, 7 with no key."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "secondary metals recovery/manufacturing facility. Heavy Industrial uses also",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under CP 6, 7 with no key."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "intended to be comprehensive and may not include all heavy industrial uses. If a",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under CP 6, 7 with no key."
+      }
+    ],
+    "notes": "The Industrial, Heavy row is blank under CP 6, 7 and the table has no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CP",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Bulk petroleum storage falls under Industrial, Heavy, whose row is blank under CP 6, 7 with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CP",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "CP",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | CP 6, 7 | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "CP 6, 7",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Floating solar is mapped as a solar energy facility; the code does not define its scale. The Solar Facility row is blank in CP. Notes 6 and 7 limit P in CP.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "HM",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Wholesale and Warehouse",
+      "Trucking Facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Wholesale and Warehouse | HM | P",
+      "section": "3.01.03",
+      "row_label": "Wholesale and Warehouse",
+      "column_header": "HM",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "HM",
+    "use_class": "lp_gas",
+    "status": "conditional",
+    "local_uses": [
+      "Industrial, Heavy"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Industrial, Heavy | HM | P, C",
+      "section": "3.01.03",
+      "row_label": "Industrial, Heavy",
+      "column_header": "HM",
+      "symbol": "P, C"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "definition_evidence": {
+      "quote": "rail-yards, bulk petroleum storage, concrete batch plants, asphalt plants, resource",
+      "section": "3.01.02.D.3"
+    },
+    "notes": "Mapped through 'bulk petroleum storage' (the class includes bulk fuel storage). The cell shows 'P, C', so the most restrictive status (conditional) is used.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "definition_quote": "raw",
+      "definition_section": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "HM",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "HM",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | HM | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "HM",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Floating solar is mapped as a solar energy facility; the code does not define its scale. The Solar Facility row is blank in HM.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "LM",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Wholesale and Warehouse",
+      "Trucking Facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Wholesale and Warehouse | LM | P",
+      "section": "3.01.03",
+      "row_label": "Wholesale and Warehouse",
+      "column_header": "LM",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "LM",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "hazardous materials",
+        "quote": "8. Hazardous materials inventory",
+        "section": "3.14.04.I",
+        "reason": "Application item for data centers, not a use status."
+      },
+      {
+        "term": "hazardous materials",
+        "quote": "access, emergency water supply, hazardous materials response, and emergency",
+        "section": "3.14.05.G",
+        "reason": "Approval standard for data centers, not a use status."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "building floor area. Heavy Industrial uses include, but are not limited to: junkyards,",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under LM with no key."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "secondary metals recovery/manufacturing facility. Heavy Industrial uses also",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under LM with no key."
+      },
+      {
+        "term": "heavy industrial",
+        "quote": "intended to be comprehensive and may not include all heavy industrial uses. If a",
+        "section": "3.01.02.D.3",
+        "reason": "Definition of the Industrial, Heavy use, whose row is blank under LM with no key."
+      }
+    ],
+    "notes": "The Industrial, Heavy row is blank under LM and the table has no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "LM",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Bulk petroleum storage falls under Industrial, Heavy, whose row is blank under LM with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "LM",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "LM",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | LM | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "LM",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Floating solar is mapped as a solar energy facility; the code does not define its scale. The Solar Facility row is blank in LM.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "MP",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Wholesale and Warehouse",
+      "Trucking Facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Wholesale and Warehouse | MP 6, 7 | P",
+      "section": "3.01.03",
+      "row_label": "Wholesale and Warehouse",
+      "column_header": "MP 6, 7",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Notes 6 and 7 limit P in MP to uses specifically identified in an approved zoning ordinance for the property.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "MP",
+    "use_class": "lp_gas",
+    "status": "conditional",
+    "local_uses": [
+      "Industrial, Heavy"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Industrial, Heavy | MP 6, 7 | P, C",
+      "section": "3.01.03",
+      "row_label": "Industrial, Heavy",
+      "column_header": "MP 6, 7",
+      "symbol": "P, C"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "definition_evidence": {
+      "quote": "rail-yards, bulk petroleum storage, concrete batch plants, asphalt plants, resource",
+      "section": "3.01.02.D.3"
+    },
+    "notes": "Mapped through 'bulk petroleum storage' (the class includes bulk fuel storage). The cell shows 'P, C', so the most restrictive status (conditional) is used.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "table",
+      "definition_quote": "raw",
+      "definition_section": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "MP",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "MP",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | MP 6, 7 | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "MP 6, 7",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Floating solar is mapped as a solar energy facility; the code does not define its scale. The Solar Facility row is blank in MP. Notes 6 and 7 limit P in MP.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "table"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "PUD",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Centers, to establish appropriate zoning districts and regulations for Data Centers with the issuance",
+        "section": "Summary of Ordinance",
+        "reason": "Ordinance summary; it assigns no status to any district."
+      },
+      {
+        "term": "data center",
+        "quote": "TO BE ENTITLED DATA CENTERS; ESTABLISHING APPROPRIATE",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to any district."
+      },
+      {
+        "term": "data center",
+        "quote": "DATA CENTERS; PROVIDING FOR SEVERABILITY; PROVIDING FOR",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to any district."
+      },
+      {
+        "term": "data center",
+        "quote": "acceptance of applications for data centers, data center facilities, and data center utilities; and",
+        "section": "Recitals",
+        "reason": "Recital about a moratorium; it assigns no status to any district."
+      },
+      {
+        "term": "data center",
+        "quote": "WHEREAS, data centers, data center facilities, and data center utilities may require",
+        "section": "Recitals",
+        "reason": "Recital; it assigns no status to any district."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "Describes exempt internal-use facilities; it assigns no district status."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)",
+        "reason": "Exemption limiter; it assigns no district status."
+      }
+    ],
+    "notes": "The Table 3.01.03 has no PUD column. The Data Centers row cannot be read for PUD, so the cell is flagged unlisted.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "PUD",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Anti-circumvention language for data centers; it assigns no district status."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The table has no PUD column, so no symbol can be read for PUD."
+      }
+    ],
+    "notes": "The Table has no PUD column; flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "PUD",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "PUD",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "PUD",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": true,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "megawatt",
+        "quote": "megawatts",
+        "section": "3.14.04.B",
+        "reason": "Data center electrical demand reporting; not a generation use."
+      },
+      {
+        "term": "megawatt",
+        "quote": "2. Monthly peak load expressed in megawatts, calculated as the highest",
+        "section": "3.14.04.B",
+        "reason": "Data center load reporting; not a generation use."
+      },
+      {
+        "term": "megawatt",
+        "quote": "3. Anticipated electrical demand in megawatts for each proposed phase",
+        "section": "3.14.04.B",
+        "reason": "Data center load reporting; not a generation use."
+      }
+    ],
+    "notes": "The Table has no PUD column, so the Solar Facility and Floating Solar Facility rows cannot be read for PUD; flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "see_case": null,
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-1",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Centers, to establish appropriate zoning districts and regulations for Data Centers with the issuance",
+        "section": "Summary of Ordinance",
+        "reason": "Ordinance summary; it assigns no status to R1."
+      },
+      {
+        "term": "data center",
+        "quote": "TO BE ENTITLED DATA CENTERS; ESTABLISHING APPROPRIATE",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to R1."
+      },
+      {
+        "term": "data center",
+        "quote": "DATA CENTERS; PROVIDING FOR SEVERABILITY; PROVIDING FOR",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to R1."
+      },
+      {
+        "term": "data center",
+        "quote": "acceptance of applications for data centers, data center facilities, and data center utilities; and",
+        "section": "Recitals",
+        "reason": "Recital about a moratorium; it assigns no status to R1."
+      },
+      {
+        "term": "data center",
+        "quote": "WHEREAS, data centers, data center facilities, and data center utilities may require",
+        "section": "Recitals",
+        "reason": "Recital; it assigns no status to R1."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "Describes exempt internal-use facilities; it assigns no district status."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)",
+        "reason": "Exemption limiter; it assigns no district status."
+      }
+    ],
+    "notes": "The Data Centers; Data Center Campus row is blank under R1 and the table has no key for blanks, so the cell is flagged unlisted. Sec. 3.14.02 requires a CUP for any data center but does not assign it to a district.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-1",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Anti-circumvention language for data centers; it assigns no district status."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row is blank under R1 and the table has no key for blanks; flagged."
+      }
+    ],
+    "notes": "Blank cell with no key.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-1",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-1",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-1",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | R1 | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "R1",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "The Solar Facility row (F.S. §163.3205) is blank under R1 with no key. Mapping floating solar to utility-scale generation is a judgment; review.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-2",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Centers, to establish appropriate zoning districts and regulations for Data Centers with the issuance",
+        "section": "Summary of Ordinance",
+        "reason": "Ordinance summary; it assigns no status to R2."
+      },
+      {
+        "term": "data center",
+        "quote": "TO BE ENTITLED DATA CENTERS; ESTABLISHING APPROPRIATE",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to R2."
+      },
+      {
+        "term": "data center",
+        "quote": "DATA CENTERS; PROVIDING FOR SEVERABILITY; PROVIDING FOR",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to R2."
+      },
+      {
+        "term": "data center",
+        "quote": "acceptance of applications for data centers, data center facilities, and data center utilities; and",
+        "section": "Recitals",
+        "reason": "Recital about a moratorium; it assigns no status to R2."
+      },
+      {
+        "term": "data center",
+        "quote": "WHEREAS, data centers, data center facilities, and data center utilities may require",
+        "section": "Recitals",
+        "reason": "Recital; it assigns no status to R2."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "Describes exempt internal-use facilities; it assigns no district status."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)",
+        "reason": "Exemption limiter; it assigns no district status."
+      }
+    ],
+    "notes": "The Data Centers; Data Center Campus row is blank under R2 and the table has no key for blanks, so the cell is flagged unlisted. Sec. 3.14.02 requires a CUP for any data center but does not assign it to a district.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-2",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Anti-circumvention language for data centers; it assigns no district status."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row is blank under R2 and the table has no key for blanks; flagged."
+      }
+    ],
+    "notes": "Blank cell with no key.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-2",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-2",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-2",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | R2 | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "R2",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "The Solar Facility row (F.S. §163.3205) is blank under R2 with no key. Mapping floating solar to utility-scale generation is a judgment; review.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-3",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Centers, to establish appropriate zoning districts and regulations for Data Centers with the issuance",
+        "section": "Summary of Ordinance",
+        "reason": "Ordinance summary; it assigns no status to R3."
+      },
+      {
+        "term": "data center",
+        "quote": "TO BE ENTITLED DATA CENTERS; ESTABLISHING APPROPRIATE",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to R3."
+      },
+      {
+        "term": "data center",
+        "quote": "DATA CENTERS; PROVIDING FOR SEVERABILITY; PROVIDING FOR",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to R3."
+      },
+      {
+        "term": "data center",
+        "quote": "acceptance of applications for data centers, data center facilities, and data center utilities; and",
+        "section": "Recitals",
+        "reason": "Recital about a moratorium; it assigns no status to R3."
+      },
+      {
+        "term": "data center",
+        "quote": "WHEREAS, data centers, data center facilities, and data center utilities may require",
+        "section": "Recitals",
+        "reason": "Recital; it assigns no status to R3."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "Describes exempt internal-use facilities; it assigns no district status."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)",
+        "reason": "Exemption limiter; it assigns no district status."
+      }
+    ],
+    "notes": "The Data Centers; Data Center Campus row is blank under R3 and the table has no key for blanks, so the cell is flagged unlisted. Sec. 3.14.02 requires a CUP for any data center but does not assign it to a district.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-3",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Anti-circumvention language for data centers; it assigns no district status."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row is blank under R3 and the table has no key for blanks; flagged."
+      }
+    ],
+    "notes": "Blank cell with no key.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-3",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-3",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-3",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | R3 | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "R3",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "The Solar Facility row (F.S. §163.3205) is blank under R3 with no key. Mapping floating solar to utility-scale generation is a judgment; review.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-4",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Centers, to establish appropriate zoning districts and regulations for Data Centers with the issuance",
+        "section": "Summary of Ordinance",
+        "reason": "Ordinance summary; it assigns no status to R4."
+      },
+      {
+        "term": "data center",
+        "quote": "TO BE ENTITLED DATA CENTERS; ESTABLISHING APPROPRIATE",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to R4."
+      },
+      {
+        "term": "data center",
+        "quote": "DATA CENTERS; PROVIDING FOR SEVERABILITY; PROVIDING FOR",
+        "section": "Ordinance title",
+        "reason": "Title text; it assigns no status to R4."
+      },
+      {
+        "term": "data center",
+        "quote": "acceptance of applications for data centers, data center facilities, and data center utilities; and",
+        "section": "Recitals",
+        "reason": "Recital about a moratorium; it assigns no status to R4."
+      },
+      {
+        "term": "data center",
+        "quote": "WHEREAS, data centers, data center facilities, and data center utilities may require",
+        "section": "Recitals",
+        "reason": "Recital; it assigns no status to R4."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "Describes exempt internal-use facilities; it assigns no district status."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)",
+        "reason": "Exemption limiter; it assigns no district status."
+      }
+    ],
+    "notes": "The Data Centers; Data Center Campus row is blank under R4 and the table has no key for blanks, so the cell is flagged unlisted. Sec. 3.14.02 requires a CUP for any data center but does not assign it to a district.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-4",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Anti-circumvention language for data centers; it assigns no district status."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row is blank under R4 and the table has no key for blanks; flagged."
+      }
+    ],
+    "notes": "Blank cell with no key.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-4",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-4",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis term in the text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-4",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | R4 | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "R4",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "The Solar Facility row (F.S. §163.3205) is blank under R4 with no key. Mapping floating solar to utility-scale generation is a judgment; review.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-6",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility that primarily contains electronic equipment used",
+        "section": "3.01.02.D.1.a",
+        "reason": "The Data Centers row exists, but its cell for this district is blank and the table has no key saying blank means not permitted."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "This is part of an exclusion for internal enterprise IT facilities, not a use status for the district."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-6",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "This only bars classifying a data center as a warehouse use to avoid the CUP. It gives no status to warehouse use in this district."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row exists, but its cell for this district is blank and the table has no key."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-6",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-6",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-6",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "megawatt",
+        "quote": "2. Monthly peak load expressed in megawatts, calculated as the highest",
+        "section": "3.14.04.B",
+        "reason": "This is a unit of electrical demand in a data center application requirement, not a generation use."
+      }
+    ],
+    "notes": "The Solar Facility row is blank in this district and the table has no key. Floating Solar Facility is P here, but the text gives no definition showing it is utility-scale, so it was not mapped. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-6",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "6. Battery type and storage capacity",
+        "section": "3.14.04.I",
+        "reason": "This is a fire-protection application item for data centers, not a stand-alone use."
+      },
+      {
+        "term": "battery energy storage",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      },
+      {
+        "term": "energy storage system",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-7",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility that primarily contains electronic equipment used",
+        "section": "3.01.02.D.1.a",
+        "reason": "The Data Centers row exists, but its cell for this district is blank and the table has no key saying blank means not permitted."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "This is part of an exclusion for internal enterprise IT facilities, not a use status for the district."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-7",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "This only bars classifying a data center as a warehouse use to avoid the CUP. It gives no status to warehouse use in this district."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row exists, but its cell for this district is blank and the table has no key."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-7",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-7",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-7",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "megawatt",
+        "quote": "2. Monthly peak load expressed in megawatts, calculated as the highest",
+        "section": "3.14.04.B",
+        "reason": "This is a unit of electrical demand in a data center application requirement, not a generation use."
+      }
+    ],
+    "notes": "The Solar Facility row is blank in this district and the table has no key. Floating Solar Facility is P here, but the text gives no definition showing it is utility-scale, so it was not mapped. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "R-7",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "6. Battery type and storage capacity",
+        "section": "3.14.04.I",
+        "reason": "This is a fire-protection application item for data centers, not a stand-alone use."
+      },
+      {
+        "term": "battery energy storage",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      },
+      {
+        "term": "energy storage system",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RA",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility that primarily contains electronic equipment used",
+        "section": "3.01.02.D.1.a",
+        "reason": "The Data Centers row exists, but its cell for this district is blank and the table has no key saying blank means not permitted."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "This is part of an exclusion for internal enterprise IT facilities, not a use status for the district."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RA",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "This only bars classifying a data center as a warehouse use to avoid the CUP. It gives no status to warehouse use in this district."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row exists, but its cell for this district is blank and the table has no key."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RA",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RA",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RA",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "megawatt",
+        "quote": "2. Monthly peak load expressed in megawatts, calculated as the highest",
+        "section": "3.14.04.B",
+        "reason": "This is a unit of electrical demand in a data center application requirement, not a generation use."
+      }
+    ],
+    "notes": "The Solar Facility row is P only under A and blank in RA, and the table has no key. Floating Solar Facility is P here, but the text gives no definition showing it is utility-scale, so it was not mapped. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RA",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "6. Battery type and storage capacity",
+        "section": "3.14.04.I",
+        "reason": "This is a fire-protection application item for data centers, not a stand-alone use."
+      },
+      {
+        "term": "battery energy storage",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      },
+      {
+        "term": "energy storage system",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RM",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility that primarily contains electronic equipment used",
+        "section": "3.01.02.D.1.a",
+        "reason": "The Data Centers row exists, but its cell for this district is blank and the table has no key saying blank means not permitted."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "This is part of an exclusion for internal enterprise IT facilities, not a use status for the district."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RM",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "This only bars classifying a data center as a warehouse use to avoid the CUP. It gives no status to warehouse use in this district."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row exists, but its cell for this district is blank and the table has no key."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RM",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RM",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RM",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "megawatt",
+        "quote": "2. Monthly peak load expressed in megawatts, calculated as the highest",
+        "section": "3.14.04.B",
+        "reason": "This is a unit of electrical demand in a data center application requirement, not a generation use."
+      }
+    ],
+    "notes": "The Solar Facility row is blank in this district and the table has no key. Floating Solar Facility is P here, but the text gives no definition showing it is utility-scale, so it was not mapped. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RM",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "6. Battery type and storage capacity",
+        "section": "3.14.04.I",
+        "reason": "This is a fire-protection application item for data centers, not a stand-alone use."
+      },
+      {
+        "term": "battery energy storage",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      },
+      {
+        "term": "energy storage system",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RMRP",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "Data Center: A facility that primarily contains electronic equipment used",
+        "section": "3.01.02.D.1.a",
+        "reason": "The Data Centers row exists, but its cell for this district is blank and the table has no key saying blank means not permitted."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "This is part of an exclusion for internal enterprise IT facilities, not a use status for the district."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RMRP",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "This only bars classifying a data center as a warehouse use to avoid the CUP. It gives no status to warehouse use in this district."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row exists, but its cell for this district is blank and the table has no key."
+      }
+    ],
+    "notes": "Blank cell with no key. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RMRP",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No LP-gas use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RMRP",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "notes": "No cannabis use or term appears in the code text.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RMRP",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "megawatt",
+        "quote": "2. Monthly peak load expressed in megawatts, calculated as the highest",
+        "section": "3.14.04.B",
+        "reason": "This is a unit of electrical demand in a data center application requirement, not a generation use."
+      }
+    ],
+    "notes": "The Solar Facility row is blank in this district and the table has no key. Floating Solar Facility is P here, but the text gives no definition showing it is utility-scale, so it was not mapped. Flagged.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RMRP",
+    "use_class": "battery_storage",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "battery",
+        "quote": "6. Battery type and storage capacity",
+        "section": "3.14.04.I",
+        "reason": "This is a fire-protection application item for data centers, not a stand-alone use."
+      },
+      {
+        "term": "battery energy storage",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      },
+      {
+        "term": "energy storage system",
+        "quote": "9. Battery energy storage systems",
+        "section": "3.14.04.A",
+        "reason": "This is a data center application item, and the systems are reviewed as infrastructure serving the data center, not as a separate use."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RP",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "A Data Center may only be established, constructed, expanded, or operated",
+        "section": "3.14.02",
+        "reason": "Sets the conditional use permit procedure for Data Centers but assigns no status in RP. The table row 'Data Centers; Data Center Campus' is blank for RP and the table has no key saying blank means not permitted."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "Part of an exclusion for internal-operations IT facilities. It is not a use listing for RP."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)",
+        "reason": "Part of an exclusion for telecommunications facilities. It is not a use listing for RP."
+      }
+    ],
+    "notes": "Blank table cell with no key, so flagged as unlisted.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RP",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Anti-circumvention clause for data centers. It grants no warehouse status in RP."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row 'Wholesale and Warehouse' is blank in RP and the table has no key saying blank means not permitted."
+      }
+    ],
+    "notes": "Blank table cell with no key, so flagged as unlisted.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RP",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RP",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RP",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility",
+      "Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | RP | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "RP",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Floating Solar Facility is P in RP. The row 'Solar Facility' is blank in RP and is unlisted there. The code does not define either use, so whether it is utility-scale is an assumption from the wording.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RV",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "data center",
+        "quote": "A Data Center may only be established, constructed, expanded, or operated",
+        "section": "3.14.02",
+        "reason": "Sets the conditional use permit procedure for Data Centers but assigns no status in RV. The table row 'Data Centers; Data Center Campus' is blank for RV and the table has no key saying blank means not permitted."
+      },
+      {
+        "term": "data storage",
+        "quote": "business applications, or data storage.",
+        "section": "3.01.04(4)",
+        "reason": "Part of an exclusion for internal-operations IT facilities. It is not a use listing for RV."
+      },
+      {
+        "term": "data storage",
+        "quote": "model training or inference, cloud computing, or commercial data storage services.",
+        "section": "3.01.04(4)",
+        "reason": "Part of an exclusion for telecommunications facilities. It is not a use listing for RV."
+      }
+    ],
+    "notes": "Blank table cell with no key, so flagged as unlisted.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RV",
+    "use_class": "warehouse_distribution",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "warehouse",
+        "quote": "use, office use, warehouse use, utility use, industrial use, communications use, or other",
+        "section": "3.01.04(4)",
+        "reason": "Anti-circumvention clause for data centers. It grants no warehouse status in RV."
+      },
+      {
+        "term": "warehouse",
+        "quote": "Wholesale and Warehouse",
+        "section": "3.01.03",
+        "reason": "The row 'Wholesale and Warehouse' is blank in RV and the table has no key saying blank means not permitted."
+      }
+    ],
+    "notes": "Blank table cell with no key, so flagged as unlisted.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RV",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B"
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RV",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+      "section": "3.01.03"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "fl-cannabis_cultivation_processing",
+      "effect": "state_siting_exclusive"
+    }
+  },
+  {
+    "jurisdiction_id": "us-12069",
+    "district_code": "RV",
+    "use_class": "utility_generation",
+    "status": "permitted",
+    "local_uses": [
+      "Floating Solar Facility",
+      "Solar Facility"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Floating Solar Facility | RV | P",
+      "section": "3.01.03",
+      "row_label": "Floating Solar Facility",
+      "column_header": "RV",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-12069-ord-2026-xx-draft",
+      "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+      "date": "2026-09-22"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "permitted",
+        "by": "claude",
+        "ref": "extract-us-12069-20261010T234820Z"
+      }
+    ],
+    "notes": "Floating Solar Facility is P in RV. The row 'Solar Facility' is blank in RV and is unlisted there. The code does not define either use, so whether it is utility-scale is an assumption from the wording.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "table",
+      "column_header": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "fl-utility_generation",
+      "effect": "state_siting_exclusive"
+    }
+  }
+]
