@@ -37,7 +37,7 @@ def engine_header() -> str:
     pdfium = str(pypdfium2.PDFIUM_INFO) if hasattr(pypdfium2, "PDFIUM_INFO") else str(pypdfium2.V_PDFIUM)
     return (
         f"[ocr engine: {version[0]}; {version[1]}; eng.traineddata sha256={digest}; pdfium={pdfium}; "
-        "render=300dpi; threshold=160/170; psm=6,7; OMP_THREAD_LIMIT=1; --oem 1 -l eng]"
+        "render=300dpi; threshold=160/170; psm=6,7; OMP_THREAD_LIMIT=1; --oem 3 -l eng]"
     )
 
 
@@ -47,7 +47,7 @@ def _tesseract(image: Image.Image, psm: str) -> str:
     image.save(encoded, "PNG")
     environment = {**os.environ, "OMP_THREAD_LIMIT": "1"}
     result = subprocess.run(
-        ["tesseract", "stdin", "stdout", "--oem", "1", "--psm", psm, "-l", "eng"],
+        ["tesseract", "stdin", "stdout", "--oem", "3", "--psm", psm, "-l", "eng"],
         input=encoded.getvalue(),
         capture_output=True,
         env=environment,
