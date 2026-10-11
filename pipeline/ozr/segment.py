@@ -84,14 +84,30 @@ def table_rows(table: list[list[str | None]]) -> list[str]:
     return rows
 
 
-def pdf_pages(data: bytes) -> tuple[list[str], list[str]]:
+def pdf_pages(data: bytes, columns: int = 1) -> tuple[list[str], list[str]]:
     """Extract raw and ruling-reconstructed table text from each PDF page."""
     raw_pages: list[str] = []
     table_pages: list[str] = []
     with pdfplumber.open(io.BytesIO(data)) as pdf:
         for page in pdf.pages:
             try:
-                raw_pages.append(page.extract_text() or "")
+                if columns == 2:
+                    mid = page.width / 2
+                    straddling_words = sum(
+                        word["x0"] < mid - 1 and word["x1"] > mid + 1 for word in page.extract_words()
+                    )
+                    if straddling_words <= 3:
+                        left = page.filter(
+                            lambda obj, mid=mid: obj.get("object_type") != "char" or (obj["x0"] + obj["x1"]) / 2 < mid
+                        )
+                        right = page.filter(
+                            lambda obj, mid=mid: obj.get("object_type") != "char" or (obj["x0"] + obj["x1"]) / 2 >= mid
+                        )
+                        raw_pages.append((left.extract_text() or "") + "\n" + (right.extract_text() or ""))
+                    else:
+                        raw_pages.append(page.extract_text() or "")
+                else:
+                    raw_pages.append(page.extract_text() or "")
                 rules = list(page.lines) + [rect for rect in page.rects if min(rect["width"], rect["height"]) <= 2]
                 horizontal = [rule for rule in rules if rule["width"] >= rule["height"]]
                 vertical = [rule for rule in rules if rule["width"] < rule["height"]]
@@ -253,7 +269,10 @@ def segment_jurisdiction(root: Path, jid: str) -> dict:
         data = (cache_dir(root) / digest).read_bytes()
         ocr_pages: dict[int, str] = {}
         if data.startswith(b"%PDF"):
-            pages, page_tables = pdf_pages(data)
+            columns = source.get("text_columns", 1)
+            if type(columns) is not int or columns not in {1, 2}:
+                columns = 1
+            pages, page_tables = pdf_pages(data, columns=columns)
             for number, (page, image_count) in enumerate(zip(pages, pdf_image_counts(data), strict=True), 1):
                 if is_image_only(page, image_count):
                     ocr_pages[number] = ocr_page(data, number)
