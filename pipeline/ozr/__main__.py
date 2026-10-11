@@ -36,7 +36,8 @@ def _parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     """Parse shared stage options and dispatch to its lazily imported module."""
-    args = _parser().parse_args(argv)
+    parser = _parser()
+    args = parser.parse_intermixed_args(argv)
     args.root = args.root.resolve()
     known = jurisdiction_ids(args.root)
     if args.command == "release" and not args.jurisdiction_ids:
@@ -44,10 +45,10 @@ def main(argv: list[str] | None = None) -> int:
     elif args.all:
         args.jurisdiction_ids = known
     elif not args.jurisdiction_ids:
-        _parser().error("provide jurisdiction ids or --all")
+        parser.error("provide jurisdiction ids or --all")
     unknown = sorted(set(args.jurisdiction_ids) - set(known))
     if unknown:
-        _parser().error(f"unknown jurisdiction id: {', '.join(unknown)}")
+        parser.error(f"unknown jurisdiction id: {', '.join(unknown)}")
     try:
         module = importlib.import_module(f"ozr.{args.command}")
     except ModuleNotFoundError as error:
