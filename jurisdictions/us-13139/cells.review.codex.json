@@ -1,0 +1,5327 @@
+{
+  "jurisdiction_id": "us-13139",
+  "prompt": "review.v1.md",
+  "model": "codex:balanced",
+  "run_id": "review-codex-us-13139-20261011T200518Z",
+  "checked_at": "2026-10-11",
+  "cells": [
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "AG-1",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | 1-GA | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "1-GA",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "AR-1",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | 1-RA | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "1-RA",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "H-B",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | B-H | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "B-H",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "I-1",
+      "use_class": "datacenter",
+      "status": "conditional",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | 1-I | SU",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "1-I",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "I-2",
+      "use_class": "datacenter",
+      "status": "conditional",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | 2-I | SU",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "2-I",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "AG-1",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | 1-GA | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "1-GA",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "AR-1",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | 1-RA | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "1-RA",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "I-1",
+      "use_class": "warehouse_distribution",
+      "status": "permitted",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | 1-I | P",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "1-I",
+        "symbol": "P"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "permitted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "I-2",
+      "use_class": "warehouse_distribution",
+      "status": "permitted",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | 2-I | P",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "2-I",
+        "symbol": "P"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "permitted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "AG-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | 1-GA | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "1-GA",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "AR-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | 1-RA | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "1-RA",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "H-B",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | B-H | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "B-H",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "I-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | 1-I | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "1-I",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "I-2",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "permitted",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | 2-I | P",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "2-I",
+        "symbol": "P"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "permitted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "AG-1",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "AR-1",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "H-B",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "I-1",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "I-2",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "MHP",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | PHM | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "PHM",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "MHP",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | PHM | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "PHM",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "MHP",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | PHM | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "PHM",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "MHP",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2",
+        "row_label": "",
+        "column_header": "",
+        "symbol": ""
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "O-I",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | I-O | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "I-O",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "O-I",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | I-O | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "I-O",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "O-I",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | I-O | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "I-O",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "O-I",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2",
+        "row_label": "",
+        "column_header": "",
+        "symbol": ""
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "PCD",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+        "section": "6.1.9. Legacy Planned Development Districts",
+        "row_label": "",
+        "column_header": "",
+        "symbol": ""
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "PCFD",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+        "section": "6.1.9. Legacy Planned Development Districts",
+        "row_label": "",
+        "column_header": "",
+        "symbol": ""
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "PID",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+        "section": "6.1.9. Legacy Planned Development Districts",
+        "row_label": "",
+        "column_header": "",
+        "symbol": ""
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "POD",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 12.2",
+          "reason": "The occurrence does not name LP-gas storage or cylinder transfill."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "POD",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "PRD",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 12.2",
+          "reason": "The occurrence does not name LP-gas storage or cylinder transfill."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "PRD",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | 1-R | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "1-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | 1-R | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "1-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | 1-R | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "1-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 12.2",
+          "reason": "The occurrence does not name LP-gas storage or cylinder transfill."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1",
+      "use_class": "battery_storage",
+      "status": "conditional",
+      "local_uses": [
+        "Major utilities, private",
+        "Major utilities, public"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "Major utilities, private | 1-R | SU",
+        "section": "Sec. 7.4.3",
+        "row_label": "Major utilities, private",
+        "column_header": "1-R",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1-L",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | L-1-R | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "L-1-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1-L",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | L-1-R | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "L-1-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1-L",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | L-1-R | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "L-1-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1-L",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 12.2",
+          "reason": "The occurrence does not name LP-gas storage or cylinder transfill."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1-L",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-1-L",
+      "use_class": "battery_storage",
+      "status": "conditional",
+      "local_uses": [
+        "Major utilities, private",
+        "Major utilities, public"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "Major utilities, private | L-1-R | SU",
+        "section": "Sec. 7.4.3",
+        "row_label": "Major utilities, private",
+        "column_header": "L-1-R",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-MF",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | FM-R | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "FM-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-MF",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | FM-R | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "FM-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-MF",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | FM-R | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "FM-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-MF",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 12.2",
+          "reason": "The occurrence does not name LP-gas storage or cylinder transfill."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-MF",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2. Allowed Use Table"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-MF",
+      "use_class": "battery_storage",
+      "status": "conditional",
+      "local_uses": [
+        "Major utilities, private",
+        "Major utilities, public"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "Major utilities, private | FM-R | SU",
+        "section": "Sec. 7.4.3",
+        "row_label": "Major utilities, private",
+        "column_header": "FM-R",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-TF",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | FT-R | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "FT-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-TF",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | FT-R | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "FT-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-TF",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | FT-R | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "FT-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-TF",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 7.6.3",
+          "reason": "The occurrence does not identify LP-gas storage or cylinder transfill as a local use."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-TF",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-TF",
+      "use_class": "battery_storage",
+      "status": "conditional",
+      "local_uses": [
+        "Major utilities, private",
+        "Major utilities, public"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "Major utilities, private | FT-R | SU",
+        "section": "Sec. 7.4.3",
+        "row_label": "Major utilities, private",
+        "column_header": "FT-R",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-X",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | X-R | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "X-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-X",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | X-R | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "X-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-X",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | X-R | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "X-R",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-X",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 7.6.3",
+          "reason": "The occurrence does not identify LP-gas storage or cylinder transfill as a local use."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-X",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "R-X",
+      "use_class": "battery_storage",
+      "status": "conditional",
+      "local_uses": [
+        "Major utilities, private",
+        "Major utilities, public"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "Major utilities, private | X-R | SU",
+        "section": "Sec. 7.4.3",
+        "row_label": "Major utilities, private",
+        "column_header": "X-R",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "S-S",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | S-S | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "S-S",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "S-S",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | S-S | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "S-S",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "S-S",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | S-S | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "S-S",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "S-S",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 7.6.3",
+          "reason": "The occurrence does not identify LP-gas storage or cylinder transfill as a local use."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "S-S",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "S-S",
+      "use_class": "battery_storage",
+      "status": "conditional",
+      "local_uses": [
+        "Major utilities, private",
+        "Major utilities, public"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "Major utilities, private | S-S | SU",
+        "section": "Sec. 7.4.3",
+        "row_label": "Major utilities, private",
+        "column_header": "S-S",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "V-C",
+      "use_class": "datacenter",
+      "status": "prohibited",
+      "local_uses": [
+        "All data center"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All data center | C-V | --",
+        "section": "Sec. 7.6.2",
+        "row_label": "All data center",
+        "column_header": "C-V",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "V-C",
+      "use_class": "warehouse_distribution",
+      "status": "prohibited",
+      "local_uses": [
+        "All warehouse and distribution",
+        "Truck terminal"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All warehouse and distribution | C-V | --",
+        "section": "Sec. 7.6.8",
+        "row_label": "All warehouse and distribution",
+        "column_header": "C-V",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "raw",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "V-C",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "prohibited",
+      "local_uses": [
+        "All heavy industrial, except as listed below"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "All heavy industrial, except as listed below | C-V | --",
+        "section": "Sec. 7.6.3",
+        "row_label": "All heavy industrial, except as listed below",
+        "column_header": "C-V",
+        "symbol": "--"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "prohibited",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "V-C",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "liquefied petroleum gas",
+          "quote": "Petroleum, liquefied petroleum gas",
+          "section": "Sec. 7.6.3",
+          "reason": "The occurrence does not identify LP-gas storage or cylinder transfill as a local use."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "V-C",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 7.2. Allowed Use Table",
+        "section": "Sec. 7.2"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-13139",
+      "district_code": "V-C",
+      "use_class": "battery_storage",
+      "status": "conditional",
+      "local_uses": [
+        "Major utilities, private",
+        "Major utilities, public"
+      ],
+      "evidence": {
+        "kind": "table",
+        "quote": "Major utilities, private | C-V | SU",
+        "section": "Sec. 7.4.3",
+        "row_label": "Major utilities, private",
+        "column_header": "C-V",
+        "symbol": "SU"
+      },
+      "source": {
+        "id": "us-13139-udc",
+        "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+        "date": "2026-09-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-13139-20261011T200518Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "row_label": "table",
+        "column_header": "raw",
+        "symbol": "table"
+      }
+    }
+  ],
+  "matched_text_counts": {
+    "column_header:raw": 48,
+    "quote:raw": 28,
+    "row_label:raw": 27,
+    "row_label:table": 21,
+    "section:raw": 76,
+    "symbol:table": 48
+  },
+  "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "H-B",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "All warehouse and distribution",
+          "Truck terminal"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "All warehouse and distribution | B-H | --",
+          "section": "Sec. 7.6.8",
+          "row_label": "All warehouse and distribution",
+          "column_header": "B-H",
+          "symbol": "--"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/H-B/warehouse_distribution: table grid: 'B-H' column holds 'su' on the 'All warehouse and distribution' row, not '--'"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "AG-1",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/AG-1/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "AR-1",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/AR-1/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "H-B",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/H-B/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "I-1",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/I-1/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "I-2",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/I-2/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "AG-1",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/AG-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "AR-1",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/AR-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "H-B",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/H-B/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "I-1",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/I-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "I-2",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/I-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "AG-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/AG-1/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/AG-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "AR-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/AR-1/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/AR-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "H-B",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/H-B/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/H-B/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "I-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/I-1/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/I-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "I-2",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/I-2/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/I-2/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "MHP",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/MHP/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "MHP",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/MHP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "MHP",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/MHP/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/MHP/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "O-I",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/O-I/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "O-I",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/O-I/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "O-I",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/O-I/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/O-I/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCD",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCD/datacenter: absence gate: 'data center' occurs 72 times in the code and 72 are not explained",
+        "us-13139/PCD/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCD",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCD/warehouse_distribution: absence gate: 'freight' occurs 1 times in the code and 1 are not explained",
+        "us-13139/PCD/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PCD/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 8 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCD",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/PCD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PCD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 14 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCD",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCD/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/PCD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCFD",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCFD/datacenter: absence gate: 'data center' occurs 72 times in the code and 72 are not explained",
+        "us-13139/PCFD/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCFD",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCFD/warehouse_distribution: absence gate: 'freight' occurs 1 times in the code and 1 are not explained",
+        "us-13139/PCFD/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PCFD/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 8 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCFD",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCFD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/PCFD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PCFD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 14 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCFD",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCFD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCFD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCFD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PCFD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PCFD/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/PCFD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PID",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PID/datacenter: absence gate: 'data center' occurs 72 times in the code and 72 are not explained",
+        "us-13139/PID/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PID",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PID/warehouse_distribution: absence gate: 'freight' occurs 1 times in the code and 1 are not explained",
+        "us-13139/PID/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PID/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 8 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PID",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PID/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/PID/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PID/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 14 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PID",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PID/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PID",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PID/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PID",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "For interpretation and administration, legacy districts shall be treated as PD Districts; however, their previously approved terms and conditions shall continue to control unless formally amended in accordance with this Section.",
+          "section": "6.1.9. Legacy Planned Development Districts",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PID/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/PID/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "POD",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "notes": "POD is a legacy PD district governed by its previously approved terms; no POD column appears in the allowed-use table."
+      },
+      "errors": [
+        "us-13139/POD/datacenter: absence gate: 'data center' occurs 72 times in the code and 72 are not explained",
+        "us-13139/POD/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "POD",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/POD/warehouse_distribution: absence gate: 'freight' occurs 1 times in the code and 1 are not explained",
+        "us-13139/POD/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 7 are not explained",
+        "us-13139/POD/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 8 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "POD",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/POD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/POD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 7 are not explained",
+        "us-13139/POD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 14 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "POD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "canopy.",
+            "section": "Sec. 8.6",
+            "reason": "The occurrence concerns a physical canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/POD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "POD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/POD/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/POD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PRD",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "notes": "PRD is a legacy PD district governed by its previously approved terms; no PRD column appears in the allowed-use table."
+      },
+      "errors": [
+        "us-13139/PRD/datacenter: absence gate: 'data center' occurs 72 times in the code and 72 are not explained",
+        "us-13139/PRD/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PRD",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PRD/warehouse_distribution: absence gate: 'freight' occurs 1 times in the code and 1 are not explained",
+        "us-13139/PRD/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PRD/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 8 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PRD",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PRD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/PRD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PRD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 14 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PRD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "canopy.",
+            "section": "Sec. 8.6",
+            "reason": "The occurrence concerns a physical canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PRD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "PRD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/PRD/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/PRD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "R-1",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "canopy.",
+            "section": "Sec. 8.6",
+            "reason": "The occurrence concerns a physical canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/R-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "R-1-L",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "canopy.",
+            "section": "Sec. 8.6",
+            "reason": "The occurrence concerns a physical canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/R-1-L/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "R-MF",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2. Allowed Use Table"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "canopy.",
+            "section": "Sec. 8.6",
+            "reason": "The occurrence concerns a physical canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/R-MF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "R-TF",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "f. Maintain all balconies, canopies,",
+            "section": "Sec. 8.7",
+            "reason": "This occurrence concerns architectural canopies, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/R-TF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "R-X",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "f. Maintain all balconies, canopies,",
+            "section": "Sec. 8.7",
+            "reason": "This occurrence concerns architectural canopies, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/R-X/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "S-S",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "f. Maintain all balconies, canopies,",
+            "section": "Sec. 8.7",
+            "reason": "This occurrence concerns architectural canopies, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/S-S/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13139",
+        "district_code": "V-C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 7.2. Allowed Use Table",
+          "section": "Sec. 7.2"
+        },
+        "source": {
+          "id": "us-13139-udc",
+          "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+          "date": "2026-09-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13139-20261011T200518Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "f. Maintain all balconies, canopies,",
+            "section": "Sec. 8.7",
+            "reason": "This occurrence concerns architectural canopies, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13139/V-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained"
+      ]
+    }
+  ],
+  "missing": [
+    [
+      "AG-1",
+      "lp_gas"
+    ],
+    [
+      "AG-1",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "AG-1",
+      "battery_storage"
+    ],
+    [
+      "AR-1",
+      "lp_gas"
+    ],
+    [
+      "AR-1",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "AR-1",
+      "battery_storage"
+    ],
+    [
+      "H-B",
+      "warehouse_distribution"
+    ],
+    [
+      "H-B",
+      "lp_gas"
+    ],
+    [
+      "H-B",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "H-B",
+      "battery_storage"
+    ],
+    [
+      "I-1",
+      "lp_gas"
+    ],
+    [
+      "I-1",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "I-1",
+      "battery_storage"
+    ],
+    [
+      "I-2",
+      "lp_gas"
+    ],
+    [
+      "I-2",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "I-2",
+      "battery_storage"
+    ],
+    [
+      "MHP",
+      "lp_gas"
+    ],
+    [
+      "MHP",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "MHP",
+      "battery_storage"
+    ],
+    [
+      "O-I",
+      "lp_gas"
+    ],
+    [
+      "O-I",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "O-I",
+      "battery_storage"
+    ],
+    [
+      "PCD",
+      "datacenter"
+    ],
+    [
+      "PCD",
+      "warehouse_distribution"
+    ],
+    [
+      "PCD",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "PCD",
+      "lp_gas"
+    ],
+    [
+      "PCD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PCD",
+      "battery_storage"
+    ],
+    [
+      "PCFD",
+      "datacenter"
+    ],
+    [
+      "PCFD",
+      "warehouse_distribution"
+    ],
+    [
+      "PCFD",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "PCFD",
+      "lp_gas"
+    ],
+    [
+      "PCFD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PCFD",
+      "battery_storage"
+    ],
+    [
+      "PID",
+      "datacenter"
+    ],
+    [
+      "PID",
+      "warehouse_distribution"
+    ],
+    [
+      "PID",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "PID",
+      "lp_gas"
+    ],
+    [
+      "PID",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PID",
+      "battery_storage"
+    ],
+    [
+      "POD",
+      "datacenter"
+    ],
+    [
+      "POD",
+      "warehouse_distribution"
+    ],
+    [
+      "POD",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "POD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "POD",
+      "battery_storage"
+    ],
+    [
+      "PRD",
+      "datacenter"
+    ],
+    [
+      "PRD",
+      "warehouse_distribution"
+    ],
+    [
+      "PRD",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "PRD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PRD",
+      "battery_storage"
+    ],
+    [
+      "R-1",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-1-L",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-MF",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-TF",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-X",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "S-S",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "V-C",
+      "cannabis_cultivation_processing"
+    ]
+  ]
+}
