@@ -5,6 +5,22 @@
     "type": "county",
     "state": "FL",
     "unlisted_rule": "none",
+    "column_aliases": [
+      {
+        "district_code": "CFD",
+        "column_header": "CFD6",
+        "quote": "Note 6. Uses shown as \"P\" under the CP, MP, and CFD district are only permitted to the extent the use is specifically identified in an approved zoning ordinance for a particular property.",
+        "section": "Note 6",
+        "reason": "the CFD column header carries footnote 6 without a space"
+      },
+      {
+        "district_code": "RMRP",
+        "column_header": "RMRP1",
+        "quote": "Note 1. Only rental mobile home dwelling units are allowed in RMRP.",
+        "section": "Note 1",
+        "reason": "the RMRP column header carries footnote 1 without a space"
+      }
+    ],
     "code_version": "unknown",
     "conditional_zoning_unmapped": false,
     "sources": [
@@ -288,6 +304,78 @@
         "status": "prohibited",
         "quote": "Use is not Allowed if no symbol appears",
         "section": "Table 2.2"
+      }
+    ],
+    "column_aliases": [
+      {
+        "district_code": "C-G-C",
+        "column_header": "C-G",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "C-G-C is C-G zoned with conditions; the use table has a C-G column only"
+      },
+      {
+        "district_code": "C-H-C",
+        "column_header": "C-H",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "C-H-C is C-H zoned with conditions; the use table has a C-H column only"
+      },
+      {
+        "district_code": "LI-C",
+        "column_header": "LI",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "LI-C is LI zoned with conditions; the use table has a LI column only"
+      },
+      {
+        "district_code": "LI-R-C",
+        "column_header": "LI-R",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "LI-R-C is LI-R zoned with conditions; the use table has a LI-R column only"
+      },
+      {
+        "district_code": "PUD-C",
+        "column_header": "PUD",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "PUD-C is PUD zoned with conditions; the use table has a PUD column only"
+      },
+      {
+        "district_code": "R-A-C",
+        "column_header": "R-A",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "R-A-C is R-A zoned with conditions; the use table has a R-A column only"
+      },
+      {
+        "district_code": "R-HD-C",
+        "column_header": "R-HD",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "R-HD-C is R-HD zoned with conditions; the use table has a R-HD column only"
+      },
+      {
+        "district_code": "R-LD-C",
+        "column_header": "R-LD",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "R-LD-C is R-LD zoned with conditions; the use table has a R-LD column only"
+      },
+      {
+        "district_code": "R-MD-C",
+        "column_header": "R-MD",
+        "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
+        "section": "Sec. 1210",
+        "reason": "R-MD-C is R-MD zoned with conditions; the use table has a R-MD column only"
+      },
+      {
+        "district_code": "R-MF",
+        "column_header": "R-HD",
+        "quote": "R-6 Multi-Family Residential | R-MF Multi-Family Residential | R-HD High Density Single-Family Residential",
+        "section": "Sec. 206, Table 2.1",
+        "reason": "Table 2.1 converts the 2004-2020 R-MF district to R-HD under this Code"
       }
     ],
     "districts": [
@@ -924,6 +1012,15 @@
         "status": "prohibited",
         "quote": "A blank cell indicates that the use is not permitted in the district.",
         "section": "Table 3.01-1"
+      }
+    ],
+    "column_aliases": [
+      {
+        "district_code": "JLMA20",
+        "column_header": "JLMA-206",
+        "quote": "6See Section 2.05.02 for Joint Land Management Area-20 (JLMA-20) Legacy Zoning District regulations.",
+        "section": "Table 3.02.04-1 notes",
+        "reason": "the JLMA-20 column header carries footnote 6 without a space"
       }
     ],
     "districts": [

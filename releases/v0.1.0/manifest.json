@@ -8,27 +8,27 @@
     {
       "format": "json",
       "path": "cells.json",
-      "sha256": "44f3da6e8f3e125df2808aec74469ecf260158765c8efaf0bcde7c472f5d4372"
+      "sha256": "a47feefc0720ae2187968912ea60684f26cbdef699ebad2b9943ee713e687489"
     },
     {
       "format": "geoparquet",
       "path": "cells.parquet",
-      "sha256": "c15cf2c80101e83633e56e96b3b358624aa37e2f9d2ec80074a3b8909541cb08"
+      "sha256": "b1d338e4419432a994067f309b02d6b80007251eaabe04b7a5547bdb782dd790"
     },
     {
       "format": "json",
       "path": "jurisdictions.json",
-      "sha256": "8d86ba4e453449ac56dc361f9465a5741072e6390e1442dede8a9ed1f1059a81"
+      "sha256": "6db6aa5c9aa14655cc4aceafd23184d1627fa2c7a7e6729944d173aba03fb62b"
     },
     {
       "format": "json",
       "path": "sources.json",
-      "sha256": "c6823f4e6a42931fd96da00b900b04c6deabebfdaa9910695e39f558d0f58005"
+      "sha256": "2768a8c3e5f4ef5044ed13a774489f35f69233e64829ca37c8f70ad71fa0b48d"
     },
     {
       "format": "json",
       "path": "amendments.json",
-      "sha256": "a1c9b1860a3bc0a88b534f815604d11539384f5deadb68c7ecd6f97e23dfebdb"
+      "sha256": "3a40fe77f2c9c6524988ad470d0e9829225682f3b50f9c7581ed0528932f2f49"
     },
     {
       "format": "json",
@@ -38,7 +38,7 @@
     {
       "format": "json",
       "path": "withheld.json",
-      "sha256": "2ac4f3195e1de69593243d22f9712e69f39925de91fdb767c007e6e84a8f62be"
+      "sha256": "32fb5c2a2fe987a3fb7746210d604087310f09a9623d71bebe41268f508da2b6"
     },
     {
       "format": "json",
@@ -48,7 +48,7 @@
     {
       "format": "json",
       "path": "accuracy.json",
-      "sha256": "f215f7e6456635e33afdde68be8c4d03ca849f593905af21e47399da1c1a7de1"
+      "sha256": "30a3b4f30716954d1665cbcc4bd10fafac8c933bb22818e05e5c98ea7fc6f380"
     }
   ],
   "other_files": [

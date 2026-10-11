@@ -4,25 +4,25 @@
   "reliance_notice": "This is a research dataset, not a legal determination. Before relying on any answer, at every grade, get a zoning verification letter or use determination from the planning department, or a land-use attorney or planner.",
   "counts": {
     "universe": 1071,
-    "gold": 354,
+    "gold": 323,
     "disputed": 33,
-    "reviewer_missing": 684
+    "reviewer_missing": 715
   },
-  "listed_agreement": 0.9680365296803652,
+  "listed_agreement": 0.973404255319149,
   "unlisted_recall": 0.9851851851851852,
   "unlisted_precision": 1.0,
   "disputed_share": 0.03081232492997199,
   "gold_counts": {
-    "permitted": 18,
+    "permitted": 2,
     "conditional": 15,
-    "prohibited": 186,
+    "prohibited": 171,
     "unlisted": 135
   },
-  "lower_bound": 0.8914728682170543,
-  "kappa": 0.8541107392133791,
+  "lower_bound": 0.8876404494382022,
+  "kappa": 0.8338988802171702,
   "gates": {
     "listed_agreement": {
-      "value": 0.9680365296803652,
+      "value": 0.973404255319149,
       "threshold": 0.9,
       "result": "insufficient data"
     },
@@ -70,11 +70,11 @@
     "us-12069": {
       "counts": {
         "universe": 154,
-        "gold": 60,
+        "gold": 44,
         "disputed": 0,
-        "reviewer_missing": 94
+        "reviewer_missing": 110
       },
-      "listed_agreement": 1.0,
+      "listed_agreement": null,
       "unlisted_recall": 0.9545454545454546,
       "unlisted_precision": 1.0,
       "disputed_share": 0.0
@@ -82,11 +82,11 @@
     "us-51107": {
       "counts": {
         "universe": 399,
-        "gold": 194,
+        "gold": 179,
         "disputed": 3,
-        "reviewer_missing": 202
+        "reviewer_missing": 217
       },
-      "listed_agreement": 0.9605263157894737,
+      "listed_agreement": 0.9708029197080292,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
       "disputed_share": 0.007518796992481203
@@ -120,11 +120,11 @@
     "PD": {
       "counts": {
         "universe": 189,
-        "gold": 34,
+        "gold": 30,
         "disputed": 5,
-        "reviewer_missing": 150
+        "reviewer_missing": 154
       },
-      "listed_agreement": 0.9090909090909091,
+      "listed_agreement": 0.8571428571428571,
       "unlisted_recall": 0.9565217391304348,
       "unlisted_precision": 1.0,
       "disputed_share": 0.026455026455026454
@@ -132,9 +132,9 @@
     "agricultural": {
       "counts": {
         "universe": 98,
-        "gold": 35,
+        "gold": 33,
         "disputed": 3,
-        "reviewer_missing": 60
+        "reviewer_missing": 62
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 1.0,
@@ -144,11 +144,11 @@
     "commercial": {
       "counts": {
         "universe": 154,
-        "gold": 65,
+        "gold": 60,
         "disputed": 0,
-        "reviewer_missing": 89
+        "reviewer_missing": 94
       },
-      "listed_agreement": 0.9333333333333333,
+      "listed_agreement": 0.925,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
       "disputed_share": 0.0
@@ -156,9 +156,9 @@
     "industrial": {
       "counts": {
         "universe": 133,
-        "gold": 36,
+        "gold": 32,
         "disputed": 12,
-        "reviewer_missing": 85
+        "reviewer_missing": 89
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 0.9166666666666666,
@@ -168,11 +168,11 @@
     "mixed": {
       "counts": {
         "universe": 35,
-        "gold": 9,
+        "gold": 4,
         "disputed": 1,
-        "reviewer_missing": 25
+        "reviewer_missing": 30
       },
-      "listed_agreement": 1.0,
+      "listed_agreement": null,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
       "disputed_share": 0.02857142857142857
@@ -180,9 +180,9 @@
     "other": {
       "counts": {
         "universe": 91,
-        "gold": 23,
+        "gold": 22,
         "disputed": 3,
-        "reviewer_missing": 65
+        "reviewer_missing": 66
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 1.0,
@@ -192,20 +192,20 @@
     "residential": {
       "counts": {
         "universe": 371,
-        "gold": 152,
+        "gold": 142,
         "disputed": 9,
-        "reviewer_missing": 210
+        "reviewer_missing": 220
       },
-      "listed_agreement": 0.9680851063829787,
+      "listed_agreement": 0.9880952380952381,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
       "disputed_share": 0.02425876010781671
     }
   },
   "gate_rejection_rate": {
-    "extractor": 0.39775910364145656,
-    "codex": 0.45471521942110177,
-    "grok": 0.49235181644359466
+    "extractor": 0.484593837535014,
+    "codex": 0.5182072829131653,
+    "grok": 0.5267686424474187
   },
   "known_answers": [
     {
@@ -231,7 +231,7 @@
       "expected_status": "conditional",
       "source_text_status": "permitted",
       "extractor_status": "permitted",
-      "published_status": "permitted",
+      "published_status": null,
       "match_expected": false,
       "match_source_text": true
     },
@@ -413,7 +413,7 @@
       "expected_status": "conditional",
       "source_text_status": "permitted",
       "extractor_status": "permitted",
-      "published_status": "permitted",
+      "published_status": null,
       "match_expected": false,
       "match_source_text": true
     },
