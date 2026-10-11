@@ -30,6 +30,7 @@ _KINDS = {"table", "prose", "absence"}
 TABLE_TEXT_MARKER = "\n\n=== reconstructed table text (from PDF rulings) ===\n"
 
 
+@lru_cache(maxsize=65536)
 def canonical(text: str) -> str:
     """Return comparison text: hyphens closed, whitespace collapsed, case preserved."""
     text = unicodedata.normalize("NFKC", text)
@@ -227,7 +228,7 @@ def _class_terms(record: dict) -> list[str]:
     return terms
 
 
-@lru_cache(maxsize=128)
+@lru_cache(maxsize=65536)
 def _term_text(text: str) -> str:
     text = unicodedata.normalize("NFKC", text).replace("\u00ad", "").translate(_HYPHEN_MAP)
     text = _LINE_HYPHEN.sub("", text)
@@ -249,7 +250,7 @@ def _term_pattern(term: str) -> re.Pattern[str] | None:
     )
 
 
-@lru_cache(maxsize=512)
+@lru_cache(maxsize=65536)
 def _term_occurrences(text: str, term: str) -> tuple[tuple[int, int], ...]:
     pattern = _term_pattern(term)
     if pattern is None:
@@ -289,7 +290,7 @@ def absence_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) ->
     return errors
 
 
-@lru_cache(maxsize=4096)
+@lru_cache(maxsize=65536)
 def _quote_spans(text: str, quote: str) -> tuple[tuple[int, int], ...]:
     """Return every span of a term-normalised quote in the term-normalised text."""
     needle = _term_text(quote)
@@ -370,10 +371,16 @@ def _table_symbol_maps(symbol: str, status: object, taxonomy: dict, jurisdiction
     return False
 
 
+@lru_cache(maxsize=16)
+def _grid_rows(table: str) -> tuple[tuple[str, ...], ...]:
+    """Parse the reconstructed table layer once into comparable cell rows."""
+    lines = [line for line in table.splitlines() if line.strip() and not line.startswith("[page ")]
+    return tuple(tuple(canonical(cell).casefold() for cell in line.split(" | ")) for line in lines)
+
+
 def _table_grid_errors(key: str, row_label: str, column_header: str, symbol: str, text: str) -> list[str]:
     _, table = text_layers(text)
-    lines = [line for line in table.splitlines() if line.strip() and not line.startswith("[page ")]
-    rows = [[canonical(cell).casefold() for cell in line.split(" | ")] for line in lines]
+    rows = _grid_rows(table)
     wanted_row, wanted_column = canonical(row_label).casefold(), canonical(column_header).casefold()
     values: list[str] = []
     for row_index, row in enumerate(rows):
