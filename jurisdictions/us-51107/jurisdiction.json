@@ -43,6 +43,15 @@
       "section": "Table 3.01-1"
     }
   ],
+  "column_aliases": [
+    {
+      "district_code": "JLMA20",
+      "column_header": "JLMA-206",
+      "quote": "6See Section 2.05.02 for Joint Land Management Area-20 (JLMA-20) Legacy Zoning District regulations.",
+      "section": "Table 3.02.04-1 notes",
+      "reason": "the JLMA-20 column header carries footnote 6 without a space"
+    }
+  ],
   "districts": [
     {
       "district_code": "A10",
