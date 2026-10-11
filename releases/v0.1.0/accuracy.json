@@ -3,26 +3,26 @@
   "caveat": "What is measured is agreement between the extractor and a reference built from two other models that labelled the same text blind. It does not measure agreement with the law as a planner would read it: three models reading the same ambiguous table the same wrong way is invisible to this method.",
   "reliance_notice": "This is a research dataset, not a legal determination. Before relying on any answer, at every grade, get a zoning verification letter or use determination from the planning department, or a land-use attorney or planner.",
   "counts": {
-    "universe": 910,
-    "gold": 352,
-    "disputed": 19,
-    "reviewer_missing": 539
+    "universe": 1071,
+    "gold": 354,
+    "disputed": 33,
+    "reviewer_missing": 684
   },
-  "listed_agreement": 0.9723502304147466,
+  "listed_agreement": 0.9680365296803652,
   "unlisted_recall": 0.9851851851851852,
   "unlisted_precision": 1.0,
-  "disputed_share": 0.020879120879120878,
+  "disputed_share": 0.03081232492997199,
   "gold_counts": {
     "permitted": 18,
-    "conditional": 14,
-    "prohibited": 185,
+    "conditional": 15,
+    "prohibited": 186,
     "unlisted": 135
   },
-  "lower_bound": 0.9272237196765498,
-  "kappa": 0.9118676702258006,
+  "lower_bound": 0.8914728682170543,
+  "kappa": 0.8541107392133791,
   "gates": {
     "listed_agreement": {
-      "value": 0.9723502304147466,
+      "value": 0.9680365296803652,
       "threshold": 0.9,
       "result": "insufficient data"
     },
@@ -37,7 +37,7 @@
       "result": "pass"
     },
     "disputed_share": {
-      "value": 0.020879120879120878,
+      "value": 0.03081232492997199,
       "threshold": 0.15,
       "result": "pass"
     }
@@ -102,39 +102,51 @@
       "unlisted_recall": null,
       "unlisted_precision": null,
       "disputed_share": 0.03428571428571429
+    },
+    "us-51061": {
+      "counts": {
+        "universe": 161,
+        "gold": 2,
+        "disputed": 14,
+        "reviewer_missing": 145
+      },
+      "listed_agreement": 0.5,
+      "unlisted_recall": null,
+      "unlisted_precision": null,
+      "disputed_share": 0.08695652173913043
     }
   },
   "by_family": {
     "PD": {
       "counts": {
-        "universe": 168,
-        "gold": 33,
-        "disputed": 1,
-        "reviewer_missing": 134
+        "universe": 189,
+        "gold": 34,
+        "disputed": 5,
+        "reviewer_missing": 150
       },
-      "listed_agreement": 1.0,
+      "listed_agreement": 0.9090909090909091,
       "unlisted_recall": 0.9565217391304348,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.005952380952380952
+      "disputed_share": 0.026455026455026454
     },
     "agricultural": {
       "counts": {
-        "universe": 77,
+        "universe": 98,
         "gold": 35,
-        "disputed": 1,
-        "reviewer_missing": 41
+        "disputed": 3,
+        "reviewer_missing": 60
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.012987012987012988
+      "disputed_share": 0.030612244897959183
     },
     "commercial": {
       "counts": {
-        "universe": 126,
+        "universe": 154,
         "gold": 65,
         "disputed": 0,
-        "reviewer_missing": 61
+        "reviewer_missing": 89
       },
       "listed_agreement": 0.9333333333333333,
       "unlisted_recall": 1.0,
@@ -143,57 +155,57 @@
     },
     "industrial": {
       "counts": {
-        "universe": 112,
-        "gold": 35,
-        "disputed": 11,
-        "reviewer_missing": 66
+        "universe": 133,
+        "gold": 36,
+        "disputed": 12,
+        "reviewer_missing": 85
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 0.9166666666666666,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.09821428571428571
+      "disputed_share": 0.09022556390977443
     },
     "mixed": {
       "counts": {
-        "universe": 14,
+        "universe": 35,
         "gold": 9,
-        "disputed": 0,
-        "reviewer_missing": 5
+        "disputed": 1,
+        "reviewer_missing": 25
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.0
+      "disputed_share": 0.02857142857142857
     },
     "other": {
       "counts": {
-        "universe": 63,
+        "universe": 91,
         "gold": 23,
-        "disputed": 0,
-        "reviewer_missing": 40
+        "disputed": 3,
+        "reviewer_missing": 65
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.0
+      "disputed_share": 0.03296703296703297
     },
     "residential": {
       "counts": {
-        "universe": 350,
+        "universe": 371,
         "gold": 152,
-        "disputed": 6,
-        "reviewer_missing": 192
+        "disputed": 9,
+        "reviewer_missing": 210
       },
       "listed_agreement": 0.9680851063829787,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.017142857142857144
+      "disputed_share": 0.02425876010781671
     }
   },
   "gate_rejection_rate": {
-    "extractor": 0.3516483516483517,
-    "codex": 0.3879120879120879,
-    "grok": 0.4994350282485876
+    "extractor": 0.39775910364145656,
+    "codex": 0.45471521942110177,
+    "grok": 0.49235181644359466
   },
   "known_answers": [
     {
@@ -248,6 +260,15 @@
       "extractor_status": "unlisted",
       "published_status": null,
       "match_expected": false,
+      "match_source_text": null
+    },
+    {
+      "id": "fauquier-bp-datacenter",
+      "expected_status": "permitted",
+      "source_text_status": null,
+      "extractor_status": null,
+      "published_status": null,
+      "match_expected": null,
       "match_source_text": null
     },
     {
@@ -6493,6 +6514,30 @@
         },
         "cost_usd": null,
         "wall_s": 19599.462059292244
+      },
+      "us-51061": {
+        "models": {
+          "claude-sonnet-5-5": {
+            "tokens": 979479,
+            "cost_usd": 4.403656,
+            "wall_s": 536.0298102179077,
+            "unpriced_calls": 0
+          },
+          "codex:balanced": {
+            "tokens": 936291,
+            "cost_usd": null,
+            "wall_s": 575.2915612987708,
+            "unpriced_calls": 1
+          },
+          "grok-4.7-build": {
+            "tokens": 6551226,
+            "cost_usd": 4.73214464,
+            "wall_s": 5240.708308041561,
+            "unpriced_calls": 0
+          }
+        },
+        "cost_usd": null,
+        "wall_s": 6352.02967955824
       }
     },
     "dollars": {
