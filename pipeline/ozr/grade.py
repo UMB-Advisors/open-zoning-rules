@@ -8,7 +8,7 @@ from pathlib import Path
 
 from ozr.common import append_run, read_json, text_path, utc_now, write_json
 from ozr.contamination import load_denylist
-from ozr.gates import apply_grade_rules, cell_errors
+from ozr.gates import apply_grade_rules, cell_errors, jurisdiction_text
 
 
 def _key(cell: dict) -> tuple[object, object, object]:
@@ -20,6 +20,19 @@ def _cells(path: Path) -> list[dict]:
         return []
     document = read_json(path)
     return [cell for cell in document.get("cells", []) if isinstance(cell, dict)] if isinstance(document, dict) else []
+
+
+def _rejected(path: Path) -> dict[tuple[object, object, object], dict]:
+    if not path.is_file():
+        return {}
+    document = read_json(path)
+    if not isinstance(document, dict):
+        return {}
+    return {
+        _key(entry["cell"]): entry
+        for entry in document.get("rejected", [])
+        if isinstance(entry, dict) and isinstance(entry.get("cell"), dict)
+    }
 
 
 def _pending(path: Path, cell: dict) -> bool:
@@ -49,6 +62,9 @@ def grade_jurisdiction(root: Path, jid: str, today: str) -> dict:
     if not isinstance(jurisdiction, dict) or not isinstance(taxonomy, dict):
         raise ValueError(f"invalid jurisdiction inputs: {jid}")
     extractor = _cells(base / "cells.extracted.json")
+    extracted_path = base / "cells.extracted.json"
+    extracted_document = read_json(extracted_path) if extracted_path.is_file() else {}
+    rejected = _rejected(extracted_path)
     reviewers = [
         {_key(cell): cell for cell in _cells(base / f"cells.review.{name}.json")} for name in ("codex", "grok")
     ]
@@ -60,51 +76,86 @@ def grade_jurisdiction(root: Path, jid: str, today: str) -> dict:
     order = {value: index for index, value in enumerate(classes)}
     published: list[dict] = []
     withheld: list[dict] = []
-    for extracted in extractor:
-        key = _key(extracted)
-        codex, grok = (reviewer.get(key) for reviewer in reviewers)
-        labels = [label for label in (codex, grok) if label is not None]
-        rendered = "/".join(str(value) for value in key)
-        if not labels:
-            withheld.append({"key": rendered, "reason": "no reviewer label passed the gates"})
-            continue
-        cell = dict(extracted)
-        if len(labels) == 2:
-            cell["review"] = (
-                "agree" if extracted.get("status") == codex.get("status") == grok.get("status") else "disputed"
+    extractor_by_key = {_key(cell): cell for cell in extractor}
+    run_id = f"grade-{jid}-{utc_now().replace('-', '').replace(':', '')}"
+    absence_text = jurisdiction_text(root / "cache" / "text", jurisdiction.get("sources", []))
+    districts = [item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
+    for district in districts:
+        for use_class in classes:
+            key = (jid, district, use_class)
+            rendered = "/".join(str(value) for value in key)
+            extracted = extractor_by_key.get(key)
+            if extracted is None:
+                rejected_entry = rejected.get(key, {})
+                document_run_id = (
+                    extracted_document.get("regate", {}).get("run_id") if isinstance(extracted_document, dict) else None
+                )
+                fallback_run_id = extracted_document.get("run_id") if isinstance(extracted_document, dict) else None
+                withheld.append(
+                    {
+                        "key": rendered,
+                        "gate": "extraction",
+                        "reason": rejected_entry.get("errors", ["extractor returned no cell for this key"]),
+                        "run_id": rejected_entry.get("run_id") or document_run_id or fallback_run_id,
+                    }
+                )
+                continue
+            codex, grok = (reviewer.get(key) for reviewer in reviewers)
+            labels = [label for label in (codex, grok) if label is not None]
+            if not labels:
+                withheld.append(
+                    {
+                        "key": rendered,
+                        "gate": "review",
+                        "reason": ["no reviewer label passed the gates"],
+                        "run_id": run_id,
+                    }
+                )
+                continue
+            cell = dict(extracted)
+            if len(labels) == 2:
+                cell["review"] = (
+                    "agree" if extracted.get("status") == codex.get("status") == grok.get("status") else "disputed"
+                )
+                cell["confidence"] = "B" if cell["review"] == "agree" else "C"
+            else:
+                cell["review"] = "single" if extracted.get("status") == labels[0].get("status") else "disputed"
+                cell["confidence"] = "C"
+            if cell.get("parcel_specific"):
+                cell["see_case"] = jurisdiction.get("case_lookup_url")
+            for rule in rules:
+                if (
+                    isinstance(rule, dict)
+                    and rule.get("use_class") == cell.get("use_class")
+                    and rule.get("effect") != "none_found"
+                ):
+                    cell["preemption"] = {"state_rule_id": rule.get("id"), "effect": rule.get("effect")}
+                    break
+            cell = apply_grade_rules(
+                cell, date.fromisoformat(today), pending_amendment=_pending(base / "amendments.json", cell)
             )
-            cell["confidence"] = "B" if cell["review"] == "agree" else "C"
-        else:
-            cell["review"], cell["confidence"] = "single", "C"
-        if cell.get("parcel_specific"):
-            cell["see_case"] = jurisdiction.get("case_lookup_url")
-        for rule in rules:
-            if (
-                isinstance(rule, dict)
-                and rule.get("use_class") == cell.get("use_class")
-                and rule.get("effect") != "none_found"
-            ):
-                cell["preemption"] = {"state_rule_id": rule.get("id"), "effect": rule.get("effect")}
-                break
-        cell = apply_grade_rules(
-            cell, date.fromisoformat(today), pending_amendment=_pending(base / "amendments.json", cell)
-        )
-        source = cell.get("source", {})
-        source_id = source.get("id") if isinstance(source, dict) else None
-        text = (
-            text_path(root, source_id).read_text(encoding="utf-8")
-            if isinstance(source_id, str) and text_path(root, source_id).is_file()
-            else ""
-        )
-        errors = cell_errors(cell, text, taxonomy, jurisdiction, denylist)
-        if errors:
-            withheld.append({"key": rendered, "reason": errors})
-        else:
-            published.append(cell)
+            source = cell.get("source", {})
+            source_id = source.get("id") if isinstance(source, dict) else None
+            text = (
+                text_path(root, source_id).read_text(encoding="utf-8")
+                if isinstance(source_id, str) and text_path(root, source_id).is_file()
+                else ""
+            )
+            errors = cell_errors(cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text)
+            if errors:
+                withheld.append({"key": rendered, "gate": "grade", "reason": errors, "run_id": run_id})
+            else:
+                published.append(cell)
     published.sort(key=lambda cell: (str(cell.get("district_code")), order.get(cell.get("use_class"), len(order))))
     write_json(base / "cells.json", published)
+    withheld.sort(key=lambda item: item["key"])
+    write_json(base / "cells.withheld.json", {"jurisdiction_id": jid, "run_id": run_id, "withheld": withheld})
     result = {"published": len(published), "withheld": withheld}
-    append_run(root, jid, {"step": "grade", "at": utc_now(), "published": len(published), "withheld": len(withheld)})
+    append_run(
+        root,
+        jid,
+        {"step": "grade", "run_id": run_id, "at": utc_now(), "published": len(published), "withheld": len(withheld)},
+    )
     return result
 
 

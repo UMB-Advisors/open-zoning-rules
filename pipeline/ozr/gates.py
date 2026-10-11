@@ -716,8 +716,14 @@ def _one_cell_errors(
     return errors
 
 
-def _coverage_messages(jurisdictions: list[dict], cells: list[dict], class_ids: list[str]) -> list[str]:
+def _coverage_messages(
+    jurisdictions: list[dict], cells: list[dict], class_ids: list[str], withheld: list[dict], root: Path
+) -> list[str]:
     errors: list[str] = []
+    published_keys = {_cell_key(cell) for cell in cells}
+    withheld_by_key = {item.get("key"): item for item in withheld if isinstance(item.get("key"), str)}
+    for key in sorted(published_keys & set(withheld_by_key)):
+        errors.append(f"coverage: {key}: listed as withheld but published")
     for jurisdiction in jurisdictions:
         codes = [
             district.get("district_code")
@@ -725,7 +731,27 @@ def _coverage_messages(jurisdictions: list[dict], cells: list[dict], class_ids: 
             if isinstance(district.get("district_code"), str)
         ]
         owned = [cell for cell in cells if cell.get("jurisdiction_id") == jurisdiction.get("jurisdiction_id")]
-        errors.extend(f"coverage: {error}" for error in coverage_errors(codes, owned, class_ids))
+        for error in coverage_errors(codes, owned, class_ids):
+            if not error.endswith(": missing cell"):
+                errors.append(f"coverage: {error}")
+                continue
+            key = error.removesuffix(": missing cell")
+            withheld_entry = withheld_by_key.get(key)
+            if withheld_entry is None:
+                errors.append(f"coverage: {error}")
+                continue
+            jid = str(jurisdiction.get("jurisdiction_id", ""))
+            grade_path = root / "jurisdictions" / jid / "cells.withheld.json"
+            grade_document = _read_json(grade_path) if grade_path.is_file() else {}
+            grade_entries = grade_document.get("withheld", []) if isinstance(grade_document, dict) else []
+            if any(
+                isinstance(entry, dict)
+                and entry.get("key") == key
+                and entry.get("run_id") == withheld_entry.get("run_id")
+                for entry in grade_entries
+            ):
+                continue
+            errors.append(f"coverage: {key}: withheld without a matching grade failure record")
     return errors
 
 
@@ -757,6 +783,8 @@ def release_errors(
     text_dir: Path,
     policy_denylist: frozenset[str] | None = None,
     cell_overrides: list[dict] | None = None,
+    *,
+    root: Path | None = None,
 ) -> list[str]:
     """Return schema, contract, hash, coverage, and evidence errors for one release."""
     denylist = load_denylist() if policy_denylist is None else policy_denylist
@@ -765,9 +793,12 @@ def release_errors(
     jurisdictions_doc = _read_json(release_dir / "jurisdictions.json")
     sources_doc = _read_json(release_dir / "sources.json")
     state_rules_doc = _read_json(release_dir / "state_rules.json")
+    withheld_doc = _read_json(release_dir / "withheld.json") if (release_dir / "withheld.json").is_file() else []
     cells = _apply_cell_overrides(_dicts(cells_doc), cell_overrides)
     jurisdictions = _dicts(jurisdictions_doc)
     rules = _dicts(state_rules_doc)
+    withheld = _dicts(withheld_doc)
+    root = _ROOT if root is None else root
     sources = _source_list(sources_doc)
     taxonomy = _read_json(_ROOT / "taxonomy" / "v1.json")
     if not isinstance(taxonomy, dict):
@@ -785,6 +816,11 @@ def release_errors(
         *_hash_errors(release_dir, manifest, cell_overrides is not None),
         *_denylist_errors(manifest, denylist),
     ]
+    manifest_files = manifest.get("files", []) if isinstance(manifest, dict) else []
+    if (release_dir / "withheld.json").is_file() and not any(
+        isinstance(entry, dict) and entry.get("path") == "withheld.json" for entry in manifest_files
+    ):
+        errors.append("withheld: withheld.json is not listed in the manifest files")
     for source in sources:
         label = str(source.get("source_id", "source"))
         errors.extend(_url_messages(label, source, ("url", "final_url"), denylist))
@@ -816,6 +852,6 @@ def release_errors(
                 jurisdiction_texts.get(str(jurisdiction.get("jurisdiction_id", "")), ""),
             )
         )
-    errors.extend(_coverage_messages(jurisdictions, cells, class_ids))
+    errors.extend(_coverage_messages(jurisdictions, cells, class_ids, withheld, root))
     errors.extend(_state_rule_quote_errors(rules, sources, text_dir))
     return errors
