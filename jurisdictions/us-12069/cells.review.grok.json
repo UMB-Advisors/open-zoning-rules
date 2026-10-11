@@ -73,47 +73,6 @@
     },
     {
       "jurisdiction_id": "us-12069",
-      "district_code": "A",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | A | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "A",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Solar Facility is P in column A.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
       "district_code": "AR",
       "use_class": "lp_gas",
       "status": "unlisted",
@@ -176,47 +135,6 @@
       "matched_text": {
         "section": "raw",
         "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "AR",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | AR | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "AR",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Flagged: Solar Facility is blank in this column. The key in Section 3.01.04 is silent on blank cells. Floating Solar Facility is P.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
       }
     },
     {
@@ -287,86 +205,6 @@
     },
     {
       "jurisdiction_id": "us-12069",
-      "district_code": "C-1",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | C1 2 | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "C1 2",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Flagged: Solar Facility is blank in this column. The key in Section 3.01.04 is silent on blank cells. Floating Solar Facility is P.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "C-2",
-      "use_class": "warehouse_distribution",
-      "status": "permitted",
-      "local_uses": [
-        "Wholesale and Warehouse"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Wholesale and Warehouse | C2 2 | P",
-        "section": "Table 3.01.03",
-        "row_label": "Wholesale and Warehouse",
-        "column_header": "C2 2",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
       "district_code": "C-2",
       "use_class": "lp_gas",
       "status": "unlisted",
@@ -433,86 +271,6 @@
     },
     {
       "jurisdiction_id": "us-12069",
-      "district_code": "C-2",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | C2 2 | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "C2 2",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Flagged: Solar Facility is blank in this column. The key in Section 3.01.04 is silent on blank cells. Floating Solar Facility is P.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "C-3",
-      "use_class": "warehouse_distribution",
-      "status": "permitted",
-      "local_uses": [
-        "Wholesale and Warehouse"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Wholesale and Warehouse | C3 2 | P",
-        "section": "Table 3.01.03",
-        "row_label": "Wholesale and Warehouse",
-        "column_header": "C3 2",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
       "district_code": "C-3",
       "use_class": "lp_gas",
       "status": "unlisted",
@@ -575,47 +333,6 @@
       "matched_text": {
         "section": "raw",
         "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "C-3",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | C3 2 | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "C3 2",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Flagged: Solar Facility is blank in this column. The key in Section 3.01.04 is silent on blank cells. Floating Solar Facility is P.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
       }
     },
     {
@@ -686,87 +403,6 @@
     },
     {
       "jurisdiction_id": "us-12069",
-      "district_code": "CFD",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | CFD6 | P",
-        "section": "3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "CFD6",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Floating Solar Facility is P. Solar Facility is blank under CFD6; no key says a blank means not permitted, so that blank is flagged and does not override this P. Note 6 limits a P in CFD to a use specifically identified in the approved zoning ordinance for the particular property.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "CP",
-      "use_class": "warehouse_distribution",
-      "status": "permitted",
-      "local_uses": [
-        "Wholesale and Warehouse"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Wholesale and Warehouse | CP 6, 7 | P",
-        "section": "3.01.03",
-        "row_label": "Wholesale and Warehouse",
-        "column_header": "CP 6, 7",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Note 6 limits a P in CP to a use specifically identified in the approved zoning ordinance for the particular property. Note 7 also limits a P in CP to a use specifically identified, or specifically not excluded, in that ordinance.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
       "district_code": "CP",
       "use_class": "lp_gas",
       "status": "unlisted",
@@ -829,86 +465,6 @@
       "matched_text": {
         "section": "raw",
         "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "CP",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | CP 6, 7 | P",
-        "section": "3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "CP 6, 7",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Floating Solar Facility is P. Solar Facility is blank under CP 6, 7; no key says a blank means not permitted, so that blank is flagged and does not override this P. Note 6 and Note 7 limit a P in CP to a use specifically identified, or specifically not excluded, in the approved zoning ordinance for the particular property.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "HM",
-      "use_class": "warehouse_distribution",
-      "status": "permitted",
-      "local_uses": [
-        "Wholesale and Warehouse"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Wholesale and Warehouse | HM | P",
-        "section": "3.01.03",
-        "row_label": "Wholesale and Warehouse",
-        "column_header": "HM",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
       }
     },
     {
@@ -979,86 +535,6 @@
     },
     {
       "jurisdiction_id": "us-12069",
-      "district_code": "HM",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | HM | P",
-        "section": "3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "HM",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Floating Solar Facility is P. Solar Facility is blank under HM; no key says a blank means not permitted, so that blank is flagged and does not override this P.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "LM",
-      "use_class": "warehouse_distribution",
-      "status": "permitted",
-      "local_uses": [
-        "Wholesale and Warehouse"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Wholesale and Warehouse | LM | P",
-        "section": "3.01.03",
-        "row_label": "Wholesale and Warehouse",
-        "column_header": "LM",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
       "district_code": "LM",
       "use_class": "lp_gas",
       "status": "unlisted",
@@ -1125,87 +601,6 @@
     },
     {
       "jurisdiction_id": "us-12069",
-      "district_code": "LM",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | LM | P",
-        "section": "3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "LM",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Floating Solar Facility is P. Solar Facility is blank under LM; no key says a blank means not permitted, so that blank is flagged and does not override this P.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "MP",
-      "use_class": "warehouse_distribution",
-      "status": "permitted",
-      "local_uses": [
-        "Wholesale and Warehouse"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Wholesale and Warehouse | MP 6, 7 | P",
-        "section": "3.01.03",
-        "row_label": "Wholesale and Warehouse",
-        "column_header": "MP 6, 7",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Note 6 limits a P in MP to a use specifically identified in the approved zoning ordinance for the particular property. Note 7 also limits a P in MP to a use specifically identified, or specifically not excluded, in that ordinance.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
       "district_code": "MP",
       "use_class": "lp_gas",
       "status": "unlisted",
@@ -1268,47 +663,6 @@
       "matched_text": {
         "section": "raw",
         "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "MP",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | MP 6, 7 | P",
-        "section": "3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "MP 6, 7",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Floating Solar Facility is P. Solar Facility is blank under MP 6, 7; no key says a blank means not permitted, so that blank is flagged and does not override this P. Note 6 and Note 7 limit a P in MP to a use specifically identified, or specifically not excluded, in the approved zoning ordinance for the particular property.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
       }
     },
     {
@@ -1710,47 +1064,6 @@
     {
       "jurisdiction_id": "us-12069",
       "district_code": "R-6",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | R6 | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "R6",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Solar Facility is blank in R6. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-6",
       "use_class": "battery_storage",
       "status": "unlisted",
       "local_uses": [],
@@ -1944,47 +1257,6 @@
       "matched_text": {
         "section": "raw",
         "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-7",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | R7 | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "R7",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Solar Facility is blank in R7. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
       }
     },
     {
@@ -2188,47 +1460,6 @@
     {
       "jurisdiction_id": "us-12069",
       "district_code": "RA",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | RA | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "RA",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Solar Facility is blank in RA. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RA",
       "use_class": "battery_storage",
       "status": "unlisted",
       "local_uses": [],
@@ -2422,47 +1653,6 @@
       "matched_text": {
         "section": "raw",
         "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RM",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | RM | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "RM",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Solar Facility is blank in RM. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
       }
     },
     {
@@ -2661,47 +1851,6 @@
       "matched_text": {
         "section": "raw",
         "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RMRP",
-      "use_class": "utility_generation",
-      "status": "permitted",
-      "local_uses": [
-        "Floating Solar Facility",
-        "Solar Facility"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Floating Solar Facility | RMRP1 | P",
-        "section": "Table 3.01.03",
-        "row_label": "Floating Solar Facility",
-        "column_header": "RMRP1",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "grok",
-          "ref": "review-grok-us-12069-20261011T061907Z"
-        }
-      ],
-      "notes": "Solar Facility is blank under RMRP1. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "raw"
       }
     },
     {
@@ -2974,13 +2123,882 @@
     }
   ],
   "matched_text_counts": {
-    "column_header:raw": 12,
-    "column_header:table": 9,
     "quote:raw": 49,
-    "row_label:table": 21,
-    "section:raw": 70
+    "section:raw": 49
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "A",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | A | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "A",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Solar Facility is P in column A."
+      },
+      "errors": [
+        "us-12069/A/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'A' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "AR",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | AR | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "AR",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Flagged: Solar Facility is blank in this column. The key in Section 3.01.04 is silent on blank cells. Floating Solar Facility is P."
+      },
+      "errors": [
+        "us-12069/AR/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'AR' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "C-1",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | C1 2 | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "C1 2",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Flagged: Solar Facility is blank in this column. The key in Section 3.01.04 is silent on blank cells. Floating Solar Facility is P."
+      },
+      "errors": [
+        "us-12069/C-1/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'C1 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "C-2",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "Wholesale and Warehouse"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Wholesale and Warehouse | C2 2 | P",
+          "section": "Table 3.01.03",
+          "row_label": "Wholesale and Warehouse",
+          "column_header": "C2 2",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-12069/C-2/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'C2 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "C-2",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | C2 2 | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "C2 2",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Flagged: Solar Facility is blank in this column. The key in Section 3.01.04 is silent on blank cells. Floating Solar Facility is P."
+      },
+      "errors": [
+        "us-12069/C-2/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'C2 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "C-3",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "Wholesale and Warehouse"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Wholesale and Warehouse | C3 2 | P",
+          "section": "Table 3.01.03",
+          "row_label": "Wholesale and Warehouse",
+          "column_header": "C3 2",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-12069/C-3/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'C3 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "C-3",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | C3 2 | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "C3 2",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Flagged: Solar Facility is blank in this column. The key in Section 3.01.04 is silent on blank cells. Floating Solar Facility is P."
+      },
+      "errors": [
+        "us-12069/C-3/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'C3 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "CFD",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | CFD6 | P",
+          "section": "3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "CFD6",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Floating Solar Facility is P. Solar Facility is blank under CFD6; no key says a blank means not permitted, so that blank is flagged and does not override this P. Note 6 limits a P in CFD to a use specifically identified in the approved zoning ordinance for the particular property."
+      },
+      "errors": [
+        "us-12069/CFD/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'CFD6' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "CP",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "Wholesale and Warehouse"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Wholesale and Warehouse | CP 6, 7 | P",
+          "section": "3.01.03",
+          "row_label": "Wholesale and Warehouse",
+          "column_header": "CP 6, 7",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Note 6 limits a P in CP to a use specifically identified in the approved zoning ordinance for the particular property. Note 7 also limits a P in CP to a use specifically identified, or specifically not excluded, in that ordinance."
+      },
+      "errors": [
+        "us-12069/CP/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'CP 6, 7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "CP",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | CP 6, 7 | P",
+          "section": "3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "CP 6, 7",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Floating Solar Facility is P. Solar Facility is blank under CP 6, 7; no key says a blank means not permitted, so that blank is flagged and does not override this P. Note 6 and Note 7 limit a P in CP to a use specifically identified, or specifically not excluded, in the approved zoning ordinance for the particular property."
+      },
+      "errors": [
+        "us-12069/CP/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'CP 6, 7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "HM",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "Wholesale and Warehouse"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Wholesale and Warehouse | HM | P",
+          "section": "3.01.03",
+          "row_label": "Wholesale and Warehouse",
+          "column_header": "HM",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-12069/HM/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'HM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "HM",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | HM | P",
+          "section": "3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "HM",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Floating Solar Facility is P. Solar Facility is blank under HM; no key says a blank means not permitted, so that blank is flagged and does not override this P."
+      },
+      "errors": [
+        "us-12069/HM/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'HM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "LM",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "Wholesale and Warehouse"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Wholesale and Warehouse | LM | P",
+          "section": "3.01.03",
+          "row_label": "Wholesale and Warehouse",
+          "column_header": "LM",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-12069/LM/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'LM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "LM",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | LM | P",
+          "section": "3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "LM",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Floating Solar Facility is P. Solar Facility is blank under LM; no key says a blank means not permitted, so that blank is flagged and does not override this P."
+      },
+      "errors": [
+        "us-12069/LM/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'LM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "MP",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "Wholesale and Warehouse"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Wholesale and Warehouse | MP 6, 7 | P",
+          "section": "3.01.03",
+          "row_label": "Wholesale and Warehouse",
+          "column_header": "MP 6, 7",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Note 6 limits a P in MP to a use specifically identified in the approved zoning ordinance for the particular property. Note 7 also limits a P in MP to a use specifically identified, or specifically not excluded, in that ordinance."
+      },
+      "errors": [
+        "us-12069/MP/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'MP 6, 7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "MP",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | MP 6, 7 | P",
+          "section": "3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "MP 6, 7",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Floating Solar Facility is P. Solar Facility is blank under MP 6, 7; no key says a blank means not permitted, so that blank is flagged and does not override this P. Note 6 and Note 7 limit a P in MP to a use specifically identified, or specifically not excluded, in the approved zoning ordinance for the particular property."
+      },
+      "errors": [
+        "us-12069/MP/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'MP 6, 7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-6",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | R6 | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "R6",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Solar Facility is blank in R6. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar."
+      },
+      "errors": [
+        "us-12069/R-6/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'R6' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-7",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | R7 | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "R7",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Solar Facility is blank in R7. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar."
+      },
+      "errors": [
+        "us-12069/R-7/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'R7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RA",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | RA | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "RA",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Solar Facility is blank in RA. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar."
+      },
+      "errors": [
+        "us-12069/RA/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'RA' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RM",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | RM | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "RM",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Solar Facility is blank in RM. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar."
+      },
+      "errors": [
+        "us-12069/RM/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'RM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RMRP",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Floating Solar Facility",
+          "Solar Facility"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Floating Solar Facility | RMRP1 | P",
+          "section": "Table 3.01.03",
+          "row_label": "Floating Solar Facility",
+          "column_header": "RMRP1",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "grok",
+            "ref": "review-grok-us-12069-20261011T061907Z"
+          }
+        ],
+        "notes": "Solar Facility is blank under RMRP1. Section 3.01.04 does not state that a blank means not permitted, so that blank is not prohibited. The only status among prohibited, conditional, and permitted is P for Floating Solar Facility. Megawatt lines in draft Section 3.14.04 measure data center electrical demand, not a generating plant. No definition in the text limits these principal solar rows to rooftop or accessory solar."
+      },
+      "errors": [
+        "us-12069/RMRP/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'RMRP1' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-12069",
@@ -3057,10 +3075,10 @@
         "notes": "Flagged blank cell. No key states that a blank means not permitted. Table form: Data Centers; Data Center Campus | CFD6 | "
       },
       "errors": [
-        "us-12069/CFD/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/CFD/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/CFD/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3116,7 +3134,7 @@
       "errors": [
         "us-12069/CFD/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3184,7 +3202,7 @@
       "errors": [
         "us-12069/CFD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3262,10 +3280,10 @@
         "notes": "Flagged blank cell. No key states that a blank means not permitted. Table form: Data Centers; Data Center Campus | CP 6, 7 | "
       },
       "errors": [
-        "us-12069/CP/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/CP/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/CP/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3333,7 +3351,7 @@
       "errors": [
         "us-12069/CP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3401,7 +3419,7 @@
       "errors": [
         "us-12069/LM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3506,7 +3524,7 @@
         "us-12069/PUD/datacenter: absence gate: 'data center' occurs 112 times in the code and 101 are not explained",
         "us-12069/PUD/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3562,7 +3580,7 @@
       "errors": [
         "us-12069/PUD/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3686,7 +3704,7 @@
         "us-12069/PUD/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
         "us-12069/PUD/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3791,7 +3809,7 @@
         "us-12069/R-1/datacenter: absence gate: 'data center' occurs 112 times in the code and 101 are not explained",
         "us-12069/R-1/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3847,7 +3865,7 @@
       "errors": [
         "us-12069/R-1/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -3971,7 +3989,7 @@
         "us-12069/R-1/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
         "us-12069/R-1/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4076,7 +4094,7 @@
         "us-12069/R-2/datacenter: absence gate: 'data center' occurs 112 times in the code and 101 are not explained",
         "us-12069/R-2/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4132,7 +4150,7 @@
       "errors": [
         "us-12069/R-2/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4256,7 +4274,7 @@
         "us-12069/R-2/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
         "us-12069/R-2/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4361,7 +4379,7 @@
         "us-12069/R-3/datacenter: absence gate: 'data center' occurs 112 times in the code and 101 are not explained",
         "us-12069/R-3/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4417,7 +4435,7 @@
       "errors": [
         "us-12069/R-3/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4541,7 +4559,7 @@
         "us-12069/R-3/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
         "us-12069/R-3/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4646,7 +4664,7 @@
         "us-12069/R-4/datacenter: absence gate: 'data center' occurs 112 times in the code and 101 are not explained",
         "us-12069/R-4/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4702,7 +4720,7 @@
       "errors": [
         "us-12069/R-4/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4826,7 +4844,7 @@
         "us-12069/R-4/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
         "us-12069/R-4/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -4931,7 +4949,7 @@
         "us-12069/R-6/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
         "us-12069/R-6/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5036,7 +5054,7 @@
         "us-12069/R-7/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
         "us-12069/R-7/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5141,7 +5159,7 @@
         "us-12069/RA/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
         "us-12069/RA/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5246,7 +5264,7 @@
         "us-12069/RM/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
         "us-12069/RM/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5351,7 +5369,7 @@
         "us-12069/RMRP/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
         "us-12069/RMRP/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5468,7 +5486,7 @@
         "us-12069/RP/datacenter: absence gate: 'data center' occurs 112 times in the code and 106 are not explained",
         "us-12069/RP/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5524,7 +5542,7 @@
       "errors": [
         "us-12069/RP/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5580,7 +5598,7 @@
       "errors": [
         "us-12069/RP/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5697,7 +5715,7 @@
         "us-12069/RV/datacenter: absence gate: 'data center' occurs 112 times in the code and 106 are not explained",
         "us-12069/RV/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5753,7 +5771,7 @@
       "errors": [
         "us-12069/RV/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5809,7 +5827,7 @@
       "errors": [
         "us-12069/RV/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5855,11 +5873,12 @@
         "us-12069/A/datacenter: unlisted requires evidence kind absence",
         "us-12069/A/datacenter: definition quote not found in source",
         "us-12069/A/datacenter: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/A/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'A' in the reconstructed table",
         "us-12069/A/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/A/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/A/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5900,9 +5919,10 @@
       "errors": [
         "us-12069/A/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/A/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/A/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'A' in the reconstructed table",
         "us-12069/A/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5944,9 +5964,10 @@
         }
       },
       "errors": [
-        "us-12069/A/heavy_industrial_hazmat: definition quote not found in source"
+        "us-12069/A/heavy_industrial_hazmat: definition quote not found in source",
+        "us-12069/A/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'A' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -5984,7 +6005,7 @@
       "errors": [
         "us-12069/A/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6030,11 +6051,12 @@
         "us-12069/AR/datacenter: unlisted requires evidence kind absence",
         "us-12069/AR/datacenter: definition quote not found in source",
         "us-12069/AR/datacenter: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/AR/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'AR' in the reconstructed table",
         "us-12069/AR/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/AR/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/AR/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6075,9 +6097,10 @@
       "errors": [
         "us-12069/AR/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/AR/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/AR/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'AR' in the reconstructed table",
         "us-12069/AR/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6123,10 +6146,11 @@
         "us-12069/AR/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/AR/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/AR/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/AR/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'AR' in the reconstructed table",
         "us-12069/AR/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/AR/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6164,7 +6188,7 @@
       "errors": [
         "us-12069/AR/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6210,11 +6234,12 @@
         "us-12069/C-1/datacenter: unlisted requires evidence kind absence",
         "us-12069/C-1/datacenter: definition quote not found in source",
         "us-12069/C-1/datacenter: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/C-1/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'C1 2' in the reconstructed table",
         "us-12069/C-1/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/C-1/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/C-1/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6255,9 +6280,10 @@
       "errors": [
         "us-12069/C-1/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/C-1/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/C-1/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'C1 2' in the reconstructed table",
         "us-12069/C-1/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6303,10 +6329,11 @@
         "us-12069/C-1/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/C-1/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/C-1/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/C-1/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'C1 2' in the reconstructed table",
         "us-12069/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/C-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6344,7 +6371,7 @@
       "errors": [
         "us-12069/C-1/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6390,11 +6417,12 @@
         "us-12069/C-2/datacenter: unlisted requires evidence kind absence",
         "us-12069/C-2/datacenter: definition quote not found in source",
         "us-12069/C-2/datacenter: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/C-2/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'C2 2' in the reconstructed table",
         "us-12069/C-2/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/C-2/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/C-2/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6440,10 +6468,11 @@
         "us-12069/C-2/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/C-2/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/C-2/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/C-2/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'C2 2' in the reconstructed table",
         "us-12069/C-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/C-2/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6481,7 +6510,7 @@
       "errors": [
         "us-12069/C-2/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6523,9 +6552,10 @@
         }
       },
       "errors": [
-        "us-12069/C-3/datacenter: definition quote not found in source"
+        "us-12069/C-3/datacenter: definition quote not found in source",
+        "us-12069/C-3/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'C3 2' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6571,10 +6601,11 @@
         "us-12069/C-3/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/C-3/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/C-3/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/C-3/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'C3 2' in the reconstructed table",
         "us-12069/C-3/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/C-3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6612,7 +6643,7 @@
       "errors": [
         "us-12069/C-3/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6650,7 +6681,7 @@
       "errors": [
         "us-12069/CFD/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6688,7 +6719,7 @@
       "errors": [
         "us-12069/CP/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6731,9 +6762,10 @@
         "notes": "Symbol C is a conditional use. Section 3.14.02 requires a Conditional Use Permit, and Section 3.14.01 says no Data Center subject to that section shall be permitted by right. The September 8, 2026 suspension of data center applications is an adopted moratorium and does not change this cell."
       },
       "errors": [
-        "us-12069/HM/datacenter: definition quote not found in source"
+        "us-12069/HM/datacenter: definition quote not found in source",
+        "us-12069/HM/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'HM' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6777,9 +6809,10 @@
       },
       "errors": [
         "us-12069/HM/heavy_industrial_hazmat: definition quote not found in source",
-        "us-12069/HM/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key"
+        "us-12069/HM/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key",
+        "us-12069/HM/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'HM' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6817,7 +6850,7 @@
       "errors": [
         "us-12069/HM/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6860,9 +6893,10 @@
         "notes": "Symbol C is a conditional use. Section 3.14.02 requires a Conditional Use Permit, and Section 3.14.01 says no Data Center subject to that section shall be permitted by right. The September 8, 2026 suspension of data center applications is an adopted moratorium and does not change this cell."
       },
       "errors": [
-        "us-12069/LM/datacenter: definition quote not found in source"
+        "us-12069/LM/datacenter: definition quote not found in source",
+        "us-12069/LM/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'LM' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6900,7 +6934,7 @@
       "errors": [
         "us-12069/LM/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6943,9 +6977,10 @@
         "notes": "Symbol C is a conditional use. Section 3.14.02 requires a Conditional Use Permit, and Section 3.14.01 says no Data Center subject to that section shall be permitted by right. Notes 6 and 7 address uses shown as P, not C. The September 8, 2026 suspension of data center applications is an adopted moratorium and does not change this cell."
       },
       "errors": [
-        "us-12069/MP/datacenter: definition quote not found in source"
+        "us-12069/MP/datacenter: definition quote not found in source",
+        "us-12069/MP/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'MP 6, 7' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -6989,9 +7024,10 @@
       },
       "errors": [
         "us-12069/MP/heavy_industrial_hazmat: definition quote not found in source",
-        "us-12069/MP/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key"
+        "us-12069/MP/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key",
+        "us-12069/MP/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'MP 6, 7' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7029,7 +7065,7 @@
       "errors": [
         "us-12069/MP/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7081,7 +7117,7 @@
         "us-12069/PUD/warehouse_distribution: definition quote not found in source",
         "us-12069/PUD/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7138,7 +7174,7 @@
         "us-12069/PUD/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/PUD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7193,9 +7229,10 @@
         "us-12069/R-1/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/R-1/warehouse_distribution: definition quote not found in source",
         "us-12069/R-1/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-1/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'R1' in the reconstructed table",
         "us-12069/R-1/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7255,9 +7292,10 @@
         "us-12069/R-1/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/R-1/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/R-1/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-1/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'R1' in the reconstructed table",
         "us-12069/R-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7312,9 +7350,10 @@
         "us-12069/R-2/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/R-2/warehouse_distribution: definition quote not found in source",
         "us-12069/R-2/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-2/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'R2' in the reconstructed table",
         "us-12069/R-2/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7374,9 +7413,10 @@
         "us-12069/R-2/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/R-2/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/R-2/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-2/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'R2' in the reconstructed table",
         "us-12069/R-2/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7431,9 +7471,10 @@
         "us-12069/R-3/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/R-3/warehouse_distribution: definition quote not found in source",
         "us-12069/R-3/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-3/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'R3' in the reconstructed table",
         "us-12069/R-3/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7493,9 +7534,10 @@
         "us-12069/R-3/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/R-3/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/R-3/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-3/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'R3' in the reconstructed table",
         "us-12069/R-3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7550,9 +7592,10 @@
         "us-12069/R-4/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/R-4/warehouse_distribution: definition quote not found in source",
         "us-12069/R-4/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-4/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'R4' in the reconstructed table",
         "us-12069/R-4/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7612,9 +7655,10 @@
         "us-12069/R-4/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/R-4/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/R-4/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-4/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'R4' in the reconstructed table",
         "us-12069/R-4/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7661,9 +7705,10 @@
         "us-12069/R-6/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/R-6/warehouse_distribution: definition quote not found in source",
         "us-12069/R-6/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-6/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'R6' in the reconstructed table",
         "us-12069/R-6/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7709,10 +7754,11 @@
         "us-12069/R-6/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/R-6/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/R-6/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-6/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'R6' in the reconstructed table",
         "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7759,9 +7805,10 @@
         "us-12069/R-7/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/R-7/warehouse_distribution: definition quote not found in source",
         "us-12069/R-7/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-7/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'R7' in the reconstructed table",
         "us-12069/R-7/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7807,10 +7854,11 @@
         "us-12069/R-7/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/R-7/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/R-7/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/R-7/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'R7' in the reconstructed table",
         "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7857,9 +7905,10 @@
         "us-12069/RA/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/RA/warehouse_distribution: definition quote not found in source",
         "us-12069/RA/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/RA/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'RA' in the reconstructed table",
         "us-12069/RA/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7905,10 +7954,11 @@
         "us-12069/RA/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/RA/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/RA/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/RA/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'RA' in the reconstructed table",
         "us-12069/RA/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/RA/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -7955,9 +8005,10 @@
         "us-12069/RM/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/RM/warehouse_distribution: definition quote not found in source",
         "us-12069/RM/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/RM/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'RM' in the reconstructed table",
         "us-12069/RM/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -8003,10 +8054,11 @@
         "us-12069/RM/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/RM/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/RM/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/RM/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'RM' in the reconstructed table",
         "us-12069/RM/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/RM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -8053,9 +8105,10 @@
         "us-12069/RMRP/warehouse_distribution: unlisted requires evidence kind absence",
         "us-12069/RMRP/warehouse_distribution: definition quote not found in source",
         "us-12069/RMRP/warehouse_distribution: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/RMRP/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'RMRP1' in the reconstructed table",
         "us-12069/RMRP/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -8101,10 +8154,11 @@
         "us-12069/RMRP/heavy_industrial_hazmat: unlisted requires evidence kind absence",
         "us-12069/RMRP/heavy_industrial_hazmat: definition quote not found in source",
         "us-12069/RMRP/heavy_industrial_hazmat: table symbol '' does not map to status 'unlisted' through the table key",
+        "us-12069/RMRP/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'RMRP1' in the reconstructed table",
         "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
         "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -8179,7 +8233,7 @@
         "us-12069/RP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
         "us-12069/RP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -8217,7 +8271,7 @@
       "errors": [
         "us-12069/RP/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -8292,7 +8346,7 @@
         "us-12069/RV/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
         "us-12069/RV/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "cell": {
@@ -8330,7 +8384,7 @@
       "errors": [
         "us-12069/RV/battery_storage: quote not found in source"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     }
   ],
   "missing": [
@@ -8348,6 +8402,10 @@
     ],
     [
       "A",
+      "utility_generation"
+    ],
+    [
+      "A",
       "battery_storage"
     ],
     [
@@ -8364,6 +8422,10 @@
     ],
     [
       "AR",
+      "utility_generation"
+    ],
+    [
+      "AR",
       "battery_storage"
     ],
     [
@@ -8380,6 +8442,10 @@
     ],
     [
       "C-1",
+      "utility_generation"
+    ],
+    [
+      "C-1",
       "battery_storage"
     ],
     [
@@ -8388,7 +8454,15 @@
     ],
     [
       "C-2",
+      "warehouse_distribution"
+    ],
+    [
+      "C-2",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "C-2",
+      "utility_generation"
     ],
     [
       "C-2",
@@ -8400,7 +8474,15 @@
     ],
     [
       "C-3",
+      "warehouse_distribution"
+    ],
+    [
+      "C-3",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "C-3",
+      "utility_generation"
     ],
     [
       "C-3",
@@ -8417,6 +8499,10 @@
     [
       "CFD",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "CFD",
+      "utility_generation"
     ],
     [
       "CFD",
@@ -8428,7 +8514,15 @@
     ],
     [
       "CP",
+      "warehouse_distribution"
+    ],
+    [
+      "CP",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "CP",
+      "utility_generation"
     ],
     [
       "CP",
@@ -8440,7 +8534,15 @@
     ],
     [
       "HM",
+      "warehouse_distribution"
+    ],
+    [
+      "HM",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "HM",
+      "utility_generation"
     ],
     [
       "HM",
@@ -8452,7 +8554,15 @@
     ],
     [
       "LM",
+      "warehouse_distribution"
+    ],
+    [
+      "LM",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "LM",
+      "utility_generation"
     ],
     [
       "LM",
@@ -8464,7 +8574,15 @@
     ],
     [
       "MP",
+      "warehouse_distribution"
+    ],
+    [
+      "MP",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "MP",
+      "utility_generation"
     ],
     [
       "MP",
@@ -8583,6 +8701,10 @@
       "heavy_industrial_hazmat"
     ],
     [
+      "R-6",
+      "utility_generation"
+    ],
+    [
       "R-7",
       "datacenter"
     ],
@@ -8593,6 +8715,10 @@
     [
       "R-7",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "R-7",
+      "utility_generation"
     ],
     [
       "RA",
@@ -8607,6 +8733,10 @@
       "heavy_industrial_hazmat"
     ],
     [
+      "RA",
+      "utility_generation"
+    ],
+    [
       "RM",
       "datacenter"
     ],
@@ -8619,6 +8749,10 @@
       "heavy_industrial_hazmat"
     ],
     [
+      "RM",
+      "utility_generation"
+    ],
+    [
       "RMRP",
       "datacenter"
     ],
@@ -8629,6 +8763,10 @@
     [
       "RMRP",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "RMRP",
+      "utility_generation"
     ],
     [
       "RP",
@@ -8672,7 +8810,7 @@
     ]
   ],
   "regate": {
-    "run_id": "regate-us-12069-20261011T102755Z",
-    "at": "2026-10-11T10:27:55Z"
+    "run_id": "regate-us-12069-20261011T145921Z",
+    "at": "2026-10-11T14:59:21Z"
   }
 }

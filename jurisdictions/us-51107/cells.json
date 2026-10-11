@@ -36,7 +36,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -78,7 +79,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -121,7 +123,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -201,7 +204,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -247,7 +251,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -293,7 +298,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -335,7 +341,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -378,7 +385,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -458,7 +466,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -504,7 +513,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -550,7 +560,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -592,7 +603,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -635,7 +647,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -715,7 +728,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -761,7 +775,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -807,7 +822,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -849,7 +865,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -892,7 +909,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -972,7 +990,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -1018,7 +1037,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -1155,7 +1175,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1197,7 +1218,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1239,7 +1261,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1319,7 +1342,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -1365,7 +1389,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1407,7 +1432,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -1449,7 +1475,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1529,7 +1556,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -1575,7 +1603,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1617,7 +1646,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1659,7 +1689,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1739,7 +1770,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -1784,7 +1816,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -1826,7 +1859,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -1868,7 +1902,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "disputed",
     "confidence": "C"
@@ -1948,7 +1983,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -1994,7 +2030,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2036,7 +2073,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2078,7 +2116,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2158,7 +2197,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -2204,7 +2244,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2246,7 +2287,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2288,7 +2330,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2368,7 +2411,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -2414,7 +2458,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -2460,7 +2505,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2502,7 +2548,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2544,7 +2591,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2624,7 +2672,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -2670,7 +2719,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -2716,7 +2766,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2758,7 +2809,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2800,7 +2852,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -2880,7 +2933,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -2926,7 +2980,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -2972,7 +3027,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3013,7 +3069,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -3055,7 +3112,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3135,7 +3193,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -3181,7 +3240,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -3264,7 +3324,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3306,7 +3367,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3386,7 +3448,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -3432,7 +3495,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -3515,7 +3579,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3557,7 +3622,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3637,7 +3703,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -3683,7 +3750,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -3729,7 +3797,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3771,7 +3840,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3813,7 +3883,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -3893,7 +3964,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -3938,7 +4010,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -3984,7 +4057,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -4026,7 +4100,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -4068,7 +4143,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -4148,7 +4224,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -4193,7 +4270,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -4239,7 +4317,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -4281,7 +4360,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -4323,7 +4403,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -4403,7 +4484,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -4448,7 +4530,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -4494,7 +4577,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -4536,7 +4620,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -4578,7 +4663,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -4658,7 +4744,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -4703,7 +4790,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -4711,48 +4799,6 @@
       "state_rule_id": "va-battery_storage",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "MRHI",
-    "use_class": "datacenter",
-    "status": "permitted",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | MR-HI | P",
-      "section": "Table 3.02.05-1",
-      "row_label": "Data Center",
-      "column_header": "MR-HI",
-      "symbol": "P"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "permitted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "The code table shows P. A separate webpage (us-51107-dc-phase1) says ZOAM-2024-0001 requires SPEX for data centers in IP, GI and MR-HI. That amendment does not appear in the table text, so the table cell is used and the amendment should be recorded separately.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -4790,7 +4836,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -4832,7 +4879,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -4912,7 +4960,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -4958,7 +5007,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5003,7 +5053,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -5045,7 +5096,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -5087,7 +5139,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -5167,7 +5220,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -5212,7 +5266,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5258,7 +5313,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5301,7 +5357,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5344,7 +5401,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5426,7 +5484,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "C",
@@ -5473,7 +5532,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5520,7 +5580,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5563,7 +5624,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5606,7 +5668,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -5688,7 +5751,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "C",
@@ -5735,7 +5799,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6010,7 +6075,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6053,7 +6119,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6135,7 +6202,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6182,7 +6250,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6232,61 +6301,6 @@
   },
   {
     "jurisdiction_id": "us-51107",
-    "district_code": "PDOP",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, greater than 600kWh in nameplate capacity.",
-        "section": "Chapter 12",
-        "reason": "Part of an energy storage definition; not generation, and no PD-OP status."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, less than or equal to 600kWh in nameplate capacity. Storage devices",
-        "section": "Chapter 12",
-        "reason": "Part of an energy storage definition; not generation, and no PD-OP status."
-      }
-    ],
-    "notes": "Flag: PD-OP is absent from the use tables.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
     "district_code": "PDRDP",
     "use_class": "datacenter",
     "status": "conditional",
@@ -6321,7 +6335,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6364,7 +6379,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6407,7 +6423,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6489,7 +6506,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6535,7 +6553,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6544,135 +6563,6 @@
       "state_rule_id": "va-battery_storage",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDRV",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | PD-RV Con | ",
-      "section": "Table 3.02.04-1",
-      "row_label": "Data Center",
-      "column_header": "PD-RV Con",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in PD-RV Con, PD-RV Res and PD-RV Work; the table key says 'blank cell = Prohibited'.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDRV",
-    "use_class": "warehouse_distribution",
-    "status": "conditional",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | PD-RV Work | S",
-      "section": "Table 3.02.04-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "PD-RV Work",
-      "symbol": "S"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "S only in the PD-RV Work column; blank (prohibited) in PD-RV Con and PD-RV Res.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDRV",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "prohibited",
-    "local_uses": [
-      "Manufacturing, Intensive"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Manufacturing, Intensive | PD-RV Con | ",
-      "section": "Table 3.02.04-1",
-      "row_label": "Manufacturing, Intensive",
-      "column_header": "PD-RV Con",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in all three PD-RV columns; the table key says 'blank cell = Prohibited'. Manufacturing, General (S in PD-RV Work) not mapped because no definition is in the text.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
   },
   {
     "jurisdiction_id": "us-51107",
@@ -6714,101 +6604,6 @@
   },
   {
     "jurisdiction_id": "us-51107",
-    "district_code": "PDRV",
-    "use_class": "utility_generation",
-    "status": "prohibited",
-    "local_uses": [
-      "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "Solar Facility, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility | PD-RV Con | ",
-      "section": "Table 3.02.04-1",
-      "row_label": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "column_header": "PD-RV Con",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in all PD-RV columns, as is Solar Facility, Utility Scale; the table key says 'blank cell = Prohibited'.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDRV",
-    "use_class": "battery_storage",
-    "status": "prohibited",
-    "local_uses": [
-      "Energy Storage, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Energy Storage, Utility Scale | PD-RV Con | ",
-      "section": "Table 3.02.04-1",
-      "row_label": "Energy Storage, Utility Scale",
-      "column_header": "PD-RV Con",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in all PD-RV columns (S appears only in JLMA-206); the table key says 'blank cell = Prohibited'.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
     "district_code": "PDSA",
     "use_class": "datacenter",
     "status": "prohibited",
@@ -6844,7 +6639,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6887,7 +6683,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -6930,7 +6727,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -7012,7 +6810,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -7059,7 +6858,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -7106,61 +6906,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDSC",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, greater than 600kWh in nameplate capacity.",
-        "section": "Chapter 12",
-        "reason": "Capacity threshold for energy storage, not generation; PDSC has no use table column."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, less than or equal to 600kWh in nameplate capacity. Storage devices",
-        "section": "Chapter 12",
-        "reason": "Capacity threshold for energy storage, not generation; PDSC has no use table column."
-      }
-    ],
-    "notes": "PDSC is not in the code. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -7292,7 +7037,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -7334,7 +7080,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -7377,7 +7124,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -7457,7 +7205,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -7503,7 +7252,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -7549,7 +7299,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -7591,7 +7342,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -7634,7 +7386,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -7714,7 +7467,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -7760,7 +7514,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -7806,7 +7561,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -7848,7 +7604,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C"
@@ -7891,7 +7648,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -7971,7 +7729,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -8017,7 +7776,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -8063,7 +7823,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8105,7 +7866,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8147,7 +7909,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8227,7 +7990,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -8273,7 +8037,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -8319,7 +8084,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8361,7 +8127,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8403,7 +8170,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8483,7 +8251,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -8529,7 +8298,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -8575,7 +8345,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8617,7 +8388,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8659,7 +8431,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8739,7 +8512,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -8785,7 +8559,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -8831,7 +8606,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8873,7 +8649,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8915,7 +8692,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -8995,7 +8773,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -9041,7 +8820,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -9087,7 +8867,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9129,7 +8910,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9171,7 +8953,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9251,7 +9034,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -9297,7 +9081,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -9343,7 +9128,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9385,7 +9171,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9427,7 +9214,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9507,7 +9295,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -9553,7 +9342,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -9599,7 +9389,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9641,7 +9432,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9683,7 +9475,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9763,7 +9556,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -9809,7 +9603,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -9855,7 +9650,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9897,7 +9693,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -9939,7 +9736,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -10019,7 +9817,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -10065,7 +9864,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "table"
+      "column_header": "table",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -10073,132 +9873,6 @@
       "state_rule_id": "va-battery_storage",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TC",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | TC Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Data Center",
-      "column_header": "TC Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in both TC Core and TC Fringe; table key says blank cell = Prohibited.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "table"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TC",
-    "use_class": "warehouse_distribution",
-    "status": "prohibited",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | TC Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "TC Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in TC Core (prohibited per table key); TC Fringe shows S (special exception). Most-restrictive-wins applied across the two TC columns; review whether the TC subdistricts should be split.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "table"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TC",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "prohibited",
-    "local_uses": [
-      "Manufacturing, Intensive"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Manufacturing, Intensive | TC Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Manufacturing, Intensive",
-      "column_header": "TC Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in TC Core and TC Fringe; table key says blank cell = Prohibited. Manufacturing, General (S in TC Core and TC Fringe) is not mapped to this class because no definition is given in the text provided.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "table"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -10239,99 +9913,6 @@
   },
   {
     "jurisdiction_id": "us-51107",
-    "district_code": "TC",
-    "use_class": "utility_generation",
-    "status": "prohibited",
-    "local_uses": [
-      "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "Solar Facility, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility | TC Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "column_header": "TC Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in TC Core and TC Fringe for both mapped uses; table key says blank cell = Prohibited.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "table"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TC",
-    "use_class": "battery_storage",
-    "status": "prohibited",
-    "local_uses": [
-      "Energy Storage, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Energy Storage, Utility Scale | TC Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Energy Storage, Utility Scale",
-      "column_header": "TC Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in TC Core and TC Fringe; table key says blank cell = Prohibited. Site-specific energy storage is only an accessory use.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "table"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
     "district_code": "TR10",
     "use_class": "datacenter",
     "status": "prohibited",
@@ -10367,7 +9948,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -10409,7 +9991,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -10451,7 +10034,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -10531,7 +10115,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -10577,7 +10162,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "single",
     "confidence": "C",
@@ -10585,132 +10171,6 @@
       "state_rule_id": "va-battery_storage",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1LF",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Data Center",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1LF",
-    "use_class": "warehouse_distribution",
-    "status": "prohibited",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district. Indoor warehousing is only an accessory use (Table 3.03-1).",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1LF",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "prohibited",
-    "local_uses": [
-      "Manufacturing, Intensive"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Manufacturing, Intensive | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Manufacturing, Intensive",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -10751,225 +10211,6 @@
   },
   {
     "jurisdiction_id": "us-51107",
-    "district_code": "TR1LF",
-    "use_class": "utility_generation",
-    "status": "prohibited",
-    "local_uses": [
-      "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "Solar Facility, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cells for both mapped uses; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1LF",
-    "use_class": "battery_storage",
-    "status": "prohibited",
-    "local_uses": [
-      "Energy Storage, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Energy Storage, Utility Scale | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Energy Storage, Utility Scale",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district. Site-specific energy storage is allowed only as an accessory use (Table 3.03-1).",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1UBF",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Data Center",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1UBF",
-    "use_class": "warehouse_distribution",
-    "status": "prohibited",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district. Indoor warehousing is only an accessory use (Table 3.03-1).",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1UBF",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "prohibited",
-    "local_uses": [
-      "Manufacturing, Intensive"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Manufacturing, Intensive | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Manufacturing, Intensive",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
     "district_code": "TR1UBF",
     "use_class": "lp_gas",
     "status": "unlisted",
@@ -11004,99 +10245,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1UBF",
-    "use_class": "utility_generation",
-    "status": "prohibited",
-    "local_uses": [
-      "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "Solar Facility, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cells for both mapped uses; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1UBF",
-    "use_class": "battery_storage",
-    "status": "prohibited",
-    "local_uses": [
-      "Energy Storage, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Energy Storage, Utility Scale | TR-1 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Energy Storage, Utility Scale",
-      "column_header": "TR-1",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district. Site-specific energy storage is allowed only as an accessory use (Table 3.03-1).",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -11135,7 +10283,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -11177,7 +10326,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "table",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -11219,7 +10369,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -11299,7 +10450,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -11345,7 +10497,8 @@
     "matched_text": {
       "section": "raw",
       "row_label": "raw",
-      "column_header": "raw"
+      "column_header": "raw",
+      "symbol": "table"
     },
     "review": "agree",
     "confidence": "B",
@@ -11357,388 +10510,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "TR3LBR",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Data Center",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LBR",
-    "use_class": "warehouse_distribution",
-    "status": "prohibited",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district. Indoor warehousing is only an accessory use (Table 3.03-1).",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LBR",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "prohibited",
-    "local_uses": [
-      "Manufacturing, Intensive"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Manufacturing, Intensive | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Manufacturing, Intensive",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LBR",
-    "use_class": "lp_gas",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [],
-    "notes": "No LP-gas term found in the code.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LBR",
-    "use_class": "utility_generation",
-    "status": "prohibited",
-    "local_uses": [
-      "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "Solar Facility, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cells for both mapped uses; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LBR",
-    "use_class": "battery_storage",
-    "status": "prohibited",
-    "local_uses": [
-      "Energy Storage, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Energy Storage, Utility Scale | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Energy Storage, Utility Scale",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district. Site-specific energy storage is allowed only as an accessory use (Table 3.03-1).",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LF",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Data Center",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LF",
-    "use_class": "warehouse_distribution",
-    "status": "prohibited",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district. Indoor warehousing is only an accessory use (Table 3.03-1).",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LF",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "prohibited",
-    "local_uses": [
-      "Manufacturing, Intensive"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Manufacturing, Intensive | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Manufacturing, Intensive",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LF",
     "use_class": "lp_gas",
     "status": "unlisted",
     "local_uses": [],
@@ -11776,19 +10547,13 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "TR3LF",
-    "use_class": "utility_generation",
-    "status": "prohibited",
-    "local_uses": [
-      "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "Solar Facility, Utility Scale"
-    ],
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
     "evidence": {
-      "kind": "table",
-      "quote": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "column_header": "TR-3",
-      "symbol": ""
+      "kind": "absence",
+      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
+      "section": "Table 3.02.03-1"
     },
     "source": {
       "id": "us-51107-zo-ch3",
@@ -11802,192 +10567,16 @@
       {
         "date": "2026-10-10",
         "from": null,
-        "to": "prohibited",
+        "to": "unlisted",
         "by": "claude",
         "ref": "extract-us-51107-20261010T235540Z"
       }
     ],
-    "notes": "Blank cells for both mapped uses; table key: A blank cell indicates that the use is not permitted in the district.",
+    "absence_hits": [],
+    "notes": "No LP-gas term found in the code.",
     "matched_text": {
       "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LF",
-    "use_class": "battery_storage",
-    "status": "prohibited",
-    "local_uses": [
-      "Energy Storage, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Energy Storage, Utility Scale | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Energy Storage, Utility Scale",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; table key: A blank cell indicates that the use is not permitted in the district. Site-specific energy storage is allowed only as an accessory use (Table 3.03-1).",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3UBF",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Data Center",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; the table key says a blank cell means the use is not permitted. The text does not distinguish an Upper Broad Run/Upper Foley variant, so the TR-3 column is used.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3UBF",
-    "use_class": "warehouse_distribution",
-    "status": "prohibited",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; the key says blank = Prohibited. Mini-Warehouse is excluded from this class.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3UBF",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "prohibited",
-    "local_uses": [
-      "Manufacturing, Intensive"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Manufacturing, Intensive | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Manufacturing, Intensive",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank cell; the key says blank = Prohibited.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
+      "quote": "raw"
     },
     "review": "agree",
     "confidence": "B"
@@ -12025,179 +10614,6 @@
     "matched_text": {
       "section": "raw",
       "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3UBF",
-    "use_class": "utility_generation",
-    "status": "prohibited",
-    "local_uses": [
-      "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "Solar Facility, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Solar Facility, Utility Scale | TR-3 | ",
-      "section": "Table 3.02.03-1",
-      "row_label": "Solar Facility, Utility Scale",
-      "column_header": "TR-3",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Both mapped rows are blank in TR-3; the key says blank = Prohibited.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TRC",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Data Center"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Data Center | TRC Inner Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Data Center",
-      "column_header": "TRC Inner Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in all three TRC columns (Inner Core, Outer Core, TDSA); the key says blank = Prohibited.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "table"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TRC",
-    "use_class": "warehouse_distribution",
-    "status": "prohibited",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | TRC Inner Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "TRC Inner Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in all TRC columns; the key says blank = Prohibited. Mini-Warehouse (S in TRC Outer Core and TDSA) is excluded from this class.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "table"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TRC",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "prohibited",
-    "local_uses": [
-      "Manufacturing, Intensive"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Manufacturing, Intensive | TRC Inner Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Manufacturing, Intensive",
-      "column_header": "TRC Inner Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Blank in all TRC columns; the key says blank = Prohibited.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "table"
     },
     "review": "agree",
     "confidence": "B"
@@ -12238,52 +10654,5 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TRC",
-    "use_class": "utility_generation",
-    "status": "prohibited",
-    "local_uses": [
-      "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility",
-      "Solar Facility, Utility Scale"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Solar Facility, Utility Scale | TRC Inner Core | ",
-      "section": "Table 3.02.01-1",
-      "row_label": "Solar Facility, Utility Scale",
-      "column_header": "TRC Inner Core",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "notes": "Both mapped rows are blank in all TRC columns; the key says blank = Prohibited.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "table"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
   }
 ]

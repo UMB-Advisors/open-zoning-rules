@@ -1,66 +1,87 @@
 {
   "jurisdiction_id": "us-12069",
-  "run_id": "grade-us-12069-20261011T110855Z",
+  "run_id": "grade-us-12069-e906c66b3b3a5d78",
   "withheld": [
     {
       "key": "us-12069/A/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/A/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/A/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/A/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/A/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/A/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/A/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/A/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/A/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/A/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/A/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/A/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'A' in the reconstructed table"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/A/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/A/utility_generation: table grid: cannot place 'Solar Facility' under 'A' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/A/warehouse_distribution",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/A/warehouse_distribution: table grid: cannot place 'Truck Yard' under 'A' in the reconstructed table"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/AR/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/AR/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/AR/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/AR/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/AR/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/AR/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/AR/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/AR/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/AR/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/AR/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/AR/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/AR/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/AR/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/AR/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/AR/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'AR' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/AR/warehouse_distribution",
@@ -68,33 +89,44 @@
       "reason": [
         "us-12069/AR/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-1/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/C-1/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/C-1/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/C-1/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/C-1/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-1/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/C-1/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/C-1/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/C-1/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/C-1/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-1/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/C-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/C-1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/C-1/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'C1 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-1/warehouse_distribution",
@@ -102,84 +134,133 @@
       "reason": [
         "us-12069/C-1/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-2/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/C-2/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/C-2/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/C-2/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/C-2/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-2/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/C-2/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/C-2/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/C-2/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/C-2/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-2/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/C-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/C-2/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/C-2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/C-2/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'C2 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/C-2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/C-2/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'C2 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-3/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/C-3/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/C-3/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/C-3/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/C-3/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-3/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/C-3/datacenter: definition section not found in source"
+        "us-12069/C-3/datacenter: definition section not found in source",
+        "us-12069/C-3/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'C3 2' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/C-3/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/C-3/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/C-3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/C-3/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/C-3/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'C3 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/C-3/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/C-3/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'C3 2' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/CFD/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/CFD/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/CFD/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/CFD/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/CFD/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/CFD/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/CFD/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/CFD/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/CFD/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/CFD/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/CFD/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/CFD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/CFD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/CFD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/CFD/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'CFD6' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/CFD/warehouse_distribution",
@@ -187,162 +268,242 @@
       "reason": [
         "us-12069/CFD/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/CP/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/CP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/CP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/CP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/CP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/CP/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/CP/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/CP/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/CP/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
         "us-12069/CP/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/CP/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/CP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/CP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/CP/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/CP/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'CP 6, 7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/CP/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/CP/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'CP 6, 7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/HM/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/HM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/HM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/HM/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/HM/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/HM/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/HM/datacenter: definition section not found in source"
+        "us-12069/HM/datacenter: definition section not found in source",
+        "us-12069/HM/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'HM' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/HM/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
         "us-12069/HM/heavy_industrial_hazmat: definition section not found in source",
-        "us-12069/HM/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key"
+        "us-12069/HM/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key",
+        "us-12069/HM/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'HM' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/HM/lp_gas",
       "gate": "extraction",
       "reason": [
         "us-12069/HM/lp_gas: definition section not found in source",
-        "us-12069/HM/lp_gas: table symbol 'P, C' does not map to status 'conditional' through the table key"
+        "us-12069/HM/lp_gas: table symbol 'P, C' does not map to status 'conditional' through the table key",
+        "us-12069/HM/lp_gas: table grid: cannot place 'Industrial, Heavy' under 'HM' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/HM/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/HM/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'HM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/HM/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/HM/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'HM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/LM/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/LM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/LM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/LM/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/LM/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/LM/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/LM/datacenter: definition section not found in source"
+        "us-12069/LM/datacenter: definition section not found in source",
+        "us-12069/LM/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'LM' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/LM/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/LM/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/LM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/LM/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/LM/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'LM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/LM/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/LM/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'LM' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/MP/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/MP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/MP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/MP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/MP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/MP/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/MP/datacenter: definition section not found in source"
+        "us-12069/MP/datacenter: definition section not found in source",
+        "us-12069/MP/datacenter: table grid: cannot place 'Data Centers; Data Center Campus' under 'MP 6, 7' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/MP/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
         "us-12069/MP/heavy_industrial_hazmat: definition section not found in source",
-        "us-12069/MP/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key"
+        "us-12069/MP/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key",
+        "us-12069/MP/heavy_industrial_hazmat: table grid: cannot place 'Industrial, Heavy' under 'MP 6, 7' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/MP/lp_gas",
       "gate": "extraction",
       "reason": [
         "us-12069/MP/lp_gas: definition section not found in source",
-        "us-12069/MP/lp_gas: table symbol 'P, C' does not map to status 'conditional' through the table key"
+        "us-12069/MP/lp_gas: table symbol 'P, C' does not map to status 'conditional' through the table key",
+        "us-12069/MP/lp_gas: table grid: cannot place 'Industrial, Heavy' under 'MP 6, 7' in the reconstructed table"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/MP/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/MP/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'MP 6, 7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/MP/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/MP/warehouse_distribution: table grid: cannot place 'Wholesale and Warehouse' under 'MP 6, 7' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/PUD/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/PUD/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/PUD/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/PUD/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/PUD/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/PUD/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/PUD/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/PUD/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/PUD/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/PUD/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/PUD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/PUD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/PUD/utility_generation",
       "gate": "extraction",
       "reason": [
-        "us-12069/PUD/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 1 are not explained"
+        "us-12069/PUD/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/PUD/warehouse_distribution",
@@ -350,41 +511,43 @@
       "reason": [
         "us-12069/PUD/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-1/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-1/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/R-1/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-1/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/R-1/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-1/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-1/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/R-1/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/R-1/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-1/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/R-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/R-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-1/utility_generation",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/R-1/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'R1' in the reconstructed table"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-1/warehouse_distribution",
@@ -392,41 +555,43 @@
       "reason": [
         "us-12069/R-1/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-2/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-2/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/R-2/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-2/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/R-2/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-2/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-2/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/R-2/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/R-2/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-2/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/R-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/R-2/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-2/utility_generation",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/R-2/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'R2' in the reconstructed table"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-2/warehouse_distribution",
@@ -434,41 +599,43 @@
       "reason": [
         "us-12069/R-2/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-3/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-3/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/R-3/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-3/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/R-3/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-3/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-3/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/R-3/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/R-3/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-3/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/R-3/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/R-3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-3/utility_generation",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/R-3/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'R3' in the reconstructed table"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-3/warehouse_distribution",
@@ -476,41 +643,43 @@
       "reason": [
         "us-12069/R-3/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-4/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-4/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/R-4/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-4/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
         "us-12069/R-4/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-4/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-4/datacenter: absence gate: 'data center' occurs 112 times in the code and 103 are not explained",
+        "us-12069/R-4/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/R-4/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-4/heavy_industrial_hazmat",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/R-4/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/R-4/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-4/utility_generation",
-      "gate": "review",
+      "gate": "extraction",
       "reason": [
-        "no reviewer label passed the gates"
+        "us-12069/R-4/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'R4' in the reconstructed table"
       ],
-      "run_id": "grade-us-12069-20261011T110855Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-4/warehouse_distribution",
@@ -518,44 +687,44 @@
       "reason": [
         "us-12069/R-4/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-6/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-6/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
-        "us-12069/R-6/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
-        "us-12069/R-6/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 3 are not explained"
+        "us-12069/R-6/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-6/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 5 are not explained",
+        "us-12069/R-6/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-6/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-6/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/R-6/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/R-6/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-12069/R-6/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-6/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
-        "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 2 are not explained"
+        "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-6/utility_generation",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-6/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
+        "us-12069/R-6/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-6/warehouse_distribution",
@@ -563,44 +732,44 @@
       "reason": [
         "us-12069/R-6/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-7/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-7/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
-        "us-12069/R-7/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
-        "us-12069/R-7/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 3 are not explained"
+        "us-12069/R-7/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-7/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 5 are not explained",
+        "us-12069/R-7/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-7/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-7/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/R-7/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/R-7/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-12069/R-7/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-7/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
-        "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 2 are not explained"
+        "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-7/utility_generation",
       "gate": "extraction",
       "reason": [
-        "us-12069/R-7/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
+        "us-12069/R-7/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/R-7/warehouse_distribution",
@@ -608,44 +777,44 @@
       "reason": [
         "us-12069/R-7/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RA/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/RA/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
-        "us-12069/RA/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
-        "us-12069/RA/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 3 are not explained"
+        "us-12069/RA/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/RA/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 5 are not explained",
+        "us-12069/RA/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RA/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/RA/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/RA/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/RA/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-12069/RA/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RA/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
-        "us-12069/RA/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
-        "us-12069/RA/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 2 are not explained"
+        "us-12069/RA/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RA/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RA/utility_generation",
       "gate": "extraction",
       "reason": [
-        "us-12069/RA/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
+        "us-12069/RA/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RA/warehouse_distribution",
@@ -653,44 +822,44 @@
       "reason": [
         "us-12069/RA/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RM/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/RM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
-        "us-12069/RM/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
-        "us-12069/RM/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 3 are not explained"
+        "us-12069/RM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/RM/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 5 are not explained",
+        "us-12069/RM/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RM/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/RM/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/RM/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/RM/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-12069/RM/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RM/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
-        "us-12069/RM/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
-        "us-12069/RM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 2 are not explained"
+        "us-12069/RM/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RM/utility_generation",
       "gate": "extraction",
       "reason": [
-        "us-12069/RM/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
+        "us-12069/RM/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RM/warehouse_distribution",
@@ -698,44 +867,44 @@
       "reason": [
         "us-12069/RM/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RMRP/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/RMRP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
-        "us-12069/RMRP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
-        "us-12069/RMRP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 3 are not explained"
+        "us-12069/RMRP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/RMRP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 5 are not explained",
+        "us-12069/RMRP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RMRP/datacenter",
       "gate": "extraction",
       "reason": [
-        "us-12069/RMRP/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
+        "us-12069/RMRP/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
         "us-12069/RMRP/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-12069/RMRP/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RMRP/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
-        "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
-        "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 2 are not explained"
+        "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RMRP/utility_generation",
       "gate": "extraction",
       "reason": [
-        "us-12069/RMRP/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 2 are not explained"
+        "us-12069/RMRP/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RMRP/warehouse_distribution",
@@ -743,17 +912,17 @@
       "reason": [
         "us-12069/RMRP/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RP/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/RP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
-        "us-12069/RP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
-        "us-12069/RP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 3 are not explained"
+        "us-12069/RP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/RP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 5 are not explained",
+        "us-12069/RP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RP/datacenter",
@@ -762,15 +931,24 @@
         "us-12069/RP/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/RP/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RP/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
-        "us-12069/RP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 2 are not explained"
+        "us-12069/RP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/RP/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/RP/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'RP' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RP/warehouse_distribution",
@@ -778,17 +956,17 @@
       "reason": [
         "us-12069/RP/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RV/battery_storage",
       "gate": "extraction",
       "reason": [
-        "us-12069/RV/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
-        "us-12069/RV/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 4 are not explained",
-        "us-12069/RV/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 3 are not explained"
+        "us-12069/RV/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/RV/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 5 are not explained",
+        "us-12069/RV/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RV/datacenter",
@@ -797,15 +975,24 @@
         "us-12069/RV/datacenter: absence gate: 'data center' occurs 112 times in the code and 111 are not explained",
         "us-12069/RV/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RV/heavy_industrial_hazmat",
       "gate": "extraction",
       "reason": [
-        "us-12069/RV/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 2 are not explained"
+        "us-12069/RV/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RV/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
+    },
+    {
+      "key": "us-12069/RV/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12069/RV/utility_generation: table grid: cannot place 'Floating Solar Facility' under 'RV' in the reconstructed table"
+      ],
+      "run_id": "regate-us-12069-20261011T145921Z"
     },
     {
       "key": "us-12069/RV/warehouse_distribution",
@@ -813,7 +1000,7 @@
       "reason": [
         "us-12069/RV/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-12069-20261011T102755Z"
+      "run_id": "regate-us-12069-20261011T145921Z"
     }
   ]
 }
