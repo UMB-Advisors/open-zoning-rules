@@ -240,7 +240,7 @@ There were no model calls in Z0.8, Z0.10 or Z0.11. The per-jurisdiction extracti
    - Fauquier's scanned table rows need better OCR or a recorded human transcription.
    - Fauquier's footnoted (`P25`) and combined (`SP/SE`) symbols need key entries.
    - The `unlisted` cells withheld since Z0.8 need a prompt that lists every term occurrence.
-   - Prose-grid placement semantics (review residuals x5 and g4) and the broad class-term row match. Both fail closed.
+   - Prose-grid placement semantics (review residuals x5 and g4) and the class-term row match. The match is too broad: "Electrical substation distribution centers" counts as a warehouse row. It is also too narrow: a "Warehousing ..." row names no taxonomy term, so it is never checked against prose that does name one. The broad side fails closed; the narrow side is a residual gap.
 3. **Lake.** Record its moratorium and pending amendment, or hold Lake out of v0.1.0 because its text is an unadopted draft.
 4. **Other open items:**
    - The Warrenton taxonomy question: a use the code defines but lists in no district.
