@@ -20,7 +20,7 @@ This version supersedes `docs/Z0_report.v0.4.0.md`, which is kept.
   - Amendment records declare their resulting status, and only a declared result can supersede a cell.
   - The prose-grid check scans the whole ordinance.
 
-  No published status changed. 24 cells were withheld, all by the first rule, and 8 lost a dissenting reviewer label. Of the 24, 7 are Pittsylvania `utility_generation` cells resting on a footnote that names no use, and 6 are Pittsylvania cells whose text says "power generation", a phrase the taxonomy lacks.
+  No published status changed. 24 cells were withheld, all by the first rule, and 9 lost a dissenting reviewer label. Of the 24, 7 are Pittsylvania `utility_generation` cells resting on a footnote that names no use, and 6 are Pittsylvania cells whose text says "power generation", a phrase the taxonomy lacks.
 - **Listed-status agreement is still "insufficient data":** 0.978 over model-gold permitted 2, conditional 12 and prohibited 168, against a minimum of 50 per status. The rules that would add listed gold are deferred:
   - Loudoun subdistrict columns
   - Lake continuation pages
@@ -148,7 +148,7 @@ Pittsylvania lost its listed model-gold: its three `utility_generation` agreemen
 
 ## Z0.11: what changed in the data
 
-All 24 newly withheld cells, and the 8 that keep their status with one dissent fewer, are listed with the quote behind each in `docs/test-results/z0.11_structural_gates.v0.1.0.md`. In summary:
+All 24 newly withheld cells, and the 9 that keep their status with one dissent fewer, are listed with the quote behind each in `docs/test-results/z0.11_structural_gates.v0.1.0.md`. In summary:
 
 | Group | Cells | Disposition |
 |---|---|---|
@@ -157,7 +157,7 @@ All 24 newly withheld cells, and the 8 that keep their status with one dissent f
 | Pittsylvania: extractor quotes outside the taxonomy ("Chemicals manufacturing", "Petroleum ... refining") or naming another class ("Power stations" for battery storage) | 3 | Withheld |
 | Warrenton I `lp_gas` ("Fuel, coal, oil distribution storage yards") | 1 | Withheld; the text does not name LP gas |
 | Keys whose only passing reviewer label quoted a generic clause ("No structure shall hereafter be erected ...", the Fauquier intent clause, a district list heading): Fauquier M-G and M-R datacenter, Loudoun C1 `utility_generation`, and Pittsylvania M-1, M-2 and M-SVMS warehouse and M-SVMS `lp_gas` | 7 | Withheld at review |
-| Pittsylvania and Fauquier `lp_gas` unlisted cells that lose a grok `prohibited` label quoting a generic clause | 8 | Still published, `unlisted`, disputed to single, grade C unchanged |
+| Pittsylvania and Fauquier `lp_gas` unlisted cells that lose a grok `prohibited` label quoting a generic clause | 9 | Still published, `unlisted`, disputed to single, grade C unchanged |
 
 Rule 2 and rule 3 moved no cell:
 - Loudoun IP and GI datacenter stay published as `conditional` through ZOAM-2024-0001's declared result.
