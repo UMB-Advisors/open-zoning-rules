@@ -84,6 +84,16 @@ def _amendment(**overrides) -> dict:
         "districts": ["MR-HI"],
         "quote": "x",
         "source": {"id": "us-00000-amend"},
+        "results": [
+            {
+                "use_class": "datacenter",
+                "districts": ["MRHI"],
+                "status": "permitted",
+                "source_id": "us-00000-amend",
+                "section": "Sec. 1",
+                "quote": "Data Center uses are permitted",
+            }
+        ],
     }
     record.update(overrides)
     return record
@@ -365,8 +375,8 @@ def test_round2_amendment_schema_semantics_and_source_exemption() -> None:
     title_cell["source"] = {"id": "us-00000-amend"}
     title_cell["evidence"]["quote"] = "Board meeting title"
     assert superseded_errors(title_cell, [amendment], sources, JUR, "Board meeting title")
-    title_cell["evidence"]["quote"] = "actual amendment text"
-    assert not superseded_errors(title_cell, [amendment], sources, JUR, "actual amendment text")
+    title_cell["evidence"]["quote"] = "Data Center uses are permitted"
+    assert not superseded_errors(title_cell, [amendment], sources, JUR, "Data Center uses are permitted")
 
 
 def test_round2_host_allowed_rejects_backslashes() -> None:
@@ -411,6 +421,11 @@ def test_round2_real_published_controls_still_pass() -> None:
                 continue
             seen.add(key)
             text = (text_dir / f"{cell['source']['id']}.txt").read_text(encoding="utf-8")
-            assert cell_errors(cell, text, TAXONOMY, jurisdiction, load_denylist(), absence_text=absence) == [], key
+            assert (
+                cell_errors(
+                    cell, text, TAXONOMY, jurisdiction, load_denylist(), absence_text=absence, amendments=amendments
+                )
+                == []
+            ), key
             assert superseded_errors(cell, amendments, sources, jurisdiction, text) == [], key
     assert seen == wanted

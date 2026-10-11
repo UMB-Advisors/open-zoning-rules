@@ -67,7 +67,8 @@
       },
       "reference": {
         "type": "string",
-        "minLength": 1
+        "minLength": 1,
+        "pattern": "\\S"
       },
       "section": {
         "type": "string",
@@ -147,7 +148,28 @@
             }
           }
         }
+      },
+      "results": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["use_class", "districts", "status", "source_id", "section", "quote"],
+          "properties": {
+            "use_class": {"type": "string", "minLength": 1},
+            "districts": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+            "status": {"enum": ["permitted", "conditional", "prohibited", "unlisted"]},
+            "source_id": {"type": "string", "pattern": "\\S"},
+            "section": {"type": "string", "pattern": "\\S"},
+            "quote": {"type": "string", "pattern": "\\S"}
+          }
+        }
       }
-    }
+    },
+    "allOf": [{
+      "if": {"properties": {"kind": {"not": {"const": "adopted_text_amendment"}}}, "required": ["kind"]},
+      "then": {"not": {"required": ["results"]}}
+    }]
   }
 }

@@ -349,11 +349,20 @@ def _unlisted_rule_errors(key: str, quoted: object, text: str) -> list[str]:
     return []
 
 
-def table_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> list[str]:
+def table_errors(
+    cell: dict,
+    text: str,
+    taxonomy: dict,
+    jurisdiction: dict,
+    *,
+    grid_text: str | None = None,
+    amendments: list[dict] | None = None,
+) -> list[str]:
     """Return table quote, symbol-key, and reconstructed-grid errors."""
     evidence = _mapping(cell.get("evidence"))
     kind = evidence.get("kind")
     if kind in {"prose", "absence"}:
+        errors: list[str] = []
         quote = evidence.get("quote")
         entries = jurisdiction.get("table_key")
         if isinstance(quote, str) and isinstance(entries, list):
@@ -367,9 +376,10 @@ def table_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> l
                     and normalized_key
                     and (normalized_quote in normalized_key or normalized_key in normalized_quote)
                 ):
-                    return [
+                    errors.append(
                         f"{_cell_key(cell)}: prose evidence quotes the table key; cite the table cell as table evidence"
-                    ]
+                    )
+                    break
                 key_spans = tuple(re.finditer(re.escape(normalized_key), canonical(text).casefold()))
                 if (
                     normalized_quote
@@ -380,14 +390,16 @@ def table_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> l
                         for key_span in key_spans
                     )
                 ):
-                    return [
+                    errors.append(
                         f"{_cell_key(cell)}: prose evidence quotes the table key; cite the table cell as table evidence"
-                    ]
+                    )
+                    break
         if kind == "prose" and isinstance(quote, str):
-            errors = _prose_grid_errors(cell, text, taxonomy, jurisdiction)
+            errors.extend(_prose_names_use_errors(cell, taxonomy))
+            errors.extend(_prose_grid_errors(cell, text, taxonomy, jurisdiction, grid_text, amendments))
             errors.extend(_unlisted_prose_errors(cell, text, jurisdiction))
             return errors
-        return []
+        return errors
     if kind != "table":
         return []
     key = _cell_key(cell)
@@ -473,7 +485,7 @@ def _fkey(value: str) -> str:
     return re.sub(r"[^a-z0-9]", "", canonical(value).casefold())
 
 
-@lru_cache(maxsize=16)
+@lru_cache(maxsize=256)
 def _grid_rows(table: str) -> tuple[tuple[tuple[str, ...], ...], ...]:
     """Parse the reconstructed table layer once into comparable cell rows."""
     blocks: list[list[tuple[str, ...]]] = [[]]
@@ -507,21 +519,52 @@ def _grid_values(row_label: str, column_header: str, table: str) -> list[str]:
     return values
 
 
-def _prose_grid_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> list[str]:
+@lru_cache(maxsize=256)
+def _term_grid_rows(layer: str, terms: tuple[str, ...]) -> tuple[tuple[int, int, str], ...]:
+    return tuple(
+        (block_index, row_index, value)
+        for block_index, block in enumerate(_grid_rows(layer))
+        for row_index, row in enumerate(block)
+        for value in row
+        if any(_term_in(value, term) for term in terms)
+    )
+
+
+def _prose_names_use_errors(cell: dict, taxonomy: dict) -> list[str]:
+    if cell.get("status") not in {"permitted", "conditional", "prohibited"}:
+        return []
+    quote = _mapping(cell.get("evidence")).get("quote")
+    use_class = cell.get("use_class")
+    record = _class_record(taxonomy, str(use_class))
+    if record is None or not isinstance(quote, str) or any(_term_in(quote, term) for term in _class_terms(record)):
+        return []
+    return [
+        f"{_cell_key(cell)}: prose names the use: the quote names no taxonomy term of {use_class}; "
+        "a listed status needs the use's own text"
+    ]
+
+
+def _prose_grid_errors(
+    cell: dict,
+    text: str,
+    taxonomy: dict,
+    jurisdiction: dict,
+    grid_text: str | None = None,
+    amendments: list[dict] | None = None,
+) -> list[str]:
+    if _amendment_result_exempt(cell, amendments or [], jurisdiction, text):
+        return []
     record = _class_record(taxonomy, str(cell.get("use_class", "")))
     if record is None:
         return []
     district = cell.get("district_code")
     if not isinstance(district, str):
         return []
-    for layer in text_layers(text)[1:]:
-        for block in _grid_rows(layer):
-            for row_index, row in enumerate(block):
-                label = next(
-                    (value for value in row if any(_term_in(value, term) for term in _class_terms(record))), None
-                )
-                if label is None:
-                    continue
+    for segment in (grid_text if grid_text is not None else text).split(SOURCE_BOUNDARY):
+        for layer in text_layers(segment)[1:]:
+            for block_index, row_index, label in _term_grid_rows(layer, tuple(_class_terms(record))):
+                block = _grid_rows(layer)[block_index]
+                row = block[row_index]
                 for header_index in range(row_index - 1, -1, -1):
                     header = block[header_index]
                     if len(header) != len(row):
@@ -530,13 +573,13 @@ def _prose_grid_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict
                         (
                             value
                             for value in header
-                            if value and _column_binds_district(district, value, jurisdiction, text)
+                            if value and _column_binds_district(district, value, jurisdiction, segment)
                         ),
                         None,
                     )
                     if binding is not None:
                         return [
-                            f"{_cell_key(cell)}: table grid places '{label}' under '{binding}'; "
+                            f"{_cell_key(cell)}: ordinance grid: table grid places '{label}' under '{binding}'; "
                             "cite the table cell as table evidence, not prose"
                         ]
     return []
@@ -669,13 +712,14 @@ def cell_errors(
     denylist: frozenset[str],
     *,
     absence_text: str | None = None,
+    amendments: list[dict] | None = None,
 ) -> list[str]:
     """Return every cell gate error, including a banned or non-https source URL."""
     errors = [
         *enum_errors(cell, taxonomy),
         *quote_errors(cell, text),
         *section_errors(cell, text),
-        *table_errors(cell, text, taxonomy, jurisdiction),
+        *table_errors(cell, text, taxonomy, jurisdiction, grid_text=absence_text, amendments=amendments),
         *absence_errors(cell, absence_text if absence_text is not None else text, taxonomy, jurisdiction),
     ]
     key = _cell_key(cell)
@@ -877,6 +921,8 @@ def superseded_errors(cell: dict, amendments: list[dict], sources: dict, jurisdi
     for amendment in amendments:
         if not isinstance(amendment, dict) or amendment.get("jurisdiction_id") != cell.get("jurisdiction_id"):
             continue
+        if amendment.get("kind") == "moratorium":
+            continue
         amendment_id = amendment.get("id", "?")
         problem = _amendment_interpretation_error(amendment, jurisdiction)
         if problem:
@@ -884,38 +930,30 @@ def superseded_errors(cell: dict, amendments: list[dict], sources: dict, jurisdi
             continue
         if amendment.get("kind") != "adopted_text_amendment" or amendment.get("status") != "adopted":
             continue
-        classes, districts = amendment.get("use_classes", []), amendment.get("districts", [])
-        if ("*" not in classes and cell.get("use_class") not in classes) or (
-            "*" not in districts and cell.get("district_code") not in districts
-        ):
+        results = _covering_results(cell, amendment)
+        if not results:
             continue
         dates = _mapping(amendment.get("dates"))
         effective = _iso_date(dates.get("effective")) or _iso_date(dates.get("adopted"))
-        amendment_source = _mapping(amendment.get("source")).get("id")
-        incorporated = amendment.get("incorporated_in", [])
-        evidence_quote = _mapping(cell.get("evidence")).get("quote")
-        evidence_text = canonical(evidence_quote).casefold() if isinstance(evidence_quote, str) else ""
-        amendment_quote = amendment.get("quote")
-        reference = amendment.get("reference")
-        cites_amendment = source_id == amendment_source and any(
-            isinstance(value, str) and canonical(value).casefold() in evidence_text
-            for value in (amendment_quote, reference)
+        exempt_result = next(
+            (value for value in results if _result_exempts(cell, amendment, value, text, jurisdiction)), None
         )
-        included = isinstance(incorporated, list) and any(
-            _incorporation_exempts(item, source_id, text, evidence_text, str(cell.get("use_class", "")))
-            for item in incorporated
-        )
-        if cites_amendment or included:
+        if exempt_result is not None:
             continue
-        if effective is None or cited_date is None or effective > cited_date:
+        postdates = effective is None or cited_date is None or effective > cited_date
+        # A source dated on or after the amendment still cannot contradict the result the amendment declares.
+        contradicts = any(result.get("status") != cell.get("status") for result in results)
+        if postdates or contradicts:
             reference = amendment.get("reference")
             name = f"{amendment.get('id')} ({reference})" if reference else amendment.get("id")
             effective_text = effective.isoformat() if effective else "undated"
             cited_text = cited_date.isoformat() if cited_date else "undated"
+            relation = "postdates" if postdates else "does not postdate"
             errors.append(
-                f"superseded: {key}: adopted amendment {name} (effective {effective_text}) postdates cited source "
+                f"superseded: {key}: adopted amendment {name} (effective {effective_text}) {relation} cited source "
                 f"{source_id} ({cited_text}) and touches {cell.get('use_class')} in {cell.get('district_code')}; "
                 "the cell's evidence does not cite it"
+                f"; the amendment declares '{results[0].get('status')}' here and the cell says '{cell.get('status')}'"
             )
     return errors
 
@@ -945,10 +983,102 @@ def _amendment_interpretation_error(amendment: dict, jurisdiction: dict) -> str 
     known = {item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)}
     if known and any(district != "*" and district not in known for district in amendment["districts"]):
         return "district is not in the jurisdiction"
+    if "results" not in amendment:
+        return None
+    if amendment.get("kind") != "adopted_text_amendment":
+        return "results are only allowed on adopted_text_amendment"
+    results = amendment.get("results")
+    if not isinstance(results, list) or not all(isinstance(result, dict) for result in results):
+        return "results is not a list of objects"
+    classes = set(amendment["use_classes"])
+    districts = set(amendment["districts"])
+    seen: dict[tuple[str, str], str] = {}
+    for result in results:
+        use_class = result.get("use_class")
+        result_districts = result.get("districts")
+        if not isinstance(use_class, str) or not use_class or ("*" not in classes and use_class not in classes):
+            return "result use_class is not covered by the amendment"
+        if (
+            not isinstance(result_districts, list)
+            or not result_districts
+            or not all(isinstance(value, str) for value in result_districts)
+        ):
+            return "result districts is not a list of strings"
+        if any(value != "*" and "*" not in districts and value not in districts for value in result_districts):
+            return "result district is not covered by the amendment"
+        if result.get("status") not in {"permitted", "conditional", "prohibited", "unlisted"}:
+            return "result status is not recognized"
+        if any(_blank(result.get(field)) for field in ("source_id", "section", "quote")):
+            return "result source_id, section, and quote must be non-blank strings"
+        covered_districts = known if "*" in result_districts else set(result_districts)
+        for district in covered_districts:
+            key = (use_class, district)
+            if key in seen and seen[key] != result["status"]:
+                return "results conflict for one use_class and district"
+            seen[key] = result["status"]
     return None
 
 
-def _incorporation_exempts(item: object, source_id: object, text: str, evidence_quote: str, use_class: str) -> bool:
+def _covering_results(cell: dict, amendment: dict) -> list[dict]:
+    return [
+        result
+        for result in amendment.get("results", [])
+        if isinstance(result, dict)
+        and result.get("use_class") == cell.get("use_class")
+        and ("*" in result.get("districts", []) or cell.get("district_code") in result.get("districts", []))
+    ]
+
+
+def _result_exempts(cell: dict, amendment: dict, result: dict, text: str, jurisdiction: dict) -> bool:
+    if cell.get("status") != result.get("status"):
+        return False
+    record = _class_record(_release_taxonomy(), str(result.get("use_class", "")))
+    quote = result.get("quote")
+    if record is None or not isinstance(quote, str) or not any(_term_in(quote, term) for term in _class_terms(record)):
+        return False
+    forbidden = (amendment.get("reference"), amendment.get("id"))
+    if any(
+        isinstance(value, str) and canonical(value).casefold() in canonical(quote).casefold() for value in forbidden
+    ):
+        return False
+    evidence_quote = _mapping(cell.get("evidence")).get("quote")
+    if not isinstance(evidence_quote, str):
+        return False
+    if result.get("source_id") == _mapping(cell.get("source")).get("id") and isinstance(evidence_quote, str):
+        if canonical(quote).casefold() in canonical(evidence_quote).casefold():
+            return True
+    return any(
+        _incorporation_exempts(
+            item,
+            _mapping(cell.get("source")).get("id"),
+            text,
+            canonical(evidence_quote).casefold(),
+            str(cell.get("use_class", "")),
+            jurisdiction,
+        )
+        for item in amendment.get("incorporated_in", [])
+        if isinstance(item, dict)
+    )
+
+
+def _amendment_result_exempt(cell: dict, amendments: list[dict], jurisdiction: dict, text: str) -> bool:
+    return any(
+        amendment.get("jurisdiction_id") == cell.get("jurisdiction_id")
+        and amendment.get("kind") == "adopted_text_amendment"
+        and amendment.get("status") == "adopted"
+        and _amendment_interpretation_error(amendment, jurisdiction) is None
+        and any(
+            _result_exempts(cell, amendment, result, text, jurisdiction)
+            for result in _covering_results(cell, amendment)
+        )
+        for amendment in amendments
+        if isinstance(amendment, dict)
+    )
+
+
+def _incorporation_exempts(
+    item: object, source_id: object, text: str, evidence_quote: str, use_class: str, jurisdiction: dict
+) -> bool:
     record = _mapping(item)
     quote, section, reason = record.get("quote"), record.get("section"), record.get("reason")
     if record.get("source_id") != source_id or any(_blank(value) for value in (quote, section, reason)):
@@ -957,6 +1087,14 @@ def _incorporation_exempts(item: object, source_id: object, text: str, evidence_
         return False
     normalized_quote = _term_text(quote)
     terms = _class_terms(_class_record(_release_taxonomy(), use_class) or {})
+    if not any(_term_in(quote, term) for term in terms):
+        return False
+    codes = {item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)}
+    symbols = {_mapping(item).get("symbol") for item in jurisdiction.get("table_key", []) if isinstance(item, dict)}
+    if _fkey(quote) in {_fkey(code) for code in codes if isinstance(code, str)} or canonical(quote) in {
+        canonical(symbol) for symbol in symbols if isinstance(symbol, str)
+    }:
+        return False
     remainder = normalized_quote
     for term in terms:
         pattern = _term_pattern(term)
@@ -1047,7 +1185,11 @@ def _one_cell_errors(
     registered = sources.get(source_id)
     if registered is None or registered.get("url") != _mapping(cell.get("source")).get("url"):
         errors.append(f"{key}: source {source_id} is not in sources.json with this url")
-    errors.extend(cell_errors(cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text))
+    errors.extend(
+        cell_errors(
+            cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text, amendments=amendments or []
+        )
+    )
     if ocr_only(cell, text) and cell.get("confidence") != "C":
         errors.append(f"grade: {key}: evidence matched only in OCR text, confidence must be C")
     if cell.get("status") == "unlisted" and OCR_TEXT_MARKER in absence_text and cell.get("confidence") != "C":
@@ -1149,6 +1291,42 @@ def _amendment_quote_errors(amendments: list[dict], sources: dict[object, dict],
                 text is None or not isinstance(section, str) or _label_match_layer(text, section) is None
             ):
                 errors.append(f"amendment: {amendment_id}: section not found in source {source_id}")
+        incorporated_ids = {item.get("source_id") for item in incorporated if isinstance(item, dict)}
+        for result in amendment.get("results", []) if isinstance(amendment.get("results"), list) else []:
+            if not isinstance(result, dict):
+                continue
+            result_source = result.get("source_id")
+            use_class = result.get("use_class", "?")
+            if result_source != amendment_source.get("id") and result_source not in incorporated_ids:
+                errors.append(
+                    f"amendment: {amendment_id}: result source {result_source} is not the amendment source "
+                    "or incorporated_in source"
+                )
+            result_text = _source_text(text_dir, result_source, cache)
+            quote, section = result.get("quote"), result.get("section")
+            if result_text is None or not isinstance(quote, str) or match_layer(result_text, quote) is None:
+                errors.append(
+                    f"amendment: {amendment_id}: result quote for {use_class} not found in source {result_source}"
+                )
+            if result_text is None or not isinstance(section, str) or _label_match_layer(result_text, section) is None:
+                errors.append(
+                    f"amendment: {amendment_id}: result section for {use_class} not found in source {result_source}"
+                )
+            record = _class_record(_release_taxonomy(), str(use_class))
+            if (
+                record is None
+                or not isinstance(quote, str)
+                or not any(_term_in(quote, term) for term in _class_terms(record))
+            ):
+                errors.append(f"amendment: {amendment_id}: result quote for {use_class} names no taxonomy term")
+            if isinstance(quote, str) and any(
+                isinstance(value, str) and canonical(value).casefold() in canonical(quote).casefold()
+                for value in (amendment.get("reference"), amendment.get("id"))
+            ):
+                errors.append(
+                    f"amendment: {amendment_id}: result quote for {use_class} names the amendment's reference "
+                    "or title; quote the operative text"
+                )
     return errors
 
 
@@ -1173,6 +1351,17 @@ def _amendment_semantic_errors(
             for value in districts:
                 if value != "*" and value not in known:
                     errors.append(f"amendment: {amendment_id}: district {value!r} is not in jurisdiction codes")
+        for result in amendment.get("results", []) if isinstance(amendment.get("results"), list) else []:
+            if not isinstance(result, dict):
+                continue
+            value = result.get("use_class")
+            if value not in class_ids:
+                errors.append(f"amendment: {amendment_id}: result use_class {value!r} is not in taxonomy")
+            for district in result.get("districts", []) if isinstance(result.get("districts"), list) else []:
+                if district != "*" and district not in known:
+                    errors.append(
+                        f"amendment: {amendment_id}: result district {district!r} is not in jurisdiction codes"
+                    )
     return errors
 
 
