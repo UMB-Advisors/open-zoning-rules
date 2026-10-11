@@ -35,8 +35,8 @@ Both texts are carried verbatim in `reports/accuracy.json` and in the release ma
 | us-12069 Lake County, FL (unadopted draft) | 22 | 154 | 42 | 112 | 0 | 0 |
 | us-51107 Loudoun County, VA | 57 | 399 | 247 | 142 | 9 | 1 |
 | us-13097 Douglas County, GA | 25 | 175 | 105 | 64 | 6 | 0 |
-| us-51061 Fauquier County, VA | 23 | 161 | 27 | 125 | 9 | 0 |
-| **Total** | 153 | **1,071** | **518** | **519** | **33** | **1** |
+| us-51061 Fauquier County, VA | 23 | 161 | 27 | 127 | 7 | 0 |
+| **Total** | 153 | **1,071** | **518** | **521** | **31** | **1** |
 
 Published by status: prohibited 275, unlisted 173, conditional 53, permitted 17. Published by grade: B 277, C 241.
 
@@ -46,7 +46,7 @@ The other four (Hillsborough, Polk, Atlanta, Coweta) have no ordinance text the 
 
 | Gate | Value | Threshold | Result |
 |---|---|---|---|
-| Listed status (permitted, conditional, prohibited) | 0.973 (model-gold: permitted 2, conditional 15, prohibited 171) | at least 0.90, with at least 50 model-gold cells per status | **insufficient data** |
+| Listed status (permitted, conditional, prohibited) | 0.973 (model-gold: permitted 2, conditional 15, prohibited 169) | at least 0.90, with at least 50 model-gold cells per status | **insufficient data** |
 | Unlisted recall | 0.985 (135 model-gold unlisted) | at least 0.85, with at least 50 gold-unlisted cells | **pass** |
 | Unlisted precision | 1.000 | at least 0.85, with at least 50 extractor-unlisted gold cells | **pass** |
 | Disputed share, all cells | 0.027 (29 / 1,071) | at most 0.15 | **pass** |
