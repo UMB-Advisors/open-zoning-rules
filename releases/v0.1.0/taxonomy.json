@@ -1,0 +1,291 @@
+{
+  "taxonomy": "v1",
+  "classes": [
+    {
+      "id": "datacenter",
+      "name": "Datacenter / data processing",
+      "covers": "Buildings whose primary use is housing servers and network equipment",
+      "includes": [
+        "data center",
+        "data processing facility",
+        "server farm",
+        "technology/communication facility",
+        "computer center"
+      ],
+      "excludes": [
+        "An office with a server room",
+        "telecom towers"
+      ],
+      "synonyms": [
+        "data center",
+        "data centre",
+        "datacenter",
+        "datacentre",
+        "data processing facility",
+        "server farm",
+        "computer center",
+        "computer centre",
+        "technology facility",
+        "communication facility"
+      ],
+      "definition_terms": [
+        "servers",
+        "computer equipment",
+        "data storage"
+      ]
+    },
+    {
+      "id": "warehouse_distribution",
+      "name": "Warehouse and distribution",
+      "covers": "Storage and distribution of goods, fulfilment and truck terminals",
+      "includes": [
+        "warehouse",
+        "distribution center",
+        "wholesale storage",
+        "logistics",
+        "truck terminal"
+      ],
+      "excludes": [
+        "Self-storage (mini-warehouse)",
+        "retail with backstock"
+      ],
+      "synonyms": [
+        "warehouse",
+        "distribution center",
+        "distribution centre",
+        "wholesale storage",
+        "logistics",
+        "truck terminal",
+        "fulfillment center",
+        "fulfilment centre"
+      ],
+      "definition_terms": [
+        "freight",
+        "loading dock",
+        "storage of goods"
+      ]
+    },
+    {
+      "id": "heavy_industrial_hazmat",
+      "name": "Heavy industrial and hazardous materials",
+      "covers": "Manufacturing with significant nuisance or hazard: chemical, petroleum, bulk hazmat",
+      "includes": [
+        "heavy industry",
+        "industrial, general",
+        "hazardous materials storage",
+        "chemical manufacturing",
+        "refinery"
+      ],
+      "excludes": [
+        "Light assembly",
+        "contractor yards"
+      ],
+      "synonyms": [
+        "heavy industry",
+        "heavy industrial",
+        "industrial, general",
+        "general industrial",
+        "hazardous materials",
+        "chemical manufacturing",
+        "refinery"
+      ],
+      "definition_terms": [
+        "chemical process",
+        "smelting",
+        "hazardous waste"
+      ]
+    },
+    {
+      "id": "lp_gas",
+      "name": "LP-gas storage and transfill",
+      "covers": "Bulk propane / LP-gas storage, cylinder transfill",
+      "includes": [
+        "LP gas",
+        "liquefied petroleum gas storage",
+        "propane distribution",
+        "bulk fuel storage"
+      ],
+      "excludes": [
+        "Retail cylinder exchange cages"
+      ],
+      "synonyms": [
+        "propane",
+        "liquefied petroleum gas",
+        "LP gas",
+        "LP-gas",
+        "LPG",
+        "bulk fuel storage"
+      ],
+      "definition_terms": [
+        "propane",
+        "transfill",
+        "cylinder filling"
+      ]
+    },
+    {
+      "id": "cannabis_cultivation_processing",
+      "name": "Cannabis cultivation and processing",
+      "covers": "Licensed growing and processing (not retail)",
+      "includes": [
+        "medical marijuana treatment center cultivation/processing",
+        "cannabis cultivation",
+        "marijuana production"
+      ],
+      "excludes": [
+        "Dispensaries (recorded separately later if needed)"
+      ],
+      "synonyms": [
+        "medical marijuana treatment center",
+        "cannabis cultivation",
+        "marijuana cultivation",
+        "marijuana production",
+        "cannabis processing",
+        "marijuana processing"
+      ],
+      "definition_terms": [
+        "cannabis",
+        "marijuana",
+        "canopy"
+      ]
+    },
+    {
+      "id": "utility_generation",
+      "name": "Utility-scale generation",
+      "covers": "Electric generating plants that export to the grid, any fuel",
+      "includes": [
+        "power plant",
+        "electric generating facility",
+        "solar farm / solar energy facility (utility-scale)",
+        "wind energy facility"
+      ],
+      "excludes": [
+        "Rooftop or accessory solar",
+        "backup generators"
+      ],
+      "synonyms": [
+        "power plant",
+        "power station",
+        "electric generating facility",
+        "generating station",
+        "wind energy facility",
+        "solar energy facility",
+        "solar farm"
+      ],
+      "definition_terms": [
+        "megawatt",
+        "nameplate capacity",
+        "generating unit"
+      ]
+    },
+    {
+      "id": "battery_storage",
+      "name": "Battery energy storage",
+      "covers": "Stand-alone grid-scale battery systems",
+      "includes": [
+        "battery energy storage system",
+        "BESS",
+        "energy storage facility"
+      ],
+      "excludes": [
+        "Batteries accessory to a building"
+      ],
+      "synonyms": [
+        "battery energy storage",
+        "BESS",
+        "energy storage facility",
+        "energy storage system"
+      ],
+      "definition_terms": [
+        "battery",
+        "inverter",
+        "megawatt-hour"
+      ]
+    }
+  ],
+  "statuses": [
+    {
+      "value": "permitted",
+      "meaning": "Allowed by right, possibly subject to objective standards such as setbacks and screening.",
+      "local_forms": [
+        "P",
+        "permitted",
+        "by right",
+        "permitted with standards",
+        "PS",
+        "P*"
+      ]
+    },
+    {
+      "value": "conditional",
+      "meaning": "Allowed only after a discretionary approval.",
+      "local_forms": [
+        "C",
+        "CU",
+        "SE",
+        "special exception",
+        "SUP",
+        "S",
+        "use permit",
+        "special use"
+      ]
+    },
+    {
+      "value": "prohibited",
+      "meaning": "Expressly not allowed in the district.",
+      "local_forms": [
+        "–",
+        "X",
+        "not permitted",
+        "blank"
+      ]
+    },
+    {
+      "value": "unlisted",
+      "meaning": "The use is not named in the code, and no definition captures it.",
+      "local_forms": [
+        "not in the table",
+        "not in the definitions",
+        "no similar-use determination"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "blank_follows_key",
+      "text": "A blank cell follows the table key. When the key says a blank means not permitted, the status is prohibited and the evidence quotes the key. A blank with no key is unlisted and flagged."
+    },
+    {
+      "id": "unlisted_not_prohibited",
+      "text": "A code clause saying uses not listed are prohibited does not change an unlisted cell to prohibited. The cell stays unlisted. The jurisdiction record sets unlisted_rule to prohibited_by_default and quotes the clause. Unlisted is its own status because the path forward is a text amendment or a use determination."
+    },
+    {
+      "id": "rezoning_only_prohibited",
+      "text": "A use that is allowed only by rezoning into a planned development or overlay is prohibited in the base district. The overlay or PD district is a separate row."
+    },
+    {
+      "id": "accessory_only_prohibited",
+      "text": "A use allowed only as accessory to another use is prohibited for the stand-alone class, and the cell carries a note."
+    },
+    {
+      "id": "amendments_separate",
+      "text": "Pending text amendments and adopted moratoria do not change the cell. They are recorded as separate amendment records linked to the cells they affect."
+    }
+  ],
+  "evidence": [
+    {
+      "status_source": "table",
+      "must_contain": "The local use row label and the district column header, or the district name in a list-style code, with the ordinance section. The status symbol is stored separately.",
+      "gated_by": "Substring gate on the row label and the column header. The symbol at their intersection is checked by reviewers; a substring match cannot prove it."
+    },
+    {
+      "status_source": "prose",
+      "must_contain": "The sentence that names the use and the district.",
+      "gated_by": "Substring gate."
+    },
+    {
+      "status_source": "absence",
+      "must_contain": "The use table caption or heading, plus the uses-not-listed clause if the code has one, with the ordinance sections.",
+      "gated_by": "Substring gate, plus an absence gate over the class synonyms and definition terms. Each hit in the code text is cited with the reason it does not match the class, or the cell is not published as unlisted."
+    }
+  ]
+}
