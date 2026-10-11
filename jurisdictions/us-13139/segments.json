@@ -6,7 +6,7 @@
       "sha256": "9a9fd6a19f837c1588a6cd2c69bb84cd7470f63c89bd388f72f3738d927dc343",
       "pages": 422,
       "tables": 34,
-      "text_sha256": "262023981128780c78f2585227f3306164472dae009452a766d4974372352166"
+      "text_sha256": "3bb0b80e71a358744ab5034b9679b9588086f7a48acfaad072552dfc813707e4"
     }
   ],
   "segments": [
@@ -80,7 +80,7 @@
         422
       ],
       "text": "segments/us-13139/use_table-us-13139-udc.txt",
-      "text_sha256": "25f3a44478335195ab39d003f9e52894c7c6c4e84dad1335d91723b5356eeb51",
+      "text_sha256": "11cf4eef56219779df62815201626bca79f530a53f066683bc70aabc65e4930c",
       "images": [
         {
           "page": 3,
@@ -414,7 +414,7 @@
         343
       ],
       "text": "segments/us-13139/definitions-us-13139-udc.txt",
-      "text_sha256": "528cee9dbf7b87fb2562d5cc15b45a302efdc43d40bc10b1728603d237de6c4b",
+      "text_sha256": "d14ee8cdf4049df243463ee1bb98405385a305e8a9cadac7494f46ff7d802886",
       "images": []
     },
     {
@@ -427,7 +427,7 @@
         94
       ],
       "text": "segments/us-13139/not_listed-us-13139-udc.txt",
-      "text_sha256": "9f107ded016a989509827b6390a15d6b8abbb9b4879c6bd56f8e4cbf889e8b12",
+      "text_sha256": "f1749c0ec382e9b66863417e14f4b770ed5a871c001297585e66e814bd67ac38",
       "images": []
     },
     {
@@ -458,7 +458,7 @@
         376
       ],
       "text": "segments/us-13139/district_list-us-13139-udc.txt",
-      "text_sha256": "f82fbcc9d934c41503960b7929d976d3b3f4d1c3fde69946dcd323b22ffb39d7",
+      "text_sha256": "60bc49a68c6aabb99c0f7f3960d0064ea87f87f4db89a9b9fc45c784658b9e38",
       "images": []
     }
   ],
