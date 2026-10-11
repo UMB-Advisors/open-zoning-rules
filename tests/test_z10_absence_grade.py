@@ -266,6 +266,13 @@ def test_superseded_errors_dates_and_incorporation() -> None:
     sources[cell["source"]["id"]] = {**sources[cell["source"]["id"]], "source_date": "unknown"}
     jurisdiction = {**jurisdiction, "code_version": "unknown"}
     assert superseded_errors(cell, [amendment], sources, jurisdiction, "")
-    amendment["incorporated_in"] = [{"source_id": cell["source"]["id"], "quote": "amendment text"}]
-    assert superseded_errors(cell, [amendment], sources, jurisdiction, "amendment text") == []
-    assert superseded_errors(cell, [amendment], sources, jurisdiction, "other text")
+    amendment["incorporated_in"] = [
+        {"source_id": cell["source"]["id"], "quote": "Data Center", "section": "Sec. 1", "reason": "row"}
+    ]
+    assert superseded_errors(cell, [amendment], sources, jurisdiction, "Sec. 1 Data Center")
+    cell["evidence"] = {**cell["evidence"], "quote": "Data Center Tier 9 | MR-HI | SE"}
+    amendment["incorporated_in"][0]["quote"] = "Data Center Tier 9"
+    assert superseded_errors(cell, [amendment], sources, jurisdiction, "Sec. 1 Data Center Tier 9") == []
+    assert superseded_errors(cell, [amendment], sources, jurisdiction, "Sec. 1 other text")
+    del amendment["incorporated_in"][0]["reason"]
+    assert superseded_errors(cell, [amendment], sources, jurisdiction, "Sec. 1 Data Center Tier 9")

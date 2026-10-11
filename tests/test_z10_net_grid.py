@@ -95,7 +95,7 @@ def test_grid_checks_blank_and_ocr_intersections() -> None:
 
 def test_grid_ignores_same_page_blank_wrapped_heading_but_not_other_page_blank() -> None:
     cell = _table("S", "conditional")
-    table = "[page 1]\nUse | I-1\nWarehouse | \nWarehouse | S"
+    table = "[page 1]\nCode | Use | I-1\n | Warehouse | \n518 | Warehouse | S"
     assert not any("table grid" in error for error in cell_errors(cell, _text(table), TAXONOMY, KEY, DENYLIST))
     table = "[page 1]\nUse | I-1\nWarehouse | S\n[page 2]\nUse | I-1\nWarehouse | "
     assert any("table grid" in error for error in cell_errors(cell, _text(table), TAXONOMY, KEY, DENYLIST))
@@ -133,9 +133,10 @@ def test_column_headers_must_bind_district_or_quoted_alias() -> None:
     assert any("is not the column for district" in error for error in errors)
     cell = _table("P", "permitted", column="C1 2")
     cell["district_code"] = "C-1"
+    districts = {**KEY, "districts": [{"district_code": "C-1"}]}
     assert not any(
         "is not the column for district" in error
-        for error in cell_errors(cell, _text("Use | C1 2\nWarehouse | P"), TAXONOMY, KEY, DENYLIST)
+        for error in cell_errors(cell, _text("Use | C1 2\nWarehouse | P"), TAXONOMY, districts, DENYLIST)
     )
     cell = _table("P", "permitted", column="C-G")
     cell["district_code"] = "C-G-C"

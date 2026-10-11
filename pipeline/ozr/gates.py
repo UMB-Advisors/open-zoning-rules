@@ -326,7 +326,11 @@ def _hit_explains(entry: object, term: str, text: str, occurrence: tuple[int, in
         return False
     if _blank(quote) or _blank(record.get("section")) or _blank(record.get("reason")):
         return False
-    if _label_match_layer(text, record["section"]) is None:
+    # An explanation cannot borrow its section label from another joined source.
+    segments = text.split(SOURCE_BOUNDARY)
+    segment_index = _term_text(text)[: occurrence[0]].count("␞")
+    segment = segments[segment_index] if segment_index < len(segments) else ""
+    if _label_match_layer(segment, record["section"]) is None:
         return False
     normalized_quote = _term_text(quote)
     term_spans = _term_occurrences(quote, term)
@@ -354,6 +358,7 @@ def table_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> l
         entries = jurisdiction.get("table_key")
         if isinstance(quote, str) and isinstance(entries, list):
             normalized_quote = canonical(quote).casefold()
+            quote_spans = tuple(re.finditer(re.escape(normalized_quote), canonical(text).casefold()))
             for entry in entries:
                 key_quote = _mapping(entry).get("quote")
                 normalized_key = canonical(key_quote).casefold() if isinstance(key_quote, str) else ""
@@ -365,6 +370,23 @@ def table_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> l
                     return [
                         f"{_cell_key(cell)}: prose evidence quotes the table key; cite the table cell as table evidence"
                     ]
+                key_spans = tuple(re.finditer(re.escape(normalized_key), canonical(text).casefold()))
+                if (
+                    normalized_quote
+                    and normalized_key
+                    and any(
+                        quote_span.start() < key_span.end() and key_span.start() < quote_span.end()
+                        for quote_span in quote_spans
+                        for key_span in key_spans
+                    )
+                ):
+                    return [
+                        f"{_cell_key(cell)}: prose evidence quotes the table key; cite the table cell as table evidence"
+                    ]
+        if kind == "prose" and isinstance(quote, str):
+            errors = _prose_grid_errors(cell, text, taxonomy, jurisdiction)
+            errors.extend(_unlisted_prose_errors(cell, text, jurisdiction))
+            return errors
         return []
     if kind != "table":
         return []
@@ -421,15 +443,8 @@ def _table_symbol_maps(symbol: str, status: object, taxonomy: dict, jurisdiction
 def _column_binds_district(district_code: object, column: str, jurisdiction: dict, text: str) -> bool:
     if not isinstance(district_code, str):
         return False
-    if _formatting_equal(district_code, column):
-        return True
-    footnote = re.fullmatch(r"(?P<district>.+?)\s+\d{1,2}(?:\s*,\s*\d{1,2})*", column)
-    if footnote and _formatting_equal(district_code, footnote["district"]):
-        return True
     aliases = jurisdiction.get("column_aliases")
-    if not isinstance(aliases, list):
-        return False
-    return any(
+    if isinstance(aliases, list) and any(
         isinstance(alias, dict)
         and alias.get("district_code") == district_code
         and isinstance(alias.get("column_header"), str)
@@ -437,11 +452,25 @@ def _column_binds_district(district_code: object, column: str, jurisdiction: dic
         and isinstance(alias.get("quote"), str)
         and match_layer(text, alias["quote"]) is not None
         for alias in aliases
-    )
+    ):
+        return True
+    readings = {_fkey(column)}
+    footnote = re.fullmatch(r"(?P<district>.+?)\s+\d{1,2}(?:\s*,\s*\d{1,2})*", column)
+    if footnote:
+        readings.add(_fkey(footnote["district"]))
+    wanted = _fkey(district_code)
+    if wanted not in readings:
+        return False
+    districts = jurisdiction.get("districts")
+    if isinstance(districts, list) and districts:
+        codes = [district_code, *[item.get("district_code") for item in districts if isinstance(item, dict)]]
+        matches = {_fkey(code) for code in codes if isinstance(code, str) and _fkey(code) in readings}
+        return matches == {wanted}
+    return len(readings) == 1
 
 
-def _formatting_equal(left: str, right: str) -> bool:
-    return re.sub(r"[^a-z0-9]", "", canonical(left).casefold()) == re.sub(r"[^a-z0-9]", "", canonical(right).casefold())
+def _fkey(value: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", canonical(value).casefold())
 
 
 @lru_cache(maxsize=16)
@@ -461,14 +490,11 @@ def _grid_values(row_label: str, column_header: str, table: str) -> list[str]:
     wanted_row, wanted_column = canonical(row_label).casefold(), canonical(column_header).casefold()
     values: list[str] = []
     for block in rows:
-        matching = [row for row in block if wanted_row in row]
-        has_data_row = any(
-            any(value for index, value in enumerate(row) if index != row.index(wanted_row)) for row in matching
-        )
         for row_index, row in enumerate(block):
             if wanted_row not in row:
                 continue
-            if has_data_row and not any(value for index, value in enumerate(row) if index != row.index(wanted_row)):
+            label_index = row.index(wanted_row)
+            if label_index > 0 and not any(row[:label_index]) and not any(row[label_index + 1 :]):
                 continue
             for header_index in range(row_index - 1, -1, -1):
                 header = block[header_index]
@@ -479,6 +505,74 @@ def _grid_values(row_label: str, column_header: str, table: str) -> list[str]:
                 values.append(row[header.index(wanted_column)])
                 break
     return values
+
+
+def _prose_grid_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> list[str]:
+    record = _class_record(taxonomy, str(cell.get("use_class", "")))
+    if record is None:
+        return []
+    district = cell.get("district_code")
+    if not isinstance(district, str):
+        return []
+    for layer in text_layers(text)[1:]:
+        for block in _grid_rows(layer):
+            for row_index, row in enumerate(block):
+                label = next(
+                    (value for value in row if any(_term_in(value, term) for term in _class_terms(record))), None
+                )
+                if label is None:
+                    continue
+                for header_index in range(row_index - 1, -1, -1):
+                    header = block[header_index]
+                    if len(header) != len(row):
+                        break
+                    binding = next(
+                        (
+                            value
+                            for value in header
+                            if value and _column_binds_district(district, value, jurisdiction, text)
+                        ),
+                        None,
+                    )
+                    if binding is not None:
+                        return [
+                            f"{_cell_key(cell)}: table grid places '{label}' under '{binding}'; "
+                            "cite the table cell as table evidence, not prose"
+                        ]
+    return []
+
+
+def _unlisted_prose_errors(cell: dict, text: str, jurisdiction: dict) -> list[str]:
+    if jurisdiction.get("unlisted_rule") != "prohibited_by_default" or cell.get("status") not in {
+        "permitted",
+        "conditional",
+        "prohibited",
+    }:
+        return []
+    quote = _mapping(cell.get("evidence")).get("quote")
+    rule = _mapping(jurisdiction.get("unlisted_rule_quote")).get("quote")
+    if not isinstance(quote, str) or not isinstance(rule, str):
+        return []
+    normalized_quote, normalized_rule, normalized_text = (
+        canonical(quote).casefold(),
+        canonical(rule).casefold(),
+        canonical(text).casefold(),
+    )
+    overlaps = any(
+        quote_span.start() < rule_span.end() and rule_span.start() < quote_span.end()
+        for quote_span in re.finditer(re.escape(normalized_quote), normalized_text)
+        for rule_span in re.finditer(re.escape(normalized_rule), normalized_text)
+    )
+    if (
+        normalized_quote
+        and normalized_rule
+        and (overlaps or normalized_quote in normalized_rule or normalized_rule in normalized_quote)
+    ):
+        return [
+            f"{_cell_key(cell)}: prose evidence quotes the unlisted-use rule; "
+            "a listed status needs the use's own text (unlisted stays unlisted)"
+        ]
+    return []
 
 
 def table_grid_layer(cell: dict, text: str) -> str | None:
@@ -598,6 +692,7 @@ _ITEM_SCHEMAS = {
     "cells.json": "record.schema.json",
     "jurisdictions.json": "jurisdiction.schema.json",
     "state_rules.json": "state_rule.schema.json",
+    "amendments.json": "amendment.schema.json",
 }
 _OBJECT_SCHEMAS = {
     "manifest.json": "manifest.schema.json",
@@ -622,6 +717,8 @@ def _schema_messages(filename: str, schema_name: str, instance: object) -> list[
 def _schema_file_errors(filename: str, instance: object) -> list[str]:
     if filename in _OBJECT_SCHEMAS:
         return _schema_messages(filename, _OBJECT_SCHEMAS[filename], instance)
+    if filename == "amendments.json":
+        return _schema_messages(filename, _ITEM_SCHEMAS[filename], instance)
     if not isinstance(instance, list):
         return [f"schema: {filename}: expected an array"]
     schema_name = _ITEM_SCHEMAS[filename]
@@ -778,17 +875,16 @@ def superseded_errors(cell: dict, amendments: list[dict], sources: dict, jurisdi
     cited_date = _iso_date(source.get("source_date")) or _iso_date(jurisdiction.get("code_version"))
     errors: list[str] = []
     for amendment in amendments:
-        if (
-            not isinstance(amendment, dict)
-            or amendment.get("kind") != "adopted_text_amendment"
-            or amendment.get("status") != "adopted"
-        ):
+        if not isinstance(amendment, dict) or amendment.get("jurisdiction_id") != cell.get("jurisdiction_id"):
             continue
-        if amendment.get("jurisdiction_id") != cell.get("jurisdiction_id"):
+        amendment_id = amendment.get("id", "?")
+        problem = _amendment_interpretation_error(amendment, jurisdiction)
+        if problem:
+            errors.append(f"superseded: {key}: amendment {amendment_id} cannot be interpreted: {problem}")
+            continue
+        if amendment.get("kind") != "adopted_text_amendment" or amendment.get("status") != "adopted":
             continue
         classes, districts = amendment.get("use_classes", []), amendment.get("districts", [])
-        if not isinstance(classes, list) or not isinstance(districts, list):
-            continue
         if ("*" not in classes and cell.get("use_class") not in classes) or (
             "*" not in districts and cell.get("district_code") not in districts
         ):
@@ -797,14 +893,19 @@ def superseded_errors(cell: dict, amendments: list[dict], sources: dict, jurisdi
         effective = _iso_date(dates.get("effective")) or _iso_date(dates.get("adopted"))
         amendment_source = _mapping(amendment.get("source")).get("id")
         incorporated = amendment.get("incorporated_in", [])
+        evidence_quote = _mapping(cell.get("evidence")).get("quote")
+        evidence_text = canonical(evidence_quote).casefold() if isinstance(evidence_quote, str) else ""
+        amendment_quote = amendment.get("quote")
+        reference = amendment.get("reference")
+        cites_amendment = source_id == amendment_source and any(
+            isinstance(value, str) and canonical(value).casefold() in evidence_text
+            for value in (amendment_quote, reference)
+        )
         included = isinstance(incorporated, list) and any(
-            isinstance(item, dict)
-            and item.get("source_id") == source_id
-            and isinstance(item.get("quote"), str)
-            and match_layer(text, item["quote"]) is not None
+            _incorporation_exempts(item, source_id, text, evidence_text, str(cell.get("use_class", "")))
             for item in incorporated
         )
-        if source_id == amendment_source or included:
+        if cites_amendment or included:
             continue
         if effective is None or cited_date is None or effective > cited_date:
             reference = amendment.get("reference")
@@ -817,6 +918,59 @@ def superseded_errors(cell: dict, amendments: list[dict], sources: dict, jurisdi
                 "the cell's evidence does not cite it"
             )
     return errors
+
+
+def _amendment_interpretation_error(amendment: dict, jurisdiction: dict) -> str | None:
+    if amendment.get("kind") not in {
+        "moratorium",
+        "pending_text_amendment",
+        "adopted_text_amendment",
+        "use_determination",
+    }:
+        return "kind is not recognized"
+    if amendment.get("status") not in {
+        "introduced",
+        "pending",
+        "active",
+        "adopted",
+        "expired",
+        "withdrawn",
+        "repealed",
+    }:
+        return "status is not recognized"
+    for field in ("use_classes", "districts"):
+        values = amendment.get(field)
+        if not isinstance(values, list) or not all(isinstance(value, str) for value in values):
+            return f"{field} is not a list of strings"
+    known = {item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)}
+    if known and any(district != "*" and district not in known for district in amendment["districts"]):
+        return "district is not in the jurisdiction"
+    return None
+
+
+def _incorporation_exempts(item: object, source_id: object, text: str, evidence_quote: str, use_class: str) -> bool:
+    record = _mapping(item)
+    quote, section, reason = record.get("quote"), record.get("section"), record.get("reason")
+    if record.get("source_id") != source_id or any(_blank(value) for value in (quote, section, reason)):
+        return False
+    if match_layer(text, quote) is None or _label_match_layer(text, section) is None:
+        return False
+    normalized_quote = _term_text(quote)
+    terms = _class_terms(_class_record(_release_taxonomy(), use_class) or {})
+    remainder = normalized_quote
+    for term in terms:
+        pattern = _term_pattern(term)
+        if pattern is not None:
+            remainder = pattern.sub("", remainder)
+    if not re.search(r"[^\W_]", remainder):
+        return False
+    return canonical(quote).casefold() in evidence_quote
+
+
+@lru_cache(maxsize=1)
+def _release_taxonomy() -> dict:
+    document = _read_json(_ROOT / "taxonomy" / "v1.json")
+    return document if isinstance(document, dict) else {}
 
 
 def _iso_date(value: object) -> date | None:
@@ -973,16 +1127,52 @@ def _amendment_quote_errors(amendments: list[dict], sources: dict[object, dict],
     errors: list[str] = []
     for amendment in amendments:
         amendment_id = amendment.get("id", "?")
-        references = [_mapping(amendment.get("source"))]
+        amendment_source = _mapping(amendment.get("source"))
+        source_id = amendment_source.get("id")
+        registered = sources.get(source_id)
+        if not isinstance(registered, dict) or amendment_source.get("url") != registered.get("url"):
+            errors.append(f"amendment: {amendment_id}: source {source_id} is not in sources.json with this url")
+        references = [amendment_source]
         incorporated = amendment.get("incorporated_in", [])
         if isinstance(incorporated, list):
             references.extend(item for item in incorporated if isinstance(item, dict))
         for reference in references:
             source_id = reference.get("id", reference.get("source_id"))
             quote = amendment.get("quote") if reference is references[0] else reference.get("quote")
+            if reference is not references[0] and source_id not in sources:
+                errors.append(f"amendment: {amendment_id}: incorporated_in source {source_id} is not in sources.json")
             text = _source_text(text_dir, source_id, cache)
             if text is None or not isinstance(quote, str) or match_layer(text, quote) is None:
                 errors.append(f"amendment: {amendment_id}: quote not found in source {source_id}")
+            section = reference.get("section") if reference is not references[0] else None
+            if section is not None and (
+                text is None or not isinstance(section, str) or _label_match_layer(text, section) is None
+            ):
+                errors.append(f"amendment: {amendment_id}: section not found in source {source_id}")
+    return errors
+
+
+def _amendment_semantic_errors(
+    amendments: list[dict], jurisdictions: dict[object, dict], class_ids: set[str]
+) -> list[str]:
+    errors: list[str] = []
+    for amendment in amendments:
+        amendment_id = amendment.get("id", "?")
+        jurisdiction = jurisdictions.get(amendment.get("jurisdiction_id"))
+        if jurisdiction is None:
+            errors.append(f"amendment: {amendment_id}: jurisdiction_id is not a released jurisdiction")
+            continue
+        classes = amendment.get("use_classes")
+        if isinstance(classes, list):
+            for value in classes:
+                if value not in class_ids and value != "*":
+                    errors.append(f"amendment: {amendment_id}: use_class {value!r} is not in taxonomy")
+        districts = amendment.get("districts")
+        known = {item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)}
+        if isinstance(districts, list):
+            for value in districts:
+                if value != "*" and value not in known:
+                    errors.append(f"amendment: {amendment_id}: district {value!r} is not in jurisdiction codes")
     return errors
 
 
@@ -1022,10 +1212,12 @@ def release_errors(
         *_schema_file_errors("jurisdictions.json", jurisdictions_doc),
         *_schema_file_errors("sources.json", sources_doc),
         *_schema_file_errors("state_rules.json", state_rules_doc),
+        *_schema_file_errors("amendments.json", amendments_doc),
         *_contract_messages(manifest, cells),
         *_hash_errors(release_dir, manifest, cell_overrides is not None),
         *_denylist_errors(manifest, denylist),
     ]
+    errors.extend(_amendment_semantic_errors(amendments, by_jurisdiction, set(class_ids)))
     manifest_files = manifest.get("files", []) if isinstance(manifest, dict) else []
     if (release_dir / "withheld.json").is_file() and not any(
         isinstance(entry, dict) and entry.get("path") == "withheld.json" for entry in manifest_files

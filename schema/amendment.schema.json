@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/UMB-Advisors/open-zoning-rules/schema/amendment.schema.json",
+  "title": "Amendments file",
+  "description": "Amendment, moratorium and use-determination records for one jurisdiction, as released in amendments.json.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "jurisdiction_id",
+      "kind",
+      "status",
+      "use_classes",
+      "districts",
+      "quote",
+      "source"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "jurisdiction_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "kind": {
+        "enum": [
+          "moratorium",
+          "pending_text_amendment",
+          "adopted_text_amendment",
+          "use_determination"
+        ]
+      },
+      "status": {
+        "enum": [
+          "introduced",
+          "pending",
+          "active",
+          "adopted",
+          "expired",
+          "withdrawn",
+          "repealed"
+        ]
+      },
+      "use_classes": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "districts": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "quote": {
+        "type": "string",
+        "minLength": 1
+      },
+      "reference": {
+        "type": "string",
+        "minLength": 1
+      },
+      "section": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          }
+        }
+      },
+      "dates": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "introduced": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "adopted": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "effective": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "expires": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          }
+        }
+      },
+      "incorporated_in": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source_id",
+            "quote",
+            "section",
+            "reason"
+          ],
+          "properties": {
+            "source_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "quote": {
+              "type": "string",
+              "minLength": 1
+            },
+            "section": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
