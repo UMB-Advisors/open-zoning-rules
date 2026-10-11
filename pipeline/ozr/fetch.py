@@ -6,6 +6,8 @@ import argparse
 import hashlib
 import json
 import time
+import urllib.error
+import urllib.parse
 import urllib.request
 from collections.abc import Callable
 from functools import partial
@@ -19,13 +21,37 @@ from ozr.triage import host_allowed
 Opener = Callable[[str], tuple[str, bytes]]
 
 
-def default_opener(url: str) -> tuple[str, bytes]:
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):  # type: ignore[no-untyped-def]
+        return None
+
+
+def default_opener(url: str, check: Callable[[str], list[str]] | None = None) -> tuple[str, bytes]:
     """Download a URL, following redirects and requiring an HTTP 200 response."""
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=60) as response:  # noqa: S310
-        if response.status != 200:
-            raise RuntimeError(f"HTTP {response.status}: {url}")
-        return response.geturl(), response.read()
+    opener = urllib.request.build_opener(_NoRedirect())
+    current = url
+    for _ in range(10):
+        request = urllib.request.Request(current, headers={"User-Agent": USER_AGENT})
+        try:
+            response = opener.open(request, timeout=60)
+        except urllib.error.HTTPError as error:
+            response = error
+        try:
+            status = response.status
+            location = response.headers.get("Location")
+            if 300 <= status < 400 and location:
+                target = urllib.parse.urljoin(current, location)
+                errors = check(target) if check is not None else []
+                if errors:
+                    raise RuntimeError(f"refused URL: {target}: {'; '.join(errors)}")
+                current = target
+                continue
+            if status != 200:
+                raise RuntimeError(f"HTTP {status}: {current}")
+            return current, response.read()
+        finally:
+            response.close()
+    raise RuntimeError(f"too many redirects: {url}")
 
 
 def policy_errors(
@@ -134,7 +160,8 @@ def fetch_jurisdiction(
         )
         before = dict(source)
         final_check = partial(policy_errors, policy=policy, org_id=source.get("arcgis_org_id"), denylist=denylist)
-        results.append(_fetch_source(root, source, opener, initial_errors, final_check, now, delay, sleep))
+        request_opener = partial(default_opener, check=final_check) if opener is default_opener else opener
+        results.append(_fetch_source(root, source, request_opener, initial_errors, final_check, now, delay, sleep))
         changed = changed or source != before
     if changed:
         write_json(sources_path, document)
@@ -194,6 +221,7 @@ def fetch_geometry(
             results.append({"source_id": source_id, "status": "refused", "errors": initial_errors})
             continue
         final_check = partial(policy_errors, policy=policy, org_id=source.get("arcgis_org_id"), denylist=denylist)
+        request_opener = partial(default_opener, check=final_check) if opener is default_opener else opener
         features: list[object] = []
         offset = 0
         try:
@@ -207,7 +235,7 @@ def fetch_geometry(
                 )
                 if request_errors:
                     raise ValueError("; ".join(request_errors))
-                final_url, data = opener(query)
+                final_url, data = request_opener(query)
                 final_errors = final_check(final_url)
                 if final_errors:
                     raise ValueError("; ".join(final_errors))
@@ -307,7 +335,10 @@ def fetch_state_rules(
                 return [f"redirected off the statute host: {final_url}"]
             return check_url(final_url, denylist)
 
-        results.append(_fetch_source(root, source, opener, check_url(url, denylist), final_check, now, delay, sleep))
+        request_opener = partial(default_opener, check=final_check) if opener is default_opener else opener
+        results.append(
+            _fetch_source(root, source, request_opener, check_url(url, denylist), final_check, now, delay, sleep)
+        )
     # Only fetched statutes are recorded: the sources schema requires sha256 and fetched_at.
     document["sources"] = [source for source in document["sources"] if "sha256" in source and "fetched_at" in source]
     write_json(root / "state_rules" / "sources.json", document)

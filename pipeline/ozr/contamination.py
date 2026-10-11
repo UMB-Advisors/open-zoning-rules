@@ -29,28 +29,39 @@ def load_denylist(path: Path | None = None) -> frozenset[str]:
     )
 
 
-def host_banned(host: str, denylist: frozenset[str]) -> bool:
-    """Return whether host is a listed domain or one of its subdomains."""
+def normalize_host(host: str) -> str | None:
+    """Return an IDNA-normalized hostname, or None when it cannot be normalized."""
     host = host.strip().lower()
     if host.startswith("["):
         host = host.split("]", 1)[0][1:]
     elif ":" in host:
         host = host.rsplit(":", 1)[0]
-    host = host.rstrip(".")
-    return any(host == domain or host.endswith(f".{domain}") for domain in denylist)
+    try:
+        return host.rstrip(".").encode("idna").decode("ascii") or None
+    except UnicodeError:
+        return None
+
+
+def host_banned(host: str, denylist: frozenset[str]) -> bool:
+    """Return whether host is a listed domain or one of its subdomains."""
+    normalized = normalize_host(host)
+    return normalized is not None and any(
+        normalized == domain or normalized.endswith(f".{domain}") for domain in denylist
+    )
 
 
 def _url_errors(url: str, denylist: frozenset[str]) -> list[str]:
     parsed = urllib.parse.urlsplit(url)
-    if parsed.scheme.lower() != "https":
-        return [f"not https: {url}"]
     try:
         host = parsed.hostname
     except ValueError:
         host = None
-    if not host:
+    normalized_host = normalize_host(host) if host else None
+    if not normalized_host:
         return [f"unparseable/no host: {url}"]
-    if host_banned(host, denylist):
+    if parsed.scheme.lower() != "https":
+        return [f"not https: {url}"]
+    if host_banned(normalized_host, denylist):
         return [f"banned host: {url}"]
     return []
 
@@ -58,7 +69,7 @@ def _url_errors(url: str, denylist: frozenset[str]) -> list[str]:
 def check_url(url: str, denylist: frozenset[str], chain: Callable[[str], list[str]] | None = None) -> list[str]:
     """Return policy errors for a URL and, optionally, its redirect chain."""
     errors = _url_errors(url, denylist)
-    if chain is None:
+    if errors or chain is None:
         return errors
     for index, target in enumerate(chain(url)):
         if index == 0 and target == url:
