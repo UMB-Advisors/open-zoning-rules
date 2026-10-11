@@ -1,0 +1,467 @@
+{
+  "jurisdiction_id": "us-13139",
+  "sources": [
+    {
+      "source_id": "us-13139-udc",
+      "sha256": "9a9fd6a19f837c1588a6cd2c69bb84cd7470f63c89bd388f72f3738d927dc343",
+      "pages": 422,
+      "tables": 34,
+      "text_sha256": "262023981128780c78f2585227f3306164472dae009452a766d4974372352166"
+    }
+  ],
+  "segments": [
+    {
+      "kind": "use_table",
+      "source_id": "us-13139-udc",
+      "pages": [
+        3,
+        4,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        56,
+        57,
+        60,
+        61,
+        73,
+        74,
+        80,
+        81,
+        84,
+        85,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        130,
+        131,
+        298,
+        299,
+        300,
+        314,
+        315,
+        418,
+        419,
+        421,
+        422
+      ],
+      "text": "segments/us-13139/use_table-us-13139-udc.txt",
+      "text_sha256": "25f3a44478335195ab39d003f9e52894c7c6c4e84dad1335d91723b5356eeb51",
+      "images": [
+        {
+          "page": 3,
+          "path": "segments/us-13139/us-13139-udc-p3.png",
+          "sha256": "5df684dfc17c98a1d537eb16f3b308915b2507d73c989211847a95268647bf5e"
+        },
+        {
+          "page": 4,
+          "path": "segments/us-13139/us-13139-udc-p4.png",
+          "sha256": "8238ea9d7043377a35fbea8849c8da99953ae6f1ece5c72dba04959dfd9ece10"
+        },
+        {
+          "page": 22,
+          "path": "segments/us-13139/us-13139-udc-p22.png",
+          "sha256": "7e87ef3c22c8e267246729ef7f870ab9939472c2ac152ac165c56a74eab41189"
+        },
+        {
+          "page": 23,
+          "path": "segments/us-13139/us-13139-udc-p23.png",
+          "sha256": "8c74dd5501cfc366153e459c820a6d4d76fbf75c9388d112f51ffa07b3531791"
+        },
+        {
+          "page": 24,
+          "path": "segments/us-13139/us-13139-udc-p24.png",
+          "sha256": "d011e53a4efe391b0bfe5183e8a97dfa972e163a1056a67ed266aa6fadc2c4d2"
+        },
+        {
+          "page": 26,
+          "path": "segments/us-13139/us-13139-udc-p26.png",
+          "sha256": "5c3b86163d2dc4754923905ffede0ea4da554f8ae58b9ac632b076c5a65bcd95"
+        },
+        {
+          "page": 27,
+          "path": "segments/us-13139/us-13139-udc-p27.png",
+          "sha256": "18b90a11b79ba7f57ecfbc3bc019fc4ccf7d75f601408dbba6bd66d7a555e55f"
+        },
+        {
+          "page": 28,
+          "path": "segments/us-13139/us-13139-udc-p28.png",
+          "sha256": "ac4919b1b0b458439dce820344cb917964db5d3395667cb219c87d888e8b6fd5"
+        },
+        {
+          "page": 29,
+          "path": "segments/us-13139/us-13139-udc-p29.png",
+          "sha256": "3b028168a8f24bae998a357e630a847ab37a119537355491e9db5e514286f19a"
+        },
+        {
+          "page": 30,
+          "path": "segments/us-13139/us-13139-udc-p30.png",
+          "sha256": "5618c189ef1fe627520fc0db0060771258d50f7aca5dea408fc7b5d50232590c"
+        },
+        {
+          "page": 31,
+          "path": "segments/us-13139/us-13139-udc-p31.png",
+          "sha256": "fd7386ba0ac210203130b5d3094bba1c177e8bed9963c828c3d69b2bf504d7e4"
+        },
+        {
+          "page": 32,
+          "path": "segments/us-13139/us-13139-udc-p32.png",
+          "sha256": "bea2208c49f064efd16219151e67884ffe729ccbde73ae5a11bec286c5fed216"
+        },
+        {
+          "page": 33,
+          "path": "segments/us-13139/us-13139-udc-p33.png",
+          "sha256": "780f4e7dc4192597026811ec6bc71c7930a4928f4f8b744da55b7125fc11e3dd"
+        },
+        {
+          "page": 34,
+          "path": "segments/us-13139/us-13139-udc-p34.png",
+          "sha256": "42d6f3bb3099d4b658012255560c4e275c48e3a76adb03bec10e6ef5c1bf2871"
+        },
+        {
+          "page": 35,
+          "path": "segments/us-13139/us-13139-udc-p35.png",
+          "sha256": "1fcc2dcfab1b2ea539c9556a817c364b71be111e3764a2291b66ab0974e05315"
+        },
+        {
+          "page": 36,
+          "path": "segments/us-13139/us-13139-udc-p36.png",
+          "sha256": "14db1e01f6e49f4b34b2593232af8039948de817d73cd0deac4b76126c78c7a5"
+        },
+        {
+          "page": 37,
+          "path": "segments/us-13139/us-13139-udc-p37.png",
+          "sha256": "f589fee7e463dc91062e5bcdc0b517eca58f905b8f340726520c4bb97ef28382"
+        },
+        {
+          "page": 38,
+          "path": "segments/us-13139/us-13139-udc-p38.png",
+          "sha256": "4b2067ebab6a79b6d3ebae2b3268874bfa670012246507fdc62d6864cecf47b4"
+        },
+        {
+          "page": 39,
+          "path": "segments/us-13139/us-13139-udc-p39.png",
+          "sha256": "534910c301065b687f310b388c6c1cce362949bfb9d4ba7e3ceca6fb42fd547d"
+        },
+        {
+          "page": 40,
+          "path": "segments/us-13139/us-13139-udc-p40.png",
+          "sha256": "1537821c1a38b93fbcade4eab8200f280b62dc4c7107df491c02cf72873c7aeb"
+        },
+        {
+          "page": 41,
+          "path": "segments/us-13139/us-13139-udc-p41.png",
+          "sha256": "d2c245ba9e305439d58850b9b1e802cd45821bf13cdad0cdf747783492ee5795"
+        },
+        {
+          "page": 44,
+          "path": "segments/us-13139/us-13139-udc-p44.png",
+          "sha256": "38dcf185c0769943e8cce6b297438b33c0c9917e829a8f171049846c591fde7b"
+        },
+        {
+          "page": 45,
+          "path": "segments/us-13139/us-13139-udc-p45.png",
+          "sha256": "8a7e4b5685cd083e500c801618fb18834a7d6d8d68208b9cd5d4334241106ffb"
+        },
+        {
+          "page": 46,
+          "path": "segments/us-13139/us-13139-udc-p46.png",
+          "sha256": "a9b7c8e26f99ec7e9dcc5326dcd6a1a569c28793db7aad0209e7c0bb508748e9"
+        },
+        {
+          "page": 47,
+          "path": "segments/us-13139/us-13139-udc-p47.png",
+          "sha256": "64df04786fd174277e441cea12fd737d4c57a93ed11d6782c4d4a61937c5ba80"
+        },
+        {
+          "page": 48,
+          "path": "segments/us-13139/us-13139-udc-p48.png",
+          "sha256": "c13e32c2fa25d6d4d114182947c0a1c0d38fac48208d1d7746fc9f031294c893"
+        },
+        {
+          "page": 49,
+          "path": "segments/us-13139/us-13139-udc-p49.png",
+          "sha256": "ea21728e8209916fbc26b8d1117bee9710e167cee5ec4d04b650563e61e66a97"
+        },
+        {
+          "page": 50,
+          "path": "segments/us-13139/us-13139-udc-p50.png",
+          "sha256": "b523096eab91f1020f77ba547499eed13c49e5a1405faed0bab98b08b22e062b"
+        },
+        {
+          "page": 51,
+          "path": "segments/us-13139/us-13139-udc-p51.png",
+          "sha256": "c43ce679912d7a0aa63e420ee35ae6415188762e78b8b7181208c7efab79de28"
+        },
+        {
+          "page": 56,
+          "path": "segments/us-13139/us-13139-udc-p56.png",
+          "sha256": "9ee6878d0f475434e3c84392a97709263cfec4f87423f9c7953ed24c8a414ca1"
+        },
+        {
+          "page": 57,
+          "path": "segments/us-13139/us-13139-udc-p57.png",
+          "sha256": "09a7457141a1a848819071c170b84f7e79ec5110aac4c37525e2edc607fab496"
+        },
+        {
+          "page": 60,
+          "path": "segments/us-13139/us-13139-udc-p60.png",
+          "sha256": "a62903dfb0303efc4682fcc1c5fd2ba13eb2c095ed7eb4eea8c30b331779f003"
+        },
+        {
+          "page": 61,
+          "path": "segments/us-13139/us-13139-udc-p61.png",
+          "sha256": "fbc4fc3ce1ca948e632d3857154b24339dbba9802b857c99adfac74c2125c0c8"
+        },
+        {
+          "page": 73,
+          "path": "segments/us-13139/us-13139-udc-p73.png",
+          "sha256": "8782a6c0703f0e668008f3f1145bbb8bc86a4ade9423bbb44f0cb00f9685abaf"
+        },
+        {
+          "page": 74,
+          "path": "segments/us-13139/us-13139-udc-p74.png",
+          "sha256": "f2cb118d29f58461d34776c15944080ef97a52d1ed2a6cdcd7217446ed74f6ac"
+        },
+        {
+          "page": 80,
+          "path": "segments/us-13139/us-13139-udc-p80.png",
+          "sha256": "9fdf5ca3612282cf9573deeefd51f602460f03c1e8a2eb704b15dc046a6fdecd"
+        },
+        {
+          "page": 81,
+          "path": "segments/us-13139/us-13139-udc-p81.png",
+          "sha256": "5ac59c907f02c6e5ff865fe859a8f705f3c5712cfb8aec12f6e118b18faeddab"
+        },
+        {
+          "page": 84,
+          "path": "segments/us-13139/us-13139-udc-p84.png",
+          "sha256": "10ec63bb4060dfbc6129f813d9bbd573b393dcdf9814b2a36e8f4fb0939fdb81"
+        },
+        {
+          "page": 85,
+          "path": "segments/us-13139/us-13139-udc-p85.png",
+          "sha256": "094145cc6a5546dcc0147c9c163e1809c932935c5de1dfde1320ceddf0870c25"
+        },
+        {
+          "page": 89,
+          "path": "segments/us-13139/us-13139-udc-p89.png",
+          "sha256": "ba2632d5f71c5b3be0192811a7d9d939d0c9b9027845df21cc5daef39b56d336"
+        },
+        {
+          "page": 90,
+          "path": "segments/us-13139/us-13139-udc-p90.png",
+          "sha256": "cbd531e810627e54e8ab79ee8ee962800d18b01579ea961f9cfff66d448be4e3"
+        },
+        {
+          "page": 91,
+          "path": "segments/us-13139/us-13139-udc-p91.png",
+          "sha256": "176f503935821549344fe87aaa1d0df883e92fd16524acc368a1305bfa99b867"
+        },
+        {
+          "page": 92,
+          "path": "segments/us-13139/us-13139-udc-p92.png",
+          "sha256": "48290c6345cf95105c68ae95bbe5631b4f1ce661019541303ce08bc7e63360a8"
+        },
+        {
+          "page": 93,
+          "path": "segments/us-13139/us-13139-udc-p93.png",
+          "sha256": "d62ca6a90e5854818ca7ffd67cd5d3b8443673fb6a00a073c58d7ba738cda08e"
+        },
+        {
+          "page": 94,
+          "path": "segments/us-13139/us-13139-udc-p94.png",
+          "sha256": "1ce9631d760f72b22e2b6477b5ee22d14fc67130f773738e86d1065579697c12"
+        },
+        {
+          "page": 95,
+          "path": "segments/us-13139/us-13139-udc-p95.png",
+          "sha256": "e790d6a5bba46b7453f2a7d2e018fe07aee58ffbcf83fc236ef9348c108b7e1f"
+        },
+        {
+          "page": 96,
+          "path": "segments/us-13139/us-13139-udc-p96.png",
+          "sha256": "59576822559687a822fa317de39897f68153259b16d9c09f535d1acf8306b165"
+        },
+        {
+          "page": 97,
+          "path": "segments/us-13139/us-13139-udc-p97.png",
+          "sha256": "ceb9452539194c22eab7525e448c9a80fc0958ad8a0b4e74ae1cae78397bcd6f"
+        },
+        {
+          "page": 98,
+          "path": "segments/us-13139/us-13139-udc-p98.png",
+          "sha256": "62373291bfe3b467fbe150110d4ef0a0839dbbe1c3cc7c79330453c167554ae3"
+        },
+        {
+          "page": 99,
+          "path": "segments/us-13139/us-13139-udc-p99.png",
+          "sha256": "a89a29404a64bc8e426e50668ba8872f9432de3f8cdade9b215f7db54edc2453"
+        },
+        {
+          "page": 100,
+          "path": "segments/us-13139/us-13139-udc-p100.png",
+          "sha256": "0ba137ab06784f3415b7a7b23dadb714f88f80e7a16edbac51835af648383936"
+        },
+        {
+          "page": 101,
+          "path": "segments/us-13139/us-13139-udc-p101.png",
+          "sha256": "efe55da1aef7415db57c748134a78123dd08b09d094b104102f30845597b0fcc"
+        },
+        {
+          "page": 102,
+          "path": "segments/us-13139/us-13139-udc-p102.png",
+          "sha256": "115ad4949c3b0c41299930f99fa573bc12a00e17c82cd234ceb7210ce2035e0a"
+        },
+        {
+          "page": 130,
+          "path": "segments/us-13139/us-13139-udc-p130.png",
+          "sha256": "9b416b13ae8828652fb62b067b87ccff5ba92e8f9a18fce4637d379279aec9c8"
+        },
+        {
+          "page": 131,
+          "path": "segments/us-13139/us-13139-udc-p131.png",
+          "sha256": "ff6b899ae73d02ff3a00d9e947469871412ab27671f8c3768de45cf960e31a3f"
+        },
+        {
+          "page": 298,
+          "path": "segments/us-13139/us-13139-udc-p298.png",
+          "sha256": "6f1f8f0305acac57aa60c25b359d3396f6e394ae0daf4617918a69429698bb98"
+        },
+        {
+          "page": 299,
+          "path": "segments/us-13139/us-13139-udc-p299.png",
+          "sha256": "96f29d0e195b2d55e9ae1488d3862987bba10093f31f8b4664878bd0c93c900d"
+        },
+        {
+          "page": 300,
+          "path": "segments/us-13139/us-13139-udc-p300.png",
+          "sha256": "2274ac9a5052adfabe900a4df20012f2286955fccf08e095e8003471484e63db"
+        },
+        {
+          "page": 314,
+          "path": "segments/us-13139/us-13139-udc-p314.png",
+          "sha256": "98c59abc3f93d215aba5d4146568d97645e6269b80dde85afe7109f59c7c3e5b"
+        },
+        {
+          "page": 315,
+          "path": "segments/us-13139/us-13139-udc-p315.png",
+          "sha256": "efb521fe3bdaa68c466552cb0f1f5e635f8bfab27d0d4bcc20f0f1d3f2b1c785"
+        },
+        {
+          "page": 418,
+          "path": "segments/us-13139/us-13139-udc-p418.png",
+          "sha256": "1448597d1a58b65f052037adba6e996e481cee8c5ef9431daa4cf16f1cbc434f"
+        },
+        {
+          "page": 419,
+          "path": "segments/us-13139/us-13139-udc-p419.png",
+          "sha256": "77943b40de8600829b2afffa9d69c6db01b105f9d898e174be9ada74ba57efb5"
+        },
+        {
+          "page": 421,
+          "path": "segments/us-13139/us-13139-udc-p421.png",
+          "sha256": "c5b511725180cb103efa1e4e58d947cc67e94b46ced03e3030f7a7c84f814e68"
+        },
+        {
+          "page": 422,
+          "path": "segments/us-13139/us-13139-udc-p422.png",
+          "sha256": "426e9da0cddb6600ce19f255ba1e79b663ece1a0e07cc22418b874b21cb1b67b"
+        }
+      ]
+    },
+    {
+      "kind": "definitions",
+      "source_id": "us-13139-udc",
+      "pages": [
+        82,
+        183,
+        198,
+        343
+      ],
+      "text": "segments/us-13139/definitions-us-13139-udc.txt",
+      "text_sha256": "528cee9dbf7b87fb2562d5cc15b45a302efdc43d40bc10b1728603d237de6c4b",
+      "images": []
+    },
+    {
+      "kind": "not_listed",
+      "source_id": "us-13139-udc",
+      "pages": [
+        90,
+        92,
+        93,
+        94
+      ],
+      "text": "segments/us-13139/not_listed-us-13139-udc.txt",
+      "text_sha256": "9f107ded016a989509827b6390a15d6b8abbb9b4879c6bd56f8e4cbf889e8b12",
+      "images": []
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-13139-udc",
+      "pages": [
+        3,
+        5,
+        10,
+        19,
+        61,
+        84,
+        89,
+        102,
+        128,
+        131,
+        149,
+        150,
+        171,
+        183,
+        192,
+        206,
+        214,
+        216,
+        221,
+        223,
+        241,
+        376
+      ],
+      "text": "segments/us-13139/district_list-us-13139-udc.txt",
+      "text_sha256": "f82fbcc9d934c41503960b7929d976d3b3f4d1c3fde69946dcd323b22ffb39d7",
+      "images": []
+    }
+  ],
+  "missing": [],
+  "missing_bytes": []
+}

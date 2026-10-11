@@ -5,6 +5,10 @@
   "state": "FL",
   "unlisted_rule": "unknown",
   "code_version": "2022-06-15",
+  "retired": {
+    "date": "2026-10-11",
+    "reason": "Swapped out for Santa Rosa County, FL on 2026-10-11 (maintainer approval): the current code exists only on a code publisher. Kept only because a frozen known answer cites it; out of scope and unscored."
+  },
   "conditional_zoning_unmapped": true,
   "sources": [
     "us-12057-ldc-page",

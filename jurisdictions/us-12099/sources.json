@@ -1,0 +1,63 @@
+{
+  "sources": [
+    {
+      "source_id": "us-12099-uldc-art1",
+      "jurisdiction_id": "us-12099",
+      "kind": "ordinance",
+      "url": "https://pbc.gov/uldc/pdf/Article1.pdf",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Disclaimer page: the ULDC content is made available \"for informational purposes only\" and \"provided 'as is' without warranty of any kind\". Enacted local law and public record.",
+        "url": "https://pbc.gov/uldc/disclaimer.htm"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "380ea8aaf18e5f2e3b783b4cb4061d75efd451fabe1f2655e6a7e21e8d6f48a1",
+      "fetched_at": "2026-10-11T19:12:18Z"
+    },
+    {
+      "source_id": "us-12099-uldc-art4",
+      "jurisdiction_id": "us-12099",
+      "kind": "ordinance",
+      "url": "https://pbc.gov/uldc/pdf/Article4.pdf",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Disclaimer page: the ULDC content is made available \"for informational purposes only\" and \"provided 'as is' without warranty of any kind\". Enacted local law and public record.",
+        "url": "https://pbc.gov/uldc/disclaimer.htm"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "3fc0558093bac76116300bdb84c07757b0404c5d77a118f5dc360b72feb2b951",
+      "fetched_at": "2026-10-11T19:12:48Z"
+    },
+    {
+      "source_id": "us-12099-uldc-art5",
+      "jurisdiction_id": "us-12099",
+      "kind": "ordinance",
+      "url": "https://pbc.gov/uldc/pdf/Article5.pdf",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Disclaimer page: the ULDC content is made available \"for informational purposes only\" and \"provided 'as is' without warranty of any kind\". Enacted local law and public record.",
+        "url": "https://pbc.gov/uldc/disclaimer.htm"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "1fc46035da22281163259154fd21e7b0009156eed81ef8a28c31f2d6d1f436de",
+      "fetched_at": "2026-10-11T19:12:57Z"
+    },
+    {
+      "source_id": "us-12099-gis-zoning",
+      "jurisdiction_id": "us-12099",
+      "kind": "gis_layer",
+      "url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9?f=json",
+      "source_date": "2026-08-13",
+      "licence_terms": {
+        "text": "Copyright text \"Palm Beach County Planning Zoning & Building GIS/Information Technology Section\"; no licence or redistribution grant on the service."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "sha256": "095fe0c10a997c4799a03e47a294b783538d9acf460dc32d17679f978073c733",
+      "fetched_at": "2026-10-11T19:12:59Z"
+    }
+  ]
+}

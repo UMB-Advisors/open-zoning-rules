@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "source_id": "us-13139-udc",
+      "jurisdiction_id": "us-13139",
+      "kind": "ordinance",
+      "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+      "source_date": "2026-09-10",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "9a9fd6a19f837c1588a6cd2c69bb84cd7470f63c89bd388f72f3738d927dc343",
+      "fetched_at": "2026-10-11T19:13:09Z"
+    },
+    {
+      "source_id": "us-13139-gis-zoning",
+      "jurisdiction_id": "us-13139",
+      "kind": "gis_layer",
+      "url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15?f=json",
+      "source_date": "2026-09-24",
+      "licence_terms": {
+        "text": "No licence, copyright or terms on the service. Each polygon carries ZN_CONDITI (C or N), which flags conditional zoning; a district pointer cannot carry it."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "sha256": "64b8a0bdfa40735b57dd5856edb2854e051cdf648531b526de8c3ae6ae5eff15",
+      "fetched_at": "2026-10-11T19:13:12Z"
+    }
+  ]
+}

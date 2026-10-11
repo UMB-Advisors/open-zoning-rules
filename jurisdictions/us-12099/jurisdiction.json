@@ -1,0 +1,493 @@
+{
+  "jurisdiction_id": "us-12099",
+  "name": "Palm Beach County (unincorporated)",
+  "type": "county",
+  "state": "FL",
+  "unlisted_rule": "prohibited_by_default",
+  "unlisted_rule_quote": {
+    "quote": "Only those uses listed in this Chapter within the Use Matrices may be considered a principal use.",
+    "section": "Section 8"
+  },
+  "code_version": "unknown",
+  "conditional_zoning_unmapped": true,
+  "sources": [
+    "us-12099-uldc-art1",
+    "us-12099-uldc-art4",
+    "us-12099-uldc-art5",
+    "us-12099-gis-zoning"
+  ],
+  "table_key": [
+    {
+      "symbol": "P",
+      "status": "permitted",
+      "quote": "P Permitted by Right",
+      "section": "Section 7"
+    },
+    {
+      "symbol": "D",
+      "status": "conditional",
+      "quote": "D Subject to DRO approval",
+      "section": "Section 7"
+    },
+    {
+      "symbol": "B",
+      "status": "conditional",
+      "quote": "B Subject to Zoning Commission approval (Class B Conditional Use)",
+      "section": "Section 7"
+    },
+    {
+      "symbol": "A",
+      "status": "conditional",
+      "quote": "A Subject to BCC approval (Class A Conditional Use)",
+      "section": "Section 7"
+    },
+    {
+      "symbol": "-",
+      "status": "prohibited",
+      "quote": "Prohibited use, unless stated otherwise within Supplementary Use Standards",
+      "section": "Section 7"
+    }
+  ],
+  "districts": [
+    {
+      "district_code": "AGR",
+      "district_name": "AGRICULTURAL RESERVE DISTRICT",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "AGR"
+      }
+    },
+    {
+      "district_code": "AGR-MUPD",
+      "district_name": "AGRICULTURAL RESERVE MULTIPLE USE PLANNED DEVELOPMENT DISTRICT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "AGR-MUPD"
+      }
+    },
+    {
+      "district_code": "AGR-MUPD/P",
+      "district_name": "AGRICULTURAL RESERVE MULTPLE USE PLANNED DISTRICT PRESERVE",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "AGR-MUPD/P"
+      }
+    },
+    {
+      "district_code": "AGR-PUD",
+      "district_name": "AGRICULTURAL RESERVE PLANNED UNIT DEVELOPMENT DISTRICT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "AGR-PUD"
+      }
+    },
+    {
+      "district_code": "AGR-PUD/P",
+      "district_name": "AGRICULTURAL RESERVE PLANNED UNIT DEVELOPMENT DISTRICT PRESERVE",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "AGR-PUD/P"
+      }
+    },
+    {
+      "district_code": "AP",
+      "district_name": "AGRICULTURAL PRODUCTION DISTRICT",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "AP"
+      }
+    },
+    {
+      "district_code": "AR",
+      "district_name": "AGRICULTURAL RESIDENTIAL DISTRICT",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "AR"
+      }
+    },
+    {
+      "district_code": "CC",
+      "district_name": "COMMUNITY COMMERCIAL DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "CC"
+      }
+    },
+    {
+      "district_code": "CG",
+      "district_name": "GENERAL COMMERCIAL DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "CG"
+      }
+    },
+    {
+      "district_code": "CHO",
+      "district_name": "COMMERCIAL HIGH INTENSITY OFFICE DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "CHO"
+      }
+    },
+    {
+      "district_code": "CLO",
+      "district_name": "LIMITED OFFICE COMMERCIAL DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "CLO"
+      }
+    },
+    {
+      "district_code": "CN",
+      "district_name": "NEIGHBORHOOD COMMERCIAL DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "CN"
+      }
+    },
+    {
+      "district_code": "CRE",
+      "district_name": "COMMERCIAL RECREATION DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "CRE"
+      }
+    },
+    {
+      "district_code": "CS",
+      "district_name": "COMMERCIAL SPECIALIZED DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "CS"
+      }
+    },
+    {
+      "district_code": "CSH",
+      "district_name": "SPECIALIZED COMMERCIAL HIGH DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "CSH"
+      }
+    },
+    {
+      "district_code": "IG",
+      "district_name": "GENERAL INDUSTRIAL DISTRICT",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "IG"
+      }
+    },
+    {
+      "district_code": "IL",
+      "district_name": "LIGHT INDUSTRIAL DISTRICT",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "IL"
+      }
+    },
+    {
+      "district_code": "IPF",
+      "district_name": "INSTITUTIONAL AND PUBLIC FACILITIES DISTRICT",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "IPF"
+      }
+    },
+    {
+      "district_code": "LO",
+      "district_name": "LIMITED OFFICE DISTRICT",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "LO"
+      }
+    },
+    {
+      "district_code": "MUPD",
+      "district_name": "MULTIPLE USE PLANNED DEVELOPMENT DISTRICT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "MUPD"
+      }
+    },
+    {
+      "district_code": "MUPD/P",
+      "district_name": "MULTIPLE USE PLANNED DEVELOPMENT DISTRICT PRESERVE",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "MUPD/P"
+      }
+    },
+    {
+      "district_code": "MXPD",
+      "district_name": "MIXED USE PLANNED DEVELOPMENT DISTRICT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "MXPD"
+      }
+    },
+    {
+      "district_code": "PC",
+      "district_name": "PRESERVATION/CONSERVATION DISTRICT",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "PC"
+      }
+    },
+    {
+      "district_code": "PIPD",
+      "district_name": "PLANNED INDUSTRIAL PARK DEVELOPMENT DISTRICT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "PIPD"
+      }
+    },
+    {
+      "district_code": "PO",
+      "district_name": "PUBLIC OWNERSHIP DISTRICT",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "PO"
+      }
+    },
+    {
+      "district_code": "PUD",
+      "district_name": "PLANNED UNIT DEVELOPMENT DISTRICT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "PUD"
+      }
+    },
+    {
+      "district_code": "RE",
+      "district_name": "RESIDENTIAL ESTATE DISTRICT",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RE"
+      }
+    },
+    {
+      "district_code": "RH",
+      "district_name": "MULTI-FAMILY RESIDENTIAL (HIGH DENSITY) DISTRICT",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RH"
+      }
+    },
+    {
+      "district_code": "RH/CG",
+      "district_name": "MULTI-FAMILY RESIDENTIAL (HIGH DENSITY) DISTRICT/GENERAL COMMERCIAL DISTRICT",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RH/CG"
+      }
+    },
+    {
+      "district_code": "RM",
+      "district_name": "MULTI-FAMILY RESIDENTIAL (MEDIUM DENSITY) DISTRICT",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RM"
+      }
+    },
+    {
+      "district_code": "RR-PUD",
+      "district_name": "RURAL RESIDENTIAL PLANNED UNIT DEVELOPMENT DISTRICT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RR-PUD"
+      }
+    },
+    {
+      "district_code": "RS",
+      "district_name": "SINGLE FAMILY RESIDENTIAL DISTRICT",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RS"
+      }
+    },
+    {
+      "district_code": "RT",
+      "district_name": "RESIDENTIAL TRANSITIONAL DISTRICT",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RT"
+      }
+    },
+    {
+      "district_code": "RTS",
+      "district_name": "RESIDENTIAL TRANSITIONAL SUBURBAN DISTRICT",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RTS"
+      }
+    },
+    {
+      "district_code": "RTU",
+      "district_name": "RESIDENTIAL TRANSITIONAL URBAN DISTRICT",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RTU"
+      }
+    },
+    {
+      "district_code": "RVPD",
+      "district_name": "RECREATIONAL VEHICLE PLANNED DEVELOPMENT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "RVPD"
+      }
+    },
+    {
+      "district_code": "SA",
+      "district_name": "SPECIAL AGRICULTURAL DISTRICT",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "SA"
+      }
+    },
+    {
+      "district_code": "TMD",
+      "district_name": "TRADITIONAL MARKETPLACE DEVELOPMENT DISTRICT",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "TMD"
+      }
+    },
+    {
+      "district_code": "UC",
+      "district_name": "URBAN CENTER",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "UC"
+      }
+    },
+    {
+      "district_code": "UI",
+      "district_name": "URBAN INFILL DISTRICT",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+        "field": "FCODE",
+        "value": "UI"
+      }
+    }
+  ]
+}

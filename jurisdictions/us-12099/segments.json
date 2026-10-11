@@ -1,0 +1,599 @@
+{
+  "jurisdiction_id": "us-12099",
+  "sources": [
+    {
+      "source_id": "us-12099-uldc-art1",
+      "sha256": "380ea8aaf18e5f2e3b783b4cb4061d75efd451fabe1f2655e6a7e21e8d6f48a1",
+      "pages": 106,
+      "tables": 3,
+      "text_sha256": "36856084237cc40e1085b70fb7e6bc6d4c9de21fd48e16b322aa17279af260bc"
+    },
+    {
+      "source_id": "us-12099-uldc-art4",
+      "sha256": "3fc0558093bac76116300bdb84c07757b0404c5d77a118f5dc360b72feb2b951",
+      "pages": 207,
+      "tables": 38,
+      "text_sha256": "30a09e5c92ec7b528fe1db9068161808c1ee3f38501d363f57f35d60debfa640"
+    },
+    {
+      "source_id": "us-12099-uldc-art5",
+      "sha256": "1fc46035da22281163259154fd21e7b0009156eed81ef8a28c31f2d6d1f436de",
+      "pages": 115,
+      "tables": 23,
+      "text_sha256": "daaa5eb1954ff6dbafed516f140d558f5dcee380a2e0b3d8b7d8b5cec7d84bc7"
+    }
+  ],
+  "segments": [
+    {
+      "kind": "use_table",
+      "source_id": "us-12099-uldc-art1",
+      "pages": [
+        44,
+        45,
+        85,
+        86,
+        91,
+        92
+      ],
+      "text": "segments/us-12099/use_table-us-12099-uldc-art1.txt",
+      "text_sha256": "29f52ba0a5009c9340e8b90d079d295dbb9be34088dfb4349e895808fbb31afe",
+      "images": [
+        {
+          "page": 44,
+          "path": "segments/us-12099/us-12099-uldc-art1-p44.png",
+          "sha256": "60f39a9bd8b0d94afa79e2075750773504587e4c7e3a8468706a3c65916fb3f6"
+        },
+        {
+          "page": 45,
+          "path": "segments/us-12099/us-12099-uldc-art1-p45.png",
+          "sha256": "433a38cb7a70ba4df30e0d22c7cd85c4369a8258bfb4d73a02db78f937cb61a2"
+        },
+        {
+          "page": 85,
+          "path": "segments/us-12099/us-12099-uldc-art1-p85.png",
+          "sha256": "ae0de6540cf14c26d9e6eb159078d99f19046817344c65d0464fc67e98f21a3e"
+        },
+        {
+          "page": 86,
+          "path": "segments/us-12099/us-12099-uldc-art1-p86.png",
+          "sha256": "e20bf20469ee3c67cce3481d6c93cd8c5df5192fefcf057a46a5157b3fc0fcb8"
+        },
+        {
+          "page": 91,
+          "path": "segments/us-12099/us-12099-uldc-art1-p91.png",
+          "sha256": "b86df33990b882c9235190e92d3435298110efdf4cf97cb151c4c4535b70f0b1"
+        },
+        {
+          "page": 92,
+          "path": "segments/us-12099/us-12099-uldc-art1-p92.png",
+          "sha256": "a6dd85bc55559751600ac4681171a9521e4590305ad17daa9cd3c26cb780afd4"
+        }
+      ]
+    },
+    {
+      "kind": "definitions",
+      "source_id": "us-12099-uldc-art1",
+      "pages": [
+        45
+      ],
+      "text": "segments/us-12099/definitions-us-12099-uldc-art1.txt",
+      "text_sha256": "8cd43cb5b547667574504bd9099f11cb50152a15f438a870ce722d6b63a2ab5c",
+      "images": []
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-12099-uldc-art1",
+      "pages": [
+        9,
+        14,
+        36,
+        55,
+        66,
+        73,
+        77,
+        80,
+        87,
+        92,
+        93,
+        98
+      ],
+      "text": "segments/us-12099/district_list-us-12099-uldc-art1.txt",
+      "text_sha256": "2ef68b9f5970f0ed7aa8647d191f181d45a69bd0ad13601cf1b0dc0aa424358f",
+      "images": []
+    },
+    {
+      "kind": "use_table",
+      "source_id": "us-12099-uldc-art4",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        13,
+        14,
+        21,
+        23,
+        26,
+        35,
+        36,
+        37,
+        38,
+        71,
+        72,
+        74,
+        75,
+        77,
+        78,
+        79,
+        80,
+        81,
+        85,
+        86,
+        91,
+        92,
+        101,
+        102,
+        103,
+        104,
+        105,
+        117,
+        118,
+        124,
+        125,
+        127,
+        128,
+        133,
+        134,
+        139,
+        140,
+        141,
+        167,
+        168,
+        197,
+        198
+      ],
+      "text": "segments/us-12099/use_table-us-12099-uldc-art4.txt",
+      "text_sha256": "0f399e0d3ef6a943392cf93aa10fa8cb3420b945c690397d1fd9e5b2b31af773",
+      "images": [
+        {
+          "page": 1,
+          "path": "segments/us-12099/us-12099-uldc-art4-p1.png",
+          "sha256": "d4b2b100cd33711c7276e7594b760c07b548396c56eba79058de04a2f4b96821"
+        },
+        {
+          "page": 2,
+          "path": "segments/us-12099/us-12099-uldc-art4-p2.png",
+          "sha256": "0c63a392d43908746174233c7faaf4ca5589253b27a5309e7cbcaa3083faab4b"
+        },
+        {
+          "page": 3,
+          "path": "segments/us-12099/us-12099-uldc-art4-p3.png",
+          "sha256": "a749b572b5ac59909489b98967a8b84bc662240519a4fd31a10fb9fa40bb912a"
+        },
+        {
+          "page": 4,
+          "path": "segments/us-12099/us-12099-uldc-art4-p4.png",
+          "sha256": "34c50e7d88f518c63c414cb1f203390594f6e105fd26db38e79c6165ea74c6b3"
+        },
+        {
+          "page": 5,
+          "path": "segments/us-12099/us-12099-uldc-art4-p5.png",
+          "sha256": "39947f952f391c288dcff00c0cd8c37c45ad5077bd1e53076ac404798a230a5e"
+        },
+        {
+          "page": 6,
+          "path": "segments/us-12099/us-12099-uldc-art4-p6.png",
+          "sha256": "6226d8b2e3e856aa6006c550f9ca9909d229deda52adfd18338dbf7a89810936"
+        },
+        {
+          "page": 7,
+          "path": "segments/us-12099/us-12099-uldc-art4-p7.png",
+          "sha256": "1a1d269d72ba40c16c8584321cf445121982bca5975a27651f2a24663fa11dab"
+        },
+        {
+          "page": 10,
+          "path": "segments/us-12099/us-12099-uldc-art4-p10.png",
+          "sha256": "8e16ba1ce792908fd08460501188d53afd9270fa6571e8b50e6329010a80c94e"
+        },
+        {
+          "page": 11,
+          "path": "segments/us-12099/us-12099-uldc-art4-p11.png",
+          "sha256": "3bf571141bf4d5e6cd04f1a1967d24c31d823458a8b4d1ae51725ff7ad93f125"
+        },
+        {
+          "page": 13,
+          "path": "segments/us-12099/us-12099-uldc-art4-p13.png",
+          "sha256": "802a58217a4939fbe12125eeeebaa448d4c6970443a371ae6c9936ed47901b11"
+        },
+        {
+          "page": 14,
+          "path": "segments/us-12099/us-12099-uldc-art4-p14.png",
+          "sha256": "7b6dc5fa6d73c3f1992ab08e321aba7b9a3bafc0e48241ad65b18592ba3ea02f"
+        },
+        {
+          "page": 21,
+          "path": "segments/us-12099/us-12099-uldc-art4-p21.png",
+          "sha256": "f1d72d68b9f743a22f224787191ce9dd75aee89fec9f63adf63394ab00a66c68"
+        },
+        {
+          "page": 23,
+          "path": "segments/us-12099/us-12099-uldc-art4-p23.png",
+          "sha256": "3162af898631867eeed820b25805e366de7d3d13dcac240ba19422845a09502f"
+        },
+        {
+          "page": 26,
+          "path": "segments/us-12099/us-12099-uldc-art4-p26.png",
+          "sha256": "97192e95fce6f37bcb2ef00ab631bab4db6d3afd42f121cdca677919cf9b5069"
+        },
+        {
+          "page": 35,
+          "path": "segments/us-12099/us-12099-uldc-art4-p35.png",
+          "sha256": "f049faf00d20a53233c58e4a4f9c3229fff0723a6fd2cb1880dc38d823ec76e5"
+        },
+        {
+          "page": 36,
+          "path": "segments/us-12099/us-12099-uldc-art4-p36.png",
+          "sha256": "18f2d33fbda0bfa08a032f1cb59721bff0f706ae699291ecdeb9b4ef62dd7e51"
+        },
+        {
+          "page": 37,
+          "path": "segments/us-12099/us-12099-uldc-art4-p37.png",
+          "sha256": "c351c6a3aeeb7ea16d419446233ab7806f2a740f58d27c3bdde9a7ce1c50f9cc"
+        },
+        {
+          "page": 38,
+          "path": "segments/us-12099/us-12099-uldc-art4-p38.png",
+          "sha256": "b3e0d1bdffebba367b6ac5456aeec6f34a4a78412a4628f15265d4c3d2a1f2e7"
+        },
+        {
+          "page": 71,
+          "path": "segments/us-12099/us-12099-uldc-art4-p71.png",
+          "sha256": "933ff89d6984be8305aa8ce5e37488509b8636153e651f73c86bbd03b14da161"
+        },
+        {
+          "page": 72,
+          "path": "segments/us-12099/us-12099-uldc-art4-p72.png",
+          "sha256": "3c69823c0201895ec4299e3bacf5eb3e9b3ea691f2017b622b25c7cf2fb87e3e"
+        },
+        {
+          "page": 74,
+          "path": "segments/us-12099/us-12099-uldc-art4-p74.png",
+          "sha256": "d78bfafd1c1f43c87f7b2fe19a2f3680d49976bdb578b6ec04ba4c7ef338e6a2"
+        },
+        {
+          "page": 75,
+          "path": "segments/us-12099/us-12099-uldc-art4-p75.png",
+          "sha256": "dd41f76f632907f7b737b099b02687702458255d4b9edc75369dc396b3add36d"
+        },
+        {
+          "page": 77,
+          "path": "segments/us-12099/us-12099-uldc-art4-p77.png",
+          "sha256": "230fc3272d7086e1f4b625c2e9858b0a1101aaec616473ebd0db8d879ce618d9"
+        },
+        {
+          "page": 78,
+          "path": "segments/us-12099/us-12099-uldc-art4-p78.png",
+          "sha256": "7afb6c87d3b7acfb6bfe34b08d329a666d0cf8dd79a8eff7b2c260d78e256d9c"
+        },
+        {
+          "page": 79,
+          "path": "segments/us-12099/us-12099-uldc-art4-p79.png",
+          "sha256": "04250030dcc3a05c31d0663bee13abf9b5c5d578da5663374849177fbb5340b9"
+        },
+        {
+          "page": 80,
+          "path": "segments/us-12099/us-12099-uldc-art4-p80.png",
+          "sha256": "78d01d6a64049e2459d702924da4eee69582af670aaf07212731705215a674b1"
+        },
+        {
+          "page": 81,
+          "path": "segments/us-12099/us-12099-uldc-art4-p81.png",
+          "sha256": "6fd4caae535b5d14ad2c34106a1681e7356f4219fb8c5747a40df59365482244"
+        },
+        {
+          "page": 85,
+          "path": "segments/us-12099/us-12099-uldc-art4-p85.png",
+          "sha256": "eb14f9fc9b60e6101fffe77ca301751dc4fcb2ff7a87c4daa5e01f029f5202bb"
+        },
+        {
+          "page": 86,
+          "path": "segments/us-12099/us-12099-uldc-art4-p86.png",
+          "sha256": "ffc0fa686de8a529820def3f95184b10ea243bf8a745cd4589cf2245b23902aa"
+        },
+        {
+          "page": 91,
+          "path": "segments/us-12099/us-12099-uldc-art4-p91.png",
+          "sha256": "4de88b67204e859ddb712006d8d1efd9e1f23e904e09a73f6623773db8e448ce"
+        },
+        {
+          "page": 92,
+          "path": "segments/us-12099/us-12099-uldc-art4-p92.png",
+          "sha256": "03cf69be67056fc8fca0bd6cf752bf0cac8528b795ce0ef6016547ce5c28f10a"
+        },
+        {
+          "page": 101,
+          "path": "segments/us-12099/us-12099-uldc-art4-p101.png",
+          "sha256": "0fe4e5cc34aa8fd9bf2d98007617b15fc324efc2365f3a8400aa7b3c39a5d0f9"
+        },
+        {
+          "page": 102,
+          "path": "segments/us-12099/us-12099-uldc-art4-p102.png",
+          "sha256": "58afaee950efc43955c0bb97a3a0de0d3afd045f0571cc2db00b699783fe469d"
+        },
+        {
+          "page": 103,
+          "path": "segments/us-12099/us-12099-uldc-art4-p103.png",
+          "sha256": "d20be1a47f56915b49fa4c1515f18938387e19825fbd175dc9c536c6d6fd62f9"
+        },
+        {
+          "page": 104,
+          "path": "segments/us-12099/us-12099-uldc-art4-p104.png",
+          "sha256": "347bfb5826b5ad19413b4c234f65380678332f39b602d11679b8b83af4440c09"
+        },
+        {
+          "page": 105,
+          "path": "segments/us-12099/us-12099-uldc-art4-p105.png",
+          "sha256": "acf69274b1382413027023ddb4153f1312f358e9830b1b7de6aa79e26e1511bf"
+        },
+        {
+          "page": 117,
+          "path": "segments/us-12099/us-12099-uldc-art4-p117.png",
+          "sha256": "0f611ba26b2ea1d9b0333298b2a1f1da5611b43c05763c26b80c935158ab801d"
+        },
+        {
+          "page": 118,
+          "path": "segments/us-12099/us-12099-uldc-art4-p118.png",
+          "sha256": "e10978ac9b8606f17b62c98ac74185a33ee4a2dc13a57b8db219c22671db997f"
+        },
+        {
+          "page": 124,
+          "path": "segments/us-12099/us-12099-uldc-art4-p124.png",
+          "sha256": "ce38700daaadf80bad4dcb691d8d06507a6390eec40fe8da4761ce9fdb306c5c"
+        },
+        {
+          "page": 125,
+          "path": "segments/us-12099/us-12099-uldc-art4-p125.png",
+          "sha256": "40ee93dc7ac3c46cc6a1a17616fccef7ec9dd17efacdc0636ab806ed1151ab0f"
+        },
+        {
+          "page": 127,
+          "path": "segments/us-12099/us-12099-uldc-art4-p127.png",
+          "sha256": "6417087fda5191cdf911066e9b0e4b790571ec7c1b82a5b2e4b1f8167b64e92e"
+        },
+        {
+          "page": 128,
+          "path": "segments/us-12099/us-12099-uldc-art4-p128.png",
+          "sha256": "37e00e2996f7d282072068d929a01253cfe61b4f254e9ae2beeadfc78a221fba"
+        },
+        {
+          "page": 133,
+          "path": "segments/us-12099/us-12099-uldc-art4-p133.png",
+          "sha256": "df0510627196784c8042054195999982d6d6ba5527dcf9c53ac8291a88eba921"
+        },
+        {
+          "page": 134,
+          "path": "segments/us-12099/us-12099-uldc-art4-p134.png",
+          "sha256": "dff0914b8b5e06fe5dac0c382316f57e2da54273c22e1a89620c9b107a13e5f7"
+        },
+        {
+          "page": 139,
+          "path": "segments/us-12099/us-12099-uldc-art4-p139.png",
+          "sha256": "165e8702dc427d54e02f46c482bc5b5febcad17e24c4210d71c6bd42ad49ef1c"
+        },
+        {
+          "page": 140,
+          "path": "segments/us-12099/us-12099-uldc-art4-p140.png",
+          "sha256": "16aeb774196fd1af6933c46f54ec84a1e2fa28b186824dba9689d8e0e2e44ae2"
+        },
+        {
+          "page": 141,
+          "path": "segments/us-12099/us-12099-uldc-art4-p141.png",
+          "sha256": "a7673e0b17b7e4e1a9ee0351fab7184190daf94c6712b982117e3570dc31f8a6"
+        },
+        {
+          "page": 167,
+          "path": "segments/us-12099/us-12099-uldc-art4-p167.png",
+          "sha256": "d09393dccd2551c3d2eef6b84b86b03208e71cf1f947e086d6afc62746383ddd"
+        },
+        {
+          "page": 168,
+          "path": "segments/us-12099/us-12099-uldc-art4-p168.png",
+          "sha256": "581a3724699ee9a24789b3592c46796e9e06d7ff5d06d146da7b553ea1df9a37"
+        },
+        {
+          "page": 197,
+          "path": "segments/us-12099/us-12099-uldc-art4-p197.png",
+          "sha256": "6cdd4372a214196934301c7cf8b6b21aa595fa84ef612bcfe50bedb010bec693"
+        },
+        {
+          "page": 198,
+          "path": "segments/us-12099/us-12099-uldc-art4-p198.png",
+          "sha256": "042157489f6d653cdf802ff02f4c48cdd2671f2da00c28bc1d4a05509bf9bed2"
+        }
+      ]
+    },
+    {
+      "kind": "definitions",
+      "source_id": "us-12099-uldc-art4",
+      "pages": [
+        4,
+        39,
+        93,
+        126
+      ],
+      "text": "segments/us-12099/definitions-us-12099-uldc-art4.txt",
+      "text_sha256": "39682a23a81ee02be08a805454527f4b0a160bca96b553fdd3a6669a5c676d38",
+      "images": []
+    },
+    {
+      "kind": "not_listed",
+      "source_id": "us-12099-uldc-art4",
+      "pages": [
+        10
+      ],
+      "text": "segments/us-12099/not_listed-us-12099-uldc-art4.txt",
+      "text_sha256": "21e6817706de3a089a80a0c9ece075ebc60449a64a11f8c0ff4551f059c9e0b4",
+      "images": []
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-12099-uldc-art4",
+      "pages": [
+        1,
+        9,
+        10,
+        11,
+        13,
+        17,
+        23,
+        24,
+        25,
+        26,
+        29,
+        30,
+        31,
+        33,
+        35,
+        36,
+        37,
+        44,
+        46,
+        47,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        62,
+        63,
+        64,
+        65,
+        68,
+        69,
+        71,
+        73,
+        79,
+        80,
+        81,
+        82,
+        85,
+        87,
+        91,
+        94,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        105,
+        106,
+        107,
+        108,
+        110,
+        111,
+        112,
+        115,
+        117,
+        121,
+        122,
+        123,
+        131,
+        133,
+        135,
+        136,
+        137,
+        139,
+        140,
+        142,
+        143,
+        144,
+        147,
+        148,
+        149,
+        150,
+        151,
+        154,
+        161,
+        165,
+        167,
+        190,
+        194,
+        196,
+        197,
+        199,
+        205,
+        206
+      ],
+      "text": "segments/us-12099/district_list-us-12099-uldc-art4.txt",
+      "text_sha256": "ead96883785ca02dee9fa2f78dc0a0436a261dfdd0b9a833065e53febae44864",
+      "images": []
+    },
+    {
+      "kind": "use_table",
+      "source_id": "us-12099-uldc-art5",
+      "pages": [
+        17,
+        18,
+        99,
+        100
+      ],
+      "text": "segments/us-12099/use_table-us-12099-uldc-art5.txt",
+      "text_sha256": "c9142c90224ff7bab826e3fea52bf3cd82e3b9dd06407c239b45b5e2af10a297",
+      "images": [
+        {
+          "page": 17,
+          "path": "segments/us-12099/us-12099-uldc-art5-p17.png",
+          "sha256": "3b515aa8b552a5deba7f33dd4a109fe5b4881d8fdb318492c13f68cbe2141c5f"
+        },
+        {
+          "page": 18,
+          "path": "segments/us-12099/us-12099-uldc-art5-p18.png",
+          "sha256": "6e50fbe94c60df8f449953d37f2b8e556bda596391e3db16bb0a03bdc4b99ee5"
+        },
+        {
+          "page": 99,
+          "path": "segments/us-12099/us-12099-uldc-art5-p99.png",
+          "sha256": "7bba8a8d142f9bc1ea002ddb4a245dc8b969a9e8455fd717f51b82e8a3cde184"
+        },
+        {
+          "page": 100,
+          "path": "segments/us-12099/us-12099-uldc-art5-p100.png",
+          "sha256": "e004e48c191912beb693f25ad237388af3ce72375e3dc8fe3941994ae2d91620"
+        }
+      ]
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-12099-uldc-art5",
+      "pages": [
+        10,
+        16,
+        19,
+        23,
+        28,
+        30,
+        38,
+        66,
+        69,
+        80,
+        97
+      ],
+      "text": "segments/us-12099/district_list-us-12099-uldc-art5.txt",
+      "text_sha256": "a570b69392ab6c6c46411ef8b7f36b8bb697ae04ec9c0ad37e09b8bf95931080",
+      "images": []
+    }
+  ],
+  "missing": [],
+  "missing_bytes": []
+}

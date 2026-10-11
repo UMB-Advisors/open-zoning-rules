@@ -1,0 +1,738 @@
+{
+  "jurisdiction_id": "us-12113",
+  "name": "Santa Rosa County (unincorporated)",
+  "type": "county",
+  "state": "FL",
+  "unlisted_rule": "prohibited_by_default",
+  "unlisted_rule_quote": {
+    "quote": "Uses that are not listed or found to be substantially similar to listed uses are prohibited.",
+    "section": "2.03.02"
+  },
+  "code_version": "2025-11-10",
+  "conditional_zoning_unmapped": true,
+  "sources": [
+    "us-12113-ldc",
+    "us-12113-gis-zoning"
+  ],
+  "table_key": [
+    {
+      "symbol": "P",
+      "status": "permitted",
+      "quote": "P = Permitted subject to standards for the zoning district",
+      "section": "2.03.02"
+    },
+    {
+      "symbol": "C",
+      "status": "conditional",
+      "quote": "C = Conditional. Subject to additional standards for the use",
+      "section": "2.03.02"
+    },
+    {
+      "symbol": "S",
+      "status": "conditional",
+      "quote": "S = Special Exceptions, subject to standards for the zoning district",
+      "section": "2.03.02"
+    },
+    {
+      "symbol": "",
+      "status": "prohibited",
+      "quote": "All listed uses are prohibited in those districts where no indicator (“P”, “A”, “C”, “S”) is provided.",
+      "section": "2.03.02"
+    }
+  ],
+  "districts": [
+    {
+      "district_code": "AG-RR",
+      "district_name": "Rural Residential Agriculture District",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "AG-RR"
+      }
+    },
+    {
+      "district_code": "AG-RR-APZ1",
+      "district_name": "Rural Residential Agriculture District within airport zone APZ1 (layer value)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "AG-RR-APZ1"
+      }
+    },
+    {
+      "district_code": "AG-RR-APZ2",
+      "district_name": "Rural Residential Agriculture District within airport zone APZ2 (layer value)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "AG-RR-APZ2"
+      }
+    },
+    {
+      "district_code": "AG-RR-CZ",
+      "district_name": "Rural Residential Agriculture District within airport zone CZ (layer value)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "AG-RR-CZ"
+      }
+    },
+    {
+      "district_code": "AG1",
+      "district_name": "Estate Residential Agriculture District",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "AG1"
+      }
+    },
+    {
+      "district_code": "AG2",
+      "district_name": "Agriculture District 2",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "AG2"
+      }
+    },
+    {
+      "district_code": "AG2-APZ 1",
+      "district_name": "Agriculture District 2 within airport zone APZ 1 (layer value)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "AG2-APZ 1"
+      }
+    },
+    {
+      "district_code": "AG2-APZ 2",
+      "district_name": "Agriculture District 2 within airport zone APZ 2 (layer value)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "AG2-APZ 2"
+      }
+    },
+    {
+      "district_code": "C1M",
+      "district_name": "Marina",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "C1M"
+      }
+    },
+    {
+      "district_code": "C2M",
+      "district_name": "Marina and Yacht Club",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "C2M"
+      }
+    },
+    {
+      "district_code": "HC1",
+      "district_name": "Historic Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "HC1"
+      }
+    },
+    {
+      "district_code": "HCD",
+      "district_name": "Highway Commercial Development",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "HCD"
+      }
+    },
+    {
+      "district_code": "HCD-APZ 1",
+      "district_name": "Highway Commercial Development within airport zone APZ 1 (layer value)",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "HCD-APZ 1"
+      }
+    },
+    {
+      "district_code": "HCD-APZ 2",
+      "district_name": "Highway Commercial Development within airport zone APZ 2 (layer value)",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "HCD-APZ 2"
+      }
+    },
+    {
+      "district_code": "HCD-CZ",
+      "district_name": "Highway Commercial Development within airport zone CZ (layer value)",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "HCD-CZ"
+      }
+    },
+    {
+      "district_code": "HR1",
+      "district_name": "Historic Single Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "HR1"
+      }
+    },
+    {
+      "district_code": "HR2",
+      "district_name": "Historic Multiple Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "HR2"
+      }
+    },
+    {
+      "district_code": "M1",
+      "district_name": "Light Industry",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "M1"
+      }
+    },
+    {
+      "district_code": "M1-APZ 1",
+      "district_name": "Light Industry within airport zone APZ 1 (layer value)",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "M1-APZ 1"
+      }
+    },
+    {
+      "district_code": "M1-CZ",
+      "district_name": "Light Industry within airport zone CZ (layer value)",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "M1-CZ"
+      }
+    },
+    {
+      "district_code": "M2",
+      "district_name": "General Industry",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "M2"
+      }
+    },
+    {
+      "district_code": "M2-APZ 1",
+      "district_name": "General Industry within airport zone APZ 1 (layer value)",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "M2-APZ 1"
+      }
+    },
+    {
+      "district_code": "M2-CZ",
+      "district_name": "General Industry within airport zone CZ (layer value)",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "M2-CZ"
+      }
+    },
+    {
+      "district_code": "MIL",
+      "district_name": "Military Installation",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "MIL"
+      }
+    },
+    {
+      "district_code": "NB-C",
+      "district_name": "Navarre Beach Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-C"
+      }
+    },
+    {
+      "district_code": "NB-CON/REC",
+      "district_name": "Navarre Beach Conservation/Recreation",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-CON/REC"
+      }
+    },
+    {
+      "district_code": "NB-H",
+      "district_name": "Navarre Beach Hotel",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-H"
+      }
+    },
+    {
+      "district_code": "NB-HD",
+      "district_name": "Navarre Beach High Density",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-HD"
+      }
+    },
+    {
+      "district_code": "NB-MD",
+      "district_name": "Navarre Beach Medium Density",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-MD"
+      }
+    },
+    {
+      "district_code": "NB-MHD",
+      "district_name": "Navarre Beach Medium High Density",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-MHD"
+      }
+    },
+    {
+      "district_code": "NB-PMUD",
+      "district_name": "Navarre Beach Planned Mixed Use Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-PMUD"
+      }
+    },
+    {
+      "district_code": "NB-SF",
+      "district_name": "Navarre Beach Single Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-SF"
+      }
+    },
+    {
+      "district_code": "NB-U",
+      "district_name": "Navarre Beach Utilities",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NB-U"
+      }
+    },
+    {
+      "district_code": "NC",
+      "district_name": "Neighborhood Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NC"
+      }
+    },
+    {
+      "district_code": "NC APZ1",
+      "district_name": "Neighborhood Commercial within airport zone APZ1 (layer value)",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "NC APZ1"
+      }
+    },
+    {
+      "district_code": "P1",
+      "district_name": "Passive Park",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "P1"
+      }
+    },
+    {
+      "district_code": "P2",
+      "district_name": "Active Park",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "P2"
+      }
+    },
+    {
+      "district_code": "P2-APZ 1",
+      "district_name": "Active Park within airport zone APZ 1 (layer value)",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "P2-APZ 1"
+      }
+    },
+    {
+      "district_code": "P2-APZ 2",
+      "district_name": "Active Park within airport zone APZ 2 (layer value)",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "P2-APZ 2"
+      }
+    },
+    {
+      "district_code": "PBD",
+      "district_name": "Planned Business District",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "PBD"
+      }
+    },
+    {
+      "district_code": "PIT 1",
+      "district_name": "Borrow Pit and Land Clearing Debris Disposal Facilities",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "PIT 1"
+      }
+    },
+    {
+      "district_code": "PIT 2",
+      "district_name": "Construction and Demolition Debris Facilities",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "PIT 2"
+      }
+    },
+    {
+      "district_code": "PUD",
+      "district_name": "Planned Unit Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "PUD"
+      }
+    },
+    {
+      "district_code": "R1",
+      "district_name": "Single Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R1"
+      }
+    },
+    {
+      "district_code": "R1-APZ 1",
+      "district_name": "Single Family within airport zone APZ 1 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R1-APZ 1"
+      }
+    },
+    {
+      "district_code": "R1-APZ 2",
+      "district_name": "Single Family within airport zone APZ 2 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R1-APZ 2"
+      }
+    },
+    {
+      "district_code": "R1-CZ",
+      "district_name": "Single Family within airport zone CZ (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R1-CZ"
+      }
+    },
+    {
+      "district_code": "R1A",
+      "district_name": "Single Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R1A"
+      }
+    },
+    {
+      "district_code": "R1M",
+      "district_name": "Mixed Residential Subdivision",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R1M"
+      }
+    },
+    {
+      "district_code": "R1M-APZ 1",
+      "district_name": "Mixed Residential Subdivision within airport zone APZ 1 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R1M-APZ 1"
+      }
+    },
+    {
+      "district_code": "R1M-APZ 2",
+      "district_name": "Mixed Residential Subdivision within airport zone APZ 2 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R1M-APZ 2"
+      }
+    },
+    {
+      "district_code": "R2",
+      "district_name": "Medium Density",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R2"
+      }
+    },
+    {
+      "district_code": "R2 APZ1",
+      "district_name": "Medium Density within airport zone APZ1 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R2 APZ1"
+      }
+    },
+    {
+      "district_code": "R2M",
+      "district_name": "Medium Density Mixed",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R2M"
+      }
+    },
+    {
+      "district_code": "R2M-APZ 2",
+      "district_name": "Medium Density Mixed within airport zone APZ 2 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R2M-APZ 2"
+      }
+    },
+    {
+      "district_code": "R3",
+      "district_name": "Medium High Density",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R3"
+      }
+    },
+    {
+      "district_code": "R3 APZ3",
+      "district_name": "Medium High Density within airport zone APZ3 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R3 APZ3"
+      }
+    },
+    {
+      "district_code": "R3-APZ1",
+      "district_name": "Medium High Density within airport zone APZ1 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "R3-APZ1"
+      }
+    },
+    {
+      "district_code": "RR1",
+      "district_name": "Rural Residential Single Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "RR1"
+      }
+    },
+    {
+      "district_code": "RR1-APZ 1",
+      "district_name": "Rural Residential Single Family within airport zone APZ 1 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "RR1-APZ 1"
+      }
+    },
+    {
+      "district_code": "RR1-APZ 2",
+      "district_name": "Rural Residential Single Family within airport zone APZ 2 (layer value)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "RR1-APZ 2"
+      }
+    },
+    {
+      "district_code": "STATE",
+      "district_name": "State Lands",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "STATE"
+      }
+    },
+    {
+      "district_code": "TC1",
+      "district_name": "Town Center Core",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+        "field": "DISTRICT",
+        "value": "TC1"
+      }
+    }
+  ]
+}
