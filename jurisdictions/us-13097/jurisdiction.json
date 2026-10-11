@@ -11,6 +11,26 @@
     "us-13097-udc",
     "us-13097-gis-zoning"
   ],
+  "table_key": [
+    {
+      "symbol": "P",
+      "status": "permitted",
+      "quote": "P Use is Allowed by Right in the District Indicated",
+      "section": "Table 2.2"
+    },
+    {
+      "symbol": "S",
+      "status": "conditional",
+      "quote": "S Use Requires Special Use Approval",
+      "section": "Table 2.2"
+    },
+    {
+      "symbol": "",
+      "status": "prohibited",
+      "quote": "Use is not Allowed if no symbol appears",
+      "section": "Table 2.2"
+    }
+  ],
   "districts": [
     {
       "district_code": "AG",
