@@ -1086,60 +1086,6 @@
   },
   {
     "jurisdiction_id": "us-51107",
-    "district_code": "C1",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "G. Uses Not Defined.",
-      "section": "3.01.G"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, greater than 600kWh in nameplate capacity.",
-        "section": "Chapter 12",
-        "reason": "Describes energy storage devices, not generation, and no use table has a C1 column."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, less than or equal to 600kWh in nameplate capacity.",
-        "section": "Chapter 12",
-        "reason": "Describes energy storage devices, not generation, and no use table has a C1 column."
-      }
-    ],
-    "notes": "The district code C1 does not appear in the code's district list or in any use table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
     "district_code": "CCCC",
     "use_class": "datacenter",
     "status": "prohibited",

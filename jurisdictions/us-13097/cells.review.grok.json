@@ -1442,222 +1442,6 @@
     },
     {
       "jurisdiction_id": "us-13097",
-      "district_code": "PUD",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "conditional",
-      "local_uses": [
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "The PUD district is intended to permit the planning and development of parcels of land that are suitable in location and character for the uses proposed as unified and integrated developments in accordance with detailed development plans.",
-        "section": "207 (h)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "conditional",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Table 2.2 has no PUD column. The OI, PRD, and PSP cells for Chemical Manufacturing: Pharmaceutical and Medicine are blank. Sec. 207(h) allows uses, including industrial development concepts not otherwise allowed in non-PUD districts, only through a detailed development plan. That approval is discretionary.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PUD",
-      "use_class": "utility_generation",
-      "status": "conditional",
-      "local_uses": [
-        "Electric Power Generation"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "The PUD district is intended to permit the planning and development of parcels of land that are suitable in location and character for the uses proposed as unified and integrated developments in accordance with detailed development plans.",
-        "section": "207 (h)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "conditional",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Table 2.2 has no PUD column. Electric Power Generation is S only under PSP, LI, LI-R, HI, and O-HC. Sec. 207(h) allows development concepts not otherwise allowed in non-PUD districts only through the detailed development plan.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PUD",
-      "use_class": "battery_storage",
-      "status": "conditional",
-      "local_uses": [
-        "Battery Energy Storage Systems"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "The PUD district is intended to permit the planning and development of parcels of land that are suitable in location and character for the uses proposed as unified and integrated developments in accordance with detailed development plans.",
-        "section": "207 (h)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "conditional",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Table 2.2 has no PUD column. Battery Energy Storage Systems is not shown as allowed by right in PUD. Plan approval under Sec. 207(h) is discretionary.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PUD-C",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Chemical Manufacturing: Pharmaceutical and Medicine is a Table 2.2 principal use. PUD-C is not a column, and Sec. 207 does not establish PUD-C, so the use is not shown as allowed there. This is a listed use, not an unlisted class.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PUD-C",
-      "use_class": "utility_generation",
-      "status": "prohibited",
-      "local_uses": [
-        "Electric Power Generation"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Electric Power Generation is listed on Table 2.2 and is not shown as allowed in PUD-C. PUD-C is not a table column and is not described in Sec. 207.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PUD-C",
-      "use_class": "battery_storage",
-      "status": "prohibited",
-      "local_uses": [
-        "Battery Energy Storage Systems"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Battery Energy Storage Systems is listed on Table 2.2 and is not shown as allowed in PUD-C. PUD-C is not a table column and is not described in Sec. 207.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
       "district_code": "R-A",
       "use_class": "heavy_industrial_hazmat",
       "status": "prohibited",
@@ -2148,13 +1932,241 @@
   ],
   "matched_text_counts": {
     "column_header:raw": 44,
-    "quote:raw": 8,
+    "quote:raw": 2,
     "row_label:raw": 14,
     "row_label:table": 30,
-    "section:raw": 52,
+    "section:raw": 46,
     "symbol:table": 44
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PUD",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "conditional",
+        "local_uses": [
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "The PUD district is intended to permit the planning and development of parcels of land that are suitable in location and character for the uses proposed as unified and integrated developments in accordance with detailed development plans.",
+          "section": "207 (h)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Table 2.2 has no PUD column. The OI, PRD, and PSP cells for Chemical Manufacturing: Pharmaceutical and Medicine are blank. Sec. 207(h) allows uses, including industrial development concepts not otherwise allowed in non-PUD districts, only through a detailed development plan. That approval is discretionary."
+      },
+      "errors": [
+        "us-13097/PUD/heavy_industrial_hazmat: prose names the use: the quote names no taxonomy term of heavy_industrial_hazmat; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PUD",
+        "use_class": "utility_generation",
+        "status": "conditional",
+        "local_uses": [
+          "Electric Power Generation"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "The PUD district is intended to permit the planning and development of parcels of land that are suitable in location and character for the uses proposed as unified and integrated developments in accordance with detailed development plans.",
+          "section": "207 (h)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Table 2.2 has no PUD column. Electric Power Generation is S only under PSP, LI, LI-R, HI, and O-HC. Sec. 207(h) allows development concepts not otherwise allowed in non-PUD districts only through the detailed development plan."
+      },
+      "errors": [
+        "us-13097/PUD/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PUD",
+        "use_class": "battery_storage",
+        "status": "conditional",
+        "local_uses": [
+          "Battery Energy Storage Systems"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "The PUD district is intended to permit the planning and development of parcels of land that are suitable in location and character for the uses proposed as unified and integrated developments in accordance with detailed development plans.",
+          "section": "207 (h)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Table 2.2 has no PUD column. Battery Energy Storage Systems is not shown as allowed by right in PUD. Plan approval under Sec. 207(h) is discretionary."
+      },
+      "errors": [
+        "us-13097/PUD/battery_storage: prose names the use: the quote names no taxonomy term of battery_storage; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PUD-C",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Chemical Manufacturing: Pharmaceutical and Medicine is a Table 2.2 principal use. PUD-C is not a column, and Sec. 207 does not establish PUD-C, so the use is not shown as allowed there. This is a listed use, not an unlisted class."
+      },
+      "errors": [
+        "us-13097/PUD-C/heavy_industrial_hazmat: prose names the use: the quote names no taxonomy term of heavy_industrial_hazmat; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PUD-C",
+        "use_class": "utility_generation",
+        "status": "prohibited",
+        "local_uses": [
+          "Electric Power Generation"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Electric Power Generation is listed on Table 2.2 and is not shown as allowed in PUD-C. PUD-C is not a table column and is not described in Sec. 207."
+      },
+      "errors": [
+        "us-13097/PUD-C/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PUD-C",
+        "use_class": "battery_storage",
+        "status": "prohibited",
+        "local_uses": [
+          "Battery Energy Storage Systems"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Battery Energy Storage Systems is listed on Table 2.2 and is not shown as allowed in PUD-C. PUD-C is not a table column and is not described in Sec. 207."
+      },
+      "errors": [
+        "us-13097/PUD-C/battery_storage: prose names the use: the quote names no taxonomy term of battery_storage; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-13097",
@@ -2195,7 +2207,8 @@
         "notes": "Warehouse and Truck Terminal are defined as storage and distribution uses. No Table 2.2 row for those names shows a symbol under HI. Section 338 mini-warehouses and warehouse clubs are excluded from the class. Postal bulk-mailing distribution centers are a parking line, not this class."
       },
       "errors": [
-        "us-13097/HI/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'hi'; cite the table cell as table evidence, not prose"
+        "us-13097/HI/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-13097/HI/warehouse_distribution: ordinance grid: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'hi'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2239,7 +2252,8 @@
         "notes": "207 (m) says LI is for uses that need office and distribution facilities, but allowed principal uses are only those shown on Table 2.2. No Warehouse or Truck Terminal symbol is printed under LI."
       },
       "errors": [
-        "us-13097/LI/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'li'; cite the table cell as table evidence, not prose"
+        "us-13097/LI/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-13097/LI/warehouse_distribution: ordinance grid: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'li'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2283,7 +2297,8 @@
         "notes": "No LI-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2, so Warehouse and Truck Terminal are not shown as allowed there."
       },
       "errors": [
-        "us-13097/LI-C/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'li'; cite the table cell as table evidence, not prose"
+        "us-13097/LI-C/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-13097/LI-C/warehouse_distribution: ordinance grid: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'li'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2327,7 +2342,8 @@
         "notes": "No Table 2.2 symbol under LI-R for Warehouse or Truck Terminal. The LI-R purpose names data storage and offices, not general warehousing or truck terminals."
       },
       "errors": [
-        "us-13097/LI-R/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'lir'; cite the table cell as table evidence, not prose"
+        "us-13097/LI-R/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-13097/LI-R/warehouse_distribution: ordinance grid: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'lir'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2371,7 +2387,8 @@
         "notes": "No LI-R-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2."
       },
       "errors": [
-        "us-13097/LI-R-C/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'lir'; cite the table cell as table evidence, not prose"
+        "us-13097/LI-R-C/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-13097/LI-R-C/warehouse_distribution: ordinance grid: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'lir'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2410,7 +2427,7 @@
         "notes": "Sec. 210(d)(3) states uses and manufacturing processes specifically prohibited in all zoning districts are listed in Division IV of Article 3. Item (6) is that chemical-manufacturing ban. The carved-out row Chemical Manufacturing: Pharmaceutical and Medicine is ** under HI, which is less restrictive: permitted only in an existing structure with no expansion, otherwise a special use permit. Most restrictive status is prohibited."
       },
       "errors": [
-        "us-13097/HI/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'hi'; cite the table cell as table evidence, not prose"
+        "us-13097/HI/heavy_industrial_hazmat: ordinance grid: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'hi'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2449,7 +2466,7 @@
         "notes": "Countywide chemical-manufacturing ban, with pharmaceutical and medicine manufacturing separately marked ** under LI on Table 2.2. Most restrictive status is prohibited."
       },
       "errors": [
-        "us-13097/LI/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'li'; cite the table cell as table evidence, not prose"
+        "us-13097/LI/heavy_industrial_hazmat: ordinance grid: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'li'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2488,7 +2505,7 @@
         "notes": "The chemical-manufacturing ban is countywide. LI-C is not a Table 2.2 column. Pharmaceutical manufacturing is not given a symbol for LI-C."
       },
       "errors": [
-        "us-13097/LI-C/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'li'; cite the table cell as table evidence, not prose"
+        "us-13097/LI-C/heavy_industrial_hazmat: ordinance grid: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'li'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2527,7 +2544,7 @@
         "notes": "Countywide chemical-manufacturing ban. Pharmaceutical and medicine manufacturing is ** under LI-R, which is less restrictive than prohibited."
       },
       "errors": [
-        "us-13097/LI-R/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'lir'; cite the table cell as table evidence, not prose"
+        "us-13097/LI-R/heavy_industrial_hazmat: ordinance grid: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'lir'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -2566,7 +2583,7 @@
         "notes": "The chemical-manufacturing ban is countywide. LI-R-C is not a Table 2.2 column."
       },
       "errors": [
-        "us-13097/LI-R-C/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'lir'; cite the table cell as table evidence, not prose"
+        "us-13097/LI-R-C/heavy_industrial_hazmat: ordinance grid: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'lir'; cite the table cell as table evidence, not prose"
       ],
       "run_id": "regate-us-13097-061abe2e145fef95"
     },
@@ -10056,11 +10073,23 @@
     ],
     [
       "PUD",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "PUD",
       "lp_gas"
     ],
     [
       "PUD",
       "cannabis_cultivation_processing"
+    ],
+    [
+      "PUD",
+      "utility_generation"
+    ],
+    [
+      "PUD",
+      "battery_storage"
     ],
     [
       "PUD-C",
@@ -10072,11 +10101,23 @@
     ],
     [
       "PUD-C",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "PUD-C",
       "lp_gas"
     ],
     [
       "PUD-C",
       "cannabis_cultivation_processing"
+    ],
+    [
+      "PUD-C",
+      "utility_generation"
+    ],
+    [
+      "PUD-C",
+      "battery_storage"
     ],
     [
       "R-A",

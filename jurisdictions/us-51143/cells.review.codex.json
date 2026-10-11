@@ -487,41 +487,6 @@
     {
       "jurisdiction_id": "us-51143",
       "district_code": "M-2",
-      "use_class": "warehouse_distribution",
-      "status": "permitted",
-      "local_uses": [
-        "warehousing operations"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "This district is established to provide locations for larger scale manufacturing, processing, and warehousing operations which may require extensive community facilities and access to transportation facilities have open storage and service areas and generate heavy truck traffic.",
-        "section": "SEC. 35-401"
-      },
-      "source": {
-        "id": "us-51143-zo-ch35",
-        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "codex",
-          "ref": "review-codex-us-51143-20261011T005609Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51143",
-      "district_code": "M-2",
       "use_class": "lp_gas",
       "status": "unlisted",
       "local_uses": [],
@@ -1073,118 +1038,161 @@
         "section": "raw",
         "quote": "raw"
       }
-    },
-    {
-      "jurisdiction_id": "us-51143",
-      "district_code": "RC-1",
-      "use_class": "utility_generation",
-      "status": "conditional",
-      "local_uses": [
-        "Public utilities (substations, power generation, water and sewer treatment plants)"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "• Public utilities (substations, power generation, water and sewer treatment plants)",
-        "section": "SEC. 35-268."
-      },
-      "source": {
-        "id": "us-51143-zo-ch35",
-        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "conditional",
-          "by": "codex",
-          "ref": "review-codex-us-51143-20261011T005609Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51143",
-      "district_code": "RE",
-      "use_class": "utility_generation",
-      "status": "conditional",
-      "local_uses": [
-        "Power generation"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "• Power generation",
-        "section": "SEC. 35-193."
-      },
-      "source": {
-        "id": "us-51143-zo-ch35",
-        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "conditional",
-          "by": "codex",
-          "ref": "review-codex-us-51143-20261011T005609Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51143",
-      "district_code": "RPD",
-      "use_class": "utility_generation",
-      "status": "conditional",
-      "local_uses": [
-        "Public utilities (including substations, power generation)"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "• Public utilities (including substations, power generation)",
-        "section": "SEC. 35-295."
-      },
-      "source": {
-        "id": "us-51143-zo-ch35",
-        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "conditional",
-          "by": "codex",
-          "ref": "review-codex-us-51143-20261011T005609Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
     }
   ],
   "matched_text_counts": {
-    "quote:raw": 32,
-    "section:raw": 32
+    "quote:raw": 28,
+    "section:raw": 28
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-2",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "warehousing operations"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "This district is established to provide locations for larger scale manufacturing, processing, and warehousing operations which may require extensive community facilities and access to transportation facilities have open storage and service areas and generate heavy truck traffic.",
+          "section": "SEC. 35-401"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-2/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-51143-956bce1f15db8cdb"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RC-1",
+        "use_class": "utility_generation",
+        "status": "conditional",
+        "local_uses": [
+          "Public utilities (substations, power generation, water and sewer treatment plants)"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "• Public utilities (substations, power generation, water and sewer treatment plants)",
+          "section": "SEC. 35-268."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RC-1/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-51143-956bce1f15db8cdb"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RE",
+        "use_class": "utility_generation",
+        "status": "conditional",
+        "local_uses": [
+          "Power generation"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "• Power generation",
+          "section": "SEC. 35-193."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RE/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-51143-956bce1f15db8cdb"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RPD",
+        "use_class": "utility_generation",
+        "status": "conditional",
+        "local_uses": [
+          "Public utilities (including substations, power generation)"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "• Public utilities (including substations, power generation)",
+          "section": "SEC. 35-295."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RPD/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-51143-956bce1f15db8cdb"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-51143",
@@ -3087,7 +3095,8 @@
         }
       },
       "errors": [
-        "us-51143/M-SVMS/warehouse_distribution: quote not found in source"
+        "us-51143/M-SVMS/warehouse_distribution: quote not found in source",
+        "us-51143/M-SVMS/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text"
       ],
       "run_id": "regate-us-51143-956bce1f15db8cdb"
     },
@@ -3128,7 +3137,8 @@
         }
       },
       "errors": [
-        "us-51143/M-SVMS/heavy_industrial_hazmat: quote not found in source"
+        "us-51143/M-SVMS/heavy_industrial_hazmat: quote not found in source",
+        "us-51143/M-SVMS/heavy_industrial_hazmat: prose names the use: the quote names no taxonomy term of heavy_industrial_hazmat; a listed status needs the use's own text"
       ],
       "run_id": "regate-us-51143-956bce1f15db8cdb"
     },
@@ -3429,7 +3439,8 @@
         ]
       },
       "errors": [
-        "us-51143/MHP/utility_generation: quote not found in source"
+        "us-51143/MHP/utility_generation: quote not found in source",
+        "us-51143/MHP/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
       ],
       "run_id": "regate-us-51143-956bce1f15db8cdb"
     },
@@ -3650,7 +3661,8 @@
         ]
       },
       "errors": [
-        "us-51143/R-1/utility_generation: quote not found in source"
+        "us-51143/R-1/utility_generation: quote not found in source",
+        "us-51143/R-1/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
       ],
       "run_id": "regate-us-51143-956bce1f15db8cdb"
     },
@@ -4371,7 +4383,8 @@
         ]
       },
       "errors": [
-        "us-51143/RMF/utility_generation: section not found in source"
+        "us-51143/RMF/utility_generation: section not found in source",
+        "us-51143/RMF/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
       ],
       "run_id": "regate-us-51143-956bce1f15db8cdb"
     },
@@ -4691,6 +4704,10 @@
     ],
     [
       "M-2",
+      "warehouse_distribution"
+    ],
+    [
+      "M-2",
       "heavy_industrial_hazmat"
     ],
     [
@@ -4779,6 +4796,10 @@
     ],
     [
       "RC-1",
+      "utility_generation"
+    ],
+    [
+      "RC-1",
       "battery_storage"
     ],
     [
@@ -4792,6 +4813,10 @@
     [
       "RE",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "RE",
+      "utility_generation"
     ],
     [
       "RE",
@@ -4828,6 +4853,10 @@
     [
       "RPD",
       "heavy_industrial_hazmat"
+    ],
+    [
+      "RPD",
+      "utility_generation"
     ],
     [
       "RPD",
