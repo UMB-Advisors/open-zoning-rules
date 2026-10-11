@@ -2,6 +2,8 @@
 
 `z0_audit_sheet.v0.1.0.csv` holds 60 published cells for a blind human check. They were drawn by `python -m ozr audit` with seed `20261011` (`pipeline/ozr/audit.py`): 15 cells per status, spread round-robin across the five extracted jurisdictions. The sheet is frozen. Do not redraw it or edit any column except `human_status` and `human_notes`.
 
+**Use `z0_audit_sheet.v0.2.0.csv`.** The Z0.8 gate fixes withheld 17 of the v0.1.0 cells, so a new sheet was drawn from the new published set with the same sampler and seed. Both files are frozen; label only v0.2.0.
+
 ## Label from the source first
 
 **Before you look at anything else, label every row from the source document.** Do not open `cells.json`, `cells.extracted.json`, `cells.review.*.json`, the release, `reports/accuracy.json`, the reports in `docs/`, or the pull requests until all 60 rows are labelled. The audit measures how often the models agree with a person reading the law, and it only works if that person has not seen their answers.
