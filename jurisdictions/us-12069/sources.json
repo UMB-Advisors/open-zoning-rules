@@ -5,14 +5,15 @@
       "jurisdiction_id": "us-12069",
       "kind": "ordinance",
       "url": "https://c.lakecountyfl.gov/offices/planning_and_zoning/",
-      "fetched_at": "2026-10-10T06:43:25Z",
+      "fetched_at": "2026-10-11T14:30:28Z",
       "source_date": "unknown",
-      "sha256": "af192d8a4b4e4affe2c0e283dcc3129ae23b4583405f595063e2a9db724db1c9",
+      "sha256": "5943f38b1286a989cfcb609b0e9ca9732421c0f403c170a9e4a243df5adf938b",
       "licence_terms": {
         "text": "Enacted local law and public record; publisher terms are not stated on the page."
       },
       "redistribute_geometry": "unknown",
-      "triage": "analyst_fetch"
+      "triage": "analyst_fetch",
+      "fetch_method": "single analyst request with the project user agent"
     },
     {
       "source_id": "us-12069-ord-2026-xx-draft",
