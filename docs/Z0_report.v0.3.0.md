@@ -190,6 +190,5 @@ The total spent on the first five, including superseded and mutation runs, was $
    - The Warrenton taxonomy question: a use the code defines but lists in no district.
    - The `lp_gas` reviewer disagreement in Fauquier.
    - A `taxonomy/v1.json` patch for the text that says only reviewers check symbols.
-   - `regate` run ids that are still wall-clock based.
 5. **The four analyst-fetch jurisdictions.** Without them, the Z0 exit (10 jurisdictions) and the listed-status minimum counts cannot be met.
 6. **Review and merge of the stack (#1 to #11).** After that come the tag `v0.1.0` and a GitHub release carrying the data files, recorded as proof. None of these has been done.
