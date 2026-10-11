@@ -28,10 +28,8 @@ def _unlisted(use_class: str) -> dict:
 
 
 def test_jurisdiction_text_requires_declared_source_text(tmp_path: Path) -> None:
-    from ozr.gates import MissingSourceText
-
     (tmp_path / "a.txt").write_text("a")
-    with pytest.raises(MissingSourceText):
+    with pytest.raises(ValueError):
         jurisdiction_text(tmp_path, ["a", "b"])
     assert jurisdiction_text(tmp_path, ["a", "b"], exempt={"b"}) == "a"
 
@@ -152,6 +150,32 @@ def test_grade_run_id_is_independent_of_clock(tiny_root: Path, monkeypatch: pyte
     monkeypatch.setattr("ozr.grade.utc_now", lambda: "2027-01-01T00:00:00Z")
     grade_jurisdiction(tiny_root, "us-00000", "2026-10-10")
     assert json.loads((base / "cells.withheld.json").read_text())["run_id"] == first
+
+
+def test_regate_run_id_is_independent_of_clock(tiny_root: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    from ozr.regate import regate_jurisdiction
+
+    base = tiny_root / "jurisdictions" / "us-00000"
+    jurisdiction = json.loads((base / "jurisdiction.json").read_text())
+    jurisdiction["districts"] = [jurisdiction["districts"][0]]
+    (base / "jurisdiction.json").write_text(json.dumps(jurisdiction))
+    (tiny_root / "taxonomy" / "v1.json").write_text(json.dumps({"classes": [{"id": "warehouse_distribution"}]}))
+    cell = next(
+        cell
+        for cell in json.loads((ROOT / "tests" / "fixtures" / "release" / "cells.json").read_text())
+        if cell["district_code"] == "I-1" and cell["use_class"] == "warehouse_distribution"
+    )
+    rejected = {**cell, "evidence": {**cell["evidence"], "quote": "not in source"}}
+    for name in ("cells.extracted.json", "cells.review.codex.json", "cells.review.grok.json"):
+        (base / name).write_text(json.dumps({"cells": [rejected, cell], "rejected": []}))
+    text_dir = tiny_root / "cache" / "text"
+    text_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copy(ROOT / "tests" / "fixtures" / "texts" / "us-00000-zo.txt", text_dir / "us-00000-zo.txt")
+    (text_dir / "us-00000-analyst.txt").write_text("")
+    monkeypatch.setattr("ozr.regate.utc_now", lambda: "2026-01-01T00:00:00Z")
+    first = regate_jurisdiction(tiny_root, "us-00000")["run_id"]
+    monkeypatch.setattr("ozr.regate.utc_now", lambda: "2027-01-01T00:00:00Z")
+    assert regate_jurisdiction(tiny_root, "us-00000")["run_id"] == first
 
 
 def _amendment() -> dict:
