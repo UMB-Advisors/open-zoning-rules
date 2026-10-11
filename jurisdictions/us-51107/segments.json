@@ -5,24 +5,28 @@
       "source_id": "us-51107-zo-ch3",
       "sha256": "f7951d80b9940516ca0502289adac1bfdb80ccf2c61759437f7135143c14b969",
       "pages": 45,
-      "text_sha256": "fe0832ca1aa431cba88c19f8663b8f502c9a3ebc7c89716eb9cd77cf84d4635f"
+      "tables": 37,
+      "text_sha256": "d331c9fb61aeafe05f4cbc477cd65beed9007c2c7a5151a7948d64a8b251c3da"
     },
     {
       "source_id": "us-51107-zo-ch12",
       "sha256": "5d446525f59902769d637ee1ea2a3f1bf3de97436c2f60e63e76d56183cc6f78",
       "pages": 60,
-      "text_sha256": "3bb266fc6cacb7a70df1d60bd041d48c54cfcc67ae92e42be2b32be14c8816bf"
+      "tables": 4,
+      "text_sha256": "7b8045803043e354d219c031b93ef836f3cd45d6658f2128b43c9695b8805453"
     },
     {
       "source_id": "us-51107-zo-faq",
       "sha256": "388547f05884a5c68257470244272abd907135f88ac7ac96dce0d6ac12aeec3a",
       "pages": 1,
+      "tables": 0,
       "text_sha256": "46064d4785bd680a256a99a57219fe06eabcfdefe85cc3cfbda24fd4ce26234c"
     },
     {
       "source_id": "us-51107-dc-phase1",
       "sha256": "5515e1538ae8884fdce938f565e55036b130fe05e4d07520cff2e4c7f2ed79ee",
       "pages": 1,
+      "tables": 0,
       "text_sha256": "ddc1728de5507348bda8c52e25c20644c4830b3c3500033be74bd8eedd13b7cd"
     }
   ],
@@ -70,7 +74,7 @@
         37
       ],
       "text": "segments/us-51107/use_table-us-51107-zo-ch3.txt",
-      "text_sha256": "c1a3a64f5c7fac234ebcc647c7d2c5b36c12f6e8f103cc23eafcb36d5fcca3f4",
+      "text_sha256": "fc4feac0ebe6e2a9ee5337a9e91acf839c6aa4a0bdc42d1d2602922fd76fcc29",
       "images": [
         {
           "page": 1,

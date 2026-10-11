@@ -5,24 +5,28 @@
       "source_id": "us-5183136-zo-page",
       "sha256": "ab5e1263fff9bddd573a90738286faeb7f0a3cef02c29993e44a427c9b5863f1",
       "pages": 1,
+      "tables": 0,
       "text_sha256": "e5132bdb845bf1b605b59077dc78fae418ead736978e80ca700d532ef8854f53"
     },
     {
       "source_id": "us-5183136-zo-art2",
       "sha256": "308d2bab624778d10f54a40fcbd3fea6af98a8e15d9d75db864ae787fe0eb71b",
       "pages": 14,
+      "tables": 0,
       "text_sha256": "862a1c40fc7833b1dc946957092d8f13ad95582bb4799fef709840ba0b18c6aa"
     },
     {
       "source_id": "us-5183136-zo-art3",
       "sha256": "d386e3256d7303484af22f871b2d1ff02807a7e534271c922853eca50469badb",
       "pages": 73,
-      "text_sha256": "897995ca344bdfdca0050f2410211d56c6a15a71ff333d5759a1d0e9e645e089"
+      "tables": 4,
+      "text_sha256": "428d20e1f78c119499cb04efe773051ce608aea0b6ed38e343d0c7a6e2accd01"
     },
     {
       "source_id": "us-5183136-zo-art12",
       "sha256": "4293490ee6484280e099046b2649a18c2438669f2f57758b1f2bd1eb0f8811a9",
       "pages": 43,
+      "tables": 0,
       "text_sha256": "f5c7494f8b3bfdfd8e725231546ec6f79f60175638b0b67c994afd7417e821f3"
     }
   ],
@@ -139,7 +143,7 @@
         51
       ],
       "text": "segments/us-5183136/use_table-us-5183136-zo-art3.txt",
-      "text_sha256": "b28140c8188d3003035dced84fd661e5425764d3a604f82dc8bb6f9d157962e5",
+      "text_sha256": "5d92c199200157d198e4869d3a2d4415df52db3e13ef086142cd6087aa2f40a3",
       "images": [
         {
           "page": 3,

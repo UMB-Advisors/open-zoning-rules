@@ -5,7 +5,8 @@
       "source_id": "us-51143-zo-ch35",
       "sha256": "3d6e44bfc8eb8112b8b7fdc62ff97d7174de7b34b0dc4db276f8130e8d96ebab",
       "pages": 211,
-      "text_sha256": "d84f561246b7b0a0df0f2f7c1f97e664292dc6f798d34dce8b0328242b4228ad"
+      "tables": 5,
+      "text_sha256": "95729ae6a32ea6cbf69c45e6e45383bb447273a1d7c1e65adb7923fb944caae2"
     }
   ],
   "segments": [
@@ -67,7 +68,7 @@
         193
       ],
       "text": "segments/us-51143/use_table-us-51143-zo-ch35.txt",
-      "text_sha256": "c9affe1a0e8aaa122ffcd4427f9e59bc79913c20f521a9721ff225ab18a77fbe",
+      "text_sha256": "d1f752c58062709fa237bc319c35768f76596e568199722ce885b94b9a7a6c7d",
       "images": [
         {
           "page": 6,
