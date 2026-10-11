@@ -61,13 +61,6 @@
       "reason": "LI-R-C is LI-R zoned with conditions; the use table has a LI-R column only"
     },
     {
-      "district_code": "PUD-C",
-      "column_header": "PUD",
-      "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
-      "section": "Sec. 1210",
-      "reason": "PUD-C is PUD zoned with conditions; the use table has a PUD column only"
-    },
-    {
       "district_code": "R-A-C",
       "column_header": "R-A",
       "quote": "All zoning changes annotated with a suffix \"C\" after the district designation (i.e. C-N-C) denote that the parcel is zoned \"conditional\" under a previous zoning change approval.",
