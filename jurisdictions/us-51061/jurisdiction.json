@@ -3,11 +3,57 @@
   "name": "Fauquier County",
   "type": "county",
   "state": "VA",
-  "unlisted_rule": "unknown",
+  "unlisted_rule": "prohibited_by_default",
   "code_version": "unknown",
   "conditional_zoning_unmapped": true,
   "sources": [
+    "us-51061-zo-art3",
+    "us-51061-zo-art15",
+    "us-51061-zo-art2",
+    "us-51061-zo-art4",
+    "us-51061-zo-art5",
+    "us-51061-ta-2025-04-10",
+    "us-51061-ta-2026-02-12",
+    "us-51061-ta-2026-04-09",
+    "us-51061-ta-2026-05-14",
+    "us-51061-ta-2026-07-09",
     "us-51061-gis-zoning"
+  ],
+  "unlisted_rule_quote": {
+    "quote": "No use shall be allowed in any district which is not permitted by the regulations for the district.",
+    "section": "2-302"
+  },
+  "table_key": [
+    {
+      "symbol": "P",
+      "status": "permitted",
+      "quote": "P - Permitted Uses",
+      "section": "3-300"
+    },
+    {
+      "symbol": "SP",
+      "status": "conditional",
+      "quote": "SP - Special Permit Uses (Board)",
+      "section": "3-300"
+    },
+    {
+      "symbol": "SE",
+      "status": "conditional",
+      "quote": "SE - Special Exception Uses (Board)",
+      "section": "3-300"
+    },
+    {
+      "symbol": "A",
+      "status": "conditional",
+      "quote": "A - Administrative Special Permit Required",
+      "section": "3-300"
+    },
+    {
+      "symbol": "",
+      "status": "prohibited",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    }
   ],
   "districts": [
     {
