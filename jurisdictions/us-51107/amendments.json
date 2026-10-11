@@ -1,0 +1,27 @@
+[
+  {
+    "id": "us-51107-zoam-2024-0001",
+    "reference": "ZOAM-2024-0001",
+    "jurisdiction_id": "us-51107",
+    "kind": "adopted_text_amendment",
+    "status": "adopted",
+    "dates": {
+      "adopted": "2025-03-18"
+    },
+    "use_classes": [
+      "datacenter"
+    ],
+    "districts": [
+      "IP",
+      "GI",
+      "MRHI"
+    ],
+    "quote": "requiring Special Exception (SPEX) approval for data center uses in the Industrial Park (IP), General Industry (GI), and Mineral Resources-Heavy Industry (MR-HI) zoning districts",
+    "section": "ZOAM-2024-0001",
+    "source": {
+      "id": "us-51107-dc-phase1",
+      "url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta"
+    },
+    "notes": "The county's own ordinance PDFs (us-51107-zo-ch3 and -ch12, dated 2023-11-21) predate this amendment. The county page says applications accepted before 2025-02-12 are grandfathered; this record does not model that."
+  }
+]
