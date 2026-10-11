@@ -26,15 +26,18 @@ def _key(cell: dict) -> tuple[object, object, object]:
     return cell.get("jurisdiction_id"), cell.get("district_code"), cell.get("use_class")
 
 
-def _cells(path: Path) -> tuple[list[dict], int, int]:
+def _cells(path: Path) -> tuple[list[dict], int, int, list[dict]]:
     if not path.is_file():
-        return [], 0, 0
+        return [], 0, 0, []
     doc = read_json(path)
     if not isinstance(doc, dict):
-        return [], 0, 0
+        return [], 0, 0, []
     cells = [cell for cell in doc.get("cells", []) if isinstance(cell, dict)]
-    rejected = doc.get("rejected", [])
-    return cells, len(cells), len(rejected) if isinstance(rejected, list) else 0
+    rejected = doc.get("rejected", []) if isinstance(doc.get("rejected", []), list) else []
+    rejected_cells = [
+        entry["cell"] for entry in rejected if isinstance(entry, dict) and isinstance(entry.get("cell"), dict)
+    ]
+    return cells, len(cells), len(rejected), rejected_cells
 
 
 def _rate(numerator: int, denominator: int) -> float | None:
@@ -62,6 +65,8 @@ def _subset(rows: list[dict]) -> dict:
             "universe": len(rows),
             "gold": len(gold),
             "disputed": sum(row["disputed"] for row in rows),
+            "disputed_counting_rejected": sum(row["rejected_dissent"] for row in rows),
+            "disputed_counting_rejected_differing": sum(row["rejected_differing_dissent"] for row in rows),
             "reviewer_missing": sum(row["missing"] for row in rows),
         },
         "listed_agreement": _rate(sum(row["extractor"] == row["gold"] for row in listed), len(listed)),
@@ -71,6 +76,10 @@ def _subset(rows: list[dict]) -> dict:
             sum(row["extractor"] == "unlisted" for row in gold),
         ),
         "disputed_share": _rate(sum(row["disputed"] for row in rows), len(rows)),
+        "disputed_share_counting_rejected": _rate(sum(row["rejected_dissent"] for row in rows), len(rows)),
+        "disputed_share_counting_rejected_differing": _rate(
+            sum(row["rejected_differing_dissent"] for row in rows), len(rows)
+        ),
     }
 
 
@@ -153,6 +162,12 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
             for name in ("cells.extracted.json", "cells.review.codex.json", "cells.review.grok.json")
         ]
         indexes = [{_key(cell): cell for cell in document[0]} for document in documents]
+        rejected_indexes: list[dict[tuple[object, object, object], list[dict]]] = []
+        for document in documents:
+            rejected_index: dict[tuple[object, object, object], list[dict]] = {}
+            for cell in document[3]:
+                rejected_index.setdefault(_key(cell), []).append(cell)
+            rejected_indexes.append(rejected_index)
         for stage, document in zip(stages, documents, strict=True):
             stages[stage][0] += document[1]
             stages[stage][1] += document[2]
@@ -168,13 +183,29 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
                 c, g = indexes[1].get(key), indexes[2].get(key)
                 c_status, g_status = (c or {}).get("status"), (g or {}).get("status")
                 both = c_status in STATUSES and g_status in STATUSES
+                disputed = both and c_status != g_status
+                extractor = indexes[0].get(key)
+                extractor_status = (extractor or {}).get("status")
+                rejected_labels = [
+                    rejected_cell
+                    for accepted, rejected in zip(indexes[1:], rejected_indexes[1:], strict=True)
+                    if key not in accepted
+                    for rejected_cell in rejected.get(key, [])
+                ]
+                rejected_dissent = bool(rejected_labels)
+                rejected_differing_dissent = any(
+                    extractor is None or rejected_cell.get("status") != extractor_status
+                    for rejected_cell in rejected_labels
+                )
                 rows.append(
                     {
                         "jid": jid,
                         "family": district.get("family"),
-                        "extractor": (indexes[0].get(key) or {}).get("status"),
+                        "extractor": extractor_status,
                         "gold": c_status if both and c_status == g_status else None,
-                        "disputed": both and c_status != g_status,
+                        "disputed": disputed,
+                        "rejected_dissent": disputed or rejected_dissent,
+                        "rejected_differing_dissent": disputed or rejected_differing_dissent,
                         "missing": not both,
                         "pair": (c_status, g_status) if both else None,
                     }
