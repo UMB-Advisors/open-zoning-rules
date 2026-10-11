@@ -93,7 +93,7 @@ def regate_jurisdiction(root: Path, jid: str) -> dict:
             "rejected": rejected,
             "matched_text_counts": dict(sorted(counts.items())),
             "missing": missing,
-            "regate": {"run_id": run_id, "at": at},
+            "regate": {"run_id": run_id},
         }
         write_json(path, output)
         files[path.name] = {"cells": len(cells), "rejected": len(rejected)}

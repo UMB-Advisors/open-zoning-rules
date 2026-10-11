@@ -153,6 +153,7 @@ def test_grade_run_id_is_independent_of_clock(tiny_root: Path, monkeypatch: pyte
 
 
 def test_regate_run_id_is_independent_of_clock(tiny_root: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    from ozr.grade import grade_jurisdiction
     from ozr.regate import regate_jurisdiction
 
     base = tiny_root / "jurisdictions" / "us-00000"
@@ -174,8 +175,30 @@ def test_regate_run_id_is_independent_of_clock(tiny_root: Path, monkeypatch: pyt
     (text_dir / "us-00000-analyst.txt").write_text("")
     monkeypatch.setattr("ozr.regate.utc_now", lambda: "2026-01-01T00:00:00Z")
     first = regate_jurisdiction(tiny_root, "us-00000")["run_id"]
+    monkeypatch.setattr("ozr.grade.utc_now", lambda: "2026-01-02T00:00:00Z")
+    grade_jurisdiction(tiny_root, "us-00000", "2026-10-10")
+    first_outputs = {
+        name: (base / name).read_bytes()
+        for name in (
+            "cells.extracted.json",
+            "cells.review.codex.json",
+            "cells.review.grok.json",
+            "cells.withheld.json",
+        )
+    }
     monkeypatch.setattr("ozr.regate.utc_now", lambda: "2027-01-01T00:00:00Z")
     assert regate_jurisdiction(tiny_root, "us-00000")["run_id"] == first
+    monkeypatch.setattr("ozr.grade.utc_now", lambda: "2027-01-02T00:00:00Z")
+    grade_jurisdiction(tiny_root, "us-00000", "2026-10-10")
+    assert {
+        name: (base / name).read_bytes()
+        for name in (
+            "cells.extracted.json",
+            "cells.review.codex.json",
+            "cells.review.grok.json",
+            "cells.withheld.json",
+        )
+    } == first_outputs
 
 
 def _amendment() -> dict:
