@@ -6,7 +6,7 @@
       "sha256": "f7951d80b9940516ca0502289adac1bfdb80ccf2c61759437f7135143c14b969",
       "pages": 45,
       "tables": 37,
-      "text_sha256": "d331c9fb61aeafe05f4cbc477cd65beed9007c2c7a5151a7948d64a8b251c3da"
+      "text_sha256": "1b6afc40fc01c8666b4e8ff069b7c9930b7b2bed31ef9b38ceeecc34bc9d83bc"
     },
     {
       "source_id": "us-51107-zo-ch12",
@@ -74,7 +74,7 @@
         37
       ],
       "text": "segments/us-51107/use_table-us-51107-zo-ch3.txt",
-      "text_sha256": "fc4feac0ebe6e2a9ee5337a9e91acf839c6aa4a0bdc42d1d2602922fd76fcc29",
+      "text_sha256": "ed80bff1a2e8a4015458ea66dc30022b23e377fe2a868cf82637fb622506eed6",
       "images": [
         {
           "page": 1,

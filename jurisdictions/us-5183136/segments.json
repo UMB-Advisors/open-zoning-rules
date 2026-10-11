@@ -20,7 +20,7 @@
       "sha256": "d386e3256d7303484af22f871b2d1ff02807a7e534271c922853eca50469badb",
       "pages": 73,
       "tables": 4,
-      "text_sha256": "428d20e1f78c119499cb04efe773051ce608aea0b6ed38e343d0c7a6e2accd01"
+      "text_sha256": "010295fdf7dbe7afb9aa2747f11ddfc5bf59e7928e62f348d0756e53adc59806"
     },
     {
       "source_id": "us-5183136-zo-art12",
@@ -143,7 +143,7 @@
         51
       ],
       "text": "segments/us-5183136/use_table-us-5183136-zo-art3.txt",
-      "text_sha256": "5d92c199200157d198e4869d3a2d4415df52db3e13ef086142cd6087aa2f40a3",
+      "text_sha256": "1c85833cdb1370a4ff820c310d5d225d38f7a560187b016570e0e510f3c5a41b",
       "images": [
         {
           "page": 3,
