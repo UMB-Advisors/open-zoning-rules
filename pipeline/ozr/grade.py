@@ -8,7 +8,7 @@ from pathlib import Path
 
 from ozr.common import append_run, read_json, text_path, utc_now, write_json
 from ozr.contamination import load_denylist
-from ozr.gates import apply_grade_rules, cell_errors, jurisdiction_text
+from ozr.gates import apply_grade_rules, cell_errors, jurisdiction_text, ocr_only
 
 
 def _key(cell: dict) -> tuple[object, object, object]:
@@ -141,6 +141,8 @@ def grade_jurisdiction(root: Path, jid: str, today: str) -> dict:
                 if isinstance(source_id, str) and text_path(root, source_id).is_file()
                 else ""
             )
+            if ocr_only(cell, text):
+                cell["confidence"] = "C"
             errors = cell_errors(cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text)
             if errors:
                 withheld.append({"key": rendered, "gate": "grade", "reason": errors, "run_id": run_id})

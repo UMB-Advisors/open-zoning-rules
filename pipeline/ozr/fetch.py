@@ -75,6 +75,29 @@ def _cache_bytes(root: Path, data: bytes) -> str:
     return digest
 
 
+def _manual_fetch(root: Path, jid: str, source: dict, policy: object, denylist: frozenset[str]) -> dict:
+    """Import a verified analyst-supplied file without opening its source URL."""
+    source_id = str(source.get("source_id", ""))
+    digest = source.get("sha256")
+    if not isinstance(digest, str) or not digest:
+        return {"source_id": source_id, "status": "skipped", "reason": "analyst_fetch"}
+    manual = sorted((root / "cache" / "manual" / jid).glob(f"{digest}.*"))
+    if not manual:
+        return {"source_id": source_id, "status": "skipped", "reason": "analyst_fetch"}
+    errors: list[str] = []
+    for value in (source.get("url"), source.get("final_url")):
+        if isinstance(value, str):
+            errors.extend(policy_errors(value, policy, source.get("arcgis_org_id"), denylist))
+    if errors:
+        return {"source_id": source_id, "status": "refused", "errors": errors}
+    data = manual[0].read_bytes()
+    actual = hashlib.sha256(data).hexdigest()
+    if actual != digest:
+        return {"source_id": source_id, "status": "error", "error": f"sha256 mismatch: {actual}"}
+    _cache_bytes(root, data)
+    return {"source_id": source_id, "status": "imported"}
+
+
 def _fetch_source(
     root: Path,
     source: dict,
@@ -142,9 +165,8 @@ def fetch_jurisdiction(
     for source in document.get("sources", []):
         if not isinstance(source, dict):
             continue
-        source_id = str(source.get("source_id", ""))
         if source.get("triage") == "analyst_fetch":
-            results.append({"source_id": source_id, "status": "skipped", "reason": "analyst_fetch"})
+            results.append(_manual_fetch(root, jid, source, policy, denylist))
             continue
         url = source.get("url")
         initial_errors = (

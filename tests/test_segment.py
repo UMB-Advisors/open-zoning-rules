@@ -101,7 +101,7 @@ def test_wrapped_row_labels_are_rebuilt_from_table_rulings(tiny_root):
     manifest = segment_jurisdiction(tiny_root, "us-00000")
     text_path = tiny_root / "cache" / "text" / "us-00000-zo.txt"
     full_text = text_path.read_text()
-    raw, _table = text_layers(full_text)
+    raw, _table, _ocr = text_layers(full_text)
     assert canonical("Floating Solar Facility") not in canonical(raw)
     assert "Floating Solar Facility | P | P" in full_text
     assert "Wholesale Distribution, Warehousing and Storage |  | S" in full_text
