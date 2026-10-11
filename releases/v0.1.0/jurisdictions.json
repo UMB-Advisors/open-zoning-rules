@@ -270,6 +270,26 @@
       "us-13097-udc",
       "us-13097-gis-zoning"
     ],
+    "table_key": [
+      {
+        "symbol": "P",
+        "status": "permitted",
+        "quote": "P Use is Allowed by Right in the District Indicated",
+        "section": "Table 2.2"
+      },
+      {
+        "symbol": "S",
+        "status": "conditional",
+        "quote": "S Use Requires Special Use Approval",
+        "section": "Table 2.2"
+      },
+      {
+        "symbol": "",
+        "status": "prohibited",
+        "quote": "Use is not Allowed if no symbol appears",
+        "section": "Table 2.2"
+      }
+    ],
     "districts": [
       {
         "district_code": "AG",
@@ -566,6 +586,32 @@
       "us-51107-zo-faq",
       "us-51107-dc-phase1",
       "us-51107-gis-zoning"
+    ],
+    "table_key": [
+      {
+        "symbol": "P",
+        "status": "permitted",
+        "quote": "A “P” indicates that a specific Use is permitted in the zoning district",
+        "section": "Table 3.01-1"
+      },
+      {
+        "symbol": "S",
+        "status": "conditional",
+        "quote": "An “S” indicates that a Use may be allowed in the zoning district as a Special Exception",
+        "section": "Table 3.01-1"
+      },
+      {
+        "symbol": "M",
+        "status": "conditional",
+        "quote": "An “M” indicates that a Use may be permitted in the zoning district as a Minor Special Exception",
+        "section": "Table 3.01-1"
+      },
+      {
+        "symbol": "",
+        "status": "prohibited",
+        "quote": "A blank cell indicates that the use is not permitted in the district.",
+        "section": "Table 3.01-1"
+      }
     ],
     "districts": [
       {

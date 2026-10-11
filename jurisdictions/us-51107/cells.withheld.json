@@ -1,0 +1,927 @@
+{
+  "jurisdiction_id": "us-51107",
+  "run_id": "grade-us-51107-20261011T110856Z",
+  "withheld": [
+    {
+      "key": "us-51107/A10/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/A10/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/A3/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/A3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/AR1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/AR1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/AR2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/AR2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/C1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/C1/battery_storage: absence gate: 'battery' occurs 8 times in the code and 6 are not explained",
+        "us-51107/C1/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/C1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/C1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/C1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/C1/datacenter: absence gate: 'data center' occurs 30 times in the code and 29 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/C1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/C1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/C1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/C1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/C1/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-51107/C1/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CCCC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CCCC/battery_storage: definition quote not found in source"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CCCC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CCCC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CCNC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CCNC/battery_storage: definition quote not found in source"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CCNC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CCNC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CCSC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CCSC/battery_storage: definition quote not found in source"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CCSC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CCSC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CLI/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CLI/battery_storage: definition quote not found in source"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CLI/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CLI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CR1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CR1/battery_storage: definition quote not found in source"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CR1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CR1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CR2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CR2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CR3/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CR3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/CR4/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/CR4/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/GB/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/GB/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/GI/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/GI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/IP/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/IP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/JLMA1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/JLMA1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/JLMA2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/JLMA2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/JLMA20/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/JLMA20/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/JLMA3/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/JLMA3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/MRHI/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/MRHI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/OP/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/OP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDAAAR/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDAAAR/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDCCRC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDCCRC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDCH/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDCH/battery_storage: absence gate: 'battery' occurs 8 times in the code and 5 are not explained",
+        "us-51107/PDCH/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDCH/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDCH/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDCH/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDCH/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDCH/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDCH/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PDCH/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDCH/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-51107-20261011T110856Z"
+    },
+    {
+      "key": "us-51107/PDCH/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDCH/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDGI/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDGI/battery_storage: absence gate: 'battery' occurs 8 times in the code and 7 are not explained",
+        "us-51107/PDGI/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDGI/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDGI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDGI/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDGI/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDGI/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDGI/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDGI/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PDGI/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDGI/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-51107-20261011T110856Z"
+    },
+    {
+      "key": "us-51107/PDGI/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDGI/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDGI/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH3/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH3/battery_storage: absence gate: 'battery' occurs 8 times in the code and 7 are not explained",
+        "us-51107/PDH3/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH3/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH3/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH3/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDH3/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH3/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PDH3/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH3/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-51107-20261011T110856Z"
+    },
+    {
+      "key": "us-51107/PDH3/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH3/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDH3/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH4/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH4/battery_storage: absence gate: 'battery' occurs 8 times in the code and 7 are not explained",
+        "us-51107/PDH4/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH4/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH4/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH4/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH4/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDH4/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH4/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH4/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PDH4/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH4/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-51107-20261011T110856Z"
+    },
+    {
+      "key": "us-51107/PDH4/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH4/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDH4/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH6/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH6/battery_storage: absence gate: 'battery' occurs 8 times in the code and 7 are not explained",
+        "us-51107/PDH6/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH6/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH6/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH6/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH6/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDH6/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH6/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH6/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PDH6/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDH6/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-51107-20261011T110856Z"
+    },
+    {
+      "key": "us-51107/PDH6/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDH6/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDH6/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDIP/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDIP/battery_storage: absence gate: 'battery' occurs 8 times in the code and 7 are not explained",
+        "us-51107/PDIP/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDIP/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDIP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDIP/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDIP/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDIP/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDIP/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDIP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PDIP/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDIP/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-51107-20261011T110856Z"
+    },
+    {
+      "key": "us-51107/PDIP/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDIP/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDIP/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDMUB/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDMUB/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDMUB/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-51107-20261011T110856Z"
+    },
+    {
+      "key": "us-51107/PDOP/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDOP/battery_storage: absence gate: 'battery' occurs 8 times in the code and 7 are not explained",
+        "us-51107/PDOP/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDOP/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDOP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDOP/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDOP/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDOP/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDOP/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDOP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PDOP/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDOP/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDOP/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-51107/PDOP/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDRDP/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDRDP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDRV/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDRV/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDSA/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDSA/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDSC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDSC/battery_storage: absence gate: 'battery' occurs 8 times in the code and 7 are not explained",
+        "us-51107/PDSC/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDSC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDSC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDSC/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDSC/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDSC/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDSC/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PDSC/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PDSC/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PDSC/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PUD-1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PUD-1/battery_storage: absence gate: 'battery' occurs 8 times in the code and 7 are not explained",
+        "us-51107/PUD-1/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PUD-1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PUD-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PUD-1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PUD-1/datacenter: absence gate: 'data center' occurs 30 times in the code and 25 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PUD-1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PUD-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 2 times in the code and 2 are not explained",
+        "us-51107/PUD-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/PUD-1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/PUD-1/warehouse_distribution: absence gate: 'warehouse' occurs 11 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/R1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/R1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/R16/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/R16/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/R2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/R2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/R24/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/R24/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/R3/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/R3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/R4/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/R4/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/R8/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/R8/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/RC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/RC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/SCN16/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/SCN16/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/SCN24/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/SCN24/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/SCN8/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/SCN8/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TR10/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TR10/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TR1LF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TR1LF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TR1UBF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TR1UBF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TR2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TR2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TR3LBR/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TR3LBR/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TR3LF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TR3LF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TR3UBF/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TR3UBF/battery_storage: definition quote not found in source"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TR3UBF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TR3UBF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TRC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TRC/battery_storage: definition quote not found in source"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    },
+    {
+      "key": "us-51107/TRC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-51107/TRC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51107-20261011T102403Z"
+    }
+  ]
+}

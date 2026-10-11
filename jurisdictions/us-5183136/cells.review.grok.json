@@ -74,71 +74,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "C",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -162,47 +97,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "C",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -279,71 +173,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "CBD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "CBD",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -367,47 +196,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "CBD",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -484,71 +272,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "I",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "I",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -572,47 +295,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "I",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -689,71 +371,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "PSP",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PSP",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -777,47 +394,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PSP",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -894,71 +470,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "PUD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -982,47 +493,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1099,71 +569,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "Planned Residential Developmen",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Lists canopy signs among building sign types, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "Planned Residential Developmen",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1196,47 +601,6 @@
     },
     {
       "jurisdiction_id": "us-5183136",
-      "district_code": "Planned Residential Developmen",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
       "district_code": "R-10",
       "use_class": "heavy_industrial_hazmat",
       "status": "unlisted",
@@ -1304,71 +668,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "R-10",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Lists canopy signs among building sign types, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-10",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1392,47 +691,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-10",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1509,71 +767,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "R-15",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Lists canopy signs among building sign types, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-15",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1597,47 +790,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-15",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1714,71 +866,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "R-6",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Lists canopy signs among building sign types, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-6",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1802,47 +889,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-6",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1919,71 +965,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "RMF",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Lists canopy signs among building sign types, not a cannabis use."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RMF",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -2007,47 +988,6 @@
           "to": "unlisted",
           "by": "grok",
           "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RMF",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
         }
       ],
       "matched_text": {
@@ -2126,72 +1066,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "RO",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.8.2 Permitted Uses (by-right)",
-        "section": "3-4.8.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "This text is an awning definition that mentions a canopy only as a different building attachment."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "This defines a canopy as a cloth, metal, or similar building structure."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "This continues the canopy definition for sheltering patrons or automobiles and for wall decoration."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "This defines building signs, including canopy signs."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "This defines a sign attached to a canopy."
-        }
-      ],
-      "notes": "Section 3-4.8.3 was checked as well. No cultivation or processing use is named.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -2218,48 +1092,6 @@
         }
       ],
       "notes": "Listed utility uses are local distribution facilities and, by special use permit in Section 3-4.8.3, treatment plants, water storage tanks, major transmission lines or pipelines, pumping or regulator stations, communications towers, storage yards and substations, and cable television facilities. No generating plant or utility-scale solar or wind facility is named.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.8.2 Permitted Uses (by-right)",
-        "section": "3-4.8.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "This is an Industrial District special use for tire and automotive battery sales and service."
-        }
-      ],
-      "notes": "Section 3-4.8.3 was checked as well. No battery energy storage system is named.",
       "matched_text": {
         "section": "raw",
         "quote": "raw"
@@ -2336,72 +1168,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "RT",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.4.2 Permitted Uses (by-right)",
-        "section": "3-4.4.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "This text is an awning definition that mentions a canopy only as a different building attachment."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "This defines a canopy as a cloth, metal, or similar building structure."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "This continues the canopy definition for sheltering patrons or automobiles and for wall decoration."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "This defines building signs, including canopy signs."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "This defines a sign attached to a canopy."
-        }
-      ],
-      "notes": "Section 3-4.4.3 was checked as well. No cultivation or processing use is named.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RT",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -2432,55 +1198,1337 @@
         "section": "raw",
         "quote": "raw"
       }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RT",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.4.2 Permitted Uses (by-right)",
-        "section": "3-4.4.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "grok",
-          "ref": "review-grok-us-5183136-20261011T052522Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "This is an Industrial District special use for tire and automotive battery sales and service."
-        }
-      ],
-      "notes": "Section 3-4.4.3 was checked as well. No battery energy storage system is named.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
     }
   ],
   "matched_text_counts": {
-    "quote:raw": 60,
-    "section:raw": 60
+    "quote:raw": 36,
+    "section:raw": 36
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "C",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/C/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "CBD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/CBD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "CBD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/CBD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "I",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/I/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "I",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/I/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "PSP",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/PSP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "PSP",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/PSP/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "PUD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning definition excluding a canopy. Architectural structure, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Definition of a canopy structure. Does not cover licensed cannabis growing or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Continuation of the architectural canopy definition. Not a cannabis canopy."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Sign type list. Canopy signs are signs, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Definition of a canopy sign. Not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "PUD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service. Not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/PUD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "Planned Residential Developmen",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Lists canopy signs among building sign types, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/Planned Residential Developmen/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "Planned Residential Developmen",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/Planned Residential Developmen/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-10",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Lists canopy signs among building sign types, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-10/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-10",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-10/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-15",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Lists canopy signs among building sign types, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-15/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-15",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-15/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-6",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Lists canopy signs among building sign types, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-6/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-6",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-6/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RMF",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "Awning language that only distinguishes a canopy; it is architectural and does not regulate cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Defines a canopy as a cloth, metal, or similar structure, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "Describes a canopy over patrons or automobiles or as a wall feature, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "Lists canopy signs among building sign types, not a cannabis use."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "Defines a sign attached to a canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/RMF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RMF",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+          "section": "2-10"
+        },
+        "source": {
+          "id": "us-5183136-zo-art2",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Automotive tire and battery sales and service, not a stand-alone grid-scale battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/RMF/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RO",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.8.2 Permitted Uses (by-right)",
+          "section": "3-4.8.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "This text is an awning definition that mentions a canopy only as a different building attachment."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "This defines a canopy as a cloth, metal, or similar building structure."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "This continues the canopy definition for sheltering patrons or automobiles and for wall decoration."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "This defines building signs, including canopy signs."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "This defines a sign attached to a canopy."
+          }
+        ],
+        "notes": "Section 3-4.8.3 was checked as well. No cultivation or processing use is named."
+      },
+      "errors": [
+        "us-5183136/RO/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RO",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.8.2 Permitted Uses (by-right)",
+          "section": "3-4.8.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "This is an Industrial District special use for tire and automotive battery sales and service."
+          }
+        ],
+        "notes": "Section 3-4.8.3 was checked as well. No battery energy storage system is named."
+      },
+      "errors": [
+        "us-5183136/RO/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RT",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.4.2 Permitted Uses (by-right)",
+          "section": "3-4.4.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+            "section": "Article 12",
+            "reason": "This text is an awning definition that mentions a canopy only as a different building attachment."
+          },
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "This defines a canopy as a cloth, metal, or similar building structure."
+          },
+          {
+            "term": "canopy",
+            "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+            "section": "Article 12",
+            "reason": "This continues the canopy definition for sheltering patrons or automobiles and for wall decoration."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Building: Signs that are attached to the building including wall signs, projecting signs, awning signs, marquee signs, suspended signs, and canopy signs.",
+            "section": "Article 12",
+            "reason": "This defines building signs, including canopy signs."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "This defines a sign attached to a canopy."
+          }
+        ],
+        "notes": "Section 3-4.4.3 was checked as well. No cultivation or processing use is named."
+      },
+      "errors": [
+        "us-5183136/RT/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RT",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.4.2 Permitted Uses (by-right)",
+          "section": "3-4.4.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "grok",
+            "ref": "review-grok-us-5183136-20261011T052522Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "This is an Industrial District special use for tire and automotive battery sales and service."
+          }
+        ],
+        "notes": "Section 3-4.4.3 was checked as well. No battery energy storage system is named."
+      },
+      "errors": [
+        "us-5183136/RT/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-5183136",
@@ -2520,7 +2568,8 @@
       },
       "errors": [
         "us-5183136/C/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2562,7 +2611,8 @@
       "errors": [
         "us-5183136/C/warehouse_distribution: definition quote not found in source",
         "us-5183136/C/warehouse_distribution: definition section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2603,7 +2653,8 @@
       },
       "errors": [
         "us-5183136/CBD/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2644,7 +2695,8 @@
       },
       "errors": [
         "us-5183136/CBD/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2685,7 +2737,8 @@
       },
       "errors": [
         "us-5183136/I/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2727,7 +2780,8 @@
       "errors": [
         "us-5183136/I/warehouse_distribution: definition quote not found in source",
         "us-5183136/I/warehouse_distribution: definition section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2768,7 +2822,8 @@
       },
       "errors": [
         "us-5183136/PSP/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2809,7 +2864,8 @@
       },
       "errors": [
         "us-5183136/PSP/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2850,7 +2906,8 @@
       },
       "errors": [
         "us-5183136/PUD/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2891,7 +2948,8 @@
       },
       "errors": [
         "us-5183136/PUD/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2932,7 +2990,8 @@
       },
       "errors": [
         "us-5183136/Planned Residential Developmen/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2973,7 +3032,8 @@
       },
       "errors": [
         "us-5183136/Planned Residential Developmen/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3014,7 +3074,8 @@
       },
       "errors": [
         "us-5183136/R-10/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3055,7 +3116,8 @@
       },
       "errors": [
         "us-5183136/R-10/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3096,7 +3158,8 @@
       },
       "errors": [
         "us-5183136/R-15/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3137,7 +3200,8 @@
       },
       "errors": [
         "us-5183136/R-15/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3178,7 +3242,8 @@
       },
       "errors": [
         "us-5183136/R-6/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3219,7 +3284,8 @@
       },
       "errors": [
         "us-5183136/R-6/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3260,7 +3326,8 @@
       },
       "errors": [
         "us-5183136/RMF/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3301,7 +3368,8 @@
       },
       "errors": [
         "us-5183136/RMF/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3342,7 +3410,8 @@
       },
       "errors": [
         "us-5183136/RO/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3383,7 +3452,8 @@
       },
       "errors": [
         "us-5183136/RO/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3424,7 +3494,8 @@
       },
       "errors": [
         "us-5183136/RT/datacenter: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3465,7 +3536,8 @@
       },
       "errors": [
         "us-5183136/RT/warehouse_distribution: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     }
   ],
   "missing": [
@@ -3478,12 +3550,28 @@
       "warehouse_distribution"
     ],
     [
+      "C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "C",
+      "battery_storage"
+    ],
+    [
       "CBD",
       "datacenter"
     ],
     [
       "CBD",
       "warehouse_distribution"
+    ],
+    [
+      "CBD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "CBD",
+      "battery_storage"
     ],
     [
       "I",
@@ -3494,12 +3582,28 @@
       "warehouse_distribution"
     ],
     [
+      "I",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "I",
+      "battery_storage"
+    ],
+    [
       "PSP",
       "datacenter"
     ],
     [
       "PSP",
       "warehouse_distribution"
+    ],
+    [
+      "PSP",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PSP",
+      "battery_storage"
     ],
     [
       "PUD",
@@ -3510,12 +3614,28 @@
       "warehouse_distribution"
     ],
     [
+      "PUD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PUD",
+      "battery_storage"
+    ],
+    [
       "Planned Residential Developmen",
       "datacenter"
     ],
     [
       "Planned Residential Developmen",
       "warehouse_distribution"
+    ],
+    [
+      "Planned Residential Developmen",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "Planned Residential Developmen",
+      "battery_storage"
     ],
     [
       "R-10",
@@ -3526,12 +3646,28 @@
       "warehouse_distribution"
     ],
     [
+      "R-10",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-10",
+      "battery_storage"
+    ],
+    [
       "R-15",
       "datacenter"
     ],
     [
       "R-15",
       "warehouse_distribution"
+    ],
+    [
+      "R-15",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-15",
+      "battery_storage"
     ],
     [
       "R-6",
@@ -3542,12 +3678,28 @@
       "warehouse_distribution"
     ],
     [
+      "R-6",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-6",
+      "battery_storage"
+    ],
+    [
       "RMF",
       "datacenter"
     ],
     [
       "RMF",
       "warehouse_distribution"
+    ],
+    [
+      "RMF",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "RMF",
+      "battery_storage"
     ],
     [
       "RO",
@@ -3558,12 +3710,32 @@
       "warehouse_distribution"
     ],
     [
+      "RO",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "RO",
+      "battery_storage"
+    ],
+    [
       "RT",
       "datacenter"
     ],
     [
       "RT",
       "warehouse_distribution"
+    ],
+    [
+      "RT",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "RT",
+      "battery_storage"
     ]
-  ]
+  ],
+  "regate": {
+    "run_id": "regate-us-5183136-20261011T102403Z",
+    "at": "2026-10-11T10:24:03Z"
+  }
 }

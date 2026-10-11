@@ -38,7 +38,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -80,7 +80,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -176,50 +176,6 @@
       "state_rule_id": "ga-lp_gas",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "AG",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to tree canopy in landscaping standards, not cannabis cultivation."
-      }
-    ],
-    "notes": "No cannabis use in Table 2.2. Sec. 210(d)(1) says principal uses not shown on Table 2.2 are specifically prohibited, so the jurisdiction unlisted_rule is prohibited_by_default. The cell stays unlisted.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-13097",
@@ -348,7 +304,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -390,7 +346,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -486,50 +442,6 @@
       "state_rule_id": "ga-lp_gas",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "C-G",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to tree canopy in landscaping standards, not cannabis cultivation."
-      }
-    ],
-    "notes": "Sec. 210(d)(1): unlisted principal uses are specifically prohibited (unlisted_rule prohibited_by_default).",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-13097",
@@ -658,7 +570,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -701,7 +613,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -804,51 +716,6 @@
   {
     "jurisdiction_id": "us-13097",
     "district_code": "C-G-C",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to tree canopy in landscaping standards, not cannabis cultivation."
-      }
-    ],
-    "notes": "The code has no C-G-C column; treated as C-G with conditions. Sec. 210(d)(1) default-prohibits unlisted uses.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "C-G-C",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -935,48 +802,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "C-H",
-    "use_class": "datacenter",
-    "status": "conditional",
-    "local_uses": [
-      "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services | C-H | S",
-      "section": "Table 2.2",
-      "row_label": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
-      "column_header": "C-H",
-      "symbol": "S"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "notes": "Four S symbols with §4.19/§4.20. Columns inferred as C-H, LI, LI-R, HI by analogy with the telecom carrier rows; verify against the page image.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-13097",
@@ -1117,50 +942,6 @@
   {
     "jurisdiction_id": "us-13097",
     "district_code": "C-H",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to tree canopy in landscaping standards, not cannabis cultivation."
-      }
-    ],
-    "notes": "Sec. 210(d)(1): unlisted principal uses are specifically prohibited (unlisted_rule prohibited_by_default).",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "C-H",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -1249,49 +1030,6 @@
   {
     "jurisdiction_id": "us-13097",
     "district_code": "C-H-C",
-    "use_class": "datacenter",
-    "status": "conditional",
-    "local_uses": [
-      "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services | C-H | S",
-      "section": "Table 2.2",
-      "row_label": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
-      "column_header": "C-H",
-      "symbol": "S"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "notes": "The code has no C-H-C column. Treated as C-H with conditions retained under Sec. 202(d). The S column placement is inferred. Flag for review.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "C-H-C",
     "use_class": "warehouse_distribution",
     "status": "prohibited",
     "local_uses": [
@@ -1328,7 +1066,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -1427,51 +1165,6 @@
       "state_rule_id": "ga-lp_gas",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "C-H-C",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to tree canopy in landscaping standards, not cannabis cultivation."
-      }
-    ],
-    "notes": "The code has no C-H-C column; treated as C-H with conditions. Sec. 210(d)(1) default-prohibits unlisted uses.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null
   },
   {
     "jurisdiction_id": "us-13097",
@@ -1602,7 +1295,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -1705,103 +1398,6 @@
       "state_rule_id": "ga-heavy_industrial_hazmat",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "HI",
-    "use_class": "lp_gas",
-    "status": "conditional",
-    "local_uses": [
-      "Petroleum or Bulk Storage",
-      "Liquefied Petroleum Gas (Bottled Gas) Dealers"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Petroleum or Bulk Storage | HI | S",
-      "section": "Table 2.2",
-      "row_label": "Petroleum or Bulk Storage",
-      "column_header": "HI",
-      "symbol": "S"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "definition_evidence": {
-      "quote": "Bulk Storage Facility: The storage of chemicals, petroleum products, grains, or other materials in structures for subsequent resale to distributors or retail dealers or outlets.",
-      "section": "Sec. 1502"
-    },
-    "notes": "Liquefied Petroleum Gas (Bottled Gas) Dealers is P in HI; the more restrictive S governs.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw",
-      "definition_quote": "raw",
-      "definition_section": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "HI",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Structural canopy or tree canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis use in the code. Sec. 210(d)(1) prohibits unlisted principal uses (unlisted_rule: prohibited_by_default); the cell stays unlisted.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-13097",
@@ -1934,7 +1530,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -2040,103 +1636,6 @@
   {
     "jurisdiction_id": "us-13097",
     "district_code": "LI",
-    "use_class": "lp_gas",
-    "status": "prohibited",
-    "local_uses": [
-      "Petroleum or Bulk Storage",
-      "Liquefied Petroleum Gas (Bottled Gas) Dealers"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Petroleum or Bulk Storage | LI | ",
-      "section": "Table 2.2",
-      "row_label": "Petroleum or Bulk Storage",
-      "column_header": "LI",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "definition_evidence": {
-      "quote": "Bulk Storage Facility: The storage of chemicals, petroleum products, grains, or other materials in structures for subsequent resale to distributors or retail dealers or outlets.",
-      "section": "Sec. 1502"
-    },
-    "notes": "Blank cell. Table key: \"Use is not Allowed if no symbol appears\". Bottled Gas Dealers is P in LI, but bulk storage is not allowed and the most restrictive mapped use governs. Review whether bottled-gas dealers alone better fit the class.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw",
-      "definition_quote": "raw",
-      "definition_section": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Structural canopy or tree canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "See the HI cannabis note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI",
     "use_class": "utility_generation",
     "status": "conditional",
     "local_uses": [
@@ -2228,429 +1727,6 @@
   },
   {
     "jurisdiction_id": "us-13097",
-    "district_code": "LI-C",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "Temporary Wireless Communication Facility: Portable equipment without permanent foundation that is",
-        "section": "Sec. 1502",
-        "reason": "Telecom temporary facility, excluded from the class."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "xviii. Industrial and commercial machinery and computer equipment;",
-        "section": "Article 3",
-        "reason": "Manufacturing of equipment, not a server facility."
-      },
-      {
-        "term": "data storage",
-        "quote": "development, data storage and administrative facilities and offices.",
-        "section": "Sec. 207 (n)",
-        "reason": "Purpose statement of the LI-R district, not a use-table permission, and not for LI-C."
-      },
-      {
-        "term": "data storage",
-        "quote": "22. Warehouse facility for data storage",
-        "section": "Article 6",
-        "reason": "Parking ratio line only, not a use allowance."
-      }
-    ],
-    "notes": "LI-C is not a column in Table 2.2. Sec. 202(d) retains rezoning conditions on the base district, but the code gives no use status for LI-C. Uses not listed on Table 2.2 are prohibited by Sec. 210(d)(1) (unlisted_rule: prohibited_by_default).",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-C",
-    "use_class": "warehouse_distribution",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "distribution center",
-        "quote": "5. Postal service bulk mailing distribution centers.",
-        "section": "Sec. 1502",
-        "reason": "Item within the Truck Terminal definition, not a use row for LI-C."
-      },
-      {
-        "term": "freight",
-        "quote": "General Freight",
-        "section": "Table 2.2",
-        "reason": "Trucking rows with no LI-C column."
-      },
-      {
-        "term": "loading dock",
-        "quote": "Truck Loading Docks: A portion of a building designed for the loading and unloading of trucks.",
-        "section": "Sec. 1502",
-        "reason": "Building component definition, not a use."
-      },
-      {
-        "term": "storage of goods",
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no LI-C column in Table 2.2."
-      },
-      {
-        "term": "truck terminal",
-        "quote": "Truck Terminal: \"Truck terminals, draying, or freight\" means a storage and distribution facility that",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no LI-C column in Table 2.2."
-      },
-      {
-        "term": "warehouse",
-        "quote": "• Section 338 – Mini warehouses and self service storage",
-        "section": "Table of Contents",
-        "reason": "Self-storage, excluded from the class."
-      }
-    ],
-    "notes": "LI-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-C",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "chemical manufacturing",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Article 3",
-        "reason": "Appears in the prohibited-uses division, not as a use row for LI-C."
-      },
-      {
-        "term": "hazardous materials",
-        "quote": "(1) New facilities that handle hazardous materials of the types listed in section 312 of the Resource",
-        "section": "Sec. 911 (d)",
-        "reason": "Groundwater overlay construction standard, not a use row."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "Hazardous Waste: Solid or liquid waste material resulting from the manufacture or use of pesticides and",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no LI-C column in Table 2.2."
-      },
-      {
-        "term": "heavy industrial",
-        "quote": "207 (o) HI Heavy Industrial.",
-        "section": "Sec. 207 (o)",
-        "reason": "Purpose statement of the HI district, not LI-C."
-      },
-      {
-        "term": "smelting",
-        "quote": "Smelting and",
-        "section": "Table 2.2",
-        "reason": "Table rows with no LI-C column."
-      }
-    ],
-    "notes": "LI-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-heavy_industrial_hazmat",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-C",
-    "use_class": "lp_gas",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "liquefied petroleum gas",
-        "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-        "section": "Table 2.2",
-        "reason": "Use row exists, but Table 2.2 has no LI-C column."
-      }
-    ],
-    "notes": "LI-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-C",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Structural canopy or tree canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "See the HI cannabis note. LI-C is not a column in Table 2.2.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-C",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "megawatt",
-        "quote": "1,000 kW is equal to 1 megawatt (MW).",
-        "section": "Sec. 1502",
-        "reason": "Unit definition in the Solar definitions, not a use."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "for electricity generation. A solar PV system is a generation system with a nameplate capacity of not",
-        "section": "Sec. 1502",
-        "reason": "Definition of a solar PV system, not a use row for LI-C."
-      },
-      {
-        "term": "solar farm",
-        "quote": "A ground‐mounted solar power energy system or \"solar farm\" operating as a use‐by‐right must",
-        "section": "Article 3",
-        "reason": "Standards text for the use; no LI-C column exists to confer a status."
-      }
-    ],
-    "notes": "LI-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-C",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "Battery Energy Storage System: A system of one or more devices, assembled together, capable of",
-        "section": "Sec. 1502",
-        "reason": "Definition only; Table 2.2 has no LI-C column."
-      },
-      {
-        "term": "battery energy storage",
-        "quote": "Battery Energy Storage Systems",
-        "section": "Table 2.2",
-        "reason": "Use row exists, but Table 2.2 has no LI-C column."
-      },
-      {
-        "term": "energy storage system",
-        "quote": "Battery Energy Storage System: A system of one or more devices, assembled together, capable of",
-        "section": "Sec. 1502",
-        "reason": "Definition only; Table 2.2 has no LI-C column."
-      }
-    ],
-    "notes": "LI-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
     "district_code": "LI-R",
     "use_class": "datacenter",
     "status": "conditional",
@@ -2688,7 +1764,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -2794,97 +1870,6 @@
   {
     "jurisdiction_id": "us-13097",
     "district_code": "LI-R",
-    "use_class": "lp_gas",
-    "status": "prohibited",
-    "local_uses": [
-      "Petroleum or Bulk Storage",
-      "Liquefied Petroleum Gas (Bottled Gas) Dealers"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers | LI-R | ",
-      "section": "Table 2.2",
-      "row_label": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-      "column_header": "LI-R",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "notes": "Blank cell. Table key: \"Use is not Allowed if no symbol appears\". The Petroleum or Bulk Storage row is also blank in LI-R.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-R",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Structural canopy or tree canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "See the HI cannabis note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-R",
     "use_class": "utility_generation",
     "status": "conditional",
     "local_uses": [
@@ -2976,471 +1961,6 @@
   },
   {
     "jurisdiction_id": "us-13097",
-    "district_code": "LI-R-C",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "Temporary Wireless Communication Facility: Portable equipment without permanent foundation that is",
-        "section": "Sec. 1502",
-        "reason": "Telecom temporary facility, excluded from the class."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "xviii. Industrial and commercial machinery and computer equipment;",
-        "section": "Article 3",
-        "reason": "Manufacturing of equipment, not a server facility."
-      },
-      {
-        "term": "data storage",
-        "quote": "development, data storage and administrative facilities and offices.",
-        "section": "Sec. 207 (n)",
-        "reason": "Purpose statement of the LI-R district, not a use-table permission, and not for LI-R-C."
-      },
-      {
-        "term": "data storage",
-        "quote": "22. Warehouse facility for data storage",
-        "section": "Article 6",
-        "reason": "Parking ratio line only, not a use allowance."
-      }
-    ],
-    "notes": "LI-R-C is not a column in Table 2.2; see LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-R-C",
-    "use_class": "warehouse_distribution",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "distribution center",
-        "quote": "5. Postal service bulk mailing distribution centers.",
-        "section": "Sec. 1502",
-        "reason": "Item within the Truck Terminal definition, not a use row for LI-R-C."
-      },
-      {
-        "term": "freight",
-        "quote": "General Freight",
-        "section": "Table 2.2",
-        "reason": "Trucking rows with no LI-R-C column."
-      },
-      {
-        "term": "loading dock",
-        "quote": "Truck Loading Docks: A portion of a building designed for the loading and unloading of trucks.",
-        "section": "Sec. 1502",
-        "reason": "Building component definition, not a use."
-      },
-      {
-        "term": "storage of goods",
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no LI-R-C column in Table 2.2."
-      },
-      {
-        "term": "truck terminal",
-        "quote": "Truck Terminal: \"Truck terminals, draying, or freight\" means a storage and distribution facility that",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no LI-R-C column in Table 2.2."
-      },
-      {
-        "term": "warehouse",
-        "quote": "• Section 338 – Mini warehouses and self service storage",
-        "section": "Table of Contents",
-        "reason": "Self-storage, excluded from the class."
-      }
-    ],
-    "notes": "LI-R-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-R-C",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "chemical manufacturing",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Article 3",
-        "reason": "Appears in the prohibited-uses division, not as a use row for LI-R-C."
-      },
-      {
-        "term": "hazardous materials",
-        "quote": "(1) New facilities that handle hazardous materials of the types listed in section 312 of the Resource",
-        "section": "Sec. 911 (d)",
-        "reason": "Groundwater overlay construction standard, not a use row."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "Hazardous Waste: Solid or liquid waste material resulting from the manufacture or use of pesticides and",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no LI-R-C column in Table 2.2."
-      },
-      {
-        "term": "heavy industrial",
-        "quote": "207 (o) HI Heavy Industrial.",
-        "section": "Sec. 207 (o)",
-        "reason": "Purpose statement of the HI district, not LI-R-C."
-      },
-      {
-        "term": "smelting",
-        "quote": "Smelting and",
-        "section": "Table 2.2",
-        "reason": "Table rows with no LI-R-C column."
-      }
-    ],
-    "notes": "LI-R-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-heavy_industrial_hazmat",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-R-C",
-    "use_class": "lp_gas",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "liquefied petroleum gas",
-        "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-        "section": "Table 2.2",
-        "reason": "Use row exists, but Table 2.2 has no LI-R-C column."
-      }
-    ],
-    "notes": "LI-R-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-R-C",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Structural canopy or tree canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "See the HI cannabis note. LI-R-C is not a column in Table 2.2.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-R-C",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "megawatt",
-        "quote": "1,000 kW is equal to 1 megawatt (MW).",
-        "section": "Sec. 1502",
-        "reason": "Unit definition in the Solar definitions, not a use."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "for electricity generation. A solar PV system is a generation system with a nameplate capacity of not",
-        "section": "Sec. 1502",
-        "reason": "Definition of a solar PV system, not a use row for LI-R-C."
-      },
-      {
-        "term": "solar farm",
-        "quote": "A ground‐mounted solar power energy system or \"solar farm\" operating as a use‐by‐right must",
-        "section": "Article 3",
-        "reason": "Standards text for the use; no LI-R-C column exists to confer a status."
-      }
-    ],
-    "notes": "LI-R-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "LI-R-C",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "Battery Energy Storage System: A system of one or more devices, assembled together, capable of",
-        "section": "Sec. 1502",
-        "reason": "Definition only; Table 2.2 has no LI-R-C column."
-      },
-      {
-        "term": "battery energy storage",
-        "quote": "Battery Energy Storage Systems",
-        "section": "Table 2.2",
-        "reason": "Use row exists, but Table 2.2 has no LI-R-C column."
-      },
-      {
-        "term": "energy storage system",
-        "quote": "Battery Energy Storage System: A system of one or more devices, assembled together, capable of",
-        "section": "Sec. 1502",
-        "reason": "Definition only; Table 2.2 has no LI-R-C column."
-      }
-    ],
-    "notes": "LI-R-C is not a column in Table 2.2. See the datacenter LI-C note.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "OI",
-    "use_class": "datacenter",
-    "status": "prohibited",
-    "local_uses": [
-      "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services | OI | ",
-      "section": "Table 2.2",
-      "row_label": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
-      "column_header": "OI",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "notes": "Blank cell; the key says 'Use is not Allowed if no symbol appears'. The page has no reconstructed table, so the blank is inferred from the four S symbols, which sit in the industrial/commercial columns.",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "raw",
-      "column_header": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-13097",
     "district_code": "OI",
     "use_class": "warehouse_distribution",
     "status": "prohibited",
@@ -3477,7 +1997,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -3569,7 +2089,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "ga-lp_gas",
@@ -3701,7 +2221,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -3743,7 +2263,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -3837,7 +2357,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null,
     "preemption": {
@@ -3972,7 +2492,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -4013,7 +2533,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -4107,7 +2627,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "ga-lp_gas",
@@ -4208,786 +2728,6 @@
   },
   {
     "jurisdiction_id": "us-13097",
-    "district_code": "PUD",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "A Temporary Wireless Communication Facility may be approved administratively in any zoning",
-        "section": "Sec. 343(d)(4)",
-        "reason": "Temporary portable telecom equipment, not a building housing servers."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "xviii. Industrial and commercial machinery and computer equipment;",
-        "section": "Sec. 303",
-        "reason": "A category in a list of industries, not a use that houses servers."
-      },
-      {
-        "term": "data storage",
-        "quote": "development, data storage and administrative facilities and offices.",
-        "section": "Sec. 207(n)",
-        "reason": "Purpose statement for the LI-R district only; it grants no use and does not apply to PUD."
-      },
-      {
-        "term": "data storage",
-        "quote": "22. Warehouse facility for data storage",
-        "section": "Article 6",
-        "reason": "A parking ratio line only; it does not allow the use in any district."
-      }
-    ],
-    "notes": "Table 2.2 has no PUD column. PUD uses are set by the approved development plan (Sec. 4.12), so the code gives no use status for this district.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD",
-    "use_class": "warehouse_distribution",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "distribution center",
-        "quote": "5. Postal service bulk mailing distribution centers.",
-        "section": "Sec. 1502",
-        "reason": "An item in the Truck Terminal definition, with no district column for PUD."
-      },
-      {
-        "term": "freight",
-        "quote": "General Freight",
-        "section": "Table 2.2",
-        "reason": "Trucking rows have no PUD column; symbols appear only under LI and HI."
-      },
-      {
-        "term": "loading dock",
-        "quote": "Truck Loading Docks: A portion of a building designed for the loading and unloading of trucks.",
-        "section": "Sec. 1502",
-        "reason": "Definition of a building feature, not a use."
-      },
-      {
-        "term": "storage of goods",
-        "quote": "The outdoor storage of goods, material or merchandise not otherwise on display for customer selection",
-        "section": "Sec. 305",
-        "reason": "Outdoor storage limits; it does not allow any warehouse use in PUD."
-      },
-      {
-        "term": "truck terminal",
-        "quote": "Motor Freight Truck Terminal: A building or premises where trucks load and unload cargo and freight and",
-        "section": "Sec. 1502",
-        "reason": "Definition only; Table 2.2 gives no PUD status."
-      },
-      {
-        "term": "warehouse",
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "Sec. 1502",
-        "reason": "Definition only; Table 2.2 lists Warehousing and Storage only under LI, LI-R and HI and has no PUD column."
-      }
-    ],
-    "notes": "Table 2.2 has no PUD column. PUD uses are set by the approved development plan.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "chemical manufacturing",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Sec. 303",
-        "reason": "A list item in an environmentally hazardous uses provision; it grants no use in PUD."
-      },
-      {
-        "term": "chemical manufacturing",
-        "quote": "Chemical Manufacturing: Pharmaceutical and Medicine",
-        "section": "Table 2.2",
-        "reason": "Pharmaceutical row has no PUD column and symbols only under LI, LI-R and HI."
-      },
-      {
-        "term": "hazardous materials",
-        "quote": "(3) Any new facility that handles hazardous materials of the types listed in Section 312 of the",
-        "section": "Sec. 911(d)",
-        "reason": "Groundwater overlay performance standard, not a use permission."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "Hazardous Waste: Solid or liquid waste material resulting from the manufacture or use of pesticides and",
-        "section": "Sec. 1502",
-        "reason": "Definition of a waste type; Table 2.2 has no PUD column."
-      },
-      {
-        "term": "heavy industrial",
-        "quote": "The HI Heavy Industrial District is established to protect and promote a suitable environment for heavy",
-        "section": "Sec. 207(o)",
-        "reason": "Purpose of the HI district, not PUD."
-      },
-      {
-        "term": "smelting",
-        "quote": "Smelting and",
-        "section": "Table 2.2",
-        "reason": "Metal smelting rows have no PUD column."
-      }
-    ],
-    "notes": "Table 2.2 has no PUD column.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-heavy_industrial_hazmat",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD",
-    "use_class": "lp_gas",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "liquefied petroleum gas",
-        "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-        "section": "Table 2.2",
-        "reason": "Row has no PUD column; symbols appear only under LI and HI."
-      }
-    ],
-    "notes": "Table 2.2 has no PUD column.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "megawatt",
-        "quote": "1,000 kW is equal to 1 megawatt (MW).",
-        "section": "Sec. 1502",
-        "reason": "Unit definition in the solar definitions, not a use."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "A solar PV system is a generation system with a nameplate capacity of not",
-        "section": "Sec. 1502",
-        "reason": "Defines a small solar PV system; no district status for PUD."
-      },
-      {
-        "term": "solar farm",
-        "quote": "The maximum number of acres that a solar power energy system or \"solar farm\" can cover as",
-        "section": "Article 3",
-        "reason": "Standards for solar use-by-right in base districts; none names PUD."
-      },
-      {
-        "term": "electric power generation",
-        "quote": "Electric Power Generation",
-        "section": "Table 2.2",
-        "reason": "Row has no PUD column; S symbols appear only under PSP, LI, LI-R, HI and O-HC."
-      }
-    ],
-    "notes": "Table 2.2 has no PUD column.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "optic or other cabling, power supply (including backup battery), and comparable equipment, regardless of",
-        "section": "Sec. 1502",
-        "reason": "Backup battery inside the Communications Facility definition, which is accessory equipment."
-      },
-      {
-        "term": "battery energy storage",
-        "quote": "Battery Energy Storage System: A system of one or more devices, assembled together, capable of",
-        "section": "Sec. 1502",
-        "reason": "Definition only; it assigns no PUD status."
-      },
-      {
-        "term": "energy storage system",
-        "quote": "Battery Energy Storage Systems",
-        "section": "Table 2.2",
-        "reason": "Row has no PUD column; S symbols appear only under PSP, LI, LI-R, HI and O-HC."
-      }
-    ],
-    "notes": "Table 2.2 has no PUD column.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD-C",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "A Temporary Wireless Communication Facility may be approved administratively in any zoning",
-        "section": "Sec. 343(d)(4)",
-        "reason": "Temporary portable telecom equipment, not a building housing servers."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "xviii. Industrial and commercial machinery and computer equipment;",
-        "section": "Sec. 303",
-        "reason": "A category in a list of industries, not a use that houses servers."
-      },
-      {
-        "term": "data storage",
-        "quote": "development, data storage and administrative facilities and offices.",
-        "section": "Sec. 207(n)",
-        "reason": "Purpose statement for the LI-R district only; it grants no use and does not apply to PUD-C."
-      },
-      {
-        "term": "data storage",
-        "quote": "22. Warehouse facility for data storage",
-        "section": "Article 6",
-        "reason": "A parking ratio line only; it does not allow the use in any district."
-      }
-    ],
-    "notes": "The code has no PUD-C district and Table 2.2 has no such column.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD-C",
-    "use_class": "warehouse_distribution",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "distribution center",
-        "quote": "5. Postal service bulk mailing distribution centers.",
-        "section": "Sec. 1502",
-        "reason": "An item in the Truck Terminal definition, with no district column for PUD-C."
-      },
-      {
-        "term": "freight",
-        "quote": "General Freight",
-        "section": "Table 2.2",
-        "reason": "Trucking rows have no PUD-C column."
-      },
-      {
-        "term": "loading dock",
-        "quote": "Truck Loading Docks: A portion of a building designed for the loading and unloading of trucks.",
-        "section": "Sec. 1502",
-        "reason": "Definition of a building feature, not a use."
-      },
-      {
-        "term": "storage of goods",
-        "quote": "The outdoor storage of goods, material or merchandise not otherwise on display for customer selection",
-        "section": "Sec. 305",
-        "reason": "Outdoor storage limits; it does not allow any warehouse use."
-      },
-      {
-        "term": "truck terminal",
-        "quote": "Motor Freight Truck Terminal: A building or premises where trucks load and unload cargo and freight and",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no district status."
-      },
-      {
-        "term": "warehouse",
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "Sec. 1502",
-        "reason": "Definition only; Table 2.2 has no PUD-C column."
-      }
-    ],
-    "notes": "The code has no PUD-C district.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD-C",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "chemical manufacturing",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Sec. 303",
-        "reason": "A list item in an environmentally hazardous uses provision; it grants no use in PUD-C."
-      },
-      {
-        "term": "chemical manufacturing",
-        "quote": "Chemical Manufacturing: Pharmaceutical and Medicine",
-        "section": "Table 2.2",
-        "reason": "Pharmaceutical row has no PUD-C column."
-      },
-      {
-        "term": "hazardous materials",
-        "quote": "(3) Any new facility that handles hazardous materials of the types listed in Section 312 of the",
-        "section": "Sec. 911(d)",
-        "reason": "Groundwater overlay performance standard, not a use permission."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "Hazardous Waste: Solid or liquid waste material resulting from the manufacture or use of pesticides and",
-        "section": "Sec. 1502",
-        "reason": "Definition of a waste type; no PUD-C column."
-      },
-      {
-        "term": "heavy industrial",
-        "quote": "The HI Heavy Industrial District is established to protect and promote a suitable environment for heavy",
-        "section": "Sec. 207(o)",
-        "reason": "Purpose of the HI district, not PUD-C."
-      },
-      {
-        "term": "smelting",
-        "quote": "Smelting and",
-        "section": "Table 2.2",
-        "reason": "Metal smelting rows have no PUD-C column."
-      }
-    ],
-    "notes": "The code has no PUD-C district.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-heavy_industrial_hazmat",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD-C",
-    "use_class": "lp_gas",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "liquefied petroleum gas",
-        "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-        "section": "Table 2.2",
-        "reason": "Row has no PUD-C column."
-      }
-    ],
-    "notes": "The code has no PUD-C district.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD-C",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "megawatt",
-        "quote": "1,000 kW is equal to 1 megawatt (MW).",
-        "section": "Sec. 1502",
-        "reason": "Unit definition in the solar definitions, not a use."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "A solar PV system is a generation system with a nameplate capacity of not",
-        "section": "Sec. 1502",
-        "reason": "Defines a small solar PV system; no district status for PUD-C."
-      },
-      {
-        "term": "solar farm",
-        "quote": "The maximum number of acres that a solar power energy system or \"solar farm\" can cover as",
-        "section": "Article 3",
-        "reason": "Standards for solar use-by-right in base districts; none names PUD-C."
-      },
-      {
-        "term": "electric power generation",
-        "quote": "Electric Power Generation",
-        "section": "Table 2.2",
-        "reason": "Row has no PUD-C column."
-      }
-    ],
-    "notes": "The code has no PUD-C district.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "PUD-C",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "optic or other cabling, power supply (including backup battery), and comparable equipment, regardless of",
-        "section": "Sec. 1502",
-        "reason": "Backup battery inside the Communications Facility definition, which is accessory equipment."
-      },
-      {
-        "term": "battery energy storage",
-        "quote": "Battery Energy Storage System: A system of one or more devices, assembled together, capable of",
-        "section": "Sec. 1502",
-        "reason": "Definition only; it assigns no PUD-C status."
-      },
-      {
-        "term": "energy storage system",
-        "quote": "Battery Energy Storage Systems",
-        "section": "Table 2.2",
-        "reason": "Row has no PUD-C column."
-      }
-    ],
-    "notes": "The code has no PUD-C district.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
     "district_code": "R-A",
     "use_class": "datacenter",
     "status": "prohibited",
@@ -5025,7 +2765,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -5067,7 +2807,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -5157,79 +2897,12 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "ga-lp_gas",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-A",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Refers to a gasoline-station canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "These plantings shall include a mixture of canopy trees (50% must be",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "d) For drive-under canopies and pump islands, the luminaries shall be recessed into the canopy",
-        "section": "Sec. 310",
-        "reason": "Refers to fuel-pump canopy lighting, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-13097",
@@ -5364,7 +3037,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -5407,7 +3080,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -5451,7 +3124,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null,
     "preemption": {
@@ -5499,82 +3172,13 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null,
     "preemption": {
       "state_rule_id": "ga-lp_gas",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-A-C",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Refers to a gasoline-station canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "These plantings shall include a mixture of canopy trees (50% must be",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "d) For drive-under canopies and pump islands, the luminaries shall be recessed into the canopy",
-        "section": "Sec. 310",
-        "reason": "Refers to fuel-pump canopy lighting, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      }
-    ],
-    "notes": "R-A-C has no column in Table 2.2; no use captures the class in the base district either.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null
   },
   {
     "jurisdiction_id": "us-13097",
@@ -5668,7 +3272,7 @@
       "definition_quote": "raw",
       "definition_section": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -5711,7 +3315,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -5753,7 +3357,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -5843,79 +3447,12 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "ga-lp_gas",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-HD",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Refers to a gasoline-station canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "These plantings shall include a mixture of canopy trees (50% must be",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "d) For drive-under canopies and pump islands, the luminaries shall be recessed into the canopy",
-        "section": "Sec. 310",
-        "reason": "Refers to fuel-pump canopy lighting, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-13097",
@@ -6050,7 +3587,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -6093,7 +3630,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -6137,7 +3674,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null,
     "preemption": {
@@ -6185,82 +3722,13 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null,
     "preemption": {
       "state_rule_id": "ga-lp_gas",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-HD-C",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Refers to a gasoline-station canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "These plantings shall include a mixture of canopy trees (50% must be",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "d) For drive-under canopies and pump islands, the luminaries shall be recessed into the canopy",
-        "section": "Sec. 310",
-        "reason": "Refers to fuel-pump canopy lighting, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      }
-    ],
-    "notes": "R-HD-C has no column in Table 2.2; no use captures the class in the base district either.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null
   },
   {
     "jurisdiction_id": "us-13097",
@@ -6354,7 +3822,7 @@
       "definition_quote": "raw",
       "definition_section": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -6397,7 +3865,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -6439,7 +3907,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -6529,79 +3997,12 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "ga-lp_gas",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-LD",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-      "section": "Table 2.2"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-        "section": "Sec. 331",
-        "reason": "Refers to a gasoline-station canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "These plantings shall include a mixture of canopy trees (50% must be",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "d) For drive-under canopies and pump islands, the luminaries shall be recessed into the canopy",
-        "section": "Sec. 310",
-        "reason": "Refers to fuel-pump canopy lighting, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-        "section": "Sec. 331",
-        "reason": "Refers to landscaping canopy trees, not cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-13097",
@@ -6699,429 +4100,6 @@
   },
   {
     "jurisdiction_id": "us-13097",
-    "district_code": "R-LD-C",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "Temporary Wireless Communication Facility: Portable equipment without permanent foundation that is",
-        "section": "Sec. 1502",
-        "reason": "Temporary telecom equipment (cell-on-wheels); telecom facilities are excluded from the datacenter class."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "xviii. Industrial and commercial machinery and computer equipment;",
-        "section": "Sec. 303",
-        "reason": "Lists manufacturing of equipment; not a facility housing servers."
-      },
-      {
-        "term": "data storage",
-        "quote": "development, data storage and administrative facilities and offices.",
-        "section": "207 (o)",
-        "reason": "Purpose statement for LI-R only; it is not a listed use and assigns no status to this district."
-      },
-      {
-        "term": "data storage",
-        "quote": "22. Warehouse facility for data storage",
-        "section": "Article 6",
-        "reason": "Parking-ratio entry; assigns no district status."
-      }
-    ],
-    "notes": "District R-LD-C does not appear in Table 2.1 or as a Table 2.2 column. The 210(d)(1) clause is recorded as unlisted_rule=prohibited_by_default and flagged; the cell stays unlisted.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-LD-C",
-    "use_class": "warehouse_distribution",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "distribution center",
-        "quote": "5. Postal service bulk mailing distribution centers.",
-        "section": "Sec. 1502",
-        "reason": "Item within the Truck Terminal definition; not a use with a district status."
-      },
-      {
-        "term": "freight",
-        "quote": "General Freight Trucking, Local",
-        "section": "Table 2.2",
-        "reason": "Trucking row has no R-LD-C column; it is a transportation service, not warehousing."
-      },
-      {
-        "term": "loading dock",
-        "quote": "Truck Loading Docks: A portion of a building designed for the loading and unloading of trucks.",
-        "section": "Sec. 1502",
-        "reason": "Building component, not a use."
-      },
-      {
-        "term": "storage of goods",
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "Sec. 1502",
-        "reason": "Definition only; the Table 2.2 row assigns status only in LI, LI-R and HI, and R-LD-C is not a column."
-      },
-      {
-        "term": "truck terminal",
-        "quote": "Motor Freight Truck Terminal: A building or premises where trucks load and unload cargo and freight and",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no Table 2.2 row or R-LD-C column."
-      },
-      {
-        "term": "warehouse",
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "Sec. 1502",
-        "reason": "Definition only; R-LD-C is not a district in the code."
-      }
-    ],
-    "notes": "District R-LD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-LD-C",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "chemical manufacturing",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Sec. 303",
-        "reason": "Special-use trigger list for hazardous uses; assigns no status to R-LD-C."
-      },
-      {
-        "term": "hazardous materials",
-        "quote": "(1) New facilities that handle hazardous materials of the types listed in section 312 of the Resource",
-        "section": "911 (d)",
-        "reason": "Groundwater overlay performance standard, not a district use status."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "Hazardous Waste Treatment and Disposal",
-        "section": "Table 2.2",
-        "reason": "Row has no R-LD-C column."
-      },
-      {
-        "term": "heavy industrial",
-        "quote": "207 (o) HI Heavy Industrial.",
-        "section": "207 (o)",
-        "reason": "Names the HI district only."
-      },
-      {
-        "term": "smelting",
-        "quote": "Smelting and",
-        "section": "Table 2.2",
-        "reason": "Part of metal-manufacturing row labels; no R-LD-C column."
-      }
-    ],
-    "notes": "District R-LD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-heavy_industrial_hazmat",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-LD-C",
-    "use_class": "lp_gas",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "liquefied petroleum gas",
-        "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-        "section": "Table 2.2",
-        "reason": "Row exists but R-LD-C is not a Table 2.2 column."
-      }
-    ],
-    "notes": "District R-LD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-LD-C",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements",
-        "section": "Sec. 1502",
-        "reason": "Architectural canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "District R-LD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-LD-C",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "megawatt",
-        "quote": "1,000 kW is equal to 1 megawatt (MW).",
-        "section": "Sec. 1502",
-        "reason": "Unit definition."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "A solar PV system is a generation system with a nameplate capacity of not",
-        "section": "Sec. 1502",
-        "reason": "Definition of small PV system; no district status."
-      },
-      {
-        "term": "solar farm",
-        "quote": "A ground‐mounted solar power energy system or \"solar farm\" operating as a use‐by‐right must",
-        "section": "Sec. 313",
-        "reason": "Standards clause naming no district; R-LD-C is not in the code."
-      }
-    ],
-    "notes": "District R-LD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-LD-C",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "optic or other cabling, power supply (including backup battery), and comparable equipment, regardless of",
-        "section": "Sec. 1502",
-        "reason": "Backup battery accessory to a communications facility."
-      },
-      {
-        "term": "battery energy storage",
-        "quote": "Battery Energy Storage System: A system of one or more devices, assembled together, capable of",
-        "section": "Sec. 1502",
-        "reason": "Definition; the Table 2.2 row has no R-LD-C column."
-      },
-      {
-        "term": "energy storage system",
-        "quote": "Battery Energy Storage Systems",
-        "section": "Table 2.2",
-        "reason": "Row has no R-LD-C column."
-      }
-    ],
-    "notes": "District R-LD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
     "district_code": "R-MD",
     "use_class": "datacenter",
     "status": "prohibited",
@@ -7159,7 +4137,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -7254,97 +4232,6 @@
   {
     "jurisdiction_id": "us-13097",
     "district_code": "R-MD",
-    "use_class": "lp_gas",
-    "status": "prohibited",
-    "local_uses": [
-      "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-      "Petroleum or Bulk Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers | R-MD | ",
-      "section": "Table 2.2",
-      "row_label": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-      "column_header": "R-MD",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "notes": "Blank cell; key: \"Use is not Allowed if no symbol appears\".",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MD",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements",
-        "section": "Sec. 1502",
-        "reason": "Architectural canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis use in the code. The 210(d)(1) clause is recorded as unlisted_rule=prohibited_by_default; the cell stays unlisted.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MD",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -7432,429 +4319,6 @@
   },
   {
     "jurisdiction_id": "us-13097",
-    "district_code": "R-MD-C",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "Temporary Wireless Communication Facility: Portable equipment without permanent foundation that is",
-        "section": "Sec. 1502",
-        "reason": "Temporary telecom equipment (cell-on-wheels); telecom facilities are excluded from the datacenter class."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "xviii. Industrial and commercial machinery and computer equipment;",
-        "section": "Sec. 303",
-        "reason": "Lists manufacturing of equipment; not a facility housing servers."
-      },
-      {
-        "term": "data storage",
-        "quote": "development, data storage and administrative facilities and offices.",
-        "section": "207 (o)",
-        "reason": "Purpose statement for LI-R only; it is not a listed use and assigns no status to this district."
-      },
-      {
-        "term": "data storage",
-        "quote": "22. Warehouse facility for data storage",
-        "section": "Article 6",
-        "reason": "Parking-ratio entry; assigns no district status."
-      }
-    ],
-    "notes": "District R-MD-C does not appear in Table 2.1 or as a Table 2.2 column. The 210(d)(1) clause is recorded as unlisted_rule=prohibited_by_default and flagged; the cell stays unlisted.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MD-C",
-    "use_class": "warehouse_distribution",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "distribution center",
-        "quote": "5. Postal service bulk mailing distribution centers.",
-        "section": "Sec. 1502",
-        "reason": "Item within the Truck Terminal definition; not a use with a district status."
-      },
-      {
-        "term": "freight",
-        "quote": "General Freight Trucking, Local",
-        "section": "Table 2.2",
-        "reason": "Trucking row has no R-MD-C column; it is a transportation service, not warehousing."
-      },
-      {
-        "term": "loading dock",
-        "quote": "Truck Loading Docks: A portion of a building designed for the loading and unloading of trucks.",
-        "section": "Sec. 1502",
-        "reason": "Building component, not a use."
-      },
-      {
-        "term": "storage of goods",
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "Sec. 1502",
-        "reason": "Definition only; the Table 2.2 row assigns status only in LI, LI-R and HI, and R-MD-C is not a column."
-      },
-      {
-        "term": "truck terminal",
-        "quote": "Motor Freight Truck Terminal: A building or premises where trucks load and unload cargo and freight and",
-        "section": "Sec. 1502",
-        "reason": "Definition only; no Table 2.2 row or R-MD-C column."
-      },
-      {
-        "term": "warehouse",
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "Sec. 1502",
-        "reason": "Definition only; R-MD-C is not a district in the code."
-      }
-    ],
-    "notes": "District R-MD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MD-C",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "chemical manufacturing",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Sec. 303",
-        "reason": "Special-use trigger list for hazardous uses; assigns no status to R-MD-C."
-      },
-      {
-        "term": "hazardous materials",
-        "quote": "(1) New facilities that handle hazardous materials of the types listed in section 312 of the Resource",
-        "section": "911 (d)",
-        "reason": "Groundwater overlay performance standard, not a district use status."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "Hazardous Waste Treatment and Disposal",
-        "section": "Table 2.2",
-        "reason": "Row has no R-MD-C column."
-      },
-      {
-        "term": "heavy industrial",
-        "quote": "207 (o) HI Heavy Industrial.",
-        "section": "207 (o)",
-        "reason": "Names the HI district only."
-      },
-      {
-        "term": "smelting",
-        "quote": "Smelting and",
-        "section": "Table 2.2",
-        "reason": "Part of metal-manufacturing row labels; no R-MD-C column."
-      }
-    ],
-    "notes": "District R-MD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-heavy_industrial_hazmat",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MD-C",
-    "use_class": "lp_gas",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "liquefied petroleum gas",
-        "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-        "section": "Table 2.2",
-        "reason": "Row exists but R-MD-C is not a Table 2.2 column."
-      }
-    ],
-    "notes": "District R-MD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MD-C",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements",
-        "section": "Sec. 1502",
-        "reason": "Architectural canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "District R-MD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MD-C",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "megawatt",
-        "quote": "1,000 kW is equal to 1 megawatt (MW).",
-        "section": "Sec. 1502",
-        "reason": "Unit definition."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "A solar PV system is a generation system with a nameplate capacity of not",
-        "section": "Sec. 1502",
-        "reason": "Definition of small PV system; no district status."
-      },
-      {
-        "term": "solar farm",
-        "quote": "A ground‐mounted solar power energy system or \"solar farm\" operating as a use‐by‐right must",
-        "section": "Sec. 313",
-        "reason": "Standards clause naming no district; R-MD-C is not in the code."
-      }
-    ],
-    "notes": "District R-MD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "ga-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MD-C",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "optic or other cabling, power supply (including backup battery), and comparable equipment, regardless of",
-        "section": "Sec. 1502",
-        "reason": "Backup battery accessory to a communications facility."
-      },
-      {
-        "term": "battery energy storage",
-        "quote": "Battery Energy Storage System: A system of one or more devices, assembled together, capable of",
-        "section": "Sec. 1502",
-        "reason": "Definition; the Table 2.2 row has no R-MD-C column."
-      },
-      {
-        "term": "energy storage system",
-        "quote": "Battery Energy Storage Systems",
-        "section": "Table 2.2",
-        "reason": "Row has no R-MD-C column."
-      }
-    ],
-    "notes": "District R-MD-C not in the code text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-13097",
     "district_code": "R-MF",
     "use_class": "datacenter",
     "status": "prohibited",
@@ -7898,7 +4362,7 @@
       "definition_quote": "raw",
       "definition_section": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -8001,103 +4465,6 @@
       "state_rule_id": "ga-heavy_industrial_hazmat",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MF",
-    "use_class": "lp_gas",
-    "status": "prohibited",
-    "local_uses": [
-      "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-      "Petroleum or Bulk Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers | R-HD | ",
-      "section": "Table 2.2",
-      "row_label": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-      "column_header": "R-HD",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "definition_evidence": {
-      "quote": "Zoning districts as were established under the previous Zoning Ordinance of Douglas County are hereby",
-      "section": "Sec. 206"
-    },
-    "notes": "R-MF is converted to R-HD by Table 2.1; read from the R-HD column. Blank cell; key: \"Use is not Allowed if no symbol appears\".",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw",
-      "definition_quote": "raw",
-      "definition_section": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MF",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements",
-        "section": "Sec. 1502",
-        "reason": "Architectural canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis use in the code. The 210(d)(1) clause is recorded as unlisted_rule=prohibited_by_default; the cell stays unlisted.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-13097",
@@ -8238,7 +4605,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -8329,97 +4696,6 @@
       "state_rule_id": "ga-heavy_industrial_hazmat",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MH",
-    "use_class": "lp_gas",
-    "status": "prohibited",
-    "local_uses": [
-      "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-      "Petroleum or Bulk Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers | R-MH | ",
-      "section": "Table 2.2",
-      "row_label": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-      "column_header": "R-MH",
-      "symbol": ""
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "prohibited",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "notes": "Blank cell; key: \"Use is not Allowed if no symbol appears\".",
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "ga-lp_gas",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-13097",
-    "district_code": "R-MH",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-      "section": "210 (d)"
-    },
-    "source": {
-      "id": "us-13097-udc",
-      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-13097-20261011T001357Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements",
-        "section": "Sec. 1502",
-        "reason": "Architectural canopy, unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis use in the code. The 210(d)(1) clause is recorded as unlisted_rule=prohibited_by_default; the cell stays unlisted.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B"
   },
   {
     "jurisdiction_id": "us-13097",

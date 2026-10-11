@@ -38,8 +38,8 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "agree",
-    "confidence": "B"
+    "review": "single",
+    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -80,8 +80,8 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "agree",
-    "confidence": "B"
+    "review": "single",
+    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -123,8 +123,8 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "agree",
-    "confidence": "B"
+    "review": "single",
+    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -166,60 +166,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "A10",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy on a building, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Refers to tree cover for landscaping, not cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted without an amendment (prohibited_by_default).",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "A10",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -257,8 +203,8 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "agree",
-    "confidence": "B",
+    "review": "single",
+    "confidence": "C",
     "preemption": {
       "state_rule_id": "va-utility_generation",
       "effect": "local_standards_capped"
@@ -303,8 +249,8 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "agree",
-    "confidence": "B",
+    "review": "single",
+    "confidence": "C",
     "preemption": {
       "state_rule_id": "va-battery_storage",
       "effect": "local_ban_preempted"
@@ -473,60 +419,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "A3",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy on a building, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Refers to tree cover for landscaping, not cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted without an amendment (prohibited_by_default).",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -788,60 +680,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "AR1",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy on a building, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Refers to tree cover for landscaping, not cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted without an amendment (prohibited_by_default).",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "AR1",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -1099,60 +937,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "AR2",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy on a building, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Refers to tree cover for landscaping, not cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted without an amendment (prohibited_by_default).",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "AR2",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -1246,118 +1030,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "C1",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "G. Uses Not Defined.",
-      "section": "3.01.G"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "data center",
-        "quote": "Data Center 4.06.02 S S",
-        "section": "Table 3.02.02-1",
-        "reason": "The Data Center row exists, but no use table has a C1 column; the district code C1 is not in the code's district list."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "D. Communication or computer equipment;",
-        "section": "Chapter 12",
-        "reason": "Lists equipment types in a definition; it creates no use status for C1."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "F. Electronic and computer products (including communication or computer equipment);",
-        "section": "Chapter 12",
-        "reason": "Lists products in a definition; it creates no use status for C1."
-      },
-      {
-        "term": "servers",
-        "quote": "and housing computer and/or network equipment, systems, servers, appliances and other associated components",
-        "section": "Chapter 12",
-        "reason": "Definition text only; no use table gives a status in a C1 district."
-      }
-    ],
-    "notes": "The district code C1 (Commercial) does not appear in the code's district list (Table 3.01-1) or in any use table, so no status can be read. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "C1",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "G. Uses Not Defined.",
-      "section": "3.01.G"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "hazardous materials",
-        "quote": "significant risks due to the involvement of explosives, poisons, pesticides, herbicides, or other hazardous materials in the",
-        "section": "Chapter 12",
-        "reason": "Definition text only; no use table gives a status in a C1 district."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "dirt. Waste-related uses do not include uses that receive hazardous wastes from others or that process other than",
-        "section": "Chapter 12",
-        "reason": "Definition text only; no status for C1."
-      }
-    ],
-    "notes": "The district code C1 does not appear in the code's district list or in any use table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "C1",
     "use_class": "lp_gas",
     "status": "unlisted",
     "local_uses": [],
@@ -1391,60 +1063,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "C1",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "G. Uses Not Defined.",
-      "section": "3.01.G"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Structural canopy, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree cover for landscaping, unrelated to cannabis."
-      }
-    ],
-    "notes": "The district code C1 does not appear in the code's district list or in any use table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -1493,71 +1111,11 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "single",
+    "review": "disputed",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "va-utility_generation",
       "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "C1",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "G. Uses Not Defined.",
-      "section": "3.01.G"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "energy storage facility",
-        "quote": "Energy Storage Facility: Energy storage equipment or technology that is capable of absorbing energy, storing such",
-        "section": "Chapter 12",
-        "reason": "Definition only; the district code C1 has no column in any use table, so no status applies."
-      },
-      {
-        "term": "battery",
-        "quote": "cluster of component assemblies (battery charging station) designed and intended to transfer Level 2 charging (as",
-        "section": "Chapter 12",
-        "reason": "Refers to EV charging stations, not grid-scale storage."
-      },
-      {
-        "term": "battery",
-        "quote": "inductive means) to a battery or other energy storage device in an electric vehicle.",
-        "section": "Chapter 12",
-        "reason": "Refers to vehicle batteries, not stand-alone storage."
-      }
-    ],
-    "notes": "The district code C1 does not appear in the code's district list or in any use table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
     }
   },
   {
@@ -1726,66 +1284,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "CCCC",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Urban and Suburban Zoning Districts",
-      "section": "Table 3.02.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not a growing operation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree canopy cover for landscaping requirements, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy definition; it concerns tree canopy requirements, not cannabis."
-      }
-    ],
-    "notes": "Horticulture is not mapped because no definition of it is in the supplied text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "CCCC",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -1911,7 +1409,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -1992,66 +1490,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "CCNC",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Urban and Suburban Zoning Districts",
-      "section": "Table 3.02.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not a growing operation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree canopy cover for landscaping requirements, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy definition; it concerns tree canopy requirements, not cannabis."
-      }
-    ],
-    "notes": "Horticulture is not mapped because no definition of it is in the supplied text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -2266,66 +1704,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "CCSC",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Urban and Suburban Zoning Districts",
-      "section": "Table 3.02.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not a growing operation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree canopy cover for landscaping requirements, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy definition; it concerns tree canopy requirements, not cannabis."
-      }
-    ],
-    "notes": "Horticulture is not mapped because no definition of it is in the supplied text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "CCSC",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -2450,7 +1828,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -2531,66 +1909,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "CLI",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not a growing operation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree canopy cover for landscaping requirements, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy definition; it concerns tree canopy requirements, not cannabis."
-      }
-    ],
-    "notes": "Horticulture is not mapped because no definition of it is in the supplied text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -2805,66 +2123,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "CR1",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not a growing operation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree canopy cover for landscaping requirements, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy definition; it concerns tree canopy requirements, not cannabis."
-      }
-    ],
-    "notes": "Agriculture and Horticulture are not mapped because no definition of them is in the supplied text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "CR1",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -3071,66 +2329,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "CR2",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy structure, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted unless the Board approves a Zoning Ordinance Amendment; the jurisdiction unlisted_rule is prohibited_by_default.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -3391,66 +2589,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "CR3",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy structure, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted unless the Board approves a Zoning Ordinance Amendment; the jurisdiction unlisted_rule is prohibited_by_default.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "CR3",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -3707,66 +2845,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "CR4",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy structure, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted unless the Board approves a Zoning Ordinance Amendment; the jurisdiction unlisted_rule is prohibited_by_default.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "CR4",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -3937,7 +3015,7 @@
       "row_label": "table",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -4018,66 +3096,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "GB",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy structure, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted unless the Board approves a Zoning Ordinance Amendment; the jurisdiction unlisted_rule is prohibited_by_default.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -4333,66 +3351,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "GI",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Office and Industrial Zoning Districts",
-      "section": "Table 3.02.05-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy structure, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "notes": "Section 3.01.G.3 says an unlisted use is not permitted unless the Board approves a Zoning Ordinance Amendment; the jurisdiction unlisted_rule is prohibited_by_default.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "GI",
     "use_class": "utility_generation",
     "status": "conditional",
     "local_uses": [
@@ -4430,7 +3388,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "va-utility_generation",
@@ -4476,8 +3434,8 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "agree",
-    "confidence": "B",
+    "review": "single",
+    "confidence": "C",
     "preemption": {
       "state_rule_id": "va-battery_storage",
       "effect": "local_ban_preempted"
@@ -4644,60 +3602,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "IP",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Office and Industrial Zoning Districts",
-      "section": "Table 3.02.05-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Refers to tree canopy for landscaping requirements, not cannabis."
-      }
-    ],
-    "notes": "No cannabis use is listed.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "IP",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -4781,8 +3685,8 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "agree",
-    "confidence": "B",
+    "review": "single",
+    "confidence": "C",
     "preemption": {
       "state_rule_id": "va-battery_storage",
       "effect": "local_ban_preempted"
@@ -4954,60 +3858,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "JLMA1",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Refers to tree canopy for landscaping requirements, not cannabis."
-      }
-    ],
-    "notes": "No cannabis use is listed. Agriculture and Horticulture rows are not defined to include cannabis.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "JLMA1",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -5090,7 +3940,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "va-battery_storage",
@@ -5263,60 +4113,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "JLMA2",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Refers to tree canopy for landscaping requirements, not cannabis."
-      }
-    ],
-    "notes": "No cannabis use is listed.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "JLMA2",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -5399,7 +4195,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "va-battery_storage",
@@ -5445,8 +4241,8 @@
       "row_label": "raw",
       "column_header": "table"
     },
-    "review": "agree",
-    "confidence": "B"
+    "review": "single",
+    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -5487,8 +4283,8 @@
       "row_label": "table",
       "column_header": "table"
     },
-    "review": "agree",
-    "confidence": "B"
+    "review": "single",
+    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -5529,8 +4325,8 @@
       "row_label": "raw",
       "column_header": "table"
     },
-    "review": "agree",
-    "confidence": "B"
+    "review": "single",
+    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51107",
@@ -5572,60 +4368,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "JLMA20",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Refers to tree canopy for landscaping requirements, not cannabis."
-      }
-    ],
-    "notes": "No cannabis use is listed.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "JLMA20",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -5663,8 +4405,8 @@
       "row_label": "raw",
       "column_header": "table"
     },
-    "review": "agree",
-    "confidence": "B",
+    "review": "single",
+    "confidence": "C",
     "preemption": {
       "state_rule_id": "va-utility_generation",
       "effect": "local_standards_capped"
@@ -5708,7 +4450,7 @@
       "row_label": "raw",
       "column_header": "table"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "va-battery_storage",
@@ -5881,60 +4623,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "JLMA3",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Refers to tree canopy for landscaping requirements, not cannabis."
-      }
-    ],
-    "notes": "No cannabis use is listed.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "JLMA3",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -6017,7 +4705,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "va-battery_storage",
@@ -6185,65 +4873,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "MRHI",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Office and Industrial Zoning Districts",
-      "section": "Table 3.02.05-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition for landscaping, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continues the tree canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -6503,65 +5132,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "OP",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Office and Industrial Zoning Districts",
-      "section": "Table 3.02.05-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition for landscaping, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continues the tree canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "OP",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -6817,66 +5387,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDAAAR",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition for landscaping, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continues the tree canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -7143,66 +5653,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "PDCCRC",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition for landscaping, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continues the tree canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDCCRC",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -7298,57 +5748,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "PDCH",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "hazardous materials",
-        "quote": "significant risks due to the involvement of explosives, poisons, pesticides, herbicides, or other hazardous materials in the",
-        "section": "Chapter 12",
-        "reason": "Describes a hazard in a definition. It assigns no status to any district, and PD-CH is not in the code."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "dirt. Waste-related uses do not include uses that receive hazardous wastes from others or that process other than",
-        "section": "Chapter 12",
-        "reason": "Excludes hazardous waste handling from a use definition. It gives no status for PD-CH."
-      }
-    ],
-    "notes": "PD-CH is not in Table 3.01-1 or any use table.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDCH",
     "use_class": "lp_gas",
     "status": "unlisted",
     "local_uses": [],
@@ -7383,189 +5782,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDCH",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition for landscaping, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continues the tree canopy landscaping definition."
-      }
-    ],
-    "notes": "PD-CH is not in Table 3.01-1 or any use table.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDCH",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, greater than 600kWh in nameplate capacity.",
-        "section": "Chapter 12",
-        "reason": "Part of an energy storage definition, not generation. It gives no PD-CH status."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, less than or equal to 600kWh in nameplate capacity. Storage devices",
-        "section": "Chapter 12",
-        "reason": "Part of an energy storage definition, not generation. It gives no PD-CH status."
-      }
-    ],
-    "notes": "PD-CH is not in Table 3.01-1 or any use table.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDCH",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "cluster of component assemblies (battery charging station) designed and intended to transfer Level 2 charging (as",
-        "section": "Chapter 12",
-        "reason": "Defines electric vehicle charging, not grid-scale battery storage."
-      },
-      {
-        "term": "battery",
-        "quote": "grid or other off-board electrical source to a battery or other energy storage device within a vehicle that operates,",
-        "section": "Chapter 12",
-        "reason": "Vehicle battery charging definition, not stand-alone storage."
-      },
-      {
-        "term": "battery",
-        "quote": "inductive means) to a battery or other energy storage device in an electric vehicle.",
-        "section": "Chapter 12",
-        "reason": "Vehicle battery charging definition, not stand-alone storage."
-      },
-      {
-        "term": "energy storage facility",
-        "quote": "Energy Storage Facility: Energy storage equipment or technology that is capable of absorbing energy, storing such",
-        "section": "Chapter 12",
-        "reason": "Defines the use, but the code gives no status for PD-CH because the district is not in the code."
-      }
-    ],
-    "notes": "PD-CH is not in Table 3.01-1 or any use table.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -7803,48 +6019,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "PDMUB",
-    "use_class": "warehouse_distribution",
-    "status": "conditional",
-    "local_uses": [
-      "Wholesale Distribution, Warehousing and Storage"
-    ],
-    "evidence": {
-      "kind": "table",
-      "quote": "Wholesale Distribution, Warehousing and Storage | PD-MUB | S",
-      "section": "Table 3.02.02-1",
-      "row_label": "Wholesale Distribution, Warehousing and Storage",
-      "column_header": "PD-MUB",
-      "symbol": "S"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "row_label": "table",
-      "column_header": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDMUB",
     "use_class": "heavy_industrial_hazmat",
     "status": "prohibited",
     "local_uses": [
@@ -7922,66 +6096,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDMUB",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy attached to a building; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping definition; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement; not cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -8081,114 +6195,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "PDOP",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "computer equipment",
-        "quote": "D. Communication or computer equipment;",
-        "section": "Chapter 12",
-        "reason": "Item in a list of equipment products; not a use regulated in PD-OP."
-      },
-      {
-        "term": "data center",
-        "quote": "Data Center 4.06.02",
-        "section": "Table 3.02.02-1",
-        "reason": "Use row exists, but PD-OP is not a district in Table 3.01-1 or any use table column, so no status is given for it."
-      },
-      {
-        "term": "servers",
-        "quote": "and housing computer and/or network equipment, systems, servers, appliances and other associated components",
-        "section": "Chapter 12",
-        "reason": "Part of another definition; assigns no status to PD-OP."
-      }
-    ],
-    "notes": "Flag: PD-OP does not appear in Table 3.01-1 or in any use table.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDOP",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "hazardous materials",
-        "quote": "significant risks due to the involvement of explosives, poisons, pesticides, herbicides, or other hazardous materials in the",
-        "section": "Chapter 12",
-        "reason": "Definition text; PD-OP has no column in any use table."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "dirt. Waste-related uses do not include uses that receive hazardous wastes from others or that process other than",
-        "section": "Chapter 12",
-        "reason": "Definition exclusion; assigns no status to PD-OP."
-      }
-    ],
-    "notes": "Flag: PD-OP is absent from the use tables.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDOP",
     "use_class": "lp_gas",
     "status": "unlisted",
     "local_uses": [],
@@ -8223,66 +6229,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDOP",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement; not cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -8331,67 +6277,12 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "single",
+    "review": "disputed",
     "confidence": "C",
     "see_case": null,
     "preemption": {
       "state_rule_id": "va-utility_generation",
       "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDOP",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "cluster of component assemblies (battery charging station) designed and intended to transfer Level 2 charging (as",
-        "section": "Chapter 12",
-        "reason": "Electric-vehicle charging definition; not grid-scale storage."
-      },
-      {
-        "term": "energy storage facility",
-        "quote": "Energy Storage Facility: Energy storage equipment or technology that is capable of absorbing energy, storing such",
-        "section": "Chapter 12",
-        "reason": "Definition of the use; PD-OP has no column in any use table, so no status for it."
-      }
-    ],
-    "notes": "Flag: PD-OP is absent from the use tables.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
     }
   },
   {
@@ -8559,66 +6450,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDRDP",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement; not cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -8880,66 +6711,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDRV",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement; not cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -9206,66 +6977,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "PDSA",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Architectural canopy; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy definition; not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement; not cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDSA",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -9361,183 +7072,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "PDSC",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "computer equipment",
-        "quote": "D. Communication or computer equipment;",
-        "section": "Chapter 12",
-        "reason": "List item naming equipment, not a data center use; the code has no district or use table column for PDSC."
-      },
-      {
-        "term": "computer equipment",
-        "quote": "F. Electronic and computer products (including communication or computer equipment);",
-        "section": "Chapter 12",
-        "reason": "List item naming products, not a data center use; the code has no PDSC district."
-      },
-      {
-        "term": "data center",
-        "quote": "Data Center 4.06.02",
-        "section": "Table 3.02.05-1",
-        "reason": "Row exists only in tables of other districts; PDSC has no column in any use table."
-      },
-      {
-        "term": "servers",
-        "quote": "and housing computer and/or network equipment, systems, servers, appliances and other associated components",
-        "section": "Chapter 12",
-        "reason": "Definition of a use, but PDSC is not a district in the code, so it assigns no status."
-      }
-    ],
-    "notes": "PDSC does not appear in Table 3.01-1 or any use table. Flagged: district missing from the code. Sec. 3.01.G.3 makes unlisted uses not permitted without a text amendment.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDSC",
-    "use_class": "warehouse_distribution",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "distribution center",
-        "quote": "not a wholesale distribution center.",
-        "section": "Chapter 12",
-        "reason": "Phrase in a definition that excludes the use; PDSC has no use table column."
-      },
-      {
-        "term": "fulfillment center",
-        "quote": "H. Fulfillment centers that combine storage with call centers;",
-        "section": "Chapter 12",
-        "reason": "List item within another definition; the code has no PDSC district."
-      },
-      {
-        "term": "storage of goods",
-        "quote": "entertainment for consumers. Accessory uses include offices, storage of goods, outdoor storage, parking, accessory",
-        "section": "Chapter 12",
-        "reason": "Accessory use of another use category; PDSC has no use table column."
-      },
-      {
-        "term": "storage of goods",
-        "quote": "Warehousing Facility: A building used primarily for the holding or storage of goods and merchandise. A mini-",
-        "section": "Chapter 12",
-        "reason": "Definition applies only to districts with a use table column; PDSC has none."
-      }
-    ],
-    "notes": "PDSC does not appear in any use table. Flagged: district missing from the code.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDSC",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "hazardous materials",
-        "quote": "significant risks due to the involvement of explosives, poisons, pesticides, herbicides, or other hazardous materials in the",
-        "section": "Chapter 12",
-        "reason": "Definition text of a use; PDSC is not a district in the code and has no use table column."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "dirt. Waste-related uses do not include uses that receive hazardous wastes from others or that process other than",
-        "section": "Chapter 12",
-        "reason": "Excludes hazardous-waste uses from the waste-related definition; assigns no status to PDSC."
-      }
-    ],
-    "notes": "PDSC does not appear in any use table. Flagged: district missing from the code.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDSC",
     "use_class": "lp_gas",
     "status": "unlisted",
     "local_uses": [],
@@ -9572,61 +7106,6 @@
     "review": "agree",
     "confidence": "C",
     "see_case": null
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDSC",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Structural canopy, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree Canopy definition for landscaping; unrelated to cannabis."
-      }
-    ],
-    "notes": "PDSC is not in the code. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -9675,119 +7154,13 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "single",
+    "review": "disputed",
     "confidence": "C",
     "see_case": null,
     "preemption": {
       "state_rule_id": "va-utility_generation",
       "effect": "local_standards_capped"
     }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PDSC",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "cluster of component assemblies (battery charging station) designed and intended to transfer Level 2 charging (as",
-        "section": "Chapter 12",
-        "reason": "Electric vehicle charging definition, not grid-scale storage."
-      },
-      {
-        "term": "energy storage facility",
-        "quote": "Energy Storage Facility: Energy storage equipment or technology that is capable of absorbing energy, storing such",
-        "section": "Chapter 12",
-        "reason": "Defines the use, but PDSC has no use table column, so no status is assigned."
-      }
-    ],
-    "notes": "PDSC is not in the code. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PUD-1",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "hazardous materials",
-        "quote": "significant risks due to the involvement of explosives, poisons, pesticides, herbicides, or other hazardous materials in the",
-        "section": "Chapter 12",
-        "reason": "Definition text of a use; PUD-1 is not a district in the code and has no use table column."
-      },
-      {
-        "term": "hazardous waste",
-        "quote": "dirt. Waste-related uses do not include uses that receive hazardous wastes from others or that process other than",
-        "section": "Chapter 12",
-        "reason": "Excludes hazardous-waste uses from the waste-related definition; assigns no status to PUD-1."
-      }
-    ],
-    "notes": "PUD-1 does not appear in any use table. Flagged: district missing from the code.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null
   },
   {
     "jurisdiction_id": "us-51107",
@@ -9830,61 +7203,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "PUD-1",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Structural canopy, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree Canopy definition for landscaping; unrelated to cannabis."
-      }
-    ],
-    "notes": "PUD-1 is not in the code. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PUD-1",
     "use_class": "utility_generation",
     "status": "unlisted",
     "local_uses": [],
@@ -9935,61 +7253,6 @@
     "preemption": {
       "state_rule_id": "va-utility_generation",
       "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "PUD-1",
-    "use_class": "battery_storage",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Table 3.01-1. Use Regulations",
-      "section": "Table 3.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "battery",
-        "quote": "cluster of component assemblies (battery charging station) designed and intended to transfer Level 2 charging (as",
-        "section": "Chapter 12",
-        "reason": "Electric vehicle charging definition, not grid-scale storage."
-      },
-      {
-        "term": "energy storage facility",
-        "quote": "Energy Storage Facility: Energy storage equipment or technology that is capable of absorbing energy, storing such",
-        "section": "Chapter 12",
-        "reason": "Defines the use, but PUD-1 has no use table column, so no status is assigned."
-      }
-    ],
-    "notes": "PUD-1 is not in the code. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
     }
   },
   {
@@ -10155,60 +7418,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "R1",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree Canopy definition for landscaping; unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis use is listed. Sec. 3.01.G.3 makes unlisted uses not permitted without a text amendment.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -10470,60 +7679,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "R16",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree Canopy definition for landscaping; unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis use is listed. Sec. 3.01.G.3 makes unlisted uses not permitted without a text amendment.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "R16",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -10777,60 +7932,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "R2",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree Canopy definition for landscaping; unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis use is listed. Sec. 3.01.G.3 makes unlisted uses not permitted without a text amendment.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -11091,66 +8192,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "R24",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree cover for landscaping; unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping requirement; unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis or marijuana use in the table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "R24",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -11403,66 +8444,6 @@
     },
     "review": "single",
     "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "R3",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree cover for landscaping; unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping requirement; unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis or marijuana use in the table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -11723,66 +8704,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "R4",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree cover for landscaping; unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping requirement; unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis or marijuana use in the table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "R4",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -12035,66 +8956,6 @@
     },
     "review": "single",
     "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "R8",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Suburban Zoning Districts",
-      "section": "Table 3.02.02-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree cover for landscaping; unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping requirement; unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis or marijuana use in the table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -12355,66 +9216,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "RC",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Defines tree cover for landscaping; unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping requirement; unrelated to cannabis."
-      }
-    ],
-    "notes": "No cannabis or marijuana use in the table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "RC",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -12667,65 +9468,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "SCN16",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Urban and Suburban Zoning Districts",
-      "section": "Table 3.02.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building awning-type structure, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree cover measure for landscaping, unrelated to cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -12986,65 +9728,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "SCN24",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Urban and Suburban Zoning Districts",
-      "section": "Table 3.02.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building awning-type structure, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree cover measure for landscaping, unrelated to cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "SCN24",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -13297,65 +9980,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "SCN8",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Urban and Suburban Zoning Districts",
-      "section": "Table 3.02.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building awning-type structure, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree cover measure for landscaping, unrelated to cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -13616,65 +10240,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "TC",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Urban and Suburban Zoning Districts",
-      "section": "Table 3.02.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building awning-type structure, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree cover measure for landscaping, unrelated to cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TC",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -13931,65 +10496,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "TR10",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building awning-type structure, not cannabis growing."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree cover measure for landscaping, unrelated to cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Continuation of the Tree Canopy landscaping definition."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR10",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -14073,7 +10579,7 @@
       "row_label": "raw",
       "column_header": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "preemption": {
       "state_rule_id": "va-battery_storage",
@@ -14242,65 +10748,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1LF",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -14557,65 +11004,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR1UBF",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -14876,65 +11264,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "TR2",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Legacy Transition, Rural, and JLMA Zoning Districts",
-      "section": "Table 3.02.04-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR2",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -15191,65 +11520,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "TR3LBR",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LBR",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -15502,65 +11772,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3LF",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a building canopy structure, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree canopy landscaping definition, unrelated to cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -15821,65 +12032,6 @@
   {
     "jurisdiction_id": "us-51107",
     "district_code": "TR3UBF",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Transition, Rural, and Joint Land Management Area (JLMA) Zoning Districts",
-      "section": "Table 3.02.03-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree cover definition, unrelated to cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Landscape tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TR3UBF",
     "use_class": "utility_generation",
     "status": "prohibited",
     "local_uses": [
@@ -16086,65 +12238,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "TRC",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "Principal Use Table for Urban and Suburban Zoning Districts",
-      "section": "Table 3.02.01-1"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "canopy",
-        "quote": "canopy that is attached to a building.",
-        "section": "Chapter 12",
-        "reason": "Refers to a structural canopy attached to a building, not cannabis."
-      },
-      {
-        "term": "canopy",
-        "quote": "Tree Canopy: The area projected to be directly beneath the crown and within the dripline of a given tree species after a",
-        "section": "Chapter 12",
-        "reason": "Tree cover definition, unrelated to cannabis cultivation."
-      },
-      {
-        "term": "canopy",
-        "quote": "10-year or 20-year growing period that is counted to fulfill canopy requirements.",
-        "section": "Chapter 12",
-        "reason": "Landscape tree canopy requirement, unrelated to cannabis."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
   },
   {
     "jurisdiction_id": "us-51107",

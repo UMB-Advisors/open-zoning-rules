@@ -1,0 +1,330 @@
+{
+  "jurisdiction_id": "us-5183136",
+  "run_id": "grade-us-5183136-20261011T110853Z",
+  "withheld": [
+    {
+      "key": "us-5183136/C/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/C/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/C/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/C/datacenter",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-5183136-20261011T110853Z"
+    },
+    {
+      "key": "us-5183136/C/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/C/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 1 are not explained",
+        "us-5183136/C/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/CBD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/CBD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/CBD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/CBD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/CBD/datacenter",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-5183136-20261011T110853Z"
+    },
+    {
+      "key": "us-5183136/CBD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/CBD/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 1 are not explained",
+        "us-5183136/CBD/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/I/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/I/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/I/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/I/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/I/datacenter",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-5183136-20261011T110853Z"
+    },
+    {
+      "key": "us-5183136/PSP/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/PSP/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/PSP/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/PSP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/PSP/datacenter",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-5183136-20261011T110853Z"
+    },
+    {
+      "key": "us-5183136/PSP/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/PSP/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 1 are not explained",
+        "us-5183136/PSP/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/PUD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/PUD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/PUD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/PUD/datacenter",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-5183136-20261011T110853Z"
+    },
+    {
+      "key": "us-5183136/PUD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/PUD/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 1 are not explained",
+        "us-5183136/PUD/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/Planned Residential Developmen/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/Planned Residential Developmen/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/Planned Residential Developmen/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/Planned Residential Developmen/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/Planned Residential Developmen/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/Planned Residential Developmen/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-10/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-10/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-10/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-10/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-10/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-10/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-15/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-15/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-15/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-15/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-15/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-15/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-6/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-6/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-6/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-6/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/R-6/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/R-6/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RMF/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RMF/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RMF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RMF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RMF/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RMF/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RO/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RO/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RO/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RO/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RO/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RO/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RT/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RT/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RT/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RT/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "key": "us-5183136/RT/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-5183136/RT/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    }
+  ]
+}

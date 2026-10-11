@@ -4,30 +4,30 @@
   "reliance_notice": "This is a research dataset, not a legal determination. Before relying on any answer, at every grade, get a zoning verification letter or use determination from the planning department, or a land-use attorney or planner.",
   "counts": {
     "universe": 910,
-    "gold": 469,
-    "disputed": 76,
-    "reviewer_missing": 365
+    "gold": 352,
+    "disputed": 19,
+    "reviewer_missing": 539
   },
-  "listed_agreement": 0.9736842105263158,
-  "unlisted_recall": 0.946058091286307,
+  "listed_agreement": 0.9723502304147466,
+  "unlisted_recall": 0.9851851851851852,
   "unlisted_precision": 1.0,
-  "disputed_share": 0.08351648351648351,
+  "disputed_share": 0.020879120879120878,
   "gold_counts": {
     "permitted": 18,
-    "conditional": 16,
-    "prohibited": 194,
-    "unlisted": 241
+    "conditional": 14,
+    "prohibited": 185,
+    "unlisted": 135
   },
-  "lower_bound": 0.8256880733944955,
-  "kappa": 0.7592742193266421,
+  "lower_bound": 0.9272237196765498,
+  "kappa": 0.9118676702258006,
   "gates": {
     "listed_agreement": {
-      "value": 0.9736842105263158,
+      "value": 0.9723502304147466,
       "threshold": 0.9,
       "result": "insufficient data"
     },
     "unlisted_recall": {
-      "value": 0.946058091286307,
+      "value": 0.9851851851851852,
       "threshold": 0.85,
       "result": "pass"
     },
@@ -37,7 +37,7 @@
       "result": "pass"
     },
     "disputed_share": {
-      "value": 0.08351648351648351,
+      "value": 0.020879120879120878,
       "threshold": 0.15,
       "result": "pass"
     }
@@ -46,9 +46,9 @@
     "us-5183136": {
       "counts": {
         "universe": 84,
-        "gold": 59,
+        "gold": 35,
         "disputed": 1,
-        "reviewer_missing": 24
+        "reviewer_missing": 48
       },
       "listed_agreement": null,
       "unlisted_recall": 1.0,
@@ -70,95 +70,95 @@
     "us-12069": {
       "counts": {
         "universe": 154,
-        "gold": 69,
-        "disputed": 2,
-        "reviewer_missing": 83
+        "gold": 60,
+        "disputed": 0,
+        "reviewer_missing": 94
       },
       "listed_agreement": 1.0,
-      "unlisted_recall": 0.9622641509433962,
+      "unlisted_recall": 0.9545454545454546,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.012987012987012988
+      "disputed_share": 0.0
     },
     "us-51107": {
       "counts": {
         "universe": 399,
-        "gold": 247,
-        "disputed": 13,
-        "reviewer_missing": 139
+        "gold": 194,
+        "disputed": 3,
+        "reviewer_missing": 202
       },
-      "listed_agreement": 0.9631901840490797,
+      "listed_agreement": 0.9605263157894737,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.03258145363408521
+      "disputed_share": 0.007518796992481203
     },
     "us-13097": {
       "counts": {
         "universe": 175,
-        "gold": 77,
-        "disputed": 51,
-        "reviewer_missing": 47
+        "gold": 46,
+        "disputed": 6,
+        "reviewer_missing": 123
       },
       "listed_agreement": 1.0,
-      "unlisted_recall": 0.6451612903225806,
-      "unlisted_precision": 1.0,
-      "disputed_share": 0.2914285714285714
+      "unlisted_recall": null,
+      "unlisted_precision": null,
+      "disputed_share": 0.03428571428571429
     }
   },
   "by_family": {
     "PD": {
       "counts": {
         "universe": 168,
-        "gold": 50,
-        "disputed": 4,
-        "reviewer_missing": 114
+        "gold": 33,
+        "disputed": 1,
+        "reviewer_missing": 134
       },
       "listed_agreement": 1.0,
-      "unlisted_recall": 0.9,
+      "unlisted_recall": 0.9565217391304348,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.023809523809523808
+      "disputed_share": 0.005952380952380952
     },
     "agricultural": {
       "counts": {
         "universe": 77,
-        "gold": 48,
-        "disputed": 11,
-        "reviewer_missing": 18
+        "gold": 35,
+        "disputed": 1,
+        "reviewer_missing": 41
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.14285714285714285
+      "disputed_share": 0.012987012987012988
     },
     "commercial": {
       "counts": {
         "universe": 126,
-        "gold": 79,
-        "disputed": 9,
-        "reviewer_missing": 38
+        "gold": 65,
+        "disputed": 0,
+        "reviewer_missing": 61
       },
       "listed_agreement": 0.9333333333333333,
       "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.07142857142857142
+      "disputed_share": 0.0
     },
     "industrial": {
       "counts": {
         "universe": 112,
-        "gold": 49,
-        "disputed": 20,
-        "reviewer_missing": 43
+        "gold": 35,
+        "disputed": 11,
+        "reviewer_missing": 66
       },
       "listed_agreement": 1.0,
-      "unlisted_recall": 0.7916666666666666,
+      "unlisted_recall": 0.9166666666666666,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.17857142857142858
+      "disputed_share": 0.09821428571428571
     },
     "mixed": {
       "counts": {
         "universe": 14,
-        "gold": 12,
+        "gold": 9,
         "disputed": 0,
-        "reviewer_missing": 2
+        "reviewer_missing": 5
       },
       "listed_agreement": 1.0,
       "unlisted_recall": 1.0,
@@ -168,32 +168,32 @@
     "other": {
       "counts": {
         "universe": 63,
-        "gold": 30,
-        "disputed": 7,
-        "reviewer_missing": 26
+        "gold": 23,
+        "disputed": 0,
+        "reviewer_missing": 40
       },
       "listed_agreement": 1.0,
-      "unlisted_recall": 0.9,
+      "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.1111111111111111
+      "disputed_share": 0.0
     },
     "residential": {
       "counts": {
         "universe": 350,
-        "gold": 201,
-        "disputed": 25,
-        "reviewer_missing": 124
+        "gold": 152,
+        "disputed": 6,
+        "reviewer_missing": 192
       },
       "listed_agreement": 0.9680851063829787,
-      "unlisted_recall": 0.9719626168224299,
+      "unlisted_recall": 1.0,
       "unlisted_precision": 1.0,
-      "disputed_share": 0.07142857142857142
+      "disputed_share": 0.017142857142857144
     }
   },
   "gate_rejection_rate": {
-    "extractor": 0.04945054945054945,
-    "codex": 0.23846153846153847,
-    "grok": 0.2621468926553672
+    "extractor": 0.3516483516483517,
+    "codex": 0.3879120879120879,
+    "grok": 0.4994350282485876
   },
   "known_answers": [
     {
@@ -201,6 +201,7 @@
       "expected_status": "conditional",
       "source_text_status": "permitted",
       "extractor_status": "conditional",
+      "published_status": "conditional",
       "match_expected": true,
       "match_source_text": false
     },
@@ -209,6 +210,7 @@
       "expected_status": "conditional",
       "source_text_status": "permitted",
       "extractor_status": "conditional",
+      "published_status": "conditional",
       "match_expected": true,
       "match_source_text": false
     },
@@ -217,6 +219,7 @@
       "expected_status": "conditional",
       "source_text_status": "permitted",
       "extractor_status": "permitted",
+      "published_status": "permitted",
       "match_expected": false,
       "match_source_text": true
     },
@@ -224,8 +227,9 @@
       "id": "pittsylvania-m-2-datacenter",
       "expected_status": "conditional",
       "source_text_status": null,
-      "extractor_status": "unlisted",
-      "match_expected": false,
+      "extractor_status": null,
+      "published_status": null,
+      "match_expected": null,
       "match_source_text": null
     },
     {
@@ -233,6 +237,7 @@
       "expected_status": "permitted",
       "source_text_status": null,
       "extractor_status": "permitted",
+      "published_status": "permitted",
       "match_expected": true,
       "match_source_text": null
     },
@@ -241,6 +246,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "unlisted",
+      "published_status": null,
       "match_expected": false,
       "match_source_text": null
     },
@@ -248,8 +254,9 @@
       "id": "douglas-oi-datacenter",
       "expected_status": "conditional",
       "source_text_status": null,
-      "extractor_status": "prohibited",
-      "match_expected": false,
+      "extractor_status": null,
+      "published_status": null,
+      "match_expected": null,
       "match_source_text": null
     },
     {
@@ -257,6 +264,7 @@
       "expected_status": "conditional",
       "source_text_status": null,
       "extractor_status": "conditional",
+      "published_status": "conditional",
       "match_expected": true,
       "match_source_text": null
     },
@@ -265,6 +273,7 @@
       "expected_status": "conditional",
       "source_text_status": null,
       "extractor_status": "conditional",
+      "published_status": "conditional",
       "match_expected": true,
       "match_source_text": null
     },
@@ -273,6 +282,7 @@
       "expected_status": "conditional",
       "source_text_status": null,
       "extractor_status": "conditional",
+      "published_status": "conditional",
       "match_expected": true,
       "match_source_text": null
     },
@@ -281,6 +291,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -289,6 +300,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -297,6 +309,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -305,6 +318,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -313,6 +327,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -321,6 +336,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -329,6 +345,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -337,6 +354,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -344,8 +362,9 @@
       "id": "douglas-c-h-datacenter",
       "expected_status": "prohibited",
       "source_text_status": null,
-      "extractor_status": "conditional",
-      "match_expected": false,
+      "extractor_status": null,
+      "published_status": null,
+      "match_expected": null,
       "match_source_text": null
     },
     {
@@ -353,6 +372,7 @@
       "expected_status": "prohibited",
       "source_text_status": null,
       "extractor_status": "prohibited",
+      "published_status": "prohibited",
       "match_expected": true,
       "match_source_text": null
     },
@@ -361,16 +381,38 @@
       "expected_status": "unlisted",
       "source_text_status": null,
       "extractor_status": null,
+      "published_status": null,
       "match_expected": null,
       "match_source_text": null
     }
   ],
   "known_answer_misses": [
     {
+      "id": "loudoun-mrhi-datacenter",
+      "expected_status": "conditional",
+      "source_text_status": "permitted",
+      "extractor_status": "permitted",
+      "published_status": "permitted",
+      "match_expected": false,
+      "match_source_text": true
+    },
+    {
+      "id": "warrenton-i-datacenter",
+      "expected_status": "prohibited",
+      "source_text_status": null,
+      "extractor_status": "unlisted",
+      "published_status": null,
+      "match_expected": false,
+      "match_source_text": null
+    }
+  ],
+  "known_answer_source_text_differences": [
+    {
       "id": "loudoun-ip-datacenter",
       "expected_status": "conditional",
       "source_text_status": "permitted",
       "extractor_status": "conditional",
+      "published_status": "conditional",
       "match_expected": true,
       "match_source_text": false
     },
@@ -379,48 +421,9 @@
       "expected_status": "conditional",
       "source_text_status": "permitted",
       "extractor_status": "conditional",
+      "published_status": "conditional",
       "match_expected": true,
       "match_source_text": false
-    },
-    {
-      "id": "loudoun-mrhi-datacenter",
-      "expected_status": "conditional",
-      "source_text_status": "permitted",
-      "extractor_status": "permitted",
-      "match_expected": false,
-      "match_source_text": true
-    },
-    {
-      "id": "pittsylvania-m-2-datacenter",
-      "expected_status": "conditional",
-      "source_text_status": null,
-      "extractor_status": "unlisted",
-      "match_expected": false,
-      "match_source_text": null
-    },
-    {
-      "id": "warrenton-i-datacenter",
-      "expected_status": "prohibited",
-      "source_text_status": null,
-      "extractor_status": "unlisted",
-      "match_expected": false,
-      "match_source_text": null
-    },
-    {
-      "id": "douglas-oi-datacenter",
-      "expected_status": "conditional",
-      "source_text_status": null,
-      "extractor_status": "prohibited",
-      "match_expected": false,
-      "match_source_text": null
-    },
-    {
-      "id": "douglas-c-h-datacenter",
-      "expected_status": "prohibited",
-      "source_text_status": null,
-      "extractor_status": "conditional",
-      "match_expected": false,
-      "match_source_text": null
     }
   ],
   "mutation": {

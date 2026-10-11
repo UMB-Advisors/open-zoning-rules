@@ -2825,9 +2825,11 @@
         "notes": "Sec. 35-179 is headed Special Use Permits, but that enumeration is not in the ordinance text available here. Warehousing and Distribution names data centers as typical uses, and that use is not in the A-1 permitted list. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/A-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-51143/A-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/A-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 28 are not explained",
+        "us-51143/A-1/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2929,10 +2931,12 @@
         "notes": "The A-1 special-use enumeration under Sec. 35-179 is not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/A-1/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/A-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/A-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/A-1/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/A-1/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/A-1/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3034,9 +3038,11 @@
         "notes": "Portable and temporary sawmills in Sec. 35-178 are not heavy chemical, petroleum, or hazmat industry. The A-1 special-use list is not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3078,8 +3084,10 @@
         "notes": "The A-1 special-use enumeration is not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/A-1/lp_gas: absence gate: 'LP gas' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/lp_gas: absence gate: 'LP gas' occurs 2 times in the code and 2 are not explained",
+        "us-51143/A-1/lp_gas: absence gate: 'LP-gas' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3199,11 +3207,14 @@
         "notes": "The text available does not say stand-alone battery storage is allowed only as an accessory, so this cell is unlisted rather than prohibited. Sec. 35-179's enumeration is not in the text available here."
       },
       "errors": [
-        "us-51143/A-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/A-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/A-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/A-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 30 are not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 18 are not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3293,9 +3304,11 @@
         "notes": "SEC. 35-347 continues after Assembly halls on pages that are not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/B-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-51143/B-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 28 are not explained",
+        "us-51143/B-1/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3397,10 +3410,12 @@
         "notes": "B-1 purpose text says the district is limited to retail without outside storage, but the permitted list also names non-retail uses, so that sentence is not treated as an express ban. The rest of SEC. 35-347 is not in the text available here."
       },
       "errors": [
-        "us-51143/B-1/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/B-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/B-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/B-1/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-1/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-1/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3502,9 +3517,11 @@
         "notes": "The remainder of the B-1 special-use list is not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3546,8 +3563,10 @@
         "notes": "SEC. 35-347 is only partly printed. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/B-1/lp_gas: absence gate: 'LP gas' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/lp_gas: absence gate: 'LP gas' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-1/lp_gas: absence gate: 'LP-gas' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3667,11 +3686,14 @@
         "notes": "Available text does not say stand-alone systems are allowed only as accessory. The rest of SEC. 35-347 is not in the text available here."
       },
       "errors": [
-        "us-51143/B-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/B-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/B-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/B-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 30 are not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 18 are not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3761,9 +3783,11 @@
         "notes": "The B-2 permitted-use and special-use enumerations under SEC. 35-365 and SEC. 35-366 are not in the ordinance text available here, so this cell is not a finding that those enumerations omit the use. No available sentence places Data Center in B-2. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/B-2/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-51143/B-2/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-2/datacenter: absence gate: 'data center' occurs 33 times in the code and 28 are not explained",
+        "us-51143/B-2/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3865,10 +3889,12 @@
         "notes": "B-2 use enumerations are not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/B-2/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/B-2/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/B-2/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/B-2/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-2/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-2/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3970,9 +3996,11 @@
         "notes": "B-2 use enumerations are not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4014,8 +4042,10 @@
         "notes": "B-2 use enumerations are not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/B-2/lp_gas: absence gate: 'LP gas' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/lp_gas: absence gate: 'LP gas' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-2/lp_gas: absence gate: 'LP-gas' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4135,11 +4165,14 @@
         "notes": "B-2 use enumerations are not in the text available here. The accessory solar section is not treated as an only-accessory ban on stand-alone systems because the text does not say that."
       },
       "errors": [
-        "us-51143/B-2/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/B-2/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/B-2/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/B-2/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'battery' occurs 34 times in the code and 30 are not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 18 are not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4229,9 +4262,11 @@
         "notes": "The C-1 permitted uses (§ 35-530) and special use permit text (§ 35-531) are not in the ordinance text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/C-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-51143/C-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/C-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 28 are not explained",
+        "us-51143/C-1/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4333,10 +4368,12 @@
         "notes": "C-1 use enumerations are not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/C-1/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/C-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/C-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/C-1/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/C-1/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/C-1/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4438,9 +4475,11 @@
         "notes": "C-1 use enumerations are not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4482,8 +4521,10 @@
         "notes": "C-1 use enumerations are not in the text available here. SEC. 35-48 does not change this unlisted cell to prohibited."
       },
       "errors": [
-        "us-51143/C-1/lp_gas: absence gate: 'LP gas' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/lp_gas: absence gate: 'LP gas' occurs 2 times in the code and 2 are not explained",
+        "us-51143/C-1/lp_gas: absence gate: 'LP-gas' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4603,11 +4644,14 @@
         "notes": "C-1 use enumerations are not in the text available here. Accessory-to-solar regulation is not coded as an express stand-alone prohibition."
       },
       "errors": [
-        "us-51143/C-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/C-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/C-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/C-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 30 are not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 18 are not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4697,9 +4741,11 @@
         "notes": "SEC. 35-170 divides the county into A-1, RE, R-1, RC-1, RMF, RPD, MHP, B-1, B-2, M-1, M-2, C-1, and M-SVMS. Double-Zoned is not among them."
       },
       "errors": [
-        "us-51143/DZ/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-51143/DZ/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/DZ/datacenter: absence gate: 'data center' occurs 33 times in the code and 28 are not explained",
+        "us-51143/DZ/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4801,10 +4847,12 @@
         "notes": "SEC. 35-170 does not establish DZ. Each parcel has one classification under SEC. 35-47."
       },
       "errors": [
-        "us-51143/DZ/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/DZ/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/DZ/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/DZ/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/DZ/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/DZ/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4906,9 +4954,11 @@
         "notes": "Heavy industry permissions in the text are for M-2. DZ is not established in SEC. 35-170."
       },
       "errors": [
-        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4950,8 +5000,10 @@
         "notes": "DZ is not an established zoning district."
       },
       "errors": [
-        "us-51143/DZ/lp_gas: absence gate: 'LP gas' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/lp_gas: absence gate: 'LP gas' occurs 2 times in the code and 2 are not explained",
+        "us-51143/DZ/lp_gas: absence gate: 'LP-gas' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -5083,10 +5135,12 @@
         "notes": "Utility-scale solar requires a special use permit unless permitted by right under SEC. 35-141. That rule is not applied here because SEC. 35-170 does not establish a Double-Zoned district."
       },
       "errors": [
-        "us-51143/DZ/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-51143/DZ/utility_generation: absence gate: 'power plant' occurs in the code and is not explained",
-        "us-51143/DZ/utility_generation: absence gate: 'power station' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/utility_generation: absence gate: 'megawatt' occurs 19 times in the code and 19 are not explained",
+        "us-51143/DZ/utility_generation: absence gate: 'power plant' occurs 1 times in the code and 1 are not explained",
+        "us-51143/DZ/utility_generation: absence gate: 'power station' occurs 19 times in the code and 19 are not explained",
+        "us-51143/DZ/utility_generation: absence gate: 'solar energy facility' occurs 36 times in the code and 35 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -5206,11 +5260,14 @@
         "notes": "SEC. 35-170 does not establish a Double-Zoned district. Stand-alone battery storage is not given a DZ status."
       },
       "errors": [
-        "us-51143/DZ/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/DZ/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/DZ/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/DZ/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'battery' occurs 34 times in the code and 30 are not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 18 are not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     }
   ],
   "missing": [
@@ -5318,5 +5375,9 @@
       "DZ",
       "battery_storage"
     ]
-  ]
+  ],
+  "regate": {
+    "run_id": "regate-us-51143-20261011T102457Z",
+    "at": "2026-10-11T10:24:57Z"
+  }
 }
