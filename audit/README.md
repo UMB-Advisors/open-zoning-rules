@@ -4,7 +4,9 @@
 
 The Z0.8 gate fixes withheld 17 of the v0.1.0 cells, so `z0_audit_sheet.v0.2.0.csv` was drawn from the new published set with the same sampler and seed.
 
-**Use `z0_audit_sheet.v0.3.0.csv`.** Z0.9 added a sixth jurisdiction, us-51061 (Fauquier County), which changes the strata (status by jurisdiction), so v0.3.0 was drawn from the six jurisdictions' published cells with the same sampler and seed. 49 of its 60 rows are also in v0.2.0 and 11 are Fauquier rows. All three files are frozen; label only v0.3.0.
+`z0_audit_sheet.v0.3.0.csv` was drawn for Z0.9. Z0.9 added a sixth jurisdiction, us-51061 (Fauquier County), which changes the strata (status by jurisdiction), so v0.3.0 was drawn from the six jurisdictions' published cells with the same sampler and seed. 49 of its 60 rows are also in v0.2.0 and 11 are Fauquier rows.
+
+**Use `z0_audit_sheet.v0.4.0.csv`.** The Z0.10 review fixes withheld 77 published cells, and us-12069 no longer has a published `permitted` cell, which changes the strata. v0.4.0 was drawn from the new published set with the same sampler and seed. 45 of its 60 rows are also in v0.3.0. All four files are frozen; label only v0.4.0.
 
 ## Label from the source first
 
