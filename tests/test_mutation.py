@@ -6,8 +6,10 @@ import json
 import random
 from pathlib import Path
 
+import pytest
+from ozr.gates import TABLE_TEXT_MARKER
 from ozr.models import ModelResult
-from ozr.mutation import SYMBOLS, flip_map, mutate, run
+from ozr.mutation import SYMBOLS, _copy_root, _replace_pages, flip_map, mutate, run
 
 
 def test_mutate_is_seeded_and_leaves_prose_symbols_alone() -> None:
@@ -130,6 +132,36 @@ def _response(status: str, conditional_symbol: str = "SE") -> ModelResult:
         0.0,
         {},
     )
+
+
+def test_run_mirrors_flips_into_both_text_layers(tiny_root: Path) -> None:
+    _mutation_root(tiny_root)
+    raw_page = "Sec. 4-2\nWarehouse | I-1 | P"
+    table_page = "Warehouse | P"
+    segment_path = tiny_root / "cache" / "segments" / "us-00000" / "use_table-us-00000-zo.txt"
+    segment_path.write_text(
+        "=== us-00000-zo page 1 ===\n" + raw_page + "\n\n[reconstructed table text]\n" + table_page,
+        encoding="utf-8",
+    )
+    source_path = tiny_root / "cache" / "text" / "us-00000-zo.txt"
+    source_path.write_text(raw_page + TABLE_TEXT_MARKER + "[page 1]\n" + table_page, encoding="utf-8")
+
+    target = tiny_root / "target"
+    _copy_root(tiny_root, target, "us-00000")
+    _replace_pages(tiny_root, target, "us-00000", random.Random(0), 2, targets={"Warehouse"})
+
+    mutated_source = (target / "cache" / "text" / "us-00000-zo.txt").read_text(encoding="utf-8")
+    raw_layer, table_layer = mutated_source.split(TABLE_TEXT_MARKER)
+    assert raw_layer == "Sec. 4-2\nWarehouse | I-1 | SE"
+    assert table_layer == "[page 1]\nWarehouse | SE"
+    assert len(mutated_source.split(TABLE_TEXT_MARKER)) == 2
+
+    missing_table_target = tiny_root / "missing-table-target"
+    _copy_root(tiny_root, missing_table_target, "us-00000")
+    missing_source = missing_table_target / "cache" / "text" / "us-00000-zo.txt"
+    missing_source.write_text(raw_page, encoding="utf-8")
+    with pytest.raises(ValueError, match="source us-00000-zo page 1"):
+        _replace_pages(tiny_root, missing_table_target, "us-00000", random.Random(0), 2, targets={"Warehouse"})
 
 
 def test_run_detects_an_extractor_that_reads_the_mutated_symbol(tiny_root: Path) -> None:

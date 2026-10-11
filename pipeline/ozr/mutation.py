@@ -13,12 +13,14 @@ from pathlib import Path
 from typing import Any
 
 from ozr.common import append_run, read_json, write_json
+from ozr.gates import TABLE_TEXT_MARKER
 from ozr.labels import label_jurisdiction
 from ozr.models import run_claude
 
 SYMBOLS = {"P": "SE", "SE": "P", "C": "P", "S": "P", "CU": "P", "SUP": "P", "X": "P", "PS": "SE"}
 _TOKEN = re.compile(r"(?<![\w.])(?:P|SE|C|S|CU|SUP|X|PS)(?![\w.])")
 _MARKER = re.compile(r"^=== (?P<source>.+) page (?P<page>\d+) ===\n", re.MULTILINE)
+_RECONSTRUCTED_TABLE_TEXT_SEPARATOR = "\n\n[reconstructed table text]\n"
 
 
 def _row(line: str) -> bool:
@@ -151,9 +153,22 @@ def _replace_pages(
             new_page = mutated[new_marker.end() : new_end].strip()
             source_path = target / "cache" / "text" / f"{marker.group('source')}.txt"
             if source_path.is_file():
-                source_path.write_text(
-                    source_path.read_text(encoding="utf-8").replace(old_page, new_page, 1), encoding="utf-8"
-                )
+                source_text = source_path.read_text(encoding="utf-8")
+                raw_layer, table_marker, table_layer = source_text.partition(TABLE_TEXT_MARKER)
+                old_raw, _, old_table = old_page.partition(_RECONSTRUCTED_TABLE_TEXT_SEPARATOR)
+                new_raw, _, new_table = new_page.partition(_RECONSTRUCTED_TABLE_TEXT_SEPARATOR)
+                source_id, page = marker.group("source"), marker.group("page")
+                if old_raw != new_raw:
+                    if old_raw not in raw_layer:
+                        raise ValueError(f"raw text not found for source {source_id} page {page}")
+                    raw_layer = raw_layer.replace(old_raw, new_raw, 1)
+                if old_table != new_table:
+                    old_table_block = f"[page {page}]\n{old_table}"
+                    new_table_block = f"[page {page}]\n{new_table}"
+                    if old_table_block not in table_layer:
+                        raise ValueError(f"table text not found for source {source_id} page {page}")
+                    table_layer = table_layer.replace(old_table_block, new_table_block, 1)
+                source_path.write_text(raw_layer + table_marker + table_layer, encoding="utf-8")
     return flips, symbols
 
 
