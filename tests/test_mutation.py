@@ -73,14 +73,15 @@ def test_mutate_leaves_dotted_citations_alone() -> None:
 def _mutation_root(tiny_root: Path, filler_rows: int = 0, conditional_symbol: str = "SE") -> Path:
     base = tiny_root / "jurisdictions" / "us-00000"
     filler = "".join(f"Filler{index} | P | {conditional_symbol} | P\n" for index in range(filler_rows))
-    text = "Sec. 4-2\n" + filler + "Warehouse | I-1 | P\n"
-    segment = "=== us-00000-zo page 1 ===\n" + text
+    table = "Use | I-1 | I-2 | I-3\n" + filler + "Warehouse | P | P | P\n"
+    raw = "Sec. 4-2\nSec. 4-3\nAny use not listed in Table 4-2 is prohibited.\n"
+    segment = "=== us-00000-zo page 1 ===\n" + raw + "\n[reconstructed table text]\n" + table
     path = tiny_root / "cache" / "segments" / "us-00000" / "use_table-us-00000-zo.txt"
     path.parent.mkdir(parents=True)
     path.write_text(segment, encoding="utf-8")
     source = tiny_root / "cache" / "text" / "us-00000-zo.txt"
     source.parent.mkdir(parents=True)
-    source.write_text(text, encoding="utf-8")
+    source.write_text(raw + TABLE_TEXT_MARKER + "[page 1]\n" + table, encoding="utf-8")
     (base / "segments.json").write_text(
         json.dumps(
             {
@@ -134,6 +135,37 @@ def _response(status: str, conditional_symbol: str = "SE") -> ModelResult:
     )
 
 
+def _absence_response() -> ModelResult:
+    return ModelResult(
+        json.dumps(
+            {
+                "cells": [
+                    {
+                        "district_code": "I-1",
+                        "use_class": "lp_gas",
+                        "status": "unlisted",
+                        "source_id": "us-00000-zo",
+                        "local_uses": [],
+                        "evidence": {
+                            "kind": "absence",
+                            "quote": "Any use not listed in Table 4-2 is prohibited.",
+                            "section": "Sec. 4-3",
+                        },
+                    }
+                ]
+            }
+        ),
+        "fake",
+        1,
+        1,
+        0,
+        0,
+        0.0,
+        0.0,
+        {},
+    )
+
+
 def test_run_mirrors_flips_into_both_text_layers(tiny_root: Path) -> None:
     _mutation_root(tiny_root)
     raw_page = "Sec. 4-2\nWarehouse | I-1 | P"
@@ -168,7 +200,7 @@ def test_run_detects_an_extractor_that_reads_the_mutated_symbol(tiny_root: Path)
     _mutation_root(tiny_root)
 
     def reads_table(prompt, _images, _workdir):
-        return _response("conditional" if "Warehouse | I-1 | SE" in prompt else "permitted")
+        return _response("conditional" if "Warehouse | SE" in prompt else "permitted")
 
     result = run(tiny_root, "us-00000", reads_table, n=1, seed=0, today="2026-10-10")
 
@@ -180,7 +212,7 @@ def test_run_targets_the_cited_row_and_reports_a_noise_floor(tiny_root: Path) ->
     _mutation_root(tiny_root, filler_rows=30)
 
     def reads_table(prompt, _images, _workdir):
-        return _response("conditional" if "Warehouse | I-1 | SE" in prompt else "permitted")
+        return _response("conditional" if "Warehouse | SE" in prompt else "permitted")
 
     result = run(tiny_root, "us-00000", reads_table, n=1, seed=0, today="2026-10-10")
 
@@ -204,7 +236,7 @@ def test_run_reports_unchanged_for_an_extractor_that_ignores_text(tiny_root: Pat
     _mutation_root(tiny_root)
 
     def ignores_table(_prompt, _images, _workdir):
-        return _response("permitted")
+        return _absence_response()
 
     result = run(tiny_root, "us-00000", ignores_table, n=1, seed=0, today="2026-10-10")
 
@@ -215,7 +247,7 @@ def test_run_counts_only_expected_direction_moves(tiny_root: Path) -> None:
     _mutation_root(tiny_root, filler_rows=30, conditional_symbol="C")
 
     def reads_c_table(prompt, _images, _workdir):
-        return _response("conditional" if "Warehouse | I-1 | C" in prompt else "permitted", "C")
+        return _response("conditional" if "Warehouse | C" in prompt else "permitted", "C")
 
     result = run(tiny_root, "us-00000", reads_c_table, n=1, seed=0, today="2026-10-10")
 
@@ -224,7 +256,7 @@ def test_run_counts_only_expected_direction_moves(tiny_root: Path) -> None:
     assert result["expected_rate"] == 1.0
 
     def drops_mutated_cell(prompt, _images, _workdir):
-        if "Warehouse | I-1 | C" in prompt:
+        if "Warehouse | C" in prompt:
             return ModelResult(json.dumps({"cells": []}), "fake", 1, 1, 0, 0, 0.0, 0.0, {})
         return _response("permitted", "C")
 

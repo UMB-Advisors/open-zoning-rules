@@ -8,17 +8,17 @@
     {
       "format": "json",
       "path": "cells.json",
-      "sha256": "4bb0bc9098bdd35e3059c404ea662b1d834fb08419f745fe07189e505b3f8102"
+      "sha256": "02da050cf83b5cef440d37e10ee1cebe611ff83f18c6c3ef6c7a7d44a993664a"
     },
     {
       "format": "json",
       "path": "jurisdictions.json",
-      "sha256": "6d0edd83eb8ad98fb77fa0308498555fa52b590ec980cfed57b99cc4ddb3233e"
+      "sha256": "ea02edf216ec1ca825bbbb9a17810155463070109d2fb9a58a6fb7c19e0c147e"
     },
     {
       "format": "json",
       "path": "sources.json",
-      "sha256": "4fa10e6efac17ff68f361785c58c2c144f1751de917ae3162c081d63ac4914f4"
+      "sha256": "a25309b4400ccc65fcd056e22bbf3ceb12cf69ae19718bcafcded9651fff83ff"
     },
     {
       "format": "json",

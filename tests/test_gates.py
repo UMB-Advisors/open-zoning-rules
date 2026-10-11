@@ -26,8 +26,9 @@ from ozr.gates import (
 
 TAXONOMY = json.loads((Path(__file__).resolve().parents[1] / "taxonomy" / "v1.json").read_text(encoding="utf-8"))
 UNLISTED_CLAUSE = "Any use not listed in Table 4-2 is prohibited."
-DEFINITION = "Battery energy storage system means equipment that stores electricity for later dispatch."
-ORDINANCE = f"""\
+DEFINITION = "Storage equipment means equipment that stores electricity for later dispatch."
+ORDINANCE = (
+    f"""\
 Article 4 Use Table
 
 Sec. 4-2 Table of Permitted Uses
@@ -48,6 +49,12 @@ Sec. 2-1 Definitions
 Article\u00a04 regulates ware\u00adhouse design and manufac-
   turing of goods.
 """
+    + TABLE_TEXT_MARKER
+    + """\
+Use | I-1 | I-2
+Warehouse | P | P
+"""
+)
 DISTRICTS = ["I-1", "I-2"]
 USE_CLASSES = ["datacenter", "warehouse_distribution"]
 
@@ -65,6 +72,9 @@ def jurisdiction(rule: str = "prohibited_by_default") -> dict:
     }
     if rule == "prohibited_by_default":
         document["unlisted_rule_quote"] = {"quote": UNLISTED_CLAUSE, "section": "Sec. 4-3"}
+    document["table_key"] = [
+        {"symbol": "P", "status": "permitted", "quote": "Columns: I-1 and I-2.", "section": "Sec. 4-2"}
+    ]
     return document
 
 
@@ -78,7 +88,7 @@ def make_cell(**overrides: object) -> dict:
         "local_uses": ["Warehouse"],
         "evidence": {
             "kind": "table",
-            "quote": "Warehouse is listed under I-1 and I-2.",
+            "quote": "Warehouse | I-2 | P",
             "section": "Sec. 4-2",
             "row_label": "Warehouse",
             "column_header": "I-2",
@@ -267,9 +277,11 @@ def test_absence_gate_explains_hits_and_ignores_bessemer() -> None:
     assert "data center" in absence_hits("The code lists data centers in one row.", "datacenter", TAXONOMY)
     bare = unlisted_cell("battery_storage")
     assert absence_errors(bare, ORDINANCE, TAXONOMY, jurisdiction()) == [
-        "us-00000/I-2/battery_storage: absence gate: 'battery' occurs in the code and is not explained",
-        "us-00000/I-2/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-00000/I-2/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-00000/I-2/battery_storage: absence gate: 'battery' occurs 1 times in the code and 1 are not explained",
+        "us-00000/I-2/battery_storage: absence gate: 'battery energy storage' occurs 1 times in the code "
+        "and 1 are not explained",
+        "us-00000/I-2/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code "
+        "and 1 are not explained",
     ]
     cited = unlisted_cell("battery_storage", explained_hits("battery_storage"))
     assert absence_errors(cited, ORDINANCE, TAXONOMY, jurisdiction()) == []

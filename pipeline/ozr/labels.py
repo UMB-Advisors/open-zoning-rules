@@ -11,7 +11,17 @@ from typing import Any
 from ozr.common import append_run, read_json, text_path, utc_now
 from ozr.common import today as default_today
 from ozr.contamination import check_url, load_denylist
-from ozr.gates import absence_errors, absence_hits, enum_errors, matched_layers, quote_errors, section_errors, term_in
+from ozr.gates import (
+    absence_errors,
+    absence_hits,
+    enum_errors,
+    jurisdiction_text,
+    matched_layers,
+    quote_errors,
+    section_errors,
+    table_errors,
+    term_in,
+)
 from ozr.models import ModelError, ModelResult, parse_json_object
 from ozr.segment import _terms, load_segments
 
@@ -157,6 +167,7 @@ def label_errors(
     errors.extend(enum_errors({**cell, "confidence": "C", "review": "single"}, taxonomy))
     errors.extend(quote_errors(cell, text))
     errors.extend(section_errors(cell, text))
+    errors.extend(table_errors(cell, text, taxonomy, jurisdiction))
     errors.extend(absence_errors(cell, absence_text if absence_text is not None else text, taxonomy, jurisdiction))
     source = cell.get("source") if isinstance(cell.get("source"), dict) else {}
     source_ids = {str(item) for item in jurisdiction.get("sources", [])}
@@ -240,7 +251,7 @@ def label_jurisdiction(
     }
     checked_at = today or default_today()
     run_id = _run_id(run_step, jid)
-    all_text = "\n\n".join(full_texts.values())
+    all_text = jurisdiction_text(root / "cache" / "text", jurisdiction["sources"])
     hits = term_hits(all_text, taxonomy)
     districts = [item for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
     if chunk_size < 1:

@@ -9,6 +9,26 @@
       "quote": "Any use not listed in Table 4-2 is prohibited.",
       "section": "Sec. 4-3"
     },
+    "table_key": [
+      {
+        "symbol": "P",
+        "status": "permitted",
+        "quote": "P = permitted",
+        "section": "Sec. 4-2"
+      },
+      {
+        "symbol": "C",
+        "status": "conditional",
+        "quote": "C = conditional use permit",
+        "section": "Sec. 4-2"
+      },
+      {
+        "symbol": "",
+        "status": "prohibited",
+        "quote": "blank = not permitted",
+        "section": "Sec. 4-2"
+      }
+    ],
     "code_version": "2026-06-30",
     "conditional_zoning_unmapped": false,
     "sources": [
