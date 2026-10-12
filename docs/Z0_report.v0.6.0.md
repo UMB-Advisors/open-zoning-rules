@@ -3,7 +3,7 @@
 **Date:** 2026-10-12 · **Covers:** the Z0 pilot through Z0.12, the approved swaps. This version supersedes `docs/Z0_report.v0.5.0.md`, which is kept. Detail and evidence: `docs/test-results/z0.12_swaps.v0.1.0.md`.
 
 **Status: 10 jurisdictions are registered and the release gate passes, but Z0 is not complete.**
-- Two of the four new jurisdictions are not fully reviewed: codex hit its usage limit (reset 2026-10-17 20:57), and grok cannot read Palm Beach's prompt.
+- Two of the four new jurisdictions are not fully reviewed: codex hit its usage limit (reset 2026-10-17 20:57), and grok failed intermittently on Palm Beach's very long prompt.
 - The human audit is owed.
 - The stack is not reviewed or merged.
 
@@ -98,7 +98,7 @@ For the six earlier jurisdictions, see v0.4.0 (median $7.39 priced, range $3.30 
 ## Still owed
 
 1. **Codex reviews for Santa Rosa and Palm Beach** after 2026-10-17 20:57, then grade, measure, release, a v0.7.0 audit sheet and both contract checks (commands in the evidence doc). Codex also emitted malformed JSON (a stray `}`) on Santa Rosa before the quota ran out, so a rerun may need a smaller chunk or a retry policy.
-2. **A grok review for Palm Beach.** Its prompt is too long for the grok CLI to read inline, so it needs a smaller segment set.
+2. **A grok review for Palm Beach.** grok failed on one of 8 chunks in each of two runs, saying it could not see the middle of the prompt. A rerun may pass; a smaller segment set is the more reliable fix.
 3. **Palm Beach gate fit:** hierarchical section labels such as "Art. 4.B.5.C.2", letter-spaced matrix headers, and duplicated `I L` columns.
 4. **The human audit** on v0.6.0, or v0.7.0 once the owed reviews land.
 5. **Withheld-cell rule decisions:**

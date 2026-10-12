@@ -24,8 +24,8 @@ The publishers' terms were not re-read for this step; the reason is the maintain
 
 | In | Own-site text | Data-center relevance |
 |---|---|---|
-| Palm Beach County, FL | The Unified Land Development Code, Supplement 32, as article PDFs on `pbc.gov` (Articles 1, 3, 4 and 5 registered) | The code names no data-center use. The county's own September 24, 2026 hearing agenda lists "Large-Scale Data Center Moratorium – Second Reading and Adoption"; the outcome is not on a county page (see below) |
-| Santa Rosa County, FL | The full Land Development Code (Ord. 2025-25, 2025-11-10) as one PDF on `santarosa.fl.gov` | The code names no data-center use. A 2026 moratorium is reported, but no county-domain copy was found |
+| Palm Beach County, FL | The Unified Land Development Code, Supplement 32, as article PDFs on `pbc.gov` (Articles 1, 4 and 5 registered; Article 3 fetched and left out, see the licence matrix) | Article 4's Light Industrial use matrix lists "Data and Information Processing", read as the datacenter class. The county's own September 24, 2026 hearing agenda lists "Large-Scale Data Center Moratorium – Second Reading and Adoption"; the outcome is not on a county page (see below) |
+| Santa Rosa County, FL | The full Land Development Code (Ord. 2025-25, 2025-11-10) as one PDF on `santarosa.fl.gov` | The code has no use called a data center; its "Technology Business" use is read as datacenter in some cells. A 2026 moratorium is reported, but no county-domain copy was found |
 | Hall County, GA | The Unified Development Code adopted 2026-09-10, one PDF on `hallcounty.org` | Sec. 7.6.2 defines data centers in four tiers; the allowed use table lists "All data center" as SU in I-1 and I-2 only |
 | Cherokee County, GA | Zoning Ordinance articles and Table 7.2 as PDFs on `cherokeecountyga.gov` | Table 7.2 lists "Data Processing, Hosting, and Related Services" (NAICS 514210). A 2026 moratorium is reported on the county's news page; the resolution itself is on a vendor portal |
 
