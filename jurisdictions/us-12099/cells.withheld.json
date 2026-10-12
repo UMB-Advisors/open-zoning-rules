@@ -1,0 +1,2477 @@
+{
+  "jurisdiction_id": "us-12099",
+  "run_id": "grade-us-12099-4a0e034e67ec9ee0",
+  "withheld": [
+    {
+      "key": "us-12099/AGR-MUPD/P/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/P/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/P/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/AGR-MUPD/P/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/AGR-MUPD/P/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/P/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/P/datacenter: definition section not found in source",
+        "us-12099/AGR-MUPD/P/datacenter: column header 'C L' is not the column for district 'AGR-MUPD/P' (no formatting match or quoted column alias)",
+        "us-12099/AGR-MUPD/P/datacenter: table grid: 'C L' column holds '-' on the 'Data and Information Processing' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/P/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/P/heavy_industrial_hazmat: definition section not found in source",
+        "us-12099/AGR-MUPD/P/heavy_industrial_hazmat: column header 'C L' is not the column for district 'AGR-MUPD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/P/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/P/lp_gas: definition section not found in source",
+        "us-12099/AGR-MUPD/P/lp_gas: column header 'C L' is not the column for district 'AGR-MUPD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/P/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/P/utility_generation: definition section not found in source",
+        "us-12099/AGR-MUPD/P/utility_generation: column header 'C L' is not the column for district 'AGR-MUPD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/P/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/P/warehouse_distribution: definition section not found in source",
+        "us-12099/AGR-MUPD/P/warehouse_distribution: column header 'C L' is not the column for district 'AGR-MUPD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/AGR-MUPD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/AGR-MUPD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/datacenter: definition section not found in source",
+        "us-12099/AGR-MUPD/datacenter: column header 'C L' is not the column for district 'AGR-MUPD' (no formatting match or quoted column alias)",
+        "us-12099/AGR-MUPD/datacenter: table grid: 'C L' column holds '-' on the 'Data and Information Processing' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/heavy_industrial_hazmat: definition section not found in source",
+        "us-12099/AGR-MUPD/heavy_industrial_hazmat: column header 'C L' is not the column for district 'AGR-MUPD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/lp_gas: definition section not found in source",
+        "us-12099/AGR-MUPD/lp_gas: column header 'C L' is not the column for district 'AGR-MUPD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/utility_generation: definition section not found in source",
+        "us-12099/AGR-MUPD/utility_generation: column header 'C L' is not the column for district 'AGR-MUPD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-MUPD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-MUPD/warehouse_distribution: definition section not found in source",
+        "us-12099/AGR-MUPD/warehouse_distribution: column header 'C L' is not the column for district 'AGR-MUPD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/P/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/AGR-PUD/P/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/P/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/AGR-PUD/P/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/AGR-PUD/P/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/P/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/P/datacenter: definition section not found in source",
+        "us-12099/AGR-PUD/P/datacenter: column header 'A G R / P' is not the column for district 'AGR-PUD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/P/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/P/heavy_industrial_hazmat: definition section not found in source",
+        "us-12099/AGR-PUD/P/heavy_industrial_hazmat: column header 'A G R / P' is not the column for district 'AGR-PUD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/P/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/P/lp_gas: definition section not found in source",
+        "us-12099/AGR-PUD/P/lp_gas: column header 'A G R / P' is not the column for district 'AGR-PUD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/P/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/P/utility_generation: definition section not found in source",
+        "us-12099/AGR-PUD/P/utility_generation: column header 'A G R / P' is not the column for district 'AGR-PUD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/P/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/P/warehouse_distribution: definition section not found in source",
+        "us-12099/AGR-PUD/P/warehouse_distribution: column header 'A G R / P' is not the column for district 'AGR-PUD/P' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/AGR-PUD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/AGR-PUD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/AGR-PUD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/datacenter: definition section not found in source",
+        "us-12099/AGR-PUD/datacenter: column header 'R E S' is not the column for district 'AGR-PUD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/heavy_industrial_hazmat: definition section not found in source",
+        "us-12099/AGR-PUD/heavy_industrial_hazmat: column header 'R E S' is not the column for district 'AGR-PUD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/lp_gas: definition section not found in source",
+        "us-12099/AGR-PUD/lp_gas: column header 'R E S' is not the column for district 'AGR-PUD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/utility_generation: definition section not found in source",
+        "us-12099/AGR-PUD/utility_generation: column header 'R E S' is not the column for district 'AGR-PUD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR-PUD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR-PUD/warehouse_distribution: definition section not found in source",
+        "us-12099/AGR-PUD/warehouse_distribution: column header 'R E S' is not the column for district 'AGR-PUD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/AGR/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/AGR/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/AGR/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AGR/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AGR/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AP/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AP/battery_storage: section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AP/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AP/cannabis_cultivation_processing: section not found in source",
+        "us-12099/AP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/AP/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 11 are not explained",
+        "us-12099/AP/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AP/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AP/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AP/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AP/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AP/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AP/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AP/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AP/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AP/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AP/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AR/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AR/battery_storage: section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AR/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AR/cannabis_cultivation_processing: section not found in source",
+        "us-12099/AR/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/AR/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 11 are not explained",
+        "us-12099/AR/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AR/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AR/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AR/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AR/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AR/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AR/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AR/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AR/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/AR/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/AR/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CC/battery_storage: section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CC/cannabis_cultivation_processing: section not found in source",
+        "us-12099/CC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/CC/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 11 are not explained",
+        "us-12099/CC/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CC/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CC/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CC/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CC/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CC/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CC/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CC/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CC/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CC/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CC/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CG/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CG/battery_storage: section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CG/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CG/cannabis_cultivation_processing: section not found in source",
+        "us-12099/CG/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/CG/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 11 are not explained",
+        "us-12099/CG/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CG/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CG/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CG/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CG/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CG/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CG/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CG/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CG/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CG/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CG/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CHO/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CHO/battery_storage: section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CHO/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CHO/cannabis_cultivation_processing: section not found in source",
+        "us-12099/CHO/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/CHO/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 11 are not explained",
+        "us-12099/CHO/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CHO/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CHO/datacenter: definition section not found in source",
+        "us-12099/CHO/datacenter: table grid: 'C H O' column holds 'd' on the 'Data and Information Processing' row, not 'P'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CHO/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CHO/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CHO/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CHO/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CHO/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CHO/utility_generation: definition section not found in source",
+        "us-12099/CHO/utility_generation: table grid: 'C H O' column holds '-' on the 'Electric Power Plant' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CHO/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CHO/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CLO/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/CLO/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CLO/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/CLO/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/CLO/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CLO/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CLO/datacenter: definition section not found in source",
+        "us-12099/CLO/datacenter: table grid: 'C L O' column holds '-' on the 'Data and Information Processing' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CLO/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CLO/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CLO/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CLO/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CLO/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CLO/utility_generation: definition section not found in source",
+        "us-12099/CLO/utility_generation: table grid: 'C L O' column holds '-' on the 'Electric Power Plant' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CLO/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CLO/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CN/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/CN/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CN/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/CN/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/CN/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CN/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CN/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CN/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CN/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CN/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CN/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CN/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CN/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CN/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CN/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CRE/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/CRE/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CRE/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/CRE/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/CRE/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CRE/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CRE/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CRE/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CRE/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CRE/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CRE/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CRE/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CRE/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CRE/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CRE/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CS/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/CS/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CS/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/CS/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/CS/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CS/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CS/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CS/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CS/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 2 are not explained",
+        "us-12099/CS/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12099/CS/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 5 are not explained",
+        "us-12099/CS/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 3 are not explained",
+        "us-12099/CS/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 7 are not explained",
+        "us-12099/CS/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CS/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CS/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CS/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CS/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/CS/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 15 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CS/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CS/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/CS/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 1 are not explained",
+        "us-12099/CS/warehouse_distribution: absence gate: 'loading dock' occurs 1 times in the code and 1 are not explained",
+        "us-12099/CS/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/CS/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CSH/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/CSH/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CSH/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/CSH/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/CSH/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CSH/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CSH/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CSH/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CSH/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 2 are not explained",
+        "us-12099/CSH/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12099/CSH/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 5 are not explained",
+        "us-12099/CSH/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 3 are not explained",
+        "us-12099/CSH/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 7 are not explained",
+        "us-12099/CSH/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CSH/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CSH/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CSH/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CSH/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/CSH/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 15 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/CSH/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/CSH/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/CSH/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 1 are not explained",
+        "us-12099/CSH/warehouse_distribution: absence gate: 'loading dock' occurs 1 times in the code and 1 are not explained",
+        "us-12099/CSH/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/CSH/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IG/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/IG/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IG/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/IG/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/IG/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IG/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IG/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IG/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IG/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IG/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IG/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IG/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IG/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IG/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IG/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IL/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/IL/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IL/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/IL/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/IL/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IL/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IL/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IL/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IL/heavy_industrial_hazmat: definition section not found in source",
+        "us-12099/IL/heavy_industrial_hazmat: table grid: 'I L' column holds '-' on the 'Heavy Industry' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IL/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IL/lp_gas: definition section not found in source",
+        "us-12099/IL/lp_gas: table grid: 'I L' column holds '-' on the 'Gas and Fuel, Wholesale' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IL/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IL/utility_generation: definition section not found in source",
+        "us-12099/IL/utility_generation: table grid: 'I L' column holds '-' on the 'Electric Power Plant' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IL/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IL/warehouse_distribution: definition section not found in source",
+        "us-12099/IL/warehouse_distribution: table grid: 'I L' column holds '-' on the 'Distribution Facility' row, not 'D'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IPF/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/IPF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IPF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/IPF/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/IPF/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IPF/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IPF/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IPF/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IPF/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IPF/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IPF/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IPF/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IPF/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/IPF/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/IPF/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/LO/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/LO/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/LO/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/LO/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/LO/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/LO/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/LO/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/LO/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/LO/heavy_industrial_hazmat: definition section not found in source",
+        "us-12099/LO/heavy_industrial_hazmat: column header 'C L O' is not the column for district 'LO' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/LO/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/LO/lp_gas: definition section not found in source",
+        "us-12099/LO/lp_gas: column header 'C L O' is not the column for district 'LO' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/LO/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/LO/utility_generation: definition section not found in source",
+        "us-12099/LO/utility_generation: column header 'C L O' is not the column for district 'LO' (no formatting match or quoted column alias)",
+        "us-12099/LO/utility_generation: table grid: 'C L O' column holds '-' on the 'Electric Power Plant' row, not 'A'"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/LO/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/LO/warehouse_distribution: definition section not found in source",
+        "us-12099/LO/warehouse_distribution: column header 'C L O' is not the column for district 'LO' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/P/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/P/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/P/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/P/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/MUPD/P/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/MUPD/P/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/P/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/P/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/P/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/P/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 2 are not explained",
+        "us-12099/MUPD/P/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12099/MUPD/P/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 5 are not explained",
+        "us-12099/MUPD/P/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 4 are not explained",
+        "us-12099/MUPD/P/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 7 are not explained",
+        "us-12099/MUPD/P/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/P/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/P/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/P/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/P/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/MUPD/P/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 16 are not explained",
+        "us-12099/MUPD/P/utility_generation: absence gate: 'wind energy facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/P/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/P/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/MUPD/P/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 2 are not explained",
+        "us-12099/MUPD/P/warehouse_distribution: absence gate: 'loading dock' occurs 1 times in the code and 1 are not explained",
+        "us-12099/MUPD/P/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-12099/MUPD/P/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/MUPD/P/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 10 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/MUPD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained",
+        "us-12099/MUPD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/MUPD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/heavy_industrial_hazmat: definition section not found in source",
+        "us-12099/MUPD/heavy_industrial_hazmat: column header 'I N D' is not the column for district 'MUPD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/lp_gas: definition section not found in source",
+        "us-12099/MUPD/lp_gas: column header 'I N D' is not the column for district 'MUPD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/utility_generation: definition section not found in source",
+        "us-12099/MUPD/utility_generation: column header 'I N D' is not the column for district 'MUPD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MUPD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MUPD/warehouse_distribution: definition section not found in source",
+        "us-12099/MUPD/warehouse_distribution: column header 'I N D' is not the column for district 'MUPD' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MXPD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MXPD/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MXPD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MXPD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/MXPD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/MXPD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MXPD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MXPD/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MXPD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MXPD/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 2 are not explained",
+        "us-12099/MXPD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12099/MXPD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 5 are not explained",
+        "us-12099/MXPD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 4 are not explained",
+        "us-12099/MXPD/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 7 are not explained",
+        "us-12099/MXPD/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MXPD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MXPD/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MXPD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MXPD/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/MXPD/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 16 are not explained",
+        "us-12099/MXPD/utility_generation: absence gate: 'wind energy facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/MXPD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/MXPD/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/MXPD/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 2 are not explained",
+        "us-12099/MXPD/warehouse_distribution: absence gate: 'loading dock' occurs 1 times in the code and 1 are not explained",
+        "us-12099/MXPD/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-12099/MXPD/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/MXPD/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 10 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PC/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/PC/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/PC/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PC/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PC/datacenter: definition section not found in source",
+        "us-12099/PC/datacenter: table grid: cannot place 'Data and Information Processing' under 'PC' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PC/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PC/heavy_industrial_hazmat: table grid: cannot place 'Heavy Industry' under 'PC' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PC/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PC/lp_gas: definition section not found in source",
+        "us-12099/PC/lp_gas: table grid: cannot place 'Gas and Fuel, Wholesale' under 'PC' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PC/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PC/utility_generation: table grid: cannot place 'Electric Power Plant' under 'PC' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PC/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PC/warehouse_distribution: table grid: cannot place 'Warehouse' under 'PC' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PIPD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PIPD/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PIPD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PIPD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/PIPD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/PIPD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PIPD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PIPD/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PIPD/heavy_industrial_hazmat",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/PIPD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PIPD/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PIPD/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/PIPD/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/PO/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PO/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PO/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PO/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/PO/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/PO/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PO/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PO/datacenter: definition section not found in source",
+        "us-12099/PO/datacenter: table grid: cannot place 'Data and Information Processing' under 'PO' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PO/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PO/heavy_industrial_hazmat: table grid: cannot place 'Heavy Industry' under 'PO' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PO/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PO/lp_gas: definition section not found in source",
+        "us-12099/PO/lp_gas: table symbol 'D' does not map to status 'permitted' through the table key",
+        "us-12099/PO/lp_gas: table grid: cannot place 'Gas and Fuel, Wholesale' under 'PO' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PO/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PO/utility_generation: table grid: cannot place 'Electric Power Plant' under 'PO' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PO/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PO/warehouse_distribution: table grid: cannot place 'Warehouse' under 'PO' in the reconstructed table"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PUD/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/PUD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 32 are not explained",
+        "us-12099/PUD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 9 are not explained",
+        "us-12099/PUD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PUD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PUD/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PUD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PUD/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PUD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PUD/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PUD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PUD/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/PUD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/PUD/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RE/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/RE/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RE/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 32 are not explained",
+        "us-12099/RE/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 9 are not explained",
+        "us-12099/RE/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RE/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RE/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RE/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RE/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RE/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RE/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RE/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RE/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RE/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RE/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/CG/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/RH/CG/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/CG/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 32 are not explained",
+        "us-12099/RH/CG/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 9 are not explained",
+        "us-12099/RH/CG/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/CG/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/CG/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/CG/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/CG/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 2 are not explained",
+        "us-12099/RH/CG/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12099/RH/CG/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 4 are not explained",
+        "us-12099/RH/CG/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 3 are not explained",
+        "us-12099/RH/CG/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 6 are not explained",
+        "us-12099/RH/CG/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/CG/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/CG/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/CG/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/CG/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RH/CG/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 13 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/CG/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/CG/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RH/CG/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 1 are not explained",
+        "us-12099/RH/CG/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RH/CG/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/RH/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 32 are not explained",
+        "us-12099/RH/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 9 are not explained",
+        "us-12099/RH/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 2 are not explained",
+        "us-12099/RH/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12099/RH/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 4 are not explained",
+        "us-12099/RH/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 3 are not explained",
+        "us-12099/RH/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 6 are not explained",
+        "us-12099/RH/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RH/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 13 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RH/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RH/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RH/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 1 are not explained",
+        "us-12099/RH/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RH/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RM/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12099-4a0e034e67ec9ee0"
+    },
+    {
+      "key": "us-12099/RM/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RM/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 32 are not explained",
+        "us-12099/RM/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 9 are not explained",
+        "us-12099/RM/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RM/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RM/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RM/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RM/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RM/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RM/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RM/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RM/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RM/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RM/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RR-PUD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RR-PUD/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RR-PUD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RR-PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/RR-PUD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/RR-PUD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RR-PUD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RR-PUD/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RR-PUD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RR-PUD/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 3 are not explained",
+        "us-12099/RR-PUD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12099/RR-PUD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 6 are not explained",
+        "us-12099/RR-PUD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 4 are not explained",
+        "us-12099/RR-PUD/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 7 are not explained",
+        "us-12099/RR-PUD/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RR-PUD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RR-PUD/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RR-PUD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RR-PUD/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RR-PUD/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 16 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RR-PUD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RR-PUD/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RR-PUD/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 2 are not explained",
+        "us-12099/RR-PUD/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-12099/RR-PUD/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RR-PUD/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 10 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RS/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RS/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RS/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RS/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/RS/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/RS/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RS/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RS/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RS/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RS/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RS/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RS/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RS/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RS/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RS/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RS/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RT/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RT/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RT/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RT/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/RT/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/RT/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RT/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RT/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RT/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RT/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RT/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RT/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RT/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RT/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RT/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RT/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTS/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTS/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTS/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTS/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/RTS/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/RTS/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTS/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTS/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTS/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTS/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 3 are not explained",
+        "us-12099/RTS/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12099/RTS/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 6 are not explained",
+        "us-12099/RTS/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 4 are not explained",
+        "us-12099/RTS/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 7 are not explained",
+        "us-12099/RTS/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTS/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTS/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTS/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTS/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RTS/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 16 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTS/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTS/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RTS/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 2 are not explained",
+        "us-12099/RTS/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-12099/RTS/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RTS/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 10 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTU/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTU/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTU/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTU/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 38 are not explained",
+        "us-12099/RTU/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/RTU/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTU/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTU/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTU/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTU/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 3 are not explained",
+        "us-12099/RTU/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12099/RTU/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 6 are not explained",
+        "us-12099/RTU/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 4 are not explained",
+        "us-12099/RTU/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 7 are not explained",
+        "us-12099/RTU/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTU/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTU/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTU/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTU/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RTU/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 16 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RTU/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RTU/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RTU/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 2 are not explained",
+        "us-12099/RTU/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-12099/RTU/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/RTU/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 10 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RVPD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RVPD/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RVPD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RVPD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/RVPD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/RVPD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RVPD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RVPD/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RVPD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RVPD/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RVPD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RVPD/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RVPD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RVPD/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/RVPD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/RVPD/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/SA/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/SA/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/SA/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/SA/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/SA/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/SA/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/SA/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/SA/datacenter: absence gate: 'communication facility' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/SA/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/SA/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 3 are not explained",
+        "us-12099/SA/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12099/SA/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 6 times in the code and 6 are not explained",
+        "us-12099/SA/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 6 times in the code and 4 are not explained",
+        "us-12099/SA/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 7 times in the code and 7 are not explained",
+        "us-12099/SA/heavy_industrial_hazmat: absence gate: 'refinery' occurs 7 times in the code and 5 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/SA/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/SA/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/SA/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/SA/utility_generation: absence gate: 'electric generating facility' occurs 1 times in the code and 1 are not explained",
+        "us-12099/SA/utility_generation: absence gate: 'power plant' occurs 16 times in the code and 16 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/SA/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/SA/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-12099/SA/warehouse_distribution: absence gate: 'freight' occurs 2 times in the code and 2 are not explained",
+        "us-12099/SA/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 1 are not explained",
+        "us-12099/SA/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-12099/SA/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 9 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/TMD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/TMD/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/TMD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/TMD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/TMD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/TMD/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/TMD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/TMD/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/TMD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/TMD/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/TMD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/TMD/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/TMD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/TMD/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/TMD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/TMD/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UC/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/UC/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/UC/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UC/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UC/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UC/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UC/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UC/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UC/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UC/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UC/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UC/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UC/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UI/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UI/battery_storage: absence gate: 'battery' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UI/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 39 are not explained",
+        "us-12099/UI/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 12 times in the code and 12 are not explained",
+        "us-12099/UI/cannabis_cultivation_processing: absence gate: 'medical marijuana treatment center' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UI/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UI/datacenter: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UI/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UI/heavy_industrial_hazmat: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UI/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UI/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UI/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UI/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    },
+    {
+      "key": "us-12099/UI/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12099/UI/warehouse_distribution: definition section not found in source"
+      ],
+      "run_id": "extract-us-12099-20261012T033925Z"
+    }
+  ]
+}
