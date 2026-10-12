@@ -1,0 +1,2771 @@
+{
+  "jurisdiction_id": "us-12113",
+  "run_id": "grade-us-12113-51bc810d1bddfd1b",
+  "withheld": [
+    {
+      "key": "us-12113/AG-RR-APZ1/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/AG-RR-APZ1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ1/heavy_industrial_hazmat: column header 'AG-RR' is not the column for district 'AG-RR-APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ1/lp_gas: column header 'AG-RR' is not the column for district 'AG-RR-APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/AG-RR-APZ1/utility_generation: column header 'AG-RR' is not the column for district 'AG-RR-APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ1/warehouse_distribution: column header 'AG-RR' is not the column for district 'AG-RR-APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ2/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/AG-RR-APZ2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ2/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ2/heavy_industrial_hazmat: column header 'AG-RR' is not the column for district 'AG-RR-APZ2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ2/lp_gas: column header 'AG-RR' is not the column for district 'AG-RR-APZ2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/AG-RR-APZ2/utility_generation: column header 'AG-RR' is not the column for district 'AG-RR-APZ2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-APZ2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-APZ2/warehouse_distribution: column header 'AG-RR' is not the column for district 'AG-RR-APZ2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-CZ/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/AG-RR-CZ/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-CZ/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/AG-RR-CZ/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-CZ/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-CZ/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-CZ/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-CZ/heavy_industrial_hazmat: column header 'AG-RR' is not the column for district 'AG-RR-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-CZ/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-CZ/lp_gas: column header 'AG-RR' is not the column for district 'AG-RR-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-CZ/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-CZ/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/AG-RR-CZ/utility_generation: column header 'AG-RR' is not the column for district 'AG-RR-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR-CZ/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR-CZ/warehouse_distribution: column header 'AG-RR' is not the column for district 'AG-RR-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/AG-RR/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/AG-RR/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG-RR/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG-RR/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG1/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/AG1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/AG1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 1/battery_storage: section not found in source",
+        "us-12113/AG2-APZ 1/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/AG2-APZ 1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 1/cannabis_cultivation_processing: section not found in source",
+        "us-12113/AG2-APZ 1/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/AG2-APZ 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/AG2-APZ 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 1/datacenter: section not found in source",
+        "us-12113/AG2-APZ 1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 1/heavy_industrial_hazmat: column header 'AG2' is not the column for district 'AG2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 1/lp_gas: definition section not found in source",
+        "us-12113/AG2-APZ 1/lp_gas: column header 'AG2' is not the column for district 'AG2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 1/utility_generation: definition section not found in source",
+        "us-12113/AG2-APZ 1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/AG2-APZ 1/utility_generation: column header 'AG2' is not the column for district 'AG2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 1/warehouse_distribution: column header 'AG2' is not the column for district 'AG2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 2/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 2/battery_storage: section not found in source",
+        "us-12113/AG2-APZ 2/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/AG2-APZ 2/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 2/cannabis_cultivation_processing: section not found in source",
+        "us-12113/AG2-APZ 2/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/AG2-APZ 2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/AG2-APZ 2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 2/datacenter: section not found in source",
+        "us-12113/AG2-APZ 2/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 2/heavy_industrial_hazmat: column header 'AG2' is not the column for district 'AG2-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 2/lp_gas: definition section not found in source",
+        "us-12113/AG2-APZ 2/lp_gas: column header 'AG2' is not the column for district 'AG2-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 2/utility_generation: definition section not found in source",
+        "us-12113/AG2-APZ 2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/AG2-APZ 2/utility_generation: column header 'AG2' is not the column for district 'AG2-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2-APZ 2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2-APZ 2/warehouse_distribution: column header 'AG2' is not the column for district 'AG2-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2/battery_storage: section not found in source",
+        "us-12113/AG2/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/AG2/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2/cannabis_cultivation_processing: section not found in source",
+        "us-12113/AG2/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/AG2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/AG2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2/datacenter: section not found in source",
+        "us-12113/AG2/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/AG2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/AG2/utility_generation: definition section not found in source",
+        "us-12113/AG2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C1M/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C1M/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/C1M/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C1M/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C1M/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/C1M/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/C1M/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C1M/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C1M/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C1M/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C1M/lp_gas: definition section not found in source",
+        "us-12113/C1M/lp_gas: table symbol 'A' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C1M/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C1M/utility_generation: definition section not found in source",
+        "us-12113/C1M/utility_generation: table symbol 'C 5. 0.' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C2M/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C2M/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/C2M/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C2M/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C2M/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/C2M/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/C2M/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C2M/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C2M/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C2M/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C2M/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/C2M/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/C2M/utility_generation: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HC1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HC1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 52 are not explained",
+        "us-12113/HC1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 52 are not explained",
+        "us-12113/HCD-APZ 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 1/datacenter: column header 'HCD' is not the column for district 'HCD-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 1/heavy_industrial_hazmat: column header 'HCD' is not the column for district 'HCD-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 1/lp_gas: column header 'HCD' is not the column for district 'HCD-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/HCD-APZ 1/utility_generation: column header 'HCD' is not the column for district 'HCD-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 1/warehouse_distribution: column header 'HCD' is not the column for district 'HCD-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 52 are not explained",
+        "us-12113/HCD-APZ 2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 2/datacenter: column header 'HCD' is not the column for district 'HCD-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 2/heavy_industrial_hazmat: column header 'HCD' is not the column for district 'HCD-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 2/lp_gas: column header 'HCD' is not the column for district 'HCD-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/HCD-APZ 2/utility_generation: column header 'HCD' is not the column for district 'HCD-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-APZ 2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-APZ 2/warehouse_distribution: column header 'HCD' is not the column for district 'HCD-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-CZ/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-CZ/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 52 are not explained",
+        "us-12113/HCD-CZ/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-CZ/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-CZ/datacenter: column header 'HCD' is not the column for district 'HCD-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-CZ/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-CZ/heavy_industrial_hazmat: column header 'HCD' is not the column for district 'HCD-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-CZ/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-CZ/lp_gas: column header 'HCD' is not the column for district 'HCD-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-CZ/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-CZ/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/HCD-CZ/utility_generation: column header 'HCD' is not the column for district 'HCD-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD-CZ/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD-CZ/warehouse_distribution: column header 'HCD' is not the column for district 'HCD-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 52 are not explained",
+        "us-12113/HCD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HCD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HCD/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HR1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HR1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/HR1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/HR2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/HR2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/HR2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-APZ 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-APZ 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/M1-APZ 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-APZ 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-APZ 1/heavy_industrial_hazmat: column header 'M1' is not the column for district 'M1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-APZ 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-APZ 1/lp_gas: column header 'M1' is not the column for district 'M1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-APZ 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-APZ 1/utility_generation: column header 'M1' is not the column for district 'M1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-APZ 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-APZ 1/warehouse_distribution: column header 'M1' is not the column for district 'M1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-CZ/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-CZ/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/M1-CZ/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-CZ/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-CZ/heavy_industrial_hazmat: column header 'M1' is not the column for district 'M1-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-CZ/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-CZ/lp_gas: column header 'M1' is not the column for district 'M1-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-CZ/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-CZ/utility_generation: column header 'M1' is not the column for district 'M1-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1-CZ/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1-CZ/warehouse_distribution: table symbol 'N' does not map to status 'prohibited' through the table key",
+        "us-12113/M1-CZ/warehouse_distribution: column header 'CZ' is not the column for district 'M1-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/M1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-APZ 1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-APZ 1/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/M2-APZ 1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-APZ 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-APZ 1/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/M2-APZ 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/M2-APZ 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-APZ 1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-APZ 1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-APZ 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-APZ 1/heavy_industrial_hazmat: table symbol 'N' does not map to status 'prohibited' through the table key",
+        "us-12113/M2-APZ 1/heavy_industrial_hazmat: column header 'APZ 1' is not the column for district 'M2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-APZ 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-APZ 1/lp_gas: definition section not found in source",
+        "us-12113/M2-APZ 1/lp_gas: column header 'M2' is not the column for district 'M2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-APZ 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-APZ 1/utility_generation: column header 'M2' is not the column for district 'M2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-APZ 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-APZ 1/warehouse_distribution: table symbol 'Y' does not map to status 'permitted' through the table key",
+        "us-12113/M2-APZ 1/warehouse_distribution: column header 'APZ 1' is not the column for district 'M2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-CZ/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-CZ/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/M2-CZ/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-CZ/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-CZ/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/M2-CZ/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/M2-CZ/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-CZ/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-CZ/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-CZ/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-CZ/heavy_industrial_hazmat: table symbol 'N' does not map to status 'prohibited' through the table key",
+        "us-12113/M2-CZ/heavy_industrial_hazmat: column header 'CZ' is not the column for district 'M2-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-CZ/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-CZ/lp_gas: definition section not found in source",
+        "us-12113/M2-CZ/lp_gas: column header 'M2' is not the column for district 'M2-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-CZ/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-CZ/utility_generation: column header 'M2' is not the column for district 'M2-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2-CZ/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2-CZ/warehouse_distribution: table symbol 'N' does not map to status 'prohibited' through the table key",
+        "us-12113/M2-CZ/warehouse_distribution: column header 'CZ' is not the column for district 'M2-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/M2/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/M2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/M2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/M2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/M2/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/MIL/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/MIL/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/MIL/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/MIL/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/MIL/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/MIL/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/MIL/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/MIL/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/MIL/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/MIL/heavy_industrial_hazmat",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/MIL/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/MIL/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/MIL/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/MIL/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/NB-C/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-C/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/NB-C/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-C/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-C/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/NB-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/NB-C/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-C/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-C/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-C/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-C/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-CON/REC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-CON/REC/battery_storage: section not found in source",
+        "us-12113/NB-CON/REC/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-CON/REC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-CON/REC/cannabis_cultivation_processing: section not found in source",
+        "us-12113/NB-CON/REC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/NB-CON/REC/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-CON/REC/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-CON/REC/datacenter: section not found in source",
+        "us-12113/NB-CON/REC/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-H/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-H/battery_storage: section not found in source",
+        "us-12113/NB-H/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-H/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-H/cannabis_cultivation_processing: section not found in source",
+        "us-12113/NB-H/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/NB-H/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-H/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-H/datacenter: section not found in source",
+        "us-12113/NB-H/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-HD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-HD/battery_storage: section not found in source",
+        "us-12113/NB-HD/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-HD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-HD/cannabis_cultivation_processing: section not found in source",
+        "us-12113/NB-HD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/NB-HD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-HD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-HD/datacenter: section not found in source",
+        "us-12113/NB-HD/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-MD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-MD/battery_storage: section not found in source",
+        "us-12113/NB-MD/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-MD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-MD/cannabis_cultivation_processing: section not found in source",
+        "us-12113/NB-MD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/NB-MD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-MD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-MD/datacenter: section not found in source",
+        "us-12113/NB-MD/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-MHD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-MHD/battery_storage: section not found in source",
+        "us-12113/NB-MHD/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-MHD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-MHD/cannabis_cultivation_processing: section not found in source",
+        "us-12113/NB-MHD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/NB-MHD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 7 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-MHD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-MHD/datacenter: section not found in source",
+        "us-12113/NB-MHD/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-PMUD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-PMUD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/NB-PMUD/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-PMUD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-PMUD/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/NB-PMUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/NB-PMUD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 9 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-PMUD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-PMUD/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-PMUD/heavy_industrial_hazmat",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/NB-PMUD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-PMUD/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-PMUD/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/NB-PMUD/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/NB-SF/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-SF/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/NB-SF/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-SF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-SF/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/NB-SF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/NB-SF/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 9 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-SF/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-SF/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-SF/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-SF/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-U/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-U/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/NB-U/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-U/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-U/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/NB-U/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/NB-U/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 9 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-U/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-U/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-U/heavy_industrial_hazmat",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/NB-U/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NB-U/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NB-U/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/NB-U/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/NC APZ1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC APZ1/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/NC APZ1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC APZ1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC APZ1/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/NC APZ1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/NC APZ1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 9 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC APZ1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC APZ1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC APZ1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC APZ1/heavy_industrial_hazmat: column header 'NC' is not the column for district 'NC APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC APZ1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC APZ1/lp_gas: definition section not found in source",
+        "us-12113/NC APZ1/lp_gas: column header 'NC' is not the column for district 'NC APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC APZ1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC APZ1/utility_generation: column header 'NC' is not the column for district 'NC APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC APZ1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC APZ1/warehouse_distribution: column header 'NC' is not the column for district 'NC APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/NC/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/NC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/NC/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 9 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/NC/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/NC/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P1/battery_storage: section not found in source",
+        "us-12113/P1/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/P1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P1/cannabis_cultivation_processing: section not found in source",
+        "us-12113/P1/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/P1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/P1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P1/datacenter: section not found in source",
+        "us-12113/P1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P1/heavy_industrial_hazmat",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/P1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P1/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P1/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/P1/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/P2-APZ 1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 1/battery_storage: section not found in source",
+        "us-12113/P2-APZ 1/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/P2-APZ 1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 1/cannabis_cultivation_processing: section not found in source",
+        "us-12113/P2-APZ 1/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/P2-APZ 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/P2-APZ 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 1/datacenter: section not found in source",
+        "us-12113/P2-APZ 1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 1/heavy_industrial_hazmat: column header 'P2' is not the column for district 'P2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 1/lp_gas: definition section not found in source",
+        "us-12113/P2-APZ 1/lp_gas: column header 'P2' is not the column for district 'P2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 1/utility_generation: column header 'P2' is not the column for district 'P2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 1/warehouse_distribution: column header 'P2' is not the column for district 'P2-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 2/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 2/battery_storage: section not found in source",
+        "us-12113/P2-APZ 2/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/P2-APZ 2/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 2/cannabis_cultivation_processing: section not found in source",
+        "us-12113/P2-APZ 2/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/P2-APZ 2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/P2-APZ 2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 2/datacenter: section not found in source",
+        "us-12113/P2-APZ 2/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 2/heavy_industrial_hazmat: column header 'P2' is not the column for district 'P2-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 2/lp_gas: definition section not found in source",
+        "us-12113/P2-APZ 2/lp_gas: column header 'P2' is not the column for district 'P2-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 2/utility_generation: column header 'P2' is not the column for district 'P2-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2-APZ 2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2-APZ 2/warehouse_distribution: column header 'P2' is not the column for district 'P2-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2/battery_storage: section not found in source",
+        "us-12113/P2/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/P2/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2/cannabis_cultivation_processing: section not found in source",
+        "us-12113/P2/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/P2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/P2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2/datacenter: section not found in source",
+        "us-12113/P2/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2/heavy_industrial_hazmat",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/P2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/P2/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/P2/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/P2/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/PBD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PBD/battery_storage: section not found in source",
+        "us-12113/PBD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 3 are not explained",
+        "us-12113/PBD/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PBD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PBD/cannabis_cultivation_processing: section not found in source",
+        "us-12113/PBD/cannabis_cultivation_processing: absence gate: 'cannabis' occurs 1 times in the code and 1 are not explained",
+        "us-12113/PBD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 58 are not explained",
+        "us-12113/PBD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PBD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PBD/datacenter: section not found in source",
+        "us-12113/PBD/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PBD/heavy_industrial_hazmat",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/PBD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PBD/lp_gas: definition section not found in source"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PBD/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/PBD/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/PIT 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/PIT 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 4 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 1/heavy_industrial_hazmat: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PIT 1/heavy_industrial_hazmat: prose names the use: the quote names no taxonomy term of heavy_industrial_hazmat; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 1/lp_gas: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PIT 1/lp_gas: prose names the use: the quote names no taxonomy term of lp_gas; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 1/utility_generation: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PIT 1/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 1/warehouse_distribution: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PIT 1/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-12113/PIT 1/warehouse_distribution: ordinance grid: table grid places 'storage or distribution center' under 'pit 1'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/PIT 2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 4 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 2/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 2/heavy_industrial_hazmat: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PIT 2/heavy_industrial_hazmat: prose names the use: the quote names no taxonomy term of heavy_industrial_hazmat; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 2/lp_gas: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PIT 2/lp_gas: prose names the use: the quote names no taxonomy term of lp_gas; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 2/utility_generation: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PIT 2/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PIT 2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PIT 2/warehouse_distribution: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PIT 2/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-12113/PIT 2/warehouse_distribution: ordinance grid: table grid places 'storage or distribution center' under 'pit 2'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PUD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/PUD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 4 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PUD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PUD/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PUD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PUD/heavy_industrial_hazmat: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PUD/heavy_industrial_hazmat: prose names the use: the quote names no taxonomy term of heavy_industrial_hazmat; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PUD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PUD/lp_gas: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PUD/lp_gas: prose names the use: the quote names no taxonomy term of lp_gas; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PUD/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PUD/utility_generation: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PUD/utility_generation: prose names the use: the quote names no taxonomy term of utility_generation; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/PUD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/PUD/warehouse_distribution: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/PUD/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-12113/PUD/warehouse_distribution: ordinance grid: table grid places 'storage or distribution center' under 'pud'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/R1-APZ 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 4 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 1/heavy_industrial_hazmat: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/R1-APZ 1/heavy_industrial_hazmat: prose names the use: the quote names no taxonomy term of heavy_industrial_hazmat; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 1/lp_gas: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/R1-APZ 1/lp_gas: prose names the use: the quote names no taxonomy term of lp_gas; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R1-APZ 1/utility_generation: column header 'R1' is not the column for district 'R1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 1/warehouse_distribution: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/R1-APZ 1/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 2/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/R1-APZ 2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R1-APZ 2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 2/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 2/heavy_industrial_hazmat: column header 'R1' is not the column for district 'R1-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 2/lp_gas: column header 'R1' is not the column for district 'R1-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R1-APZ 2/utility_generation: column header 'R1' is not the column for district 'R1-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-APZ 2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-APZ 2/warehouse_distribution: column header 'R1' is not the column for district 'R1-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-CZ/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/R1-CZ/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-CZ/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R1-CZ/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-CZ/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-CZ/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-CZ/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-CZ/heavy_industrial_hazmat: column header 'R1' is not the column for district 'R1-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-CZ/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-CZ/lp_gas: column header 'R1' is not the column for district 'R1-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-CZ/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-CZ/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R1-CZ/utility_generation: column header 'R1' is not the column for district 'R1-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1-CZ/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1-CZ/warehouse_distribution: column header 'R1' is not the column for district 'R1-CZ' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 55 are not explained",
+        "us-12113/R1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 4 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1/heavy_industrial_hazmat: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/R1/heavy_industrial_hazmat: prose names the use: the quote names no taxonomy term of heavy_industrial_hazmat; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1/lp_gas: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/R1/lp_gas: prose names the use: the quote names no taxonomy term of lp_gas; a listed status needs the use's own text"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1/warehouse_distribution: prose evidence quotes the table key; cite the table cell as table evidence",
+        "us-12113/R1/warehouse_distribution: prose names the use: the quote names no taxonomy term of warehouse_distribution; a listed status needs the use's own text",
+        "us-12113/R1/warehouse_distribution: ordinance grid: table grid places 'storage or distribution center' under 'r1'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1A/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/R1A/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1A/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R1A/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1A/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1A/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1A/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1A/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 1/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/R1M-APZ 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R1M-APZ 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 1/heavy_industrial_hazmat: column header 'R1M' is not the column for district 'R1M-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 1/lp_gas: column header 'R1M' is not the column for district 'R1M-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R1M-APZ 1/utility_generation: column header 'R1M' is not the column for district 'R1M-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 1/warehouse_distribution: column header 'R1M' is not the column for district 'R1M-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R1M-APZ 2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 2/datacenter: column header 'R1M' is not the column for district 'R1M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 2/heavy_industrial_hazmat: column header 'R1M' is not the column for district 'R1M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 2/lp_gas: column header 'R1M' is not the column for district 'R1M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R1M-APZ 2/utility_generation: column header 'R1M' is not the column for district 'R1M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M-APZ 2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M-APZ 2/warehouse_distribution: column header 'R1M' is not the column for district 'R1M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M/battery_storage",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/R1M/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R1M/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 8 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R1M/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R1M/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2 APZ1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2 APZ1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R2 APZ1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2 APZ1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2 APZ1/datacenter: column header 'R2' is not the column for district 'R2 APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2 APZ1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2 APZ1/heavy_industrial_hazmat: column header 'R2' is not the column for district 'R2 APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2 APZ1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2 APZ1/lp_gas: column header 'R2' is not the column for district 'R2 APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2 APZ1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2 APZ1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R2 APZ1/utility_generation: column header 'R2' is not the column for district 'R2 APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2 APZ1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2 APZ1/warehouse_distribution: column header 'R2' is not the column for district 'R2 APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2M-APZ 2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2M-APZ 2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R2M-APZ 2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2M-APZ 2/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2M-APZ 2/datacenter: column header 'R2M' is not the column for district 'R2M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2M-APZ 2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2M-APZ 2/heavy_industrial_hazmat: column header 'R2M' is not the column for district 'R2M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2M-APZ 2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2M-APZ 2/lp_gas: column header 'R2M' is not the column for district 'R2M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2M-APZ 2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2M-APZ 2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R2M-APZ 2/utility_generation: column header 'R2M' is not the column for district 'R2M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2M-APZ 2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2M-APZ 2/warehouse_distribution: column header 'R2M' is not the column for district 'R2M-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2M/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2M/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 56 are not explained",
+        "us-12113/R2M/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R2M/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R2M/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3 APZ3/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3 APZ3/battery_storage: absence gate: 'battery' occurs 3 times in the code and 1 are not explained",
+        "us-12113/R3 APZ3/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3 APZ3/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3 APZ3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 53 are not explained",
+        "us-12113/R3 APZ3/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3 APZ3/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3 APZ3/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3 APZ3/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3 APZ3/heavy_industrial_hazmat: column header 'R3' is not the column for district 'R3 APZ3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3 APZ3/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3 APZ3/lp_gas: column header 'R3' is not the column for district 'R3 APZ3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3 APZ3/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3 APZ3/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R3 APZ3/utility_generation: column header 'R3' is not the column for district 'R3 APZ3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3 APZ3/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3 APZ3/warehouse_distribution: column header 'R3' is not the column for district 'R3 APZ3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3-APZ1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3-APZ1/battery_storage: absence gate: 'battery' occurs 3 times in the code and 1 are not explained",
+        "us-12113/R3-APZ1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3-APZ1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3-APZ1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 53 are not explained",
+        "us-12113/R3-APZ1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3-APZ1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3-APZ1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3-APZ1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3-APZ1/heavy_industrial_hazmat: column header 'R3' is not the column for district 'R3-APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3-APZ1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3-APZ1/lp_gas: column header 'R3' is not the column for district 'R3-APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3-APZ1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3-APZ1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/R3-APZ1/utility_generation: column header 'R3' is not the column for district 'R3-APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3-APZ1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3-APZ1/warehouse_distribution: column header 'R3' is not the column for district 'R3-APZ1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3/battery_storage: absence gate: 'battery' occurs 3 times in the code and 1 are not explained",
+        "us-12113/R3/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 53 are not explained",
+        "us-12113/R3/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/R3/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/R3/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 1/battery_storage: absence gate: 'battery' occurs 3 times in the code and 1 are not explained",
+        "us-12113/RR1-APZ 1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 53 are not explained",
+        "us-12113/RR1-APZ 1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 1/heavy_industrial_hazmat: column header 'RR1' is not the column for district 'RR1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 1/lp_gas: column header 'RR1' is not the column for district 'RR1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/RR1-APZ 1/utility_generation: column header 'RR1' is not the column for district 'RR1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 1/warehouse_distribution: column header 'RR1' is not the column for district 'RR1-APZ 1' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 53 are not explained",
+        "us-12113/RR1-APZ 2/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 2/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 2/heavy_industrial_hazmat: column header 'RR1' is not the column for district 'RR1-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 2/lp_gas: column header 'RR1' is not the column for district 'RR1-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 2/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 2/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key",
+        "us-12113/RR1-APZ 2/utility_generation: column header 'RR1' is not the column for district 'RR1-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1-APZ 2/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1-APZ 2/warehouse_distribution: column header 'RR1' is not the column for district 'RR1-APZ 2' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1/battery_storage: absence gate: 'battery' occurs 3 times in the code and 1 are not explained",
+        "us-12113/RR1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 53 are not explained",
+        "us-12113/RR1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1/datacenter: absence gate: 'communication facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/RR1/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/RR1/utility_generation: table symbol 'C 5. 07' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/STATE/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/STATE/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 53 are not explained",
+        "us-12113/STATE/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    },
+    {
+      "key": "us-12113/STATE/heavy_industrial_hazmat",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/STATE/utility_generation",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/STATE/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-12113-51bc810d1bddfd1b"
+    },
+    {
+      "key": "us-12113/TC1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-12113/TC1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 58 times in the code and 53 are not explained",
+        "us-12113/TC1/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 9 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-12113-20261011T225936Z"
+    }
+  ]
+}
