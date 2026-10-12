@@ -22,6 +22,7 @@
       }
     ],
     "code_version": "unknown",
+    "code_status": "unadopted_draft",
     "conditional_zoning_unmapped": false,
     "sources": [
       "us-12069-planning-page",
@@ -269,6 +270,1524 @@
           "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
           "field": "Zoning",
           "value": "RV"
+        }
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-12099",
+    "name": "Palm Beach County (unincorporated)",
+    "type": "county",
+    "state": "FL",
+    "unlisted_rule": "prohibited_by_default",
+    "unlisted_rule_quote": {
+      "quote": "Only those uses listed in this Chapter within the Use Matrices may be considered a principal use.",
+      "section": "Section 8"
+    },
+    "code_version": "unknown",
+    "conditional_zoning_unmapped": true,
+    "sources": [
+      "us-12099-uldc-art1",
+      "us-12099-uldc-art4",
+      "us-12099-uldc-art5",
+      "us-12099-gis-zoning"
+    ],
+    "table_key": [
+      {
+        "symbol": "P",
+        "status": "permitted",
+        "quote": "P Permitted by Right",
+        "section": "Section 7"
+      },
+      {
+        "symbol": "D",
+        "status": "conditional",
+        "quote": "D Subject to DRO approval",
+        "section": "Section 7"
+      },
+      {
+        "symbol": "B",
+        "status": "conditional",
+        "quote": "B Subject to Zoning Commission approval (Class B Conditional Use)",
+        "section": "Section 7"
+      },
+      {
+        "symbol": "A",
+        "status": "conditional",
+        "quote": "A Subject to BCC approval (Class A Conditional Use)",
+        "section": "Section 7"
+      },
+      {
+        "symbol": "-",
+        "status": "prohibited",
+        "quote": "Prohibited use, unless stated otherwise within Supplementary Use Standards",
+        "section": "Section 7"
+      }
+    ],
+    "districts": [
+      {
+        "district_code": "AGR",
+        "district_name": "AGRICULTURAL RESERVE DISTRICT",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "AGR"
+        }
+      },
+      {
+        "district_code": "AGR-MUPD",
+        "district_name": "AGRICULTURAL RESERVE MULTIPLE USE PLANNED DEVELOPMENT DISTRICT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "AGR-MUPD"
+        }
+      },
+      {
+        "district_code": "AGR-MUPD/P",
+        "district_name": "AGRICULTURAL RESERVE MULTPLE USE PLANNED DISTRICT PRESERVE",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "AGR-MUPD/P"
+        }
+      },
+      {
+        "district_code": "AGR-PUD",
+        "district_name": "AGRICULTURAL RESERVE PLANNED UNIT DEVELOPMENT DISTRICT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "AGR-PUD"
+        }
+      },
+      {
+        "district_code": "AGR-PUD/P",
+        "district_name": "AGRICULTURAL RESERVE PLANNED UNIT DEVELOPMENT DISTRICT PRESERVE",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "AGR-PUD/P"
+        }
+      },
+      {
+        "district_code": "AP",
+        "district_name": "AGRICULTURAL PRODUCTION DISTRICT",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "AP"
+        }
+      },
+      {
+        "district_code": "AR",
+        "district_name": "AGRICULTURAL RESIDENTIAL DISTRICT",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "AR"
+        }
+      },
+      {
+        "district_code": "CC",
+        "district_name": "COMMUNITY COMMERCIAL DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "CC"
+        }
+      },
+      {
+        "district_code": "CG",
+        "district_name": "GENERAL COMMERCIAL DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "CG"
+        }
+      },
+      {
+        "district_code": "CHO",
+        "district_name": "COMMERCIAL HIGH INTENSITY OFFICE DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "CHO"
+        }
+      },
+      {
+        "district_code": "CLO",
+        "district_name": "LIMITED OFFICE COMMERCIAL DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "CLO"
+        }
+      },
+      {
+        "district_code": "CN",
+        "district_name": "NEIGHBORHOOD COMMERCIAL DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "CN"
+        }
+      },
+      {
+        "district_code": "CRE",
+        "district_name": "COMMERCIAL RECREATION DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "CRE"
+        }
+      },
+      {
+        "district_code": "CS",
+        "district_name": "COMMERCIAL SPECIALIZED DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "CS"
+        }
+      },
+      {
+        "district_code": "CSH",
+        "district_name": "SPECIALIZED COMMERCIAL HIGH DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "CSH"
+        }
+      },
+      {
+        "district_code": "IG",
+        "district_name": "GENERAL INDUSTRIAL DISTRICT",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "IG"
+        }
+      },
+      {
+        "district_code": "IL",
+        "district_name": "LIGHT INDUSTRIAL DISTRICT",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "IL"
+        }
+      },
+      {
+        "district_code": "IPF",
+        "district_name": "INSTITUTIONAL AND PUBLIC FACILITIES DISTRICT",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "IPF"
+        }
+      },
+      {
+        "district_code": "LO",
+        "district_name": "LIMITED OFFICE DISTRICT",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "LO"
+        }
+      },
+      {
+        "district_code": "MUPD",
+        "district_name": "MULTIPLE USE PLANNED DEVELOPMENT DISTRICT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "MUPD"
+        }
+      },
+      {
+        "district_code": "MUPD/P",
+        "district_name": "MULTIPLE USE PLANNED DEVELOPMENT DISTRICT PRESERVE",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "MUPD/P"
+        }
+      },
+      {
+        "district_code": "MXPD",
+        "district_name": "MIXED USE PLANNED DEVELOPMENT DISTRICT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "MXPD"
+        }
+      },
+      {
+        "district_code": "PC",
+        "district_name": "PRESERVATION/CONSERVATION DISTRICT",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "PC"
+        }
+      },
+      {
+        "district_code": "PIPD",
+        "district_name": "PLANNED INDUSTRIAL PARK DEVELOPMENT DISTRICT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "PIPD"
+        }
+      },
+      {
+        "district_code": "PO",
+        "district_name": "PUBLIC OWNERSHIP DISTRICT",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "PO"
+        }
+      },
+      {
+        "district_code": "PUD",
+        "district_name": "PLANNED UNIT DEVELOPMENT DISTRICT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "PUD"
+        }
+      },
+      {
+        "district_code": "RE",
+        "district_name": "RESIDENTIAL ESTATE DISTRICT",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RE"
+        }
+      },
+      {
+        "district_code": "RH",
+        "district_name": "MULTI-FAMILY RESIDENTIAL (HIGH DENSITY) DISTRICT",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RH"
+        }
+      },
+      {
+        "district_code": "RH/CG",
+        "district_name": "MULTI-FAMILY RESIDENTIAL (HIGH DENSITY) DISTRICT/GENERAL COMMERCIAL DISTRICT",
+        "family": "mixed",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RH/CG"
+        }
+      },
+      {
+        "district_code": "RM",
+        "district_name": "MULTI-FAMILY RESIDENTIAL (MEDIUM DENSITY) DISTRICT",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RM"
+        }
+      },
+      {
+        "district_code": "RR-PUD",
+        "district_name": "RURAL RESIDENTIAL PLANNED UNIT DEVELOPMENT DISTRICT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RR-PUD"
+        }
+      },
+      {
+        "district_code": "RS",
+        "district_name": "SINGLE FAMILY RESIDENTIAL DISTRICT",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RS"
+        }
+      },
+      {
+        "district_code": "RT",
+        "district_name": "RESIDENTIAL TRANSITIONAL DISTRICT",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RT"
+        }
+      },
+      {
+        "district_code": "RTS",
+        "district_name": "RESIDENTIAL TRANSITIONAL SUBURBAN DISTRICT",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RTS"
+        }
+      },
+      {
+        "district_code": "RTU",
+        "district_name": "RESIDENTIAL TRANSITIONAL URBAN DISTRICT",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RTU"
+        }
+      },
+      {
+        "district_code": "RVPD",
+        "district_name": "RECREATIONAL VEHICLE PLANNED DEVELOPMENT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "RVPD"
+        }
+      },
+      {
+        "district_code": "SA",
+        "district_name": "SPECIAL AGRICULTURAL DISTRICT",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "SA"
+        }
+      },
+      {
+        "district_code": "TMD",
+        "district_name": "TRADITIONAL MARKETPLACE DEVELOPMENT DISTRICT",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "TMD"
+        }
+      },
+      {
+        "district_code": "UC",
+        "district_name": "URBAN CENTER",
+        "family": "mixed",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "UC"
+        }
+      },
+      {
+        "district_code": "UI",
+        "district_name": "URBAN INFILL DISTRICT",
+        "family": "mixed",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9",
+          "field": "FCODE",
+          "value": "UI"
+        }
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-12113",
+    "name": "Santa Rosa County (unincorporated)",
+    "type": "county",
+    "state": "FL",
+    "unlisted_rule": "prohibited_by_default",
+    "unlisted_rule_quote": {
+      "quote": "Uses that are not listed or found to be substantially similar to listed uses are prohibited.",
+      "section": "2.03.02"
+    },
+    "code_version": "2025-11-10",
+    "conditional_zoning_unmapped": true,
+    "sources": [
+      "us-12113-ldc",
+      "us-12113-gis-zoning"
+    ],
+    "table_key": [
+      {
+        "symbol": "P",
+        "status": "permitted",
+        "quote": "P = Permitted subject to standards for the zoning district",
+        "section": "2.03.02"
+      },
+      {
+        "symbol": "C",
+        "status": "conditional",
+        "quote": "C = Conditional. Subject to additional standards for the use",
+        "section": "2.03.02"
+      },
+      {
+        "symbol": "S",
+        "status": "conditional",
+        "quote": "S = Special Exceptions, subject to standards for the zoning district",
+        "section": "2.03.02"
+      },
+      {
+        "symbol": "",
+        "status": "prohibited",
+        "quote": "All listed uses are prohibited in those districts where no indicator (“P”, “A”, “C”, “S”) is provided.",
+        "section": "2.03.02"
+      }
+    ],
+    "districts": [
+      {
+        "district_code": "AG-RR",
+        "district_name": "Rural Residential Agriculture District",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "AG-RR"
+        }
+      },
+      {
+        "district_code": "AG-RR-APZ1",
+        "district_name": "Rural Residential Agriculture District within airport zone APZ1 (layer value)",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "AG-RR-APZ1"
+        }
+      },
+      {
+        "district_code": "AG-RR-APZ2",
+        "district_name": "Rural Residential Agriculture District within airport zone APZ2 (layer value)",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "AG-RR-APZ2"
+        }
+      },
+      {
+        "district_code": "AG-RR-CZ",
+        "district_name": "Rural Residential Agriculture District within airport zone CZ (layer value)",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "AG-RR-CZ"
+        }
+      },
+      {
+        "district_code": "AG1",
+        "district_name": "Estate Residential Agriculture District",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "AG1"
+        }
+      },
+      {
+        "district_code": "AG2",
+        "district_name": "Agriculture District 2",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "AG2"
+        }
+      },
+      {
+        "district_code": "AG2-APZ 1",
+        "district_name": "Agriculture District 2 within airport zone APZ 1 (layer value)",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "AG2-APZ 1"
+        }
+      },
+      {
+        "district_code": "AG2-APZ 2",
+        "district_name": "Agriculture District 2 within airport zone APZ 2 (layer value)",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "AG2-APZ 2"
+        }
+      },
+      {
+        "district_code": "C1M",
+        "district_name": "Marina",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "C1M"
+        }
+      },
+      {
+        "district_code": "C2M",
+        "district_name": "Marina and Yacht Club",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "C2M"
+        }
+      },
+      {
+        "district_code": "HC1",
+        "district_name": "Historic Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "HC1"
+        }
+      },
+      {
+        "district_code": "HCD",
+        "district_name": "Highway Commercial Development",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "HCD"
+        }
+      },
+      {
+        "district_code": "HCD-APZ 1",
+        "district_name": "Highway Commercial Development within airport zone APZ 1 (layer value)",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "HCD-APZ 1"
+        }
+      },
+      {
+        "district_code": "HCD-APZ 2",
+        "district_name": "Highway Commercial Development within airport zone APZ 2 (layer value)",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "HCD-APZ 2"
+        }
+      },
+      {
+        "district_code": "HCD-CZ",
+        "district_name": "Highway Commercial Development within airport zone CZ (layer value)",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "HCD-CZ"
+        }
+      },
+      {
+        "district_code": "HR1",
+        "district_name": "Historic Single Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "HR1"
+        }
+      },
+      {
+        "district_code": "HR2",
+        "district_name": "Historic Multiple Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "HR2"
+        }
+      },
+      {
+        "district_code": "M1",
+        "district_name": "Light Industry",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "M1"
+        }
+      },
+      {
+        "district_code": "M1-APZ 1",
+        "district_name": "Light Industry within airport zone APZ 1 (layer value)",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "M1-APZ 1"
+        }
+      },
+      {
+        "district_code": "M1-CZ",
+        "district_name": "Light Industry within airport zone CZ (layer value)",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "M1-CZ"
+        }
+      },
+      {
+        "district_code": "M2",
+        "district_name": "General Industry",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "M2"
+        }
+      },
+      {
+        "district_code": "M2-APZ 1",
+        "district_name": "General Industry within airport zone APZ 1 (layer value)",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "M2-APZ 1"
+        }
+      },
+      {
+        "district_code": "M2-CZ",
+        "district_name": "General Industry within airport zone CZ (layer value)",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "M2-CZ"
+        }
+      },
+      {
+        "district_code": "MIL",
+        "district_name": "Military Installation",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "MIL"
+        }
+      },
+      {
+        "district_code": "NB-C",
+        "district_name": "Navarre Beach Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-C"
+        }
+      },
+      {
+        "district_code": "NB-CON/REC",
+        "district_name": "Navarre Beach Conservation/Recreation",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-CON/REC"
+        }
+      },
+      {
+        "district_code": "NB-H",
+        "district_name": "Navarre Beach Hotel",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-H"
+        }
+      },
+      {
+        "district_code": "NB-HD",
+        "district_name": "Navarre Beach High Density",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-HD"
+        }
+      },
+      {
+        "district_code": "NB-MD",
+        "district_name": "Navarre Beach Medium Density",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-MD"
+        }
+      },
+      {
+        "district_code": "NB-MHD",
+        "district_name": "Navarre Beach Medium High Density",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-MHD"
+        }
+      },
+      {
+        "district_code": "NB-PMUD",
+        "district_name": "Navarre Beach Planned Mixed Use Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-PMUD"
+        }
+      },
+      {
+        "district_code": "NB-SF",
+        "district_name": "Navarre Beach Single Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-SF"
+        }
+      },
+      {
+        "district_code": "NB-U",
+        "district_name": "Navarre Beach Utilities",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NB-U"
+        }
+      },
+      {
+        "district_code": "NC",
+        "district_name": "Neighborhood Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NC"
+        }
+      },
+      {
+        "district_code": "NC APZ1",
+        "district_name": "Neighborhood Commercial within airport zone APZ1 (layer value)",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "NC APZ1"
+        }
+      },
+      {
+        "district_code": "P1",
+        "district_name": "Passive Park",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "P1"
+        }
+      },
+      {
+        "district_code": "P2",
+        "district_name": "Active Park",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "P2"
+        }
+      },
+      {
+        "district_code": "P2-APZ 1",
+        "district_name": "Active Park within airport zone APZ 1 (layer value)",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "P2-APZ 1"
+        }
+      },
+      {
+        "district_code": "P2-APZ 2",
+        "district_name": "Active Park within airport zone APZ 2 (layer value)",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "P2-APZ 2"
+        }
+      },
+      {
+        "district_code": "PBD",
+        "district_name": "Planned Business District",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "PBD"
+        }
+      },
+      {
+        "district_code": "PIT 1",
+        "district_name": "Borrow Pit and Land Clearing Debris Disposal Facilities",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "PIT 1"
+        }
+      },
+      {
+        "district_code": "PIT 2",
+        "district_name": "Construction and Demolition Debris Facilities",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "PIT 2"
+        }
+      },
+      {
+        "district_code": "PUD",
+        "district_name": "Planned Unit Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "PUD"
+        }
+      },
+      {
+        "district_code": "R1",
+        "district_name": "Single Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R1"
+        }
+      },
+      {
+        "district_code": "R1-APZ 1",
+        "district_name": "Single Family within airport zone APZ 1 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R1-APZ 1"
+        }
+      },
+      {
+        "district_code": "R1-APZ 2",
+        "district_name": "Single Family within airport zone APZ 2 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R1-APZ 2"
+        }
+      },
+      {
+        "district_code": "R1-CZ",
+        "district_name": "Single Family within airport zone CZ (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R1-CZ"
+        }
+      },
+      {
+        "district_code": "R1A",
+        "district_name": "Single Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R1A"
+        }
+      },
+      {
+        "district_code": "R1M",
+        "district_name": "Mixed Residential Subdivision",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R1M"
+        }
+      },
+      {
+        "district_code": "R1M-APZ 1",
+        "district_name": "Mixed Residential Subdivision within airport zone APZ 1 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R1M-APZ 1"
+        }
+      },
+      {
+        "district_code": "R1M-APZ 2",
+        "district_name": "Mixed Residential Subdivision within airport zone APZ 2 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R1M-APZ 2"
+        }
+      },
+      {
+        "district_code": "R2",
+        "district_name": "Medium Density",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R2"
+        }
+      },
+      {
+        "district_code": "R2 APZ1",
+        "district_name": "Medium Density within airport zone APZ1 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R2 APZ1"
+        }
+      },
+      {
+        "district_code": "R2M",
+        "district_name": "Medium Density Mixed",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R2M"
+        }
+      },
+      {
+        "district_code": "R2M-APZ 2",
+        "district_name": "Medium Density Mixed within airport zone APZ 2 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R2M-APZ 2"
+        }
+      },
+      {
+        "district_code": "R3",
+        "district_name": "Medium High Density",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R3"
+        }
+      },
+      {
+        "district_code": "R3 APZ3",
+        "district_name": "Medium High Density within airport zone APZ3 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R3 APZ3"
+        }
+      },
+      {
+        "district_code": "R3-APZ1",
+        "district_name": "Medium High Density within airport zone APZ1 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "R3-APZ1"
+        }
+      },
+      {
+        "district_code": "RR1",
+        "district_name": "Rural Residential Single Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "RR1"
+        }
+      },
+      {
+        "district_code": "RR1-APZ 1",
+        "district_name": "Rural Residential Single Family within airport zone APZ 1 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "RR1-APZ 1"
+        }
+      },
+      {
+        "district_code": "RR1-APZ 2",
+        "district_name": "Rural Residential Single Family within airport zone APZ 2 (layer value)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "RR1-APZ 2"
+        }
+      },
+      {
+        "district_code": "STATE",
+        "district_name": "State Lands",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "STATE"
+        }
+      },
+      {
+        "district_code": "TC1",
+        "district_name": "Town Center Core",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+          "field": "DISTRICT",
+          "value": "TC1"
+        }
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-13057",
+    "name": "Cherokee County (unincorporated)",
+    "type": "county",
+    "state": "GA",
+    "unlisted_rule": "prohibited_by_default",
+    "unlisted_rule_quote": {
+      "quote": "No use shall be permitted, except in the zoning districts indicated and for",
+      "section": "7.6"
+    },
+    "code_version": "unknown",
+    "conditional_zoning_unmapped": true,
+    "sources": [
+      "us-13057-zo-art4",
+      "us-13057-zo-art5",
+      "us-13057-zo-art6",
+      "us-13057-zo-art7",
+      "us-13057-zo-t72",
+      "us-13057-zo-art16",
+      "us-13057-zo-art18",
+      "us-13057-gis-zoning"
+    ],
+    "table_key": [
+      {
+        "symbol": "O",
+        "status": "permitted",
+        "quote": "Open Use O",
+        "section": "Table 7.2"
+      },
+      {
+        "symbol": "R",
+        "status": "permitted",
+        "quote": "Restricted Use - See 7.7 R",
+        "section": "Table 7.2"
+      },
+      {
+        "symbol": "S",
+        "status": "conditional",
+        "quote": "Special Use Permit S",
+        "section": "Table 7.2"
+      }
+    ],
+    "districts": [
+      {
+        "district_code": "AG",
+        "district_name": "General Agricultural District",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "AG"
+        }
+      },
+      {
+        "district_code": "GC",
+        "district_name": "General Commercial District",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "GC"
+        }
+      },
+      {
+        "district_code": "HI",
+        "district_name": "Heavy Industrial District",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "HI"
+        }
+      },
+      {
+        "district_code": "LI",
+        "district_name": "Light Industrial District",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "LI"
+        }
+      },
+      {
+        "district_code": "NC",
+        "district_name": "Neighborhood Commercial District",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "NC"
+        }
+      },
+      {
+        "district_code": "OI",
+        "district_name": "Office/Institutional District",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "OI"
+        }
+      },
+      {
+        "district_code": "PDTND",
+        "district_name": "PDTND (layer value; planned traditional neighborhood development)",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "PDTND"
+        }
+      },
+      {
+        "district_code": "PUD",
+        "district_name": "PUD (layer value; planned unit development)",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "PUD"
+        }
+      },
+      {
+        "district_code": "R10",
+        "district_name": "R10 (layer value; not listed in Article 6)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "R10"
+        }
+      },
+      {
+        "district_code": "R-15",
+        "district_name": "Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "R15"
+        }
+      },
+      {
+        "district_code": "R-20",
+        "district_name": "Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "R20"
+        }
+      },
+      {
+        "district_code": "R-30",
+        "district_name": "Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "R30"
+        }
+      },
+      {
+        "district_code": "R-40",
+        "district_name": "Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "R40"
+        }
+      },
+      {
+        "district_code": "R-60",
+        "district_name": "Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "R60"
+        }
+      },
+      {
+        "district_code": "R-80",
+        "district_name": "Estate Residential District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "R80"
+        }
+      },
+      {
+        "district_code": "RA",
+        "district_name": "Single-Family Attached Residential District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "RA"
+        }
+      },
+      {
+        "district_code": "RD-3",
+        "district_name": "Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "RD3"
+        }
+      },
+      {
+        "district_code": "RM-10",
+        "district_name": "Multi-Family Residential District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "RM10"
+        }
+      },
+      {
+        "district_code": "RM-16",
+        "district_name": "Multi-Family Residential District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "RM16"
+        }
+      },
+      {
+        "district_code": "RTH",
+        "district_name": "Townhouse Residential District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "RTH"
+        }
+      },
+      {
+        "district_code": "RZL",
+        "district_name": "Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "RZL"
+        }
+      },
+      {
+        "district_code": "TND",
+        "district_name": "Traditional Neighborhood Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+          "field": "Zoning",
+          "value": "TND"
         }
       }
     ]
@@ -645,6 +2164,353 @@
           "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
           "field": "ZONING_GIS",
           "value": "R-MH"
+        }
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-13139",
+    "name": "Hall County (unincorporated)",
+    "type": "county",
+    "state": "GA",
+    "unlisted_rule": "prohibited_by_default",
+    "unlisted_rule_quote": {
+      "quote": "A principal use not specifically listed is prohibited unless the Director determines the use to be part of a use category as described below.",
+      "section": "7.1.4"
+    },
+    "code_version": "2026-09-10",
+    "conditional_zoning_unmapped": true,
+    "sources": [
+      "us-13139-udc",
+      "us-13139-gis-zoning"
+    ],
+    "table_key": [
+      {
+        "symbol": "P",
+        "status": "permitted",
+        "quote": "P = Permitted Use",
+        "section": "7.2.1"
+      },
+      {
+        "symbol": "SU",
+        "status": "conditional",
+        "quote": "SU = Special Use",
+        "section": "7.2.1"
+      },
+      {
+        "symbol": "CUP",
+        "status": "conditional",
+        "quote": "CUP = Conditional Use Permit",
+        "section": "7.2.1"
+      },
+      {
+        "symbol": "--",
+        "status": "prohibited",
+        "quote": "“--” = Not permitted",
+        "section": "7.2.1"
+      }
+    ],
+    "column_aliases": [
+      {
+        "district_code": "AG-1",
+        "column_header": "1-GA",
+        "quote": "Sec. 3.1. Agricultural (AG-1)",
+        "section": "3.1",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'AG-1' as '1-GA'"
+      },
+      {
+        "district_code": "AR-1",
+        "column_header": "1-RA",
+        "quote": "Sec. 3.2. Agricultural Residential 1 (AR-1)",
+        "section": "3.2",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'AR-1' as '1-RA'"
+      },
+      {
+        "district_code": "V-C",
+        "column_header": "C-V",
+        "quote": "Sec. 4.1. Vacation Cottage (V-C)",
+        "section": "4.1",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'V-C' as 'C-V'"
+      },
+      {
+        "district_code": "R-1-L",
+        "column_header": "L-1-R",
+        "quote": "Sec. 4.2. Residential 1 Low Density (R-1-L)",
+        "section": "4.2",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-1-L' as 'L-1-R'"
+      },
+      {
+        "district_code": "R-1",
+        "column_header": "1-R",
+        "quote": "Sec. 4.3. Residential 1 (R-1)",
+        "section": "4.3",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-1' as '1-R'"
+      },
+      {
+        "district_code": "R-TF",
+        "column_header": "FT-R",
+        "quote": "Sec. 4.4. Residential Two-Family (R-TF)",
+        "section": "4.4",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-TF' as 'FT-R'"
+      },
+      {
+        "district_code": "R-X",
+        "column_header": "X-R",
+        "quote": "Sec. 4.7. Residential Mixed (R-X)",
+        "section": "4.7",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-X' as 'X-R'"
+      },
+      {
+        "district_code": "R-MF",
+        "column_header": "FM-R",
+        "quote": "Sec. 4.8. Residential Multi-Family (R-MF)",
+        "section": "4.8",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-MF' as 'FM-R'"
+      },
+      {
+        "district_code": "MHP",
+        "column_header": "PHM",
+        "quote": "Sec. 4.9. Manufactured Home Park (MHP)",
+        "section": "4.9",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'MHP' as 'PHM'"
+      },
+      {
+        "district_code": "O-I",
+        "column_header": "I-O",
+        "quote": "Sec. 5.1. Office and Institutional (O-I)",
+        "section": "5.1",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'O-I' as 'I-O'"
+      },
+      {
+        "district_code": "H-B",
+        "column_header": "B-H",
+        "quote": "Sec. 5.3. Highway Business (H-B)",
+        "section": "5.3",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'H-B' as 'B-H'"
+      },
+      {
+        "district_code": "I-1",
+        "column_header": "1-I",
+        "quote": "Sec. 5.5. Light Industrial (I-1)",
+        "section": "5.5",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'I-1' as '1-I'"
+      },
+      {
+        "district_code": "I-2",
+        "column_header": "2-I",
+        "quote": "Sec. 5.6. Heavy Industrial (I-2)",
+        "section": "5.6",
+        "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'I-2' as '2-I'"
+      }
+    ],
+    "districts": [
+      {
+        "district_code": "AG-1",
+        "district_name": "Agricultural",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "AG-1"
+        }
+      },
+      {
+        "district_code": "AR-1",
+        "district_name": "Agricultural Residential 1",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "AR-1"
+        }
+      },
+      {
+        "district_code": "H-B",
+        "district_name": "Highway Business",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "H-B"
+        }
+      },
+      {
+        "district_code": "I-1",
+        "district_name": "Light Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "I-1"
+        }
+      },
+      {
+        "district_code": "I-2",
+        "district_name": "Heavy Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "I-2"
+        }
+      },
+      {
+        "district_code": "MHP",
+        "district_name": "Manufactured Home Park",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "MHP"
+        }
+      },
+      {
+        "district_code": "O-I",
+        "district_name": "Office and Institutional",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "O-I"
+        }
+      },
+      {
+        "district_code": "PCD",
+        "district_name": "Planned Commercial Development (legacy planned development)",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "PCD"
+        }
+      },
+      {
+        "district_code": "PCFD",
+        "district_name": "Planned Commercial Farm District (legacy planned development)",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "PCFD"
+        }
+      },
+      {
+        "district_code": "PID",
+        "district_name": "Planned Industrial Development (legacy planned development)",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "PID"
+        }
+      },
+      {
+        "district_code": "POD",
+        "district_name": "Planned Office Development (legacy planned development)",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "POD"
+        }
+      },
+      {
+        "district_code": "PRD",
+        "district_name": "Planned Residential Development (legacy planned development)",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "PRD"
+        }
+      },
+      {
+        "district_code": "R-1",
+        "district_name": "Residential 1",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "R-1"
+        }
+      },
+      {
+        "district_code": "R-1-L",
+        "district_name": "Residential 1 Low Density",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "R-1-L"
+        }
+      },
+      {
+        "district_code": "R-MF",
+        "district_name": "Residential Multi-Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "R-MF"
+        }
+      },
+      {
+        "district_code": "R-TF",
+        "district_name": "Residential Two-Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "R-TF"
+        }
+      },
+      {
+        "district_code": "R-X",
+        "district_name": "Residential Mixed",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "R-X"
+        }
+      },
+      {
+        "district_code": "S-S",
+        "district_name": "Suburban Shopping",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "S-S"
+        }
+      },
+      {
+        "district_code": "V-C",
+        "district_name": "Vacation Cottage",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+          "field": "ZN_CLASS",
+          "value": "V-C"
         }
       }
     ]

@@ -8,22 +8,22 @@
     {
       "format": "json",
       "path": "cells.json",
-      "sha256": "5d369c6586696c03f0134f598ff740e75757063c2529f6522f130d240fbed3f4"
+      "sha256": "73c4f2551d1b98f9cb02b4a14b4e2399a8487d97ba54e86eadac8682e4ec2388"
     },
     {
       "format": "geoparquet",
       "path": "cells.parquet",
-      "sha256": "24b6868d58e3f2c2b7b764a9f9c16dd7cc1dc02972f23e95d2d569c0a85d52bb"
+      "sha256": "ec780d8b5716c210765450a83fdc1e28e3dc4b873a3ca1d5cdd55b95d53a3626"
     },
     {
       "format": "json",
       "path": "jurisdictions.json",
-      "sha256": "454e24e2a3859d31dba32d59d998190bbc8b7241463f00ff4e1d9d48c63c534c"
+      "sha256": "e2bc83db9cfd2b605e33f3396bc479f34397670a72e9ef98eb0ff139968d954a"
     },
     {
       "format": "json",
       "path": "sources.json",
-      "sha256": "2768a8c3e5f4ef5044ed13a774489f35f69233e64829ca37c8f70ad71fa0b48d"
+      "sha256": "c533dc2390c2e2934e648b3b560a14200111f67ccad80568aed398fdaaac60f2"
     },
     {
       "format": "json",
@@ -38,7 +38,7 @@
     {
       "format": "json",
       "path": "withheld.json",
-      "sha256": "54614a79150aa9f422f47d55a3623ce2a773df099e3b1dba3b6df883a14be3e0"
+      "sha256": "1dffe2592783345462f3344c40ac31e55d1b9a132d6f0ae0bd9a981cba1d553f"
     },
     {
       "format": "json",
@@ -48,13 +48,13 @@
     {
       "format": "json",
       "path": "accuracy.json",
-      "sha256": "3dfef3c8666f89d5690c98f70345e2ef9652f06d28af071a585685dcd5f6b98d"
+      "sha256": "7c5b1af2b614231ffacc7f0fcc9d94ef435d6593156f91f81cab3e7807cc8e9c"
     }
   ],
   "other_files": [
     {
       "path": "denylist.txt",
-      "sha256": "a91574f1bbe4ea08afbb80143b811227807a1d95e5814e4f0b95450811e5d6b3"
+      "sha256": "ac53e0ce6e79535ce2057f92179bf8bfb01fe4162827d4ed8f5452b7d8d34eb5"
     }
   ],
   "stale_after_months": 12,
@@ -62,10 +62,14 @@
     "amlegal.com",
     "codepublishing.com",
     "ecode360.com",
+    "encodeplus.com",
     "franklinlegal.net",
     "generalcode.com",
     "landuselabs.com",
+    "municipal.codes",
+    "municipalcodeonline.com",
     "municode.com",
+    "qcode.us",
     "sterlingcodifiers.com",
     "zoningatlas.org"
   ],
