@@ -1,0 +1,68 @@
+{
+  "schema": "zoning-atlas.release/0.1",
+  "version": "0.1.0",
+  "published": "2026-10-11",
+  "licence": "CC-BY-4.0",
+  "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+  "files": [
+    {
+      "format": "json",
+      "path": "cells.json",
+      "sha256": "87562415002868adfe0c5fcc3a7f7e492c98205862964878b022f4097db2c0c2"
+    },
+    {
+      "format": "geoparquet",
+      "path": "cells.parquet",
+      "sha256": "9957e25d01727900f8112d9f6ceb32271b4b8cb1393a4361126b49edd3761b39"
+    },
+    {
+      "format": "json",
+      "path": "jurisdictions.json",
+      "sha256": "67c379eb270ff6d045297b637e950a56b027bbe71564d51654698adb2f78a0d6"
+    },
+    {
+      "format": "json",
+      "path": "sources.json",
+      "sha256": "eb450a1098e182ed022bd54613d45a2e5d77601b0835fd79f6da06904db2b32d"
+    },
+    {
+      "format": "json",
+      "path": "amendments.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "format": "json",
+      "path": "state_rules.json",
+      "sha256": "da7815b5e29e1426171f794c480d5a341e266dc4ff21a57a4c29e529e7dd91d3"
+    },
+    {
+      "format": "json",
+      "path": "taxonomy.json",
+      "sha256": "babe45d95baf18aa426041518c51002b8bd0c459e1201fa471b3b1d38ea6385d"
+    },
+    {
+      "format": "json",
+      "path": "accuracy.json",
+      "sha256": "80e69907238a4e29057ea2d82b794fc78abdac5aab877c7c0b54ac2cfeea1ed9"
+    }
+  ],
+  "other_files": [
+    {
+      "path": "denylist.txt",
+      "sha256": "a91574f1bbe4ea08afbb80143b811227807a1d95e5814e4f0b95450811e5d6b3"
+    }
+  ],
+  "stale_after_months": 12,
+  "denylist": [
+    "amlegal.com",
+    "codepublishing.com",
+    "ecode360.com",
+    "franklinlegal.net",
+    "generalcode.com",
+    "landuselabs.com",
+    "municode.com",
+    "sterlingcodifiers.com",
+    "zoningatlas.org"
+  ],
+  "reliance_notice": "This is a research dataset, not a legal determination. Before relying on any answer, at every grade, get a zoning verification letter or use determination from the planning department, or a land-use attorney or planner."
+}

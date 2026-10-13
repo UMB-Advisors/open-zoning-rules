@@ -1,0 +1,1523 @@
+[
+  {
+    "jurisdiction_id": "us-12069",
+    "name": "Lake County (unincorporated)",
+    "type": "county",
+    "state": "FL",
+    "unlisted_rule": "none",
+    "code_version": "unknown",
+    "conditional_zoning_unmapped": false,
+    "sources": [
+      "us-12069-planning-page",
+      "us-12069-ord-2026-xx-draft",
+      "us-12069-gis-zoning"
+    ],
+    "districts": [
+      {
+        "district_code": "A",
+        "district_name": "Agriculture",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "A"
+        }
+      },
+      {
+        "district_code": "AR",
+        "district_name": "Agricultural Residential",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "AR"
+        }
+      },
+      {
+        "district_code": "C-1",
+        "district_name": "Neighborhood Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "C-1"
+        }
+      },
+      {
+        "district_code": "C-2",
+        "district_name": "Community Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "C-2"
+        }
+      },
+      {
+        "district_code": "C-3",
+        "district_name": "C-3",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "C-3"
+        }
+      },
+      {
+        "district_code": "CFD",
+        "district_name": "Community Facility District",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "CFD"
+        }
+      },
+      {
+        "district_code": "CP",
+        "district_name": "Planned Commercial",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "CP"
+        }
+      },
+      {
+        "district_code": "HM",
+        "district_name": "Heavy Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "HM"
+        }
+      },
+      {
+        "district_code": "LM",
+        "district_name": "Light Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "LM"
+        }
+      },
+      {
+        "district_code": "MP",
+        "district_name": "Planned Industrial",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "MP"
+        }
+      },
+      {
+        "district_code": "PUD",
+        "district_name": "Planned Unit Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "PUD"
+        }
+      },
+      {
+        "district_code": "R-1",
+        "district_name": "Rural Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "R-1"
+        }
+      },
+      {
+        "district_code": "R-2",
+        "district_name": "Estate Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "R-2"
+        }
+      },
+      {
+        "district_code": "R-3",
+        "district_name": "Medium Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "R-3"
+        }
+      },
+      {
+        "district_code": "R-4",
+        "district_name": "Medium Suburban Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "R-4"
+        }
+      },
+      {
+        "district_code": "R-6",
+        "district_name": "Urban Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "R-6"
+        }
+      },
+      {
+        "district_code": "R-7",
+        "district_name": "Mixed Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "R-7"
+        }
+      },
+      {
+        "district_code": "RA",
+        "district_name": "Ranchette District",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "RA"
+        }
+      },
+      {
+        "district_code": "RM",
+        "district_name": "Mixed Home Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "RM"
+        }
+      },
+      {
+        "district_code": "RMRP",
+        "district_name": "Mobile Home Rental Park",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "RMRP"
+        }
+      },
+      {
+        "district_code": "RP",
+        "district_name": "Residential Professional",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "RP"
+        }
+      },
+      {
+        "district_code": "RV",
+        "district_name": "Recreational Vehicle Park",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+          "field": "Zoning",
+          "value": "RV"
+        }
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-13097",
+    "name": "Douglas County",
+    "type": "county",
+    "state": "GA",
+    "unlisted_rule": "none",
+    "code_version": "unknown",
+    "conditional_zoning_unmapped": false,
+    "sources": [
+      "us-13097-udc-page",
+      "us-13097-udc",
+      "us-13097-gis-zoning"
+    ],
+    "districts": [
+      {
+        "district_code": "AG",
+        "district_name": "Agricultural",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "AG"
+        }
+      },
+      {
+        "district_code": "C-G",
+        "district_name": "General Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "C-G"
+        }
+      },
+      {
+        "district_code": "C-G-C",
+        "district_name": "General Commercial - Conditions",
+        "family": "commercial",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "C-G-C"
+        }
+      },
+      {
+        "district_code": "C-H",
+        "district_name": "Heavy Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "C-H"
+        }
+      },
+      {
+        "district_code": "C-H-C",
+        "district_name": "Heavy Commercial - Conditions",
+        "family": "commercial",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "C-H-C"
+        }
+      },
+      {
+        "district_code": "HI",
+        "district_name": "Heavy Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "HI"
+        }
+      },
+      {
+        "district_code": "LI",
+        "district_name": "Light Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "LI"
+        }
+      },
+      {
+        "district_code": "LI-C",
+        "district_name": "Light Industrial - Conditions",
+        "family": "industrial",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "LI-C"
+        }
+      },
+      {
+        "district_code": "LI-R",
+        "district_name": "Restricted Light Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "LI-R"
+        }
+      },
+      {
+        "district_code": "LI-R-C",
+        "district_name": "Restricted Light Industrial - Conditions",
+        "family": "industrial",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "LI-R-C"
+        }
+      },
+      {
+        "district_code": "OI",
+        "district_name": "Office/Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "OI"
+        }
+      },
+      {
+        "district_code": "PRD",
+        "district_name": "Planned Residential District",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "PRD"
+        }
+      },
+      {
+        "district_code": "PSP",
+        "district_name": "Public Semi-Public",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "PSP"
+        }
+      },
+      {
+        "district_code": "PUD",
+        "district_name": "Planned Unit Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "PUD"
+        }
+      },
+      {
+        "district_code": "PUD-C",
+        "district_name": "Planned Unit Development - Conditions",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "PUD-C"
+        }
+      },
+      {
+        "district_code": "R-A",
+        "district_name": "Residential-Agricultural",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-A"
+        }
+      },
+      {
+        "district_code": "R-A-C",
+        "district_name": "Residential-Agricultural - Conditions",
+        "family": "agricultural",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-A-C"
+        }
+      },
+      {
+        "district_code": "R-HD",
+        "district_name": "Residential-High Density",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-HD"
+        }
+      },
+      {
+        "district_code": "R-HD-C",
+        "district_name": "Residential-High Density - Conditions",
+        "family": "residential",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-HD-C"
+        }
+      },
+      {
+        "district_code": "R-LD",
+        "district_name": "Low Density Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-LD"
+        }
+      },
+      {
+        "district_code": "R-LD-C",
+        "district_name": "Low Density Single-Family Residential - Conditions",
+        "family": "residential",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-LD-C"
+        }
+      },
+      {
+        "district_code": "R-MD",
+        "district_name": "Medium Density Single-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-MD"
+        }
+      },
+      {
+        "district_code": "R-MD-C",
+        "district_name": "Medium Density Single-Family Residential - Conditions",
+        "family": "residential",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-MD-C"
+        }
+      },
+      {
+        "district_code": "R-MF",
+        "district_name": "Multi-Family Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-MF"
+        }
+      },
+      {
+        "district_code": "R-MH",
+        "district_name": "Manufactured Home Residential",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://maps.douglascountyga.gov/arcgis/rest/services/Zoning/Zoning/MapServer/7",
+          "field": "ZONING_GIS",
+          "value": "R-MH"
+        }
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-51107",
+    "name": "Loudoun County",
+    "type": "county",
+    "state": "VA",
+    "unlisted_rule": "prohibited_by_default",
+    "unlisted_rule_quote": {
+      "quote": "If the Zoning Administrator determines that an unlisted proposed use does not fall within the definition of a use identified and defined in the Zoning Ordinance, the use is not permitted unless the Board of Supervisors, in its discretion, approves a Zoning Ordinance Amendment (Section 10.10.02) to allow such use.",
+      "section": "3.01.G.3"
+    },
+    "code_version": "2023-12-13",
+    "conditional_zoning_unmapped": true,
+    "sources": [
+      "us-51107-zo-ch3",
+      "us-51107-zo-ch12",
+      "us-51107-zo-faq",
+      "us-51107-dc-phase1",
+      "us-51107-gis-zoning"
+    ],
+    "districts": [
+      {
+        "district_code": "A10",
+        "district_name": "Agriculture",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "A10"
+        }
+      },
+      {
+        "district_code": "A3",
+        "district_name": "Agricultural/Residential",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "A3"
+        }
+      },
+      {
+        "district_code": "AR1",
+        "district_name": "Agricultural Rural - 1",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "AR1"
+        }
+      },
+      {
+        "district_code": "AR2",
+        "district_name": "Agricultural Rural - 2",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "AR2"
+        }
+      },
+      {
+        "district_code": "C1",
+        "district_name": "Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "C1"
+        }
+      },
+      {
+        "district_code": "CCCC",
+        "district_name": "Commercial Center - Community Center",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "CCCC"
+        }
+      },
+      {
+        "district_code": "CCNC",
+        "district_name": "Commercial Center - Neighborhood Center",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "CCNC"
+        }
+      },
+      {
+        "district_code": "CCSC",
+        "district_name": "Commercial Center - Small Regional Center",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "CCSC"
+        }
+      },
+      {
+        "district_code": "CLI",
+        "district_name": "Commercial/Light Industry",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "CLI"
+        }
+      },
+      {
+        "district_code": "CR1",
+        "district_name": "Countryside Residential-1",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "CR1"
+        }
+      },
+      {
+        "district_code": "CR2",
+        "district_name": "Countryside Residential-2",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "CR2"
+        }
+      },
+      {
+        "district_code": "CR3",
+        "district_name": "Countryside Residential-3",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "CR3"
+        }
+      },
+      {
+        "district_code": "CR4",
+        "district_name": "Countryside Residential-4",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "CR4"
+        }
+      },
+      {
+        "district_code": "GB",
+        "district_name": "General Business",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "GB"
+        }
+      },
+      {
+        "district_code": "GI",
+        "district_name": "General Industry",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "GI"
+        }
+      },
+      {
+        "district_code": "IP",
+        "district_name": "Industrial Park",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "IP"
+        }
+      },
+      {
+        "district_code": "JLMA1",
+        "district_name": "Joint Land Management Area-1",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "JLMA1"
+        }
+      },
+      {
+        "district_code": "JLMA2",
+        "district_name": "Joint Land Management Area-2",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "JLMA2"
+        }
+      },
+      {
+        "district_code": "JLMA20",
+        "district_name": "Joint Land Management Area-20",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "JLMA20"
+        }
+      },
+      {
+        "district_code": "JLMA3",
+        "district_name": "Joint Land Management Area-3",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "JLMA3"
+        }
+      },
+      {
+        "district_code": "MRHI",
+        "district_name": "Mineral Resource/Heavy Industry",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "MRHI"
+        }
+      },
+      {
+        "district_code": "OP",
+        "district_name": "Office Park",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "OP"
+        }
+      },
+      {
+        "district_code": "PDAAAR",
+        "district_name": "Planned Development-Active Adult/Age Restricted",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDAAAR"
+        }
+      },
+      {
+        "district_code": "PDCCRC",
+        "district_name": "Planned Development-Commercial Center (Regional Center)",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDCCRC"
+        }
+      },
+      {
+        "district_code": "PDCH",
+        "district_name": "Planned Development-Commercial Highway",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDCH"
+        }
+      },
+      {
+        "district_code": "PDGI",
+        "district_name": "Planned Development-General Industrial",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDGI"
+        }
+      },
+      {
+        "district_code": "PDH3",
+        "district_name": "Planned Development Housing-3",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDH3"
+        }
+      },
+      {
+        "district_code": "PDH4",
+        "district_name": "Planned Development Housing-4",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDH4"
+        }
+      },
+      {
+        "district_code": "PDH6",
+        "district_name": "Planned Development Housing-6",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDH6"
+        }
+      },
+      {
+        "district_code": "PDIP",
+        "district_name": "Planned Development-Industrial Park",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDIP"
+        }
+      },
+      {
+        "district_code": "PDMUB",
+        "district_name": "Planned Development-Mixed Use Business",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDMUB"
+        }
+      },
+      {
+        "district_code": "PDOP",
+        "district_name": "Planned Development-Office Park",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDOP"
+        }
+      },
+      {
+        "district_code": "PDRDP",
+        "district_name": "Planned Development-Research and Development Park",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDRDP"
+        }
+      },
+      {
+        "district_code": "PDRV",
+        "district_name": "Planned Development-Rural Village",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDRV"
+        }
+      },
+      {
+        "district_code": "PDSA",
+        "district_name": "Planned Development-Special Activity",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDSA"
+        }
+      },
+      {
+        "district_code": "PDSC",
+        "district_name": "Planned Development-Shopping Center",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PDSC"
+        }
+      },
+      {
+        "district_code": "PUD-1",
+        "district_name": "Planned Unit Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "PUD-1"
+        }
+      },
+      {
+        "district_code": "R1",
+        "district_name": "Single Family Residential-1",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "R1"
+        }
+      },
+      {
+        "district_code": "R16",
+        "district_name": "Townhouse/Multifamily Residential-16",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "R16"
+        }
+      },
+      {
+        "district_code": "R2",
+        "district_name": "Single Family Residential-2",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "R2"
+        }
+      },
+      {
+        "district_code": "R24",
+        "district_name": "Multifamily Residential-24",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "R24"
+        }
+      },
+      {
+        "district_code": "R3",
+        "district_name": "Single Family Residential-3",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "R3"
+        }
+      },
+      {
+        "district_code": "R4",
+        "district_name": "Single Family Residential-4",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "R4"
+        }
+      },
+      {
+        "district_code": "R8",
+        "district_name": "Single Family Residential-8",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "R8"
+        }
+      },
+      {
+        "district_code": "RC",
+        "district_name": "Rural Commercial",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "RC"
+        }
+      },
+      {
+        "district_code": "SCN16",
+        "district_name": "Suburban Compact Neighborhood-16",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "SCN16"
+        }
+      },
+      {
+        "district_code": "SCN24",
+        "district_name": "Suburban Compact Neighborhood-24",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "SCN24"
+        }
+      },
+      {
+        "district_code": "SCN8",
+        "district_name": "Suburban Compact Neighborhood-8",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "SCN8"
+        }
+      },
+      {
+        "district_code": "TC",
+        "district_name": "Town Center",
+        "family": "mixed",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TC"
+        }
+      },
+      {
+        "district_code": "TR10",
+        "district_name": "Transitional Residential - 10",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TR10"
+        }
+      },
+      {
+        "district_code": "TR1LF",
+        "district_name": "Transitional Residential - 1 (Lower Foley)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TR1LF"
+        }
+      },
+      {
+        "district_code": "TR1UBF",
+        "district_name": "Transitional Residential - 1 (Upper Broad Run and Upper Foley)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TR1UBF"
+        }
+      },
+      {
+        "district_code": "TR2",
+        "district_name": "Transitional Residential - 2",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TR2"
+        }
+      },
+      {
+        "district_code": "TR3LBR",
+        "district_name": "Transitional Residential - 3 (Lower Bull Run)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TR3LBR"
+        }
+      },
+      {
+        "district_code": "TR3LF",
+        "district_name": "Transitional Residential - 3 (Lower Foley)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TR3LF"
+        }
+      },
+      {
+        "district_code": "TR3UBF",
+        "district_name": "Transitional Residential - 3 (Upper Broad Run and Upper Foley)",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TR3UBF"
+        }
+      },
+      {
+        "district_code": "TRC",
+        "district_name": "Transit Related Center",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+          "field": "ZO_ZONE",
+          "value": "TRC"
+        }
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-51143",
+    "name": "Pittsylvania County",
+    "type": "county",
+    "state": "VA",
+    "unlisted_rule": "none",
+    "code_version": "2026-08-18",
+    "conditional_zoning_unmapped": true,
+    "sources": [
+      "us-51143-zo-ch35",
+      "us-51143-gis-zoning"
+    ],
+    "districts": [
+      {
+        "district_code": "A-1",
+        "district_name": "Agricultural",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "A-1"
+        }
+      },
+      {
+        "district_code": "B-1",
+        "district_name": "Business District (Limited)",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "B-1"
+        }
+      },
+      {
+        "district_code": "B-2",
+        "district_name": "Business District (General)",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "B-2"
+        }
+      },
+      {
+        "district_code": "C-1",
+        "district_name": "Conservation",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "C-1"
+        }
+      },
+      {
+        "district_code": "DZ",
+        "district_name": "Double-Zoned",
+        "family": "other",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "DZ"
+        }
+      },
+      {
+        "district_code": "M-1",
+        "district_name": "Industrial (Light)",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "M-1"
+        }
+      },
+      {
+        "district_code": "M-2",
+        "district_name": "Industrial (Heavy)",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "M-2"
+        }
+      },
+      {
+        "district_code": "M-SVMS",
+        "district_name": "Industrial (Mega-Site)",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "M-SVMS"
+        }
+      },
+      {
+        "district_code": "MHP",
+        "district_name": "Residential Manufactured Housing",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "MHP"
+        }
+      },
+      {
+        "district_code": "R-1",
+        "district_name": "Residential Suburban Subd.",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "R-1"
+        }
+      },
+      {
+        "district_code": "RC-1",
+        "district_name": "Residential Combined Subd.",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "RC-1"
+        }
+      },
+      {
+        "district_code": "RE",
+        "district_name": "Residential Estates",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "RE"
+        }
+      },
+      {
+        "district_code": "RMF",
+        "district_name": "Residential Multi-Family",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "RMF"
+        }
+      },
+      {
+        "district_code": "RPD",
+        "district_name": "Residential Planned Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+          "field": "PC_ZONE_CODE",
+          "value": "RPD"
+        }
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-5183136",
+    "name": "Town of Warrenton",
+    "type": "municipality",
+    "state": "VA",
+    "unlisted_rule": "prohibited_by_default",
+    "unlisted_rule_quote": {
+      "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+      "section": "2-10"
+    },
+    "code_version": "2026-07-14",
+    "conditional_zoning_unmapped": true,
+    "sources": [
+      "us-5183136-zo-page",
+      "us-5183136-zo-art2",
+      "us-5183136-zo-art3",
+      "us-5183136-zo-art12",
+      "us-5183136-gis-zoning"
+    ],
+    "districts": [
+      {
+        "district_code": "C",
+        "district_name": "C Commercial District",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "C"
+        }
+      },
+      {
+        "district_code": "CBD",
+        "district_name": "CBD Central Business District",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "CBD"
+        }
+      },
+      {
+        "district_code": "I",
+        "district_name": "I Industrial District",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "I"
+        }
+      },
+      {
+        "district_code": "PSP",
+        "district_name": "PSP Public-Semi-Public Institutional District",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "PSP"
+        }
+      },
+      {
+        "district_code": "PUD",
+        "district_name": "Planned Unit Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "PUD"
+        }
+      },
+      {
+        "district_code": "Planned Residential Developmen",
+        "district_name": "Planned Residential Developmen",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "Planned Residential Developmen"
+        }
+      },
+      {
+        "district_code": "R-10",
+        "district_name": "R-10 Residential District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "R-10"
+        }
+      },
+      {
+        "district_code": "R-15",
+        "district_name": "R-15 Residential District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "R-15"
+        }
+      },
+      {
+        "district_code": "R-6",
+        "district_name": "R-6 Residential District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "R-6"
+        }
+      },
+      {
+        "district_code": "RMF",
+        "district_name": "RMF Residential Multifamily District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "RMF"
+        }
+      },
+      {
+        "district_code": "RO",
+        "district_name": "RO Residential Office District",
+        "family": "mixed",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "RO"
+        }
+      },
+      {
+        "district_code": "RT",
+        "district_name": "RT Residential Townhouse District",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+          "field": "ZONING_NAM",
+          "value": "RT"
+        }
+      }
+    ]
+  }
+]

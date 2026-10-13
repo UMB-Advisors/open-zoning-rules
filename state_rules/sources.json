@@ -1,0 +1,116 @@
+{
+  "sources": [
+    {
+      "source_id": "ga-statute-1",
+      "jurisdiction_id": "us-1304000",
+      "kind": "statute",
+      "url": "https://dlg.usg.edu/record/dlg_zlgl_396303239/fulltext.text",
+      "source_date": "1979-04-16",
+      "licence_terms": {
+        "text": "Enacted state law; public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "9527bd36acf166de48f7d3ecce3145300f3d04fbb094acd044c8868e233855c9",
+      "fetched_at": "2026-10-11T08:14:09Z"
+    },
+    {
+      "source_id": "va-statute-2",
+      "jurisdiction_id": "us-51061",
+      "kind": "statute",
+      "url": "https://law.lis.virginia.gov/vacode/15.2-2288.8/",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Enacted state law; public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "671541be51ec39faa25a6844c4d89930809b5eb3a70dc1942c94437bccb80f7e",
+      "fetched_at": "2026-10-11T08:14:12Z"
+    },
+    {
+      "source_id": "va-statute-3",
+      "jurisdiction_id": "us-51061",
+      "kind": "statute",
+      "url": "https://law.lis.virginia.gov/vacode/15.2-2316.10/",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Enacted state law; public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "e91e71a7d4579fe95e9beac60ce3e6ba20fd02adba33e2736f2d7da806ef5ecd",
+      "fetched_at": "2026-10-11T08:14:15Z"
+    },
+    {
+      "source_id": "va-statute-4",
+      "jurisdiction_id": "us-51061",
+      "kind": "statute",
+      "url": "https://law.lis.virginia.gov/vacode/4.1-629/",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Enacted state law; public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "52bb1113cf52209585c829fd56dd190452eca6d0e002378cc896a7dcbfb0acc8",
+      "fetched_at": "2026-10-11T08:14:18Z"
+    },
+    {
+      "source_id": "fl-statute-5",
+      "jurisdiction_id": "us-12057",
+      "kind": "statute",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0381/Sections/0381.986.html",
+      "source_date": "2017-06-23",
+      "licence_terms": {
+        "text": "Enacted state law; public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "1fa58b1804a779278d7897ef5d790f3333d6d0844c187db037a0dcbd003f044b",
+      "fetched_at": "2026-10-11T08:14:21Z"
+    },
+    {
+      "source_id": "fl-statute-6",
+      "jurisdiction_id": "us-12057",
+      "kind": "statute",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0403/Sections/0403.511.html",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Enacted state law; public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "124d32bef2678ddb5059ec46ae23c854418bf139e250a3362c712246d714c6d9",
+      "fetched_at": "2026-10-11T08:14:23Z"
+    },
+    {
+      "source_id": "ga-statute-7",
+      "jurisdiction_id": "us-1304000",
+      "kind": "statute",
+      "url": "https://www.legis.ga.gov/api/legislation/document/20232024/220435",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Enacted state law; public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "771f52e8bcbda9327433e5023a2d4bb51c52322c11011ae61ec415fedd2ce19d",
+      "fetched_at": "2026-10-11T08:14:27Z"
+    },
+    {
+      "source_id": "ga-statute-8",
+      "jurisdiction_id": "us-1304000",
+      "kind": "statute",
+      "url": "https://www.legis.ga.gov/api/legislation/document/20232024/229527",
+      "source_date": "2024-07-01",
+      "licence_terms": {
+        "text": "Enacted state law; public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "9dcbd7e38b00c9a799bb862ffd8940bf91992770dfe560a56be5be1c1dcbbbf9",
+      "fetched_at": "2026-10-11T08:14:30Z"
+    }
+  ]
+}

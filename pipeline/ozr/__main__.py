@@ -12,7 +12,7 @@ from pathlib import Path
 
 from ozr.common import ROOT, jurisdiction_ids, today
 
-COMMANDS = ("fetch", "segment", "extract", "review", "grade", "measure", "mutation", "release")
+COMMANDS = ("fetch", "segment", "extract", "review", "grade", "measure", "mutation", "release", "audit")
 
 
 def _parser() -> argparse.ArgumentParser:
