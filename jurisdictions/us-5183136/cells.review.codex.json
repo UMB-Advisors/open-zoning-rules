@@ -275,41 +275,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "I",
-      "use_class": "lp_gas",
-      "status": "conditional",
-      "local_uses": [
-        "Fuel, coal, oil distribution storage yards"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "- Fuel, coal, oil distribution storage yards",
-        "section": "3-4.12.3"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "conditional",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "I",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1562,10 +1527,47 @@
     }
   ],
   "matched_text_counts": {
-    "quote:raw": 44,
-    "section:raw": 44
+    "quote:raw": 43,
+    "section:raw": 43
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "I",
+        "use_class": "lp_gas",
+        "status": "conditional",
+        "local_uses": [
+          "Fuel, coal, oil distribution storage yards"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "- Fuel, coal, oil distribution storage yards",
+          "section": "3-4.12.3"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/I/lp_gas: prose names the use: the quote names no taxonomy term of lp_gas; a listed status needs the use's own text"
+      ],
+      "run_id": "regate-us-5183136-9670889743697271"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-5183136",
@@ -3416,6 +3418,10 @@
     [
       "I",
       "datacenter"
+    ],
+    [
+      "I",
+      "lp_gas"
     ],
     [
       "I",

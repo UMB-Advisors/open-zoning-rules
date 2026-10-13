@@ -610,80 +610,6 @@
   {
     "jurisdiction_id": "us-51061",
     "district_code": "M-G",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
-      "section": "4-1002"
-    },
-    "source": {
-      "id": "us-51061-zo-art4",
-      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
-      "date": "2026-10-10"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51061-20261011T120736Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "B. Electric, gas, water, sewer, and communication facilities, including transformers,",
-        "section": "4-104",
-        "reason": "PRD secondary use for local distribution utilities; not a server building and not a Marshall district use."
-      },
-      {
-        "term": "communication facility",
-        "quote": "(b) Electric, gas, water, sewer and communication facilities, including",
-        "section": "4-604",
-        "reason": "PCID secondary distribution utility use; not a server building and not a Marshall district use."
-      },
-      {
-        "term": "data center",
-        "quote": "rezoning. Data Center uses should only be located within a Service District when",
-        "section": "3-200",
-        "reason": "Purpose statement for BP district; the Marshall use table lists no data center."
-      },
-      {
-        "term": "data center",
-        "quote": "25. A data center use shall only be located in a Service District when proposed in the Business Park District.",
-        "section": "3-400",
-        "reason": "Footnote limited to the BP district."
-      },
-      {
-        "term": "data center",
-        "quote": "Data Center using recycled water for cooling and with all new power lines,",
-        "section": "4-603",
-        "reason": "Principal use in the separate PCID district."
-      },
-      {
-        "term": "data center",
-        "quote": "(c) Data Center not using recycled water for cooling and with all new power",
-        "section": "4-605",
-        "reason": "Special exception use in the separate PCID district."
-      }
-    ],
-    "notes": "Marshall use table (partial page seen) does not list the class. Unlisted_rule is prohibited_by_default; key states uses not listed also not allowed. Only part of the table is visible, so flag for review.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51061",
-    "district_code": "M-G",
     "use_class": "lp_gas",
     "status": "unlisted",
     "local_uses": [],
@@ -722,81 +648,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51061",
-    "district_code": "M-R",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
-      "section": "4-1002"
-    },
-    "source": {
-      "id": "us-51061-zo-art4",
-      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
-      "date": "2026-10-10"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51061-20261011T120736Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "B. Electric, gas, water, sewer, and communication facilities, including transformers,",
-        "section": "4-104",
-        "reason": "PRD secondary use for local distribution utilities; not a server building and not a Marshall district use."
-      },
-      {
-        "term": "communication facility",
-        "quote": "(b) Electric, gas, water, sewer and communication facilities, including",
-        "section": "4-604",
-        "reason": "PCID secondary distribution utility use; not a server building and not a Marshall district use."
-      },
-      {
-        "term": "data center",
-        "quote": "rezoning. Data Center uses should only be located within a Service District when",
-        "section": "3-200",
-        "reason": "Purpose statement for BP district; the Marshall use table lists no data center."
-      },
-      {
-        "term": "data center",
-        "quote": "25. A data center use shall only be located in a Service District when proposed in the Business Park District.",
-        "section": "3-400",
-        "reason": "Footnote limited to the BP district."
-      },
-      {
-        "term": "data center",
-        "quote": "Data Center using recycled water for cooling and with all new power lines,",
-        "section": "4-603",
-        "reason": "Principal use in the separate PCID district."
-      },
-      {
-        "term": "data center",
-        "quote": "(c) Data Center not using recycled water for cooling and with all new power",
-        "section": "4-605",
-        "reason": "Special exception use in the separate PCID district."
-      }
-    ],
-    "notes": "Same as M-G. Unlisted_rule is prohibited_by_default; only part of the Marshall table is visible, so flag for review.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -840,7 +692,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {

@@ -220,6 +220,16 @@ def _amendment() -> dict:
             "id": "us-51107-dc-phase1",
             "url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta",
         },
+        "results": [
+            {
+                "use_class": "datacenter",
+                "districts": ["IP", "GI", "MRHI"],
+                "status": "permitted",
+                "source_id": "us-51107-dc-phase1",
+                "section": "ZOAM-2024-0001",
+                "quote": "Data Center uses are permitted",
+            }
+        ],
     }
 
 

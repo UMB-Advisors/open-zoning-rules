@@ -17,3 +17,5 @@
 {"step": "grade", "run_id": "grade-us-51061-43296880e61de7e0", "at": "2026-10-11T15:57:34Z", "published": 27, "withheld": 134}
 {"step": "regate", "run_id": "regate-us-51061-7a1ade6d3e81ca0d", "at": "2026-10-11T16:53:48Z", "files": {"cells.extracted.json": {"cells": 34, "rejected": 127}, "cells.review.codex.json": {"cells": 27, "rejected": 134}, "cells.review.grok.json": {"cells": 88, "rejected": 73}}}
 {"step": "grade", "run_id": "grade-us-51061-4f9bf0e718df42e4", "at": "2026-10-11T16:55:04Z", "published": 27, "withheld": 134}
+{"step": "regate", "run_id": "regate-us-51061-1c94e248955df20f", "at": "2026-10-11T18:27:54Z", "files": {"cells.extracted.json": {"cells": 34, "rejected": 127}, "cells.review.codex.json": {"cells": 27, "rejected": 134}, "cells.review.grok.json": {"cells": 54, "rejected": 107}}}
+{"step": "grade", "run_id": "grade-us-51061-f8e5ef83cb93cfe0", "at": "2026-10-11T18:29:12Z", "published": 25, "withheld": 136}

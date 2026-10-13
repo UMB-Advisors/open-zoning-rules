@@ -182,7 +182,9 @@ def grade_jurisdiction(root: Path, jid: str, today: str) -> dict:
                 cell["confidence"] = "C"
             if cell.get("status") == "unlisted" and OCR_TEXT_MARKER in absence_text:
                 cell["confidence"] = "C"
-            errors = cell_errors(cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text)
+            errors = cell_errors(
+                cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text, amendments=amendments
+            )
             superseded = superseded_errors(cell, amendments, sources, jurisdiction, text)
             if errors or superseded:
                 withheld.append(

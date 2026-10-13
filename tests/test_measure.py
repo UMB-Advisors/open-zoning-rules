@@ -9,10 +9,9 @@ import pytest
 from ozr.measure import RELIANCE_NOTICE, measure
 
 
-def _write_cells(path: Path, cells: list[dict], rejected: int = 0) -> None:
-    path.write_text(
-        json.dumps({"cells": cells, "rejected": [{} for _ in range(rejected)], "missing": []}), encoding="utf-8"
-    )
+def _write_cells(path: Path, cells: list[dict], rejected: int | list[dict] = 0) -> None:
+    entries = [{} for _ in range(rejected)] if isinstance(rejected, int) else rejected
+    path.write_text(json.dumps({"cells": cells, "rejected": entries, "missing": []}), encoding="utf-8")
 
 
 def _cell(use_class: str, status: str) -> dict:
@@ -134,3 +133,30 @@ def test_disputed_share_failure_overrides_other_sufficient_gates(tiny_root: Path
     for name in ("listed_agreement", "unlisted_recall", "unlisted_precision"):
         assert report["gates"][name]["result"] == "fail"
         assert report["gates"][name]["reason"] == "disputed share exceeds 0.15"
+
+
+def test_measure_reports_rejected_reviewer_dissent_variants(tiny_root: Path) -> None:
+    base = tiny_root / "jurisdictions" / "us-00000"
+    jurisdiction = json.loads((base / "jurisdiction.json").read_text(encoding="utf-8"))
+    jurisdiction["districts"] = [jurisdiction["districts"][0]]
+    (base / "jurisdiction.json").write_text(json.dumps(jurisdiction), encoding="utf-8")
+    classes = [item["id"] for item in json.loads((tiny_root / "taxonomy" / "v1.json").read_text())["classes"]]
+    extractor = [_cell(use_class, "permitted") for use_class in classes]
+    grok = [*extractor]
+    codex = extractor[2:]
+    _write_cells(base / "cells.extracted.json", extractor)
+    _write_cells(
+        base / "cells.review.codex.json",
+        codex,
+        rejected=[
+            {"cell": _cell(classes[0], "conditional")},
+            {"cell": _cell(classes[1], "permitted")},
+        ],
+    )
+    _write_cells(base / "cells.review.grok.json", grok)
+
+    report = measure(tiny_root, ["us-00000"])
+
+    assert report["disputed_share"] == pytest.approx(0)
+    assert report["disputed_share_counting_rejected"] == pytest.approx(2 / len(classes))
+    assert report["disputed_share_counting_rejected_differing"] == pytest.approx(1 / len(classes))

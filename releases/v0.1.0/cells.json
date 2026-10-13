@@ -7122,80 +7122,6 @@
   {
     "jurisdiction_id": "us-51061",
     "district_code": "M-G",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
-      "section": "4-1002"
-    },
-    "source": {
-      "id": "us-51061-zo-art4",
-      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
-      "date": "2026-10-10"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51061-20261011T120736Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "B. Electric, gas, water, sewer, and communication facilities, including transformers,",
-        "section": "4-104",
-        "reason": "PRD secondary use for local distribution utilities; not a server building and not a Marshall district use."
-      },
-      {
-        "term": "communication facility",
-        "quote": "(b) Electric, gas, water, sewer and communication facilities, including",
-        "section": "4-604",
-        "reason": "PCID secondary distribution utility use; not a server building and not a Marshall district use."
-      },
-      {
-        "term": "data center",
-        "quote": "rezoning. Data Center uses should only be located within a Service District when",
-        "section": "3-200",
-        "reason": "Purpose statement for BP district; the Marshall use table lists no data center."
-      },
-      {
-        "term": "data center",
-        "quote": "25. A data center use shall only be located in a Service District when proposed in the Business Park District.",
-        "section": "3-400",
-        "reason": "Footnote limited to the BP district."
-      },
-      {
-        "term": "data center",
-        "quote": "Data Center using recycled water for cooling and with all new power lines,",
-        "section": "4-603",
-        "reason": "Principal use in the separate PCID district."
-      },
-      {
-        "term": "data center",
-        "quote": "(c) Data Center not using recycled water for cooling and with all new power",
-        "section": "4-605",
-        "reason": "Special exception use in the separate PCID district."
-      }
-    ],
-    "notes": "Marshall use table (partial page seen) does not list the class. Unlisted_rule is prohibited_by_default; key states uses not listed also not allowed. Only part of the table is visible, so flag for review.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51061",
-    "district_code": "M-G",
     "use_class": "lp_gas",
     "status": "unlisted",
     "local_uses": [],
@@ -7234,81 +7160,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51061",
-    "district_code": "M-R",
-    "use_class": "datacenter",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
-      "section": "4-1002"
-    },
-    "source": {
-      "id": "us-51061-zo-art4",
-      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
-      "date": "2026-10-10"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-11",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-11",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51061-20261011T120736Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "communication facility",
-        "quote": "B. Electric, gas, water, sewer, and communication facilities, including transformers,",
-        "section": "4-104",
-        "reason": "PRD secondary use for local distribution utilities; not a server building and not a Marshall district use."
-      },
-      {
-        "term": "communication facility",
-        "quote": "(b) Electric, gas, water, sewer and communication facilities, including",
-        "section": "4-604",
-        "reason": "PCID secondary distribution utility use; not a server building and not a Marshall district use."
-      },
-      {
-        "term": "data center",
-        "quote": "rezoning. Data Center uses should only be located within a Service District when",
-        "section": "3-200",
-        "reason": "Purpose statement for BP district; the Marshall use table lists no data center."
-      },
-      {
-        "term": "data center",
-        "quote": "25. A data center use shall only be located in a Service District when proposed in the Business Park District.",
-        "section": "3-400",
-        "reason": "Footnote limited to the BP district."
-      },
-      {
-        "term": "data center",
-        "quote": "Data Center using recycled water for cooling and with all new power lines,",
-        "section": "4-603",
-        "reason": "Principal use in the separate PCID district."
-      },
-      {
-        "term": "data center",
-        "quote": "(c) Data Center not using recycled water for cooling and with all new power",
-        "section": "4-605",
-        "reason": "Special exception use in the separate PCID district."
-      }
-    ],
-    "notes": "Same as M-G. Unlisted_rule is prohibited_by_default; only part of the Marshall table is visible, so flag for review.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -7352,7 +7204,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -8907,60 +8759,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-51107",
-    "district_code": "C1",
-    "use_class": "utility_generation",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "G. Uses Not Defined.",
-      "section": "3.01.G"
-    },
-    "source": {
-      "id": "us-51107-zo-ch3",
-      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
-      "date": "2023-11-21"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51107-20261010T235540Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, greater than 600kWh in nameplate capacity.",
-        "section": "Chapter 12",
-        "reason": "Describes energy storage devices, not generation, and no use table has a C1 column."
-      },
-      {
-        "term": "nameplate capacity",
-        "quote": "supply electrical energy at a future time, less than or equal to 600kWh in nameplate capacity.",
-        "section": "Chapter 12",
-        "reason": "Describes energy storage devices, not generation, and no use table has a C1 column."
-      }
-    ],
-    "notes": "The district code C1 does not appear in the code's district list or in any use table. Flagged.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
   },
   {
     "jurisdiction_id": "us-51107",
@@ -18604,48 +18402,6 @@
   },
   {
     "jurisdiction_id": "us-51143",
-    "district_code": "A-1",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Utility-Scale Solar Energy Facility (≥1 MW)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Requires a Special Use Permit unless otherwise permitted by right.",
-      "section": "SEC. 35-141"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Read from the general solar section, which applies to all solar facilities. A-1 lists no utility-scale solar by right in the provided text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
     "district_code": "B-1",
     "use_class": "lp_gas",
     "status": "unlisted",
@@ -18726,48 +18482,6 @@
     "preemption": {
       "state_rule_id": "va-cannabis_cultivation_processing",
       "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "B-1",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Utility-Scale Solar Energy Facility (≥1 MW)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Requires a Special Use Permit unless otherwise permitted by right.",
-      "section": "SEC. 35-141"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Read from the general solar section, which applies to all solar facilities. B-1 lists no utility-scale solar by right.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
     }
   },
   {
@@ -18857,48 +18571,6 @@
   },
   {
     "jurisdiction_id": "us-51143",
-    "district_code": "B-2",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Utility-Scale Solar Energy Facility (≥1 MW)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Requires a Special Use Permit unless otherwise permitted by right.",
-      "section": "SEC. 35-141"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Read from the general solar section, which applies to all solar facilities. No utility-scale solar by right appears in the provided part of the B-2 list.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
     "district_code": "C-1",
     "use_class": "lp_gas",
     "status": "unlisted",
@@ -18979,48 +18651,6 @@
     "preemption": {
       "state_rule_id": "va-cannabis_cultivation_processing",
       "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "C-1",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Utility-Scale Solar Energy Facility (≥1 MW)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Requires a Special Use Permit unless otherwise permitted by right.",
-      "section": "SEC. 35-141"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Read from the general solar section, which applies to all solar facilities. The C-1 lists (Secs. 35-530 and 35-531) contain no utility-scale generation.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
     }
   },
   {
@@ -19113,44 +18743,6 @@
   {
     "jurisdiction_id": "us-51143",
     "district_code": "M-1",
-    "use_class": "warehouse_distribution",
-    "status": "permitted",
-    "local_uses": [
-      "Agricultural warehouses"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Agricultural warehouses",
-      "section": "SEC. 35-383"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "permitted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Only the first part of the M-1 permitted list was visible; other warehouse or terminal uses may exist.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-1",
     "use_class": "lp_gas",
     "status": "unlisted",
     "local_uses": [],
@@ -19194,7 +18786,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -19240,48 +18832,6 @@
   {
     "jurisdiction_id": "us-51143",
     "district_code": "M-1",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Utility-Scale Solar Energy Facility (≥1 MW)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "d. Requires a Special Use Permit unless otherwise permitted by right.",
-      "section": "SEC. 35-141"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Inferred from the general solar rule; M-1 lists no by-right utility-scale generation in the visible text.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-1",
     "use_class": "battery_storage",
     "status": "prohibited",
     "local_uses": [
@@ -19320,83 +18870,6 @@
       "state_rule_id": "va-battery_storage",
       "effect": "local_ban_preempted"
     }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-2",
-    "use_class": "warehouse_distribution",
-    "status": "permitted",
-    "local_uses": [
-      "Agricultural warehouses"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Agricultural warehouses",
-      "section": "SEC. 35-402"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "permitted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Only part of the M-2 list was visible.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-2",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "permitted",
-    "local_uses": [
-      "Chemicals manufacturing",
-      "Blast furnaces, iron and steel works"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Chemicals manufacturing",
-      "section": "SEC. 35-402"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "permitted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "M-2 special use list was not visible; some heavy uses may be conditional there.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-51143",
@@ -19474,47 +18947,6 @@
     "preemption": {
       "state_rule_id": "va-cannabis_cultivation_processing",
       "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-2",
-    "use_class": "utility_generation",
-    "status": "permitted",
-    "local_uses": [
-      "Electric power generation (private)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Electric power generation (private)",
-      "section": "SEC. 35-402"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "permitted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
     }
   },
   {
@@ -19605,129 +19037,6 @@
   {
     "jurisdiction_id": "us-51143",
     "district_code": "M-SVMS",
-    "use_class": "warehouse_distribution",
-    "status": "permitted",
-    "local_uses": [
-      "Agricultural warehouses"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Agricultural warehouses",
-      "section": "SEC. 35-534"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "permitted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Pages 158-159 were not visible; truck/freight terminal and warehousing entries likely also apply.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-SVMS",
-    "use_class": "heavy_industrial_hazmat",
-    "status": "conditional",
-    "local_uses": [
-      "Petroleum and petroleum by-products refining, processing, and storage",
-      "Ordnance (explosives) manufacturing",
-      "Chemicals manufacturing",
-      "Manufacturing (heavy)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Petroleum and petroleum by-products refining, processing, and storage",
-      "section": "SEC. 35-535"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "definition_evidence": {
-      "quote": "Processing or converting raw or unfinished materials into different articles or substances, often with significant external effects (e.g., noise, smoke, vibration, odor) or risks involving hazardous materials.",
-      "section": "SEC. 35-536"
-    },
-    "notes": "Chemicals manufacturing and Manufacturing (heavy) are by right under 35-534; the refining and ordnance items, read as special use (heading not visible), make the cell conditional as most restrictive.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw",
-      "definition_quote": "raw",
-      "definition_section": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-SVMS",
-    "use_class": "lp_gas",
-    "status": "conditional",
-    "local_uses": [
-      "LP gas and natural gas storage"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "LP gas and natural gas storage",
-      "section": "SEC. 35-535"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Treated as the special use list because it precedes SEC. 35-536; heading not visible.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-SVMS",
     "use_class": "cannabis_cultivation_processing",
     "status": "unlisted",
     "local_uses": [],
@@ -19767,98 +19076,6 @@
   },
   {
     "jurisdiction_id": "us-51143",
-    "district_code": "M-SVMS",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Electric power generation (private)",
-      "Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141.",
-      "Large-Scale Solar Energy Facility (<1 megawatt), subject to §35-141."
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141.",
-      "section": "SEC. 35-535"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Electric power generation (private) is by right in 35-534; the solar items sit in the later list read as special use, so conditional wins.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "M-SVMS",
-    "use_class": "battery_storage",
-    "status": "permitted",
-    "local_uses": [
-      "Power stations"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Power stations",
-      "section": "SEC. 35-534"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "permitted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "definition_evidence": {
-      "quote": "fueled by transmission power, natural gas, wind, solar, battery, and/or another form of renewable or nonrenewable energy.",
-      "section": "SEC. 35-536"
-    },
-    "notes": "The Power Station definition covers storage and battery cells; list item on a non-visible page.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw",
-      "definition_quote": "raw",
-      "definition_section": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-battery_storage",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
     "district_code": "MHP",
     "use_class": "lp_gas",
     "status": "unlisted",
@@ -19903,7 +19120,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -19944,47 +19161,6 @@
     "preemption": {
       "state_rule_id": "va-cannabis_cultivation_processing",
       "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "MHP",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Public utilities (including substations, power generation, water and sewer plants for treatment)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Public utilities (including substations, power generation, water and sewer plants for",
-      "section": "SEC. 35-318"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
     }
   },
   {
@@ -20075,7 +19251,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -20116,47 +19292,6 @@
     "preemption": {
       "state_rule_id": "va-cannabis_cultivation_processing",
       "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "R-1",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Public utilities (including substations, power generation, water and sewer plants for treatment)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Public utilities (including substations, power generation, water and sewer plants for",
-      "section": "SEC. 35-223"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "single",
-    "confidence": "C",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
     }
   },
   {
@@ -20247,7 +19382,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C"
   },
   {
@@ -20292,48 +19427,6 @@
   },
   {
     "jurisdiction_id": "us-51143",
-    "district_code": "RC-1",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Public utilities (substations, power generation, water and sewer treatment plants)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "• Public utilities (substations, power generation, water and sewer treatment plants)",
-      "section": "35-268"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Listed under uses permitted only by special use permit. Sec. 35-141 also requires a SUP for utility-scale solar unless permitted by right, which gives the same conditional status.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
     "district_code": "RE",
     "use_class": "lp_gas",
     "status": "unlisted",
@@ -20374,224 +19467,140 @@
         "reason": "Listed only in the M-SVMS permitted uses, not in this district."
       }
     ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "RE",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "SEC. 35-192. PERMITTED USES",
-      "section": "35-192"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "absence_hits": [],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "RE",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Power generation"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "• Power generation",
-      "section": "35-193"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Listed under uses permitted only by special use permit. Sec. 35-141 also requires a SUP for utility-scale solar unless permitted by right, which gives the same conditional status.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "RMF",
-    "use_class": "lp_gas",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "SEC. 35-280. PERMITTED USES",
-      "section": "35-280"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "absence_hits": [
-      {
-        "term": "LP gas",
-        "quote": "• LP gas and natural gas storage",
-        "section": "35-402",
-        "reason": "Listed only in the M-2 permitted uses, not in this district."
-      },
-      {
-        "term": "LP gas",
-        "quote": "• LP gas and natural gas storage",
-        "section": "35-534",
-        "reason": "Listed only in the M-SVMS permitted uses, not in this district."
-      }
-    ],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "RMF",
-    "use_class": "cannabis_cultivation_processing",
-    "status": "unlisted",
-    "local_uses": [],
-    "evidence": {
-      "kind": "absence",
-      "quote": "SEC. 35-280. PERMITTED USES",
-      "section": "35-280"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "unlisted",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "absence_hits": [],
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "B",
-    "preemption": {
-      "state_rule_id": "va-cannabis_cultivation_processing",
-      "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "RMF",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Public utilities (including substations, power generation, water and sewer plants for treatment)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "• Public utilities (including substations, power generation, water and sewer plants for",
-      "section": "35-281"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Listed under uses permitted only by special use permit. The bullet continues on the next line with 'treatment)'. Sec. 35-141 also requires a SUP for utility-scale solar unless permitted by right, which gives the same conditional status.",
     "matched_text": {
       "section": "raw",
       "quote": "raw"
     },
     "review": "single",
-    "confidence": "C",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51143",
+    "district_code": "RE",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "SEC. 35-192. PERMITTED USES",
+      "section": "35-192"
+    },
+    "source": {
+      "id": "us-51143-zo-ch35",
+      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+      "date": "2026-08-18"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-51143-20261010T233958Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
     "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51143",
+    "district_code": "RMF",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "SEC. 35-280. PERMITTED USES",
+      "section": "35-280"
+    },
+    "source": {
+      "id": "us-51143-zo-ch35",
+      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+      "date": "2026-08-18"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-51143-20261010T233958Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "LP gas",
+        "quote": "• LP gas and natural gas storage",
+        "section": "35-402",
+        "reason": "Listed only in the M-2 permitted uses, not in this district."
+      },
+      {
+        "term": "LP gas",
+        "quote": "• LP gas and natural gas storage",
+        "section": "35-534",
+        "reason": "Listed only in the M-SVMS permitted uses, not in this district."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51143",
+    "district_code": "RMF",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "SEC. 35-280. PERMITTED USES",
+      "section": "35-280"
+    },
+    "source": {
+      "id": "us-51143-zo-ch35",
+      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+      "date": "2026-08-18"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-51143-20261010T233958Z"
+      }
+    ],
+    "absence_hits": [],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
     }
   },
   {
@@ -20640,7 +19649,7 @@
       "section": "raw",
       "quote": "raw"
     },
-    "review": "disputed",
+    "review": "single",
     "confidence": "C",
     "see_case": null
   },
@@ -20683,49 +19692,6 @@
     "preemption": {
       "state_rule_id": "va-cannabis_cultivation_processing",
       "effect": "local_ban_preempted"
-    }
-  },
-  {
-    "jurisdiction_id": "us-51143",
-    "district_code": "RPD",
-    "use_class": "utility_generation",
-    "status": "conditional",
-    "local_uses": [
-      "Public utilities (including substations, power generation)"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "• Public utilities (including substations, power generation),",
-      "section": "35-295"
-    },
-    "source": {
-      "id": "us-51143-zo-ch35",
-      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "date": "2026-08-18"
-    },
-    "parcel_specific": true,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-51143-20261010T233958Z"
-      }
-    ],
-    "notes": "Listed under uses permitted only by special use permits. Sec. 35-141 also requires a SUP for utility-scale solar unless permitted by right, which gives the same conditional status.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "agree",
-    "confidence": "C",
-    "see_case": null,
-    "preemption": {
-      "state_rule_id": "va-utility_generation",
-      "effect": "local_standards_capped"
     }
   },
   {
@@ -21027,44 +19993,6 @@
     },
     "review": "agree",
     "confidence": "B"
-  },
-  {
-    "jurisdiction_id": "us-5183136",
-    "district_code": "I",
-    "use_class": "lp_gas",
-    "status": "conditional",
-    "local_uses": [
-      "Fuel, coal, oil distribution storage yards"
-    ],
-    "evidence": {
-      "kind": "prose",
-      "quote": "Fuel, coal, oil distribution storage yards",
-      "section": "3-4.12.3"
-    },
-    "source": {
-      "id": "us-5183136-zo-art3",
-      "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-      "date": "2026-07-14"
-    },
-    "parcel_specific": false,
-    "checked_at": "2026-10-10",
-    "stale": false,
-    "history": [
-      {
-        "date": "2026-10-10",
-        "from": null,
-        "to": "conditional",
-        "by": "claude",
-        "ref": "extract-us-5183136-20261010T233535Z"
-      }
-    ],
-    "notes": "Mapped to bulk fuel storage; LP-gas is not named expressly.",
-    "matched_text": {
-      "section": "raw",
-      "quote": "raw"
-    },
-    "review": "disputed",
-    "confidence": "C"
   },
   {
     "jurisdiction_id": "us-5183136",

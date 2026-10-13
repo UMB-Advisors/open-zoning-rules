@@ -159,6 +159,7 @@ def label_errors(
     district_codes: list[str],
     denylist: frozenset[str],
     absence_text: str | None = None,
+    amendments: list[dict] | None = None,
 ) -> list[str]:
     """Return pre-grading label gate errors for one normalized cell."""
     key = f"{cell.get('jurisdiction_id', '')}/{cell.get('district_code', '')}/{cell.get('use_class', '')}"
@@ -167,7 +168,7 @@ def label_errors(
     errors.extend(enum_errors({**cell, "confidence": "C", "review": "single"}, taxonomy))
     errors.extend(quote_errors(cell, text))
     errors.extend(section_errors(cell, text))
-    errors.extend(table_errors(cell, text, taxonomy, jurisdiction))
+    errors.extend(table_errors(cell, text, taxonomy, jurisdiction, grid_text=absence_text, amendments=amendments))
     errors.extend(absence_errors(cell, absence_text if absence_text is not None else text, taxonomy, jurisdiction))
     source = cell.get("source") if isinstance(cell.get("source"), dict) else {}
     source_ids = {str(item) for item in jurisdiction.get("sources", [])}
@@ -240,13 +241,16 @@ def gate_cells(
     district_codes = [item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
     district_codes = [code for code in district_codes if isinstance(code, str)]
     denylist = load_denylist(root / "policy" / "denylist.txt")
+    amendments_path = root / "jurisdictions" / jid / "amendments.json"
+    amendments = read_json(amendments_path) if amendments_path.is_file() else []
+    amendments = amendments if isinstance(amendments, list) else []
     accepted: list[dict] = []
     rejected: list[dict] = []
     seen: set[tuple[object, object]] = set()
     for cell in cells:
         source_id = cell["source"].get("id") if isinstance(cell.get("source"), dict) else None
         errors = label_errors(
-            cell, full_texts.get(source_id, ""), taxonomy, jurisdiction, district_codes, denylist, all_text
+            cell, full_texts.get(source_id, ""), taxonomy, jurisdiction, district_codes, denylist, all_text, amendments
         )
         pair = (cell.get("district_code"), cell.get("use_class"))
         if pair in seen:
