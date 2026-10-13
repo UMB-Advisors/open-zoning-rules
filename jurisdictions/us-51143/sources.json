@@ -5,7 +5,7 @@
       "jurisdiction_id": "us-51143",
       "kind": "ordinance",
       "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
-      "fetched_at": "2026-10-10T06:43:45Z",
+      "fetched_at": "2026-10-10T08:47:12Z",
       "source_date": "2026-08-18",
       "sha256": "3d6e44bfc8eb8112b8b7fdc62ff97d7174de7b34b0dc4db276f8130e8d96ebab",
       "licence_terms": {
@@ -19,7 +19,7 @@
       "jurisdiction_id": "us-51143",
       "kind": "gis_layer",
       "url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0?f=json",
-      "fetched_at": "2026-10-10T06:43:46Z",
+      "fetched_at": "2026-10-10T08:47:15Z",
       "source_date": "2026-09-17",
       "sha256": "8509276aa81a5aca56a351dc7a6907287303e8b8a0c700c7e9a943ff267379fd",
       "licence_terms": {

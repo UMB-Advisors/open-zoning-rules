@@ -19,7 +19,7 @@
       "jurisdiction_id": "us-12069",
       "kind": "amendment",
       "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-      "fetched_at": "2026-10-10T06:43:27Z",
+      "fetched_at": "2026-10-10T08:46:25Z",
       "source_date": "2026-09-22",
       "sha256": "ce3fa13e3319ae8b43baf21b69edfde2776d2fb668c777e19eb6c7d8edc52f8f",
       "licence_terms": {
@@ -33,7 +33,7 @@
       "jurisdiction_id": "us-12069",
       "kind": "gis_layer",
       "url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10?f=json",
-      "fetched_at": "2026-10-10T06:43:28Z",
+      "fetched_at": "2026-10-10T08:46:28Z",
       "source_date": "2026-09-01",
       "sha256": "5f809474f0c81925ef957eeeaed5ec3019f58912ab1e1b58f7044cc2b25e89d7",
       "licence_terms": {

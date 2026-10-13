@@ -19,7 +19,7 @@ from ozr.gates import term_in
 USE_TABLE_RE = re.compile(
     r"(?:table(?:\s+\d+(?:-\d+)*)?(?:\s+table)?\s+of (?:(?:permitted|principal|allowed) )?uses|"
     r"use table|schedule of (?:district )?"
-    r"(?:uses|regulations)|(land )?use matrix|permitted uses)",
+    r"(?:uses|regulations)|(land )?use matrix|permitted uses|permissible uses|uses permitted)",
     re.IGNORECASE,
 )
 DEFINITIONS_RE = re.compile(r"\bdefinitions\b", re.IGNORECASE)
@@ -126,15 +126,18 @@ def _located_pages(pages: list[str], district_codes: list[str], taxonomy: dict) 
     terms = _terms(taxonomy)
     for number, page in enumerate(pages, 1):
         codes = sum(_has_code(page, code) for code in district_codes)
-        if USE_TABLE_RE.search(page) or (len(SYMBOL_RE.findall(page)) >= 15 and codes >= 2):
+        has_use_heading = USE_TABLE_RE.search(page) is not None
+        if has_use_heading or (len(SYMBOL_RE.findall(page)) >= 15 and codes >= 2):
             located["use_table"].append(number)
+        if has_use_heading and number < len(pages):
+            located["use_table"].append(number + 1)
         if DEFINITIONS_RE.search(page) and any(term_in(page, term) for term in terms):
             located["definitions"].append(number)
         if NOT_LISTED_RE.search(page):
             located["not_listed"].append(number)
         if DISTRICT_LIST_RE.search(page) or (len(district_codes) >= 2 and codes * 2 >= len(district_codes)):
             located["district_list"].append(number)
-    return located
+    return {kind: sorted(set(page_numbers)) for kind, page_numbers in located.items()}
 
 
 def _write_text(path: Path, text: str) -> str:

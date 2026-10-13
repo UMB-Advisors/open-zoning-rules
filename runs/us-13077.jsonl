@@ -1,0 +1,2 @@
+{"step": "fetch", "at": "2026-10-10T08:46:39Z", "results": [{"source_id": "us-13077-zoning-division", "status": "skipped", "reason": "analyst_fetch"}, {"source_id": "us-13077-gis-zoning", "status": "unchanged"}]}
+{"step": "extract", "at": "2026-10-10T10:29:10Z", "skipped": "no segments"}

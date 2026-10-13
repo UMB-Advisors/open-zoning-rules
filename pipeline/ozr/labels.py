@@ -12,10 +12,11 @@ from ozr.common import today as default_today
 from ozr.contamination import check_url, load_denylist
 from ozr.gates import absence_errors, absence_hits, enum_errors, quote_errors, section_errors, term_in
 from ozr.models import ModelError, ModelResult, parse_json_object
-from ozr.segment import load_segments
+from ozr.segment import _terms, load_segments
 
 _MARKER = re.compile(r"^=== (?P<source>.+) page (?P<page>\d+) ===\n", re.MULTILINE)
 _EVIDENCE_KEYS = ("kind", "quote", "section", "row_label", "column_header", "symbol")
+MAX_IMAGES = 40
 
 
 def _taxonomy_text(taxonomy: dict) -> str:
@@ -103,6 +104,9 @@ def normalise_label(
 ) -> dict:
     """Turn one model response row into the record shape used by later stages."""
     source_id = raw.get("source_id")
+    match = re.fullmatch(r"(?P<id>.+) page \d+", source_id) if isinstance(source_id, str) else None
+    if isinstance(source_id, str) and source_id not in sources_by_id and match and match["id"] in sources_by_id:
+        source_id = match["id"]
     source = sources_by_id.get(source_id, {}) if isinstance(source_id, str) else {}
     district = next((item for item in jurisdiction.get("districts", []) if _is_district(item, raw)), {})
     evidence = raw.get("evidence") if isinstance(raw.get("evidence"), dict) else {}
@@ -142,6 +146,7 @@ def label_errors(
     jurisdiction: dict,
     district_codes: list[str],
     denylist: frozenset[str],
+    absence_text: str | None = None,
 ) -> list[str]:
     """Return pre-grading label gate errors for one normalized cell."""
     key = f"{cell.get('jurisdiction_id', '')}/{cell.get('district_code', '')}/{cell.get('use_class', '')}"
@@ -150,7 +155,7 @@ def label_errors(
     errors.extend(enum_errors({**cell, "confidence": "C", "review": "single"}, taxonomy))
     errors.extend(quote_errors(cell, text))
     errors.extend(section_errors(cell, text))
-    errors.extend(absence_errors(cell, text, taxonomy, jurisdiction))
+    errors.extend(absence_errors(cell, absence_text if absence_text is not None else text, taxonomy, jurisdiction))
     source = cell.get("source") if isinstance(cell.get("source"), dict) else {}
     source_ids = {str(item) for item in jurisdiction.get("sources", [])}
     if not isinstance(source.get("id"), str) or source["id"] not in source_ids:
@@ -163,15 +168,40 @@ def label_errors(
     return errors
 
 
-def _images(segments: list[dict]) -> list[dict]:
+def _images(segments: list[dict], taxonomy: dict) -> list[dict]:
     seen: set[str] = set()
     images: list[dict] = []
+    image_pages: dict[str, tuple[str, int]] = {}
+    term_pages: set[tuple[str, int]] = set()
+    terms = _terms(taxonomy)
     for segment in segments:
+        source_id = segment.get("source_id")
+        text = segment.get("text")
+        if isinstance(source_id, str) and isinstance(text, str):
+            markers = list(_MARKER.finditer(text))
+            for index, marker in enumerate(markers):
+                end = markers[index + 1].start() if index + 1 < len(markers) else len(text)
+                if any(term_in(text[marker.end() : end], term) for term in terms):
+                    term_pages.add((source_id, int(marker.group("page"))))
         for image in segment.get("images", []):
             if isinstance(image, dict) and isinstance(image.get("path"), str) and image["path"] not in seen:
                 seen.add(image["path"])
                 images.append(image)
-    return images
+                if isinstance(source_id, str) and isinstance(image.get("page"), int):
+                    image_pages[image["path"]] = (source_id, image["page"])
+    if len(images) <= MAX_IMAGES:
+        return images
+    selected: set[str] = set()
+    for image in images:
+        if image_pages.get(image["path"]) in term_pages:
+            selected.add(image["path"])
+        if len(selected) >= MAX_IMAGES:
+            break
+    for image in images:
+        if len(selected) >= MAX_IMAGES:
+            break
+        selected.add(image["path"])
+    return [image for image in images if image["path"] in selected]
 
 
 def _run_id(step: str, jid: str) -> str:
@@ -187,6 +217,7 @@ def label_jurisdiction(
     run_step: str,
     today: str | None = None,
     with_images: bool = True,
+    chunk_size: int = 5,
 ) -> dict:
     """Label a jurisdiction once, preserving only cells that pass deterministic gates."""
     jurisdiction = read_json(root / "jurisdictions" / jid / "jurisdiction.json")
@@ -207,20 +238,34 @@ def label_jurisdiction(
     }
     checked_at = today or default_today()
     run_id = _run_id(run_step, jid)
-    hits = term_hits("\n\n".join(full_texts.values()), taxonomy)
-    prompt = build_prompt(template, taxonomy, jurisdiction, segments, hits)
+    all_text = "\n\n".join(full_texts.values())
+    hits = term_hits(all_text, taxonomy)
+    districts = [item for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
+    if chunk_size < 1:
+        raise ValueError("chunk_size must be positive")
+    chunks = [districts[index : index + chunk_size] for index in range(0, len(districts), chunk_size)]
+    if not chunks:
+        chunks = [[]]
+    results: list[ModelResult] = []
+    raw_cells: list[object] = []
     try:
         with tempfile.TemporaryDirectory() as temporary:
-            result: ModelResult = call(prompt, _images(segments) if with_images else [], Path(temporary))
-        answer = parse_json_object(result.text)
+            for chunk in chunks:
+                prompt = build_prompt(template, taxonomy, {**jurisdiction, "districts": chunk}, segments, hits)
+                result: ModelResult = call(prompt, _images(segments, taxonomy) if with_images else [], Path(temporary))
+                answer = parse_json_object(result.text)
+                chunk_cells = answer.get("cells")
+                if not isinstance(chunk_cells, list):
+                    raise ModelError("model output cells is not a list")
+                results.append(result)
+                raw_cells.extend(chunk_cells)
     except ModelError as error:
-        append_run(root, jid, {"step": run_step, "run_id": run_id, "at": utc_now(), "error": str(error)})
+        # Calls that completed before the failure were still paid for, so their usage is kept.
+        spent = [result.cost_usd for result in results]
+        record = {"step": run_step, "run_id": run_id, "at": utc_now(), "error": str(error), "calls": len(results)}
+        record["cost_usd"] = sum(spent) if all(cost is not None for cost in spent) else None
+        append_run(root, jid, record)
         raise
-    raw_cells = answer.get("cells")
-    if not isinstance(raw_cells, list):
-        error = ModelError("model output cells is not a list")
-        append_run(root, jid, {"step": run_step, "run_id": run_id, "at": utc_now(), "error": str(error)})
-        raise error
     district_codes = [item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
     district_codes = [code for code in district_codes if isinstance(code, str)]
     denylist = load_denylist(root / "policy" / "denylist.txt")
@@ -233,7 +278,9 @@ def label_jurisdiction(
             continue
         cell = normalise_label(raw, jurisdiction, sources_by_id, checked_at, by, run_id)
         source_id = cell["source"].get("id") if isinstance(cell.get("source"), dict) else None
-        errors = label_errors(cell, full_texts.get(source_id, ""), taxonomy, jurisdiction, district_codes, denylist)
+        errors = label_errors(
+            cell, full_texts.get(source_id, ""), taxonomy, jurisdiction, district_codes, denylist, all_text
+        )
         pair = (cell.get("district_code"), cell.get("use_class"))
         if pair in seen:
             errors.append(f"{cell.get('jurisdiction_id')}/{pair[0]}/{pair[1]}: duplicate cell")
@@ -258,13 +305,16 @@ def label_jurisdiction(
     output = {
         "jurisdiction_id": jid,
         "prompt": template.name,
-        "model": result.model,
+        "model": results[-1].model,
         "run_id": run_id,
         "checked_at": checked_at,
         "cells": cells,
         "rejected": rejected,
         "missing": missing,
     }
+    cost_usd = None
+    if all(result.cost_usd is not None for result in results):
+        cost_usd = sum(result.cost_usd for result in results)
     append_run(
         root,
         jid,
@@ -272,13 +322,14 @@ def label_jurisdiction(
             "step": run_step,
             "run_id": run_id,
             "at": utc_now(),
-            "model": result.model,
-            "input_tokens": result.input_tokens,
-            "output_tokens": result.output_tokens,
-            "cache_read_tokens": result.cache_read_tokens,
-            "cache_write_tokens": result.cache_write_tokens,
-            "cost_usd": result.cost_usd,
-            "wall_s": result.wall_s,
+            "model": results[-1].model,
+            "input_tokens": sum(result.input_tokens for result in results),
+            "output_tokens": sum(result.output_tokens for result in results),
+            "cache_read_tokens": sum(result.cache_read_tokens for result in results),
+            "cache_write_tokens": sum(result.cache_write_tokens for result in results),
+            "cost_usd": cost_usd,
+            "wall_s": sum(result.wall_s for result in results),
+            "calls": len(results),
             "cells": len(cells),
             "rejected": len(rejected),
         },

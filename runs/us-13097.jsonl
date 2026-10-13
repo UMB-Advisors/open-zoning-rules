@@ -1,0 +1,2 @@
+{"step": "fetch", "at": "2026-10-10T08:46:50Z", "results": [{"source_id": "us-13097-udc-page", "status": "unchanged"}, {"source_id": "us-13097-udc", "status": "unchanged"}, {"source_id": "us-13097-gis-zoning", "status": "unchanged"}]}
+{"step": "extract", "run_id": "extract-us-13097-20261010T100752Z", "at": "2026-10-10T10:28:54Z", "model": "claude-sonnet-5-5", "input_tokens": 10, "output_tokens": 93319, "cache_read_tokens": 0, "cache_write_tokens": 1649328, "cost_usd": 7.530522, "wall_s": 689.7887394975405, "calls": 5, "cells": 109, "rejected": 66}

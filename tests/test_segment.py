@@ -33,7 +33,7 @@ def test_segments_pdf_html_and_missing_bytes(tiny_root):
     manifest = segment_jurisdiction(tiny_root, "us-00000")
     by_kind = {item["kind"]: item for item in manifest["segments"]}
     assert by_kind["district_list"]["pages"] == [1, 2]
-    assert by_kind["use_table"]["pages"] == [2]
+    assert by_kind["use_table"]["pages"] == [2, 3]
     assert by_kind["not_listed"]["pages"] == [2]
     assert by_kind["definitions"]["pages"] == [3]
     assert "Warehouse P P" in (tiny_root / "cache" / "text" / "us-00000-zo.txt").read_text()
@@ -56,3 +56,25 @@ def test_html_is_one_tag_stripped_page(tiny_root):
     (tiny_root / "jurisdictions" / "us-00000" / "sources.json").write_text(json.dumps({"sources": [source]}))
     segment_jurisdiction(tiny_root, "us-00000")
     assert (tiny_root / "cache" / "text" / "us-00000-zo.txt").read_text() == "Hello zoning\nworld & more"
+
+
+def test_list_style_use_pages_keep_their_continuation_page(tiny_root):
+    pdf = make_pdf(
+        [
+            ["Article 1: General provisions"],
+            ["Permitted Uses (by-right)", "Warehouse", "Data center"],
+            ["Distribution center", "Truck terminal"],
+            ["Permissible Uses (by special use permit)", "Refinery"],
+        ]
+    )
+    digest = hashlib.sha256(pdf).hexdigest()
+    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache" / digest).write_bytes(pdf)
+    sources_path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
+    document = json.loads(sources_path.read_text())
+    document["sources"][0]["sha256"] = digest
+    sources_path.write_text(json.dumps(document))
+
+    manifest = segment_jurisdiction(tiny_root, "us-00000")
+    use_table = next(item for item in manifest["segments"] if item["kind"] == "use_table")
+    assert use_table["pages"] == [2, 3, 4]
