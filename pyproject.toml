@@ -8,6 +8,10 @@ version = "0.0.0"
 requires-python = ">=3.12"
 dependencies = [
     "jsonschema>=4.23",
+    "pdfplumber>=0.11.10",
+    "pyarrow>=26.0.0",
+    "pypdfium2>=5.14.0",
+    "shapely>=2.2.0",
 ]
 
 [tool.hatch.build.targets.wheel]

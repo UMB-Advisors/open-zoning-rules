@@ -188,6 +188,11 @@ def _term_in(haystack: str, term: str) -> bool:
     return re.search(pattern, haystack, re.IGNORECASE) is not None
 
 
+def term_in(haystack: str, term: str) -> bool:
+    """Return whether a taxonomy term occurs as a whole word."""
+    return _term_in(haystack, term)
+
+
 def absence_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> list[str]:
     """Return absence-gate errors for an unlisted cell."""
     if cell.get("status") != "unlisted":
@@ -369,7 +374,8 @@ def _hash_errors(release_dir: Path, manifest: object, skip_cells: bool) -> list[
     if not isinstance(manifest, dict) or not isinstance(manifest.get("files"), list):
         return []
     errors: list[str] = []
-    for entry in manifest["files"]:
+    others = manifest.get("other_files") if isinstance(manifest.get("other_files"), list) else []
+    for entry in [*manifest["files"], *others]:
         if not isinstance(entry, dict):
             errors.append("hash: file entry is not an object")
             continue

@@ -65,6 +65,11 @@
     "conditional_zoning_unmapped": {
       "type": "boolean"
     },
+    "case_lookup_url": {
+      "description": "The jurisdiction's own rezoning-case lookup. Parcel-specific cells point to it as see_case.",
+      "type": "string",
+      "pattern": "^https://"
+    },
     "sources": {
       "type": "array",
       "minItems": 1,

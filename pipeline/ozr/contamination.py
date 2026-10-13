@@ -13,7 +13,10 @@ from pathlib import Path
 
 URL_RE = re.compile(r"https?://[^\s<>\"']+")
 TEXT_SUFFIXES = {".json", ".md", ".csv", ".txt", ".yaml", ".yml"}
-USER_AGENT = "open-zoning-rules/0.0 (+https://github.com/UMB-Advisors/open-zoning-rules)"
+USER_AGENT = (
+    "open-zoning-rules/0.1 (+https://github.com/UMB-Advisors/open-zoning-rules; "
+    "contact: https://github.com/UMB-Advisors/open-zoning-rules/issues)"
+)
 
 
 def load_denylist(path: Path | None = None) -> frozenset[str]:

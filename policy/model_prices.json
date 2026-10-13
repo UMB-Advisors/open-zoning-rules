@@ -1,0 +1,4 @@
+{
+  "_note": "List API prices in USD per million tokens, each with the provider's public price page. Unpriced models report cost_usd null.",
+  "models": {}
+}
