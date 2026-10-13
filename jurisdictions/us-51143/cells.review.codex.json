@@ -1230,8 +1230,10 @@
         ]
       },
       "errors": [
-        "us-51143/A-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/A-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1284,8 +1286,10 @@
         ]
       },
       "errors": [
-        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1338,9 +1342,12 @@
         ]
       },
       "errors": [
-        "us-51143/A-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-51143/A-1/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/utility_generation: absence gate: 'megawatt' occurs 19 times in the code and 19 are not explained",
+        "us-51143/A-1/utility_generation: absence gate: 'power plant' occurs 1 times in the code and 1 are not explained",
+        "us-51143/A-1/utility_generation: absence gate: 'power station' occurs 19 times in the code and 19 are not explained",
+        "us-51143/A-1/utility_generation: absence gate: 'solar energy facility' occurs 36 times in the code and 30 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1399,9 +1406,12 @@
         ]
       },
       "errors": [
-        "us-51143/A-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/A-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/A-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 21 are not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1448,8 +1458,10 @@
         ]
       },
       "errors": [
-        "us-51143/B-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1508,9 +1520,12 @@
         ]
       },
       "errors": [
-        "us-51143/B-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/B-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 4 are not explained",
+        "us-51143/B-1/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-1/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-1/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1563,8 +1578,10 @@
         ]
       },
       "errors": [
-        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1617,9 +1634,12 @@
         ]
       },
       "errors": [
-        "us-51143/B-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-51143/B-1/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/utility_generation: absence gate: 'megawatt' occurs 19 times in the code and 19 are not explained",
+        "us-51143/B-1/utility_generation: absence gate: 'power plant' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-1/utility_generation: absence gate: 'power station' occurs 19 times in the code and 19 are not explained",
+        "us-51143/B-1/utility_generation: absence gate: 'solar energy facility' occurs 36 times in the code and 30 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1678,9 +1698,12 @@
         ]
       },
       "errors": [
-        "us-51143/B-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/B-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/B-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 21 are not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1727,8 +1750,10 @@
         ]
       },
       "errors": [
-        "us-51143/B-2/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-2/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1787,9 +1812,12 @@
         ]
       },
       "errors": [
-        "us-51143/B-2/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/B-2/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 4 are not explained",
+        "us-51143/B-2/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-2/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-2/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1842,8 +1870,10 @@
         ]
       },
       "errors": [
-        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1896,9 +1926,12 @@
         ]
       },
       "errors": [
-        "us-51143/B-2/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-51143/B-2/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/utility_generation: absence gate: 'megawatt' occurs 19 times in the code and 19 are not explained",
+        "us-51143/B-2/utility_generation: absence gate: 'power plant' occurs 1 times in the code and 1 are not explained",
+        "us-51143/B-2/utility_generation: absence gate: 'power station' occurs 19 times in the code and 19 are not explained",
+        "us-51143/B-2/utility_generation: absence gate: 'solar energy facility' occurs 36 times in the code and 30 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -1957,9 +1990,12 @@
         ]
       },
       "errors": [
-        "us-51143/B-2/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/B-2/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/B-2/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 21 are not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2006,8 +2042,10 @@
         ]
       },
       "errors": [
-        "us-51143/C-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/C-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2066,9 +2104,12 @@
         ]
       },
       "errors": [
-        "us-51143/C-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/C-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 4 are not explained",
+        "us-51143/C-1/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/C-1/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/C-1/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2121,8 +2162,10 @@
         ]
       },
       "errors": [
-        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2175,9 +2218,12 @@
         ]
       },
       "errors": [
-        "us-51143/C-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-51143/C-1/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/utility_generation: absence gate: 'megawatt' occurs 19 times in the code and 19 are not explained",
+        "us-51143/C-1/utility_generation: absence gate: 'power plant' occurs 1 times in the code and 1 are not explained",
+        "us-51143/C-1/utility_generation: absence gate: 'power station' occurs 19 times in the code and 19 are not explained",
+        "us-51143/C-1/utility_generation: absence gate: 'solar energy facility' occurs 36 times in the code and 30 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2236,9 +2282,12 @@
         ]
       },
       "errors": [
-        "us-51143/C-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/C-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/C-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 21 are not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2285,8 +2334,10 @@
         ]
       },
       "errors": [
-        "us-51143/DZ/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/DZ/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2345,9 +2396,12 @@
         ]
       },
       "errors": [
-        "us-51143/DZ/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/DZ/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 4 are not explained",
+        "us-51143/DZ/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/DZ/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/DZ/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2400,8 +2454,10 @@
         ]
       },
       "errors": [
-        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2454,9 +2510,12 @@
         ]
       },
       "errors": [
-        "us-51143/DZ/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-51143/DZ/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/utility_generation: absence gate: 'megawatt' occurs 19 times in the code and 19 are not explained",
+        "us-51143/DZ/utility_generation: absence gate: 'power plant' occurs 1 times in the code and 1 are not explained",
+        "us-51143/DZ/utility_generation: absence gate: 'power station' occurs 19 times in the code and 19 are not explained",
+        "us-51143/DZ/utility_generation: absence gate: 'solar energy facility' occurs 36 times in the code and 30 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2515,9 +2574,12 @@
         ]
       },
       "errors": [
-        "us-51143/DZ/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/DZ/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/DZ/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 21 are not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2564,8 +2626,10 @@
         ]
       },
       "errors": [
-        "us-51143/M-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/M-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained",
+        "us-51143/M-1/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2612,9 +2676,12 @@
         ]
       },
       "errors": [
-        "us-51143/M-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/M-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/M-1/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 5 are not explained",
+        "us-51143/M-1/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/M-1/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-1/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2661,8 +2728,11 @@
         ]
       },
       "errors": [
-        "us-51143/M-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/M-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 4 are not explained",
+        "us-51143/M-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/M-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2703,10 +2773,12 @@
         ]
       },
       "errors": [
-        "us-51143/M-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-51143/M-1/utility_generation: absence gate: 'power plant' occurs in the code and is not explained",
-        "us-51143/M-1/utility_generation: absence gate: 'solar energy facility' occurs in the code and is not explained"
-      ]
+        "us-51143/M-1/utility_generation: absence gate: 'megawatt' occurs 19 times in the code and 19 are not explained",
+        "us-51143/M-1/utility_generation: absence gate: 'power plant' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-1/utility_generation: absence gate: 'power station' occurs 19 times in the code and 18 are not explained",
+        "us-51143/M-1/utility_generation: absence gate: 'solar energy facility' occurs 36 times in the code and 36 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2747,12 +2819,14 @@
         ]
       },
       "errors": [
-        "us-51143/M-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/M-1/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/M-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/M-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/M-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/M-1/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2793,9 +2867,11 @@
         ]
       },
       "errors": [
-        "us-51143/M-2/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-51143/M-2/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/M-2/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-2/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained",
+        "us-51143/M-2/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2831,7 +2907,8 @@
       },
       "errors": [
         "us-51143/M-2/heavy_industrial_hazmat: quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2872,10 +2949,12 @@
         ]
       },
       "errors": [
-        "us-51143/M-2/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-51143/M-2/utility_generation: absence gate: 'power plant' occurs in the code and is not explained",
-        "us-51143/M-2/utility_generation: absence gate: 'solar energy facility' occurs in the code and is not explained"
-      ]
+        "us-51143/M-2/utility_generation: absence gate: 'megawatt' occurs 19 times in the code and 19 are not explained",
+        "us-51143/M-2/utility_generation: absence gate: 'power plant' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-2/utility_generation: absence gate: 'power station' occurs 19 times in the code and 18 are not explained",
+        "us-51143/M-2/utility_generation: absence gate: 'solar energy facility' occurs 36 times in the code and 36 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2916,12 +2995,14 @@
         ]
       },
       "errors": [
-        "us-51143/M-2/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/M-2/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/M-2/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/M-2/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/M-2/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/M-2/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -2961,7 +3042,8 @@
       },
       "errors": [
         "us-51143/M-SVMS/datacenter: quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3001,7 +3083,8 @@
       },
       "errors": [
         "us-51143/M-SVMS/warehouse_distribution: quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3041,7 +3124,8 @@
       },
       "errors": [
         "us-51143/M-SVMS/heavy_industrial_hazmat: quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3077,7 +3161,8 @@
       },
       "errors": [
         "us-51143/M-SVMS/lp_gas: quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3113,7 +3198,8 @@
       },
       "errors": [
         "us-51143/M-SVMS/utility_generation: quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3160,12 +3246,14 @@
         ]
       },
       "errors": [
-        "us-51143/M-SVMS/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/M-SVMS/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/M-SVMS/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/M-SVMS/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/M-SVMS/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/M-SVMS/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'battery' occurs 34 times in the code and 32 are not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3206,9 +3294,11 @@
         ]
       },
       "errors": [
-        "us-51143/MHP/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-51143/MHP/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/MHP/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/MHP/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained",
+        "us-51143/MHP/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3249,10 +3339,12 @@
         ]
       },
       "errors": [
-        "us-51143/MHP/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/MHP/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/MHP/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/MHP/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/MHP/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/MHP/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/MHP/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3293,9 +3385,11 @@
         ]
       },
       "errors": [
-        "us-51143/MHP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-51143/MHP/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/MHP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/MHP/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/MHP/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3331,7 +3425,8 @@
       },
       "errors": [
         "us-51143/MHP/utility_generation: quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3372,12 +3467,14 @@
         ]
       },
       "errors": [
-        "us-51143/MHP/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/MHP/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/MHP/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/MHP/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/MHP/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/MHP/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3418,9 +3515,11 @@
         ]
       },
       "errors": [
-        "us-51143/R-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-51143/R-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/R-1/datacenter: absence gate: 'computer equipment' occurs 1 times in the code and 1 are not explained",
+        "us-51143/R-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained",
+        "us-51143/R-1/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3461,10 +3560,12 @@
         ]
       },
       "errors": [
-        "us-51143/R-1/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/R-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/R-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/R-1/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/R-1/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/R-1/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/R-1/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3505,9 +3606,11 @@
         ]
       },
       "errors": [
-        "us-51143/R-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-51143/R-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/R-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 5 are not explained",
+        "us-51143/R-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/R-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3543,7 +3646,8 @@
       },
       "errors": [
         "us-51143/R-1/utility_generation: quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3584,12 +3688,14 @@
         ]
       },
       "errors": [
-        "us-51143/R-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/R-1/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/R-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/R-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/R-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/R-1/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3636,8 +3742,10 @@
         ]
       },
       "errors": [
-        "us-51143/RC-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/RC-1/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained",
+        "us-51143/RC-1/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3684,8 +3792,10 @@
         ]
       },
       "errors": [
-        "us-51143/RE/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/RE/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained",
+        "us-51143/RE/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3732,8 +3842,10 @@
         ]
       },
       "errors": [
-        "us-51143/RMF/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/RMF/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained",
+        "us-51143/RMF/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3780,8 +3892,10 @@
         ]
       },
       "errors": [
-        "us-51143/RPD/datacenter: absence gate: 'servers' occurs in the code and is not explained"
-      ]
+        "us-51143/RPD/datacenter: absence gate: 'data center' occurs 33 times in the code and 33 are not explained",
+        "us-51143/RPD/datacenter: absence gate: 'servers' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3834,10 +3948,12 @@
         ]
       },
       "errors": [
-        "us-51143/RC-1/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/RC-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/RC-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/RC-1/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/RC-1/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/RC-1/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RC-1/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3890,10 +4006,12 @@
         ]
       },
       "errors": [
-        "us-51143/RE/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/RE/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/RE/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/RE/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/RE/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/RE/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RE/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -3946,10 +4064,12 @@
         ]
       },
       "errors": [
-        "us-51143/RMF/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/RMF/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/RMF/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/RMF/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/RMF/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/RMF/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RMF/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4002,10 +4122,12 @@
         ]
       },
       "errors": [
-        "us-51143/RPD/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-51143/RPD/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
-        "us-51143/RPD/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
-      ]
+        "us-51143/RPD/warehouse_distribution: absence gate: 'freight' occurs 6 times in the code and 6 are not explained",
+        "us-51143/RPD/warehouse_distribution: absence gate: 'fulfillment center' occurs 2 times in the code and 2 are not explained",
+        "us-51143/RPD/warehouse_distribution: absence gate: 'truck terminal' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RPD/warehouse_distribution: absence gate: 'warehouse' occurs 10 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4052,8 +4174,11 @@
         ]
       },
       "errors": [
-        "us-51143/RC-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/RC-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 4 are not explained",
+        "us-51143/RC-1/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/RC-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4100,8 +4225,11 @@
         ]
       },
       "errors": [
-        "us-51143/RE/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/RE/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 4 are not explained",
+        "us-51143/RE/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/RE/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4148,8 +4276,11 @@
         ]
       },
       "errors": [
-        "us-51143/RMF/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/RMF/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 4 are not explained",
+        "us-51143/RMF/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/RMF/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4196,8 +4327,11 @@
         ]
       },
       "errors": [
-        "us-51143/RPD/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-51143/RPD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 5 times in the code and 4 are not explained",
+        "us-51143/RPD/heavy_industrial_hazmat: absence gate: 'heavy industry' occurs 4 times in the code and 3 are not explained",
+        "us-51143/RPD/heavy_industrial_hazmat: absence gate: 'smelting' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4233,7 +4367,8 @@
       },
       "errors": [
         "us-51143/RMF/utility_generation: section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4274,12 +4409,14 @@
         ]
       },
       "errors": [
-        "us-51143/RC-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/RC-1/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/RC-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/RC-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/RC-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/RC-1/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4320,12 +4457,14 @@
         ]
       },
       "errors": [
-        "us-51143/RE/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/RE/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/RE/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/RE/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/RE/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/RE/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RE/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/RE/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/RE/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RE/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/RE/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4366,12 +4505,14 @@
         ]
       },
       "errors": [
-        "us-51143/RMF/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/RMF/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/RMF/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/RMF/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/RMF/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/RMF/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     },
     {
       "cell": {
@@ -4412,12 +4553,14 @@
         ]
       },
       "errors": [
-        "us-51143/RPD/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
-        "us-51143/RPD/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-51143/RPD/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
-        "us-51143/RPD/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
-        "us-51143/RPD/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
-      ]
+        "us-51143/RPD/battery_storage: absence gate: 'BESS' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'battery' occurs 34 times in the code and 33 are not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'battery energy storage' occurs 22 times in the code and 22 are not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'inverter' occurs 2 times in the code and 2 are not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'megawatt-hour' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51143-20261011T102457Z"
     }
   ],
   "missing": [
@@ -4685,5 +4828,9 @@
       "RPD",
       "battery_storage"
     ]
-  ]
+  ],
+  "regate": {
+    "run_id": "regate-us-51143-20261011T102457Z",
+    "at": "2026-10-11T10:24:57Z"
+  }
 }

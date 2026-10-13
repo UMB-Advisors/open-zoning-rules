@@ -1,0 +1,165 @@
+{
+  "us-13097/OI/datacenter": {
+    "jurisdiction_id": "us-13097",
+    "district_code": "OI",
+    "use_class": "datacenter",
+    "status": "prohibited",
+    "local_uses": [
+      "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services | OI | ",
+      "section": "Table 2.2",
+      "row_label": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+      "column_header": "OI",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-13097-udc",
+      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+      "date": "2026-08-18"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-13097-20261011T001357Z"
+      }
+    ],
+    "notes": "Blank cell; the key says 'Use is not Allowed if no symbol appears'. The page has no reconstructed table, so the blank is inferred from the four S symbols, which sit in the industrial/commercial columns.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw"
+    }
+  },
+  "us-13097/C-H/datacenter": {
+    "jurisdiction_id": "us-13097",
+    "district_code": "C-H",
+    "use_class": "datacenter",
+    "status": "conditional",
+    "local_uses": [
+      "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services | C-H | S",
+      "section": "Table 2.2",
+      "row_label": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+      "column_header": "C-H",
+      "symbol": "S"
+    },
+    "source": {
+      "id": "us-13097-udc",
+      "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+      "date": "2026-08-18"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-13097-20261011T001357Z"
+      }
+    ],
+    "notes": "Four S symbols with §4.19/§4.20. Columns inferred as C-H, LI, LI-R, HI by analogy with the telecom carrier rows; verify against the page image.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw"
+    }
+  },
+  "us-51143/M-2/datacenter": {
+    "jurisdiction_id": "us-51143",
+    "district_code": "M-2",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "SEC. 35-402. PERMITTED USES",
+      "section": "SEC. 35-402"
+    },
+    "source": {
+      "id": "us-51143-zo-ch35",
+      "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+      "date": "2026-08-18"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-10",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-10",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-51143-20261010T233958Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "computer equipment",
+        "quote": "Computer equipment manufacturing",
+        "section": "SEC. 35-383",
+        "reason": "Hardware manufacturing in M-1."
+      },
+      {
+        "term": "data center",
+        "quote": "§ 35-142. Data Center",
+        "section": "§ 35-142",
+        "reason": "Standards only."
+      },
+      {
+        "term": "data center",
+        "quote": "SEC. 35-142. DATA CENTER.",
+        "section": "SEC. 35-142",
+        "reason": "Standards only."
+      },
+      {
+        "term": "data center",
+        "quote": "(A) Due to the high-water demand, data centers shall be connected to a public water system if a",
+        "section": "SEC. 35-142",
+        "reason": "Standard only."
+      },
+      {
+        "term": "data center",
+        "quote": "(1) Data centers shall not establish commercial wells for any operations.",
+        "section": "SEC. 35-142",
+        "reason": "Standard only."
+      },
+      {
+        "term": "data center",
+        "quote": "infrastructure necessary for the operations of the data center shall be within an enclosed structure",
+        "section": "SEC. 35-142",
+        "reason": "Standard only."
+      },
+      {
+        "term": "servers",
+        "quote": "computer and/or network equipment, systems, servers,",
+        "section": "SEC. 35-536",
+        "reason": "M-SVMS definition only."
+      },
+      {
+        "term": "servers",
+        "quote": "which houses computer and/or network equipment, systems, servers, appliances",
+        "section": "SEC. 35-536",
+        "reason": "M-SVMS definition only."
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    }
+  }
+}

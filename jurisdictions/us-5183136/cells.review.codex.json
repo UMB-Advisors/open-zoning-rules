@@ -74,47 +74,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "C",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -138,47 +97,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "C",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -255,47 +173,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "CBD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "CBD",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -319,47 +196,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "CBD",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -474,47 +310,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "I",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.12.2. Permitted Uses (by-right)",
-        "section": "3-4.12.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "I",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -538,47 +333,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "I",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.12.2. Permitted Uses (by-right)",
-        "section": "3-4.12.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -655,47 +409,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "PSP",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PSP",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -719,47 +432,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PSP",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -836,47 +508,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "PUD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations. A building may be erected, altered, or used, and a lot or premises may be used or occupied, for any of the following purposes, and no other, in addition to those permitted by right within the underlying zoning district.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -900,47 +531,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations. A building may be erected, altered, or used, and a lot or premises may be used or occupied, for any of the following purposes, and no other, in addition to those permitted by right within the underlying zoning district.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1064,47 +654,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "Planned Residential Developmen",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Canopy definition does not address cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "Planned Residential Developmen",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1128,47 +677,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "Planned Residential Developmen",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1292,47 +800,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "R-10",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.2.2 Permitted Uses (by-right)",
-        "section": "3-4.2.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Canopy definition does not address cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-10",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1356,47 +823,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-10",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.2.2 Permitted Uses (by-right)",
-        "section": "3-4.2.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1520,47 +946,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "R-15",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.1.2 Permitted Uses (by-right)",
-        "section": "3-4.1.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Canopy definition does not address cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-15",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1584,47 +969,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-15",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.1.2 Permitted Uses (by-right)",
-        "section": "3-4.1.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1748,47 +1092,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "R-6",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.3.2 Permitted Uses (by-right)",
-        "section": "3-4.3.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Canopy definition does not address cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-6",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -1812,47 +1115,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "R-6",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.3.2 Permitted Uses (by-right)",
-        "section": "3-4.3.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -1976,47 +1238,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "RMF",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.5.2 Permitted Uses (by-right)",
-        "section": "3-4.5.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Canopy definition does not address cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RMF",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -2040,47 +1261,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RMF",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.5.2 Permitted Uses (by-right)",
-        "section": "3-4.5.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
         }
       ],
       "matched_text": {
@@ -2204,53 +1384,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "RO",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.8.2 Permitted Uses (by-right)",
-        "section": "3-4.8.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "2-18.1 Cornices, canopies, awnings, eaves, or other such similar feature, all of which are at least ten (10) feet above grade, may extend three (3) feet into any required setback but not nearer to any lot line than a distance of two (2) feet.",
-          "section": "2-18.1",
-          "reason": "Canopies are building features, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "A canopy sign is not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -2274,47 +1407,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.8.2 Permitted Uses (by-right)",
-        "section": "3-4.8.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Tire and battery sales and service does not cover a stand-alone grid-scale battery energy storage system and applies in I, not RO."
         }
       ],
       "matched_text": {
@@ -2438,53 +1530,6 @@
     {
       "jurisdiction_id": "us-5183136",
       "district_code": "RT",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.4.2 Permitted Uses (by-right)",
-        "section": "3-4.4.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "2-18.1 Cornices, canopies, awnings, eaves, or other such similar feature, all of which are at least ten (10) feet above grade, may extend three (3) feet into any required setback but not nearer to any lot line than a distance of two (2) feet.",
-          "section": "2-18.1",
-          "reason": "Canopies are building features, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "A canopy sign is not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RT",
       "use_class": "utility_generation",
       "status": "unlisted",
       "local_uses": [],
@@ -2508,47 +1553,6 @@
           "to": "unlisted",
           "by": "codex",
           "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RT",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-4.4.2 Permitted Uses (by-right)",
-        "section": "3-4.4.2"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-5183136-20261011T005011Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "- Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Tire and battery sales and service does not cover a stand-alone grid-scale battery energy storage system and applies in I, not RT."
         }
       ],
       "matched_text": {
@@ -2558,10 +1562,1054 @@
     }
   ],
   "matched_text_counts": {
-    "quote:raw": 68,
-    "section:raw": 68
+    "quote:raw": 44,
+    "section:raw": 44
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.10.2. Permitted Uses (by-right)",
+          "section": "3-4.10.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "C",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.10.2. Permitted Uses (by-right)",
+          "section": "3-4.10.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/C/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "CBD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.11.2 Permitted Uses (by-right)",
+          "section": "3-4.11.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/CBD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "CBD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.11.2 Permitted Uses (by-right)",
+          "section": "3-4.11.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/CBD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "I",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.12.2. Permitted Uses (by-right)",
+          "section": "3-4.12.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/I/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "I",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.12.2. Permitted Uses (by-right)",
+          "section": "3-4.12.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/I/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "PSP",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.9.2. Permitted Uses (by-right)",
+          "section": "3-4.9.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/PSP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "PSP",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.9.2. Permitted Uses (by-right)",
+          "section": "3-4.9.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/PSP/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "PUD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-5.2.5 Use Regulations. A building may be erected, altered, or used, and a lot or premises may be used or occupied, for any of the following purposes, and no other, in addition to those permitted by right within the underlying zoning district.",
+          "section": "3-5.2.5"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "This defines an architectural canopy, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "PUD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-5.2.5 Use Regulations. A building may be erected, altered, or used, and a lot or premises may be used or occupied, for any of the following purposes, and no other, in addition to those permitted by right within the underlying zoning district.",
+          "section": "3-5.2.5"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "This is retail/service for tires and batteries, not a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/PUD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "Planned Residential Developmen",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-5.2.5 Use Regulations.",
+          "section": "3-5.2.5"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Canopy definition does not address cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/Planned Residential Developmen/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "Planned Residential Developmen",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-5.2.5 Use Regulations.",
+          "section": "3-5.2.5"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3.",
+            "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/Planned Residential Developmen/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-10",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.2.2 Permitted Uses (by-right)",
+          "section": "3-4.2.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Canopy definition does not address cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-10/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-10",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.2.2 Permitted Uses (by-right)",
+          "section": "3-4.2.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3.",
+            "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-10/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-15",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.1.2 Permitted Uses (by-right)",
+          "section": "3-4.1.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Canopy definition does not address cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-15/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-15",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.1.2 Permitted Uses (by-right)",
+          "section": "3-4.1.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3.",
+            "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-15/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-6",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.3.2 Permitted Uses (by-right)",
+          "section": "3-4.3.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Canopy definition does not address cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-6/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "R-6",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.3.2 Permitted Uses (by-right)",
+          "section": "3-4.3.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3.",
+            "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/R-6/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RMF",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.5.2 Permitted Uses (by-right)",
+          "section": "3-4.5.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+            "section": "Article 12",
+            "reason": "Canopy definition does not address cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/RMF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 14 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RMF",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.5.2 Permitted Uses (by-right)",
+          "section": "3-4.5.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3.",
+            "reason": "Tire and battery sales/service does not capture a stand-alone battery energy storage system."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/RMF/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RO",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.8.2 Permitted Uses (by-right)",
+          "section": "3-4.8.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "2-18.1 Cornices, canopies, awnings, eaves, or other such similar feature, all of which are at least ten (10) feet above grade, may extend three (3) feet into any required setback but not nearer to any lot line than a distance of two (2) feet.",
+            "section": "2-18.1",
+            "reason": "Canopies are building features, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "A canopy sign is not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/RO/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 12 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RO",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.8.2 Permitted Uses (by-right)",
+          "section": "3-4.8.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Tire and battery sales and service does not cover a stand-alone grid-scale battery energy storage system and applies in I, not RO."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/RO/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RT",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.4.2 Permitted Uses (by-right)",
+          "section": "3-4.4.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "2-18.1 Cornices, canopies, awnings, eaves, or other such similar feature, all of which are at least ten (10) feet above grade, may extend three (3) feet into any required setback but not nearer to any lot line than a distance of two (2) feet.",
+            "section": "2-18.1",
+            "reason": "Canopies are building features, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+            "section": "Article 12",
+            "reason": "A canopy sign is not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/RT/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 12 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-5183136",
+        "district_code": "RT",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3-4.4.2 Permitted Uses (by-right)",
+          "section": "3-4.4.2"
+        },
+        "source": {
+          "id": "us-5183136-zo-art3",
+          "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
+          "date": "2026-07-14"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-5183136-20261011T005011Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "- Tire and battery sales and service, tire recapping and retreading",
+            "section": "3-4.12.3",
+            "reason": "Tire and battery sales and service does not cover a stand-alone grid-scale battery energy storage system and applies in I, not RT."
+          }
+        ]
+      },
+      "errors": [
+        "us-5183136/RT/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-5183136",
@@ -2601,8 +2649,9 @@
         ]
       },
       "errors": [
-        "us-5183136/C/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-5183136/C/datacenter: absence gate: 'data storage' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2643,10 +2692,12 @@
         ]
       },
       "errors": [
-        "us-5183136/C/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-5183136/C/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/C/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained"
-      ]
+        "us-5183136/C/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/C/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/C/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/C/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2687,8 +2738,9 @@
         ]
       },
       "errors": [
-        "us-5183136/CBD/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-5183136/CBD/datacenter: absence gate: 'data storage' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2721,11 +2773,12 @@
         ]
       },
       "errors": [
-        "us-5183136/CBD/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-5183136/CBD/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/CBD/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained",
-        "us-5183136/CBD/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-5183136/CBD/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/CBD/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/CBD/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/CBD/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2766,8 +2819,9 @@
         ]
       },
       "errors": [
-        "us-5183136/I/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-5183136/I/datacenter: absence gate: 'data storage' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2808,8 +2862,9 @@
         ]
       },
       "errors": [
-        "us-5183136/PSP/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-5183136/PSP/datacenter: absence gate: 'data storage' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2842,11 +2897,12 @@
         ]
       },
       "errors": [
-        "us-5183136/PSP/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-5183136/PSP/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/PSP/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained",
-        "us-5183136/PSP/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-5183136/PSP/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/PSP/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/PSP/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/PSP/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2887,8 +2943,9 @@
         ]
       },
       "errors": [
-        "us-5183136/PUD/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-5183136/PUD/datacenter: absence gate: 'data storage' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2922,11 +2979,12 @@
         "notes": "PUD incorporates underlying-district permissions; its additional commercial-use provision refers to C District uses, which expressly excludes warehouses generally."
       },
       "errors": [
-        "us-5183136/PUD/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-5183136/PUD/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/PUD/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained",
-        "us-5183136/PUD/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-5183136/PUD/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/PUD/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/PUD/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/PUD/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 7 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -2973,9 +3031,11 @@
         ]
       },
       "errors": [
-        "us-5183136/Planned Residential Developmen/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/Planned Residential Developmen/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained"
-      ]
+        "us-5183136/Planned Residential Developmen/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/Planned Residential Developmen/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/Planned Residential Developmen/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3022,9 +3082,11 @@
         ]
       },
       "errors": [
-        "us-5183136/R-10/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/R-10/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained"
-      ]
+        "us-5183136/R-10/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/R-10/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/R-10/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3071,9 +3133,11 @@
         ]
       },
       "errors": [
-        "us-5183136/R-15/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/R-15/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained"
-      ]
+        "us-5183136/R-15/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/R-15/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/R-15/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3120,9 +3184,11 @@
         ]
       },
       "errors": [
-        "us-5183136/R-6/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/R-6/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained"
-      ]
+        "us-5183136/R-6/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/R-6/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/R-6/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3169,9 +3235,11 @@
         ]
       },
       "errors": [
-        "us-5183136/RMF/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-5183136/RMF/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained"
-      ]
+        "us-5183136/RMF/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/RMF/warehouse_distribution: absence gate: 'storage of goods' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/RMF/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 6 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3236,9 +3304,11 @@
         ]
       },
       "errors": [
-        "us-5183136/RO/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-5183136/RO/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained"
-      ]
+        "us-5183136/RO/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/RO/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/RO/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     },
     {
       "cell": {
@@ -3303,9 +3373,11 @@
         ]
       },
       "errors": [
-        "us-5183136/RT/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-5183136/RT/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained"
-      ]
+        "us-5183136/RT/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-5183136/RT/warehouse_distribution: absence gate: 'loading dock' occurs 2 times in the code and 2 are not explained",
+        "us-5183136/RT/warehouse_distribution: absence gate: 'warehouse' occurs 7 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-5183136-20261011T102403Z"
     }
   ],
   "missing": [
@@ -3318,18 +3390,42 @@
       "warehouse_distribution"
     ],
     [
+      "C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "C",
+      "battery_storage"
+    ],
+    [
       "CBD",
       "datacenter"
     ],
     [
       "CBD",
       "warehouse_distribution"
+    ],
+    [
+      "CBD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "CBD",
+      "battery_storage"
     ],
     [
       "I",
       "datacenter"
     ],
     [
+      "I",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "I",
+      "battery_storage"
+    ],
+    [
       "PSP",
       "datacenter"
     ],
@@ -3338,40 +3434,116 @@
       "warehouse_distribution"
     ],
     [
+      "PSP",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PSP",
+      "battery_storage"
+    ],
+    [
       "PUD",
       "datacenter"
     ],
     [
       "PUD",
       "warehouse_distribution"
+    ],
+    [
+      "PUD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PUD",
+      "battery_storage"
     ],
     [
       "Planned Residential Developmen",
       "warehouse_distribution"
     ],
     [
+      "Planned Residential Developmen",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "Planned Residential Developmen",
+      "battery_storage"
+    ],
+    [
       "R-10",
       "warehouse_distribution"
+    ],
+    [
+      "R-10",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-10",
+      "battery_storage"
     ],
     [
       "R-15",
       "warehouse_distribution"
     ],
     [
+      "R-15",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-15",
+      "battery_storage"
+    ],
+    [
       "R-6",
       "warehouse_distribution"
+    ],
+    [
+      "R-6",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-6",
+      "battery_storage"
     ],
     [
       "RMF",
       "warehouse_distribution"
     ],
     [
+      "RMF",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "RMF",
+      "battery_storage"
+    ],
+    [
       "RO",
       "warehouse_distribution"
     ],
     [
+      "RO",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "RO",
+      "battery_storage"
+    ],
+    [
       "RT",
       "warehouse_distribution"
+    ],
+    [
+      "RT",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "RT",
+      "battery_storage"
     ]
-  ]
+  ],
+  "regate": {
+    "run_id": "regate-us-5183136-20261011T102403Z",
+    "at": "2026-10-11T10:24:03Z"
+  }
 }

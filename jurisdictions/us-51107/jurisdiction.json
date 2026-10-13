@@ -17,6 +17,32 @@
     "us-51107-dc-phase1",
     "us-51107-gis-zoning"
   ],
+  "table_key": [
+    {
+      "symbol": "P",
+      "status": "permitted",
+      "quote": "A “P” indicates that a specific Use is permitted in the zoning district",
+      "section": "Table 3.01-1"
+    },
+    {
+      "symbol": "S",
+      "status": "conditional",
+      "quote": "An “S” indicates that a Use may be allowed in the zoning district as a Special Exception",
+      "section": "Table 3.01-1"
+    },
+    {
+      "symbol": "M",
+      "status": "conditional",
+      "quote": "An “M” indicates that a Use may be permitted in the zoning district as a Minor Special Exception",
+      "section": "Table 3.01-1"
+    },
+    {
+      "symbol": "",
+      "status": "prohibited",
+      "quote": "A blank cell indicates that the use is not permitted in the district.",
+      "section": "Table 3.01-1"
+    }
+  ],
   "districts": [
     {
       "district_code": "A10",

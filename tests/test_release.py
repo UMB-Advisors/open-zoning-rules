@@ -19,7 +19,7 @@ GATES = {
     "bad_quote.json": "quote not found in source",
     "missing_section.json": "section not found in source",
     "banned_host.json": "banned host",
-    "absence_unexplained.json": "absence gate: 'heavy industry' occurs in the code and is not explained",
+    "absence_unexplained.json": "absence gate: 'heavy industry' occurs 6 times in the code and 6 are not explained",
     "denylist_only_host.json": "banned host",
 }
 

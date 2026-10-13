@@ -12,7 +12,7 @@ from pathlib import Path
 
 from ozr.common import ROOT, jurisdiction_ids, today
 
-COMMANDS = ("fetch", "segment", "extract", "review", "grade", "measure", "mutation", "release", "audit")
+COMMANDS = ("fetch", "segment", "extract", "review", "grade", "measure", "mutation", "regate", "release", "audit")
 
 
 def _parser() -> argparse.ArgumentParser:
@@ -30,6 +30,7 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--version", default="0.1.0")
     parser.add_argument("--published", default=today())
     parser.add_argument("--today", default=today())
+    parser.add_argument("--audit-sheet", type=Path, default=Path("audit/z0_audit_sheet.v0.1.0.csv"))
     return parser
 
 

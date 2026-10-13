@@ -11,7 +11,17 @@ from typing import Any
 from ozr.common import append_run, read_json, text_path, utc_now
 from ozr.common import today as default_today
 from ozr.contamination import check_url, load_denylist
-from ozr.gates import absence_errors, absence_hits, enum_errors, matched_layers, quote_errors, section_errors, term_in
+from ozr.gates import (
+    absence_errors,
+    absence_hits,
+    enum_errors,
+    jurisdiction_text,
+    matched_layers,
+    quote_errors,
+    section_errors,
+    table_errors,
+    term_in,
+)
 from ozr.models import ModelError, ModelResult, parse_json_object
 from ozr.segment import _terms, load_segments
 
@@ -157,6 +167,7 @@ def label_errors(
     errors.extend(enum_errors({**cell, "confidence": "C", "review": "single"}, taxonomy))
     errors.extend(quote_errors(cell, text))
     errors.extend(section_errors(cell, text))
+    errors.extend(table_errors(cell, text, taxonomy, jurisdiction))
     errors.extend(absence_errors(cell, absence_text if absence_text is not None else text, taxonomy, jurisdiction))
     source = cell.get("source") if isinstance(cell.get("source"), dict) else {}
     source_ids = {str(item) for item in jurisdiction.get("sources", [])}
@@ -210,6 +221,45 @@ def _run_id(step: str, jid: str) -> str:
     return f"{step}-{jid}-{utc_now().replace('-', '').replace(':', '')}"
 
 
+def gate_cells(
+    root: Path,
+    jid: str,
+    jurisdiction: dict,
+    sources_by_id: dict[str, dict],
+    taxonomy: dict,
+    cells: list[dict],
+) -> tuple[list[dict], list[dict]]:
+    """Apply deterministic label gates to already-normalized cells."""
+    full_texts = {
+        source_id: text_path(root, source_id).read_text(encoding="utf-8")
+        for source_id in sources_by_id
+        if text_path(root, source_id).is_file()
+    }
+    all_text = jurisdiction_text(root / "cache" / "text", jurisdiction["sources"])
+    district_codes = [item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
+    district_codes = [code for code in district_codes if isinstance(code, str)]
+    denylist = load_denylist(root / "policy" / "denylist.txt")
+    accepted: list[dict] = []
+    rejected: list[dict] = []
+    seen: set[tuple[object, object]] = set()
+    for cell in cells:
+        source_id = cell["source"].get("id") if isinstance(cell.get("source"), dict) else None
+        errors = label_errors(
+            cell, full_texts.get(source_id, ""), taxonomy, jurisdiction, district_codes, denylist, all_text
+        )
+        pair = (cell.get("district_code"), cell.get("use_class"))
+        if pair in seen:
+            errors.append(f"{cell.get('jurisdiction_id')}/{pair[0]}/{pair[1]}: duplicate cell")
+        else:
+            seen.add(pair)
+        if errors:
+            rejected.append({"cell": cell, "errors": errors})
+        else:
+            cell["matched_text"] = matched_layers(cell, full_texts.get(source_id, ""))
+            accepted.append(cell)
+    return accepted, rejected
+
+
 def label_jurisdiction(
     root: Path,
     jid: str,
@@ -233,14 +283,9 @@ def label_jurisdiction(
         if isinstance(source, dict) and isinstance(source.get("source_id"), str)
     }
     segments = load_segments(root, jid)
-    full_texts = {
-        source_id: text_path(root, source_id).read_text(encoding="utf-8")
-        for source_id in sources_by_id
-        if text_path(root, source_id).is_file()
-    }
     checked_at = today or default_today()
     run_id = _run_id(run_step, jid)
-    all_text = "\n\n".join(full_texts.values())
+    all_text = jurisdiction_text(root / "cache" / "text", jurisdiction["sources"])
     hits = term_hits(all_text, taxonomy)
     districts = [item for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
     if chunk_size < 1:
@@ -293,36 +338,21 @@ def label_jurisdiction(
         }
         append_run(root, jid, record)
         raise
-    district_codes = [item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)]
-    district_codes = [code for code in district_codes if isinstance(code, str)]
-    denylist = load_denylist(root / "policy" / "denylist.txt")
-    cells: list[dict] = []
+    normalized: list[dict] = []
     rejected: list[dict] = []
-    seen: set[tuple[object, object]] = set()
     for raw in raw_cells:
         if not isinstance(raw, dict):
             rejected.append({"cell": raw, "errors": ["cell is not an object"]})
             continue
-        cell = normalise_label(raw, jurisdiction, sources_by_id, checked_at, by, run_id)
-        source_id = cell["source"].get("id") if isinstance(cell.get("source"), dict) else None
-        errors = label_errors(
-            cell, full_texts.get(source_id, ""), taxonomy, jurisdiction, district_codes, denylist, all_text
-        )
-        pair = (cell.get("district_code"), cell.get("use_class"))
-        if pair in seen:
-            errors.append(f"{cell.get('jurisdiction_id')}/{pair[0]}/{pair[1]}: duplicate cell")
-        else:
-            seen.add(pair)
-        if errors:
-            rejected.append({"cell": cell, "errors": errors})
-        else:
-            cell["matched_text"] = matched_layers(cell, full_texts.get(source_id, ""))
-            cells.append(cell)
+        normalized.append(normalise_label(raw, jurisdiction, sources_by_id, checked_at, by, run_id))
+    cells, gated_rejected = gate_cells(root, jid, jurisdiction, sources_by_id, taxonomy, normalized)
+    rejected.extend(gated_rejected)
     class_ids = [
         item.get("id")
         for item in taxonomy.get("classes", [])
         if isinstance(item, dict) and isinstance(item.get("id"), str)
     ]
+    district_codes = [item.get("district_code") for item in districts if isinstance(item.get("district_code"), str)]
     covered = {(cell["district_code"], cell["use_class"]) for cell in cells}
     missing = [
         [district, use_class]

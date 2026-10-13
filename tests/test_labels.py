@@ -15,6 +15,9 @@ from ozr.review import run as review
 from ozr.segment import segment_jurisdiction
 from pdfgen import make_pdf
 
+_TABLE = """Use | I-1 | I-2
+Warehouse | P | P"""
+
 
 def _prepare(tiny_root: Path) -> None:
     pdf = make_pdf(
@@ -32,6 +35,8 @@ def _prepare(tiny_root: Path) -> None:
     document["sources"][0]["sha256"] = digest
     path.write_text(json.dumps(document))
     segment_jurisdiction(tiny_root, "us-00000")
+    source = tiny_root / "cache" / "text" / "us-00000-zo.txt"
+    source.write_text(source.read_text(encoding="utf-8") + TABLE_TEXT_MARKER + _TABLE, encoding="utf-8")
 
 
 def _result(text: str, model: str = "fake") -> ModelResult:
@@ -118,7 +123,7 @@ def test_label_gates_reject_bad_cells_and_write_ledger(tiny_root: Path) -> None:
 def test_passing_cells_record_which_text_matched(tiny_root: Path) -> None:
     _prepare(tiny_root)
     source_text = tiny_root / "cache" / "text" / "us-00000-zo.txt"
-    source_text.write_text("Table 4-2 I-1" + TABLE_TEXT_MARKER + "Warehouse | I-1 | P")
+    source_text.write_text("Table 4-2 I-1" + TABLE_TEXT_MARKER + "Use | I-1\nWarehouse | P")
 
     output = extract(tiny_root, "us-00000", lambda *_args: _result(_good()), "2026-10-10")
 

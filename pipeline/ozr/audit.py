@@ -79,7 +79,7 @@ def write_sheet(rows: list[dict], path: Path) -> None:
 
 def cli(args: argparse.Namespace) -> int:
     rows = draw(args.root, args.jurisdiction_ids)
-    path = args.root / "audit" / "z0_audit_sheet.v0.1.0.csv"
+    path = args.audit_sheet if args.audit_sheet.is_absolute() else args.root / args.audit_sheet
     write_sheet(rows, path)
     print(f"wrote {len(rows)} audit rows")
     return 0

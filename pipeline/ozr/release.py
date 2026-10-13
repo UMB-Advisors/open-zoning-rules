@@ -277,6 +277,18 @@ def build(
     )
     write_json(out / "amendments.json", amendments)
     write_json(out / "state_rules.json", state_rules)
+    withheld: list[dict] = []
+    for jid, _, _, _ in included:
+        path = root / "jurisdictions" / jid / "cells.withheld.json"
+        document = read_json(path) if path.is_file() else {}
+        if isinstance(document, dict):
+            withheld.extend(
+                {field: item.get(field) for field in ("key", "gate", "reason", "run_id")}
+                for item in document.get("withheld", [])
+                if isinstance(item, dict)
+            )
+    withheld.sort(key=lambda item: str(item.get("key", "")))
+    write_json(out / "withheld.json", withheld)
     shutil_files = {"taxonomy.json": root / "taxonomy" / "v1.json", "denylist.txt": root / "policy" / "denylist.txt"}
     for name, source_path in shutil_files.items():
         (out / name).write_bytes(source_path.read_bytes())
@@ -296,6 +308,7 @@ def build(
         {"format": "json", "path": "sources.json", "sha256": _sha256(out / "sources.json")},
         {"format": "json", "path": "amendments.json", "sha256": _sha256(out / "amendments.json")},
         {"format": "json", "path": "state_rules.json", "sha256": _sha256(out / "state_rules.json")},
+        {"format": "json", "path": "withheld.json", "sha256": _sha256(out / "withheld.json")},
         {"format": "json", "path": "taxonomy.json", "sha256": _sha256(out / "taxonomy.json")},
         *_district_files(root, out, included),
     ]
@@ -314,7 +327,10 @@ def build(
         "reliance_notice": RELIANCE_NOTICE,
     }
     write_json(out / "manifest.json", manifest)
-    errors = [*check_release(manifest), *release_errors(out, text_dir, load_denylist(root / "policy" / "denylist.txt"))]
+    errors = [
+        *check_release(manifest),
+        *release_errors(out, text_dir, load_denylist(root / "policy" / "denylist.txt"), root=root),
+    ]
     return ([accuracy_error] if accuracy_error else []) + errors
 
 

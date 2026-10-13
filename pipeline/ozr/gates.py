@@ -8,6 +8,7 @@ import re
 import unicodedata
 from calendar import monthrange
 from datetime import date
+from functools import lru_cache
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
@@ -29,6 +30,7 @@ _KINDS = {"table", "prose", "absence"}
 TABLE_TEXT_MARKER = "\n\n=== reconstructed table text (from PDF rulings) ===\n"
 
 
+@lru_cache(maxsize=65536)
 def canonical(text: str) -> str:
     """Return comparison text: hyphens closed, whitespace collapsed, case preserved."""
     text = unicodedata.normalize("NFKC", text)
@@ -57,6 +59,21 @@ def match_layer(text: str, needle: str) -> str | None:
     if contains(raw, needle):
         return "raw"
     if contains(table, needle):
+        return "table"
+    return None
+
+
+def _label_in(text: str, needle: str) -> bool:
+    """Return whether a label occurs without adjoining letters or digits."""
+    needle = canonical(needle)
+    return bool(needle) and re.search(rf"(?<![^\W_]){re.escape(needle)}(?![^\W_])", canonical(text)) is not None
+
+
+def _label_match_layer(text: str, needle: str) -> str | None:
+    raw, table = text_layers(text)
+    if _label_in(raw, needle):
+        return "raw"
+    if _label_in(table, needle):
         return "table"
     return None
 
@@ -117,9 +134,9 @@ def _table_label_errors(key: str, evidence: dict, quote: str, text: str) -> list
         if _blank(value):
             errors.append(f"{key}: no {name}")
             continue
-        if match_layer(text, value) is None:
+        if _label_match_layer(text, value) is None:
             errors.append(f"{key}: {name} not found in source")
-        if quote and not contains(quote, value):
+        if quote and not _label_in(quote, value):
             errors.append(f"{key}: {name} not in quote")
     return errors
 
@@ -155,7 +172,7 @@ def section_errors(cell: dict, text: str) -> list[str]:
 def _one_section_errors(key: str, section: object, text: str, found_name: str, empty_name: str) -> list[str]:
     if _blank(section):
         return [f"{key}: {empty_name}"]
-    if match_layer(text, section) is None:
+    if _label_match_layer(text, section) is None:
         return [f"{key}: {found_name} not found in source"]
     return []
 
@@ -191,8 +208,7 @@ def absence_hits(text: str, use_class: str, taxonomy: dict) -> list[str]:
     record = _class_record(taxonomy, use_class)
     if record is None:
         return []
-    haystack = canonical(text)
-    found = {term for term in _class_terms(record) if _term_in(haystack, term)}
+    found = {term for term in _class_terms(record) if _term_in(text, term)}
     return sorted(found)
 
 
@@ -212,12 +228,38 @@ def _class_terms(record: dict) -> list[str]:
     return terms
 
 
-def _term_in(haystack: str, term: str) -> bool:
-    needle = canonical(term)
+@lru_cache(maxsize=65536)
+def _term_text(text: str) -> str:
+    text = unicodedata.normalize("NFKC", text).replace("\u00ad", "").translate(_HYPHEN_MAP)
+    text = _LINE_HYPHEN.sub("", text)
+    return re.sub(r"[-\s]+", " ", text).strip()
+
+
+def _term_pattern(term: str) -> re.Pattern[str] | None:
+    needle = _term_text(term)
     if not needle:
-        return False
-    pattern = rf"\b{re.escape(needle)}(?:es|s)?\b"
-    return re.search(pattern, haystack, re.IGNORECASE) is not None
+        return None
+    words = needle.split()
+    last = re.escape(words[-1])
+    suffix = r"(?:es|s)?"
+    if len(words[-1]) >= 2 and words[-1][-1].lower() == "y" and words[-1][-2].lower() not in "aeiou":
+        last = rf"(?:{last}(?:es|s)?|{re.escape(words[-1][:-1])}ies)"
+        suffix = ""
+    return re.compile(
+        rf"\b{re.escape(' '.join(words[:-1]) + (' ' if len(words) > 1 else ''))}{last}{suffix}\b", re.IGNORECASE
+    )
+
+
+@lru_cache(maxsize=65536)
+def _term_occurrences(text: str, term: str) -> tuple[tuple[int, int], ...]:
+    pattern = _term_pattern(term)
+    if pattern is None:
+        return ()
+    return tuple(match.span() for match in pattern.finditer(_term_text(text)))
+
+
+def _term_in(haystack: str, term: str) -> bool:
+    return bool(_term_occurrences(haystack, term))
 
 
 def term_in(haystack: str, term: str) -> bool:
@@ -232,24 +274,45 @@ def absence_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) ->
     key = _cell_key(cell)
     explained = cell.get("absence_hits")
     entries = explained if isinstance(explained, list) else []
-    errors = [
-        f"{key}: absence gate: '{term}' occurs in the code and is not explained"
-        for term in absence_hits(text, str(cell.get("use_class", "")), taxonomy)
-        if not any(_hit_explains(entry, term, text) for entry in entries)
-    ]
+    errors = []
+    for term in absence_hits(text, str(cell.get("use_class", "")), taxonomy):
+        occurrences = _term_occurrences(text, term)
+        explained_count = sum(
+            any(_hit_explains(entry, term, text, occurrence) for entry in entries) for occurrence in occurrences
+        )
+        if explained_count != len(occurrences):
+            errors.append(
+                f"{key}: absence gate: '{term}' occurs {len(occurrences)} times in the code and "
+                f"{len(occurrences) - explained_count} are not explained"
+            )
     if jurisdiction.get("unlisted_rule") == "prohibited_by_default":
         errors.extend(_unlisted_rule_errors(key, jurisdiction.get("unlisted_rule_quote"), text))
     return errors
 
 
-def _hit_explains(entry: object, term: str, text: str) -> bool:
+@lru_cache(maxsize=65536)
+def _quote_spans(text: str, quote: str) -> tuple[tuple[int, int], ...]:
+    """Return every span of a term-normalised quote in the term-normalised text."""
+    needle = _term_text(quote)
+    if not needle:
+        return ()
+    return tuple(match.span() for match in re.finditer(re.escape(needle), _term_text(text)))
+
+
+def _hit_explains(entry: object, term: str, text: str, occurrence: tuple[int, int]) -> bool:
     record = _mapping(entry)
     quote = record.get("quote")
-    if record.get("term") != term or _blank(quote) or _blank(record.get("section")) or _blank(record.get("reason")):
+    entry_term = record.get("term")
+    if not isinstance(entry_term, str) or _term_text(entry_term).casefold() != _term_text(term).casefold():
         return False
-    if match_layer(text, quote) is None:
+    if _blank(quote) or _blank(record.get("section")) or _blank(record.get("reason")):
         return False
-    return canonical(term).lower() in canonical(quote).lower()
+    normalized_quote = _term_text(quote)
+    term_spans = _term_occurrences(quote, term)
+    # The quote must name the term and say something besides it: a bare term would "explain" every occurrence.
+    if not any(re.search(r"[^\W_]", normalized_quote[:start] + normalized_quote[end:]) for start, end in term_spans):
+        return False
+    return any(start <= occurrence[0] and occurrence[1] <= end for start, end in _quote_spans(text, quote))
 
 
 def _unlisted_rule_errors(key: str, quoted: object, text: str) -> list[str]:
@@ -258,6 +321,88 @@ def _unlisted_rule_errors(key: str, quoted: object, text: str) -> list[str]:
         return [f"{key}: no unlisted rule quote"]
     if match_layer(text, quote) is None:
         return [f"{key}: unlisted rule quote not found in source"]
+    return []
+
+
+def table_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> list[str]:
+    """Return table quote, symbol-key, and reconstructed-grid errors."""
+    evidence = _mapping(cell.get("evidence"))
+    if evidence.get("kind") != "table":
+        return []
+    key = _cell_key(cell)
+    row = evidence.get("row_label")
+    column = evidence.get("column_header")
+    symbol = evidence.get("symbol")
+    quote = evidence.get("quote")
+    if not all(isinstance(value, str) for value in (row, column, symbol, quote)):
+        return [f"{key}: table evidence needs string row_label, column_header, symbol and quote"]
+    errors: list[str] = []
+    fields = quote.split("|")
+    if len(fields) != 3 or [canonical(value) for value in fields] != [
+        canonical(row),
+        canonical(column),
+        canonical(symbol),
+    ]:
+        errors.append(f"{key}: table quote is not '<row_label> | <column_header> | <symbol>'")
+    if not _table_symbol_maps(symbol, cell.get("status"), taxonomy, jurisdiction, text):
+        errors.append(
+            f"{key}: table symbol '{symbol}' does not map to status '{cell.get('status')}' through the table key"
+        )
+    errors.extend(_table_grid_errors(key, row, column, symbol, text))
+    return errors
+
+
+def _table_symbol_maps(symbol: str, status: object, taxonomy: dict, jurisdiction: dict, text: str) -> bool:
+    for entry in jurisdiction.get("table_key", []):
+        if not isinstance(entry, dict) or not isinstance(entry.get("symbol"), str):
+            continue
+        if canonical(entry["symbol"]) != canonical(symbol) or entry.get("status") != status:
+            continue
+        quote = entry.get("quote")
+        if isinstance(quote, str) and match_layer(text, quote) is not None:
+            return True
+    if not canonical(symbol):
+        return False
+    for item in taxonomy.get("statuses", []):
+        if item.get("value") == status and canonical(symbol) in {
+            canonical(form) for form in item.get("local_forms", [])
+        }:
+            return True
+    return False
+
+
+@lru_cache(maxsize=16)
+def _grid_rows(table: str) -> tuple[tuple[str, ...], ...]:
+    """Parse the reconstructed table layer once into comparable cell rows."""
+    lines = [line for line in table.splitlines() if line.strip() and not line.startswith("[page ")]
+    return tuple(tuple(canonical(cell).casefold() for cell in line.split(" | ")) for line in lines)
+
+
+def _table_grid_errors(key: str, row_label: str, column_header: str, symbol: str, text: str) -> list[str]:
+    _, table = text_layers(text)
+    rows = _grid_rows(table)
+    wanted_row, wanted_column = canonical(row_label).casefold(), canonical(column_header).casefold()
+    values: list[str] = []
+    for row_index, row in enumerate(rows):
+        if wanted_row not in row:
+            continue
+        for header_index in range(row_index - 1, -1, -1):
+            header = rows[header_index]
+            if wanted_column not in header or wanted_row in header:
+                continue
+            if any(len(candidate) != len(row) for candidate in rows[header_index : row_index + 1]):
+                break
+            values.append(row[header.index(wanted_column)])
+            break
+    if not values:
+        return [f"{key}: table grid: cannot place '{row_label}' under '{column_header}' in the reconstructed table"]
+    expected = canonical(symbol).casefold()
+    actual = {value for value in values if value}
+    if (not expected and any(values)) or (expected and actual != {expected}):
+        rendered = ", ".join(sorted(actual))
+        return [
+            f"{key}: table grid: '{column_header}' column holds '{rendered}' on the '{row_label}' row, not '{symbol}'"
+        ]
     return []
 
 
@@ -313,13 +458,22 @@ def apply_grade_rules(
     return graded
 
 
-def cell_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict, denylist: frozenset[str]) -> list[str]:
+def cell_errors(
+    cell: dict,
+    text: str,
+    taxonomy: dict,
+    jurisdiction: dict,
+    denylist: frozenset[str],
+    *,
+    absence_text: str | None = None,
+) -> list[str]:
     """Return every cell gate error, including a banned or non-https source URL."""
     errors = [
         *enum_errors(cell, taxonomy),
         *quote_errors(cell, text),
         *section_errors(cell, text),
-        *absence_errors(cell, text, taxonomy, jurisdiction),
+        *table_errors(cell, text, taxonomy, jurisdiction),
+        *absence_errors(cell, absence_text if absence_text is not None else text, taxonomy, jurisdiction),
     ]
     key = _cell_key(cell)
     url = _mapping(cell.get("source")).get("url")
@@ -487,6 +641,16 @@ def _source_text(text_dir: Path, source_id: object, cache: dict[str, str]) -> st
     return cache[source_id]
 
 
+def jurisdiction_text(text_dir: Path, source_ids: list[str]) -> str:
+    """Return cached source texts for a jurisdiction in its declared source order."""
+    cache: dict[str, str] = {}
+    return "\n\n".join(
+        text
+        for source_id in source_ids
+        if isinstance(source_id, str) and (text := _source_text(text_dir, source_id, cache))
+    )
+
+
 def _grade_errors(cell: dict) -> list[str]:
     if cell.get("parcel_specific") is True and cell.get("confidence") != "C":
         return [f"{_cell_key(cell)}: parcel_specific confidence is C"]
@@ -539,6 +703,7 @@ def _one_cell_errors(
     rules: list[dict],
     sources: dict[object, dict],
     cache: dict[str, str],
+    absence_text: str,
 ) -> list[str]:
     key = _cell_key(cell)
     source_id = _mapping(cell.get("source")).get("id")
@@ -550,7 +715,7 @@ def _one_cell_errors(
     registered = sources.get(source_id)
     if registered is None or registered.get("url") != _mapping(cell.get("source")).get("url"):
         errors.append(f"{key}: source {source_id} is not in sources.json with this url")
-    errors.extend(cell_errors(cell, text, taxonomy, jurisdiction, denylist))
+    errors.extend(cell_errors(cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text))
     errors.extend(_grade_errors(cell))
     if published is not None and months is not None:
         errors.extend(_staleness_errors(cell, published, months))
@@ -558,8 +723,14 @@ def _one_cell_errors(
     return errors
 
 
-def _coverage_messages(jurisdictions: list[dict], cells: list[dict], class_ids: list[str]) -> list[str]:
+def _coverage_messages(
+    jurisdictions: list[dict], cells: list[dict], class_ids: list[str], withheld: list[dict], root: Path
+) -> list[str]:
     errors: list[str] = []
+    published_keys = {_cell_key(cell) for cell in cells}
+    withheld_by_key = {item.get("key"): item for item in withheld if isinstance(item.get("key"), str)}
+    for key in sorted(published_keys & set(withheld_by_key)):
+        errors.append(f"coverage: {key}: listed as withheld but published")
     for jurisdiction in jurisdictions:
         codes = [
             district.get("district_code")
@@ -567,7 +738,27 @@ def _coverage_messages(jurisdictions: list[dict], cells: list[dict], class_ids: 
             if isinstance(district.get("district_code"), str)
         ]
         owned = [cell for cell in cells if cell.get("jurisdiction_id") == jurisdiction.get("jurisdiction_id")]
-        errors.extend(f"coverage: {error}" for error in coverage_errors(codes, owned, class_ids))
+        for error in coverage_errors(codes, owned, class_ids):
+            if not error.endswith(": missing cell"):
+                errors.append(f"coverage: {error}")
+                continue
+            key = error.removesuffix(": missing cell")
+            withheld_entry = withheld_by_key.get(key)
+            if withheld_entry is None:
+                errors.append(f"coverage: {error}")
+                continue
+            jid = str(jurisdiction.get("jurisdiction_id", ""))
+            grade_path = root / "jurisdictions" / jid / "cells.withheld.json"
+            grade_document = _read_json(grade_path) if grade_path.is_file() else {}
+            grade_entries = grade_document.get("withheld", []) if isinstance(grade_document, dict) else []
+            if any(
+                isinstance(entry, dict)
+                and entry.get("key") == key
+                and entry.get("run_id") == withheld_entry.get("run_id")
+                for entry in grade_entries
+            ):
+                continue
+            errors.append(f"coverage: {key}: withheld without a matching grade failure record")
     return errors
 
 
@@ -599,6 +790,8 @@ def release_errors(
     text_dir: Path,
     policy_denylist: frozenset[str] | None = None,
     cell_overrides: list[dict] | None = None,
+    *,
+    root: Path | None = None,
 ) -> list[str]:
     """Return schema, contract, hash, coverage, and evidence errors for one release."""
     denylist = load_denylist() if policy_denylist is None else policy_denylist
@@ -607,9 +800,12 @@ def release_errors(
     jurisdictions_doc = _read_json(release_dir / "jurisdictions.json")
     sources_doc = _read_json(release_dir / "sources.json")
     state_rules_doc = _read_json(release_dir / "state_rules.json")
+    withheld_doc = _read_json(release_dir / "withheld.json") if (release_dir / "withheld.json").is_file() else []
     cells = _apply_cell_overrides(_dicts(cells_doc), cell_overrides)
     jurisdictions = _dicts(jurisdictions_doc)
     rules = _dicts(state_rules_doc)
+    withheld = _dicts(withheld_doc)
+    root = _ROOT if root is None else root
     sources = _source_list(sources_doc)
     taxonomy = _read_json(_ROOT / "taxonomy" / "v1.json")
     if not isinstance(taxonomy, dict):
@@ -627,6 +823,11 @@ def release_errors(
         *_hash_errors(release_dir, manifest, cell_overrides is not None),
         *_denylist_errors(manifest, denylist),
     ]
+    manifest_files = manifest.get("files", []) if isinstance(manifest, dict) else []
+    if (release_dir / "withheld.json").is_file() and not any(
+        isinstance(entry, dict) and entry.get("path") == "withheld.json" for entry in manifest_files
+    ):
+        errors.append("withheld: withheld.json is not listed in the manifest files")
     for source in sources:
         label = str(source.get("source_id", "source"))
         errors.extend(_url_messages(label, source, ("url", "final_url"), denylist))
@@ -635,13 +836,29 @@ def release_errors(
     published = _published(manifest)
     months = _stale_after(manifest)
     cache: dict[str, str] = {}
+    jurisdiction_texts = {
+        str(jurisdiction.get("jurisdiction_id", "")): jurisdiction_text(
+            text_dir, [source for source in jurisdiction.get("sources", []) if isinstance(source, str)]
+        )
+        for jurisdiction in jurisdictions
+    }
     for cell in cells:
         jurisdiction = by_jurisdiction.get(cell.get("jurisdiction_id"), {})
         errors.extend(
             _one_cell_errors(
-                cell, text_dir, taxonomy, jurisdiction, denylist, published, months, rules, by_source, cache
+                cell,
+                text_dir,
+                taxonomy,
+                jurisdiction,
+                denylist,
+                published,
+                months,
+                rules,
+                by_source,
+                cache,
+                jurisdiction_texts.get(str(jurisdiction.get("jurisdiction_id", "")), ""),
             )
         )
-    errors.extend(_coverage_messages(jurisdictions, cells, class_ids))
+    errors.extend(_coverage_messages(jurisdictions, cells, class_ids, withheld, root))
     errors.extend(_state_rule_quote_errors(rules, sources, text_dir))
     return errors

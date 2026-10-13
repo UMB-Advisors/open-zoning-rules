@@ -142,6 +142,7 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
     ]
     rows: list[dict] = []
     extractor_index: dict[tuple[object, object, object], dict] = {}
+    published_index: dict[tuple[object, object, object], dict] = {}
     stages = {"extractor": [0, 0], "codex": [0, 0], "grok": [0, 0]}
     mutations: dict[str, object] = {}
     for jid in jids:
@@ -156,6 +157,9 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
             stages[stage][0] += document[1]
             stages[stage][1] += document[2]
         extractor_index.update(indexes[0])
+        published = read_json(base / "cells.json") if (base / "cells.json").is_file() else []
+        if isinstance(published, list):
+            published_index.update({_key(cell): cell for cell in published if isinstance(cell, dict)})
         for district in jurisdiction.get("districts", []):
             if not isinstance(district, dict):
                 continue
@@ -183,7 +187,7 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
     pairs = [row["pair"] for row in rows if row["pair"]]
     disputed_failed = (summary["disputed_share"] or 0) > 0.15
     listed_enough = all(gold_counts[status] >= 50 for status in LISTED)
-    unlisted_enough = gold_counts["unlisted"] >= 50
+    unlisted_enough = sum(row["extractor"] == "unlisted" and row["gold"] is not None for row in rows) >= 50
     gates = {
         "listed_agreement": _gate(
             summary["listed_agreement"], 0.90, listed_enough, "disputed share exceeds 0.15" if disputed_failed else None
@@ -210,7 +214,7 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
         for name in ("listed_agreement", "unlisted_recall", "unlisted_precision"):
             gates[name]["result"] = "fail"
     known = read_json(known_answers_path) if known_answers_path.is_file() else {}
-    answers, misses = [], []
+    answers, misses, source_text_differences = [], [], []
     for answer in known.get("cells", []) if isinstance(known, dict) else []:
         if not isinstance(answer, dict) or answer.get("jurisdiction_id") not in jids:
             continue
@@ -218,19 +222,25 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
             (answer.get("jurisdiction_id"), answer.get("district_code"), answer.get("use_class"))
         )
         status = cell.get("status") if cell else None
+        published = published_index.get(
+            (answer.get("jurisdiction_id"), answer.get("district_code"), answer.get("use_class"))
+        )
         result = {
             "id": answer.get("id"),
             "expected_status": answer.get("expected_status"),
             "source_text_status": answer.get("source_text_status"),
             "extractor_status": status,
+            "published_status": published.get("status") if published else None,
             "match_expected": status == answer.get("expected_status") if cell else None,
             "match_source_text": status == answer.get("source_text_status")
             if cell and "source_text_status" in answer
             else None,
         }
         answers.append(result)
-        if cell and (result["match_expected"] is False or result["match_source_text"] is False):
+        if result["match_expected"] is False:
             misses.append(result)
+        if result["match_source_text"] is False:
+            source_text_differences.append(result)
     return {
         "measure": "model-panel agreement",
         "caveat": CAVEAT,
@@ -251,6 +261,7 @@ def measure(root: Path, jids: list[str], known_answers_path: Path | None = None)
         "gate_rejection_rate": {stage: _rate(values[1], sum(values)) for stage, values in stages.items()},
         "known_answers": answers,
         "known_answer_misses": misses,
+        "known_answer_source_text_differences": source_text_differences,
         "mutation": mutations,
         "cost": _cost(root, jids),
     }

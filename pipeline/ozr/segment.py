@@ -77,7 +77,7 @@ def table_rows(table: list[list[str | None]]) -> list[str]:
     """Render non-empty extracted table rows as deterministic pipe-delimited text."""
     rows: list[str] = []
     for row in table:
-        cells = [cell_text(value) for value in row if value is not None]
+        cells = [cell_text(value) for value in row]
         if any(cells):
             rows.append(" | ".join(cells))
     return rows
@@ -122,6 +122,29 @@ def page_texts(data: bytes) -> list[str]:
     parser.feed(data.decode("utf-8", errors="replace"))
     parser.close()
     return [re.sub(r"\n{2,}", "\n", unescape("".join(parser.parts))).strip()]
+
+
+def strip_line_numbers(text: str) -> str:
+    """Remove printed line counters from runs of three or more consecutive lines."""
+    lines = text.splitlines(keepends=True)
+    numbered = []
+    for line in lines:
+        match = re.match(r"^(\d+) ", line)
+        numbered.append(int(match.group(1)) if match else None)
+
+    index = 0
+    while index < len(lines):
+        if numbered[index] is None:
+            index += 1
+            continue
+        end = index + 1
+        while end < len(lines) and numbered[end] == numbered[end - 1] + 1:
+            end += 1
+        if end - index >= 3:
+            for line_index in range(index, end):
+                lines[line_index] = re.sub(r"^\d+ ", "", lines[line_index])
+        index = end
+    return "".join(lines)
 
 
 def _relative_cache_path(path: Path) -> str:
@@ -291,7 +314,12 @@ def segment_state_rules(root: Path) -> None:
         source_id, digest = source.get("source_id"), source.get("sha256")
         cache_path = cache_dir(root) / digest if isinstance(digest, str) else None
         if isinstance(source_id, str) and cache_path is not None and cache_path.is_file():
-            _write_text(text_path(root, source_id), "\n\n".join(page_texts(cache_path.read_bytes())))
+            text = "\n\n".join(page_texts(cache_path.read_bytes()))
+            if isinstance(source.get("url"), str) and source["url"].startswith(
+                "https://www.legis.ga.gov/api/legislation/document/"
+            ):
+                text = strip_line_numbers(text)
+            _write_text(text_path(root, source_id), text)
 
 
 def load_segments(root: Path, jid: str) -> list[dict]:

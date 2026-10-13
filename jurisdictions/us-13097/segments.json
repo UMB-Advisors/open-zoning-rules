@@ -13,7 +13,7 @@
       "sha256": "36d41e6407d3e61b6c7537e1f4110e24d4d867fb5e9db12f5af34f9e24838569",
       "pages": 860,
       "tables": 243,
-      "text_sha256": "2d007bcfe5524dc93abf0cb23ef658f1ea662af5740f0b756c1feafb272e2276"
+      "text_sha256": "8dd7be7593b34a0e7debd7f78e4b505a209370204388d6c3a7e7e17cf94f5629"
     }
   ],
   "segments": [
@@ -181,7 +181,7 @@
         838
       ],
       "text": "segments/us-13097/use_table-us-13097-udc.txt",
-      "text_sha256": "32d612ef6084ecd71d0add5f8ece8a97567c940591e7fbbaf55055ded729ab1c",
+      "text_sha256": "be8a64b34371d4000387c2b1c8cb163af8318d33ed47ff83ed7bc8afe7401edb",
       "images": [
         {
           "page": 6,
@@ -983,12 +983,14 @@
         314,
         343,
         791,
+        793,
         794,
         796,
         797,
         798,
         807,
         809,
+        815,
         818,
         819,
         827,
@@ -999,7 +1001,7 @@
         843
       ],
       "text": "segments/us-13097/definitions-us-13097-udc.txt",
-      "text_sha256": "09d48f524962604ed989bfbc02de1d34e71d3337b16cc134dff1229871fd2644",
+      "text_sha256": "9bfa698b5cedf3404a09d5c7950e8e5dc444066eac120ae400bb4595a9f76761",
       "images": []
     },
     {

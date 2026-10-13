@@ -11,7 +11,7 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from ozr.contamination import check_url, load_denylist
+from ozr.contamination import check_url, load_denylist, normalize_host
 
 _STATE_FILE = re.compile(r"^[A-Z]{2}$")
 
@@ -43,21 +43,30 @@ def host_allowed(url: object, policy: object, org_id: object = None) -> bool:
     if not isinstance(url, str) or not isinstance(policy, dict):
         return False
     parsed = urllib.parse.urlsplit(url)
-    host = (parsed.hostname or "").lower()
+    host = normalize_host(parsed.hostname or "")
+    if host is None:
+        return False
     hosts = policy.get("hosts", [])
-    if any(isinstance(item, str) and (host == item.lower() or host.endswith(f".{item.lower()}")) for item in hosts):
+    if any(
+        isinstance(item, str)
+        and (normalized := normalize_host(item)) is not None
+        and (host == normalized or host.endswith(f".{normalized}"))
+        for item in hosts
+    ):
         return True
     orgs = policy.get("arcgis_org_ids", [])
     if not isinstance(org_id, str) or org_id not in orgs:
         return False
-    return f"/{org_id}/" in parsed.path or host == "www.arcgis.com"
+    parts = parsed.path.split("/")
+    return bool(re.fullmatch(r"services\d*\.arcgis\.com", host) and len(parts) > 1 and parts[1] == org_id)
 
 
 def _layer_org_id(url: object) -> str | None:
     if not isinstance(url, str):
         return None
     parsed = urllib.parse.urlsplit(url)
-    if re.fullmatch(r"services\d*\.arcgis\.com", parsed.hostname or ""):
+    host = normalize_host(parsed.hostname or "")
+    if host and re.fullmatch(r"services\d*\.arcgis\.com", host):
         parts = parsed.path.split("/")
         return parts[1] if len(parts) > 1 and parts[1] else None
     return None

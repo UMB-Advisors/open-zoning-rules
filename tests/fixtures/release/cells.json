@@ -69,11 +69,11 @@
     ],
     "evidence": {
       "kind": "table",
-      "quote": "Heavy industry | I-1 Light Industrial | (blank = not permitted)",
+      "quote": "Heavy industry | I-1 Light Industrial | ",
       "section": "Sec. 4-2",
       "row_label": "Heavy industry",
       "column_header": "I-1 Light Industrial",
-      "symbol": "blank"
+      "symbol": ""
     },
     "source": {
       "id": "us-00000-zo",

@@ -793,211 +793,6 @@
     {
       "jurisdiction_id": "us-13097",
       "district_code": "AG",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
-          "section": "Sec. 1502 - Definitions.",
-          "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "C-G",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
-          "section": "Sec. 1502 - Definitions.",
-          "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "C-G-C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
-          "section": "Sec. 1502 - Definitions.",
-          "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "C-H",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
-          "section": "Sec. 1502 - Definitions.",
-          "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "C-H-C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
-          "section": "Sec. 1502 - Definitions.",
-          "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "AG",
       "use_class": "utility_generation",
       "status": "prohibited",
       "local_uses": [
@@ -1793,252 +1588,6 @@
         "section": "raw",
         "row_label": "raw",
         "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "HI",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "liquefied petroleum gas",
-          "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-          "section": "Table 2.2",
-          "reason": "This is a bottled-gas dealer use, not bulk LP-gas storage or transfill."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "liquefied petroleum gas",
-          "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-          "section": "Table 2.2",
-          "reason": "This is a bottled-gas dealer use, not bulk LP-gas storage or transfill."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "liquefied petroleum gas",
-          "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-          "section": "Table 2.2",
-          "reason": "This is a bottled-gas dealer use, not bulk LP-gas storage or transfill."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "HI",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331",
-          "reason": "This refers to required landscaping, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331",
-          "reason": "This refers to required landscaping, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331",
-          "reason": "This refers to required landscaping, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
       }
     },
     {
@@ -3003,226 +2552,6 @@
     },
     {
       "jurisdiction_id": "us-13097",
-      "district_code": "OI",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331",
-          "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PRD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331",
-          "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PSP",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331",
-          "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PUD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331",
-          "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "PUD-C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331",
-          "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
       "district_code": "R-A",
       "use_class": "datacenter",
       "status": "prohibited",
@@ -4012,213 +3341,6 @@
     {
       "jurisdiction_id": "us-13097",
       "district_code": "R-A",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
-          "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-A-C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
-          "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
-        }
-      ],
-      "notes": "The text provides no R-A-C district column or cannabis use.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-HD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
-          "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-HD-C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
-          "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
-        }
-      ],
-      "notes": "The text provides no R-HD-C district column or cannabis use.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-LD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
-          "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
-          "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-A",
       "use_class": "utility_generation",
       "status": "prohibited",
       "local_uses": [
@@ -4760,118 +3882,6 @@
     {
       "jurisdiction_id": "us-13097",
       "district_code": "R-LD-C",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "liquefied petroleum gas",
-          "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-          "section": "Table 2.2",
-          "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-LD-C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-          "section": "Sec. 331",
-          "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
-          "section": "Sec. 331",
-          "reason": "This concerns landscaping, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "20. These plantings shall include a mixture of canopy trees (50% must be",
-          "section": "Sec. 331",
-          "reason": "This concerns landscaping, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "d) For drive-under canopies and pump islands, the luminaries shall be recessed into the canopy",
-          "section": "Sec. 331",
-          "reason": "This concerns gasoline-station lighting, not cannabis cultivation or processing."
-        },
-        {
-          "term": "canopy",
-          "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3",
-          "section": "Sec. 331",
-          "reason": "This concerns landscaping, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-LD-C",
       "use_class": "utility_generation",
       "status": "prohibited",
       "local_uses": [
@@ -5073,94 +4083,6 @@
     {
       "jurisdiction_id": "us-13097",
       "district_code": "R-MD",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "liquefied petroleum gas",
-          "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-          "section": "Table 2.2",
-          "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-MD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-          "section": "Sec. 331",
-          "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-MD",
       "use_class": "utility_generation",
       "status": "prohibited",
       "local_uses": [
@@ -5357,94 +4279,6 @@
         "section": "raw",
         "row_label": "table",
         "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-MD-C",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "liquefied petroleum gas",
-          "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-          "section": "Table 2.2",
-          "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-MD-C",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-          "section": "Sec. 331",
-          "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
       }
     },
     {
@@ -5654,94 +4488,6 @@
     {
       "jurisdiction_id": "us-13097",
       "district_code": "R-MF",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "liquefied petroleum gas",
-          "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-          "section": "Table 2.2",
-          "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-MF",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-          "section": "Sec. 331",
-          "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-MF",
       "use_class": "utility_generation",
       "status": "prohibited",
       "local_uses": [
@@ -5945,94 +4691,6 @@
     {
       "jurisdiction_id": "us-13097",
       "district_code": "R-MH",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "liquefied petroleum gas",
-          "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
-          "section": "Table 2.2",
-          "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-MH",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
-        "section": "Table 2.2",
-        "row_label": "",
-        "column_header": "",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-13097-20261011T011810Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
-          "section": "Sec. 331",
-          "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "R-MH",
       "use_class": "utility_generation",
       "status": "prohibited",
       "local_uses": [
@@ -6119,15 +4777,1418 @@
     "column_header:raw": 118,
     "definition_quote:raw": 22,
     "definition_section:raw": 22,
-    "quote:raw": 31,
     "row_label:raw": 48,
     "row_label:table": 70,
-    "section:raw": 149
+    "section:raw": 118
   },
   "rejected": [
     {
       "cell": {
         "jurisdiction_id": "us-13097",
+        "district_code": "AG",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
+            "section": "Sec. 1502 - Definitions.",
+            "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/AG/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 74 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "C-G",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
+            "section": "Sec. 1502 - Definitions.",
+            "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/C-G/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 74 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "C-G-C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
+            "section": "Sec. 1502 - Definitions.",
+            "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/C-G-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 74 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "C-H",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
+            "section": "Sec. 1502 - Definitions.",
+            "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/C-H/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 74 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "C-H-C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Canopy: A permanent roof-like structure projecting from a building and open on at least one side for the purpose of shielding a pedestrian walkway from the elements, or a freestanding roof-like structure supported by columns intended to shield a vehicular driveway or service area from the elements.",
+            "section": "Sec. 1502 - Definitions.",
+            "reason": "Defines a roof-like structure, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/C-H-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 74 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "HI",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "liquefied petroleum gas",
+            "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
+            "section": "Table 2.2",
+            "reason": "This is a bottled-gas dealer use, not bulk LP-gas storage or transfill."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/HI/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "liquefied petroleum gas",
+            "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
+            "section": "Table 2.2",
+            "reason": "This is a bottled-gas dealer use, not bulk LP-gas storage or transfill."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/LI/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "liquefied petroleum gas",
+            "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
+            "section": "Table 2.2",
+            "reason": "This is a bottled-gas dealer use, not bulk LP-gas storage or transfill."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/LI-R/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "HI",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331",
+            "reason": "This refers to required landscaping, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/HI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331",
+            "reason": "This refers to required landscaping, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/LI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331",
+            "reason": "This refers to required landscaping, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/LI-R/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "OI",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331",
+            "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/OI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PRD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331",
+            "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/PRD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PSP",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331",
+            "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/PSP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PUD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331",
+            "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "PUD-C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331",
+            "reason": "This is a landscaping requirement, not a cannabis cultivation or processing use."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/PUD-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-A",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
+            "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-A/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-A-C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
+            "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
+          }
+        ],
+        "notes": "The text provides no R-A-C district column or cannabis use."
+      },
+      "errors": [
+        "us-13097/R-A-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-HD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
+            "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-HD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-HD-C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
+            "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
+          }
+        ],
+        "notes": "The text provides no R-HD-C district column or cannabis use."
+      },
+      "errors": [
+        "us-13097/R-HD-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-LD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees, and 18 shrubs.",
+            "section": "Sec. 331 Gasoline stations, truck stops and heavy truck parking facilities, and convenience stores with fuel pumps",
+            "reason": "This refers to required landscape trees, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-LD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-LD-C",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "liquefied petroleum gas",
+            "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
+            "section": "Table 2.2",
+            "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-LD-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-LD-C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
+            "section": "Sec. 331",
+            "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "minimum of 3 canopy trees, 3 understory trees, 2 evergreen coniferous trees,",
+            "section": "Sec. 331",
+            "reason": "This concerns landscaping, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "20. These plantings shall include a mixture of canopy trees (50% must be",
+            "section": "Sec. 331",
+            "reason": "This concerns landscaping, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "d) For drive-under canopies and pump islands, the luminaries shall be recessed into the canopy",
+            "section": "Sec. 331",
+            "reason": "This concerns gasoline-station lighting, not cannabis cultivation or processing."
+          },
+          {
+            "term": "canopy",
+            "quote": "Every 100 feet of linear landscape strip must include a minimum of 3 canopy trees, 3",
+            "section": "Sec. 331",
+            "reason": "This concerns landscaping, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-LD-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-MD",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "liquefied petroleum gas",
+            "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
+            "section": "Table 2.2",
+            "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-MD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-MD",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
+            "section": "Sec. 331",
+            "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-MD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-MD-C",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "liquefied petroleum gas",
+            "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
+            "section": "Table 2.2",
+            "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-MD-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-MD-C",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
+            "section": "Sec. 331",
+            "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-MD-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-MF",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "liquefied petroleum gas",
+            "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
+            "section": "Table 2.2",
+            "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-MF/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-MF",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
+            "section": "Sec. 331",
+            "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-MF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-MH",
+        "use_class": "lp_gas",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "liquefied petroleum gas",
+            "quote": "Liquefied Petroleum Gas (Bottled Gas) Dealers",
+            "section": "Table 2.2",
+            "reason": "This names bottled-gas dealers and does not establish bulk LP-gas storage or cylinder transfill."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-MH/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "R-MH",
+        "use_class": "cannabis_cultivation_processing",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Table 2.2: List of Principal Uses Allowed by Zoning District",
+          "section": "Table 2.2",
+          "row_label": "",
+          "column_header": "",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-13097-20261011T011810Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "canopy",
+            "quote": "(6) No gasoline pump or edge of canopy shall be located closer than 20 feet to any",
+            "section": "Sec. 331",
+            "reason": "This concerns gasoline-station canopy setbacks, not cannabis cultivation or processing."
+          }
+        ]
+      },
+      "errors": [
+        "us-13097/R-MH/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
         "district_code": "LI-C",
         "use_class": "datacenter",
         "status": "unlisted",
@@ -6157,10 +6218,12 @@
         "notes": "LI-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-C/datacenter: absence gate: 'communication facility' occurs in the code and is not explained",
-        "us-13097/LI-C/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-13097/LI-C/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-C/datacenter: absence gate: 'communication facility' occurs 6 times in the code and 6 are not explained",
+        "us-13097/LI-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 2 are not explained",
+        "us-13097/LI-C/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-13097/LI-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6194,13 +6257,14 @@
         "notes": "LI-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-C/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-13097/LI-C/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-13097/LI-C/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-13097/LI-C/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained",
-        "us-13097/LI-C/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained",
-        "us-13097/LI-C/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-C/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-13097/LI-C/warehouse_distribution: absence gate: 'freight' occurs 39 times in the code and 39 are not explained",
+        "us-13097/LI-C/warehouse_distribution: absence gate: 'loading dock' occurs 3 times in the code and 3 are not explained",
+        "us-13097/LI-C/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 2 are not explained",
+        "us-13097/LI-C/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 6 are not explained",
+        "us-13097/LI-C/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 35 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6234,12 +6298,13 @@
         "notes": "LI-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs in the code and is not explained",
-        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs in the code and is not explained",
-        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained",
-        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 5 times in the code and 5 are not explained",
+        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 6 times in the code and 6 are not explained",
+        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 15 times in the code and 15 are not explained",
+        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 22 times in the code and 22 are not explained",
+        "us-13097/LI-C/heavy_industrial_hazmat: absence gate: 'smelting' occurs 13 times in the code and 13 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6273,8 +6338,9 @@
         "notes": "LI-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6308,8 +6374,9 @@
         "notes": "LI-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 76 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6343,10 +6410,11 @@
         "notes": "LI-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-C/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-13097/LI-C/utility_generation: absence gate: 'nameplate capacity' occurs in the code and is not explained",
-        "us-13097/LI-C/utility_generation: absence gate: 'solar farm' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-C/utility_generation: absence gate: 'megawatt' occurs 1 times in the code and 1 are not explained",
+        "us-13097/LI-C/utility_generation: absence gate: 'nameplate capacity' occurs 1 times in the code and 1 are not explained",
+        "us-13097/LI-C/utility_generation: absence gate: 'solar farm' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6380,10 +6448,11 @@
         "notes": "LI-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-C/battery_storage: absence gate: 'battery' occurs in the code and is not explained",
-        "us-13097/LI-C/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-13097/LI-C/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-C/battery_storage: absence gate: 'battery' occurs 8 times in the code and 8 are not explained",
+        "us-13097/LI-C/battery_storage: absence gate: 'battery energy storage' occurs 3 times in the code and 3 are not explained",
+        "us-13097/LI-C/battery_storage: absence gate: 'energy storage system' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6417,10 +6486,12 @@
         "notes": "LI-R-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-R-C/datacenter: absence gate: 'communication facility' occurs in the code and is not explained",
-        "us-13097/LI-R-C/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-13097/LI-R-C/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-R-C/datacenter: absence gate: 'communication facility' occurs 6 times in the code and 6 are not explained",
+        "us-13097/LI-R-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 2 are not explained",
+        "us-13097/LI-R-C/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-13097/LI-R-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6454,13 +6525,14 @@
         "notes": "LI-R-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained",
-        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained",
-        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'freight' occurs 39 times in the code and 39 are not explained",
+        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'loading dock' occurs 3 times in the code and 3 are not explained",
+        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 2 are not explained",
+        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 6 are not explained",
+        "us-13097/LI-R-C/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 35 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6494,12 +6566,13 @@
         "notes": "LI-R-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs in the code and is not explained",
-        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs in the code and is not explained",
-        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained",
-        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 5 times in the code and 5 are not explained",
+        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 6 times in the code and 6 are not explained",
+        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 15 times in the code and 15 are not explained",
+        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 22 times in the code and 22 are not explained",
+        "us-13097/LI-R-C/heavy_industrial_hazmat: absence gate: 'smelting' occurs 13 times in the code and 13 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6533,8 +6606,9 @@
         "notes": "LI-R-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-R-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-R-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6568,8 +6642,9 @@
         "notes": "LI-R-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-R-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-R-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 76 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6603,10 +6678,11 @@
         "notes": "LI-R-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-R-C/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-13097/LI-R-C/utility_generation: absence gate: 'nameplate capacity' occurs in the code and is not explained",
-        "us-13097/LI-R-C/utility_generation: absence gate: 'solar farm' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-R-C/utility_generation: absence gate: 'megawatt' occurs 1 times in the code and 1 are not explained",
+        "us-13097/LI-R-C/utility_generation: absence gate: 'nameplate capacity' occurs 1 times in the code and 1 are not explained",
+        "us-13097/LI-R-C/utility_generation: absence gate: 'solar farm' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6640,10 +6716,11 @@
         "notes": "LI-R-C is not a Table 2.2 district column."
       },
       "errors": [
-        "us-13097/LI-R-C/battery_storage: absence gate: 'battery' occurs in the code and is not explained",
-        "us-13097/LI-R-C/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-13097/LI-R-C/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-13097/LI-R-C/battery_storage: absence gate: 'battery' occurs 8 times in the code and 8 are not explained",
+        "us-13097/LI-R-C/battery_storage: absence gate: 'battery energy storage' occurs 3 times in the code and 3 are not explained",
+        "us-13097/LI-R-C/battery_storage: absence gate: 'energy storage system' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6680,10 +6757,12 @@
         "notes": "The table has no PUD district column; PUD uses are governed by its detailed development plan."
       },
       "errors": [
-        "us-13097/PUD/datacenter: absence gate: 'communication facility' occurs in the code and is not explained",
-        "us-13097/PUD/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-13097/PUD/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD/datacenter: absence gate: 'communication facility' occurs 6 times in the code and 6 are not explained",
+        "us-13097/PUD/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 2 are not explained",
+        "us-13097/PUD/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-13097/PUD/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6720,10 +6799,12 @@
         "notes": "No PUD-C district appears in the supplied code."
       },
       "errors": [
-        "us-13097/PUD-C/datacenter: absence gate: 'communication facility' occurs in the code and is not explained",
-        "us-13097/PUD-C/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
-        "us-13097/PUD-C/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD-C/datacenter: absence gate: 'communication facility' occurs 6 times in the code and 6 are not explained",
+        "us-13097/PUD-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 2 are not explained",
+        "us-13097/PUD-C/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-13097/PUD-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6760,13 +6841,14 @@
         "notes": "The table has no PUD district column; PUD uses are governed by its detailed development plan."
       },
       "errors": [
-        "us-13097/PUD/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-13097/PUD/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-13097/PUD/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-13097/PUD/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained",
-        "us-13097/PUD/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained",
-        "us-13097/PUD/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-13097/PUD/warehouse_distribution: absence gate: 'freight' occurs 39 times in the code and 39 are not explained",
+        "us-13097/PUD/warehouse_distribution: absence gate: 'loading dock' occurs 3 times in the code and 3 are not explained",
+        "us-13097/PUD/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 2 are not explained",
+        "us-13097/PUD/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 6 are not explained",
+        "us-13097/PUD/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 35 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6803,13 +6885,14 @@
         "notes": "No PUD-C district appears in the supplied code."
       },
       "errors": [
-        "us-13097/PUD-C/warehouse_distribution: absence gate: 'distribution center' occurs in the code and is not explained",
-        "us-13097/PUD-C/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
-        "us-13097/PUD-C/warehouse_distribution: absence gate: 'loading dock' occurs in the code and is not explained",
-        "us-13097/PUD-C/warehouse_distribution: absence gate: 'storage of goods' occurs in the code and is not explained",
-        "us-13097/PUD-C/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained",
-        "us-13097/PUD-C/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD-C/warehouse_distribution: absence gate: 'distribution center' occurs 1 times in the code and 1 are not explained",
+        "us-13097/PUD-C/warehouse_distribution: absence gate: 'freight' occurs 39 times in the code and 39 are not explained",
+        "us-13097/PUD-C/warehouse_distribution: absence gate: 'loading dock' occurs 3 times in the code and 3 are not explained",
+        "us-13097/PUD-C/warehouse_distribution: absence gate: 'storage of goods' occurs 2 times in the code and 2 are not explained",
+        "us-13097/PUD-C/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 6 are not explained",
+        "us-13097/PUD-C/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 35 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6846,12 +6929,13 @@
         "notes": "The table has no PUD district column; PUD uses are governed by its detailed development plan."
       },
       "errors": [
-        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs in the code and is not explained",
-        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs in the code and is not explained",
-        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained",
-        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 5 times in the code and 5 are not explained",
+        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 6 times in the code and 6 are not explained",
+        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 15 times in the code and 15 are not explained",
+        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 22 times in the code and 22 are not explained",
+        "us-13097/PUD/heavy_industrial_hazmat: absence gate: 'smelting' occurs 13 times in the code and 13 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6888,12 +6972,13 @@
         "notes": "No PUD-C district appears in the supplied code."
       },
       "errors": [
-        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs in the code and is not explained",
-        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs in the code and is not explained",
-        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained",
-        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 5 times in the code and 5 are not explained",
+        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 6 times in the code and 6 are not explained",
+        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 15 times in the code and 15 are not explained",
+        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 22 times in the code and 22 are not explained",
+        "us-13097/PUD-C/heavy_industrial_hazmat: absence gate: 'smelting' occurs 13 times in the code and 13 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6930,8 +7015,9 @@
         "notes": "The table has no PUD district column; PUD uses are governed by its detailed development plan."
       },
       "errors": [
-        "us-13097/PUD/lp_gas: absence gate: 'liquefied petroleum gas' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -6968,8 +7054,9 @@
         "notes": "No PUD-C district appears in the supplied code."
       },
       "errors": [
-        "us-13097/PUD-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -7006,10 +7093,11 @@
         "notes": "The table has no PUD district column; PUD uses are governed by its detailed development plan."
       },
       "errors": [
-        "us-13097/PUD/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-13097/PUD/utility_generation: absence gate: 'nameplate capacity' occurs in the code and is not explained",
-        "us-13097/PUD/utility_generation: absence gate: 'solar farm' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD/utility_generation: absence gate: 'megawatt' occurs 1 times in the code and 1 are not explained",
+        "us-13097/PUD/utility_generation: absence gate: 'nameplate capacity' occurs 1 times in the code and 1 are not explained",
+        "us-13097/PUD/utility_generation: absence gate: 'solar farm' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -7046,10 +7134,11 @@
         "notes": "No PUD-C district appears in the supplied code."
       },
       "errors": [
-        "us-13097/PUD-C/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
-        "us-13097/PUD-C/utility_generation: absence gate: 'nameplate capacity' occurs in the code and is not explained",
-        "us-13097/PUD-C/utility_generation: absence gate: 'solar farm' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD-C/utility_generation: absence gate: 'megawatt' occurs 1 times in the code and 1 are not explained",
+        "us-13097/PUD-C/utility_generation: absence gate: 'nameplate capacity' occurs 1 times in the code and 1 are not explained",
+        "us-13097/PUD-C/utility_generation: absence gate: 'solar farm' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -7086,10 +7175,11 @@
         "notes": "The table has no PUD district column; PUD uses are governed by its detailed development plan."
       },
       "errors": [
-        "us-13097/PUD/battery_storage: absence gate: 'battery' occurs in the code and is not explained",
-        "us-13097/PUD/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-13097/PUD/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD/battery_storage: absence gate: 'battery' occurs 8 times in the code and 8 are not explained",
+        "us-13097/PUD/battery_storage: absence gate: 'battery energy storage' occurs 3 times in the code and 3 are not explained",
+        "us-13097/PUD/battery_storage: absence gate: 'energy storage system' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     },
     {
       "cell": {
@@ -7126,14 +7216,51 @@
         "notes": "No PUD-C district appears in the supplied code."
       },
       "errors": [
-        "us-13097/PUD-C/battery_storage: absence gate: 'battery' occurs in the code and is not explained",
-        "us-13097/PUD-C/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
-        "us-13097/PUD-C/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-13097/PUD-C/battery_storage: absence gate: 'battery' occurs 8 times in the code and 8 are not explained",
+        "us-13097/PUD-C/battery_storage: absence gate: 'battery energy storage' occurs 3 times in the code and 3 are not explained",
+        "us-13097/PUD-C/battery_storage: absence gate: 'energy storage system' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-13097-20261011T110707Z"
     }
   ],
   "missing": [
     [
+      "AG",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "C-G",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "C-G-C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "C-H",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "C-H-C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "HI",
+      "lp_gas"
+    ],
+    [
+      "HI",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "LI",
+      "lp_gas"
+    ],
+    [
+      "LI",
+      "cannabis_cultivation_processing"
+    ],
+    [
       "LI-C",
       "datacenter"
     ],
@@ -7162,6 +7289,14 @@
       "battery_storage"
     ],
     [
+      "LI-R",
+      "lp_gas"
+    ],
+    [
+      "LI-R",
+      "cannabis_cultivation_processing"
+    ],
+    [
       "LI-R-C",
       "datacenter"
     ],
@@ -7190,6 +7325,18 @@
       "battery_storage"
     ],
     [
+      "OI",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PRD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PSP",
+      "cannabis_cultivation_processing"
+    ],
+    [
       "PUD",
       "datacenter"
     ],
@@ -7204,6 +7351,10 @@
     [
       "PUD",
       "lp_gas"
+    ],
+    [
+      "PUD",
+      "cannabis_cultivation_processing"
     ],
     [
       "PUD",
@@ -7231,11 +7382,79 @@
     ],
     [
       "PUD-C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "PUD-C",
       "utility_generation"
     ],
     [
       "PUD-C",
       "battery_storage"
+    ],
+    [
+      "R-A",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-A-C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-HD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-HD-C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-LD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-LD-C",
+      "lp_gas"
+    ],
+    [
+      "R-LD-C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-MD",
+      "lp_gas"
+    ],
+    [
+      "R-MD",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-MD-C",
+      "lp_gas"
+    ],
+    [
+      "R-MD-C",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-MF",
+      "lp_gas"
+    ],
+    [
+      "R-MF",
+      "cannabis_cultivation_processing"
+    ],
+    [
+      "R-MH",
+      "lp_gas"
+    ],
+    [
+      "R-MH",
+      "cannabis_cultivation_processing"
     ]
-  ]
+  ],
+  "regate": {
+    "run_id": "regate-us-13097-20261011T110707Z",
+    "at": "2026-10-11T11:07:07Z"
+  }
 }

@@ -8,48 +8,6 @@
     {
       "jurisdiction_id": "us-12069",
       "district_code": "A",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The local use is listed, but its A table cell is blank and the provided key does not state that blanks mean not permitted."
-        }
-      ],
-      "notes": "The Wholesale and Warehouse row has a blank A cell; the table key supplies no meaning for blank cells.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "A",
       "use_class": "lp_gas",
       "status": "unlisted",
       "local_uses": [],
@@ -158,48 +116,6 @@
     {
       "jurisdiction_id": "us-12069",
       "district_code": "AR",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The local use is listed, but its AR table cell is blank and the provided key does not state that blanks mean not permitted."
-        }
-      ],
-      "notes": "The Wholesale and Warehouse row has a blank AR cell; the table key supplies no meaning for blank cells.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "AR",
       "use_class": "lp_gas",
       "status": "unlisted",
       "local_uses": [],
@@ -302,45 +218,6 @@
         "section": "raw",
         "row_label": "table",
         "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "C-1",
-      "use_class": "warehouse_distribution",
-      "status": "permitted",
-      "local_uses": [
-        "Wholesale and Warehouse"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "Wholesale and Warehouse | C1 2 | P",
-        "section": "3.01.03",
-        "row_label": "Wholesale and Warehouse",
-        "column_header": "C1 2",
-        "symbol": "P"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "permitted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "matched_text": {
-        "section": "raw",
-        "row_label": "table",
-        "column_header": "table"
       }
     },
     {
@@ -1427,408 +1304,6 @@
     },
     {
       "jurisdiction_id": "us-12069",
-      "district_code": "R-1",
-      "use_class": "datacenter",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "data center",
-          "quote": "Data Centers; Data Center Campus",
-          "section": "3.01.03",
-          "reason": "The mapped schedule row has a blank R1 cell; the supplied table key does not define blank cells."
-        },
-        {
-          "term": "data storage",
-          "quote": "business applications, or data storage.",
-          "section": "3.01.04(4)(a)",
-          "reason": "Occurs in an exemption description, not as an R1 authorization."
-        }
-      ],
-      "notes": "Blank table cell; no supplied key defines its effect.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-2",
-      "use_class": "datacenter",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "data center",
-          "quote": "Data Centers; Data Center Campus",
-          "section": "3.01.03",
-          "reason": "The mapped schedule row has a blank R2 cell; the supplied table key does not define blank cells."
-        },
-        {
-          "term": "data storage",
-          "quote": "business applications, or data storage.",
-          "section": "3.01.04(4)(a)",
-          "reason": "Occurs in an exemption description, not as an R2 authorization."
-        }
-      ],
-      "notes": "Blank table cell; no supplied key defines its effect.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-3",
-      "use_class": "datacenter",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "data center",
-          "quote": "Data Centers; Data Center Campus",
-          "section": "3.01.03",
-          "reason": "The mapped schedule row has a blank R3 cell; the supplied table key does not define blank cells."
-        },
-        {
-          "term": "data storage",
-          "quote": "business applications, or data storage.",
-          "section": "3.01.04(4)(a)",
-          "reason": "Occurs in an exemption description, not as an R3 authorization."
-        }
-      ],
-      "notes": "Blank table cell; no supplied key defines its effect.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-4",
-      "use_class": "datacenter",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "data center",
-          "quote": "Data Centers; Data Center Campus",
-          "section": "3.01.03",
-          "reason": "The mapped schedule row has a blank R4 cell; the supplied table key does not define blank cells."
-        },
-        {
-          "term": "data storage",
-          "quote": "business applications, or data storage.",
-          "section": "3.01.04(4)(a)",
-          "reason": "Occurs in an exemption description, not as an R4 authorization."
-        }
-      ],
-      "notes": "Blank table cell; no supplied key defines its effect.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "PUD",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The schedule contains this local use but no PUD column."
-        }
-      ],
-      "notes": "PUD is not a schedule column.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-1",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The mapped schedule row has a blank R1 cell; the supplied table key does not define blank cells."
-        }
-      ],
-      "notes": "Blank table cell; no supplied key defines its effect.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-2",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The mapped schedule row has a blank R2 cell; the supplied table key does not define blank cells."
-        }
-      ],
-      "notes": "Blank table cell; no supplied key defines its effect.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-3",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The mapped schedule row has a blank R3 cell; the supplied table key does not define blank cells."
-        }
-      ],
-      "notes": "Blank table cell; no supplied key defines its effect.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-4",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The mapped schedule row has a blank R4 cell; the supplied table key does not define blank cells."
-        }
-      ],
-      "notes": "Blank table cell; no supplied key defines its effect.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
       "district_code": "PUD",
       "use_class": "lp_gas",
       "status": "unlisted",
@@ -2160,216 +1635,6 @@
     {
       "jurisdiction_id": "us-12069",
       "district_code": "R-6",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The corresponding R6 table cell is blank and no table key states that blanks are prohibited."
-        }
-      ],
-      "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-7",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The corresponding R7 table cell is blank and no table key states that blanks are prohibited."
-        }
-      ],
-      "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RA",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The corresponding RA table cell is blank and no table key states that blanks are prohibited."
-        }
-      ],
-      "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RM",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The corresponding RM table cell is blank and no table key states that blanks are prohibited."
-        }
-      ],
-      "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RMRP",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale and Warehouse",
-          "section": "3.01.03",
-          "reason": "The corresponding RMRP table cell is blank and no table key states that blanks are prohibited."
-        }
-      ],
-      "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-6",
       "use_class": "lp_gas",
       "status": "unlisted",
       "local_uses": [],
@@ -2692,276 +1957,6 @@
           "ref": "review-codex-us-12069-20261011T010652Z"
         }
       ],
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-6",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Battery type and storage capacity",
-          "section": "3.14.04",
-          "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
-        },
-        {
-          "term": "battery energy storage",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        },
-        {
-          "term": "energy storage system",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        }
-      ],
-      "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "R-7",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Battery type and storage capacity",
-          "section": "3.14.04",
-          "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
-        },
-        {
-          "term": "battery energy storage",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        },
-        {
-          "term": "energy storage system",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        }
-      ],
-      "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RA",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Battery type and storage capacity",
-          "section": "3.14.04",
-          "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
-        },
-        {
-          "term": "battery energy storage",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        },
-        {
-          "term": "energy storage system",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        }
-      ],
-      "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RM",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Battery type and storage capacity",
-          "section": "3.14.04",
-          "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
-        },
-        {
-          "term": "battery energy storage",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        },
-        {
-          "term": "energy storage system",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        }
-      ],
-      "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-12069",
-      "district_code": "RMRP",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
-        "section": "3.01.03"
-      },
-      "source": {
-        "id": "us-12069-ord-2026-xx-draft",
-        "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
-        "date": "2026-09-22"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "codex",
-          "ref": "review-codex-us-12069-20261011T010652Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Battery type and storage capacity",
-          "section": "3.14.04",
-          "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
-        },
-        {
-          "term": "battery energy storage",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        },
-        {
-          "term": "energy storage system",
-          "quote": "Battery energy storage systems",
-          "section": "3.14.04",
-          "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
-        }
-      ],
-      "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class.",
       "matched_text": {
         "section": "raw",
         "quote": "raw"
@@ -3192,13 +2187,1079 @@
   ],
   "matched_text_counts": {
     "column_header:raw": 9,
-    "column_header:table": 10,
-    "quote:raw": 65,
+    "column_header:table": 9,
+    "quote:raw": 44,
     "row_label:raw": 1,
-    "row_label:table": 18,
-    "section:raw": 84
+    "row_label:table": 17,
+    "section:raw": 62
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "A",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The local use is listed, but its A table cell is blank and the provided key does not state that blanks mean not permitted."
+          }
+        ],
+        "notes": "The Wholesale and Warehouse row has a blank A cell; the table key supplies no meaning for blank cells."
+      },
+      "errors": [
+        "us-12069/A/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "AR",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The local use is listed, but its AR table cell is blank and the provided key does not state that blanks mean not permitted."
+          }
+        ],
+        "notes": "The Wholesale and Warehouse row has a blank AR cell; the table key supplies no meaning for blank cells."
+      },
+      "errors": [
+        "us-12069/AR/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "C-1",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "Wholesale and Warehouse"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "Wholesale and Warehouse | C1 2 | P",
+          "section": "3.01.03",
+          "row_label": "Wholesale and Warehouse",
+          "column_header": "C1 2",
+          "symbol": "P"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-12069/C-1/warehouse_distribution: table grid: 'C1 2' column holds '' on the 'Wholesale and Warehouse' row, not 'P'"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-1",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data Centers; Data Center Campus",
+            "section": "3.01.03",
+            "reason": "The mapped schedule row has a blank R1 cell; the supplied table key does not define blank cells."
+          },
+          {
+            "term": "data storage",
+            "quote": "business applications, or data storage.",
+            "section": "3.01.04(4)(a)",
+            "reason": "Occurs in an exemption description, not as an R1 authorization."
+          }
+        ],
+        "notes": "Blank table cell; no supplied key defines its effect."
+      },
+      "errors": [
+        "us-12069/R-1/datacenter: absence gate: 'data center' occurs 112 times in the code and 108 are not explained",
+        "us-12069/R-1/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-1/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-2",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data Centers; Data Center Campus",
+            "section": "3.01.03",
+            "reason": "The mapped schedule row has a blank R2 cell; the supplied table key does not define blank cells."
+          },
+          {
+            "term": "data storage",
+            "quote": "business applications, or data storage.",
+            "section": "3.01.04(4)(a)",
+            "reason": "Occurs in an exemption description, not as an R2 authorization."
+          }
+        ],
+        "notes": "Blank table cell; no supplied key defines its effect."
+      },
+      "errors": [
+        "us-12069/R-2/datacenter: absence gate: 'data center' occurs 112 times in the code and 108 are not explained",
+        "us-12069/R-2/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-2/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-3",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data Centers; Data Center Campus",
+            "section": "3.01.03",
+            "reason": "The mapped schedule row has a blank R3 cell; the supplied table key does not define blank cells."
+          },
+          {
+            "term": "data storage",
+            "quote": "business applications, or data storage.",
+            "section": "3.01.04(4)(a)",
+            "reason": "Occurs in an exemption description, not as an R3 authorization."
+          }
+        ],
+        "notes": "Blank table cell; no supplied key defines its effect."
+      },
+      "errors": [
+        "us-12069/R-3/datacenter: absence gate: 'data center' occurs 112 times in the code and 108 are not explained",
+        "us-12069/R-3/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-3/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-4",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data Centers; Data Center Campus",
+            "section": "3.01.03",
+            "reason": "The mapped schedule row has a blank R4 cell; the supplied table key does not define blank cells."
+          },
+          {
+            "term": "data storage",
+            "quote": "business applications, or data storage.",
+            "section": "3.01.04(4)(a)",
+            "reason": "Occurs in an exemption description, not as an R4 authorization."
+          }
+        ],
+        "notes": "Blank table cell; no supplied key defines its effect."
+      },
+      "errors": [
+        "us-12069/R-4/datacenter: absence gate: 'data center' occurs 112 times in the code and 108 are not explained",
+        "us-12069/R-4/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-4/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "PUD",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The schedule contains this local use but no PUD column."
+          }
+        ],
+        "notes": "PUD is not a schedule column."
+      },
+      "errors": [
+        "us-12069/PUD/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-1",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The mapped schedule row has a blank R1 cell; the supplied table key does not define blank cells."
+          }
+        ],
+        "notes": "Blank table cell; no supplied key defines its effect."
+      },
+      "errors": [
+        "us-12069/R-1/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-2",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The mapped schedule row has a blank R2 cell; the supplied table key does not define blank cells."
+          }
+        ],
+        "notes": "Blank table cell; no supplied key defines its effect."
+      },
+      "errors": [
+        "us-12069/R-2/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-3",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The mapped schedule row has a blank R3 cell; the supplied table key does not define blank cells."
+          }
+        ],
+        "notes": "Blank table cell; no supplied key defines its effect."
+      },
+      "errors": [
+        "us-12069/R-3/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-4",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The mapped schedule row has a blank R4 cell; the supplied table key does not define blank cells."
+          }
+        ],
+        "notes": "Blank table cell; no supplied key defines its effect."
+      },
+      "errors": [
+        "us-12069/R-4/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-6",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The corresponding R6 table cell is blank and no table key states that blanks are prohibited."
+          }
+        ],
+        "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning."
+      },
+      "errors": [
+        "us-12069/R-6/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-7",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The corresponding R7 table cell is blank and no table key states that blanks are prohibited."
+          }
+        ],
+        "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning."
+      },
+      "errors": [
+        "us-12069/R-7/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RA",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The corresponding RA table cell is blank and no table key states that blanks are prohibited."
+          }
+        ],
+        "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning."
+      },
+      "errors": [
+        "us-12069/RA/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RM",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The corresponding RM table cell is blank and no table key states that blanks are prohibited."
+          }
+        ],
+        "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning."
+      },
+      "errors": [
+        "us-12069/RM/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RMRP",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "Wholesale and Warehouse",
+            "section": "3.01.03",
+            "reason": "The corresponding RMRP table cell is blank and no table key states that blanks are prohibited."
+          }
+        ],
+        "notes": "The corresponding Wholesale and Warehouse table cell is blank; no supplied table key gives blanks a prohibited meaning."
+      },
+      "errors": [
+        "us-12069/RMRP/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-6",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Battery type and storage capacity",
+            "section": "3.14.04",
+            "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          }
+        ],
+        "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class."
+      },
+      "errors": [
+        "us-12069/R-6/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/R-6/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/R-6/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "R-7",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Battery type and storage capacity",
+            "section": "3.14.04",
+            "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          }
+        ],
+        "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class."
+      },
+      "errors": [
+        "us-12069/R-7/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/R-7/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/R-7/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RA",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Battery type and storage capacity",
+            "section": "3.14.04",
+            "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          }
+        ],
+        "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class."
+      },
+      "errors": [
+        "us-12069/RA/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/RA/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/RA/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RM",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Battery type and storage capacity",
+            "section": "3.14.04",
+            "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          }
+        ],
+        "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class."
+      },
+      "errors": [
+        "us-12069/RM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/RM/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/RM/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-12069",
+        "district_code": "RMRP",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "3.01.03 Schedule of Permitted and Conditional Uses.",
+          "section": "3.01.03"
+        },
+        "source": {
+          "id": "us-12069-ord-2026-xx-draft",
+          "url": "https://c.lakecountyfl.gov/ftp/PlanningZoningStaffReports/2026/2026-10-07/Tab%202%20-%20Ordinance%202026-XX%20LDR%20Amendment_Schedule%20of%20Uses%20-%20Data%20Centers.pdf",
+          "date": "2026-09-22"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-12069-20261011T010652Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "Battery type and storage capacity",
+            "section": "3.14.04",
+            "reason": "This is required information for a Data Center application, not authorization for a stand-alone battery facility."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "Battery energy storage systems",
+            "section": "3.14.04",
+            "reason": "This item is part of a Data Center development plan, not a stand-alone battery-storage use."
+          }
+        ],
+        "notes": "Battery energy storage systems are addressed only as infrastructure principally serving a Data Center and therefore do not capture the stand-alone class."
+      },
+      "errors": [
+        "us-12069/RMRP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/RMRP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/RMRP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-12069",
@@ -3239,8 +3300,11 @@
         "notes": "The Data Centers; Data Center Campus row has a blank A cell; the table key supplies no meaning for blank cells."
       },
       "errors": [
-        "us-12069/A/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-12069/A/datacenter: absence gate: 'data center' occurs 112 times in the code and 108 are not explained",
+        "us-12069/A/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-12069/A/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3283,7 +3347,8 @@
       },
       "errors": [
         "us-12069/A/heavy_industrial_hazmat: definition quote not found in source"
-      ]
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3354,8 +3419,11 @@
         ]
       },
       "errors": [
-        "us-12069/A/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/A/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/A/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/A/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3397,8 +3465,11 @@
         "notes": "The Data Centers; Data Center Campus row has a blank AR cell; the table key supplies no meaning for blank cells."
       },
       "errors": [
-        "us-12069/AR/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-12069/AR/datacenter: absence gate: 'data center' occurs 112 times in the code and 108 are not explained",
+        "us-12069/AR/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-12069/AR/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3440,9 +3511,10 @@
         "notes": "The Industrial, Heavy row has a blank AR cell; the table key supplies no meaning for blank cells."
       },
       "errors": [
-        "us-12069/AR/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/AR/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/AR/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/AR/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3513,8 +3585,11 @@
         ]
       },
       "errors": [
-        "us-12069/AR/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/AR/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/AR/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/AR/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3556,8 +3631,11 @@
         "notes": "The Data Centers; Data Center Campus row has a blank C1 2 cell; the table key supplies no meaning for blank cells."
       },
       "errors": [
-        "us-12069/C-1/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-12069/C-1/datacenter: absence gate: 'data center' occurs 112 times in the code and 108 are not explained",
+        "us-12069/C-1/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-12069/C-1/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3599,9 +3677,10 @@
         "notes": "The Industrial, Heavy row has a blank C1 2 cell; the table key supplies no meaning for blank cells."
       },
       "errors": [
-        "us-12069/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/C-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/C-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3672,8 +3751,11 @@
         ]
       },
       "errors": [
-        "us-12069/C-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/C-1/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/C-1/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/C-1/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3715,8 +3797,11 @@
         "notes": "The Data Centers; Data Center Campus row has a blank C2 2 cell; the table key supplies no meaning for blank cells."
       },
       "errors": [
-        "us-12069/C-2/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-12069/C-2/datacenter: absence gate: 'data center' occurs 112 times in the code and 108 are not explained",
+        "us-12069/C-2/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-12069/C-2/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3758,9 +3843,10 @@
         "notes": "The Industrial, Heavy row has a blank C2 2 cell; the table key supplies no meaning for blank cells."
       },
       "errors": [
-        "us-12069/C-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/C-2/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/C-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/C-2/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3831,8 +3917,11 @@
         ]
       },
       "errors": [
-        "us-12069/C-2/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/C-2/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/C-2/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/C-2/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3876,7 +3965,8 @@
       "errors": [
         "us-12069/C-3/datacenter: definition quote not found in source",
         "us-12069/C-3/datacenter: definition section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3918,9 +4008,10 @@
         "notes": "The Industrial, Heavy row has a blank C3 2 cell; the table key supplies no meaning for blank cells."
       },
       "errors": [
-        "us-12069/C-3/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/C-3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/C-3/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/C-3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -3991,8 +4082,11 @@
         ]
       },
       "errors": [
-        "us-12069/C-3/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/C-3/battery_storage: absence gate: 'battery' occurs 7 times in the code and 6 are not explained",
+        "us-12069/C-3/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/C-3/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4035,8 +4129,10 @@
       },
       "errors": [
         "us-12069/CFD/datacenter: definition quote not found in source",
-        "us-12069/CFD/datacenter: definition section not found in source"
-      ]
+        "us-12069/CFD/datacenter: definition section not found in source",
+        "us-12069/CFD/datacenter: table grid: 'CFD6' column holds '' on the 'Data Centers; Data Center Campus' row, not 'C'"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4079,8 +4175,10 @@
       },
       "errors": [
         "us-12069/CP/datacenter: definition quote not found in source",
-        "us-12069/CP/datacenter: definition section not found in source"
-      ]
+        "us-12069/CP/datacenter: definition section not found in source",
+        "us-12069/CP/datacenter: table grid: 'CP 6, 7' column holds '' on the 'Data Centers; Data Center Campus' row, not 'C'"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4124,7 +4222,8 @@
       "errors": [
         "us-12069/HM/datacenter: definition quote not found in source",
         "us-12069/HM/datacenter: definition section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4168,7 +4267,8 @@
       "errors": [
         "us-12069/LM/datacenter: definition quote not found in source",
         "us-12069/LM/datacenter: definition section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4212,7 +4312,8 @@
       "errors": [
         "us-12069/MP/datacenter: definition quote not found in source",
         "us-12069/MP/datacenter: definition section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4254,8 +4355,9 @@
         "notes": "The CFD cell is blank; absent a stated table-key meaning for blanks, it is unlisted."
       },
       "errors": [
-        "us-12069/CFD/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-12069/CFD/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4297,9 +4399,10 @@
         "notes": "The CFD cell is blank; absent a stated table-key meaning for blanks, it is unlisted."
       },
       "errors": [
-        "us-12069/CFD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/CFD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/CFD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/CFD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4341,9 +4444,10 @@
         "notes": "The CP cell is blank; absent a stated table-key meaning for blanks, it is unlisted."
       },
       "errors": [
-        "us-12069/CP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/CP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/CP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/CP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4385,8 +4489,10 @@
         }
       },
       "errors": [
-        "us-12069/HM/heavy_industrial_hazmat: definition quote not found in source"
-      ]
+        "us-12069/HM/heavy_industrial_hazmat: definition quote not found in source",
+        "us-12069/HM/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4428,9 +4534,10 @@
         "notes": "The LM cell is blank; absent a stated table-key meaning for blanks, it is unlisted."
       },
       "errors": [
-        "us-12069/LM/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/LM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/LM/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/LM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4472,8 +4579,10 @@
         }
       },
       "errors": [
-        "us-12069/MP/heavy_industrial_hazmat: definition quote not found in source"
-      ]
+        "us-12069/MP/heavy_industrial_hazmat: definition quote not found in source",
+        "us-12069/MP/heavy_industrial_hazmat: table symbol 'P, C' does not map to status 'conditional' through the table key"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4550,8 +4659,11 @@
         ]
       },
       "errors": [
-        "us-12069/CFD/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/CFD/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/CFD/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/CFD/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4628,8 +4740,11 @@
         ]
       },
       "errors": [
-        "us-12069/CP/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/CP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/CP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/CP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4706,8 +4821,11 @@
         ]
       },
       "errors": [
-        "us-12069/HM/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/HM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/HM/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/HM/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4784,8 +4902,11 @@
         ]
       },
       "errors": [
-        "us-12069/LM/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/LM/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/LM/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/LM/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4862,8 +4983,11 @@
         ]
       },
       "errors": [
-        "us-12069/MP/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/MP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 5 are not explained",
+        "us-12069/MP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/MP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4911,8 +5035,11 @@
         "notes": "PUD is referenced in a note but is not a schedule column."
       },
       "errors": [
-        "us-12069/PUD/datacenter: absence gate: 'data center' occurs in the code and is not explained"
-      ]
+        "us-12069/PUD/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
+        "us-12069/PUD/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/PUD/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -4960,8 +5087,10 @@
         "notes": "PUD is not a schedule column."
       },
       "errors": [
-        "us-12069/PUD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/PUD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/PUD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5009,8 +5138,10 @@
         "notes": "Blank table cell; no supplied key defines its effect."
       },
       "errors": [
-        "us-12069/R-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/R-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-1/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5058,8 +5189,10 @@
         "notes": "Blank table cell; no supplied key defines its effect."
       },
       "errors": [
-        "us-12069/R-2/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/R-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-2/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5107,8 +5240,10 @@
         "notes": "Blank table cell; no supplied key defines its effect."
       },
       "errors": [
-        "us-12069/R-3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/R-3/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-3/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5156,8 +5291,10 @@
         "notes": "Blank table cell; no supplied key defines its effect."
       },
       "errors": [
-        "us-12069/R-4/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/R-4/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-4/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5199,8 +5336,9 @@
         "notes": "PUD is not a schedule column."
       },
       "errors": [
-        "us-12069/PUD/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/PUD/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5242,8 +5380,9 @@
         "notes": "The Solar Facility row has a blank R1 cell; no supplied table key defines blanks."
       },
       "errors": [
-        "us-12069/R-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/R-1/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5285,8 +5424,9 @@
         "notes": "The Solar Facility row has a blank R2 cell; no supplied table key defines blanks."
       },
       "errors": [
-        "us-12069/R-2/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/R-2/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5328,8 +5468,9 @@
         "notes": "The Solar Facility row has a blank R3 cell; no supplied table key defines blanks."
       },
       "errors": [
-        "us-12069/R-3/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/R-3/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5371,8 +5512,9 @@
         "notes": "The Solar Facility row has a blank R4 cell; no supplied table key defines blanks."
       },
       "errors": [
-        "us-12069/R-4/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/R-4/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5426,8 +5568,11 @@
         "notes": "PUD is not a schedule column."
       },
       "errors": [
-        "us-12069/PUD/battery_storage: absence gate: 'battery' occurs in the code and is not explained"
-      ]
+        "us-12069/PUD/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/PUD/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/PUD/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5480,8 +5625,11 @@
         ]
       },
       "errors": [
-        "us-12069/R-1/battery_storage: absence gate: 'battery' occurs in the code and is not explained"
-      ]
+        "us-12069/R-1/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-1/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/R-1/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5534,8 +5682,11 @@
         ]
       },
       "errors": [
-        "us-12069/R-2/battery_storage: absence gate: 'battery' occurs in the code and is not explained"
-      ]
+        "us-12069/R-2/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-2/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/R-2/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5588,8 +5739,11 @@
         ]
       },
       "errors": [
-        "us-12069/R-3/battery_storage: absence gate: 'battery' occurs in the code and is not explained"
-      ]
+        "us-12069/R-3/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-3/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/R-3/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5642,8 +5796,11 @@
         ]
       },
       "errors": [
-        "us-12069/R-4/battery_storage: absence gate: 'battery' occurs in the code and is not explained"
-      ]
+        "us-12069/R-4/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/R-4/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/R-4/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5691,8 +5848,11 @@
         "notes": "The corresponding Data Centers; Data Center Campus table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/R-6/datacenter: absence gate: 'data center' occurs in the code and is not explained"
-      ]
+        "us-12069/R-6/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
+        "us-12069/R-6/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-6/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5740,8 +5900,11 @@
         "notes": "The corresponding Data Centers; Data Center Campus table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/R-7/datacenter: absence gate: 'data center' occurs in the code and is not explained"
-      ]
+        "us-12069/R-7/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
+        "us-12069/R-7/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-7/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5789,8 +5952,11 @@
         "notes": "The corresponding Data Centers; Data Center Campus table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RA/datacenter: absence gate: 'data center' occurs in the code and is not explained"
-      ]
+        "us-12069/RA/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
+        "us-12069/RA/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/RA/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5838,8 +6004,11 @@
         "notes": "The corresponding Data Centers; Data Center Campus table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RM/datacenter: absence gate: 'data center' occurs in the code and is not explained"
-      ]
+        "us-12069/RM/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
+        "us-12069/RM/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/RM/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5887,8 +6056,11 @@
         "notes": "The corresponding Data Centers; Data Center Campus table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RMRP/datacenter: absence gate: 'data center' occurs in the code and is not explained"
-      ]
+        "us-12069/RMRP/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
+        "us-12069/RMRP/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
+        "us-12069/RMRP/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5936,8 +6108,10 @@
         "notes": "The corresponding Industrial, Heavy table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-6/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -5985,8 +6159,10 @@
         "notes": "The corresponding Industrial, Heavy table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/R-7/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6034,8 +6210,10 @@
         "notes": "The corresponding Industrial, Heavy table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RA/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/RA/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/RA/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6083,8 +6261,10 @@
         "notes": "The corresponding Industrial, Heavy table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/RM/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/RM/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6132,8 +6312,10 @@
         "notes": "The corresponding Industrial, Heavy table cell is blank; no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 1 are not explained",
+        "us-12069/RMRP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6175,8 +6357,9 @@
         "notes": "The Solar Facility row is blank in R6 and no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/R-6/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/R-6/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6218,8 +6401,9 @@
         "notes": "The Solar Facility row is blank in R7 and no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/R-7/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/R-7/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6261,8 +6445,9 @@
         "notes": "The Solar Facility row is blank in RA and no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RA/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/RA/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6304,8 +6489,9 @@
         "notes": "The Solar Facility row is blank in RM and no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RM/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/RM/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6347,8 +6533,9 @@
         "notes": "The Solar Facility row is blank in RMRP and no supplied table key gives blanks a prohibited meaning."
       },
       "errors": [
-        "us-12069/RMRP/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained"
-      ]
+        "us-12069/RMRP/utility_generation: absence gate: 'megawatt' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6385,9 +6572,11 @@
         "notes": "The Data Centers; Data Center Campus table cell for RP is blank, and the supplied text provides no table key defining blank cells."
       },
       "errors": [
-        "us-12069/RP/datacenter: absence gate: 'data center' occurs in the code and is not explained",
-        "us-12069/RP/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-12069/RP/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
+        "us-12069/RP/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RP/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6424,9 +6613,11 @@
         "notes": "The Data Centers; Data Center Campus table cell for RV is blank, and the supplied text provides no table key defining blank cells."
       },
       "errors": [
-        "us-12069/RV/datacenter: absence gate: 'data center' occurs in the code and is not explained",
-        "us-12069/RV/datacenter: absence gate: 'data storage' occurs in the code and is not explained"
-      ]
+        "us-12069/RV/datacenter: absence gate: 'data center' occurs 112 times in the code and 112 are not explained",
+        "us-12069/RV/datacenter: absence gate: 'data storage' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RV/datacenter: absence gate: 'technology facility' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6463,8 +6654,9 @@
         "notes": "The Wholesale and Warehouse table cell for RP is blank, and the supplied text provides no table key defining blank cells."
       },
       "errors": [
-        "us-12069/RP/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-12069/RP/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6501,8 +6693,9 @@
         "notes": "The Wholesale and Warehouse table cell for RV is blank, and the supplied text provides no table key defining blank cells."
       },
       "errors": [
-        "us-12069/RV/warehouse_distribution: absence gate: 'warehouse' occurs in the code and is not explained"
-      ]
+        "us-12069/RV/warehouse_distribution: absence gate: 'warehouse' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6539,9 +6732,10 @@
         "notes": "The Industrial, Heavy table cell for RP is blank, and the supplied text provides no table key defining blank cells."
       },
       "errors": [
-        "us-12069/RP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/RP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/RP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RP/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6578,9 +6772,10 @@
         "notes": "The Industrial, Heavy table cell for RV is blank, and the supplied text provides no table key defining blank cells."
       },
       "errors": [
-        "us-12069/RV/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
-        "us-12069/RV/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs in the code and is not explained"
-      ]
+        "us-12069/RV/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 2 times in the code and 2 are not explained",
+        "us-12069/RV/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6649,9 +6844,11 @@
         "notes": "The listed battery systems are accessory infrastructure principally serving a Data Center; the taxonomy excludes accessory batteries."
       },
       "errors": [
-        "us-12069/RP/battery_storage: absence gate: 'battery' occurs in the code and is not explained",
-        "us-12069/RP/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/RP/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/RP/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/RP/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     },
     {
       "cell": {
@@ -6720,15 +6917,21 @@
         "notes": "The listed battery systems are accessory infrastructure principally serving a Data Center; the taxonomy excludes accessory batteries."
       },
       "errors": [
-        "us-12069/RV/battery_storage: absence gate: 'battery' occurs in the code and is not explained",
-        "us-12069/RV/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained"
-      ]
+        "us-12069/RV/battery_storage: absence gate: 'battery' occurs 7 times in the code and 7 are not explained",
+        "us-12069/RV/battery_storage: absence gate: 'battery energy storage' occurs 5 times in the code and 2 are not explained",
+        "us-12069/RV/battery_storage: absence gate: 'energy storage system' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-12069-20261011T102755Z"
     }
   ],
   "missing": [
     [
       "A",
       "datacenter"
+    ],
+    [
+      "A",
+      "warehouse_distribution"
     ],
     [
       "A",
@@ -6741,6 +6944,10 @@
     [
       "AR",
       "datacenter"
+    ],
+    [
+      "AR",
+      "warehouse_distribution"
     ],
     [
       "AR",
@@ -6753,6 +6960,10 @@
     [
       "C-1",
       "datacenter"
+    ],
+    [
+      "C-1",
+      "warehouse_distribution"
     ],
     [
       "C-1",
@@ -6856,6 +7067,10 @@
     ],
     [
       "PUD",
+      "warehouse_distribution"
+    ],
+    [
+      "PUD",
       "heavy_industrial_hazmat"
     ],
     [
@@ -6868,6 +7083,14 @@
     ],
     [
       "R-1",
+      "datacenter"
+    ],
+    [
+      "R-1",
+      "warehouse_distribution"
+    ],
+    [
+      "R-1",
       "heavy_industrial_hazmat"
     ],
     [
@@ -6880,6 +7103,14 @@
     ],
     [
       "R-2",
+      "datacenter"
+    ],
+    [
+      "R-2",
+      "warehouse_distribution"
+    ],
+    [
+      "R-2",
       "heavy_industrial_hazmat"
     ],
     [
@@ -6892,6 +7123,14 @@
     ],
     [
       "R-3",
+      "datacenter"
+    ],
+    [
+      "R-3",
+      "warehouse_distribution"
+    ],
+    [
+      "R-3",
       "heavy_industrial_hazmat"
     ],
     [
@@ -6904,6 +7143,14 @@
     ],
     [
       "R-4",
+      "datacenter"
+    ],
+    [
+      "R-4",
+      "warehouse_distribution"
+    ],
+    [
+      "R-4",
       "heavy_industrial_hazmat"
     ],
     [
@@ -6920,6 +7167,10 @@
     ],
     [
       "R-6",
+      "warehouse_distribution"
+    ],
+    [
+      "R-6",
       "heavy_industrial_hazmat"
     ],
     [
@@ -6927,8 +7178,16 @@
       "utility_generation"
     ],
     [
+      "R-6",
+      "battery_storage"
+    ],
+    [
       "R-7",
       "datacenter"
+    ],
+    [
+      "R-7",
+      "warehouse_distribution"
     ],
     [
       "R-7",
@@ -6937,6 +7196,10 @@
     [
       "R-7",
       "utility_generation"
+    ],
+    [
+      "R-7",
+      "battery_storage"
     ],
     [
       "RA",
@@ -6944,6 +7207,10 @@
     ],
     [
       "RA",
+      "warehouse_distribution"
+    ],
+    [
+      "RA",
       "heavy_industrial_hazmat"
     ],
     [
@@ -6951,8 +7218,16 @@
       "utility_generation"
     ],
     [
+      "RA",
+      "battery_storage"
+    ],
+    [
       "RM",
       "datacenter"
+    ],
+    [
+      "RM",
+      "warehouse_distribution"
     ],
     [
       "RM",
@@ -6963,8 +7238,16 @@
       "utility_generation"
     ],
     [
+      "RM",
+      "battery_storage"
+    ],
+    [
       "RMRP",
       "datacenter"
+    ],
+    [
+      "RMRP",
+      "warehouse_distribution"
     ],
     [
       "RMRP",
@@ -6973,6 +7256,10 @@
     [
       "RMRP",
       "utility_generation"
+    ],
+    [
+      "RMRP",
+      "battery_storage"
     ],
     [
       "RP",
@@ -7006,5 +7293,9 @@
       "RV",
       "battery_storage"
     ]
-  ]
+  ],
+  "regate": {
+    "run_id": "regate-us-12069-20261011T102755Z",
+    "at": "2026-10-11T10:27:55Z"
+  }
 }

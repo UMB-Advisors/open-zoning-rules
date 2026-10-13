@@ -12,3 +12,5 @@
 {"step": "review-codex", "run_id": "review-codex-us-12069-20261011T010652Z", "at": "2026-10-11T01:18:10Z", "model": "codex:balanced", "input_tokens": 435164, "output_tokens": 33181, "cache_read_tokens": 0, "cache_write_tokens": 0, "cost_usd": null, "wall_s": 661.8475182240363, "calls": 5, "retries": 0, "cells": 84, "rejected": 70}
 {"step": "review-grok", "run_id": "review-grok-us-12069-20261011T061907Z", "at": "2026-10-11T07:31:49Z", "model": "grok-4.7-build", "input_tokens": 283074, "output_tokens": 360127, "cache_read_tokens": 10112, "cache_write_tokens": 0, "cost_usd": 0.93886844, "wall_s": 4334.821466801921, "calls": 5, "retries": 0, "cells": 102, "rejected": 52}
 {"step": "grade", "at": "2026-10-11T07:40:10Z", "published": 110, "withheld": 25}
+{"step": "regate", "run_id": "regate-us-12069-20261011T102755Z", "at": "2026-10-11T10:27:55Z", "files": {"cells.extracted.json": {"cells": 78, "rejected": 76}, "cells.review.codex.json": {"cells": 62, "rejected": 92}, "cells.review.grok.json": {"cells": 70, "rejected": 84}}}
+{"step": "grade", "run_id": "grade-us-12069-20261011T110855Z", "at": "2026-10-11T11:08:56Z", "published": 60, "withheld": 94}
