@@ -37,7 +37,7 @@ def test_refuses_disallowed_initial_urls_without_opening(tiny_root, url):
 def test_refuses_denylisted_redirect_without_cache(tiny_root):
     results = fetch.fetch_jurisdiction(tiny_root, "us-00000", lambda url: ("https://municode.com/code", b"bad"))
     assert results[0]["status"] == "refused"
-    assert not (tiny_root / "cache").exists()
+    assert not [path for path in (tiny_root / "cache").glob("*") if path.is_file()]
 
 
 def test_fetch_records_new_changed_and_unchanged(tiny_root):

@@ -38,7 +38,7 @@ def test_strip_line_numbers_ignores_non_runs_and_short_runs():
 def test_segment_state_rules_strips_only_georgia_enrolled_bills(tiny_root):
     text = b"60 Georgia text\n61 continues\n62 ends\n"
     digest = hashlib.sha256(text).hexdigest()
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     (tiny_root / "cache" / digest).write_bytes(text)
     sources = {
         "sources": [

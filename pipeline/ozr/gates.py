@@ -7,6 +7,7 @@ import json
 import re
 import unicodedata
 from calendar import monthrange
+from collections.abc import Iterable
 from datetime import date
 from functools import lru_cache
 from pathlib import Path
@@ -29,6 +30,15 @@ _REVIEW = {"agree", "disputed", "single", "human_correction"}
 _KINDS = {"table", "prose", "absence"}
 TABLE_TEXT_MARKER = "\n\n=== reconstructed table text (from PDF rulings) ===\n"
 OCR_TEXT_MARKER = "\n\n=== OCR text (tesseract; pages with no text layer; may misread) ===\n"
+SOURCE_BOUNDARY = "\n\n␞\n\n"
+
+
+class MissingSourceText(ValueError):
+    """Raised when declared non-geometry source text has not been cached."""
+
+    def __init__(self, source_ids: Iterable[str]) -> None:
+        self.source_ids = tuple(sorted(source_ids))
+        super().__init__(f"missing cached text for source ids: {', '.join(self.source_ids)}")
 
 
 @lru_cache(maxsize=65536)
@@ -316,6 +326,12 @@ def _hit_explains(entry: object, term: str, text: str, occurrence: tuple[int, in
         return False
     if _blank(quote) or _blank(record.get("section")) or _blank(record.get("reason")):
         return False
+    # An explanation cannot borrow its section label from another joined source.
+    segments = text.split(SOURCE_BOUNDARY)
+    segment_index = _term_text(text)[: occurrence[0]].count("␞")
+    segment = segments[segment_index] if segment_index < len(segments) else ""
+    if _label_match_layer(segment, record["section"]) is None:
+        return False
     normalized_quote = _term_text(quote)
     term_spans = _term_occurrences(quote, term)
     # The quote must name the term and say something besides it: a bare term would "explain" every occurrence.
@@ -336,7 +352,43 @@ def _unlisted_rule_errors(key: str, quoted: object, text: str) -> list[str]:
 def table_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> list[str]:
     """Return table quote, symbol-key, and reconstructed-grid errors."""
     evidence = _mapping(cell.get("evidence"))
-    if evidence.get("kind") != "table":
+    kind = evidence.get("kind")
+    if kind in {"prose", "absence"}:
+        quote = evidence.get("quote")
+        entries = jurisdiction.get("table_key")
+        if isinstance(quote, str) and isinstance(entries, list):
+            normalized_quote = canonical(quote).casefold()
+            quote_spans = tuple(re.finditer(re.escape(normalized_quote), canonical(text).casefold()))
+            for entry in entries:
+                key_quote = _mapping(entry).get("quote")
+                normalized_key = canonical(key_quote).casefold() if isinstance(key_quote, str) else ""
+                if (
+                    normalized_quote
+                    and normalized_key
+                    and (normalized_quote in normalized_key or normalized_key in normalized_quote)
+                ):
+                    return [
+                        f"{_cell_key(cell)}: prose evidence quotes the table key; cite the table cell as table evidence"
+                    ]
+                key_spans = tuple(re.finditer(re.escape(normalized_key), canonical(text).casefold()))
+                if (
+                    normalized_quote
+                    and normalized_key
+                    and any(
+                        quote_span.start() < key_span.end() and key_span.start() < quote_span.end()
+                        for quote_span in quote_spans
+                        for key_span in key_spans
+                    )
+                ):
+                    return [
+                        f"{_cell_key(cell)}: prose evidence quotes the table key; cite the table cell as table evidence"
+                    ]
+        if kind == "prose" and isinstance(quote, str):
+            errors = _prose_grid_errors(cell, text, taxonomy, jurisdiction)
+            errors.extend(_unlisted_prose_errors(cell, text, jurisdiction))
+            return errors
+        return []
+    if kind != "table":
         return []
     key = _cell_key(cell)
     row = evidence.get("row_label")
@@ -357,19 +409,27 @@ def table_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> l
         errors.append(
             f"{key}: table symbol '{symbol}' does not map to status '{cell.get('status')}' through the table key"
         )
+    if not _column_binds_district(cell.get("district_code"), column, jurisdiction, text):
+        errors.append(
+            f"{key}: column header '{column}' is not the column for district '{cell.get('district_code')}' "
+            "(no formatting match or quoted column alias)"
+        )
     errors.extend(_table_grid_errors(key, row, column, symbol, text))
     return errors
 
 
 def _table_symbol_maps(symbol: str, status: object, taxonomy: dict, jurisdiction: dict, text: str) -> bool:
-    for entry in jurisdiction.get("table_key", []):
-        if not isinstance(entry, dict) or not isinstance(entry.get("symbol"), str):
-            continue
-        if canonical(entry["symbol"]) != canonical(symbol) or entry.get("status") != status:
-            continue
-        quote = entry.get("quote")
-        if isinstance(quote, str) and match_layer(text, quote) is not None:
-            return True
+    entries = jurisdiction.get("table_key")
+    if isinstance(entries, list) and entries:
+        for entry in entries:
+            if not isinstance(entry, dict) or not isinstance(entry.get("symbol"), str):
+                continue
+            if canonical(entry["symbol"]) != canonical(symbol) or entry.get("status") != status:
+                continue
+            quote = entry.get("quote")
+            if isinstance(quote, str) and match_layer(text, quote) is not None:
+                return True
+        return False
     if not canonical(symbol):
         return False
     for item in taxonomy.get("statuses", []):
@@ -380,29 +440,139 @@ def _table_symbol_maps(symbol: str, status: object, taxonomy: dict, jurisdiction
     return False
 
 
+def _column_binds_district(district_code: object, column: str, jurisdiction: dict, text: str) -> bool:
+    if not isinstance(district_code, str):
+        return False
+    aliases = jurisdiction.get("column_aliases")
+    if isinstance(aliases, list) and any(
+        isinstance(alias, dict)
+        and alias.get("district_code") == district_code
+        and isinstance(alias.get("column_header"), str)
+        and canonical(alias["column_header"]).casefold() == canonical(column).casefold()
+        and isinstance(alias.get("quote"), str)
+        and match_layer(text, alias["quote"]) is not None
+        for alias in aliases
+    ):
+        return True
+    readings = {_fkey(column)}
+    footnote = re.fullmatch(r"(?P<district>.+?)\s+\d{1,2}(?:\s*,\s*\d{1,2})*", column)
+    if footnote:
+        readings.add(_fkey(footnote["district"]))
+    wanted = _fkey(district_code)
+    if wanted not in readings:
+        return False
+    districts = jurisdiction.get("districts")
+    if isinstance(districts, list) and districts:
+        codes = [district_code, *[item.get("district_code") for item in districts if isinstance(item, dict)]]
+        matches = {_fkey(code) for code in codes if isinstance(code, str) and _fkey(code) in readings}
+        return matches == {wanted}
+    return len(readings) == 1
+
+
+def _fkey(value: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", canonical(value).casefold())
+
+
 @lru_cache(maxsize=16)
-def _grid_rows(table: str) -> tuple[tuple[str, ...], ...]:
+def _grid_rows(table: str) -> tuple[tuple[tuple[str, ...], ...], ...]:
     """Parse the reconstructed table layer once into comparable cell rows."""
-    lines = [line for line in table.splitlines() if line.strip() and not line.startswith(("[page ", "[ocr engine:"))]
-    return tuple(tuple(canonical(cell).casefold() for cell in line.split(" | ")) for line in lines)
+    blocks: list[list[tuple[str, ...]]] = [[]]
+    for line in table.splitlines():
+        if line.startswith("[page "):
+            blocks.append([])
+        elif line.strip() and not line.startswith("[ocr engine:"):
+            blocks[-1].append(tuple(canonical(cell).casefold() for cell in line.split(" | ")))
+    return tuple(tuple(block) for block in blocks if block)
 
 
 def _grid_values(row_label: str, column_header: str, table: str) -> list[str]:
     rows = _grid_rows(table)
     wanted_row, wanted_column = canonical(row_label).casefold(), canonical(column_header).casefold()
     values: list[str] = []
-    for row_index, row in enumerate(rows):
-        if wanted_row not in row:
-            continue
-        for header_index in range(row_index - 1, -1, -1):
-            header = rows[header_index]
-            if wanted_column not in header or wanted_row in header:
+    for block in rows:
+        for row_index, row in enumerate(block):
+            if wanted_row not in row:
                 continue
-            if any(len(candidate) != len(row) for candidate in rows[header_index : row_index + 1]):
+            label_index = row.index(wanted_row)
+            if label_index > 0 and not any(row[:label_index]) and not any(row[label_index + 1 :]):
+                continue
+            for header_index in range(row_index - 1, -1, -1):
+                header = block[header_index]
+                if wanted_column not in header or wanted_row in header:
+                    continue
+                if any(len(candidate) != len(row) for candidate in block[header_index : row_index + 1]):
+                    break
+                values.append(row[header.index(wanted_column)])
                 break
-            values.append(row[header.index(wanted_column)])
-            break
     return values
+
+
+def _prose_grid_errors(cell: dict, text: str, taxonomy: dict, jurisdiction: dict) -> list[str]:
+    record = _class_record(taxonomy, str(cell.get("use_class", "")))
+    if record is None:
+        return []
+    district = cell.get("district_code")
+    if not isinstance(district, str):
+        return []
+    for layer in text_layers(text)[1:]:
+        for block in _grid_rows(layer):
+            for row_index, row in enumerate(block):
+                label = next(
+                    (value for value in row if any(_term_in(value, term) for term in _class_terms(record))), None
+                )
+                if label is None:
+                    continue
+                for header_index in range(row_index - 1, -1, -1):
+                    header = block[header_index]
+                    if len(header) != len(row):
+                        break
+                    binding = next(
+                        (
+                            value
+                            for value in header
+                            if value and _column_binds_district(district, value, jurisdiction, text)
+                        ),
+                        None,
+                    )
+                    if binding is not None:
+                        return [
+                            f"{_cell_key(cell)}: table grid places '{label}' under '{binding}'; "
+                            "cite the table cell as table evidence, not prose"
+                        ]
+    return []
+
+
+def _unlisted_prose_errors(cell: dict, text: str, jurisdiction: dict) -> list[str]:
+    if jurisdiction.get("unlisted_rule") != "prohibited_by_default" or cell.get("status") not in {
+        "permitted",
+        "conditional",
+        "prohibited",
+    }:
+        return []
+    quote = _mapping(cell.get("evidence")).get("quote")
+    rule = _mapping(jurisdiction.get("unlisted_rule_quote")).get("quote")
+    if not isinstance(quote, str) or not isinstance(rule, str):
+        return []
+    normalized_quote, normalized_rule, normalized_text = (
+        canonical(quote).casefold(),
+        canonical(rule).casefold(),
+        canonical(text).casefold(),
+    )
+    overlaps = any(
+        quote_span.start() < rule_span.end() and rule_span.start() < quote_span.end()
+        for quote_span in re.finditer(re.escape(normalized_quote), normalized_text)
+        for rule_span in re.finditer(re.escape(normalized_rule), normalized_text)
+    )
+    if (
+        normalized_quote
+        and normalized_rule
+        and (overlaps or normalized_quote in normalized_rule or normalized_rule in normalized_quote)
+    ):
+        return [
+            f"{_cell_key(cell)}: prose evidence quotes the unlisted-use rule; "
+            "a listed status needs the use's own text (unlisted stays unlisted)"
+        ]
+    return []
 
 
 def table_grid_layer(cell: dict, text: str) -> str | None:
@@ -424,22 +594,22 @@ def ocr_only(cell: dict, text: str) -> bool:
 
 def _table_grid_errors(key: str, row_label: str, column_header: str, symbol: str, text: str) -> list[str]:
     _, table, ocr = text_layers(text)
-    values = _grid_values(row_label, column_header, table)
-    if not values:
-        values = _grid_values(row_label, column_header, ocr)
+    values = [*_grid_values(row_label, column_header, table), *_grid_values(row_label, column_header, ocr)]
     if not values:
         return [f"{key}: table grid: cannot place '{row_label}' under '{column_header}' in the reconstructed table"]
     expected = canonical(symbol).casefold()
-    actual = {value for value in values if value}
-    if (not expected and any(values)) or (expected and actual != {expected}):
-        rendered = ", ".join(sorted(actual))
+    actual = set(values)
+    if actual != {expected}:
+        rendered = ", ".join("BLANK" if value == "" else value for value in sorted(actual))
         return [
             f"{key}: table grid: '{column_header}' column holds '{rendered}' on the '{row_label}' row, not '{symbol}'"
         ]
     return []
 
 
-def coverage_errors(district_codes: list[str], cells: list[dict], use_classes: list[str]) -> list[str]:
+def coverage_errors(
+    district_codes: list[str], cells: list[dict], use_classes: list[str], jurisdiction_id: str = ""
+) -> list[str]:
     """Return duplicate, unknown-district, and missing-cell errors for one jurisdiction."""
     errors: list[str] = []
     seen: set[tuple[str, str, str]] = set()
@@ -451,7 +621,7 @@ def coverage_errors(district_codes: list[str], cells: list[dict], use_classes: l
             seen.add(key)
         if key[1] not in district_codes:
             errors.append(f"{key[0]}/{key[1]}/{key[2]}: unknown district")
-    jurisdiction_id = str(cells[0].get("jurisdiction_id", "")) if cells else ""
+    jurisdiction_id = jurisdiction_id or (str(cells[0].get("jurisdiction_id", "")) if cells else "")
     covered = {(key[1], key[2]) for key in seen}
     for district_code in district_codes:
         for use_class in use_classes:
@@ -522,6 +692,7 @@ _ITEM_SCHEMAS = {
     "cells.json": "record.schema.json",
     "jurisdictions.json": "jurisdiction.schema.json",
     "state_rules.json": "state_rule.schema.json",
+    "amendments.json": "amendment.schema.json",
 }
 _OBJECT_SCHEMAS = {
     "manifest.json": "manifest.schema.json",
@@ -546,6 +717,8 @@ def _schema_messages(filename: str, schema_name: str, instance: object) -> list[
 def _schema_file_errors(filename: str, instance: object) -> list[str]:
     if filename in _OBJECT_SCHEMAS:
         return _schema_messages(filename, _OBJECT_SCHEMAS[filename], instance)
+    if filename == "amendments.json":
+        return _schema_messages(filename, _ITEM_SCHEMAS[filename], instance)
     if not isinstance(instance, list):
         return [f"schema: {filename}: expected an array"]
     schema_name = _ITEM_SCHEMAS[filename]
@@ -674,14 +847,139 @@ def _source_text(text_dir: Path, source_id: object, cache: dict[str, str]) -> st
     return cache[source_id]
 
 
-def jurisdiction_text(text_dir: Path, source_ids: list[str]) -> str:
-    """Return cached source texts for a jurisdiction in its declared source order."""
+def jurisdiction_text(text_dir: Path, source_ids: Iterable[str], *, exempt: Iterable[str] = ()) -> str:
+    """Return source texts in order, separated so evidence cannot span sources.
+
+    Declared source text must be cached unless its id is exempt (for example, a GIS layer).
+    """
     cache: dict[str, str] = {}
-    return "\n\n".join(
-        text
-        for source_id in source_ids
-        if isinstance(source_id, str) and (text := _source_text(text_dir, source_id, cache))
+    exempt_ids = set(exempt)
+    ids = [source_id for source_id in source_ids if isinstance(source_id, str)]
+    missing = [
+        source_id
+        for source_id in ids
+        if source_id not in exempt_ids and _source_text(text_dir, source_id, cache) is None
+    ]
+    if missing:
+        raise MissingSourceText(missing)
+    return SOURCE_BOUNDARY.join(
+        text for source_id in ids if (text := _source_text(text_dir, source_id, cache)) is not None
     )
+
+
+def superseded_errors(cell: dict, amendments: list[dict], sources: dict, jurisdiction: dict, text: str) -> list[str]:
+    """Return adopted-amendment errors for cells citing a superseded source."""
+    key = _cell_key(cell)
+    source_id = _mapping(cell.get("source")).get("id")
+    source = sources.get(source_id, {}) if isinstance(sources, dict) else {}
+    cited_date = _iso_date(source.get("source_date")) or _iso_date(jurisdiction.get("code_version"))
+    errors: list[str] = []
+    for amendment in amendments:
+        if not isinstance(amendment, dict) or amendment.get("jurisdiction_id") != cell.get("jurisdiction_id"):
+            continue
+        amendment_id = amendment.get("id", "?")
+        problem = _amendment_interpretation_error(amendment, jurisdiction)
+        if problem:
+            errors.append(f"superseded: {key}: amendment {amendment_id} cannot be interpreted: {problem}")
+            continue
+        if amendment.get("kind") != "adopted_text_amendment" or amendment.get("status") != "adopted":
+            continue
+        classes, districts = amendment.get("use_classes", []), amendment.get("districts", [])
+        if ("*" not in classes and cell.get("use_class") not in classes) or (
+            "*" not in districts and cell.get("district_code") not in districts
+        ):
+            continue
+        dates = _mapping(amendment.get("dates"))
+        effective = _iso_date(dates.get("effective")) or _iso_date(dates.get("adopted"))
+        amendment_source = _mapping(amendment.get("source")).get("id")
+        incorporated = amendment.get("incorporated_in", [])
+        evidence_quote = _mapping(cell.get("evidence")).get("quote")
+        evidence_text = canonical(evidence_quote).casefold() if isinstance(evidence_quote, str) else ""
+        amendment_quote = amendment.get("quote")
+        reference = amendment.get("reference")
+        cites_amendment = source_id == amendment_source and any(
+            isinstance(value, str) and canonical(value).casefold() in evidence_text
+            for value in (amendment_quote, reference)
+        )
+        included = isinstance(incorporated, list) and any(
+            _incorporation_exempts(item, source_id, text, evidence_text, str(cell.get("use_class", "")))
+            for item in incorporated
+        )
+        if cites_amendment or included:
+            continue
+        if effective is None or cited_date is None or effective > cited_date:
+            reference = amendment.get("reference")
+            name = f"{amendment.get('id')} ({reference})" if reference else amendment.get("id")
+            effective_text = effective.isoformat() if effective else "undated"
+            cited_text = cited_date.isoformat() if cited_date else "undated"
+            errors.append(
+                f"superseded: {key}: adopted amendment {name} (effective {effective_text}) postdates cited source "
+                f"{source_id} ({cited_text}) and touches {cell.get('use_class')} in {cell.get('district_code')}; "
+                "the cell's evidence does not cite it"
+            )
+    return errors
+
+
+def _amendment_interpretation_error(amendment: dict, jurisdiction: dict) -> str | None:
+    if amendment.get("kind") not in {
+        "moratorium",
+        "pending_text_amendment",
+        "adopted_text_amendment",
+        "use_determination",
+    }:
+        return "kind is not recognized"
+    if amendment.get("status") not in {
+        "introduced",
+        "pending",
+        "active",
+        "adopted",
+        "expired",
+        "withdrawn",
+        "repealed",
+    }:
+        return "status is not recognized"
+    for field in ("use_classes", "districts"):
+        values = amendment.get(field)
+        if not isinstance(values, list) or not all(isinstance(value, str) for value in values):
+            return f"{field} is not a list of strings"
+    known = {item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)}
+    if known and any(district != "*" and district not in known for district in amendment["districts"]):
+        return "district is not in the jurisdiction"
+    return None
+
+
+def _incorporation_exempts(item: object, source_id: object, text: str, evidence_quote: str, use_class: str) -> bool:
+    record = _mapping(item)
+    quote, section, reason = record.get("quote"), record.get("section"), record.get("reason")
+    if record.get("source_id") != source_id or any(_blank(value) for value in (quote, section, reason)):
+        return False
+    if match_layer(text, quote) is None or _label_match_layer(text, section) is None:
+        return False
+    normalized_quote = _term_text(quote)
+    terms = _class_terms(_class_record(_release_taxonomy(), use_class) or {})
+    remainder = normalized_quote
+    for term in terms:
+        pattern = _term_pattern(term)
+        if pattern is not None:
+            remainder = pattern.sub("", remainder)
+    if not re.search(r"[^\W_]", remainder):
+        return False
+    return canonical(quote).casefold() in evidence_quote
+
+
+@lru_cache(maxsize=1)
+def _release_taxonomy() -> dict:
+    document = _read_json(_ROOT / "taxonomy" / "v1.json")
+    return document if isinstance(document, dict) else {}
+
+
+def _iso_date(value: object) -> date | None:
+    if not isinstance(value, str):
+        return None
+    try:
+        return date.fromisoformat(value)
+    except ValueError:
+        return None
 
 
 def _grade_errors(cell: dict) -> list[str]:
@@ -737,6 +1035,7 @@ def _one_cell_errors(
     sources: dict[object, dict],
     cache: dict[str, str],
     absence_text: str,
+    amendments: list[dict] | None = None,
 ) -> list[str]:
     key = _cell_key(cell)
     source_id = _mapping(cell.get("source")).get("id")
@@ -751,10 +1050,13 @@ def _one_cell_errors(
     errors.extend(cell_errors(cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text))
     if ocr_only(cell, text) and cell.get("confidence") != "C":
         errors.append(f"grade: {key}: evidence matched only in OCR text, confidence must be C")
+    if cell.get("status") == "unlisted" and OCR_TEXT_MARKER in absence_text and cell.get("confidence") != "C":
+        errors.append(f"grade: {key}: absence evidence over a code with an OCR layer, confidence must be C")
     errors.extend(_grade_errors(cell))
     if published is not None and months is not None:
         errors.extend(_staleness_errors(cell, published, months))
     errors.extend(_preemption_errors(cell, jurisdiction, rules))
+    errors.extend(superseded_errors(cell, amendments or [], sources, jurisdiction, text))
     return errors
 
 
@@ -773,7 +1075,7 @@ def _coverage_messages(
             if isinstance(district.get("district_code"), str)
         ]
         owned = [cell for cell in cells if cell.get("jurisdiction_id") == jurisdiction.get("jurisdiction_id")]
-        for error in coverage_errors(codes, owned, class_ids):
+        for error in coverage_errors(codes, owned, class_ids, str(jurisdiction.get("jurisdiction_id", ""))):
             if not error.endswith(": missing cell"):
                 errors.append(f"coverage: {error}")
                 continue
@@ -820,6 +1122,60 @@ def _state_rule_quote_errors(rules: list[dict], sources: list[dict], text_dir: P
     return errors
 
 
+def _amendment_quote_errors(amendments: list[dict], sources: dict[object, dict], text_dir: Path) -> list[str]:
+    cache: dict[str, str] = {}
+    errors: list[str] = []
+    for amendment in amendments:
+        amendment_id = amendment.get("id", "?")
+        amendment_source = _mapping(amendment.get("source"))
+        source_id = amendment_source.get("id")
+        registered = sources.get(source_id)
+        if not isinstance(registered, dict) or amendment_source.get("url") != registered.get("url"):
+            errors.append(f"amendment: {amendment_id}: source {source_id} is not in sources.json with this url")
+        references = [amendment_source]
+        incorporated = amendment.get("incorporated_in", [])
+        if isinstance(incorporated, list):
+            references.extend(item for item in incorporated if isinstance(item, dict))
+        for reference in references:
+            source_id = reference.get("id", reference.get("source_id"))
+            quote = amendment.get("quote") if reference is references[0] else reference.get("quote")
+            if reference is not references[0] and source_id not in sources:
+                errors.append(f"amendment: {amendment_id}: incorporated_in source {source_id} is not in sources.json")
+            text = _source_text(text_dir, source_id, cache)
+            if text is None or not isinstance(quote, str) or match_layer(text, quote) is None:
+                errors.append(f"amendment: {amendment_id}: quote not found in source {source_id}")
+            section = reference.get("section") if reference is not references[0] else None
+            if section is not None and (
+                text is None or not isinstance(section, str) or _label_match_layer(text, section) is None
+            ):
+                errors.append(f"amendment: {amendment_id}: section not found in source {source_id}")
+    return errors
+
+
+def _amendment_semantic_errors(
+    amendments: list[dict], jurisdictions: dict[object, dict], class_ids: set[str]
+) -> list[str]:
+    errors: list[str] = []
+    for amendment in amendments:
+        amendment_id = amendment.get("id", "?")
+        jurisdiction = jurisdictions.get(amendment.get("jurisdiction_id"))
+        if jurisdiction is None:
+            errors.append(f"amendment: {amendment_id}: jurisdiction_id is not a released jurisdiction")
+            continue
+        classes = amendment.get("use_classes")
+        if isinstance(classes, list):
+            for value in classes:
+                if value not in class_ids and value != "*":
+                    errors.append(f"amendment: {amendment_id}: use_class {value!r} is not in taxonomy")
+        districts = amendment.get("districts")
+        known = {item.get("district_code") for item in jurisdiction.get("districts", []) if isinstance(item, dict)}
+        if isinstance(districts, list):
+            for value in districts:
+                if value != "*" and value not in known:
+                    errors.append(f"amendment: {amendment_id}: district {value!r} is not in jurisdiction codes")
+    return errors
+
+
 def release_errors(
     release_dir: Path,
     text_dir: Path,
@@ -835,10 +1191,12 @@ def release_errors(
     jurisdictions_doc = _read_json(release_dir / "jurisdictions.json")
     sources_doc = _read_json(release_dir / "sources.json")
     state_rules_doc = _read_json(release_dir / "state_rules.json")
+    amendments_doc = _read_json(release_dir / "amendments.json") if (release_dir / "amendments.json").is_file() else []
     withheld_doc = _read_json(release_dir / "withheld.json") if (release_dir / "withheld.json").is_file() else []
     cells = _apply_cell_overrides(_dicts(cells_doc), cell_overrides)
     jurisdictions = _dicts(jurisdictions_doc)
     rules = _dicts(state_rules_doc)
+    amendments = _dicts(amendments_doc)
     withheld = _dicts(withheld_doc)
     root = _ROOT if root is None else root
     sources = _source_list(sources_doc)
@@ -854,10 +1212,12 @@ def release_errors(
         *_schema_file_errors("jurisdictions.json", jurisdictions_doc),
         *_schema_file_errors("sources.json", sources_doc),
         *_schema_file_errors("state_rules.json", state_rules_doc),
+        *_schema_file_errors("amendments.json", amendments_doc),
         *_contract_messages(manifest, cells),
         *_hash_errors(release_dir, manifest, cell_overrides is not None),
         *_denylist_errors(manifest, denylist),
     ]
+    errors.extend(_amendment_semantic_errors(amendments, by_jurisdiction, set(class_ids)))
     manifest_files = manifest.get("files", []) if isinstance(manifest, dict) else []
     if (release_dir / "withheld.json").is_file() and not any(
         isinstance(entry, dict) and entry.get("path") == "withheld.json" for entry in manifest_files
@@ -871,12 +1231,16 @@ def release_errors(
     published = _published(manifest)
     months = _stale_after(manifest)
     cache: dict[str, str] = {}
-    jurisdiction_texts = {
-        str(jurisdiction.get("jurisdiction_id", "")): jurisdiction_text(
-            text_dir, [source for source in jurisdiction.get("sources", []) if isinstance(source, str)]
-        )
-        for jurisdiction in jurisdictions
-    }
+    jurisdiction_texts: dict[str, str] = {}
+    for jurisdiction in jurisdictions:
+        jid = str(jurisdiction.get("jurisdiction_id", ""))
+        source_ids = [source for source in jurisdiction.get("sources", []) if isinstance(source, str)]
+        exempt = {source_id for source_id in source_ids if by_source.get(source_id, {}).get("kind") == "gis_layer"}
+        try:
+            jurisdiction_texts[jid] = jurisdiction_text(text_dir, source_ids, exempt=exempt)
+        except MissingSourceText as error:
+            errors.append(f"text: {jid}: {error}")
+            jurisdiction_texts[jid] = jurisdiction_text(text_dir, source_ids, exempt=exempt | set(error.source_ids))
     for cell in cells:
         jurisdiction = by_jurisdiction.get(cell.get("jurisdiction_id"), {})
         errors.extend(
@@ -892,8 +1256,10 @@ def release_errors(
                 by_source,
                 cache,
                 jurisdiction_texts.get(str(jurisdiction.get("jurisdiction_id", "")), ""),
+                amendments,
             )
         )
     errors.extend(_coverage_messages(jurisdictions, cells, class_ids, withheld, root))
     errors.extend(_state_rule_quote_errors(rules, sources, text_dir))
+    errors.extend(_amendment_quote_errors(amendments, by_source, text_dir))
     return errors

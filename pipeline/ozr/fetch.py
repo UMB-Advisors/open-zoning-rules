@@ -63,7 +63,22 @@ def policy_errors(
 ) -> list[str]:
     """Return primary-host and contamination-policy errors for a source URL."""
     errors = [] if host_allowed(url, policy, org_id) else [f"not a primary host: {url}"]
-    return errors + check_url(url, denylist, chain)
+    initial_errors = check_url(url, denylist)
+    if errors or initial_errors or chain is None:
+        return errors + initial_errors
+    targets = chain(url)
+    for target in targets[1:]:
+        if not host_allowed(target, policy, org_id):
+            errors.append(f"redirect target: not a primary host: {target}")
+    return errors + check_url(url, denylist, lambda _: targets)
+
+
+def _redirect_chain(policy: object, org_id: object, denylist: frozenset[str]) -> Callable[[str], list[str]]:
+    """Return a redirect walker that refuses targets outside source policy."""
+    return partial(
+        follow_redirects,
+        refuse=lambda target: not host_allowed(target, policy, org_id) or bool(check_url(target, denylist)),
+    )
 
 
 def _cache_bytes(root: Path, data: bytes) -> str:
@@ -175,7 +190,7 @@ def fetch_jurisdiction(
                 policy,
                 source.get("arcgis_org_id"),
                 denylist,
-                follow_redirects if online else None,
+                _redirect_chain(policy, source.get("arcgis_org_id"), denylist) if online else None,
             )
             if isinstance(url, str)
             else ["missing URL"]
@@ -237,7 +252,11 @@ def fetch_geometry(
             results.append({"source_id": source_id, "status": "refused", "errors": ["no district geometry field"]})
             continue
         initial_errors = policy_errors(
-            layer, policy, source.get("arcgis_org_id"), denylist, follow_redirects if online else None
+            layer,
+            policy,
+            source.get("arcgis_org_id"),
+            denylist,
+            _redirect_chain(policy, source.get("arcgis_org_id"), denylist) if online else None,
         )
         if initial_errors:
             results.append({"source_id": source_id, "status": "refused", "errors": initial_errors})
@@ -253,7 +272,11 @@ def fetch_geometry(
                     f"&resultOffset={offset}&resultRecordCount=1000"
                 )
                 request_errors = policy_errors(
-                    query, policy, source.get("arcgis_org_id"), denylist, follow_redirects if online else None
+                    query,
+                    policy,
+                    source.get("arcgis_org_id"),
+                    denylist,
+                    _redirect_chain(policy, source.get("arcgis_org_id"), denylist) if online else None,
                 )
                 if request_errors:
                     raise ValueError("; ".join(request_errors))

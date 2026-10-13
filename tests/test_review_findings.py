@@ -53,7 +53,7 @@ def test_geometry_paging_follows_short_pages_and_stops_on_an_empty_page(tiny_roo
 
 def test_a_moratorium_on_all_classes_marks_cells_stale(tiny_root: Path) -> None:
     base = tiny_root / "jurisdictions" / "us-00000"
-    (tiny_root / "cache" / "text").mkdir(parents=True)
+    (tiny_root / "cache" / "text").mkdir(parents=True, exist_ok=True)
     shutil.copy(FIXTURE / "texts" / "us-00000-zo.txt", tiny_root / "cache" / "text" / "us-00000-zo.txt")
     cells = json.loads((FIXTURE / "release" / "cells.json").read_text())
     cell = next(

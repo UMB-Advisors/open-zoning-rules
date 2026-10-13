@@ -29,6 +29,29 @@
         "section": "Sec. 4-2"
       }
     ],
+    "column_aliases": [
+      {
+        "district_code": "I-1",
+        "column_header": "I-1 Light Industrial",
+        "quote": "Columns: I-1 Light Industrial, I-2 Heavy Industrial, PD-1 Planned Development.",
+        "section": "Sec. 4-2",
+        "reason": "header includes the district name"
+      },
+      {
+        "district_code": "I-2",
+        "column_header": "I-2 Heavy Industrial",
+        "quote": "Columns: I-1 Light Industrial, I-2 Heavy Industrial, PD-1 Planned Development.",
+        "section": "Sec. 4-2",
+        "reason": "header includes the district name"
+      },
+      {
+        "district_code": "PD-1",
+        "column_header": "PD-1 Planned Development",
+        "quote": "Columns: I-1 Light Industrial, I-2 Heavy Industrial, PD-1 Planned Development.",
+        "section": "Sec. 4-2",
+        "reason": "header includes the district name"
+      }
+    ],
     "code_version": "2026-06-30",
     "conditional_zoning_unmapped": false,
     "sources": [

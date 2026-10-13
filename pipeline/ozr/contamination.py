@@ -32,6 +32,8 @@ def load_denylist(path: Path | None = None) -> frozenset[str]:
 def normalize_host(host: str) -> str | None:
     """Return an IDNA-normalized hostname, or None when it cannot be normalized."""
     host = host.strip().lower()
+    if "%" in host:
+        return None
     if host.startswith("["):
         host = host.split("]", 1)[0][1:]
     elif ":" in host:
@@ -52,6 +54,8 @@ def host_banned(host: str, denylist: frozenset[str]) -> bool:
 
 def _url_errors(url: str, denylist: frozenset[str]) -> list[str]:
     parsed = urllib.parse.urlsplit(url)
+    if "%" in parsed.netloc:
+        return [f"percent-encoded host: {url}"]
     try:
         host = parsed.hostname
     except ValueError:
@@ -92,7 +96,7 @@ def _response(url: str, method: str):
         return error
 
 
-def follow_redirects(url: str) -> list[str]:
+def follow_redirects(url: str, refuse: Callable[[str], bool] | None = None) -> list[str]:
     """Return a manually followed HTTP redirect chain, up to ten hops."""
     chain = [url]
     current = url
@@ -110,6 +114,8 @@ def follow_redirects(url: str) -> list[str]:
             return chain
         current = urllib.parse.urljoin(current, location)
         chain.append(current)
+        if (refuse or (lambda target: bool(_url_errors(target, load_denylist()))))(current):
+            return chain
     raise RuntimeError(f"too many redirects: {url}")
 
 

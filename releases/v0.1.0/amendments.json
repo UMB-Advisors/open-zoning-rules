@@ -22,6 +22,39 @@
       "id": "us-51061-ta-2025-04-10",
       "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/45087/638850674971170000"
     },
+    "incorporated_in": [
+      {
+        "source_id": "us-51061-zo-art3",
+        "quote": "Battery Energy Storage System, Tier 2",
+        "section": "3-320",
+        "reason": "Article 3 Sec. 3-320 row 1.a lists Battery Energy Storage System, Tier 2 with SE in RA, BP, I-1 and I-2, the use and districts this amendment adds, so the cited Article 3 text already carries the amendment."
+      }
+    ],
     "notes": "Already applied in the cached ordinance text: Article 3 Sec. 3-320 row 1.a 'Battery Energy Storage System, Tier 2' shows SE in RA, BP, I-1 and I-2, and Article 5 Sec. 5-2004 and the Article 15 definition carry the standards. The districts are read from that row. The other bundled amendments in 2024-11 to 2026-07 touch none of the seven use classes; the 2026-07-09 Sec. 4-605 item adds accessory storage in the PCID, which is not warehouse_distribution."
+  },
+  {
+    "id": "us-51107-zoam-2024-0001",
+    "reference": "ZOAM-2024-0001",
+    "jurisdiction_id": "us-51107",
+    "kind": "adopted_text_amendment",
+    "status": "adopted",
+    "dates": {
+      "adopted": "2025-03-18"
+    },
+    "use_classes": [
+      "datacenter"
+    ],
+    "districts": [
+      "IP",
+      "GI",
+      "MRHI"
+    ],
+    "quote": "requiring Special Exception (SPEX) approval for data center uses in the Industrial Park (IP), General Industry (GI), and Mineral Resources-Heavy Industry (MR-HI) zoning districts",
+    "section": "ZOAM-2024-0001",
+    "source": {
+      "id": "us-51107-dc-phase1",
+      "url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta"
+    },
+    "notes": "The county's own ordinance PDFs (us-51107-zo-ch3 and -ch12, dated 2023-11-21) predate this amendment. The county page says applications accepted before 2025-02-12 are grandfathered; this record does not model that."
   }
 ]

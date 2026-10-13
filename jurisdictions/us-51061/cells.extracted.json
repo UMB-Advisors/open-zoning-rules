@@ -7,48 +7,6 @@
   "cells": [
     {
       "jurisdiction_id": "us-51061",
-      "district_code": "C-1",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehousing including Self-Storage Facilities",
-        "Distribution Center"
-      ],
-      "evidence": {
-        "kind": "table",
-        "quote": "5. a. Warehousing including Self-Storage Facilities | C-1 | ",
-        "section": "3-315",
-        "row_label": "5. a. Warehousing including Self-Storage Facilities",
-        "column_header": "C-1",
-        "symbol": ""
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column. Distribution center rows are also blank.",
-      "matched_text": {
-        "section": "raw",
-        "row_label": "ocr",
-        "column_header": "raw",
-        "symbol": "ocr"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
       "district_code": "BP",
       "use_class": "utility_generation",
       "status": "prohibited",
@@ -595,186 +553,6 @@
         }
       ],
       "notes": "Same as M-G. Unlisted_rule is prohibited_by_default; only part of the Marshall table is visible, so flag for review.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "M-G",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
-        "section": "4-1002"
-      },
-      "source": {
-        "id": "us-51061-zo-art4",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "x. Mini-storage warehouses.",
-          "section": "4-1002",
-          "reason": "Mini-storage (self-storage) is excluded from the class."
-        },
-        {
-          "term": "warehouse",
-          "quote": "AGRICULTURAL SUPPLIER: A business entity that warehouses, merchandises,",
-          "section": "4-1004",
-          "reason": "Definition of an agricultural supply business (retail/service), not a storage and distribution use."
-        },
-        {
-          "term": "distribution center",
-          "quote": "1. Electrical substation distribution centers and transformer stations",
-          "section": "3-320",
-          "reason": "Electrical utility facility, not goods distribution."
-        },
-        {
-          "term": "distribution center",
-          "quote": "DISTRIBUTION CENTER: Facility used for receipt, temporary storage,",
-          "section": "15-200",
-          "reason": "Article 15 definition for a use listed only in the Article 3 conventional district table (BP, I-1, I-2); the Marshall table does not list it."
-        },
-        {
-          "term": "freight",
-          "quote": "MOTOR FREIGHT TERMINAL: A building or area in which semi-",
-          "section": "15-200",
-          "reason": "Definition for a use listed only in conventional districts; not in the Marshall table."
-        },
-        {
-          "term": "freight",
-          "quote": "(g) Motor freight terminals",
-          "section": "4-605",
-          "reason": "PCID special exception use; separate district."
-        },
-        {
-          "term": "freight",
-          "quote": "5-2103 Additional Standards for Motor Freight Terminals in the I-1 Zoning",
-          "section": "5-2103",
-          "reason": "Standards limited to the I-1 district."
-        },
-        {
-          "term": "freight",
-          "quote": "1. Motor Freight Terminals shall be permitted in the I-1 Zoning District",
-          "section": "5-2103",
-          "reason": "Applies only to I-1."
-        },
-        {
-          "term": "freight",
-          "quote": "2. A Special Exception is required for all Motor Freight Terminals that",
-          "section": "5-2103",
-          "reason": "Standards for conventional districts, not Marshall."
-        }
-      ],
-      "notes": "The Marshall 'Storage Area' row (P in Gateway/Residential, standards 4-1002.G.3(h)) was treated as accessory or mini-storage and not mapped; confirm against 4-1002.G.3(h). Unlisted_rule is prohibited_by_default; only part of the table is visible, so flag for review.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "M-R",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
-        "section": "4-1002"
-      },
-      "source": {
-        "id": "us-51061-zo-art4",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "x. Mini-storage warehouses.",
-          "section": "4-1002",
-          "reason": "Mini-storage (self-storage) is excluded from the class."
-        },
-        {
-          "term": "warehouse",
-          "quote": "AGRICULTURAL SUPPLIER: A business entity that warehouses, merchandises,",
-          "section": "4-1004",
-          "reason": "Definition of an agricultural supply business (retail/service), not a storage and distribution use."
-        },
-        {
-          "term": "distribution center",
-          "quote": "1. Electrical substation distribution centers and transformer stations",
-          "section": "3-320",
-          "reason": "Electrical utility facility, not goods distribution."
-        },
-        {
-          "term": "distribution center",
-          "quote": "DISTRIBUTION CENTER: Facility used for receipt, temporary storage,",
-          "section": "15-200",
-          "reason": "Article 15 definition for a use listed only in the Article 3 conventional district table (BP, I-1, I-2); the Marshall table does not list it."
-        },
-        {
-          "term": "freight",
-          "quote": "MOTOR FREIGHT TERMINAL: A building or area in which semi-",
-          "section": "15-200",
-          "reason": "Definition for a use listed only in conventional districts; not in the Marshall table."
-        },
-        {
-          "term": "freight",
-          "quote": "(g) Motor freight terminals",
-          "section": "4-605",
-          "reason": "PCID special exception use; separate district."
-        },
-        {
-          "term": "freight",
-          "quote": "5-2103 Additional Standards for Motor Freight Terminals in the I-1 Zoning",
-          "section": "5-2103",
-          "reason": "Standards limited to the I-1 district."
-        },
-        {
-          "term": "freight",
-          "quote": "1. Motor Freight Terminals shall be permitted in the I-1 Zoning District",
-          "section": "5-2103",
-          "reason": "Applies only to I-1."
-        },
-        {
-          "term": "freight",
-          "quote": "2. A Special Exception is required for all Motor Freight Terminals that",
-          "section": "5-2103",
-          "reason": "Standards for conventional districts, not Marshall."
-        }
-      ],
-      "notes": "Same as M-G; the 'Storage Area' row is treated as accessory or mini-storage. Unlisted_rule is prohibited_by_default; flag for review.",
       "matched_text": {
         "section": "raw",
         "quote": "raw"
@@ -1687,678 +1465,940 @@
         "column_header": "raw",
         "symbol": "table"
       }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "RR-2",
-      "use_class": "datacenter",
-      "status": "prohibited",
-      "local_uses": [
-        "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Data Center row under 3-316 is blank in RR-2 (permitted only in BP).",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "TH",
-      "use_class": "datacenter",
-      "status": "prohibited",
-      "local_uses": [
-        "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Data Center row under 3-316 is blank in TH.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "V",
-      "use_class": "datacenter",
-      "status": "prohibited",
-      "local_uses": [
-        "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Data Center row under 3-316 is blank in V.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "RR-2",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "b. Distribution Center on 10 acres or less",
-        "c. Distribution Center on more than 10 acres",
-        "3. Motor freight terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Distribution center and motor freight terminal rows are blank in RR-2.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "TH",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "b. Distribution Center on 10 acres or less",
-        "c. Distribution Center on more than 10 acres",
-        "3. Motor freight terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Distribution center and motor freight terminal rows are blank in TH.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "V",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "b. Distribution Center on 10 acres or less",
-        "c. Distribution Center on more than 10 acres",
-        "3. Motor freight terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Distribution center and motor freight terminal rows are blank in V.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "RR-2",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
-        "1. General Industrial Use substantially screened from view, less than one acre",
-        "11. Petroleum products bulk storage"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "All mapped 3-315/3-317 rows are blank in RR-2.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "TH",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
-        "1. General Industrial Use substantially screened from view, less than one acre",
-        "11. Petroleum products bulk storage"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "All mapped 3-315/3-317 rows are blank in TH.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "V",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
-        "1. General Industrial Use substantially screened from view, less than one acre",
-        "11. Petroleum products bulk storage"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "All mapped 3-315/3-317 rows are blank in V. The V column shows SE only for abattoir wild game processing, which is not mapped to this class.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "RR-2",
-      "use_class": "lp_gas",
-      "status": "prohibited",
-      "local_uses": [
-        "11. Petroleum products bulk storage"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Mapped via bulk fuel storage; row is blank in RR-2.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "TH",
-      "use_class": "lp_gas",
-      "status": "prohibited",
-      "local_uses": [
-        "11. Petroleum products bulk storage"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Mapped via bulk fuel storage; row is blank in TH.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "V",
-      "use_class": "lp_gas",
-      "status": "prohibited",
-      "local_uses": [
-        "11. Petroleum products bulk storage"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Mapped via bulk fuel storage; row is blank in V.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "RR-2",
-      "use_class": "utility_generation",
-      "status": "prohibited",
-      "local_uses": [
-        "5. Electrical generating plants and facilities"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Row is blank in RR-2 (SE only in RA and I-2).",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "TH",
-      "use_class": "utility_generation",
-      "status": "prohibited",
-      "local_uses": [
-        "5. Electrical generating plants and facilities"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Row is blank in TH.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "V",
-      "use_class": "utility_generation",
-      "status": "prohibited",
-      "local_uses": [
-        "5. Electrical generating plants and facilities"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Row is blank in V.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "RR-2",
-      "use_class": "battery_storage",
-      "status": "prohibited",
-      "local_uses": [
-        "1.a. Battery Energy Storage System, Tier 2"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Row is blank in RR-2 (SE only in RA, BP, I-1, I-2).",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "TH",
-      "use_class": "battery_storage",
-      "status": "prohibited",
-      "local_uses": [
-        "1.a. Battery Energy Storage System, Tier 2"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Row is blank in TH.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-51061",
-      "district_code": "V",
-      "use_class": "battery_storage",
-      "status": "prohibited",
-      "local_uses": [
-        "1.a. Battery Energy Storage System, Tier 2"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
-        "section": "3-300"
-      },
-      "source": {
-        "id": "us-51061-zo-art3",
-        "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "claude",
-          "ref": "extract-us-51061-20261011T120736Z"
-        }
-      ],
-      "notes": "Row is blank in V.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
     }
   ],
   "matched_text_counts": {
-    "column_header:raw": 31,
-    "quote:raw": 24,
-    "row_label:ocr": 5,
+    "column_header:raw": 30,
+    "quote:raw": 4,
+    "row_label:ocr": 4,
     "row_label:raw": 26,
-    "section:raw": 55,
-    "symbol:ocr": 5,
+    "section:raw": 34,
+    "symbol:ocr": 4,
     "symbol:table": 26
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "M-G",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
+          "section": "4-1002"
+        },
+        "source": {
+          "id": "us-51061-zo-art4",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "x. Mini-storage warehouses.",
+            "section": "4-1002",
+            "reason": "Mini-storage (self-storage) is excluded from the class."
+          },
+          {
+            "term": "warehouse",
+            "quote": "AGRICULTURAL SUPPLIER: A business entity that warehouses, merchandises,",
+            "section": "4-1004",
+            "reason": "Definition of an agricultural supply business (retail/service), not a storage and distribution use."
+          },
+          {
+            "term": "distribution center",
+            "quote": "1. Electrical substation distribution centers and transformer stations",
+            "section": "3-320",
+            "reason": "Electrical utility facility, not goods distribution."
+          },
+          {
+            "term": "distribution center",
+            "quote": "DISTRIBUTION CENTER: Facility used for receipt, temporary storage,",
+            "section": "15-200",
+            "reason": "Article 15 definition for a use listed only in the Article 3 conventional district table (BP, I-1, I-2); the Marshall table does not list it."
+          },
+          {
+            "term": "freight",
+            "quote": "MOTOR FREIGHT TERMINAL: A building or area in which semi-",
+            "section": "15-200",
+            "reason": "Definition for a use listed only in conventional districts; not in the Marshall table."
+          },
+          {
+            "term": "freight",
+            "quote": "(g) Motor freight terminals",
+            "section": "4-605",
+            "reason": "PCID special exception use; separate district."
+          },
+          {
+            "term": "freight",
+            "quote": "5-2103 Additional Standards for Motor Freight Terminals in the I-1 Zoning",
+            "section": "5-2103",
+            "reason": "Standards limited to the I-1 district."
+          },
+          {
+            "term": "freight",
+            "quote": "1. Motor Freight Terminals shall be permitted in the I-1 Zoning District",
+            "section": "5-2103",
+            "reason": "Applies only to I-1."
+          },
+          {
+            "term": "freight",
+            "quote": "2. A Special Exception is required for all Motor Freight Terminals that",
+            "section": "5-2103",
+            "reason": "Standards for conventional districts, not Marshall."
+          }
+        ],
+        "notes": "The Marshall 'Storage Area' row (P in Gateway/Residential, standards 4-1002.G.3(h)) was treated as accessory or mini-storage and not mapped; confirm against 4-1002.G.3(h). Unlisted_rule is prohibited_by_default; only part of the table is visible, so flag for review."
+      },
+      "errors": [
+        "us-51061/M-G/warehouse_distribution: absence gate: 'warehouse' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "M-R",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
+          "section": "4-1002"
+        },
+        "source": {
+          "id": "us-51061-zo-art4",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "x. Mini-storage warehouses.",
+            "section": "4-1002",
+            "reason": "Mini-storage (self-storage) is excluded from the class."
+          },
+          {
+            "term": "warehouse",
+            "quote": "AGRICULTURAL SUPPLIER: A business entity that warehouses, merchandises,",
+            "section": "4-1004",
+            "reason": "Definition of an agricultural supply business (retail/service), not a storage and distribution use."
+          },
+          {
+            "term": "distribution center",
+            "quote": "1. Electrical substation distribution centers and transformer stations",
+            "section": "3-320",
+            "reason": "Electrical utility facility, not goods distribution."
+          },
+          {
+            "term": "distribution center",
+            "quote": "DISTRIBUTION CENTER: Facility used for receipt, temporary storage,",
+            "section": "15-200",
+            "reason": "Article 15 definition for a use listed only in the Article 3 conventional district table (BP, I-1, I-2); the Marshall table does not list it."
+          },
+          {
+            "term": "freight",
+            "quote": "MOTOR FREIGHT TERMINAL: A building or area in which semi-",
+            "section": "15-200",
+            "reason": "Definition for a use listed only in conventional districts; not in the Marshall table."
+          },
+          {
+            "term": "freight",
+            "quote": "(g) Motor freight terminals",
+            "section": "4-605",
+            "reason": "PCID special exception use; separate district."
+          },
+          {
+            "term": "freight",
+            "quote": "5-2103 Additional Standards for Motor Freight Terminals in the I-1 Zoning",
+            "section": "5-2103",
+            "reason": "Standards limited to the I-1 district."
+          },
+          {
+            "term": "freight",
+            "quote": "1. Motor Freight Terminals shall be permitted in the I-1 Zoning District",
+            "section": "5-2103",
+            "reason": "Applies only to I-1."
+          },
+          {
+            "term": "freight",
+            "quote": "2. A Special Exception is required for all Motor Freight Terminals that",
+            "section": "5-2103",
+            "reason": "Standards for conventional districts, not Marshall."
+          }
+        ],
+        "notes": "Same as M-G; the 'Storage Area' row is treated as accessory or mini-storage. Unlisted_rule is prohibited_by_default; flag for review."
+      },
+      "errors": [
+        "us-51061/M-R/warehouse_distribution: absence gate: 'warehouse' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "C-1",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehousing including Self-Storage Facilities",
+          "Distribution Center"
+        ],
+        "evidence": {
+          "kind": "table",
+          "quote": "5. a. Warehousing including Self-Storage Facilities | C-1 | ",
+          "section": "3-315",
+          "row_label": "5. a. Warehousing including Self-Storage Facilities",
+          "column_header": "C-1",
+          "symbol": ""
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column. Distribution center rows are also blank."
+      },
+      "errors": [
+        "us-51061/C-1/warehouse_distribution: table grid: cannot place '5. a. Warehousing including Self-Storage Facilities' under 'C-1' in the reconstructed table"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "RR-2",
+        "use_class": "datacenter",
+        "status": "prohibited",
+        "local_uses": [
+          "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Data Center row under 3-316 is blank in RR-2 (permitted only in BP)."
+      },
+      "errors": [
+        "us-51061/RR-2/datacenter: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "TH",
+        "use_class": "datacenter",
+        "status": "prohibited",
+        "local_uses": [
+          "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Data Center row under 3-316 is blank in TH."
+      },
+      "errors": [
+        "us-51061/TH/datacenter: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "V",
+        "use_class": "datacenter",
+        "status": "prohibited",
+        "local_uses": [
+          "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Data Center row under 3-316 is blank in V."
+      },
+      "errors": [
+        "us-51061/V/datacenter: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "RR-2",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "b. Distribution Center on 10 acres or less",
+          "c. Distribution Center on more than 10 acres",
+          "3. Motor freight terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Distribution center and motor freight terminal rows are blank in RR-2."
+      },
+      "errors": [
+        "us-51061/RR-2/warehouse_distribution: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "TH",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "b. Distribution Center on 10 acres or less",
+          "c. Distribution Center on more than 10 acres",
+          "3. Motor freight terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Distribution center and motor freight terminal rows are blank in TH."
+      },
+      "errors": [
+        "us-51061/TH/warehouse_distribution: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "V",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "b. Distribution Center on 10 acres or less",
+          "c. Distribution Center on more than 10 acres",
+          "3. Motor freight terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Distribution center and motor freight terminal rows are blank in V."
+      },
+      "errors": [
+        "us-51061/V/warehouse_distribution: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "RR-2",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
+          "1. General Industrial Use substantially screened from view, less than one acre",
+          "11. Petroleum products bulk storage"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "All mapped 3-315/3-317 rows are blank in RR-2."
+      },
+      "errors": [
+        "us-51061/RR-2/heavy_industrial_hazmat: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "TH",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
+          "1. General Industrial Use substantially screened from view, less than one acre",
+          "11. Petroleum products bulk storage"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "All mapped 3-315/3-317 rows are blank in TH."
+      },
+      "errors": [
+        "us-51061/TH/heavy_industrial_hazmat: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "V",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
+          "1. General Industrial Use substantially screened from view, less than one acre",
+          "11. Petroleum products bulk storage"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "All mapped 3-315/3-317 rows are blank in V. The V column shows SE only for abattoir wild game processing, which is not mapped to this class."
+      },
+      "errors": [
+        "us-51061/V/heavy_industrial_hazmat: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "RR-2",
+        "use_class": "lp_gas",
+        "status": "prohibited",
+        "local_uses": [
+          "11. Petroleum products bulk storage"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Mapped via bulk fuel storage; row is blank in RR-2."
+      },
+      "errors": [
+        "us-51061/RR-2/lp_gas: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "TH",
+        "use_class": "lp_gas",
+        "status": "prohibited",
+        "local_uses": [
+          "11. Petroleum products bulk storage"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Mapped via bulk fuel storage; row is blank in TH."
+      },
+      "errors": [
+        "us-51061/TH/lp_gas: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "V",
+        "use_class": "lp_gas",
+        "status": "prohibited",
+        "local_uses": [
+          "11. Petroleum products bulk storage"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Mapped via bulk fuel storage; row is blank in V."
+      },
+      "errors": [
+        "us-51061/V/lp_gas: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "RR-2",
+        "use_class": "utility_generation",
+        "status": "prohibited",
+        "local_uses": [
+          "5. Electrical generating plants and facilities"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Row is blank in RR-2 (SE only in RA and I-2)."
+      },
+      "errors": [
+        "us-51061/RR-2/utility_generation: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "TH",
+        "use_class": "utility_generation",
+        "status": "prohibited",
+        "local_uses": [
+          "5. Electrical generating plants and facilities"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Row is blank in TH."
+      },
+      "errors": [
+        "us-51061/TH/utility_generation: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "V",
+        "use_class": "utility_generation",
+        "status": "prohibited",
+        "local_uses": [
+          "5. Electrical generating plants and facilities"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Row is blank in V."
+      },
+      "errors": [
+        "us-51061/V/utility_generation: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "RR-2",
+        "use_class": "battery_storage",
+        "status": "prohibited",
+        "local_uses": [
+          "1.a. Battery Energy Storage System, Tier 2"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Row is blank in RR-2 (SE only in RA, BP, I-1, I-2)."
+      },
+      "errors": [
+        "us-51061/RR-2/battery_storage: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "TH",
+        "use_class": "battery_storage",
+        "status": "prohibited",
+        "local_uses": [
+          "1.a. Battery Energy Storage System, Tier 2"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Row is blank in TH."
+      },
+      "errors": [
+        "us-51061/TH/battery_storage: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51061",
+        "district_code": "V",
+        "use_class": "battery_storage",
+        "status": "prohibited",
+        "local_uses": [
+          "1.a. Battery Energy Storage System, Tier 2"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+          "section": "3-300"
+        },
+        "source": {
+          "id": "us-51061-zo-art3",
+          "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+          "date": "2026-10-10"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "claude",
+            "ref": "extract-us-51061-20261011T120736Z"
+          }
+        ],
+        "notes": "Row is blank in V."
+      },
+      "errors": [
+        "us-51061/V/battery_storage: prose evidence quotes the table key; cite the table cell as table evidence"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-51061",
@@ -2399,7 +2439,8 @@
         "us-51061/BP/datacenter: row label not found in source",
         "us-51061/BP/datacenter: table symbol 'P25' does not map to status 'permitted' through the table key",
         "us-51061/BP/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'BP' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2440,7 +2481,8 @@
       "errors": [
         "us-51061/C-1/datacenter: row label not found in source",
         "us-51061/C-1/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'C-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2481,7 +2523,8 @@
       "errors": [
         "us-51061/C-2/datacenter: row label not found in source",
         "us-51061/C-2/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'C-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2522,7 +2565,8 @@
       "errors": [
         "us-51061/C-3/datacenter: row label not found in source",
         "us-51061/C-3/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'C-3' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2563,7 +2607,8 @@
       "errors": [
         "us-51061/CV/datacenter: row label not found in source",
         "us-51061/CV/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'CV' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2606,7 +2651,8 @@
       "errors": [
         "us-51061/BP/warehouse_distribution: row label not found in source",
         "us-51061/BP/warehouse_distribution: table grid: cannot place 'c. Distribution Center on more than 10 acres' under 'BP' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2647,7 +2693,8 @@
       },
       "errors": [
         "us-51061/C-2/warehouse_distribution: table grid: cannot place '5. a. Warehousing including Self-Storage Facilities' under 'C-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2688,7 +2735,8 @@
       },
       "errors": [
         "us-51061/C-3/warehouse_distribution: table grid: cannot place '5. a. Warehousing including Self-Storage Facilities' under 'C-3' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2729,7 +2777,8 @@
       "errors": [
         "us-51061/CV/warehouse_distribution: table symbol 'A/SE' does not map to status 'conditional' through the table key",
         "us-51061/CV/warehouse_distribution: table grid: 'CV' column holds 'ase' on the '5. a. Warehousing including Self-Storage Facilities' row, not 'A/SE'"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2771,7 +2820,8 @@
       "errors": [
         "us-51061/BP/heavy_industrial_hazmat: row label not found in source",
         "us-51061/BP/heavy_industrial_hazmat: table grid: cannot place '1. General Industrial Use substantially screened from view, less than one acre' under 'BP' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2813,7 +2863,8 @@
       "errors": [
         "us-51061/C-1/heavy_industrial_hazmat: row label not found in source",
         "us-51061/C-1/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'C-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2855,7 +2906,8 @@
       "errors": [
         "us-51061/C-2/heavy_industrial_hazmat: row label not found in source",
         "us-51061/C-2/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'C-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2897,7 +2949,8 @@
       "errors": [
         "us-51061/C-3/heavy_industrial_hazmat: row label not found in source",
         "us-51061/C-3/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'C-3' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2939,7 +2992,8 @@
       "errors": [
         "us-51061/CV/heavy_industrial_hazmat: row label not found in source",
         "us-51061/CV/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'CV' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -2980,7 +3034,8 @@
       "errors": [
         "us-51061/BP/lp_gas: row label not found in source",
         "us-51061/BP/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'BP' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3021,7 +3076,8 @@
       "errors": [
         "us-51061/C-1/lp_gas: row label not found in source",
         "us-51061/C-1/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'C-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3061,7 +3117,8 @@
       "errors": [
         "us-51061/C-2/lp_gas: row label not found in source",
         "us-51061/C-2/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'C-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3102,7 +3159,8 @@
       "errors": [
         "us-51061/C-3/lp_gas: row label not found in source",
         "us-51061/C-3/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'C-3' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3143,7 +3201,8 @@
       "errors": [
         "us-51061/CV/lp_gas: row label not found in source",
         "us-51061/CV/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'CV' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3191,8 +3250,9 @@
       },
       "errors": [
         "us-51061/BP/cannabis_cultivation_processing: no section",
-        "us-51061/BP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
-      ]
+        "us-51061/BP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3240,8 +3300,9 @@
       },
       "errors": [
         "us-51061/C-1/cannabis_cultivation_processing: no section",
-        "us-51061/C-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
-      ]
+        "us-51061/C-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3289,8 +3350,9 @@
       },
       "errors": [
         "us-51061/C-2/cannabis_cultivation_processing: no section",
-        "us-51061/C-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
-      ]
+        "us-51061/C-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3338,8 +3400,9 @@
       },
       "errors": [
         "us-51061/C-3/cannabis_cultivation_processing: no section",
-        "us-51061/C-3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
-      ]
+        "us-51061/C-3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3387,8 +3450,9 @@
       },
       "errors": [
         "us-51061/CV/cannabis_cultivation_processing: no section",
-        "us-51061/CV/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
-      ]
+        "us-51061/CV/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3429,7 +3493,8 @@
       "errors": [
         "us-51061/GA/datacenter: row label not found in source",
         "us-51061/GA/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'GA' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3470,7 +3535,8 @@
       "errors": [
         "us-51061/I-1/datacenter: row label not found in source",
         "us-51061/I-1/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'I-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3511,7 +3577,8 @@
       "errors": [
         "us-51061/I-2/datacenter: row label not found in source",
         "us-51061/I-2/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'I-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3555,7 +3622,8 @@
       "errors": [
         "us-51061/GA/warehouse_distribution: row label not found in source",
         "us-51061/GA/warehouse_distribution: table grid: cannot place 'c. Distribution Center on more than 10 acres' under 'GA' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3599,7 +3667,8 @@
       "errors": [
         "us-51061/I-1/warehouse_distribution: row label not found in source",
         "us-51061/I-1/warehouse_distribution: table grid: cannot place 'c. Distribution Center on more than 10 acres' under 'I-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3643,7 +3712,8 @@
       "errors": [
         "us-51061/I-2/warehouse_distribution: row label not found in source",
         "us-51061/I-2/warehouse_distribution: table grid: cannot place 'c. Distribution Center on more than 10 acres' under 'I-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3684,7 +3754,8 @@
       "errors": [
         "us-51061/GA/heavy_industrial_hazmat: row label not found in source",
         "us-51061/GA/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'GA' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3724,7 +3795,8 @@
       "errors": [
         "us-51061/I-1/heavy_industrial_hazmat: row label not found in source",
         "us-51061/I-1/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'I-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3764,7 +3836,8 @@
       "errors": [
         "us-51061/I-2/heavy_industrial_hazmat: row label not found in source",
         "us-51061/I-2/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'I-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3860,9 +3933,10 @@
         "notes": "Unlisted_rule is prohibited_by_default; only part of the Marshall table is visible, so flag for review."
       },
       "errors": [
-        "us-51061/M-G/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 2 are not explained",
+        "us-51061/M-G/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 3 are not explained",
         "us-51061/M-G/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 8 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -3958,9 +4032,10 @@
         "notes": "Unlisted_rule is prohibited_by_default; flag for review."
       },
       "errors": [
-        "us-51061/M-R/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 2 are not explained",
+        "us-51061/M-R/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 3 are not explained",
         "us-51061/M-R/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 8 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4001,7 +4076,8 @@
       "errors": [
         "us-51061/GA/lp_gas: row label not found in source",
         "us-51061/GA/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'GA' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4042,7 +4118,8 @@
       "errors": [
         "us-51061/I-1/lp_gas: row label not found in source",
         "us-51061/I-1/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'I-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4083,7 +4160,8 @@
       "errors": [
         "us-51061/I-2/lp_gas: row label not found in source",
         "us-51061/I-2/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'I-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4149,8 +4227,9 @@
         "notes": "Unlisted_rule is prohibited_by_default per 2-302.1."
       },
       "errors": [
-        "us-51061/GA/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/GA/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4216,8 +4295,9 @@
         "notes": "Unlisted_rule is prohibited_by_default per 2-302.1."
       },
       "errors": [
-        "us-51061/I-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/I-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4283,8 +4363,9 @@
         "notes": "Unlisted_rule is prohibited_by_default per 2-302.1."
       },
       "errors": [
-        "us-51061/I-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/I-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4350,8 +4431,9 @@
         "notes": "Unlisted_rule is prohibited_by_default; flag for review."
       },
       "errors": [
-        "us-51061/M-G/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/M-G/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4417,8 +4499,9 @@
         "notes": "Unlisted_rule is prohibited_by_default; flag for review."
       },
       "errors": [
-        "us-51061/M-R/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/M-R/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 10 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4454,7 +4537,8 @@
       },
       "errors": [
         "us-51061/M-G/utility_generation: absence gate: 'solar energy facility' occurs 1 times in the code and 1 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4490,7 +4574,8 @@
       },
       "errors": [
         "us-51061/M-R/utility_generation: absence gate: 'solar energy facility' occurs 1 times in the code and 1 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4570,8 +4655,10 @@
       "errors": [
         "us-51061/M-G/battery_storage: absence gate: 'battery' occurs 31 times in the code and 26 are not explained",
         "us-51061/M-G/battery_storage: absence gate: 'battery energy storage' occurs 18 times in the code and 17 are not explained",
+        "us-51061/M-G/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 2 are not explained",
         "us-51061/M-G/battery_storage: absence gate: 'energy storage system' occurs 20 times in the code and 19 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4651,8 +4738,10 @@
       "errors": [
         "us-51061/M-R/battery_storage: absence gate: 'battery' occurs 31 times in the code and 26 are not explained",
         "us-51061/M-R/battery_storage: absence gate: 'battery energy storage' occurs 18 times in the code and 17 are not explained",
+        "us-51061/M-R/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 2 are not explained",
         "us-51061/M-R/battery_storage: absence gate: 'energy storage system' occurs 20 times in the code and 19 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4730,8 +4819,11 @@
         "notes": "Only part of the Marshall Town use table is visible, and none of the rows shown covers this class. Uses not listed are not allowed (prohibited_by_default). Flag: M-T column mapping is unclear."
       },
       "errors": [
-        "us-51061/M-T/datacenter: section not found in source"
-      ]
+        "us-51061/M-T/datacenter: section not found in source",
+        "us-51061/M-T/datacenter: absence gate: 'communication facility' occurs 2 times in the code and 2 are not explained",
+        "us-51061/M-T/datacenter: absence gate: 'data center' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4821,8 +4913,12 @@
         "notes": "The M-T 'Storage Area' row (4-1002.G.3(h)) is not a warehouse or distribution use and is not mapped. Uses not listed are not allowed (prohibited_by_default)."
       },
       "errors": [
-        "us-51061/M-T/warehouse_distribution: section not found in source"
-      ]
+        "us-51061/M-T/warehouse_distribution: section not found in source",
+        "us-51061/M-T/warehouse_distribution: absence gate: 'distribution center' occurs 3 times in the code and 3 are not explained",
+        "us-51061/M-T/warehouse_distribution: absence gate: 'freight' occurs 5 times in the code and 5 are not explained",
+        "us-51061/M-T/warehouse_distribution: absence gate: 'warehouse' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4919,9 +5015,12 @@
       },
       "errors": [
         "us-51061/M-T/heavy_industrial_hazmat: section not found in source",
-        "us-51061/M-T/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 2 are not explained",
-        "us-51061/M-T/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 8 are not explained"
-      ]
+        "us-51061/M-T/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 3 are not explained",
+        "us-51061/M-T/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 3 are not explained",
+        "us-51061/M-T/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 13 are not explained",
+        "us-51061/M-T/heavy_industrial_hazmat: absence gate: 'smelting' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -4963,8 +5062,10 @@
         "notes": "Uses not listed are not allowed (prohibited_by_default). Flag: the agricultural supplier definition could be read to touch this class if the M-T table lists that use; it is not visible."
       },
       "errors": [
-        "us-51061/M-T/lp_gas: section not found in source"
-      ]
+        "us-51061/M-T/lp_gas: section not found in source",
+        "us-51061/M-T/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5031,8 +5132,9 @@
       },
       "errors": [
         "us-51061/M-T/cannabis_cultivation_processing: section not found in source",
-        "us-51061/M-T/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/M-T/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 12 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5068,7 +5170,8 @@
       "errors": [
         "us-51061/M-T/utility_generation: section not found in source",
         "us-51061/M-T/utility_generation: absence gate: 'solar energy facility' occurs 1 times in the code and 1 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5147,10 +5250,12 @@
       },
       "errors": [
         "us-51061/M-T/battery_storage: section not found in source",
-        "us-51061/M-T/battery_storage: absence gate: 'battery' occurs 31 times in the code and 27 are not explained",
+        "us-51061/M-T/battery_storage: absence gate: 'battery' occurs 31 times in the code and 31 are not explained",
         "us-51061/M-T/battery_storage: absence gate: 'battery energy storage' occurs 18 times in the code and 18 are not explained",
-        "us-51061/M-T/battery_storage: absence gate: 'energy storage system' occurs 20 times in the code and 18 are not explained"
-      ]
+        "us-51061/M-T/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 2 are not explained",
+        "us-51061/M-T/battery_storage: absence gate: 'energy storage system' occurs 20 times in the code and 20 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5192,7 +5297,8 @@
         "us-51061/MDP/datacenter: row label not found in source",
         "us-51061/MDP/datacenter: section not found in source",
         "us-51061/MDP/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'MDP' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5237,7 +5343,8 @@
         "us-51061/MDP/warehouse_distribution: row label not found in source",
         "us-51061/MDP/warehouse_distribution: section not found in source",
         "us-51061/MDP/warehouse_distribution: table grid: cannot place 'b. Distribution Center on 10 acres or less' under 'MDP' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5280,7 +5387,8 @@
         "us-51061/MDP/heavy_industrial_hazmat: row label not found in source",
         "us-51061/MDP/heavy_industrial_hazmat: section not found in source",
         "us-51061/MDP/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'MDP' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5322,7 +5430,8 @@
         "us-51061/MDP/lp_gas: row label not found in source",
         "us-51061/MDP/lp_gas: section not found in source",
         "us-51061/MDP/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'MDP' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5389,8 +5498,9 @@
       },
       "errors": [
         "us-51061/MDP/cannabis_cultivation_processing: section not found in source",
-        "us-51061/MDP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/MDP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 12 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5430,7 +5540,8 @@
       },
       "errors": [
         "us-51061/MDP/utility_generation: section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5470,7 +5581,8 @@
       },
       "errors": [
         "us-51061/MDP/battery_storage: section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5548,8 +5660,11 @@
         "notes": "unlisted_rule: prohibited_by_default. Sec. 4-904 lets the Zoning Administrator find an unlisted use similar to a listed one, but no listed MU use covers a data center."
       },
       "errors": [
-        "us-51061/MU-BLTN/datacenter: section not found in source"
-      ]
+        "us-51061/MU-BLTN/datacenter: section not found in source",
+        "us-51061/MU-BLTN/datacenter: absence gate: 'communication facility' occurs 2 times in the code and 2 are not explained",
+        "us-51061/MU-BLTN/datacenter: absence gate: 'data center' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5639,8 +5754,12 @@
         "notes": "The MU 'Outdoor Storage' row is a limit on other commercial uses, not a warehouse use. unlisted_rule: prohibited_by_default."
       },
       "errors": [
-        "us-51061/MU-BLTN/warehouse_distribution: section not found in source"
-      ]
+        "us-51061/MU-BLTN/warehouse_distribution: section not found in source",
+        "us-51061/MU-BLTN/warehouse_distribution: absence gate: 'distribution center' occurs 3 times in the code and 3 are not explained",
+        "us-51061/MU-BLTN/warehouse_distribution: absence gate: 'freight' occurs 5 times in the code and 5 are not explained",
+        "us-51061/MU-BLTN/warehouse_distribution: absence gate: 'warehouse' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5737,9 +5856,12 @@
       },
       "errors": [
         "us-51061/MU-BLTN/heavy_industrial_hazmat: section not found in source",
-        "us-51061/MU-BLTN/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 2 are not explained",
-        "us-51061/MU-BLTN/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 8 are not explained"
-      ]
+        "us-51061/MU-BLTN/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 3 are not explained",
+        "us-51061/MU-BLTN/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 3 are not explained",
+        "us-51061/MU-BLTN/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 13 are not explained",
+        "us-51061/MU-BLTN/heavy_industrial_hazmat: absence gate: 'smelting' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5781,8 +5903,10 @@
         "notes": "unlisted_rule: prohibited_by_default."
       },
       "errors": [
-        "us-51061/MU-BLTN/lp_gas: section not found in source"
-      ]
+        "us-51061/MU-BLTN/lp_gas: section not found in source",
+        "us-51061/MU-BLTN/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5849,8 +5973,9 @@
       },
       "errors": [
         "us-51061/MU-BLTN/cannabis_cultivation_processing: section not found in source",
-        "us-51061/MU-BLTN/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/MU-BLTN/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 12 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5889,8 +6014,12 @@
         "notes": "SE in all three sub-districts (Core, General, Residential). Mapping is the broad 'Public and Private Utilities' row; the examples given do not name power generation, so confidence is moderate."
       },
       "errors": [
-        "us-51061/MU-BLTN/utility_generation: section not found in source"
-      ]
+        "us-51061/MU-BLTN/utility_generation: section not found in source",
+        "us-51061/MU-BLTN/utility_generation: table symbol 'SE' does not map to status 'conditional' through the table key",
+        "us-51061/MU-BLTN/utility_generation: column header 'MU -Core' is not the column for district 'MU-BLTN' (no formatting match or quoted column alias)",
+        "us-51061/MU-BLTN/utility_generation: table grid: cannot place 'Public and Private Utilities, Including Water, Sewer, and Telecommunications Towers' under 'MU -Core' in the reconstructed table"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5929,8 +6058,12 @@
         "notes": "SE in all three sub-districts. Mapped via the broad utilities row because Article 3 treats Battery Energy Storage System as a Public Utilities (Category 20) use; moderate confidence."
       },
       "errors": [
-        "us-51061/MU-BLTN/battery_storage: section not found in source"
-      ]
+        "us-51061/MU-BLTN/battery_storage: section not found in source",
+        "us-51061/MU-BLTN/battery_storage: table symbol 'SE' does not map to status 'conditional' through the table key",
+        "us-51061/MU-BLTN/battery_storage: column header 'MU -Core' is not the column for district 'MU-BLTN' (no formatting match or quoted column alias)",
+        "us-51061/MU-BLTN/battery_storage: table grid: cannot place 'Public and Private Utilities, Including Water, Sewer, and Telecommunications Towers' under 'MU -Core' in the reconstructed table"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -5968,7 +6101,8 @@
       },
       "errors": [
         "us-51061/PCID/datacenter: section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6008,7 +6142,8 @@
       },
       "errors": [
         "us-51061/PCID/warehouse_distribution: section not found in source"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6105,9 +6240,12 @@
       },
       "errors": [
         "us-51061/PCID/heavy_industrial_hazmat: section not found in source",
-        "us-51061/PCID/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 2 are not explained",
-        "us-51061/PCID/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 8 are not explained"
-      ]
+        "us-51061/PCID/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 3 are not explained",
+        "us-51061/PCID/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 3 are not explained",
+        "us-51061/PCID/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 13 are not explained",
+        "us-51061/PCID/heavy_industrial_hazmat: absence gate: 'smelting' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6149,8 +6287,10 @@
         "notes": "unlisted_rule: prohibited_by_default."
       },
       "errors": [
-        "us-51061/PCID/lp_gas: section not found in source"
-      ]
+        "us-51061/PCID/lp_gas: section not found in source",
+        "us-51061/PCID/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6217,8 +6357,9 @@
       },
       "errors": [
         "us-51061/PCID/cannabis_cultivation_processing: section not found in source",
-        "us-51061/PCID/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/PCID/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 12 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6254,7 +6395,8 @@
       "errors": [
         "us-51061/PCID/utility_generation: section not found in source",
         "us-51061/PCID/utility_generation: absence gate: 'solar energy facility' occurs 1 times in the code and 1 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6333,10 +6475,12 @@
       },
       "errors": [
         "us-51061/PCID/battery_storage: section not found in source",
-        "us-51061/PCID/battery_storage: absence gate: 'battery' occurs 31 times in the code and 27 are not explained",
+        "us-51061/PCID/battery_storage: absence gate: 'battery' occurs 31 times in the code and 31 are not explained",
         "us-51061/PCID/battery_storage: absence gate: 'battery energy storage' occurs 18 times in the code and 18 are not explained",
-        "us-51061/PCID/battery_storage: absence gate: 'energy storage system' occurs 20 times in the code and 18 are not explained"
-      ]
+        "us-51061/PCID/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 2 are not explained",
+        "us-51061/PCID/battery_storage: absence gate: 'energy storage system' occurs 20 times in the code and 20 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6414,8 +6558,11 @@
         "notes": "unlisted_rule: prohibited_by_default."
       },
       "errors": [
-        "us-51061/PRD/datacenter: section not found in source"
-      ]
+        "us-51061/PRD/datacenter: section not found in source",
+        "us-51061/PRD/datacenter: absence gate: 'communication facility' occurs 2 times in the code and 2 are not explained",
+        "us-51061/PRD/datacenter: absence gate: 'data center' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6505,8 +6652,12 @@
         "notes": "PRD 'storage buildings' are accessory only. unlisted_rule: prohibited_by_default."
       },
       "errors": [
-        "us-51061/PRD/warehouse_distribution: section not found in source"
-      ]
+        "us-51061/PRD/warehouse_distribution: section not found in source",
+        "us-51061/PRD/warehouse_distribution: absence gate: 'distribution center' occurs 3 times in the code and 3 are not explained",
+        "us-51061/PRD/warehouse_distribution: absence gate: 'freight' occurs 5 times in the code and 5 are not explained",
+        "us-51061/PRD/warehouse_distribution: absence gate: 'warehouse' occurs 2 times in the code and 2 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6603,9 +6754,12 @@
       },
       "errors": [
         "us-51061/PRD/heavy_industrial_hazmat: section not found in source",
-        "us-51061/PRD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 2 are not explained",
-        "us-51061/PRD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 8 are not explained"
-      ]
+        "us-51061/PRD/heavy_industrial_hazmat: absence gate: 'general industrial' occurs 3 times in the code and 3 are not explained",
+        "us-51061/PRD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 3 times in the code and 3 are not explained",
+        "us-51061/PRD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 13 times in the code and 13 are not explained",
+        "us-51061/PRD/heavy_industrial_hazmat: absence gate: 'smelting' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6647,8 +6801,10 @@
         "notes": "unlisted_rule: prohibited_by_default."
       },
       "errors": [
-        "us-51061/PRD/lp_gas: section not found in source"
-      ]
+        "us-51061/PRD/lp_gas: section not found in source",
+        "us-51061/PRD/lp_gas: absence gate: 'propane' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6715,8 +6871,9 @@
       },
       "errors": [
         "us-51061/PRD/cannabis_cultivation_processing: section not found in source",
-        "us-51061/PRD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/PRD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 12 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6752,7 +6909,8 @@
       "errors": [
         "us-51061/PRD/utility_generation: section not found in source",
         "us-51061/PRD/utility_generation: absence gate: 'solar energy facility' occurs 1 times in the code and 1 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6831,10 +6989,12 @@
       },
       "errors": [
         "us-51061/PRD/battery_storage: section not found in source",
-        "us-51061/PRD/battery_storage: absence gate: 'battery' occurs 31 times in the code and 27 are not explained",
+        "us-51061/PRD/battery_storage: absence gate: 'battery' occurs 31 times in the code and 31 are not explained",
         "us-51061/PRD/battery_storage: absence gate: 'battery energy storage' occurs 18 times in the code and 18 are not explained",
-        "us-51061/PRD/battery_storage: absence gate: 'energy storage system' occurs 20 times in the code and 18 are not explained"
-      ]
+        "us-51061/PRD/battery_storage: absence gate: 'energy storage facility' occurs 2 times in the code and 2 are not explained",
+        "us-51061/PRD/battery_storage: absence gate: 'energy storage system' occurs 20 times in the code and 20 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6875,7 +7035,8 @@
       "errors": [
         "us-51061/R-1/datacenter: row label not found in source",
         "us-51061/R-1/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'R-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6916,7 +7077,8 @@
       "errors": [
         "us-51061/R-2/datacenter: row label not found in source",
         "us-51061/R-2/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'R-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6957,7 +7119,8 @@
       "errors": [
         "us-51061/R-4/datacenter: row label not found in source",
         "us-51061/R-4/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'R-4' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -6998,7 +7161,8 @@
       "errors": [
         "us-51061/RA/datacenter: row label not found in source",
         "us-51061/RA/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'RA' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7039,7 +7203,8 @@
       "errors": [
         "us-51061/RC/datacenter: row label not found in source",
         "us-51061/RC/datacenter: table grid: cannot place '4. Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground' under 'RC' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7081,7 +7246,8 @@
       },
       "errors": [
         "us-51061/R-4/warehouse_distribution: table grid: cannot place '5. a. Warehousing including Self-Storage Facilities' under 'R-4' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7124,7 +7290,8 @@
       "errors": [
         "us-51061/R-1/heavy_industrial_hazmat: row label not found in source",
         "us-51061/R-1/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'R-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7167,7 +7334,8 @@
       "errors": [
         "us-51061/R-2/heavy_industrial_hazmat: row label not found in source",
         "us-51061/R-2/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'R-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7210,7 +7378,8 @@
       "errors": [
         "us-51061/R-4/heavy_industrial_hazmat: row label not found in source",
         "us-51061/R-4/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'R-4' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7253,7 +7422,8 @@
       "errors": [
         "us-51061/RA/heavy_industrial_hazmat: row label not found in source",
         "us-51061/RA/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'RA' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7296,7 +7466,8 @@
       "errors": [
         "us-51061/RC/heavy_industrial_hazmat: row label not found in source",
         "us-51061/RC/heavy_industrial_hazmat: table grid: cannot place '5. Heavy Industrial Uses (those uses specifically listed in 5-1703)' under 'RC' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7337,7 +7508,8 @@
       "errors": [
         "us-51061/R-1/lp_gas: row label not found in source",
         "us-51061/R-1/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'R-1' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7378,7 +7550,8 @@
       "errors": [
         "us-51061/R-2/lp_gas: row label not found in source",
         "us-51061/R-2/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'R-2' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7419,7 +7592,8 @@
       "errors": [
         "us-51061/R-4/lp_gas: row label not found in source",
         "us-51061/R-4/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'R-4' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7460,7 +7634,8 @@
       "errors": [
         "us-51061/RA/lp_gas: row label not found in source",
         "us-51061/RA/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'RA' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7501,7 +7676,8 @@
       "errors": [
         "us-51061/RC/lp_gas: row label not found in source",
         "us-51061/RC/lp_gas: table grid: cannot place '11. Petroleum products bulk storage' under 'RC' in the reconstructed table"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7544,7 +7720,8 @@
       },
       "errors": [
         "us-51061/R-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7587,7 +7764,8 @@
       },
       "errors": [
         "us-51061/R-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7630,7 +7808,8 @@
       },
       "errors": [
         "us-51061/R-4/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7673,7 +7852,8 @@
       },
       "errors": [
         "us-51061/RA/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7716,7 +7896,8 @@
       },
       "errors": [
         "us-51061/RC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
-      ]
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7782,8 +7963,9 @@
         "notes": "Unlisted rule: prohibited_by_default (2-302.1)."
       },
       "errors": [
-        "us-51061/RR-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/RR-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7849,8 +8031,9 @@
         "notes": "Unlisted rule: prohibited_by_default (2-302.1)."
       },
       "errors": [
-        "us-51061/TH/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/TH/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     },
     {
       "cell": {
@@ -7916,8 +8099,9 @@
         "notes": "Unlisted rule: prohibited_by_default (2-302.1)."
       },
       "errors": [
-        "us-51061/V/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 7 are not explained"
-      ]
+        "us-51061/V/cannabis_cultivation_processing: absence gate: 'canopy' occurs 12 times in the code and 11 are not explained"
+      ],
+      "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
     }
   ],
   "missing": [
@@ -7947,6 +8131,10 @@
     ],
     [
       "C-1",
+      "warehouse_distribution"
+    ],
+    [
+      "C-1",
       "heavy_industrial_hazmat"
     ],
     [
@@ -8076,6 +8264,10 @@
     [
       "I-2",
       "cannabis_cultivation_processing"
+    ],
+    [
+      "M-G",
+      "warehouse_distribution"
     ],
     [
       "M-G",
@@ -8092,6 +8284,10 @@
     [
       "M-G",
       "battery_storage"
+    ],
+    [
+      "M-R",
+      "warehouse_distribution"
     ],
     [
       "M-R",
@@ -8335,15 +8531,90 @@
     ],
     [
       "RR-2",
+      "datacenter"
+    ],
+    [
+      "RR-2",
+      "warehouse_distribution"
+    ],
+    [
+      "RR-2",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "RR-2",
+      "lp_gas"
+    ],
+    [
+      "RR-2",
       "cannabis_cultivation_processing"
+    ],
+    [
+      "RR-2",
+      "utility_generation"
+    ],
+    [
+      "RR-2",
+      "battery_storage"
+    ],
+    [
+      "TH",
+      "datacenter"
+    ],
+    [
+      "TH",
+      "warehouse_distribution"
+    ],
+    [
+      "TH",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "TH",
+      "lp_gas"
     ],
     [
       "TH",
       "cannabis_cultivation_processing"
     ],
     [
+      "TH",
+      "utility_generation"
+    ],
+    [
+      "TH",
+      "battery_storage"
+    ],
+    [
+      "V",
+      "datacenter"
+    ],
+    [
+      "V",
+      "warehouse_distribution"
+    ],
+    [
+      "V",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "V",
+      "lp_gas"
+    ],
+    [
       "V",
       "cannabis_cultivation_processing"
+    ],
+    [
+      "V",
+      "utility_generation"
+    ],
+    [
+      "V",
+      "battery_storage"
     ]
-  ]
+  ],
+  "regate": {
+    "run_id": "regate-us-51061-7a1ade6d3e81ca0d"
+  }
 }

@@ -4,6 +4,22 @@
   "type": "county",
   "state": "FL",
   "unlisted_rule": "none",
+  "column_aliases": [
+    {
+      "district_code": "CFD",
+      "column_header": "CFD6",
+      "quote": "Note 6. Uses shown as \"P\" under the CP, MP, and CFD district are only permitted to the extent the use is specifically identified in an approved zoning ordinance for a particular property.",
+      "section": "Note 6",
+      "reason": "the CFD column header carries footnote 6 without a space"
+    },
+    {
+      "district_code": "RMRP",
+      "column_header": "RMRP1",
+      "quote": "Note 1. Only rental mobile home dwelling units are allowed in RMRP.",
+      "section": "Note 1",
+      "reason": "the RMRP column header carries footnote 1 without a space"
+    }
+  ],
   "code_version": "unknown",
   "conditional_zoning_unmapped": false,
   "sources": [

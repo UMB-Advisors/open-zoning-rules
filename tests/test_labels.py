@@ -28,7 +28,7 @@ def _prepare(tiny_root: Path) -> None:
         ]
     )
     digest = hashlib.sha256(pdf).hexdigest()
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     (tiny_root / "cache" / digest).write_bytes(pdf)
     path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
     document = json.loads(path.read_text())
@@ -36,7 +36,9 @@ def _prepare(tiny_root: Path) -> None:
     path.write_text(json.dumps(document))
     segment_jurisdiction(tiny_root, "us-00000")
     source = tiny_root / "cache" / "text" / "us-00000-zo.txt"
-    source.write_text(source.read_text(encoding="utf-8") + TABLE_TEXT_MARKER + _TABLE, encoding="utf-8")
+    source.write_text(
+        source.read_text(encoding="utf-8") + "\nP = permitted" + TABLE_TEXT_MARKER + _TABLE, encoding="utf-8"
+    )
 
 
 def _result(text: str, model: str = "fake") -> ModelResult:
@@ -123,7 +125,7 @@ def test_label_gates_reject_bad_cells_and_write_ledger(tiny_root: Path) -> None:
 def test_passing_cells_record_which_text_matched(tiny_root: Path) -> None:
     _prepare(tiny_root)
     source_text = tiny_root / "cache" / "text" / "us-00000-zo.txt"
-    source_text.write_text("Table 4-2 I-1" + TABLE_TEXT_MARKER + "Use | I-1\nWarehouse | P")
+    source_text.write_text("Table 4-2 I-1\nP = permitted" + TABLE_TEXT_MARKER + "Use | I-1\nWarehouse | P")
 
     output = extract(tiny_root, "us-00000", lambda *_args: _result(_good()), "2026-10-10")
 
@@ -190,7 +192,7 @@ def test_grok_review_is_never_given_images(tiny_root: Path) -> None:
 def test_absence_gate_reads_every_source_of_the_jurisdiction(tiny_root: Path) -> None:
     source_a = make_pdf([["Sec. 4-3", "Any use not listed in Table 4-2 is prohibited."]])
     source_b = make_pdf([["Definitions", "Data center means a facility housing servers."]])
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     digest_a, digest_b = hashlib.sha256(source_a).hexdigest(), hashlib.sha256(source_b).hexdigest()
     (tiny_root / "cache" / digest_a).write_bytes(source_a)
     (tiny_root / "cache" / digest_b).write_bytes(source_b)

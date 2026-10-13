@@ -28,7 +28,7 @@ def test_grade_applies_review_staleness_and_publication_gates(tiny_root: Path) -
     jurisdiction["case_lookup_url"] = "https://planning.example.org/cases"
     (base / "jurisdiction.json").write_text(json.dumps(jurisdiction), encoding="utf-8")
     text_dir = tiny_root / "cache" / "text"
-    text_dir.mkdir(parents=True)
+    text_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy(FIXTURE / "texts" / "us-00000-zo.txt", text_dir / "us-00000-zo.txt")
 
     agree = _cell("warehouse_distribution")

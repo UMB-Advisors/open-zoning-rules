@@ -24,7 +24,7 @@ def test_segments_pdf_html_and_missing_bytes(tiny_root):
         ]
     )
     digest = hashlib.sha256(pdf).hexdigest()
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     (tiny_root / "cache" / digest).write_bytes(pdf)
     sources_path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
     document = json.loads(sources_path.read_text())
@@ -51,7 +51,7 @@ def test_html_is_one_tag_stripped_page(tiny_root):
     source = json.loads((tiny_root / "jurisdictions" / "us-00000" / "sources.json").read_text())["sources"][0]
     data = b"<p>Hello <b>zoning</b></p><script>nope</script><div>world &amp; more</div>"
     digest = hashlib.sha256(data).hexdigest()
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     (tiny_root / "cache" / digest).write_bytes(data)
     source["sha256"] = digest
     (tiny_root / "jurisdictions" / "us-00000" / "sources.json").write_text(json.dumps({"sources": [source]}))
@@ -69,7 +69,7 @@ def test_list_style_use_pages_keep_their_continuation_page(tiny_root):
         ]
     )
     digest = hashlib.sha256(pdf).hexdigest()
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     (tiny_root / "cache" / digest).write_bytes(pdf)
     sources_path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
     document = json.loads(sources_path.read_text())
@@ -91,7 +91,7 @@ def test_wrapped_row_labels_are_rebuilt_from_table_rulings(tiny_root):
         [230, 80, 80],
     )
     digest = hashlib.sha256(pdf).hexdigest()
-    (tiny_root / "cache").mkdir()
+    (tiny_root / "cache").mkdir(exist_ok=True)
     (tiny_root / "cache" / digest).write_bytes(pdf)
     sources_path = tiny_root / "jurisdictions" / "us-00000" / "sources.json"
     document = json.loads(sources_path.read_text())

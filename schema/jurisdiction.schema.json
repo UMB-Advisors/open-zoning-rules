@@ -92,6 +92,21 @@
         }
       }
     },
+    "column_aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["district_code", "column_header", "quote", "section", "reason"],
+        "properties": {
+          "district_code": { "type": "string" },
+          "column_header": { "type": "string" },
+          "quote": { "type": "string" },
+          "section": { "type": "string" },
+          "reason": { "type": "string" }
+        }
+      }
+    },
     "districts": {
       "type": "array",
       "minItems": 1,

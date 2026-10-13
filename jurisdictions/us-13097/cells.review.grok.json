@@ -42,7 +42,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -82,7 +83,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -122,7 +124,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -162,7 +165,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -202,7 +206,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -242,7 +247,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -282,7 +288,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -322,7 +329,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -362,7 +370,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -402,7 +411,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -442,7 +452,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -482,7 +493,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -522,7 +534,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -562,7 +575,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -602,7 +616,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -642,7 +657,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -682,7 +698,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -722,7 +739,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -762,7 +780,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -802,412 +821,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "HI",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "Warehouse and Truck Terminal are defined as storage and distribution uses. No Table 2.2 row for those names shows a symbol under HI. Section 338 mini-warehouses and warehouse clubs are excluded from the class. Postal bulk-mailing distribution centers are a parking line, not this class.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "207 (m) says LI is for uses that need office and distribution facilities, but allowed principal uses are only those shown on Table 2.2. No Warehouse or Truck Terminal symbol is printed under LI.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-C",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "No LI-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2, so Warehouse and Truck Terminal are not shown as allowed there.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "No Table 2.2 symbol under LI-R for Warehouse or Truck Terminal. The LI-R purpose names data storage and offices, not general warehousing or truck terminals.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R-C",
-      "use_class": "warehouse_distribution",
-      "status": "prohibited",
-      "local_uses": [
-        "Warehouse",
-        "Truck Terminal",
-        "Motor Freight Truck Terminal"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
-        "section": "210 (d)"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "definition_evidence": {
-        "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-        "section": "4. Meaning of words and phrases."
-      },
-      "notes": "No LI-R-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw",
-        "definition_quote": "raw",
-        "definition_section": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "HI",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Sec. 210(d)(3) states uses and manufacturing processes specifically prohibited in all zoning districts are listed in Division IV of Article 3. Item (6) is that chemical-manufacturing ban. The carved-out row Chemical Manufacturing: Pharmaceutical and Medicine is ** under HI, which is less restrictive: permitted only in an existing structure with no expansion, otherwise a special use permit. Most restrictive status is prohibited.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Countywide chemical-manufacturing ban, with pharmaceutical and medicine manufacturing separately marked ** under LI on Table 2.2. Most restrictive status is prohibited.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-C",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "The chemical-manufacturing ban is countywide. LI-C is not a Table 2.2 column. Pharmaceutical manufacturing is not given a symbol for LI-C.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "Countywide chemical-manufacturing ban. Pharmaceutical and medicine manufacturing is ** under LI-R, which is less restrictive than prohibited.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
-      }
-    },
-    {
-      "jurisdiction_id": "us-13097",
-      "district_code": "LI-R-C",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "prohibited",
-      "local_uses": [
-        "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
-        "Chemical Manufacturing: Pharmaceutical and Medicine"
-      ],
-      "evidence": {
-        "kind": "prose",
-        "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
-        "section": "Division IV of Article 3"
-      },
-      "source": {
-        "id": "us-13097-udc",
-        "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
-        "date": "2026-08-18"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-11",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-11",
-          "from": null,
-          "to": "prohibited",
-          "by": "grok",
-          "ref": "review-grok-us-13097-20261011T040015Z"
-        }
-      ],
-      "notes": "The chemical-manufacturing ban is countywide. LI-R-C is not a Table 2.2 column.",
-      "matched_text": {
-        "section": "raw",
-        "quote": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1247,7 +862,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1287,7 +903,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1327,7 +944,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1367,7 +985,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1407,7 +1026,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1447,7 +1067,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1487,7 +1108,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1527,7 +1149,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1567,7 +1190,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1607,7 +1231,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1647,7 +1272,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1687,7 +1313,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1727,7 +1354,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1767,7 +1395,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -1807,7 +1436,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2063,7 +1693,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2103,7 +1734,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2143,7 +1775,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2243,7 +1876,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2283,7 +1917,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2323,7 +1958,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2423,7 +2059,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2463,7 +2100,8 @@
       "matched_text": {
         "section": "raw",
         "row_label": "raw",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     },
     {
@@ -2503,20 +2141,435 @@
       "matched_text": {
         "section": "raw",
         "row_label": "table",
-        "column_header": "raw"
+        "column_header": "raw",
+        "symbol": "table"
       }
     }
   ],
   "matched_text_counts": {
     "column_header:raw": 44,
-    "definition_quote:raw": 5,
-    "definition_section:raw": 5,
-    "quote:raw": 18,
+    "quote:raw": 8,
     "row_label:raw": 14,
     "row_label:table": 30,
-    "section:raw": 62
+    "section:raw": 52,
+    "symbol:table": 44
   },
   "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "HI",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "Warehouse and Truck Terminal are defined as storage and distribution uses. No Table 2.2 row for those names shows a symbol under HI. Section 338 mini-warehouses and warehouse clubs are excluded from the class. Postal bulk-mailing distribution centers are a parking line, not this class."
+      },
+      "errors": [
+        "us-13097/HI/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'hi'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "207 (m) says LI is for uses that need office and distribution facilities, but allowed principal uses are only those shown on Table 2.2. No Warehouse or Truck Terminal symbol is printed under LI."
+      },
+      "errors": [
+        "us-13097/LI/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'li'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-C",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "No LI-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2, so Warehouse and Truck Terminal are not shown as allowed there."
+      },
+      "errors": [
+        "us-13097/LI-C/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'li'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "No Table 2.2 symbol under LI-R for Warehouse or Truck Terminal. The LI-R purpose names data storage and offices, not general warehousing or truck terminals."
+      },
+      "errors": [
+        "us-13097/LI-R/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'lir'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R-C",
+        "use_class": "warehouse_distribution",
+        "status": "prohibited",
+        "local_uses": [
+          "Warehouse",
+          "Truck Terminal",
+          "Motor Freight Truck Terminal"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Any principal use not shown on the following Table 2.2 as allowed in a zoning district, whether by right or with approval as a Special Use or as a use permitted with restrictions, is specifically prohibited.",
+          "section": "210 (d)"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "4. Meaning of words and phrases."
+        },
+        "notes": "No LI-R-C district or column is established in Sec. 204, Table 2.1, Sec. 207, or Table 2.2."
+      },
+      "errors": [
+        "us-13097/LI-R-C/warehouse_distribution: table grid places 'warehouse clubs, supercenters, and other general merchandise retailers' under 'lir'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "HI",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Sec. 210(d)(3) states uses and manufacturing processes specifically prohibited in all zoning districts are listed in Division IV of Article 3. Item (6) is that chemical-manufacturing ban. The carved-out row Chemical Manufacturing: Pharmaceutical and Medicine is ** under HI, which is less restrictive: permitted only in an existing structure with no expansion, otherwise a special use permit. Most restrictive status is prohibited."
+      },
+      "errors": [
+        "us-13097/HI/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'hi'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Countywide chemical-manufacturing ban, with pharmaceutical and medicine manufacturing separately marked ** under LI on Table 2.2. Most restrictive status is prohibited."
+      },
+      "errors": [
+        "us-13097/LI/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'li'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-C",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "The chemical-manufacturing ban is countywide. LI-C is not a Table 2.2 column. Pharmaceutical manufacturing is not given a symbol for LI-C."
+      },
+      "errors": [
+        "us-13097/LI-C/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'li'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "Countywide chemical-manufacturing ban. Pharmaceutical and medicine manufacturing is ** under LI-R, which is less restrictive than prohibited."
+      },
+      "errors": [
+        "us-13097/LI-R/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'lir'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-13097",
+        "district_code": "LI-R-C",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "prohibited",
+        "local_uses": [
+          "Chemical manufacturing, except pharmaceutical and medicine manufacturing",
+          "Chemical Manufacturing: Pharmaceutical and Medicine"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "(6) Chemical manufacturing, except pharmaceutical and medicine manufacturing.",
+          "section": "Division IV of Article 3"
+        },
+        "source": {
+          "id": "us-13097-udc",
+          "url": "https://www.douglascountyga.gov/DocumentCenter/View/14787",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "prohibited",
+            "by": "grok",
+            "ref": "review-grok-us-13097-20261011T040015Z"
+          }
+        ],
+        "notes": "The chemical-manufacturing ban is countywide. LI-R-C is not a Table 2.2 column."
+      },
+      "errors": [
+        "us-13097/LI-R-C/heavy_industrial_hazmat: table grid places 'chemical manufacturing: pharmaceutical and medicine' under 'lir'; cite the table cell as table evidence, not prose"
+      ],
+      "run_id": "regate-us-13097-061abe2e145fef95"
+    },
     {
       "cell": {
         "jurisdiction_id": "us-13097",
@@ -2578,7 +2631,7 @@
         "us-13097/AG/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/AG/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -2672,7 +2725,7 @@
         "us-13097/AG/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 3 are not explained",
         "us-13097/AG/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -2739,7 +2792,7 @@
       "errors": [
         "us-13097/AG/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -2802,7 +2855,7 @@
         "us-13097/C-G/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/C-G/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -2896,7 +2949,7 @@
         "us-13097/C-G/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 3 are not explained",
         "us-13097/C-G/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -2963,7 +3016,7 @@
       "errors": [
         "us-13097/C-G/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3027,7 +3080,7 @@
         "us-13097/C-G-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/C-G-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3116,7 +3169,7 @@
         "us-13097/C-G-C/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 5 are not explained",
         "us-13097/C-G-C/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3177,7 +3230,7 @@
       "errors": [
         "us-13097/C-G-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 69 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3240,7 +3293,7 @@
         "us-13097/C-H/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/C-H/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3307,7 +3360,7 @@
       "errors": [
         "us-13097/C-H/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3371,7 +3424,7 @@
         "us-13097/C-H-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/C-H-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3455,7 +3508,7 @@
         "us-13097/C-H-C/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 5 are not explained",
         "us-13097/C-H-C/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3516,7 +3569,7 @@
       "errors": [
         "us-13097/C-H-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 69 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3579,7 +3632,7 @@
         "us-13097/HI/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/HI/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3642,7 +3695,7 @@
         "us-13097/LI/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/LI/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3706,7 +3759,7 @@
         "us-13097/LI-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/LI-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3770,7 +3823,7 @@
         "us-13097/LI-R/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/LI-R/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3834,7 +3887,7 @@
         "us-13097/LI-R-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/LI-R-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3878,7 +3931,7 @@
       "errors": [
         "us-13097/HI/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3922,7 +3975,7 @@
       "errors": [
         "us-13097/LI/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -3966,7 +4019,7 @@
       "errors": [
         "us-13097/LI-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4010,7 +4063,7 @@
       "errors": [
         "us-13097/LI-R/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4054,7 +4107,7 @@
       "errors": [
         "us-13097/LI-R-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4115,7 +4168,7 @@
       "errors": [
         "us-13097/HI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 69 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4176,7 +4229,7 @@
       "errors": [
         "us-13097/LI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 69 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4237,7 +4290,7 @@
       "errors": [
         "us-13097/LI-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 69 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4298,7 +4351,7 @@
       "errors": [
         "us-13097/LI-R/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 69 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4359,7 +4412,7 @@
       "errors": [
         "us-13097/LI-R-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 69 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4415,7 +4468,7 @@
       "errors": [
         "us-13097/LI-C/utility_generation: absence gate: 'solar farm' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4471,7 +4524,7 @@
       "errors": [
         "us-13097/LI-R-C/utility_generation: absence gate: 'solar farm' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4529,7 +4582,7 @@
         "us-13097/LI-C/battery_storage: absence gate: 'battery energy storage' occurs 3 times in the code and 2 are not explained",
         "us-13097/LI-C/battery_storage: absence gate: 'energy storage system' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4587,7 +4640,7 @@
         "us-13097/LI-R-C/battery_storage: absence gate: 'battery energy storage' occurs 3 times in the code and 2 are not explained",
         "us-13097/LI-R-C/battery_storage: absence gate: 'energy storage system' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4663,7 +4716,7 @@
         "us-13097/OI/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/OI/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4811,7 +4864,7 @@
         "us-13097/OI/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 1 are not explained",
         "us-13097/OI/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 22 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4855,7 +4908,7 @@
       "errors": [
         "us-13097/OI/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4923,7 +4976,7 @@
       "errors": [
         "us-13097/OI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -4999,7 +5052,7 @@
         "us-13097/PRD/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/PRD/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5147,7 +5200,7 @@
         "us-13097/PRD/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 1 are not explained",
         "us-13097/PRD/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 22 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5191,7 +5244,7 @@
       "errors": [
         "us-13097/PRD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5259,7 +5312,7 @@
       "errors": [
         "us-13097/PRD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5335,7 +5388,7 @@
         "us-13097/PSP/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/PSP/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5483,7 +5536,7 @@
         "us-13097/PSP/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 1 are not explained",
         "us-13097/PSP/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 22 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5527,7 +5580,7 @@
       "errors": [
         "us-13097/PSP/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5595,7 +5648,7 @@
       "errors": [
         "us-13097/PSP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5671,7 +5724,7 @@
         "us-13097/PUD/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/PUD/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5819,7 +5872,7 @@
         "us-13097/PUD/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 1 are not explained",
         "us-13097/PUD/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 22 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5863,7 +5916,7 @@
       "errors": [
         "us-13097/PUD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -5931,7 +5984,7 @@
       "errors": [
         "us-13097/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6007,7 +6060,7 @@
         "us-13097/PUD-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/PUD-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6155,7 +6208,7 @@
         "us-13097/PUD-C/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 1 are not explained",
         "us-13097/PUD-C/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 22 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6199,7 +6252,7 @@
       "errors": [
         "us-13097/PUD-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6267,7 +6320,7 @@
       "errors": [
         "us-13097/PUD-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6343,7 +6396,7 @@
         "us-13097/R-A/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-A/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6490,7 +6543,7 @@
         "us-13097/R-A/warehouse_distribution: absence gate: 'freight' occurs 39 times in the code and 23 are not explained",
         "us-13097/R-A/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 26 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6534,7 +6587,7 @@
       "errors": [
         "us-13097/R-A/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6602,7 +6655,7 @@
       "errors": [
         "us-13097/R-A/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6678,7 +6731,7 @@
         "us-13097/R-A-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-A-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6785,7 +6838,7 @@
         "us-13097/R-A-C/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 2 are not explained",
         "us-13097/R-A-C/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6863,7 +6916,7 @@
         "us-13097/R-A-C/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 22 times in the code and 21 are not explained",
         "us-13097/R-A-C/heavy_industrial_hazmat: absence gate: 'smelting' occurs 13 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6907,7 +6960,7 @@
       "errors": [
         "us-13097/R-A-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -6975,7 +7028,7 @@
       "errors": [
         "us-13097/R-A-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7039,7 +7092,7 @@
         "us-13097/R-A-C/battery_storage: absence gate: 'battery energy storage' occurs 3 times in the code and 2 are not explained",
         "us-13097/R-A-C/battery_storage: absence gate: 'energy storage system' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7115,7 +7168,7 @@
         "us-13097/R-HD/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-HD/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7228,7 +7281,7 @@
         "us-13097/R-HD/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 2 are not explained",
         "us-13097/R-HD/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7272,7 +7325,7 @@
       "errors": [
         "us-13097/R-HD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7340,7 +7393,7 @@
       "errors": [
         "us-13097/R-HD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7416,7 +7469,7 @@
         "us-13097/R-HD-C/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-HD-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7517,7 +7570,7 @@
         "us-13097/R-HD-C/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 3 are not explained",
         "us-13097/R-HD-C/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7595,7 +7648,7 @@
         "us-13097/R-HD-C/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 22 times in the code and 21 are not explained",
         "us-13097/R-HD-C/heavy_industrial_hazmat: absence gate: 'smelting' occurs 13 times in the code and 5 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7639,7 +7692,7 @@
       "errors": [
         "us-13097/R-HD-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7707,7 +7760,7 @@
       "errors": [
         "us-13097/R-HD-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7771,7 +7824,7 @@
         "us-13097/R-HD-C/battery_storage: absence gate: 'battery energy storage' occurs 3 times in the code and 2 are not explained",
         "us-13097/R-HD-C/battery_storage: absence gate: 'energy storage system' occurs 3 times in the code and 1 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7847,7 +7900,7 @@
         "us-13097/R-LD/datacenter: absence gate: 'computer equipment' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-LD/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -7960,7 +8013,7 @@
         "us-13097/R-LD/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 2 are not explained",
         "us-13097/R-LD/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8004,7 +8057,7 @@
       "errors": [
         "us-13097/R-LD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8072,7 +8125,7 @@
       "errors": [
         "us-13097/R-LD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 68 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8131,7 +8184,7 @@
         "us-13097/R-LD-C/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-LD-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8175,7 +8228,7 @@
       "errors": [
         "us-13097/R-LD-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8219,7 +8272,7 @@
       "errors": [
         "us-13097/R-LD-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8277,7 +8330,7 @@
         "us-13097/R-MD/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-MD/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8321,7 +8374,7 @@
       "errors": [
         "us-13097/R-MD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8364,7 +8417,7 @@
       "errors": [
         "us-13097/R-MD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8423,7 +8476,7 @@
         "us-13097/R-MD-C/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-MD-C/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8467,7 +8520,7 @@
       "errors": [
         "us-13097/R-MD-C/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8511,7 +8564,7 @@
       "errors": [
         "us-13097/R-MD-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8570,7 +8623,7 @@
         "us-13097/R-MF/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-MF/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8614,7 +8667,7 @@
       "errors": [
         "us-13097/R-MF/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8658,7 +8711,7 @@
       "errors": [
         "us-13097/R-MF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8716,7 +8769,7 @@
         "us-13097/R-MH/datacenter: absence gate: 'data storage' occurs 2 times in the code and 1 are not explained",
         "us-13097/R-MH/datacenter: absence gate: 'technology facility' occurs 2 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8760,7 +8813,7 @@
       "errors": [
         "us-13097/R-MH/lp_gas: absence gate: 'liquefied petroleum gas' occurs 4 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8803,7 +8856,7 @@
       "errors": [
         "us-13097/R-MH/cannabis_cultivation_processing: absence gate: 'canopy' occurs 76 times in the code and 75 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8892,7 +8945,7 @@
         "us-13097/C-H/warehouse_distribution: absence gate: 'truck terminal' occurs 6 times in the code and 4 are not explained",
         "us-13097/C-H/warehouse_distribution: absence gate: 'warehouse' occurs 35 times in the code and 30 are not explained"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8938,7 +8991,7 @@
         "us-13097/R-LD-C/warehouse_distribution: table quote is not '<row_label> | <column_header> | <symbol>'",
         "us-13097/R-LD-C/warehouse_distribution: table grid: cannot place 'Warehouse' under 'R-LD' in the reconstructed table"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -8981,7 +9034,7 @@
         "us-13097/R-LD-C/heavy_industrial_hazmat: column header not in quote",
         "us-13097/R-LD-C/heavy_industrial_hazmat: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9024,7 +9077,7 @@
         "us-13097/R-LD-C/utility_generation: column header not in quote",
         "us-13097/R-LD-C/utility_generation: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9067,7 +9120,7 @@
         "us-13097/R-LD-C/battery_storage: column header not in quote",
         "us-13097/R-LD-C/battery_storage: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9113,7 +9166,7 @@
         "us-13097/R-MD/warehouse_distribution: table quote is not '<row_label> | <column_header> | <symbol>'",
         "us-13097/R-MD/warehouse_distribution: table grid: cannot place 'Warehouse' under 'R-MD' in the reconstructed table"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9155,7 +9208,7 @@
         "us-13097/R-MD/heavy_industrial_hazmat: column header not in quote",
         "us-13097/R-MD/heavy_industrial_hazmat: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9198,7 +9251,7 @@
         "us-13097/R-MD/utility_generation: column header not in quote",
         "us-13097/R-MD/utility_generation: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9241,7 +9294,7 @@
         "us-13097/R-MD/battery_storage: column header not in quote",
         "us-13097/R-MD/battery_storage: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9287,7 +9340,7 @@
         "us-13097/R-MD-C/warehouse_distribution: table quote is not '<row_label> | <column_header> | <symbol>'",
         "us-13097/R-MD-C/warehouse_distribution: table grid: cannot place 'Warehouse' under 'R-MD' in the reconstructed table"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9330,7 +9383,7 @@
         "us-13097/R-MD-C/heavy_industrial_hazmat: column header not in quote",
         "us-13097/R-MD-C/heavy_industrial_hazmat: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9373,7 +9426,7 @@
         "us-13097/R-MD-C/utility_generation: column header not in quote",
         "us-13097/R-MD-C/utility_generation: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9416,7 +9469,7 @@
         "us-13097/R-MD-C/battery_storage: column header not in quote",
         "us-13097/R-MD-C/battery_storage: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9462,7 +9515,7 @@
         "us-13097/R-MF/warehouse_distribution: table quote is not '<row_label> | <column_header> | <symbol>'",
         "us-13097/R-MF/warehouse_distribution: table grid: cannot place 'Warehouse' under 'R-HD' in the reconstructed table"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9505,7 +9558,7 @@
         "us-13097/R-MF/heavy_industrial_hazmat: column header not in quote",
         "us-13097/R-MF/heavy_industrial_hazmat: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9548,7 +9601,7 @@
         "us-13097/R-MF/utility_generation: column header not in quote",
         "us-13097/R-MF/utility_generation: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9591,7 +9644,7 @@
         "us-13097/R-MF/battery_storage: column header not in quote",
         "us-13097/R-MF/battery_storage: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9637,7 +9690,7 @@
         "us-13097/R-MH/warehouse_distribution: table quote is not '<row_label> | <column_header> | <symbol>'",
         "us-13097/R-MH/warehouse_distribution: table grid: cannot place 'Warehouse' under 'R-MH' in the reconstructed table"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9679,7 +9732,7 @@
         "us-13097/R-MH/heavy_industrial_hazmat: column header not in quote",
         "us-13097/R-MH/heavy_industrial_hazmat: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9722,7 +9775,7 @@
         "us-13097/R-MH/utility_generation: column header not in quote",
         "us-13097/R-MH/utility_generation: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     },
     {
       "cell": {
@@ -9765,7 +9818,7 @@
         "us-13097/R-MH/battery_storage: column header not in quote",
         "us-13097/R-MH/battery_storage: table quote is not '<row_label> | <column_header> | <symbol>'"
       ],
-      "run_id": "regate-us-13097-20261011T110707Z"
+      "run_id": "regate-us-13097-061abe2e145fef95"
     }
   ],
   "missing": [
@@ -9835,6 +9888,14 @@
     ],
     [
       "HI",
+      "warehouse_distribution"
+    ],
+    [
+      "HI",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "HI",
       "lp_gas"
     ],
     [
@@ -9847,6 +9908,14 @@
     ],
     [
       "LI",
+      "warehouse_distribution"
+    ],
+    [
+      "LI",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "LI",
       "lp_gas"
     ],
     [
@@ -9856,6 +9925,14 @@
     [
       "LI-C",
       "datacenter"
+    ],
+    [
+      "LI-C",
+      "warehouse_distribution"
+    ],
+    [
+      "LI-C",
+      "heavy_industrial_hazmat"
     ],
     [
       "LI-C",
@@ -9879,6 +9956,14 @@
     ],
     [
       "LI-R",
+      "warehouse_distribution"
+    ],
+    [
+      "LI-R",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "LI-R",
       "lp_gas"
     ],
     [
@@ -9888,6 +9973,14 @@
     [
       "LI-R-C",
       "datacenter"
+    ],
+    [
+      "LI-R-C",
+      "warehouse_distribution"
+    ],
+    [
+      "LI-R-C",
+      "heavy_industrial_hazmat"
     ],
     [
       "LI-R-C",
@@ -10223,7 +10316,6 @@
     ]
   ],
   "regate": {
-    "run_id": "regate-us-13097-20261011T110707Z",
-    "at": "2026-10-11T11:07:07Z"
+    "run_id": "regate-us-13097-061abe2e145fef95"
   }
 }

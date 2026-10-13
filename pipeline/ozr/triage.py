@@ -43,6 +43,11 @@ def host_allowed(url: object, policy: object, org_id: object = None) -> bool:
     if not isinstance(url, str) or not isinstance(policy, dict):
         return False
     parsed = urllib.parse.urlsplit(url)
+    raw_path = parsed.path
+    if "\\" in raw_path or re.search(r"%(?:2f|5c)", raw_path, re.IGNORECASE):
+        return False
+    if any(part in {".", ".."} for part in urllib.parse.unquote(raw_path).split("/")):
+        return False
     host = normalize_host(parsed.hostname or "")
     if host is None:
         return False

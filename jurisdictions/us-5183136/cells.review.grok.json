@@ -1270,7 +1270,7 @@
       "errors": [
         "us-5183136/C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1313,7 +1313,7 @@
       "errors": [
         "us-5183136/C/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1380,7 +1380,7 @@
       "errors": [
         "us-5183136/CBD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1423,7 +1423,7 @@
       "errors": [
         "us-5183136/CBD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1490,7 +1490,7 @@
       "errors": [
         "us-5183136/I/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1533,7 +1533,7 @@
       "errors": [
         "us-5183136/I/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1600,7 +1600,7 @@
       "errors": [
         "us-5183136/PSP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1643,7 +1643,7 @@
       "errors": [
         "us-5183136/PSP/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1710,7 +1710,7 @@
       "errors": [
         "us-5183136/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1753,7 +1753,7 @@
       "errors": [
         "us-5183136/PUD/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1820,7 +1820,7 @@
       "errors": [
         "us-5183136/Planned Residential Developmen/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1863,7 +1863,7 @@
       "errors": [
         "us-5183136/Planned Residential Developmen/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1930,7 +1930,7 @@
       "errors": [
         "us-5183136/R-10/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -1973,7 +1973,7 @@
       "errors": [
         "us-5183136/R-10/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2040,7 +2040,7 @@
       "errors": [
         "us-5183136/R-15/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2083,7 +2083,7 @@
       "errors": [
         "us-5183136/R-15/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2150,7 +2150,7 @@
       "errors": [
         "us-5183136/R-6/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2193,7 +2193,7 @@
       "errors": [
         "us-5183136/R-6/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2260,7 +2260,7 @@
       "errors": [
         "us-5183136/RMF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2303,7 +2303,7 @@
       "errors": [
         "us-5183136/RMF/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2371,7 +2371,7 @@
       "errors": [
         "us-5183136/RO/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2415,7 +2415,7 @@
       "errors": [
         "us-5183136/RO/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2483,7 +2483,7 @@
       "errors": [
         "us-5183136/RT/cannabis_cultivation_processing: absence gate: 'canopy' occurs 15 times in the code and 9 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2527,7 +2527,7 @@
       "errors": [
         "us-5183136/RT/battery_storage: absence gate: 'battery' occurs 3 times in the code and 2 are not explained"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2567,9 +2567,10 @@
         "notes": "Data Center is defined and is not listed as a permitted or permissible use in the C district."
       },
       "errors": [
-        "us-5183136/C/datacenter: definition quote not found in source"
+        "us-5183136/C/datacenter: definition quote not found in source",
+        "us-5183136/C/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2612,7 +2613,7 @@
         "us-5183136/C/warehouse_distribution: definition quote not found in source",
         "us-5183136/C/warehouse_distribution: definition section not found in source"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2652,9 +2653,10 @@
         "notes": "Data Center is defined and is not listed as a permitted or permissible use in the CBD district."
       },
       "errors": [
-        "us-5183136/CBD/datacenter: definition quote not found in source"
+        "us-5183136/CBD/datacenter: definition quote not found in source",
+        "us-5183136/CBD/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2694,9 +2696,10 @@
         "notes": "Storage warehouse and distribution center are permitted by right in the I district and are not listed in the CBD district."
       },
       "errors": [
-        "us-5183136/CBD/warehouse_distribution: definition quote not found in source"
+        "us-5183136/CBD/warehouse_distribution: definition quote not found in source",
+        "us-5183136/CBD/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2736,9 +2739,10 @@
         "notes": "Data Center is defined and is not listed as a permitted or permissible use in the I district."
       },
       "errors": [
-        "us-5183136/I/datacenter: definition quote not found in source"
+        "us-5183136/I/datacenter: definition quote not found in source",
+        "us-5183136/I/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2781,7 +2785,7 @@
         "us-5183136/I/warehouse_distribution: definition quote not found in source",
         "us-5183136/I/warehouse_distribution: definition section not found in source"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2821,9 +2825,10 @@
         "notes": "Data Center is defined and is not listed as a permitted or permissible use in the PSP district."
       },
       "errors": [
-        "us-5183136/PSP/datacenter: definition quote not found in source"
+        "us-5183136/PSP/datacenter: definition quote not found in source",
+        "us-5183136/PSP/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2863,9 +2868,10 @@
         "notes": "Storage warehouse and distribution center are permitted by right in the I district and are not listed in the PSP district."
       },
       "errors": [
-        "us-5183136/PSP/warehouse_distribution: definition quote not found in source"
+        "us-5183136/PSP/warehouse_distribution: definition quote not found in source",
+        "us-5183136/PSP/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2905,9 +2911,10 @@
         "notes": "Data Center is defined and is not listed as a permitted or permissible use in the PUD district."
       },
       "errors": [
-        "us-5183136/PUD/datacenter: definition quote not found in source"
+        "us-5183136/PUD/datacenter: definition quote not found in source",
+        "us-5183136/PUD/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2947,9 +2954,10 @@
         "notes": "Storage warehouse and distribution center are permitted by right in the I district and are not listed in the PUD district."
       },
       "errors": [
-        "us-5183136/PUD/warehouse_distribution: definition quote not found in source"
+        "us-5183136/PUD/warehouse_distribution: definition quote not found in source",
+        "us-5183136/PUD/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -2989,9 +2997,10 @@
         "notes": "Data Center is defined and is not listed as a permitted or permissible use for this district."
       },
       "errors": [
-        "us-5183136/Planned Residential Developmen/datacenter: definition quote not found in source"
+        "us-5183136/Planned Residential Developmen/datacenter: definition quote not found in source",
+        "us-5183136/Planned Residential Developmen/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3031,9 +3040,10 @@
         "notes": "The storage-warehouse and distribution-center use is by-right only in section 3-4.12.2 and is not listed for this district. Contractor’s office and warehouse and self-service mini-warehouse are outside this class."
       },
       "errors": [
-        "us-5183136/Planned Residential Developmen/warehouse_distribution: definition quote not found in source"
+        "us-5183136/Planned Residential Developmen/warehouse_distribution: definition quote not found in source",
+        "us-5183136/Planned Residential Developmen/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3073,9 +3083,10 @@
         "notes": "Data Center is defined and is not listed in the permitted uses in section 3-4.2.2 or the special-use-permit uses in section 3-4.2.3."
       },
       "errors": [
-        "us-5183136/R-10/datacenter: definition quote not found in source"
+        "us-5183136/R-10/datacenter: definition quote not found in source",
+        "us-5183136/R-10/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3115,9 +3126,10 @@
         "notes": "The storage-warehouse and distribution-center use is by-right only in section 3-4.12.2 and is not listed in sections 3-4.2.2 or 3-4.2.3. Contractor’s office and warehouse and self-service mini-warehouse are outside this class."
       },
       "errors": [
-        "us-5183136/R-10/warehouse_distribution: definition quote not found in source"
+        "us-5183136/R-10/warehouse_distribution: definition quote not found in source",
+        "us-5183136/R-10/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3157,9 +3169,10 @@
         "notes": "Data Center is defined and is not listed in the permitted uses in section 3-4.1.2 or the special-use-permit uses in section 3-4.1.3."
       },
       "errors": [
-        "us-5183136/R-15/datacenter: definition quote not found in source"
+        "us-5183136/R-15/datacenter: definition quote not found in source",
+        "us-5183136/R-15/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3199,9 +3212,10 @@
         "notes": "The storage-warehouse and distribution-center use is by-right only in section 3-4.12.2 and is not listed in sections 3-4.1.2 or 3-4.1.3. Contractor’s office and warehouse and self-service mini-warehouse are outside this class."
       },
       "errors": [
-        "us-5183136/R-15/warehouse_distribution: definition quote not found in source"
+        "us-5183136/R-15/warehouse_distribution: definition quote not found in source",
+        "us-5183136/R-15/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3241,9 +3255,10 @@
         "notes": "Data Center is defined and is not listed in the permitted uses in section 3-4.3.2 or the special-use-permit uses in section 3-4.3.3."
       },
       "errors": [
-        "us-5183136/R-6/datacenter: definition quote not found in source"
+        "us-5183136/R-6/datacenter: definition quote not found in source",
+        "us-5183136/R-6/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3283,9 +3298,10 @@
         "notes": "The storage-warehouse and distribution-center use is by-right only in section 3-4.12.2 and is not listed in sections 3-4.3.2 or 3-4.3.3. Contractor’s office and warehouse and self-service mini-warehouse are outside this class."
       },
       "errors": [
-        "us-5183136/R-6/warehouse_distribution: definition quote not found in source"
+        "us-5183136/R-6/warehouse_distribution: definition quote not found in source",
+        "us-5183136/R-6/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3325,9 +3341,10 @@
         "notes": "Data Center is defined and is not listed in the permitted uses in section 3-4.5.2 or the special-use-permit uses in section 3-4.5.3."
       },
       "errors": [
-        "us-5183136/RMF/datacenter: definition quote not found in source"
+        "us-5183136/RMF/datacenter: definition quote not found in source",
+        "us-5183136/RMF/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3367,9 +3384,10 @@
         "notes": "The storage-warehouse and distribution-center use is by-right only in section 3-4.12.2 and is not listed in sections 3-4.5.2 or 3-4.5.3. Contractor’s office and warehouse and self-service mini-warehouse are outside this class."
       },
       "errors": [
-        "us-5183136/RMF/warehouse_distribution: definition quote not found in source"
+        "us-5183136/RMF/warehouse_distribution: definition quote not found in source",
+        "us-5183136/RMF/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3409,9 +3427,10 @@
         "notes": "Data Center is defined and is omitted from the RO permitted uses in Section 3-4.8.2 and the permissible uses in Section 3-4.8.3."
       },
       "errors": [
-        "us-5183136/RO/datacenter: definition quote not found in source"
+        "us-5183136/RO/datacenter: definition quote not found in source",
+        "us-5183136/RO/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3451,9 +3470,10 @@
         "notes": "Section 3-4.12.2 permits this use by right in the Industrial District. It is omitted from Section 3-4.8.2 and Section 3-4.8.3. Self-service mini-warehouse, contractor office and warehouse, and wholesale establishments but not warehouses generally are separate listings outside this class."
       },
       "errors": [
-        "us-5183136/RO/warehouse_distribution: definition quote not found in source"
+        "us-5183136/RO/warehouse_distribution: definition quote not found in source",
+        "us-5183136/RO/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3493,9 +3513,10 @@
         "notes": "Data Center is defined and is omitted from the RT permitted uses in Section 3-4.4.2 and the permissible uses in Section 3-4.4.3."
       },
       "errors": [
-        "us-5183136/RT/datacenter: definition quote not found in source"
+        "us-5183136/RT/datacenter: definition quote not found in source",
+        "us-5183136/RT/datacenter: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     },
     {
       "cell": {
@@ -3535,9 +3556,10 @@
         "notes": "Section 3-4.12.2 permits this use by right in the Industrial District. It is omitted from Section 3-4.4.2 and Section 3-4.4.3. Self-service mini-warehouse, contractor office and warehouse, and wholesale establishments but not warehouses generally are separate listings outside this class."
       },
       "errors": [
-        "us-5183136/RT/warehouse_distribution: definition quote not found in source"
+        "us-5183136/RT/warehouse_distribution: definition quote not found in source",
+        "us-5183136/RT/warehouse_distribution: prose evidence quotes the unlisted-use rule; a listed status needs the use's own text (unlisted stays unlisted)"
       ],
-      "run_id": "regate-us-5183136-20261011T102403Z"
+      "run_id": "regate-us-5183136-9670889743697271"
     }
   ],
   "missing": [
@@ -3735,7 +3757,6 @@
     ]
   ],
   "regate": {
-    "run_id": "regate-us-5183136-20261011T102403Z",
-    "at": "2026-10-11T10:24:03Z"
+    "run_id": "regate-us-5183136-9670889743697271"
   }
 }

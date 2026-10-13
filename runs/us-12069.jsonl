@@ -14,3 +14,15 @@
 {"step": "grade", "at": "2026-10-11T07:40:10Z", "published": 110, "withheld": 25}
 {"step": "regate", "run_id": "regate-us-12069-20261011T102755Z", "at": "2026-10-11T10:27:55Z", "files": {"cells.extracted.json": {"cells": 78, "rejected": 76}, "cells.review.codex.json": {"cells": 62, "rejected": 92}, "cells.review.grok.json": {"cells": 70, "rejected": 84}}}
 {"step": "grade", "run_id": "grade-us-12069-20261011T110855Z", "at": "2026-10-11T11:08:56Z", "published": 60, "withheld": 94}
+{"step": "regate", "run_id": "regate-us-12069-20261011T145921Z", "at": "2026-10-11T14:59:21Z", "files": {"cells.extracted.json": {"cells": 42, "rejected": 112}, "cells.review.codex.json": {"cells": 44, "rejected": 110}, "cells.review.grok.json": {"cells": 49, "rejected": 105}}}
+{"step": "grade", "run_id": "grade-us-12069-e906c66b3b3a5d78", "at": "2026-10-11T15:07:25Z", "published": 42, "withheld": 112}
+{"step": "regate", "run_id": "regate-us-12069-7d8b4d48ad5f11f0", "at": "2026-10-11T15:21:27Z", "files": {"cells.extracted.json": {"cells": 42, "rejected": 112}, "cells.review.codex.json": {"cells": 44, "rejected": 110}, "cells.review.grok.json": {"cells": 49, "rejected": 105}}}
+{"step": "grade", "run_id": "grade-us-12069-a872f3b5450189c4", "at": "2026-10-11T15:28:53Z", "published": 42, "withheld": 112}
+{"step": "regate", "run_id": "regate-us-12069-7d8b4d48ad5f11f0", "at": "2026-10-11T15:29:51Z", "files": {"cells.extracted.json": {"cells": 42, "rejected": 112}, "cells.review.codex.json": {"cells": 44, "rejected": 110}, "cells.review.grok.json": {"cells": 49, "rejected": 105}}}
+{"step": "grade", "run_id": "grade-us-12069-7855242bcc9ba873", "at": "2026-10-11T15:37:43Z", "published": 42, "withheld": 112}
+{"step": "regate", "run_id": "regate-us-12069-7d8b4d48ad5f11f0", "at": "2026-10-11T15:41:09Z", "files": {"cells.extracted.json": {"cells": 42, "rejected": 112}, "cells.review.codex.json": {"cells": 44, "rejected": 110}, "cells.review.grok.json": {"cells": 49, "rejected": 105}}}
+{"step": "grade", "run_id": "grade-us-12069-a5265a6052fb712d", "at": "2026-10-11T15:48:26Z", "published": 42, "withheld": 112}
+{"step": "regate", "run_id": "regate-us-12069-7d8b4d48ad5f11f0", "at": "2026-10-11T15:49:21Z", "files": {"cells.extracted.json": {"cells": 42, "rejected": 112}, "cells.review.codex.json": {"cells": 44, "rejected": 110}, "cells.review.grok.json": {"cells": 49, "rejected": 105}}}
+{"step": "grade", "run_id": "grade-us-12069-a5265a6052fb712d", "at": "2026-10-11T15:57:19Z", "published": 42, "withheld": 112}
+{"step": "regate", "run_id": "regate-us-12069-7d8b4d48ad5f11f0", "at": "2026-10-11T16:43:02Z", "files": {"cells.extracted.json": {"cells": 42, "rejected": 112}, "cells.review.codex.json": {"cells": 44, "rejected": 110}, "cells.review.grok.json": {"cells": 49, "rejected": 105}}}
+{"step": "grade", "run_id": "grade-us-12069-a5265a6052fb712d", "at": "2026-10-11T16:54:42Z", "published": 42, "withheld": 112}

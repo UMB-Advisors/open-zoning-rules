@@ -55,7 +55,7 @@ def _refresh_hash(release_dir: Path, name: str) -> None:
 def test_grade_records_disputed_single_and_extraction_withholding(tiny_root: Path) -> None:
     base = tiny_root / "jurisdictions" / "us-00000"
     text_dir = tiny_root / "cache" / "text"
-    text_dir.mkdir(parents=True)
+    text_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy(FIXTURE / "texts" / "us-00000-zo.txt", text_dir / "us-00000-zo.txt")
     cells = json.loads((FIXTURE / "release" / "cells.json").read_text())
     extractor = next(
@@ -178,7 +178,7 @@ def test_regate_moves_bad_quote_without_model_calls(tiny_root: Path) -> None:
 
     base = tiny_root / "jurisdictions" / "us-00000"
     text_dir = tiny_root / "cache" / "text"
-    text_dir.mkdir(parents=True)
+    text_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy(FIXTURE / "texts" / "us-00000-zo.txt", text_dir / "us-00000-zo.txt")
     cells = json.loads((FIXTURE / "release" / "cells.json").read_text())
     good = next(

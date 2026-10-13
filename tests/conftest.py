@@ -57,4 +57,7 @@ def tiny_root(tmp_path: Path) -> Path:
         ),
         encoding="utf-8",
     )
+    text_dir = tmp_path / "cache" / "text"
+    text_dir.mkdir(parents=True)
+    (text_dir / "us-00000-analyst.txt").write_text("", encoding="utf-8")
     return tmp_path

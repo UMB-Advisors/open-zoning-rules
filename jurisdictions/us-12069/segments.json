@@ -2,6 +2,13 @@
   "jurisdiction_id": "us-12069",
   "sources": [
     {
+      "source_id": "us-12069-planning-page",
+      "sha256": "5943f38b1286a989cfcb609b0e9ca9732421c0f403c170a9e4a243df5adf938b",
+      "pages": 1,
+      "tables": 0,
+      "text_sha256": "4b1b0c36907c810348becb0cabe4452b964fa722969c1e7a5a6a7150811252ce"
+    },
+    {
       "source_id": "us-12069-ord-2026-xx-draft",
       "sha256": "ce3fa13e3319ae8b43baf21b69edfde2776d2fb668c777e19eb6c7d8edc52f8f",
       "pages": 22,
@@ -173,7 +180,5 @@
   "missing": [
     "not_listed"
   ],
-  "missing_bytes": [
-    "us-12069-planning-page"
-  ]
+  "missing_bytes": []
 }
