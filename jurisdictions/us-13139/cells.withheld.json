@@ -1,0 +1,726 @@
+{
+  "jurisdiction_id": "us-13139",
+  "run_id": "grade-us-13139-c06c000c6e908bef",
+  "withheld": [
+    {
+      "key": "us-13139/AG-1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/AG-1/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/AG-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/AG-1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/AG-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/AG-1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/AG-1/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/AR-1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/AR-1/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/AR-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/AR-1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/AR-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/AR-1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/AR-1/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/H-B/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/H-B/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/H-B/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/H-B/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/H-B/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/H-B/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/H-B/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/H-B/warehouse_distribution",
+      "gate": "review",
+      "reason": [
+        "no reviewer label passed the gates"
+      ],
+      "run_id": "grade-us-13139-c06c000c6e908bef"
+    },
+    {
+      "key": "us-13139/I-1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/I-1/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/I-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/I-1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/I-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/I-1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/I-1/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/I-2/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/I-2/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/I-2/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/I-2/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/I-2/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/I-2/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/I-2/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/MHP/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/MHP/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/MHP/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/MHP/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/MHP/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/MHP/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/MHP/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/O-I/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/O-I/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/O-I/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/O-I/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/O-I/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/O-I/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/O-I/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCD/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/PCD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCD/datacenter: absence gate: 'data center' occurs 72 times in the code and 64 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/PCD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 5 are not explained",
+        "us-13139/PCD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 11 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCD/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 6 are not explained",
+        "us-13139/PCD/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCFD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCFD/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/PCFD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCFD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCFD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCFD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCFD/datacenter: absence gate: 'data center' occurs 72 times in the code and 64 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCFD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCFD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/PCFD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 5 are not explained",
+        "us-13139/PCFD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 11 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCFD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCFD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PCFD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PCFD/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 6 are not explained",
+        "us-13139/PCFD/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PID/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PID/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/PID/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PID/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PID/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PID/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PID/datacenter: absence gate: 'data center' occurs 72 times in the code and 64 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PID/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PID/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/PID/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 5 are not explained",
+        "us-13139/PID/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 11 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PID/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PID/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PID/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PID/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 6 are not explained",
+        "us-13139/PID/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/POD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/POD/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/POD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/POD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/POD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/POD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/POD/datacenter: absence gate: 'data center' occurs 72 times in the code and 68 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/POD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/POD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/POD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 4 are not explained",
+        "us-13139/POD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 11 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/POD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/POD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/POD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/POD/warehouse_distribution: absence gate: 'freight' occurs 1 times in the code and 1 are not explained",
+        "us-13139/POD/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 7 are not explained",
+        "us-13139/POD/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 5 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PRD/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PRD/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/PRD/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PRD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PRD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PRD/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PRD/datacenter: absence gate: 'data center' occurs 72 times in the code and 68 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PRD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PRD/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs 4 times in the code and 4 are not explained",
+        "us-13139/PRD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 7 times in the code and 4 are not explained",
+        "us-13139/PRD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 14 times in the code and 11 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PRD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PRD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/PRD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/PRD/warehouse_distribution: absence gate: 'freight' occurs 1 times in the code and 1 are not explained",
+        "us-13139/PRD/warehouse_distribution: absence gate: 'truck terminal' occurs 7 times in the code and 7 are not explained",
+        "us-13139/PRD/warehouse_distribution: absence gate: 'warehouse' occurs 8 times in the code and 5 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1-L/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1-L/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/R-1-L/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1-L/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1-L/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1-L/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1-L/datacenter: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1-L/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1-L/heavy_industrial_hazmat: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1-L/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1-L/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1-L/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1-L/warehouse_distribution: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/R-1/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1/datacenter: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1/heavy_industrial_hazmat: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-1/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-1/warehouse_distribution: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-MF/battery_storage",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-MF/battery_storage: absence gate: 'battery' occurs 6 times in the code and 6 are not explained",
+        "us-13139/R-MF/battery_storage: absence gate: 'energy storage system' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-MF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-MF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 34 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-MF/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-MF/datacenter: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-MF/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-MF/heavy_industrial_hazmat: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-MF/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-MF/lp_gas: absence gate: 'liquefied petroleum gas' occurs 1 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-MF/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-MF/warehouse_distribution: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-TF/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-TF/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-TF/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-TF/datacenter: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-TF/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-TF/heavy_industrial_hazmat: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-TF/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-TF/warehouse_distribution: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-X/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-X/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-X/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-X/datacenter: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-X/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-X/heavy_industrial_hazmat: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/R-X/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/R-X/warehouse_distribution: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/S-S/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/S-S/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/S-S/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/S-S/datacenter: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/S-S/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/S-S/heavy_industrial_hazmat: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/S-S/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/S-S/warehouse_distribution: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/V-C/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/V-C/cannabis_cultivation_processing: absence gate: 'canopy' occurs 39 times in the code and 35 are not explained"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/V-C/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/V-C/datacenter: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/V-C/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/V-C/heavy_industrial_hazmat: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    },
+    {
+      "key": "us-13139/V-C/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13139/V-C/warehouse_distribution: section not found in source"
+      ],
+      "run_id": "extract-us-13139-20261011T195559Z"
+    }
+  ]
+}

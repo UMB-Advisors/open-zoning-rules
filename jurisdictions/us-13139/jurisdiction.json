@@ -1,0 +1,347 @@
+{
+  "jurisdiction_id": "us-13139",
+  "name": "Hall County (unincorporated)",
+  "type": "county",
+  "state": "GA",
+  "unlisted_rule": "prohibited_by_default",
+  "unlisted_rule_quote": {
+    "quote": "A principal use not specifically listed is prohibited unless the Director determines the use to be part of a use category as described below.",
+    "section": "7.1.4"
+  },
+  "code_version": "2026-09-10",
+  "conditional_zoning_unmapped": true,
+  "sources": [
+    "us-13139-udc",
+    "us-13139-gis-zoning"
+  ],
+  "table_key": [
+    {
+      "symbol": "P",
+      "status": "permitted",
+      "quote": "P = Permitted Use",
+      "section": "7.2.1"
+    },
+    {
+      "symbol": "SU",
+      "status": "conditional",
+      "quote": "SU = Special Use",
+      "section": "7.2.1"
+    },
+    {
+      "symbol": "CUP",
+      "status": "conditional",
+      "quote": "CUP = Conditional Use Permit",
+      "section": "7.2.1"
+    },
+    {
+      "symbol": "--",
+      "status": "prohibited",
+      "quote": "“--” = Not permitted",
+      "section": "7.2.1"
+    }
+  ],
+  "column_aliases": [
+    {
+      "district_code": "AG-1",
+      "column_header": "1-GA",
+      "quote": "Sec. 3.1. Agricultural (AG-1)",
+      "section": "3.1",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'AG-1' as '1-GA'"
+    },
+    {
+      "district_code": "AR-1",
+      "column_header": "1-RA",
+      "quote": "Sec. 3.2. Agricultural Residential 1 (AR-1)",
+      "section": "3.2",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'AR-1' as '1-RA'"
+    },
+    {
+      "district_code": "V-C",
+      "column_header": "C-V",
+      "quote": "Sec. 4.1. Vacation Cottage (V-C)",
+      "section": "4.1",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'V-C' as 'C-V'"
+    },
+    {
+      "district_code": "R-1-L",
+      "column_header": "L-1-R",
+      "quote": "Sec. 4.2. Residential 1 Low Density (R-1-L)",
+      "section": "4.2",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-1-L' as 'L-1-R'"
+    },
+    {
+      "district_code": "R-1",
+      "column_header": "1-R",
+      "quote": "Sec. 4.3. Residential 1 (R-1)",
+      "section": "4.3",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-1' as '1-R'"
+    },
+    {
+      "district_code": "R-TF",
+      "column_header": "FT-R",
+      "quote": "Sec. 4.4. Residential Two-Family (R-TF)",
+      "section": "4.4",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-TF' as 'FT-R'"
+    },
+    {
+      "district_code": "R-X",
+      "column_header": "X-R",
+      "quote": "Sec. 4.7. Residential Mixed (R-X)",
+      "section": "4.7",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-X' as 'X-R'"
+    },
+    {
+      "district_code": "R-MF",
+      "column_header": "FM-R",
+      "quote": "Sec. 4.8. Residential Multi-Family (R-MF)",
+      "section": "4.8",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'R-MF' as 'FM-R'"
+    },
+    {
+      "district_code": "MHP",
+      "column_header": "PHM",
+      "quote": "Sec. 4.9. Manufactured Home Park (MHP)",
+      "section": "4.9",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'MHP' as 'PHM'"
+    },
+    {
+      "district_code": "O-I",
+      "column_header": "I-O",
+      "quote": "Sec. 5.1. Office and Institutional (O-I)",
+      "section": "5.1",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'O-I' as 'I-O'"
+    },
+    {
+      "district_code": "H-B",
+      "column_header": "B-H",
+      "quote": "Sec. 5.3. Highway Business (H-B)",
+      "section": "5.3",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'H-B' as 'B-H'"
+    },
+    {
+      "district_code": "I-1",
+      "column_header": "1-I",
+      "quote": "Sec. 5.5. Light Industrial (I-1)",
+      "section": "5.5",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'I-1' as '1-I'"
+    },
+    {
+      "district_code": "I-2",
+      "column_header": "2-I",
+      "quote": "Sec. 5.6. Heavy Industrial (I-2)",
+      "section": "5.6",
+      "reason": "the allowed use table's column headers are rotated; the PDF text layer reads the vertical header 'I-2' as '2-I'"
+    }
+  ],
+  "districts": [
+    {
+      "district_code": "AG-1",
+      "district_name": "Agricultural",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "AG-1"
+      }
+    },
+    {
+      "district_code": "AR-1",
+      "district_name": "Agricultural Residential 1",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "AR-1"
+      }
+    },
+    {
+      "district_code": "H-B",
+      "district_name": "Highway Business",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "H-B"
+      }
+    },
+    {
+      "district_code": "I-1",
+      "district_name": "Light Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "I-1"
+      }
+    },
+    {
+      "district_code": "I-2",
+      "district_name": "Heavy Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "I-2"
+      }
+    },
+    {
+      "district_code": "MHP",
+      "district_name": "Manufactured Home Park",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "MHP"
+      }
+    },
+    {
+      "district_code": "O-I",
+      "district_name": "Office and Institutional",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "O-I"
+      }
+    },
+    {
+      "district_code": "PCD",
+      "district_name": "Planned Commercial Development (legacy planned development)",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "PCD"
+      }
+    },
+    {
+      "district_code": "PCFD",
+      "district_name": "Planned Commercial Farm District (legacy planned development)",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "PCFD"
+      }
+    },
+    {
+      "district_code": "PID",
+      "district_name": "Planned Industrial Development (legacy planned development)",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "PID"
+      }
+    },
+    {
+      "district_code": "POD",
+      "district_name": "Planned Office Development (legacy planned development)",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "POD"
+      }
+    },
+    {
+      "district_code": "PRD",
+      "district_name": "Planned Residential Development (legacy planned development)",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "PRD"
+      }
+    },
+    {
+      "district_code": "R-1",
+      "district_name": "Residential 1",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "R-1"
+      }
+    },
+    {
+      "district_code": "R-1-L",
+      "district_name": "Residential 1 Low Density",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "R-1-L"
+      }
+    },
+    {
+      "district_code": "R-MF",
+      "district_name": "Residential Multi-Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "R-MF"
+      }
+    },
+    {
+      "district_code": "R-TF",
+      "district_name": "Residential Two-Family",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "R-TF"
+      }
+    },
+    {
+      "district_code": "R-X",
+      "district_name": "Residential Mixed",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "R-X"
+      }
+    },
+    {
+      "district_code": "S-S",
+      "district_name": "Suburban Shopping",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "S-S"
+      }
+    },
+    {
+      "district_code": "V-C",
+      "district_name": "Vacation Cottage",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+        "field": "ZN_CLASS",
+        "value": "V-C"
+      }
+    }
+  ]
+}

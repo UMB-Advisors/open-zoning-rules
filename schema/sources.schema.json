@@ -92,6 +92,10 @@
           "triage": {
             "enum": ["ok", "geometry_restricted", "analyst_fetch"]
           },
+          "text_columns": {
+            "enum": [1, 2],
+            "description": "2: the PDF's prose is set in two columns; the raw text layer reads each page's left column, then its right column, on pages where the column gutter is clear. Absent or 1: unchanged."
+          },
           "arcgis_org_id": {
             "type": "string",
             "minLength": 1

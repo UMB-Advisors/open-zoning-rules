@@ -115,6 +115,207 @@
       "fetch_method": "single analyst request with the project user agent"
     },
     {
+      "source_id": "us-12099-gis-zoning",
+      "jurisdiction_id": "us-12099",
+      "kind": "gis_layer",
+      "url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/OpenData/Planning_Open_Data/MapServer/9?f=json",
+      "source_date": "2026-08-13",
+      "licence_terms": {
+        "text": "Copyright text \"Palm Beach County Planning Zoning & Building GIS/Information Technology Section\"; no licence or redistribution grant on the service."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "sha256": "095fe0c10a997c4799a03e47a294b783538d9acf460dc32d17679f978073c733",
+      "fetched_at": "2026-10-11T19:12:59Z"
+    },
+    {
+      "source_id": "us-12099-uldc-art1",
+      "jurisdiction_id": "us-12099",
+      "kind": "ordinance",
+      "url": "https://pbc.gov/uldc/pdf/Article1.pdf",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Disclaimer page: the ULDC content is made available \"for informational purposes only\" and \"provided 'as is' without warranty of any kind\". Enacted local law and public record.",
+        "url": "https://pbc.gov/uldc/disclaimer.htm"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "380ea8aaf18e5f2e3b783b4cb4061d75efd451fabe1f2655e6a7e21e8d6f48a1",
+      "fetched_at": "2026-10-11T19:12:18Z"
+    },
+    {
+      "source_id": "us-12099-uldc-art4",
+      "jurisdiction_id": "us-12099",
+      "kind": "ordinance",
+      "url": "https://pbc.gov/uldc/pdf/Article4.pdf",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Disclaimer page: the ULDC content is made available \"for informational purposes only\" and \"provided 'as is' without warranty of any kind\". Enacted local law and public record.",
+        "url": "https://pbc.gov/uldc/disclaimer.htm"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "3fc0558093bac76116300bdb84c07757b0404c5d77a118f5dc360b72feb2b951",
+      "fetched_at": "2026-10-11T19:12:48Z"
+    },
+    {
+      "source_id": "us-12099-uldc-art5",
+      "jurisdiction_id": "us-12099",
+      "kind": "ordinance",
+      "url": "https://pbc.gov/uldc/pdf/Article5.pdf",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "Disclaimer page: the ULDC content is made available \"for informational purposes only\" and \"provided 'as is' without warranty of any kind\". Enacted local law and public record.",
+        "url": "https://pbc.gov/uldc/disclaimer.htm"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "1fc46035da22281163259154fd21e7b0009156eed81ef8a28c31f2d6d1f436de",
+      "fetched_at": "2026-10-11T19:12:57Z"
+    },
+    {
+      "source_id": "us-12113-gis-zoning",
+      "jurisdiction_id": "us-12113",
+      "kind": "gis_layer",
+      "url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0?f=json",
+      "source_date": "2026-09-28",
+      "licence_terms": {
+        "text": "No licence on the item (licenseInfo empty). Item summary: \"This dataset is to be used to provide vector data for zoning analysis in Santa Rosa County.\"",
+        "url": "https://www.arcgis.com/home/item.html?id=673516b5c8834eda83f5e66e3518ea30"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "arcgis_org_id": "Eg4L1xEv2R3abuQd",
+      "sha256": "5634ca23556fad8826b32d69d9a864ed48448889c731f00f9aae27c69e7e1950",
+      "fetched_at": "2026-10-11T19:13:06Z"
+    },
+    {
+      "source_id": "us-12113-ldc",
+      "jurisdiction_id": "us-12113",
+      "kind": "ordinance",
+      "url": "https://www.santarosa.fl.gov/DocumentCenter/View/5820/Santa-Rosa-County-Land-Development-Code-",
+      "source_date": "2025-11-10",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "12f0ec8d024c95fa15af73f1cde340867068bb51d51bb9fcb6f1ca3e6e69ebae",
+      "fetched_at": "2026-10-11T19:13:03Z"
+    },
+    {
+      "source_id": "us-13057-gis-zoning",
+      "jurisdiction_id": "us-13057",
+      "kind": "gis_layer",
+      "url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3?f=json",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "No licence, copyright or terms on the service. The layer is parcel-based and carries owner names and mailing addresses: only the Zoning field is used."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "sha256": "ee6006d3bfbb2767a524598c62db7554244957b3ac556ef7f09c2591413f9717",
+      "fetched_at": "2026-10-11T19:13:36Z"
+    },
+    {
+      "source_id": "us-13057-zo-art16",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-16-Overlay-Zoning-District-Regulations20240904.pdf",
+      "source_date": "2024-09-04",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "7637cb6ffaf37cc5c9f6870873e8bab188812bd27ff40b0582292a81c42ded22",
+      "fetched_at": "2026-10-11T19:13:30Z"
+    },
+    {
+      "source_id": "us-13057-zo-art18",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-18-Amendments-and-Zoning-Proceduress03192024.pdf",
+      "source_date": "2024-03-19",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "6ae51d5a805021030f3aa4845af4973ce30c2ff0113890652a97a96d166468ed",
+      "fetched_at": "2026-10-11T19:13:33Z"
+    },
+    {
+      "source_id": "us-13057-zo-art4",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-4-Rules-and-Definitions20250617.pdf",
+      "source_date": "2025-06-17",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "99eec6a91fe64b0396f538db33ebf041de606729ec6c4d2c22d64e7a1f7190df",
+      "fetched_at": "2026-10-11T19:13:14Z"
+    },
+    {
+      "source_id": "us-13057-zo-art5",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-5-General-Provisions20231121.pdf",
+      "source_date": "2023-11-21",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "fe68dd48ed7aaeefe520ca5fab5d39ddf77ba63545be88093a66035ac38a89d0",
+      "fetched_at": "2026-10-11T19:13:17Z"
+    },
+    {
+      "source_id": "us-13057-zo-art6",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources/documents/ZoningOrdinance/Article06ZoningDistrictsandBoundaries030211.pdf",
+      "source_date": "2011-03-02",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "c75ece24642d6fb955ea94ffcfa9653733ba3944380d861db382bdc53f42b594",
+      "fetched_at": "2026-10-11T19:13:20Z"
+    },
+    {
+      "source_id": "us-13057-zo-art7",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-7-DistrictUsesandRegulations20250617.pdf",
+      "source_date": "2025-06-17",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "fcb8563f53ee585916c26da1ac3745073900d0cb97fd6c3db34a37bdb108c917",
+      "fetched_at": "2026-10-11T19:13:22Z"
+    },
+    {
+      "source_id": "us-13057-zo-t72",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Table-72-Permitted-Uses20250617.pdf",
+      "source_date": "2025-06-17",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "ca1ef1909b71eecbdcd2277af9e922977a508bda9901eb24e09e01d0ff1234fd",
+      "fetched_at": "2026-10-11T19:13:24Z"
+    },
+    {
       "source_id": "us-13097-gis-zoning",
       "jurisdiction_id": "us-13097",
       "kind": "gis_layer",
@@ -157,6 +358,35 @@
       },
       "redistribute_geometry": "unknown",
       "triage": "ok"
+    },
+    {
+      "source_id": "us-13139-gis-zoning",
+      "jurisdiction_id": "us-13139",
+      "kind": "gis_layer",
+      "url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15?f=json",
+      "source_date": "2026-09-24",
+      "licence_terms": {
+        "text": "No licence, copyright or terms on the service. Each polygon carries ZN_CONDITI (C or N), which flags conditional zoning; a district pointer cannot carry it."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "sha256": "64b8a0bdfa40735b57dd5856edb2854e051cdf648531b526de8c3ae6ae5eff15",
+      "fetched_at": "2026-10-11T19:13:12Z"
+    },
+    {
+      "source_id": "us-13139-udc",
+      "jurisdiction_id": "us-13139",
+      "kind": "ordinance",
+      "url": "https://www.hallcounty.org/DocumentCenter/View/23193/UDC----Adopted----09102026",
+      "source_date": "2026-09-10",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "text_columns": 2,
+      "sha256": "9a9fd6a19f837c1588a6cd2c69bb84cd7470f63c89bd388f72f3738d927dc343",
+      "fetched_at": "2026-10-11T19:13:09Z"
     },
     {
       "source_id": "us-51061-gis-zoning",

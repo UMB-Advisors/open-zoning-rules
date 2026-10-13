@@ -5,6 +5,10 @@
   "state": "GA",
   "unlisted_rule": "unknown",
   "code_version": "unknown",
+  "retired": {
+    "date": "2026-10-11",
+    "reason": "Swapped out for Hall County, GA on 2026-10-11 (maintainer approval): the zoning ordinance is reachable only through a code publisher. Kept only because frozen known answers cite it; out of scope and unscored."
+  },
   "conditional_zoning_unmapped": false,
   "sources": [
     "us-1304000-gis-zoning",

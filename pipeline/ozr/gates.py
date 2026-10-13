@@ -1126,6 +1126,22 @@ def _grade_errors(cell: dict) -> list[str]:
     return []
 
 
+def _code_status_errors(cell: dict, jurisdiction: dict) -> list[str]:
+    key = _cell_key(cell)
+    draft = jurisdiction.get("code_status") == "unadopted_draft"
+    labeled = cell.get("code_status") == "unadopted_draft"
+    if draft:
+        errors: list[str] = []
+        if not labeled:
+            errors.append(f"unadopted draft: {key}: cell must carry code_status unadopted_draft")
+        if cell.get("confidence") != "C":
+            errors.append(f"unadopted draft: {key}: confidence is C")
+        return errors
+    if labeled:
+        return [f"unadopted draft: {key}: cell carries code_status unadopted_draft without jurisdiction"]
+    return []
+
+
 def _staleness_errors(cell: dict, published: date, months: int) -> list[str]:
     checked_at = cell.get("checked_at")
     if not isinstance(checked_at, str):
@@ -1195,6 +1211,7 @@ def _one_cell_errors(
     if cell.get("status") == "unlisted" and OCR_TEXT_MARKER in absence_text and cell.get("confidence") != "C":
         errors.append(f"grade: {key}: absence evidence over a code with an OCR layer, confidence must be C")
     errors.extend(_grade_errors(cell))
+    errors.extend(_code_status_errors(cell, jurisdiction))
     if published is not None and months is not None:
         errors.extend(_staleness_errors(cell, published, months))
     errors.extend(_preemption_errors(cell, jurisdiction, rules))

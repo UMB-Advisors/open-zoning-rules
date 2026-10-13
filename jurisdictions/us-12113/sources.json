@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "source_id": "us-12113-ldc",
+      "jurisdiction_id": "us-12113",
+      "kind": "ordinance",
+      "url": "https://www.santarosa.fl.gov/DocumentCenter/View/5820/Santa-Rosa-County-Land-Development-Code-",
+      "source_date": "2025-11-10",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "12f0ec8d024c95fa15af73f1cde340867068bb51d51bb9fcb6f1ca3e6e69ebae",
+      "fetched_at": "2026-10-11T19:13:03Z"
+    },
+    {
+      "source_id": "us-12113-gis-zoning",
+      "jurisdiction_id": "us-12113",
+      "kind": "gis_layer",
+      "url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0?f=json",
+      "source_date": "2026-09-28",
+      "licence_terms": {
+        "text": "No licence on the item (licenseInfo empty). Item summary: \"This dataset is to be used to provide vector data for zoning analysis in Santa Rosa County.\"",
+        "url": "https://www.arcgis.com/home/item.html?id=673516b5c8834eda83f5e66e3518ea30"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "arcgis_org_id": "Eg4L1xEv2R3abuQd",
+      "sha256": "5634ca23556fad8826b32d69d9a864ed48448889c731f00f9aae27c69e7e1950",
+      "fetched_at": "2026-10-11T19:13:06Z"
+    }
+  ]
+}

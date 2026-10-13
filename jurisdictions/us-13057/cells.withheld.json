@@ -1,0 +1,1004 @@
+{
+  "jurisdiction_id": "us-13057",
+  "run_id": "grade-us-13057-c7dbf32d3f3be47c",
+  "withheld": [
+    {
+      "key": "us-13057/AG/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/AG/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 2 are not explained",
+        "us-13057/AG/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/AG/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/AG/datacenter: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/AG/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/AG/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/AG/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/AG/lp_gas: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/AG/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/AG/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/GC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/GC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 2 are not explained",
+        "us-13057/GC/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/GC/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/GC/datacenter: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/GC/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/GC/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/GC/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/GC/lp_gas: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/GC/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/GC/utility_generation: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/GC/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/GC/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/HI/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/HI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 2 are not explained",
+        "us-13057/HI/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/HI/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/HI/datacenter: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/LI/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/LI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 2 are not explained",
+        "us-13057/LI/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/LI/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/LI/utility_generation: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/NC/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/NC/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 2 are not explained",
+        "us-13057/NC/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/NC/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/NC/datacenter: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/NC/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/NC/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/NC/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/NC/lp_gas: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/NC/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/NC/utility_generation: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/NC/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/NC/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/OI/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/OI/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/OI/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/OI/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/OI/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/OI/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/OI/lp_gas: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/OI/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/OI/utility_generation: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/OI/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/OI/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/PDTND/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/PDTND/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/PDTND/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/PDTND/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/PDTND/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 4 times in the code and 3 are not explained",
+        "us-13057/PDTND/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 11 times in the code and 9 are not explained",
+        "us-13057/PDTND/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/PDTND/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/PDTND/lp_gas: absence gate: 'liquefied petroleum gas' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/PDTND/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/PDTND/warehouse_distribution: absence gate: 'freight' occurs 44 times in the code and 42 are not explained",
+        "us-13057/PDTND/warehouse_distribution: absence gate: 'loading dock' occurs 5 times in the code and 5 are not explained",
+        "us-13057/PDTND/warehouse_distribution: absence gate: 'logistics' occurs 2 times in the code and 1 are not explained",
+        "us-13057/PDTND/warehouse_distribution: absence gate: 'storage of goods' occurs 3 times in the code and 3 are not explained",
+        "us-13057/PDTND/warehouse_distribution: absence gate: 'warehouse' occurs 25 times in the code and 25 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/PUD/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/PUD/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/PUD/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/PUD/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/PUD/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 4 times in the code and 3 are not explained",
+        "us-13057/PUD/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 11 times in the code and 9 are not explained",
+        "us-13057/PUD/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/PUD/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/PUD/lp_gas: absence gate: 'liquefied petroleum gas' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/PUD/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/PUD/warehouse_distribution: absence gate: 'freight' occurs 44 times in the code and 42 are not explained",
+        "us-13057/PUD/warehouse_distribution: absence gate: 'loading dock' occurs 5 times in the code and 5 are not explained",
+        "us-13057/PUD/warehouse_distribution: absence gate: 'logistics' occurs 2 times in the code and 1 are not explained",
+        "us-13057/PUD/warehouse_distribution: absence gate: 'storage of goods' occurs 3 times in the code and 3 are not explained",
+        "us-13057/PUD/warehouse_distribution: absence gate: 'warehouse' occurs 25 times in the code and 25 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-15/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-15/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/R-15/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-15/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-15/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-15/datacenter: column header 'Res' is not the column for district 'R-15' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-15/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-15/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-15/heavy_industrial_hazmat: column header 'Res' is not the column for district 'R-15' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-15/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-15/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-15/lp_gas: column header 'Res' is not the column for district 'R-15' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-15/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-15/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-15/utility_generation: column header 'Res' is not the column for district 'R-15' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-15/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-15/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-15/warehouse_distribution: column header 'Res' is not the column for district 'R-15' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-20/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-20/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/R-20/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-20/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-20/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-20/datacenter: column header 'Res' is not the column for district 'R-20' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-20/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-20/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-20/heavy_industrial_hazmat: column header 'Res' is not the column for district 'R-20' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-20/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-20/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-20/lp_gas: column header 'Res' is not the column for district 'R-20' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-20/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-20/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-20/utility_generation: column header 'Res' is not the column for district 'R-20' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-20/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-20/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-20/warehouse_distribution: column header 'Res' is not the column for district 'R-20' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-30/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-30/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/R-30/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-30/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-30/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-30/datacenter: column header 'Res' is not the column for district 'R-30' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-30/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-30/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-30/heavy_industrial_hazmat: column header 'Res' is not the column for district 'R-30' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-30/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-30/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-30/lp_gas: column header 'Res' is not the column for district 'R-30' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-30/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-30/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-30/utility_generation: column header 'Res' is not the column for district 'R-30' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-30/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-30/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-30/warehouse_distribution: column header 'Res' is not the column for district 'R-30' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-40/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-40/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/R-40/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-40/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-40/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-40/datacenter: column header 'Res' is not the column for district 'R-40' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-40/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-40/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-40/heavy_industrial_hazmat: column header 'Res' is not the column for district 'R-40' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-40/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-40/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-40/lp_gas: column header 'Res' is not the column for district 'R-40' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-40/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-40/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-40/utility_generation: column header 'Res' is not the column for district 'R-40' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-40/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-40/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-40/warehouse_distribution: column header 'Res' is not the column for district 'R-40' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-60/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-60/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/R-60/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-60/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-60/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-60/datacenter: column header 'Res' is not the column for district 'R-60' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-60/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-60/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-60/heavy_industrial_hazmat: column header 'Res' is not the column for district 'R-60' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-60/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-60/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-60/lp_gas: column header 'Res' is not the column for district 'R-60' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-60/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-60/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-60/utility_generation: column header 'Res' is not the column for district 'R-60' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-60/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-60/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-60/warehouse_distribution: column header 'Res' is not the column for district 'R-60' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-80/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-80/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/R-80/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-80/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-80/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-80/datacenter: column header 'Res' is not the column for district 'R-80' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-80/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-80/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-80/heavy_industrial_hazmat: column header 'Res' is not the column for district 'R-80' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-80/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-80/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-80/lp_gas: column header 'Res' is not the column for district 'R-80' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-80/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-80/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-80/utility_generation: column header 'Res' is not the column for district 'R-80' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R-80/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R-80/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/R-80/warehouse_distribution: column header 'Res' is not the column for district 'R-80' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R10/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R10/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained",
+        "us-13057/R10/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R10/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R10/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 4 times in the code and 3 are not explained",
+        "us-13057/R10/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 11 times in the code and 9 are not explained",
+        "us-13057/R10/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 4 times in the code and 4 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R10/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R10/lp_gas: absence gate: 'liquefied petroleum gas' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/R10/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/R10/warehouse_distribution: absence gate: 'freight' occurs 44 times in the code and 42 are not explained",
+        "us-13057/R10/warehouse_distribution: absence gate: 'loading dock' occurs 5 times in the code and 5 are not explained",
+        "us-13057/R10/warehouse_distribution: absence gate: 'logistics' occurs 2 times in the code and 1 are not explained",
+        "us-13057/R10/warehouse_distribution: absence gate: 'storage of goods' occurs 3 times in the code and 3 are not explained",
+        "us-13057/R10/warehouse_distribution: absence gate: 'warehouse' occurs 25 times in the code and 25 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RA/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RA/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RA/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RA/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RA/datacenter: column header 'Res' is not the column for district 'RA' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RA/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RA/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RA/heavy_industrial_hazmat: column header 'Res' is not the column for district 'RA' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RA/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RA/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RA/lp_gas: column header 'Res' is not the column for district 'RA' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RA/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RA/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RA/utility_generation: column header 'Res' is not the column for district 'RA' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RA/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RA/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RA/warehouse_distribution: column header 'Res' is not the column for district 'RA' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RD-3/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RD-3/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RD-3/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RD-3/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RD-3/datacenter: column header 'Res' is not the column for district 'RD-3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RD-3/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RD-3/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RD-3/heavy_industrial_hazmat: column header 'Res' is not the column for district 'RD-3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RD-3/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RD-3/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RD-3/lp_gas: column header 'Res' is not the column for district 'RD-3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RD-3/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RD-3/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RD-3/utility_generation: column header 'Res' is not the column for district 'RD-3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RD-3/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RD-3/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RD-3/warehouse_distribution: column header 'Res' is not the column for district 'RD-3' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-10/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-10/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-10/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-10/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-10/datacenter: column header 'Res' is not the column for district 'RM-10' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-10/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-10/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-10/heavy_industrial_hazmat: column header 'Res' is not the column for district 'RM-10' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-10/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-10/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-10/lp_gas: column header 'Res' is not the column for district 'RM-10' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-10/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-10/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-10/utility_generation: column header 'Res' is not the column for district 'RM-10' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-10/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-10/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-10/warehouse_distribution: column header 'Res' is not the column for district 'RM-10' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-16/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-16/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-16/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-16/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-16/datacenter: column header 'Res' is not the column for district 'RM-16' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-16/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-16/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-16/heavy_industrial_hazmat: column header 'Res' is not the column for district 'RM-16' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-16/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-16/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-16/lp_gas: column header 'Res' is not the column for district 'RM-16' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-16/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-16/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-16/utility_generation: column header 'Res' is not the column for district 'RM-16' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RM-16/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RM-16/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RM-16/warehouse_distribution: column header 'Res' is not the column for district 'RM-16' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RTH/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RTH/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 6 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RTH/datacenter",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RTH/datacenter: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RTH/datacenter: column header 'Res' is not the column for district 'RTH' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RTH/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RTH/heavy_industrial_hazmat: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RTH/heavy_industrial_hazmat: column header 'Res' is not the column for district 'RTH' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RTH/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RTH/lp_gas: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RTH/lp_gas: column header 'Res' is not the column for district 'RTH' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RTH/utility_generation",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RTH/utility_generation: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RTH/utility_generation: column header 'Res' is not the column for district 'RTH' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RTH/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RTH/warehouse_distribution: table symbol '' does not map to status 'prohibited' through the table key",
+        "us-13057/RTH/warehouse_distribution: column header 'Res' is not the column for district 'RTH' (no formatting match or quoted column alias)"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RZL/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RZL/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 5 are not explained",
+        "us-13057/RZL/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RZL/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RZL/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 4 times in the code and 3 are not explained",
+        "us-13057/RZL/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 11 times in the code and 9 are not explained",
+        "us-13057/RZL/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 4 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RZL/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RZL/lp_gas: absence gate: 'liquefied petroleum gas' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/RZL/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/RZL/warehouse_distribution: absence gate: 'freight' occurs 44 times in the code and 42 are not explained",
+        "us-13057/RZL/warehouse_distribution: absence gate: 'loading dock' occurs 5 times in the code and 3 are not explained",
+        "us-13057/RZL/warehouse_distribution: absence gate: 'logistics' occurs 2 times in the code and 1 are not explained",
+        "us-13057/RZL/warehouse_distribution: absence gate: 'storage of goods' occurs 3 times in the code and 2 are not explained",
+        "us-13057/RZL/warehouse_distribution: absence gate: 'warehouse' occurs 25 times in the code and 22 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/TND/cannabis_cultivation_processing",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/TND/cannabis_cultivation_processing: absence gate: 'canopy' occurs 6 times in the code and 5 are not explained",
+        "us-13057/TND/cannabis_cultivation_processing: absence gate: 'marijuana' occurs 3 times in the code and 2 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/TND/heavy_industrial_hazmat",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/TND/heavy_industrial_hazmat: absence gate: 'chemical manufacturing' occurs 4 times in the code and 3 are not explained",
+        "us-13057/TND/heavy_industrial_hazmat: absence gate: 'hazardous waste' occurs 11 times in the code and 9 are not explained",
+        "us-13057/TND/heavy_industrial_hazmat: absence gate: 'heavy industrial' occurs 4 times in the code and 3 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/TND/lp_gas",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/TND/lp_gas: absence gate: 'liquefied petroleum gas' occurs 2 times in the code and 1 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    },
+    {
+      "key": "us-13057/TND/warehouse_distribution",
+      "gate": "extraction",
+      "reason": [
+        "us-13057/TND/warehouse_distribution: absence gate: 'freight' occurs 44 times in the code and 42 are not explained",
+        "us-13057/TND/warehouse_distribution: absence gate: 'loading dock' occurs 5 times in the code and 3 are not explained",
+        "us-13057/TND/warehouse_distribution: absence gate: 'logistics' occurs 2 times in the code and 1 are not explained",
+        "us-13057/TND/warehouse_distribution: absence gate: 'storage of goods' occurs 3 times in the code and 2 are not explained",
+        "us-13057/TND/warehouse_distribution: absence gate: 'warehouse' occurs 25 times in the code and 22 are not explained"
+      ],
+      "run_id": "extract-us-13057-20261011T211208Z"
+    }
+  ]
+}

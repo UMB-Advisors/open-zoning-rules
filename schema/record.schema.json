@@ -153,6 +153,10 @@
     "confidence": {
       "enum": ["A", "B", "C"]
     },
+    "code_status": {
+      "description": "Whether this cell is based only on an unadopted draft.",
+      "enum": ["adopted", "unadopted_draft"]
+    },
     "review": {
       "enum": ["agree", "disputed", "single", "human_correction"]
     },

@@ -5,6 +5,10 @@
   "state": "GA",
   "unlisted_rule": "unknown",
   "code_version": "unknown",
+  "retired": {
+    "date": "2026-10-11",
+    "reason": "Swapped out for Cherokee County, GA on 2026-10-11 (maintainer approval): the zoning ordinance exists only on a code publisher. Kept only because a frozen known-answer amendment cites it; out of scope and unscored."
+  },
   "conditional_zoning_unmapped": false,
   "sources": [
     "us-13077-zoning-division",

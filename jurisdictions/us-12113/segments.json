@@ -1,0 +1,423 @@
+{
+  "jurisdiction_id": "us-12113",
+  "sources": [
+    {
+      "source_id": "us-12113-ldc",
+      "sha256": "12f0ec8d024c95fa15af73f1cde340867068bb51d51bb9fcb6f1ca3e6e69ebae",
+      "pages": 509,
+      "tables": 72,
+      "text_sha256": "822265e68f11738b5a9ba2d51c1fcddbe87486e8db4b897dbb7dcb4ac88987f5"
+    }
+  ],
+  "segments": [
+    {
+      "kind": "use_table",
+      "source_id": "us-12113-ldc",
+      "pages": [
+        11,
+        12,
+        60,
+        61,
+        68,
+        69,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        131,
+        132,
+        185,
+        186,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        233,
+        234,
+        315,
+        316,
+        417,
+        418,
+        434,
+        435,
+        437,
+        438,
+        439,
+        443,
+        444,
+        447,
+        448,
+        470,
+        471
+      ],
+      "text": "segments/us-12113/use_table-us-12113-ldc.txt",
+      "text_sha256": "b31af3969e9a68444f3f16e4f3369a2492f25349b2867bb4d617cd147648c8d9",
+      "images": [
+        {
+          "page": 11,
+          "path": "segments/us-12113/us-12113-ldc-p11.png",
+          "sha256": "bb105801fbd56ad0a8ad5b021da6d30da5d0c6fb3138d06ab8295395391a9a95"
+        },
+        {
+          "page": 12,
+          "path": "segments/us-12113/us-12113-ldc-p12.png",
+          "sha256": "934f918eee39f3ed848d337566e0071ab4a3106fc5e624b4e5eac5124f3752a1"
+        },
+        {
+          "page": 60,
+          "path": "segments/us-12113/us-12113-ldc-p60.png",
+          "sha256": "3bede2b27c0f43632b4c0992e33ca4338d27ff5c46b4b921e2dcb8a997e14c5e"
+        },
+        {
+          "page": 61,
+          "path": "segments/us-12113/us-12113-ldc-p61.png",
+          "sha256": "785b7742f670f87f5c41d0d2a877e7d15f89792a1f4d3129b74bd4b51fa1837e"
+        },
+        {
+          "page": 68,
+          "path": "segments/us-12113/us-12113-ldc-p68.png",
+          "sha256": "64496cfe9a446bafa1c413feeaaae66ce2ee8fb61a265c6e939ddc79b2a1d2a0"
+        },
+        {
+          "page": 69,
+          "path": "segments/us-12113/us-12113-ldc-p69.png",
+          "sha256": "f4419f45d8da8cfb13637fd4b959530b988da50c51a95028d726b7150968871c"
+        },
+        {
+          "page": 95,
+          "path": "segments/us-12113/us-12113-ldc-p95.png",
+          "sha256": "2ba9b5a930cfb595727e64c78207bcd6c14b2b25ab18280ea1f5bee3d6af2501"
+        },
+        {
+          "page": 96,
+          "path": "segments/us-12113/us-12113-ldc-p96.png",
+          "sha256": "bd10eb51cf98e734a64a07744504bbcb7dbe1f18c95635d1e4a52cd556ac8361"
+        },
+        {
+          "page": 97,
+          "path": "segments/us-12113/us-12113-ldc-p97.png",
+          "sha256": "62c5e884dce7473dd8b1d3fb3a17ba16e3afb2bb3da8f92f350f0451b648d930"
+        },
+        {
+          "page": 98,
+          "path": "segments/us-12113/us-12113-ldc-p98.png",
+          "sha256": "245fe284572a74c0539236dbaa85fb1b1ff51309fa37fd8d8967fd71f4b12234"
+        },
+        {
+          "page": 99,
+          "path": "segments/us-12113/us-12113-ldc-p99.png",
+          "sha256": "f9e22eab4249b8e2c68a9d9bd06a26ba9af7225c6c52420862db7fe597f4c8d0"
+        },
+        {
+          "page": 100,
+          "path": "segments/us-12113/us-12113-ldc-p100.png",
+          "sha256": "dc4bc9698ab85ea43fd590aaac623a2fd2f2de42a8a6ec58832926827b79a728"
+        },
+        {
+          "page": 101,
+          "path": "segments/us-12113/us-12113-ldc-p101.png",
+          "sha256": "4e3235f7c48e9f20568797da2e12d5cfceb2c2bddba291346f2b2f6a514f0fab"
+        },
+        {
+          "page": 102,
+          "path": "segments/us-12113/us-12113-ldc-p102.png",
+          "sha256": "68fc1a3570eb85930626259f84c3b6381c0c1c3c15d1f2bb356c152aa3bd4987"
+        },
+        {
+          "page": 103,
+          "path": "segments/us-12113/us-12113-ldc-p103.png",
+          "sha256": "769f18a6d2d01f67700bd828c202413905a8a21f32c816eb46c9038a7b2fa103"
+        },
+        {
+          "page": 104,
+          "path": "segments/us-12113/us-12113-ldc-p104.png",
+          "sha256": "6d36feec0f748a0754929c7a660aee25587c010768df93c76f3b7d611ec68c50"
+        },
+        {
+          "page": 105,
+          "path": "segments/us-12113/us-12113-ldc-p105.png",
+          "sha256": "87ed9bd6034d81c3d01196903d40dd3fe634eaa5a839936e53ccee326a96c694"
+        },
+        {
+          "page": 106,
+          "path": "segments/us-12113/us-12113-ldc-p106.png",
+          "sha256": "2fc0b53c72033715252a210bf671371056d267143482ecb7238bd4d6d2146917"
+        },
+        {
+          "page": 107,
+          "path": "segments/us-12113/us-12113-ldc-p107.png",
+          "sha256": "0d3dc1aaae4df477a52eaf402ad55223437d55d55b30d4a6821db1c6cb006391"
+        },
+        {
+          "page": 108,
+          "path": "segments/us-12113/us-12113-ldc-p108.png",
+          "sha256": "35e1e47de18d6461c8520f086a84079d8b703c88e7b846d5bdb9476ba798c629"
+        },
+        {
+          "page": 109,
+          "path": "segments/us-12113/us-12113-ldc-p109.png",
+          "sha256": "8baa39a77bcfb3985fd1ce4ff6ab08f417a83781db5f9f36fc62a64587ea3865"
+        },
+        {
+          "page": 110,
+          "path": "segments/us-12113/us-12113-ldc-p110.png",
+          "sha256": "35420e747f0f1ce359735e5490d5e3a59866b497070236e52ead3f5ea921d29d"
+        },
+        {
+          "page": 111,
+          "path": "segments/us-12113/us-12113-ldc-p111.png",
+          "sha256": "1a998ae2959d58814bc659866ee7617a3339ff822c9b9fc04eff8795a77de25f"
+        },
+        {
+          "page": 112,
+          "path": "segments/us-12113/us-12113-ldc-p112.png",
+          "sha256": "e51da2a461385784da80b61bde1480ba498d3aa16a69e70a8a8eed2d3c638708"
+        },
+        {
+          "page": 113,
+          "path": "segments/us-12113/us-12113-ldc-p113.png",
+          "sha256": "1d9ac84f0b876b5f36a4d55d1b7db6628162ba95734fd46d21c9cdcfa1591d6a"
+        },
+        {
+          "page": 131,
+          "path": "segments/us-12113/us-12113-ldc-p131.png",
+          "sha256": "6a3c66b7e72277857470c5c754d451babba8dad7be9ae805b29ce7cf98fb29ea"
+        },
+        {
+          "page": 132,
+          "path": "segments/us-12113/us-12113-ldc-p132.png",
+          "sha256": "5661fdbd7b83f47961438635928125b37407aab072a46d770f6e6b166156d29b"
+        },
+        {
+          "page": 185,
+          "path": "segments/us-12113/us-12113-ldc-p185.png",
+          "sha256": "8c2930f4904362b3842bf08d0a6f5386f3d90e74e1a3955e6813056b61e460e1"
+        },
+        {
+          "page": 186,
+          "path": "segments/us-12113/us-12113-ldc-p186.png",
+          "sha256": "b7351bed19f5b62f395bf8fb0ffe35d9bb787c6f54f8a688363b197aa11d5af3"
+        },
+        {
+          "page": 191,
+          "path": "segments/us-12113/us-12113-ldc-p191.png",
+          "sha256": "3798dfe8c7748f84f7a285af700cd50f2a7aeeacbae1212604fdc73fad3bca9f"
+        },
+        {
+          "page": 192,
+          "path": "segments/us-12113/us-12113-ldc-p192.png",
+          "sha256": "c2c71184d5e4b221ad0a24eabed92abe777dd1ceb700edd8aaea579af60208b6"
+        },
+        {
+          "page": 193,
+          "path": "segments/us-12113/us-12113-ldc-p193.png",
+          "sha256": "92771f49fd87d2265478d0aeb055ad1f314b1ee73cc0b3d134f887b2abea9dd9"
+        },
+        {
+          "page": 194,
+          "path": "segments/us-12113/us-12113-ldc-p194.png",
+          "sha256": "c46dc0a479d04ad37f0214d94773b49cdcb9e7b2bae1079fa641671bb49d87ef"
+        },
+        {
+          "page": 195,
+          "path": "segments/us-12113/us-12113-ldc-p195.png",
+          "sha256": "1765fbcd802913d0f0fc672e9769ca578261146775fe7272ad651609de9c777b"
+        },
+        {
+          "page": 196,
+          "path": "segments/us-12113/us-12113-ldc-p196.png",
+          "sha256": "38c7b92a220dcc9e6228478cfb4021916e42e70ad17a0a111857539c7509a453"
+        },
+        {
+          "page": 233,
+          "path": "segments/us-12113/us-12113-ldc-p233.png",
+          "sha256": "aeb79a3bbac15a6f44322887797b1445cad89a38c552716dc7a8301e3453a25f"
+        },
+        {
+          "page": 234,
+          "path": "segments/us-12113/us-12113-ldc-p234.png",
+          "sha256": "312ddeaae84fc7560ce4dd779886f70dbf563baa41d06421840c664194234fd6"
+        },
+        {
+          "page": 315,
+          "path": "segments/us-12113/us-12113-ldc-p315.png",
+          "sha256": "0681c81035f07293f824d88b12b6eaa5838c3e060ccf075799e411d8cfaa79a2"
+        },
+        {
+          "page": 316,
+          "path": "segments/us-12113/us-12113-ldc-p316.png",
+          "sha256": "0386c6ad29b4a1f57e9e4fa6d491657ad7bee74423aa5c62d83381cfee69826f"
+        },
+        {
+          "page": 417,
+          "path": "segments/us-12113/us-12113-ldc-p417.png",
+          "sha256": "3d649f2580b1b5f531958c812f31f031a92edfa0a6957a2b540a0e8e8b42a32b"
+        },
+        {
+          "page": 418,
+          "path": "segments/us-12113/us-12113-ldc-p418.png",
+          "sha256": "b27a73bed4cdc126a32ef621f07715914a0436a198983ed199b52a6f4384051c"
+        },
+        {
+          "page": 434,
+          "path": "segments/us-12113/us-12113-ldc-p434.png",
+          "sha256": "064b699d816587bcfa3c8d75f709e7cd0543cce30f20db85adadef595712f79c"
+        },
+        {
+          "page": 435,
+          "path": "segments/us-12113/us-12113-ldc-p435.png",
+          "sha256": "91b885c6346064233a6f478f207119607e99e7b40a39e63073142efc816cf302"
+        },
+        {
+          "page": 437,
+          "path": "segments/us-12113/us-12113-ldc-p437.png",
+          "sha256": "44741b924b35a0a0ce323eeb5164d1c25aaf05335e83bf90aa7df6409ee2d545"
+        },
+        {
+          "page": 438,
+          "path": "segments/us-12113/us-12113-ldc-p438.png",
+          "sha256": "65715cf7b03c7d9785f22100a69d0b468d2fc45c9c86354f50f5ea9ec5cf69a1"
+        },
+        {
+          "page": 439,
+          "path": "segments/us-12113/us-12113-ldc-p439.png",
+          "sha256": "9c6e705a804f19fc63eef2266a1efc54ea13c58a6787ff4702969f0f6e2d2a75"
+        },
+        {
+          "page": 443,
+          "path": "segments/us-12113/us-12113-ldc-p443.png",
+          "sha256": "018eb384fd0bd32ebd686839b629e29ea21078f28eba31e9d17e3f8ef941200b"
+        },
+        {
+          "page": 444,
+          "path": "segments/us-12113/us-12113-ldc-p444.png",
+          "sha256": "6d3dd15cb8d0b11463f32b86b7106185e5acf83d68af2aa5923804d90f4b8850"
+        },
+        {
+          "page": 447,
+          "path": "segments/us-12113/us-12113-ldc-p447.png",
+          "sha256": "87a76dc722112963c7b2f1b90d1ad1733af9f761aed845cab956847720286c7d"
+        },
+        {
+          "page": 448,
+          "path": "segments/us-12113/us-12113-ldc-p448.png",
+          "sha256": "31d93d7e980f1a2b4a36759b761792fe2ff8a90f2d3f5539bfc59388f233dbdd"
+        },
+        {
+          "page": 470,
+          "path": "segments/us-12113/us-12113-ldc-p470.png",
+          "sha256": "840b9268f8fb1ca5b8ee04c0211a315138321a69e5b43a6abc216c9a0f0d84e9"
+        },
+        {
+          "page": 471,
+          "path": "segments/us-12113/us-12113-ldc-p471.png",
+          "sha256": "888c190ca9cea7514c785416dad587ee65aa1e7caf0931fc9488c9f26ab633f5"
+        }
+      ]
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-12113-ldc",
+      "pages": [
+        4,
+        7,
+        52,
+        60,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        179,
+        184,
+        189,
+        197,
+        209,
+        213,
+        307,
+        313,
+        330,
+        340,
+        350,
+        351,
+        356,
+        358,
+        365,
+        379,
+        380,
+        386,
+        409,
+        417,
+        421,
+        422,
+        469
+      ],
+      "text": "segments/us-12113/district_list-us-12113-ldc.txt",
+      "text_sha256": "2fda3bb481add621127d0295bbdf348f65a3fd26763e367db2aa39d861a8884c",
+      "images": []
+    }
+  ],
+  "missing": [
+    "definitions",
+    "not_listed"
+  ],
+  "missing_bytes": []
+}

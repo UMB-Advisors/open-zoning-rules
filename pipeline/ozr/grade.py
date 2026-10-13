@@ -171,6 +171,10 @@ def grade_jurisdiction(root: Path, jid: str, today: str) -> dict:
             cell = apply_grade_rules(
                 cell, date.fromisoformat(today), pending_amendment=_pending(base / "amendments.json", cell)
             )
+            if jurisdiction.get("code_status") == "unadopted_draft":
+                cell["code_status"] = "unadopted_draft"
+                if cell.get("confidence") in {"A", "B"}:
+                    cell["confidence"] = "C"
             source = cell.get("source", {})
             source_id = source.get("id") if isinstance(source, dict) else None
             text = (

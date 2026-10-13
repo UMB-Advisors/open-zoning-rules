@@ -62,6 +62,26 @@
         { "const": "unknown" }
       ]
     },
+    "retired": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "reason"],
+      "properties": {
+        "date": {
+          "type": "string",
+          "maxLength": 10,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "code_status": {
+      "description": "unadopted_draft: the only ordinance text the pipeline holds is a draft that has not been adopted. Every cell carries code_status unadopted_draft and is capped at grade C.",
+      "enum": ["adopted", "unadopted_draft"]
+    },
     "conditional_zoning_unmapped": {
       "type": "boolean"
     },

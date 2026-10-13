@@ -37,6 +37,35 @@ def make_pdf(pages: list[list[str]]) -> bytes:
     return bytes(output)
 
 
+def make_positioned_pdf(lines: list[tuple[float, float, str]]) -> bytes:
+    """Return a one-page PDF containing Helvetica text at explicit positions."""
+
+    def escape(text: str) -> str:
+        return text.replace("\\", "\\\\").replace("(", "\\(").replace(")", "\\)")
+
+    stream = b"\n".join(f"BT /F1 12 Tf {x:g} {y:g} Td ({escape(text)}) Tj ET".encode() for x, y, text in lines)
+    objects = [
+        b"<< /Type /Catalog /Pages 2 0 R >>",
+        b"<< /Type /Pages /Kids [3 0 R] /Count 1 >>",
+        (
+            b"<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 5 0 R >> >> "
+            b"/MediaBox [0 0 612 792] /Contents 4 0 R >>"
+        ),
+        f"<< /Length {len(stream)} >>\nstream\n".encode() + stream + b"\nendstream",
+        b"<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>",
+    ]
+    output = bytearray(b"%PDF-1.4\n")
+    offsets = [0]
+    for number, value in enumerate(objects, 1):
+        offsets.append(len(output))
+        output.extend(f"{number} 0 obj\n".encode() + value + b"\nendobj\n")
+    xref = len(output)
+    output.extend(f"xref\n0 {len(objects) + 1}\n0000000000 65535 f \n".encode())
+    output.extend(b"".join(f"{offset:010} 00000 n \n".encode() for offset in offsets[1:]))
+    output.extend(f"trailer\n<< /Size {len(objects) + 1} /Root 1 0 R >>\nstartxref\n{xref}\n%%EOF\n".encode())
+    return bytes(output)
+
+
 def make_table_pdf(
     rows: list[list[list[str]]], widths: list[float], line_height: float = 11, padding: float = 3, bands: bool = True
 ) -> bytes:

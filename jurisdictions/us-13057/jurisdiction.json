@@ -1,0 +1,287 @@
+{
+  "jurisdiction_id": "us-13057",
+  "name": "Cherokee County (unincorporated)",
+  "type": "county",
+  "state": "GA",
+  "unlisted_rule": "prohibited_by_default",
+  "unlisted_rule_quote": {
+    "quote": "No use shall be permitted, except in the zoning districts indicated and for",
+    "section": "7.6"
+  },
+  "code_version": "unknown",
+  "conditional_zoning_unmapped": true,
+  "sources": [
+    "us-13057-zo-art4",
+    "us-13057-zo-art5",
+    "us-13057-zo-art6",
+    "us-13057-zo-art7",
+    "us-13057-zo-t72",
+    "us-13057-zo-art16",
+    "us-13057-zo-art18",
+    "us-13057-gis-zoning"
+  ],
+  "table_key": [
+    {
+      "symbol": "O",
+      "status": "permitted",
+      "quote": "Open Use O",
+      "section": "Table 7.2"
+    },
+    {
+      "symbol": "R",
+      "status": "permitted",
+      "quote": "Restricted Use - See 7.7 R",
+      "section": "Table 7.2"
+    },
+    {
+      "symbol": "S",
+      "status": "conditional",
+      "quote": "Special Use Permit S",
+      "section": "Table 7.2"
+    }
+  ],
+  "districts": [
+    {
+      "district_code": "AG",
+      "district_name": "General Agricultural District",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "AG"
+      }
+    },
+    {
+      "district_code": "GC",
+      "district_name": "General Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "GC"
+      }
+    },
+    {
+      "district_code": "HI",
+      "district_name": "Heavy Industrial District",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "HI"
+      }
+    },
+    {
+      "district_code": "LI",
+      "district_name": "Light Industrial District",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "LI"
+      }
+    },
+    {
+      "district_code": "NC",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "NC"
+      }
+    },
+    {
+      "district_code": "OI",
+      "district_name": "Office/Institutional District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "OI"
+      }
+    },
+    {
+      "district_code": "PDTND",
+      "district_name": "PDTND (layer value; planned traditional neighborhood development)",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "PDTND"
+      }
+    },
+    {
+      "district_code": "PUD",
+      "district_name": "PUD (layer value; planned unit development)",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "PUD"
+      }
+    },
+    {
+      "district_code": "R10",
+      "district_name": "R10 (layer value; not listed in Article 6)",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "R10"
+      }
+    },
+    {
+      "district_code": "R-15",
+      "district_name": "Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "R15"
+      }
+    },
+    {
+      "district_code": "R-20",
+      "district_name": "Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "R20"
+      }
+    },
+    {
+      "district_code": "R-30",
+      "district_name": "Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "R30"
+      }
+    },
+    {
+      "district_code": "R-40",
+      "district_name": "Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "R40"
+      }
+    },
+    {
+      "district_code": "R-60",
+      "district_name": "Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "R60"
+      }
+    },
+    {
+      "district_code": "R-80",
+      "district_name": "Estate Residential District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "R80"
+      }
+    },
+    {
+      "district_code": "RA",
+      "district_name": "Single-Family Attached Residential District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "RA"
+      }
+    },
+    {
+      "district_code": "RD-3",
+      "district_name": "Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "RD3"
+      }
+    },
+    {
+      "district_code": "RM-10",
+      "district_name": "Multi-Family Residential District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "RM10"
+      }
+    },
+    {
+      "district_code": "RM-16",
+      "district_name": "Multi-Family Residential District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "RM16"
+      }
+    },
+    {
+      "district_code": "RTH",
+      "district_name": "Townhouse Residential District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "RTH"
+      }
+    },
+    {
+      "district_code": "RZL",
+      "district_name": "Single-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "RZL"
+      }
+    },
+    {
+      "district_code": "TND",
+      "district_name": "Traditional Neighborhood Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+        "field": "Zoning",
+        "value": "TND"
+      }
+    }
+  ]
+}

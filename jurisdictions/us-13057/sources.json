@@ -1,0 +1,116 @@
+{
+  "sources": [
+    {
+      "source_id": "us-13057-zo-art4",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-4-Rules-and-Definitions20250617.pdf",
+      "source_date": "2025-06-17",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "99eec6a91fe64b0396f538db33ebf041de606729ec6c4d2c22d64e7a1f7190df",
+      "fetched_at": "2026-10-11T19:13:14Z"
+    },
+    {
+      "source_id": "us-13057-zo-art5",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-5-General-Provisions20231121.pdf",
+      "source_date": "2023-11-21",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "fe68dd48ed7aaeefe520ca5fab5d39ddf77ba63545be88093a66035ac38a89d0",
+      "fetched_at": "2026-10-11T19:13:17Z"
+    },
+    {
+      "source_id": "us-13057-zo-art6",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources/documents/ZoningOrdinance/Article06ZoningDistrictsandBoundaries030211.pdf",
+      "source_date": "2011-03-02",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "c75ece24642d6fb955ea94ffcfa9653733ba3944380d861db382bdc53f42b594",
+      "fetched_at": "2026-10-11T19:13:20Z"
+    },
+    {
+      "source_id": "us-13057-zo-art7",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-7-DistrictUsesandRegulations20250617.pdf",
+      "source_date": "2025-06-17",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "fcb8563f53ee585916c26da1ac3745073900d0cb97fd6c3db34a37bdb108c917",
+      "fetched_at": "2026-10-11T19:13:22Z"
+    },
+    {
+      "source_id": "us-13057-zo-t72",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Table-72-Permitted-Uses20250617.pdf",
+      "source_date": "2025-06-17",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "ca1ef1909b71eecbdcd2277af9e922977a508bda9901eb24e09e01d0ff1234fd",
+      "fetched_at": "2026-10-11T19:13:24Z"
+    },
+    {
+      "source_id": "us-13057-zo-art16",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-16-Overlay-Zoning-District-Regulations20240904.pdf",
+      "source_date": "2024-09-04",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "7637cb6ffaf37cc5c9f6870873e8bab188812bd27ff40b0582292a81c42ded22",
+      "fetched_at": "2026-10-11T19:13:30Z"
+    },
+    {
+      "source_id": "us-13057-zo-art18",
+      "jurisdiction_id": "us-13057",
+      "kind": "ordinance",
+      "url": "https://cherokeecountyga.gov/Zoning/_resources//Article-18-Amendments-and-Zoning-Proceduress03192024.pdf",
+      "source_date": "2024-03-19",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok",
+      "sha256": "6ae51d5a805021030f3aa4845af4973ce30c2ff0113890652a97a96d166468ed",
+      "fetched_at": "2026-10-11T19:13:33Z"
+    },
+    {
+      "source_id": "us-13057-gis-zoning",
+      "jurisdiction_id": "us-13057",
+      "kind": "gis_layer",
+      "url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3?f=json",
+      "source_date": "unknown",
+      "licence_terms": {
+        "text": "No licence, copyright or terms on the service. The layer is parcel-based and carries owner names and mailing addresses: only the Zoning field is used."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "sha256": "ee6006d3bfbb2767a524598c62db7554244957b3ac556ef7f09c2591413f9717",
+      "fetched_at": "2026-10-11T19:13:36Z"
+    }
+  ]
+}
