@@ -88,11 +88,14 @@ def test_codex_adapter_copies_images_and_parses_usage(tmp_path: Path) -> None:
 
 
 def test_grok_adapter_is_text_only(tmp_path: Path) -> None:
+    # --verbatim: without it the CLI moves prompt text past ~100k characters into a file the
+    # tool-less reviewer cannot read (docs/test-results/z0.14_grok_verbatim.v0.1.0.md).
     fixture = (Path(__file__).parent / "fixtures" / "cli" / "grok.json").read_text()
 
     def runner(argv, **kwargs):
         assert argv == [
             "grok",
+            "--verbatim",
             "--prompt-file",
             "prompt.txt",
             "--output-format",

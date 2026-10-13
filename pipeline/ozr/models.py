@@ -273,8 +273,11 @@ def run_grok(
 ) -> ModelResult:
     """Run Grok on text-only inputs from its isolated working directory."""
     (workdir / "prompt.txt").write_text(prompt, encoding="utf-8")
+    # --verbatim stops the CLI moving prompt text past ~100k characters into a side file,
+    # which this tool-less reviewer cannot read.
     argv = [
         "grok",
+        "--verbatim",
         "--prompt-file",
         "prompt.txt",
         "--output-format",
