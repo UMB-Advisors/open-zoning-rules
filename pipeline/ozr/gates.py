@@ -28,6 +28,7 @@ _CONFIDENCE = {"A", "B", "C"}
 _REVIEW = {"agree", "disputed", "single", "human_correction"}
 _KINDS = {"table", "prose", "absence"}
 TABLE_TEXT_MARKER = "\n\n=== reconstructed table text (from PDF rulings) ===\n"
+OCR_TEXT_MARKER = "\n\n=== OCR text (tesseract; pages with no text layer; may misread) ===\n"
 
 
 @lru_cache(maxsize=65536)
@@ -47,19 +48,22 @@ def contains(haystack: str, needle: str) -> bool:
     return bool(needle) and needle in canonical(haystack)
 
 
-def text_layers(text: str) -> tuple[str, str]:
-    """Split raw PDF text from deterministic ruling-reconstructed table text."""
-    raw, marker, table = text.partition(TABLE_TEXT_MARKER)
-    return raw, table if marker else ""
+def text_layers(text: str) -> tuple[str, str, str]:
+    """Split raw PDF, reconstructed table, and OCR text without crossing boundaries."""
+    before_ocr, marker, ocr = text.partition(OCR_TEXT_MARKER)
+    raw, table_marker, table = before_ocr.partition(TABLE_TEXT_MARKER)
+    return raw, table if table_marker else "", ocr if marker else ""
 
 
 def match_layer(text: str, needle: str) -> str | None:
     """Return the text layer containing a needle without crossing their boundary."""
-    raw, table = text_layers(text)
+    raw, table, ocr = text_layers(text)
     if contains(raw, needle):
         return "raw"
     if contains(table, needle):
         return "table"
+    if contains(ocr, needle):
+        return "ocr"
     return None
 
 
@@ -70,11 +74,13 @@ def _label_in(text: str, needle: str) -> bool:
 
 
 def _label_match_layer(text: str, needle: str) -> str | None:
-    raw, table = text_layers(text)
+    raw, table, ocr = text_layers(text)
     if _label_in(raw, needle):
         return "raw"
     if _label_in(table, needle):
         return "table"
+    if _label_in(ocr, needle):
+        return "ocr"
     return None
 
 
@@ -90,7 +96,10 @@ def matched_layers(cell: dict, text: str) -> dict[str, str]:
         (field, definition.get(key))
         for field, key in (("definition_quote", "quote"), ("definition_section", "section"))
     )
-    return {field: layer for field, value in fields if not _blank(value) and (layer := match_layer(text, value))}
+    matched = {field: layer for field, value in fields if not _blank(value) and (layer := match_layer(text, value))}
+    if evidence.get("kind") == "table" and (layer := table_grid_layer(cell, text)) is not None:
+        matched["symbol"] = layer
+    return matched
 
 
 def _cell_key(cell: dict) -> str:
@@ -374,12 +383,11 @@ def _table_symbol_maps(symbol: str, status: object, taxonomy: dict, jurisdiction
 @lru_cache(maxsize=16)
 def _grid_rows(table: str) -> tuple[tuple[str, ...], ...]:
     """Parse the reconstructed table layer once into comparable cell rows."""
-    lines = [line for line in table.splitlines() if line.strip() and not line.startswith("[page ")]
+    lines = [line for line in table.splitlines() if line.strip() and not line.startswith(("[page ", "[ocr engine:"))]
     return tuple(tuple(canonical(cell).casefold() for cell in line.split(" | ")) for line in lines)
 
 
-def _table_grid_errors(key: str, row_label: str, column_header: str, symbol: str, text: str) -> list[str]:
-    _, table = text_layers(text)
+def _grid_values(row_label: str, column_header: str, table: str) -> list[str]:
     rows = _grid_rows(table)
     wanted_row, wanted_column = canonical(row_label).casefold(), canonical(column_header).casefold()
     values: list[str] = []
@@ -394,6 +402,31 @@ def _table_grid_errors(key: str, row_label: str, column_header: str, symbol: str
                 break
             values.append(row[header.index(wanted_column)])
             break
+    return values
+
+
+def table_grid_layer(cell: dict, text: str) -> str | None:
+    """Return the first table layer that can place a table evidence cell."""
+    evidence = _mapping(cell.get("evidence"))
+    if evidence.get("kind") != "table":
+        return None
+    row, column = evidence.get("row_label"), evidence.get("column_header")
+    if not isinstance(row, str) or not isinstance(column, str):
+        return None
+    _, table, ocr = text_layers(text)
+    return next((name for name, layer in (("table", table), ("ocr", ocr)) if _grid_values(row, column, layer)), None)
+
+
+def ocr_only(cell: dict, text: str) -> bool:
+    """Return whether any applicable evidence field was matched only in OCR text."""
+    return "ocr" in matched_layers(cell, text).values()
+
+
+def _table_grid_errors(key: str, row_label: str, column_header: str, symbol: str, text: str) -> list[str]:
+    _, table, ocr = text_layers(text)
+    values = _grid_values(row_label, column_header, table)
+    if not values:
+        values = _grid_values(row_label, column_header, ocr)
     if not values:
         return [f"{key}: table grid: cannot place '{row_label}' under '{column_header}' in the reconstructed table"]
     expected = canonical(symbol).casefold()
@@ -716,6 +749,8 @@ def _one_cell_errors(
     if registered is None or registered.get("url") != _mapping(cell.get("source")).get("url"):
         errors.append(f"{key}: source {source_id} is not in sources.json with this url")
     errors.extend(cell_errors(cell, text, taxonomy, jurisdiction, denylist, absence_text=absence_text))
+    if ocr_only(cell, text) and cell.get("confidence") != "C":
+        errors.append(f"grade: {key}: evidence matched only in OCR text, confidence must be C")
     errors.extend(_grade_errors(cell))
     if published is not None and months is not None:
         errors.extend(_staleness_errors(cell, published, months))

@@ -1,0 +1,2034 @@
+[
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "BP",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | BP | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "BP",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "BP",
+    "use_class": "battery_storage",
+    "status": "conditional",
+    "local_uses": [
+      "Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | BP | SE",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "BP",
+      "symbol": "SE"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "agree",
+    "confidence": "B",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "C-1",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | C-1 | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "C-1",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "C-1",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | C-1 | ",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "C-1",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "C-2",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | C-2 | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "C-2",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "C-2",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | C-2 | ",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "C-2",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "C-3",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | C-3 | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "C-3",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "C-3",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | C-3 | ",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "C-3",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "CV",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | CV | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "CV",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "CV",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | CV | ",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "CV",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Blank cell. Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "I-1",
+    "use_class": "battery_storage",
+    "status": "conditional",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | I-1 | SE",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "I-1",
+      "symbol": "SE"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Tier 1 systems are defined by a smaller capacity but are not listed in the table.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "I-2",
+    "use_class": "utility_generation",
+    "status": "conditional",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | I-2 | SE",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "I-2",
+      "symbol": "SE"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "I-2",
+    "use_class": "battery_storage",
+    "status": "conditional",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | I-2 | SE",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "I-2",
+      "symbol": "SE"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "M-G",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
+      "section": "4-1002"
+    },
+    "source": {
+      "id": "us-51061-zo-art4",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "communication facility",
+        "quote": "B. Electric, gas, water, sewer, and communication facilities, including transformers,",
+        "section": "4-104",
+        "reason": "PRD secondary use for local distribution utilities; not a server building and not a Marshall district use."
+      },
+      {
+        "term": "communication facility",
+        "quote": "(b) Electric, gas, water, sewer and communication facilities, including",
+        "section": "4-604",
+        "reason": "PCID secondary distribution utility use; not a server building and not a Marshall district use."
+      },
+      {
+        "term": "data center",
+        "quote": "rezoning. Data Center uses should only be located within a Service District when",
+        "section": "3-200",
+        "reason": "Purpose statement for BP district; the Marshall use table lists no data center."
+      },
+      {
+        "term": "data center",
+        "quote": "25. A data center use shall only be located in a Service District when proposed in the Business Park District.",
+        "section": "3-400",
+        "reason": "Footnote limited to the BP district."
+      },
+      {
+        "term": "data center",
+        "quote": "Data Center using recycled water for cooling and with all new power lines,",
+        "section": "4-603",
+        "reason": "Principal use in the separate PCID district."
+      },
+      {
+        "term": "data center",
+        "quote": "(c) Data Center not using recycled water for cooling and with all new power",
+        "section": "4-605",
+        "reason": "Special exception use in the separate PCID district."
+      }
+    ],
+    "notes": "Marshall use table (partial page seen) does not list the class. Unlisted_rule is prohibited_by_default; key states uses not listed also not allowed. Only part of the table is visible, so flag for review.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "M-G",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
+      "section": "4-1002"
+    },
+    "source": {
+      "id": "us-51061-zo-art4",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "propane",
+        "quote": "products such as mulch, fertilizer, lime or propane; and other supplies as needed for",
+        "section": "4-1004",
+        "reason": "Mentions propane only as a product an agricultural supplier may stock; not a bulk LP-gas storage use."
+      }
+    ],
+    "notes": "Unlisted_rule is prohibited_by_default; flag for review.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "M-R",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
+      "section": "4-1002"
+    },
+    "source": {
+      "id": "us-51061-zo-art4",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "communication facility",
+        "quote": "B. Electric, gas, water, sewer, and communication facilities, including transformers,",
+        "section": "4-104",
+        "reason": "PRD secondary use for local distribution utilities; not a server building and not a Marshall district use."
+      },
+      {
+        "term": "communication facility",
+        "quote": "(b) Electric, gas, water, sewer and communication facilities, including",
+        "section": "4-604",
+        "reason": "PCID secondary distribution utility use; not a server building and not a Marshall district use."
+      },
+      {
+        "term": "data center",
+        "quote": "rezoning. Data Center uses should only be located within a Service District when",
+        "section": "3-200",
+        "reason": "Purpose statement for BP district; the Marshall use table lists no data center."
+      },
+      {
+        "term": "data center",
+        "quote": "25. A data center use shall only be located in a Service District when proposed in the Business Park District.",
+        "section": "3-400",
+        "reason": "Footnote limited to the BP district."
+      },
+      {
+        "term": "data center",
+        "quote": "Data Center using recycled water for cooling and with all new power lines,",
+        "section": "4-603",
+        "reason": "Principal use in the separate PCID district."
+      },
+      {
+        "term": "data center",
+        "quote": "(c) Data Center not using recycled water for cooling and with all new power",
+        "section": "4-605",
+        "reason": "Special exception use in the separate PCID district."
+      }
+    ],
+    "notes": "Same as M-G. Unlisted_rule is prohibited_by_default; only part of the Marshall table is visible, so flag for review.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "M-R",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "If Blank, Use Not Allowed (Uses not listed also not allowed)",
+      "section": "4-1002"
+    },
+    "source": {
+      "id": "us-51061-zo-art4",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "unlisted",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "absence_hits": [
+      {
+        "term": "propane",
+        "quote": "products such as mulch, fertilizer, lime or propane; and other supplies as needed for",
+        "section": "4-1004",
+        "reason": "Mentions propane only as a product an agricultural supplier may stock; not a bulk LP-gas storage use."
+      }
+    ],
+    "notes": "Unlisted_rule is prohibited_by_default; flag for review.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "disputed",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "R-1",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | R-1 | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "R-1",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "R-1",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | R-1 | ",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "R-1",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Key: BLANK - Use not allowed as listed in the zoning district represented by that column. Only Tier 2 is listed in the chart.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "R-2",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | R-2 | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "R-2",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "R-2",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | R-2 | ",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "R-2",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Key: BLANK - Use not allowed as listed in the zoning district represented by that column. Only Tier 2 is listed in the chart.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "R-4",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | R-4 | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "R-4",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "R-4",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | R-4 | ",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "R-4",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Key: BLANK - Use not allowed as listed in the zoning district represented by that column. Only Tier 2 is listed in the chart.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RA",
+    "use_class": "utility_generation",
+    "status": "conditional",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | RA | SE",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "RA",
+      "symbol": "SE"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RA",
+    "use_class": "battery_storage",
+    "status": "conditional",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | RA | SE",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "RA",
+      "symbol": "SE"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "conditional",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RC",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "5. Electrical generating plants and facilities | RC | ",
+      "section": "3-320",
+      "row_label": "5. Electrical generating plants and facilities",
+      "column_header": "RC",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Key: BLANK - Use not allowed as listed in the zoning district represented by that column.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RC",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "1.a. Battery Energy Storage System, Tier 2 | RC | ",
+      "section": "3-320",
+      "row_label": "1.a. Battery Energy Storage System, Tier 2",
+      "column_header": "RC",
+      "symbol": ""
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Key: BLANK - Use not allowed as listed in the zoning district represented by that column. Only Tier 2 is listed in the chart.",
+    "matched_text": {
+      "section": "raw",
+      "row_label": "raw",
+      "column_header": "raw",
+      "symbol": "table"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RR-2",
+    "use_class": "datacenter",
+    "status": "prohibited",
+    "local_uses": [
+      "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Data Center row under 3-316 is blank in RR-2 (permitted only in BP).",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RR-2",
+    "use_class": "warehouse_distribution",
+    "status": "prohibited",
+    "local_uses": [
+      "b. Distribution Center on 10 acres or less",
+      "c. Distribution Center on more than 10 acres",
+      "3. Motor freight terminal"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Distribution center and motor freight terminal rows are blank in RR-2.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RR-2",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
+      "1. General Industrial Use substantially screened from view, less than one acre",
+      "11. Petroleum products bulk storage"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "All mapped 3-315/3-317 rows are blank in RR-2.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RR-2",
+    "use_class": "lp_gas",
+    "status": "prohibited",
+    "local_uses": [
+      "11. Petroleum products bulk storage"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Mapped via bulk fuel storage; row is blank in RR-2.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RR-2",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Row is blank in RR-2 (SE only in RA and I-2).",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "RR-2",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Row is blank in RR-2 (SE only in RA, BP, I-1, I-2).",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "TH",
+    "use_class": "datacenter",
+    "status": "prohibited",
+    "local_uses": [
+      "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Data Center row under 3-316 is blank in TH.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "TH",
+    "use_class": "warehouse_distribution",
+    "status": "prohibited",
+    "local_uses": [
+      "b. Distribution Center on 10 acres or less",
+      "c. Distribution Center on more than 10 acres",
+      "3. Motor freight terminal"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Distribution center and motor freight terminal rows are blank in TH.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "TH",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
+      "1. General Industrial Use substantially screened from view, less than one acre",
+      "11. Petroleum products bulk storage"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "All mapped 3-315/3-317 rows are blank in TH.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "TH",
+    "use_class": "lp_gas",
+    "status": "prohibited",
+    "local_uses": [
+      "11. Petroleum products bulk storage"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Mapped via bulk fuel storage; row is blank in TH.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "TH",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Row is blank in TH.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "TH",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Row is blank in TH.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "V",
+    "use_class": "datacenter",
+    "status": "prohibited",
+    "local_uses": [
+      "Data Center using recycled water for cooling and with all new power lines, including transmission or substation feedlines, placed underground"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Data Center row under 3-316 is blank in V.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "V",
+    "use_class": "warehouse_distribution",
+    "status": "prohibited",
+    "local_uses": [
+      "b. Distribution Center on 10 acres or less",
+      "c. Distribution Center on more than 10 acres",
+      "3. Motor freight terminal"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Distribution center and motor freight terminal rows are blank in V.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "V",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Heavy Industrial Uses (those uses specifically listed in 5-1703)",
+      "1. General Industrial Use substantially screened from view, less than one acre",
+      "11. Petroleum products bulk storage"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "All mapped 3-315/3-317 rows are blank in V. The V column shows SE only for abattoir wild game processing, which is not mapped to this class.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "V",
+    "use_class": "lp_gas",
+    "status": "prohibited",
+    "local_uses": [
+      "11. Petroleum products bulk storage"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Mapped via bulk fuel storage; row is blank in V.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C"
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "V",
+    "use_class": "utility_generation",
+    "status": "prohibited",
+    "local_uses": [
+      "5. Electrical generating plants and facilities"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Row is blank in V.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-utility_generation",
+      "effect": "local_standards_capped"
+    }
+  },
+  {
+    "jurisdiction_id": "us-51061",
+    "district_code": "V",
+    "use_class": "battery_storage",
+    "status": "prohibited",
+    "local_uses": [
+      "1.a. Battery Energy Storage System, Tier 2"
+    ],
+    "evidence": {
+      "kind": "prose",
+      "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+      "section": "3-300"
+    },
+    "source": {
+      "id": "us-51061-zo-art3",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "date": "2026-10-10"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-10-11",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-10-11",
+        "from": null,
+        "to": "prohibited",
+        "by": "claude",
+        "ref": "extract-us-51061-20261011T120736Z"
+      }
+    ],
+    "notes": "Row is blank in V.",
+    "matched_text": {
+      "section": "raw",
+      "quote": "raw"
+    },
+    "review": "single",
+    "confidence": "C",
+    "preemption": {
+      "state_rule_id": "va-battery_storage",
+      "effect": "local_ban_preempted"
+    }
+  }
+]

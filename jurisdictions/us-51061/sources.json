@@ -1,11 +1,161 @@
 {
   "sources": [
     {
+      "source_id": "us-51061-zo-art3",
+      "jurisdiction_id": "us-51061",
+      "kind": "ordinance",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33509/639106521845230000",
+      "fetched_at": "2026-10-10T23:09:17Z",
+      "source_date": "unknown",
+      "sha256": "d4718dd5baddc345b4b86e450e61caed635b652e9f57e62aa2d0b5a249169c23",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-zo-art15",
+      "jurisdiction_id": "us-51061",
+      "kind": "ordinance",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/8153/638850678008130000",
+      "fetched_at": "2026-10-10T23:09:36Z",
+      "source_date": "unknown",
+      "sha256": "b3bf3922e3d6381ca75f301ca8368628a30ccdcdf20d5bfed0a6c9cccb62c13d",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-zo-art2",
+      "jurisdiction_id": "us-51061",
+      "kind": "ordinance",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/602/638733241269100000",
+      "fetched_at": "2026-10-10T23:09:12Z",
+      "source_date": "unknown",
+      "sha256": "cebf58f744b68ebf2c44d9b884573c130d2707fe2e0adafecb40c34f61f8d126",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-zo-art4",
+      "jurisdiction_id": "us-51061",
+      "kind": "ordinance",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/606/639229227648170000",
+      "fetched_at": "2026-10-10T23:09:25Z",
+      "source_date": "unknown",
+      "sha256": "4e4c9b6123a63b997cd17cdb3b5ba06778a6e3ec4b62c970066435acfab35359",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-zo-art5",
+      "jurisdiction_id": "us-51061",
+      "kind": "ordinance",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/33511/639229197594200000",
+      "fetched_at": "2026-10-10T23:09:30Z",
+      "source_date": "unknown",
+      "sha256": "f1bac34d3a206e18f94ec8eeb5862e7ab90eabd040dc3c9e24c8f39e0c6b714d",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-ta-2025-04-10",
+      "jurisdiction_id": "us-51061",
+      "kind": "amendment",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/45087/638850674971170000",
+      "fetched_at": "2026-10-10T23:09:06Z",
+      "source_date": "2025-04-10",
+      "sha256": "d79e093b3330d8f8cb317bc755c3354ea087241858fcf169373006a9d1f72254",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-ta-2026-02-12",
+      "jurisdiction_id": "us-51061",
+      "kind": "amendment",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/47640/639106520255870000",
+      "fetched_at": "2026-10-10T23:09:01Z",
+      "source_date": "2026-02-12",
+      "sha256": "8b73d8139e5a30ae0624826691cbe2e6040a566278705a51c0b98bf3f3f11ac6",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-ta-2026-04-09",
+      "jurisdiction_id": "us-51061",
+      "kind": "amendment",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/49014/639147126891600000",
+      "fetched_at": "2026-10-10T23:08:56Z",
+      "source_date": "2026-04-09",
+      "sha256": "f41bf10c1cfa3ef6610f1181020fb72efbe4ea393a8d94b8d0bc68b0af68f10a",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-ta-2026-05-14",
+      "jurisdiction_id": "us-51061",
+      "kind": "amendment",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/49824/639229196794700000",
+      "fetched_at": "2026-10-10T23:08:51Z",
+      "source_date": "2026-05-14",
+      "sha256": "1913eb0fd484c17579bf4bbcf14d84bcb7ac3e84b80cca5e3ee6f277b5e2e938",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
+      "source_id": "us-51061-ta-2026-07-09",
+      "jurisdiction_id": "us-51061",
+      "kind": "amendment",
+      "url": "https://www.fauquiercounty.gov/home/showpublisheddocument/49830/639229227102730000",
+      "fetched_at": "2026-10-10T23:08:45Z",
+      "source_date": "2026-07-09",
+      "sha256": "2743bd3e6cb595bf9bf89beed9d2ca66fec9813345ae250c971b16a3f22f12ca",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms were not recorded at the manual fetch."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch",
+      "fetch_method": "manual headful browser fetch"
+    },
+    {
       "source_id": "us-51061-gis-zoning",
       "jurisdiction_id": "us-51061",
       "kind": "gis_layer",
       "url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0?f=json",
-      "fetched_at": "2026-10-10T08:46:53Z",
+      "fetched_at": "2026-10-11T11:45:01Z",
       "source_date": "2026-09-16",
       "sha256": "4213cf4efc62c7aa555299598fc60f94b4715af44a98428f56df5bb145944882",
       "licence_terms": {

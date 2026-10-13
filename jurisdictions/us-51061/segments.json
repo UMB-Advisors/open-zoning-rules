@@ -1,12 +1,468 @@
 {
   "jurisdiction_id": "us-51061",
-  "sources": [],
-  "segments": [],
-  "missing": [
-    "use_table",
-    "definitions",
-    "not_listed",
-    "district_list"
+  "sources": [
+    {
+      "source_id": "us-51061-zo-art3",
+      "sha256": "d4718dd5baddc345b4b86e450e61caed635b652e9f57e62aa2d0b5a249169c23",
+      "pages": 22,
+      "tables": 3,
+      "text_sha256": "a517e7cdee629f25bc1c51b5857c53cd51813b2b71af128e45f059b194843d30",
+      "ocr_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "source_id": "us-51061-zo-art15",
+      "sha256": "b3bf3922e3d6381ca75f301ca8368628a30ccdcdf20d5bfed0a6c9cccb62c13d",
+      "pages": 51,
+      "tables": 0,
+      "text_sha256": "6e9c3c7d5dd38e2a5fb3576237e5e5f83071b2a468fa3d93901296fd49d8918f"
+    },
+    {
+      "source_id": "us-51061-zo-art2",
+      "sha256": "cebf58f744b68ebf2c44d9b884573c130d2707fe2e0adafecb40c34f61f8d126",
+      "pages": 41,
+      "tables": 0,
+      "text_sha256": "7b067f54186bb2972b1c33f043bb1dceebdf186434fb166901e8cbfc745e4ddc"
+    },
+    {
+      "source_id": "us-51061-zo-art4",
+      "sha256": "4e4c9b6123a63b997cd17cdb3b5ba06778a6e3ec4b62c970066435acfab35359",
+      "pages": 130,
+      "tables": 9,
+      "text_sha256": "087767c321567a1f6ea37f0d7b050528a2765ea4aee7c794f5b3a475a9bc1253",
+      "ocr_pages": [
+        98
+      ]
+    },
+    {
+      "source_id": "us-51061-zo-art5",
+      "sha256": "f1bac34d3a206e18f94ec8eeb5862e7ab90eabd040dc3c9e24c8f39e0c6b714d",
+      "pages": 119,
+      "tables": 0,
+      "text_sha256": "35a2f5d0b34539180a1eec8a0c403201f9fabc7e9ee8d93b1d16b504e9e34a76"
+    },
+    {
+      "source_id": "us-51061-ta-2025-04-10",
+      "sha256": "d79e093b3330d8f8cb317bc755c3354ea087241858fcf169373006a9d1f72254",
+      "pages": 1,
+      "tables": 1,
+      "text_sha256": "f0dc9776f7825e0e01b522ec925f980aa9dbcef8b3851f530cc9b3958847a54c"
+    },
+    {
+      "source_id": "us-51061-ta-2026-02-12",
+      "sha256": "8b73d8139e5a30ae0624826691cbe2e6040a566278705a51c0b98bf3f3f11ac6",
+      "pages": 1,
+      "tables": 1,
+      "text_sha256": "ee215e41a3aac3cf918bc5102a2b7df489cdcf684c4ff8fa7e9bf5769bfadd00"
+    },
+    {
+      "source_id": "us-51061-ta-2026-04-09",
+      "sha256": "f41bf10c1cfa3ef6610f1181020fb72efbe4ea393a8d94b8d0bc68b0af68f10a",
+      "pages": 1,
+      "tables": 1,
+      "text_sha256": "c8cb1fb55176da2e1f7355cf7c8ba2af4f6f34d293efd9d5774216a821dd6201"
+    },
+    {
+      "source_id": "us-51061-ta-2026-05-14",
+      "sha256": "1913eb0fd484c17579bf4bbcf14d84bcb7ac3e84b80cca5e3ee6f277b5e2e938",
+      "pages": 1,
+      "tables": 1,
+      "text_sha256": "3b90a707b01c894efdf0431c0ecbb0ce9936fe894120173e3abe0ea785c77158"
+    },
+    {
+      "source_id": "us-51061-ta-2026-07-09",
+      "sha256": "2743bd3e6cb595bf9bf89beed9d2ca66fec9813345ae250c971b16a3f22f12ca",
+      "pages": 1,
+      "tables": 1,
+      "text_sha256": "38386a9a51757e264b0064f4c08864b4a436f2191417bb5c148f75e474384524"
+    }
   ],
+  "segments": [
+    {
+      "kind": "use_table",
+      "source_id": "us-51061-zo-art3",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "text": "segments/us-51061/use_table-us-51061-zo-art3.txt",
+      "text_sha256": "c12ba695932f511c4f20160113c8fcbdb4dd14f797676a2455c185c604a908ce",
+      "images": [
+        {
+          "page": 3,
+          "path": "segments/us-51061/us-51061-zo-art3-p3.png",
+          "sha256": "7c907bfa3b35e50a76e679683758faca24618bbf70c0d8dda9d0fce35aa5d782"
+        },
+        {
+          "page": 4,
+          "path": "segments/us-51061/us-51061-zo-art3-p4.png",
+          "sha256": "9eb085590ff9410b27ca18042a353bedb9a24fed96582fc6d409a627cb585622"
+        },
+        {
+          "page": 5,
+          "path": "segments/us-51061/us-51061-zo-art3-p5.png",
+          "sha256": "870a798315d42c5dc067bbc3c00c398ec42880e93f871eb21c6cffbaecc03e21"
+        },
+        {
+          "page": 6,
+          "path": "segments/us-51061/us-51061-zo-art3-p6.png",
+          "sha256": "78fd7c507a89968dfe92c10c6be2a38f5043c41015d92f8f618cfa3e7092f6ae"
+        },
+        {
+          "page": 7,
+          "path": "segments/us-51061/us-51061-zo-art3-p7.png",
+          "sha256": "d6dedc49d5f08d581ccecaeb96f57f3a65d1d8acd8b61441733621310dfefa62"
+        },
+        {
+          "page": 8,
+          "path": "segments/us-51061/us-51061-zo-art3-p8.png",
+          "sha256": "1da3b0b10a2aa955098b042d4f013bb84225facee7866590aa78dfb519833e44"
+        },
+        {
+          "page": 9,
+          "path": "segments/us-51061/us-51061-zo-art3-p9.png",
+          "sha256": "949fdf6f561273693a5fe01754432af7e10aa814c5f21710322379f79596af0e"
+        },
+        {
+          "page": 10,
+          "path": "segments/us-51061/us-51061-zo-art3-p10.png",
+          "sha256": "085298321036a76175579eb2070f24fd55f5cb8512eb0cef52aa41624c77c90b"
+        },
+        {
+          "page": 11,
+          "path": "segments/us-51061/us-51061-zo-art3-p11.png",
+          "sha256": "5251693de84b97a8b5eeca1542283d2f94667613edb9ec1dac72ab3d8fea445f"
+        },
+        {
+          "page": 12,
+          "path": "segments/us-51061/us-51061-zo-art3-p12.png",
+          "sha256": "130e20d58f07747724fb56124cb92adb253354a957b6f5f457054a26e21fab0d"
+        },
+        {
+          "page": 16,
+          "path": "segments/us-51061/us-51061-zo-art3-p16.png",
+          "sha256": "df67b65c36850f244a5d9a95abb958b88fc5a33fe6dded4bd4d020d4411d8a2f"
+        }
+      ]
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-51061-zo-art3",
+      "pages": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        17,
+        18
+      ],
+      "text": "segments/us-51061/district_list-us-51061-zo-art3.txt",
+      "text_sha256": "dfb1f4889a5e1bee4f36f38e797fc05f85a5ec9bd3fff032aaf464bbc7d18539",
+      "images": []
+    },
+    {
+      "kind": "definitions",
+      "source_id": "us-51061-zo-art15",
+      "pages": [
+        14,
+        40
+      ],
+      "text": "segments/us-51061/definitions-us-51061-zo-art15.txt",
+      "text_sha256": "af58319bd7e33b0663769da76aaee8a10e21473dde494057ea7ecb625c28edd3",
+      "images": []
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-51061-zo-art15",
+      "pages": [
+        2,
+        14
+      ],
+      "text": "segments/us-51061/district_list-us-51061-zo-art15.txt",
+      "text_sha256": "27dda59995e8f2c6d369c26f593a8906e90578a266e5eedfe9fff6d9c1245f6b",
+      "images": []
+    },
+    {
+      "kind": "use_table",
+      "source_id": "us-51061-zo-art2",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "text": "segments/us-51061/use_table-us-51061-zo-art2.txt",
+      "text_sha256": "e6c08450875f4919bffc6e676745b71937a1f54cac041b303bab97c94faa7e47",
+      "images": [
+        {
+          "page": 2,
+          "path": "segments/us-51061/us-51061-zo-art2-p2.png",
+          "sha256": "3f29eb381f58235393b4082c63cd2fbebd23fcda472b5a057242454e29e2f99d"
+        },
+        {
+          "page": 3,
+          "path": "segments/us-51061/us-51061-zo-art2-p3.png",
+          "sha256": "b3f5b75cd2ee176948a85fc23daa8ac8e6a72a9b6904a8204228ff909e91b4dd"
+        },
+        {
+          "page": 4,
+          "path": "segments/us-51061/us-51061-zo-art2-p4.png",
+          "sha256": "808c61ab5092ffaa99ec629db0f46a8f26b371db026901b67e31d31f2caab6ed"
+        },
+        {
+          "page": 5,
+          "path": "segments/us-51061/us-51061-zo-art2-p5.png",
+          "sha256": "88ff4713027e62bad4da3f50d3f973e82a51a63b5f0bc62467716daf9a6d1113"
+        },
+        {
+          "page": 7,
+          "path": "segments/us-51061/us-51061-zo-art2-p7.png",
+          "sha256": "cc82180793f672a9d96b150c1fedd6705aa02ffcb569934a3e5a1c3e63f55e7b"
+        },
+        {
+          "page": 8,
+          "path": "segments/us-51061/us-51061-zo-art2-p8.png",
+          "sha256": "5b0bb728fbcb413a2b417bc11fe50a598f73cce8dbbc6bce91814ea595197d5a"
+        }
+      ]
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-51061-zo-art2",
+      "pages": [
+        2,
+        3,
+        12,
+        14,
+        17
+      ],
+      "text": "segments/us-51061/district_list-us-51061-zo-art2.txt",
+      "text_sha256": "3041f6b4ab3edfc3b771e58b9278ba6b0dd2d95b9cbb717ab9f50f834a057efc",
+      "images": []
+    },
+    {
+      "kind": "use_table",
+      "source_id": "us-51061-zo-art4",
+      "pages": [
+        2,
+        3,
+        22,
+        23,
+        26,
+        27,
+        37,
+        38,
+        51,
+        52,
+        53,
+        60,
+        61,
+        62,
+        72,
+        73,
+        113,
+        114
+      ],
+      "text": "segments/us-51061/use_table-us-51061-zo-art4.txt",
+      "text_sha256": "eb26ae6277c17ba8d3454e1d5b7895502c7e4bbb25437e1636c935b474ddd649",
+      "images": [
+        {
+          "page": 2,
+          "path": "segments/us-51061/us-51061-zo-art4-p2.png",
+          "sha256": "73cd70a6fc60e1b5f20149887df9aff405163542542edd2117579c3de56ffae2"
+        },
+        {
+          "page": 3,
+          "path": "segments/us-51061/us-51061-zo-art4-p3.png",
+          "sha256": "752049ef7aa1c8010e4482f19a65e72bcafe3ca8e9616f30e110402850173889"
+        },
+        {
+          "page": 22,
+          "path": "segments/us-51061/us-51061-zo-art4-p22.png",
+          "sha256": "67c083f5d761397404ac129ab79df9caf8b44bee68e3291d56b4fa185f13e637"
+        },
+        {
+          "page": 23,
+          "path": "segments/us-51061/us-51061-zo-art4-p23.png",
+          "sha256": "b9b5aab222978064fa7b0bdf5540064650ce0f3cc23e274dd7a209cb82922093"
+        },
+        {
+          "page": 26,
+          "path": "segments/us-51061/us-51061-zo-art4-p26.png",
+          "sha256": "d63ec262c46bfbe7527618d16bbdca412961875a090c09508ebd4630b2ea4182"
+        },
+        {
+          "page": 27,
+          "path": "segments/us-51061/us-51061-zo-art4-p27.png",
+          "sha256": "638d0683d9d8f3ac11d1f302a01ea6ad4871a1da62453b5bfd62a31e997b20a2"
+        },
+        {
+          "page": 37,
+          "path": "segments/us-51061/us-51061-zo-art4-p37.png",
+          "sha256": "7e51d418a5c824d3095d4b36cf9139c3a1fbebcd595e4ebe2db1549be061c29f"
+        },
+        {
+          "page": 38,
+          "path": "segments/us-51061/us-51061-zo-art4-p38.png",
+          "sha256": "7d9c794dd32fb060580bbc38512d6bd5338856be81000154433f44e229b6c619"
+        },
+        {
+          "page": 51,
+          "path": "segments/us-51061/us-51061-zo-art4-p51.png",
+          "sha256": "d1dd2def1871666851e0e5bd270e2bd6d54d7541163328af2f5facc0cd455a84"
+        },
+        {
+          "page": 52,
+          "path": "segments/us-51061/us-51061-zo-art4-p52.png",
+          "sha256": "930537538e22a474d48c3d4c17ee57b72bcebeb40cc08b5d86ef7ba33b28f320"
+        },
+        {
+          "page": 53,
+          "path": "segments/us-51061/us-51061-zo-art4-p53.png",
+          "sha256": "42f53f553310437725fa28985fef4a9d57f765503e31ff1ad0774be68d634348"
+        },
+        {
+          "page": 60,
+          "path": "segments/us-51061/us-51061-zo-art4-p60.png",
+          "sha256": "6f0bac5fee13808f720dc1cf4ce8184d9883b029eba27fcfdccbd169d3b61fe9"
+        },
+        {
+          "page": 61,
+          "path": "segments/us-51061/us-51061-zo-art4-p61.png",
+          "sha256": "fdd133ef2c6bf5c118910620bde2fca7eb78ecc4a523e0c5197b06af1117d761"
+        },
+        {
+          "page": 62,
+          "path": "segments/us-51061/us-51061-zo-art4-p62.png",
+          "sha256": "52c513e3c15397b7399afd6d89af4e0bc0df8aca2c0e316200d0899715528079"
+        },
+        {
+          "page": 72,
+          "path": "segments/us-51061/us-51061-zo-art4-p72.png",
+          "sha256": "f00d0a237ae8a044af0d8d76b69ed0e563d873aab2050b5817c92e945e3d0f17"
+        },
+        {
+          "page": 73,
+          "path": "segments/us-51061/us-51061-zo-art4-p73.png",
+          "sha256": "989d9ac3049d0145ed2232e8ff5d582ae56a10a9621a8572df5860bc9727bc6a"
+        },
+        {
+          "page": 113,
+          "path": "segments/us-51061/us-51061-zo-art4-p113.png",
+          "sha256": "da1513728294b2e26836710ff82fb50f5d1743f143abd45814b943eccd2a81a0"
+        },
+        {
+          "page": 114,
+          "path": "segments/us-51061/us-51061-zo-art4-p114.png",
+          "sha256": "31cd1c62c0a5af4040af6bd584e71ecba028e3ff9f2b92405e356137c528efb6"
+        }
+      ]
+    },
+    {
+      "kind": "definitions",
+      "source_id": "us-51061-zo-art4",
+      "pages": [
+        122
+      ],
+      "text": "segments/us-51061/definitions-us-51061-zo-art4.txt",
+      "text_sha256": "aefb6723fb71b7896e7075d3b23cb140eb3fa9b3bd2df881b5976e579ac196be",
+      "images": []
+    },
+    {
+      "kind": "not_listed",
+      "source_id": "us-51061-zo-art4",
+      "pages": [
+        73,
+        95,
+        102
+      ],
+      "text": "segments/us-51061/not_listed-us-51061-zo-art4.txt",
+      "text_sha256": "5dec6ee51dfdcc3fbf0f8b1461fbe162ad70f2fea2b34e4db0a1f0e0bd15dcd7",
+      "images": []
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-51061-zo-art4",
+      "pages": [
+        1,
+        12,
+        13,
+        22,
+        29,
+        30,
+        47,
+        50,
+        60,
+        68,
+        69,
+        70,
+        81,
+        111
+      ],
+      "text": "segments/us-51061/district_list-us-51061-zo-art4.txt",
+      "text_sha256": "599d099d58b4a40dfb43ed7412fcedaa8d6a8156d6b4f935f0dc9e822734c884",
+      "images": []
+    },
+    {
+      "kind": "district_list",
+      "source_id": "us-51061-zo-art5",
+      "pages": [
+        3,
+        8,
+        21,
+        26,
+        46,
+        48,
+        49,
+        55,
+        60,
+        62,
+        66,
+        67,
+        69,
+        70,
+        71,
+        73,
+        76,
+        80,
+        81,
+        88,
+        96,
+        101,
+        112
+      ],
+      "text": "segments/us-51061/district_list-us-51061-zo-art5.txt",
+      "text_sha256": "2b7659319c1e30e76273497e75611ff0f054d3add463c0b0d7d319b953861a99",
+      "images": []
+    },
+    {
+      "kind": "definitions",
+      "source_id": "us-51061-ta-2025-04-10",
+      "pages": [
+        1
+      ],
+      "text": "segments/us-51061/definitions-us-51061-ta-2025-04-10.txt",
+      "text_sha256": "96c390d57ed2b160efcdb539fa4306dd163aa917cc4892309c9060846de1e396",
+      "images": []
+    }
+  ],
+  "missing": [],
   "missing_bytes": []
 }

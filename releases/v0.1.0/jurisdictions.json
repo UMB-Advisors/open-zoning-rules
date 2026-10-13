@@ -569,6 +569,319 @@
     ]
   },
   {
+    "jurisdiction_id": "us-51061",
+    "name": "Fauquier County",
+    "type": "county",
+    "state": "VA",
+    "unlisted_rule": "prohibited_by_default",
+    "code_version": "unknown",
+    "conditional_zoning_unmapped": true,
+    "sources": [
+      "us-51061-zo-art3",
+      "us-51061-zo-art15",
+      "us-51061-zo-art2",
+      "us-51061-zo-art4",
+      "us-51061-zo-art5",
+      "us-51061-ta-2025-04-10",
+      "us-51061-ta-2026-02-12",
+      "us-51061-ta-2026-04-09",
+      "us-51061-ta-2026-05-14",
+      "us-51061-ta-2026-07-09",
+      "us-51061-gis-zoning"
+    ],
+    "unlisted_rule_quote": {
+      "quote": "No use shall be allowed in any district which is not permitted by the regulations for the district.",
+      "section": "2-302"
+    },
+    "table_key": [
+      {
+        "symbol": "P",
+        "status": "permitted",
+        "quote": "P - Permitted Uses",
+        "section": "3-300"
+      },
+      {
+        "symbol": "SP",
+        "status": "conditional",
+        "quote": "SP - Special Permit Uses (Board)",
+        "section": "3-300"
+      },
+      {
+        "symbol": "SE",
+        "status": "conditional",
+        "quote": "SE - Special Exception Uses (Board)",
+        "section": "3-300"
+      },
+      {
+        "symbol": "A",
+        "status": "conditional",
+        "quote": "A - Administrative Special Permit Required",
+        "section": "3-300"
+      },
+      {
+        "symbol": "",
+        "status": "prohibited",
+        "quote": "BLANK - Use not allowed as listed in the zoning district represented by that column.",
+        "section": "3-300"
+      }
+    ],
+    "districts": [
+      {
+        "district_code": "BP",
+        "district_name": "BP",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "BP"
+        }
+      },
+      {
+        "district_code": "C-1",
+        "district_name": "C-1",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "C-1"
+        }
+      },
+      {
+        "district_code": "C-2",
+        "district_name": "C-2",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "C-2"
+        }
+      },
+      {
+        "district_code": "C-3",
+        "district_name": "C-3",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "C-3"
+        }
+      },
+      {
+        "district_code": "CV",
+        "district_name": "CV",
+        "family": "commercial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "CV"
+        }
+      },
+      {
+        "district_code": "GA",
+        "district_name": "GA",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "GA"
+        }
+      },
+      {
+        "district_code": "I-1",
+        "district_name": "I-1",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "I-1"
+        }
+      },
+      {
+        "district_code": "I-2",
+        "district_name": "I-2",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "I-2"
+        }
+      },
+      {
+        "district_code": "M-G",
+        "district_name": "M-G",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "M-G"
+        }
+      },
+      {
+        "district_code": "M-R",
+        "district_name": "M-R",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "M-R"
+        }
+      },
+      {
+        "district_code": "M-T",
+        "district_name": "M-T",
+        "family": "other",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "M-T"
+        }
+      },
+      {
+        "district_code": "MDP",
+        "district_name": "MDP",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "MDP"
+        }
+      },
+      {
+        "district_code": "MU-BLTN",
+        "district_name": "MU-BLTN",
+        "family": "mixed",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "MU-BLTN"
+        }
+      },
+      {
+        "district_code": "PCID",
+        "district_name": "PCID",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "PCID"
+        }
+      },
+      {
+        "district_code": "PRD",
+        "district_name": "PRD",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "PRD"
+        }
+      },
+      {
+        "district_code": "R-1",
+        "district_name": "R-1",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "R-1"
+        }
+      },
+      {
+        "district_code": "R-2",
+        "district_name": "R-2",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "R-2"
+        }
+      },
+      {
+        "district_code": "R-4",
+        "district_name": "R-4",
+        "family": "residential",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "R-4"
+        }
+      },
+      {
+        "district_code": "RA",
+        "district_name": "RA",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "RA"
+        }
+      },
+      {
+        "district_code": "RC",
+        "district_name": "RC",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "RC"
+        }
+      },
+      {
+        "district_code": "RR-2",
+        "district_name": "RR-2",
+        "family": "agricultural",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "RR-2"
+        }
+      },
+      {
+        "district_code": "TH",
+        "district_name": "TH",
+        "family": "mixed",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "TH"
+        }
+      },
+      {
+        "district_code": "V",
+        "district_name": "V",
+        "family": "mixed",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+          "field": "ZONECLASS",
+          "value": "V"
+        }
+      }
+    ]
+  },
+  {
     "jurisdiction_id": "us-51107",
     "name": "Loudoun County",
     "type": "county",

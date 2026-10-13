@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any
 
 from ozr.common import append_run, read_json, write_json
-from ozr.gates import TABLE_TEXT_MARKER
+from ozr.gates import OCR_TEXT_MARKER, TABLE_TEXT_MARKER
 from ozr.labels import label_jurisdiction
 from ozr.models import run_claude
 
@@ -154,7 +154,8 @@ def _replace_pages(
             source_path = target / "cache" / "text" / f"{marker.group('source')}.txt"
             if source_path.is_file():
                 source_text = source_path.read_text(encoding="utf-8")
-                raw_layer, table_marker, table_layer = source_text.partition(TABLE_TEXT_MARKER)
+                before_ocr, ocr_marker, ocr_layer = source_text.partition(OCR_TEXT_MARKER)
+                raw_layer, table_marker, table_layer = before_ocr.partition(TABLE_TEXT_MARKER)
                 old_raw, _, old_table = old_page.partition(_RECONSTRUCTED_TABLE_TEXT_SEPARATOR)
                 new_raw, _, new_table = new_page.partition(_RECONSTRUCTED_TABLE_TEXT_SEPARATOR)
                 source_id, page = marker.group("source"), marker.group("page")
@@ -168,7 +169,9 @@ def _replace_pages(
                     if old_table_block not in table_layer:
                         raise ValueError(f"table text not found for source {source_id} page {page}")
                     table_layer = table_layer.replace(old_table_block, new_table_block, 1)
-                source_path.write_text(raw_layer + table_marker + table_layer, encoding="utf-8")
+                source_path.write_text(
+                    raw_layer + table_marker + table_layer + ocr_marker + ocr_layer, encoding="utf-8"
+                )
     return flips, symbols
 
 

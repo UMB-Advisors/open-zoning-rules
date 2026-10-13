@@ -14,7 +14,8 @@ import pdfplumber
 import pypdfium2
 
 from ozr.common import cache_dir, read_json, segment_dir, text_path, write_json
-from ozr.gates import TABLE_TEXT_MARKER, term_in
+from ozr.gates import OCR_TEXT_MARKER, TABLE_TEXT_MARKER, term_in
+from ozr.ocr import engine_header, is_image_only, ocr_page
 
 USE_TABLE_RE = re.compile(
     r"(?:table(?:\s+\d+(?:-\d+)*)?(?:\s+table)?\s+of (?:(?:permitted|principal|allowed) )?uses|"
@@ -112,6 +113,12 @@ def pdf_pages(data: bytes) -> tuple[list[str], list[str]]:
             finally:
                 page.close()
     return raw_pages, table_pages
+
+
+def pdf_image_counts(data: bytes) -> list[int]:
+    """Return embedded-image counts for each PDF page."""
+    with pdfplumber.open(io.BytesIO(data)) as pdf:
+        return [len(page.images) for page in pdf.pages]
 
 
 def page_texts(data: bytes) -> list[str]:
@@ -244,8 +251,12 @@ def segment_jurisdiction(root: Path, jid: str) -> dict:
                 missing_bytes.append(source_id)
             continue
         data = (cache_dir(root) / digest).read_bytes()
+        ocr_pages: dict[int, str] = {}
         if data.startswith(b"%PDF"):
             pages, page_tables = pdf_pages(data)
+            for number, (page, image_count) in enumerate(zip(pages, pdf_image_counts(data), strict=True), 1):
+                if is_image_only(page, image_count):
+                    ocr_pages[number] = ocr_page(data, number)
         else:
             pages, page_tables = page_texts(data), []
         full_text = "\n\n".join(pages)
@@ -254,17 +265,24 @@ def segment_jurisdiction(root: Path, jid: str) -> dict:
                 f"[page {number}]\n{table_text}" for number, table_text in enumerate(page_tables, 1) if table_text
             ]
             full_text += TABLE_TEXT_MARKER + "\n\n".join(table_blocks)
+        if ocr_pages:
+            blocks = [f"[page {number}]\n{text}" for number, text in ocr_pages.items()]
+            full_text += OCR_TEXT_MARKER + engine_header() + "\n" + "\n\n".join(blocks)
         full_sha = _write_text(text_path(root, source_id), full_text)
-        manifest_sources.append(
-            {
-                "source_id": source_id,
-                "sha256": digest,
-                "pages": len(pages),
-                "tables": sum(bool(table_text) for table_text in page_tables),
-                "text_sha256": full_sha,
-            }
-        )
-        locations = _located_pages(pages, district_codes, taxonomy)
+        manifest_source = {
+            "source_id": source_id,
+            "sha256": digest,
+            "pages": len(pages),
+            "tables": sum(bool(table_text) for table_text in page_tables),
+            "text_sha256": full_sha,
+        }
+        if ocr_pages:
+            manifest_source["ocr_pages"] = list(ocr_pages)
+        manifest_sources.append(manifest_source)
+        located_pages = [
+            page + ("\n" + ocr_pages[number] if number in ocr_pages else "") for number, page in enumerate(pages, 1)
+        ]
+        locations = _located_pages(located_pages, district_codes, taxonomy)
         for kind, page_numbers in locations.items():
             if not page_numbers:
                 continue
@@ -274,6 +292,8 @@ def segment_jurisdiction(root: Path, jid: str) -> dict:
                 page_text = f"=== {source_id} page {number} ===\n{pages[number - 1]}"
                 if kind == "use_table" and page_tables and page_tables[number - 1]:
                     page_text += f"\n\n[reconstructed table text]\n{page_tables[number - 1]}"
+                if number in ocr_pages:
+                    page_text += f"\n\n[OCR text, tesseract; may misread]\n{ocr_pages[number]}"
                 page_blocks.append(page_text)
             text = "\n\n".join(page_blocks)
             path = segment_dir(root, jid) / f"{kind}-{source_id}.txt"

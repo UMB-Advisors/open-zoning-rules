@@ -132,11 +132,13 @@ def test_passing_cells_record_which_text_matched(tiny_root: Path) -> None:
         "row_label": "table",
         "column_header": "raw",
         "section": "raw",
+        "symbol": "table",
     }
     assert output["matched_text_counts"] == {
         "column_header:raw": 1,
         "row_label:table": 1,
         "section:raw": 1,
+        "symbol:table": 1,
     }
 
 
