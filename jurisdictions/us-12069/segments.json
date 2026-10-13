@@ -5,7 +5,8 @@
       "source_id": "us-12069-ord-2026-xx-draft",
       "sha256": "ce3fa13e3319ae8b43baf21b69edfde2776d2fb668c777e19eb6c7d8edc52f8f",
       "pages": 22,
-      "text_sha256": "9a58326b7c4a59d9855ad0fdede994ca4e2def70e53b7d3cd8f31698093102a7"
+      "tables": 5,
+      "text_sha256": "731be94ac2be0e5abe7fab351fb81d3b2a94a422acbd288265e3ad3a73fa447e"
     }
   ],
   "segments": [
@@ -36,7 +37,7 @@
         22
       ],
       "text": "segments/us-12069/use_table-us-12069-ord-2026-xx-draft.txt",
-      "text_sha256": "235279fdfd53189394ba6d36092cc8eb375ed16cb745958113770e9af73b73b2",
+      "text_sha256": "74af09c3d466260f8bd4dca6b8be7e68a5cc5d73f8ac0f9c2908e6d7efac196a",
       "images": [
         {
           "page": 2,

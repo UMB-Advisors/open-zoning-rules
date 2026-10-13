@@ -14,7 +14,7 @@ import pdfplumber
 import pypdfium2
 
 from ozr.common import cache_dir, read_json, segment_dir, text_path, write_json
-from ozr.gates import term_in
+from ozr.gates import TABLE_TEXT_MARKER, term_in
 
 USE_TABLE_RE = re.compile(
     r"(?:table(?:\s+\d+(?:-\d+)*)?(?:\s+table)?\s+of (?:(?:permitted|principal|allowed) )?uses|"
@@ -60,11 +60,64 @@ class _TextParser(HTMLParser):
             self.parts.append(data)
 
 
+def cell_text(value: str | None) -> str:
+    """Flatten a PDF table cell without breaking hyphenated fragments."""
+    if value is None:
+        return ""
+    fragments = [re.sub(r"\s+", " ", fragment).strip() for fragment in value.splitlines()]
+    fragments = [fragment for fragment in fragments if fragment]
+    text = ""
+    for fragment in fragments:
+        separator = "" if not text or text.endswith("-") or fragment.startswith("-") else " "
+        text += separator + fragment
+    return text
+
+
+def table_rows(table: list[list[str | None]]) -> list[str]:
+    """Render non-empty extracted table rows as deterministic pipe-delimited text."""
+    rows: list[str] = []
+    for row in table:
+        cells = [cell_text(value) for value in row if value is not None]
+        if any(cells):
+            rows.append(" | ".join(cells))
+    return rows
+
+
+def pdf_pages(data: bytes) -> tuple[list[str], list[str]]:
+    """Extract raw and ruling-reconstructed table text from each PDF page."""
+    raw_pages: list[str] = []
+    table_pages: list[str] = []
+    with pdfplumber.open(io.BytesIO(data)) as pdf:
+        for page in pdf.pages:
+            try:
+                raw_pages.append(page.extract_text() or "")
+                rules = list(page.lines) + [rect for rect in page.rects if min(rect["width"], rect["height"]) <= 2]
+                horizontal = [rule for rule in rules if rule["width"] >= rule["height"]]
+                vertical = [rule for rule in rules if rule["width"] < rule["height"]]
+                if len(horizontal) < 2 or len(vertical) < 2:
+                    table_pages.append("")
+                    continue
+                settings = {
+                    "vertical_strategy": "explicit",
+                    "horizontal_strategy": "explicit",
+                    "explicit_vertical_lines": vertical,
+                    "explicit_horizontal_lines": horizontal,
+                }
+                table_blocks: list[str] = []
+                for table in page.extract_tables(settings):
+                    rows = table_rows(table)
+                    if rows:
+                        table_blocks.append("\n".join(rows))
+                table_pages.append("\n\n".join(table_blocks))
+            finally:
+                page.close()
+    return raw_pages, table_pages
+
+
 def page_texts(data: bytes) -> list[str]:
     """Extract one text string per PDF page, or one page from HTML/plain text."""
     if data.startswith(b"%PDF"):
-        with pdfplumber.open(io.BytesIO(data)) as pdf:
-            return [page.extract_text() or "" for page in pdf.pages]
+        return pdf_pages(data)[0]
     parser = _TextParser()
     parser.feed(data.decode("utf-8", errors="replace"))
     parser.close()
@@ -168,18 +221,38 @@ def segment_jurisdiction(root: Path, jid: str) -> dict:
                 missing_bytes.append(source_id)
             continue
         data = (cache_dir(root) / digest).read_bytes()
-        pages = page_texts(data)
+        if data.startswith(b"%PDF"):
+            pages, page_tables = pdf_pages(data)
+        else:
+            pages, page_tables = page_texts(data), []
         full_text = "\n\n".join(pages)
+        if any(page_tables):
+            table_blocks = [
+                f"[page {number}]\n{table_text}" for number, table_text in enumerate(page_tables, 1) if table_text
+            ]
+            full_text += TABLE_TEXT_MARKER + "\n\n".join(table_blocks)
         full_sha = _write_text(text_path(root, source_id), full_text)
         manifest_sources.append(
-            {"source_id": source_id, "sha256": digest, "pages": len(pages), "text_sha256": full_sha}
+            {
+                "source_id": source_id,
+                "sha256": digest,
+                "pages": len(pages),
+                "tables": sum(bool(table_text) for table_text in page_tables),
+                "text_sha256": full_sha,
+            }
         )
         locations = _located_pages(pages, district_codes, taxonomy)
         for kind, page_numbers in locations.items():
             if not page_numbers:
                 continue
             found.add(kind)
-            text = "\n\n".join(f"=== {source_id} page {number} ===\n{pages[number - 1]}" for number in page_numbers)
+            page_blocks = []
+            for number in page_numbers:
+                page_text = f"=== {source_id} page {number} ===\n{pages[number - 1]}"
+                if kind == "use_table" and page_tables and page_tables[number - 1]:
+                    page_text += f"\n\n[reconstructed table text]\n{page_tables[number - 1]}"
+                page_blocks.append(page_text)
+            text = "\n\n".join(page_blocks)
             path = segment_dir(root, jid) / f"{kind}-{source_id}.txt"
             text_sha = _write_text(path, text)
             images = render_pages(data, page_numbers, segment_dir(root, jid), source_id) if kind == "use_table" else []

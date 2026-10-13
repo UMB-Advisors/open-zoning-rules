@@ -26,6 +26,7 @@ _GRADE_DROP = {"A": "B", "B": "C", "C": "C"}
 _CONFIDENCE = {"A", "B", "C"}
 _REVIEW = {"agree", "disputed", "single", "human_correction"}
 _KINDS = {"table", "prose", "absence"}
+TABLE_TEXT_MARKER = "\n\n=== reconstructed table text (from PDF rulings) ===\n"
 
 
 def canonical(text: str) -> str:
@@ -42,6 +43,37 @@ def contains(haystack: str, needle: str) -> bool:
     """Return whether the canonical needle is a non-empty substring of the haystack."""
     needle = canonical(needle)
     return bool(needle) and needle in canonical(haystack)
+
+
+def text_layers(text: str) -> tuple[str, str]:
+    """Split raw PDF text from deterministic ruling-reconstructed table text."""
+    raw, marker, table = text.partition(TABLE_TEXT_MARKER)
+    return raw, table if marker else ""
+
+
+def match_layer(text: str, needle: str) -> str | None:
+    """Return the text layer containing a needle without crossing their boundary."""
+    raw, table = text_layers(text)
+    if contains(raw, needle):
+        return "raw"
+    if contains(table, needle):
+        return "table"
+    return None
+
+
+def matched_layers(cell: dict, text: str) -> dict[str, str]:
+    """Record the layer supporting each applicable evidence field."""
+    evidence = _mapping(cell.get("evidence"))
+    fields: list[tuple[str, object]] = [("section", evidence.get("section"))]
+    if evidence.get("kind") in {"prose", "absence"}:
+        fields.append(("quote", evidence.get("quote")))
+    fields.extend((field, evidence.get(field)) for field in ("row_label", "column_header"))
+    definition = _mapping(cell.get("definition_evidence"))
+    fields.extend(
+        (field, definition.get(key))
+        for field, key in (("definition_quote", "quote"), ("definition_section", "section"))
+    )
+    return {field: layer for field, value in fields if not _blank(value) and (layer := match_layer(text, value))}
 
 
 def _cell_key(cell: dict) -> str:
@@ -71,7 +103,7 @@ def quote_errors(cell: dict, text: str) -> list[str]:
     kind = evidence.get("kind")
     if kind == "table":
         errors.extend(_table_label_errors(key, evidence, "" if quote_missing else quote, text))
-    elif kind in {"prose", "absence"} and not quote_missing and not contains(text, quote):
+    elif kind in {"prose", "absence"} and not quote_missing and match_layer(text, quote) is None:
         errors.append(f"{key}: quote not found in source")
     if "definition_evidence" in cell:
         errors.extend(_definition_quote_errors(key, cell.get("definition_evidence"), text))
@@ -85,7 +117,7 @@ def _table_label_errors(key: str, evidence: dict, quote: str, text: str) -> list
         if _blank(value):
             errors.append(f"{key}: no {name}")
             continue
-        if not contains(text, value):
+        if match_layer(text, value) is None:
             errors.append(f"{key}: {name} not found in source")
         if quote and not contains(quote, value):
             errors.append(f"{key}: {name} not in quote")
@@ -96,7 +128,7 @@ def _definition_quote_errors(key: str, definition: object, text: str) -> list[st
     quote = _mapping(definition).get("quote")
     if _blank(quote):
         return [f"{key}: definition evidence: no quote"]
-    if not contains(text, quote):
+    if match_layer(text, quote) is None:
         return [f"{key}: definition quote not found in source"]
     return []
 
@@ -123,7 +155,7 @@ def section_errors(cell: dict, text: str) -> list[str]:
 def _one_section_errors(key: str, section: object, text: str, found_name: str, empty_name: str) -> list[str]:
     if _blank(section):
         return [f"{key}: {empty_name}"]
-    if not contains(text, section):
+    if match_layer(text, section) is None:
         return [f"{key}: {found_name} not found in source"]
     return []
 
@@ -215,7 +247,7 @@ def _hit_explains(entry: object, term: str, text: str) -> bool:
     quote = record.get("quote")
     if record.get("term") != term or _blank(quote) or _blank(record.get("section")) or _blank(record.get("reason")):
         return False
-    if not contains(text, quote):
+    if match_layer(text, quote) is None:
         return False
     return canonical(term).lower() in canonical(quote).lower()
 
@@ -224,7 +256,7 @@ def _unlisted_rule_errors(key: str, quoted: object, text: str) -> list[str]:
     quote = _mapping(quoted).get("quote")
     if _blank(quote):
         return [f"{key}: no unlisted rule quote"]
-    if not contains(text, quote):
+    if match_layer(text, quote) is None:
         return [f"{key}: unlisted rule quote not found in source"]
     return []
 

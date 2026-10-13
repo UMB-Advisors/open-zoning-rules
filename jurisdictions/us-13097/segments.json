@@ -5,13 +5,15 @@
       "source_id": "us-13097-udc-page",
       "sha256": "9a782035d2cceaacfc5788c9f9c4485c793efaa33df563607b08e430e8804557",
       "pages": 1,
+      "tables": 0,
       "text_sha256": "27cb78d5936f64bc9a9b86003ba5170f6071d9e27d5ff747e74fbf06fded9878"
     },
     {
       "source_id": "us-13097-udc",
       "sha256": "36d41e6407d3e61b6c7537e1f4110e24d4d867fb5e9db12f5af34f9e24838569",
       "pages": 860,
-      "text_sha256": "07078da7701a5a94323cbf6ae3173df82fd0a9a8755351a5e8527f47ed936851"
+      "tables": 243,
+      "text_sha256": "2d007bcfe5524dc93abf0cb23ef658f1ea662af5740f0b756c1feafb272e2276"
     }
   ],
   "segments": [
@@ -179,7 +181,7 @@
         838
       ],
       "text": "segments/us-13097/use_table-us-13097-udc.txt",
-      "text_sha256": "c8328c2f2b5491da3881dcfb8e41ddbf2f2da8b358d896b530ba7071565fdf60",
+      "text_sha256": "32d612ef6084ecd71d0add5f8ece8a97567c940591e7fbbaf55055ded729ab1c",
       "images": [
         {
           "page": 6,

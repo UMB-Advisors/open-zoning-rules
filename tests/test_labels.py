@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 
 from ozr.extract import run as extract
+from ozr.gates import TABLE_TEXT_MARKER
 from ozr.labels import _images
 from ozr.models import ModelResult
 from ozr.review import run as review
@@ -111,6 +112,26 @@ def test_label_gates_reject_bad_cells_and_write_ledger(tiny_root: Path) -> None:
     ledger = json.loads((tiny_root / "runs" / "us-00000.jsonl").read_text().splitlines()[-1])
     assert ledger["input_tokens"] == 10
     assert ledger["cache_write_tokens"] == 4
+
+
+def test_passing_cells_record_which_text_matched(tiny_root: Path) -> None:
+    _prepare(tiny_root)
+    source_text = tiny_root / "cache" / "text" / "us-00000-zo.txt"
+    source_text.write_text("Table 4-2 I-1" + TABLE_TEXT_MARKER + "Warehouse | I-1 | P")
+
+    output = extract(tiny_root, "us-00000", lambda *_args: _result(_good()), "2026-10-10")
+
+    assert output is not None
+    assert output["cells"][0]["matched_text"] == {
+        "row_label": "table",
+        "column_header": "raw",
+        "section": "raw",
+    }
+    assert output["matched_text_counts"] == {
+        "column_header:raw": 1,
+        "row_label:table": 1,
+        "section:raw": 1,
+    }
 
 
 def test_marker_page_suffix_in_source_id_is_stripped(tiny_root: Path) -> None:

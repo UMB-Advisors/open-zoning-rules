@@ -9,6 +9,7 @@ from pathlib import Path
 
 from ozr.contamination import load_denylist
 from ozr.gates import (
+    TABLE_TEXT_MARKER,
     absence_errors,
     absence_hits,
     add_months,
@@ -18,6 +19,7 @@ from ozr.gates import (
     contains,
     coverage_errors,
     enum_errors,
+    match_layer,
     quote_errors,
     section_errors,
 )
@@ -185,6 +187,27 @@ def test_table_evidence_requires_row_and_column_in_text_and_quote() -> None:
     assert quote_errors(missing_row, ORDINANCE) == [
         "us-00000/I-2/warehouse_distribution: row label not found in source"
     ]
+
+
+def test_match_layer_reports_raw_or_table_and_ignores_the_boundary() -> None:
+    text = "alpha beta" + TABLE_TEXT_MARKER + "gamma delta"
+    assert match_layer(text, "beta") == "raw"
+    assert match_layer(text, "gamma") == "table"
+    assert match_layer(text, "beta gamma") is None
+    assert match_layer(text, "beta" + TABLE_TEXT_MARKER + "gamma") is None
+    record = make_cell()
+    record["evidence"] = {
+        "kind": "table",
+        "quote": "Warehouse | I-2 | P",
+        "section": "alpha",
+        "row_label": "Warehouse",
+        "column_header": "I-2",
+        "symbol": "P",
+    }
+    table_text = "alpha I-2" + TABLE_TEXT_MARKER + "Warehouse | I-2 | P"
+    assert quote_errors(record, table_text) == []
+    record["evidence"]["row_label"] = "No such row"
+    assert "us-00000/I-2/warehouse_distribution: row label not found in source" in quote_errors(record, table_text)
 
 
 def test_empty_quote_is_an_error() -> None:

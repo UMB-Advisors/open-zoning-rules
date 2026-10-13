@@ -2,7 +2,7 @@
   "jurisdiction_id": "us-5183136",
   "prompt": "extract.v1.md",
   "model": "claude-sonnet-5-5",
-  "run_id": "extract-us-5183136-20261010T090931Z",
+  "run_id": "extract-us-5183136-20261010T233535Z",
   "checked_at": "2026-10-10",
   "cells": [
     {
@@ -13,13 +13,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -30,7 +30,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -38,16 +38,19 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no use list for this district names a data center."
+          "reason": "Definition only; no use list for this district names data centers."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition line; no use list for this district names a data center."
+          "reason": "Same definition; not a listed use in this district."
         }
       ],
-      "notes": "Section 2-10 says uses not specifically listed are prohibited (unlisted_rule: prohibited_by_default)."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -57,13 +60,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -74,60 +77,57 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
-          "term": "warehouse",
-          "quote": "Wholesale establishments but not warehouses generally",
-          "section": "3-4.10.3.",
-          "reason": "The C district's wholesale use expressly excludes warehouses, so it does not capture the class."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Contractor’s office and warehouse without outdoor storage",
-          "section": "3-4.12.2.",
-          "reason": "Listed only in the I district."
-        },
-        {
           "term": "distribution center",
-          "quote": "Wholesale establishment, storage warehouse, or distribution center.",
-          "section": "3-4.12.2.",
-          "reason": "Listed only in the I district."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Self-service mini-warehouse",
-          "section": "3-4.12.3.",
-          "reason": "Self-storage is excluded from the class and is listed only in I."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
-          "section": "Article 12",
-          "reason": "Definition of self-storage, which the class excludes."
-        },
-        {
-          "term": "storage of goods",
-          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-          "section": "Article 12",
-          "reason": "Definition only; no use list for this district names a warehouse."
-        },
-        {
-          "term": "loading dock",
-          "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
-          "section": "Article 12",
-          "reason": "Berm definition, unrelated to warehouse use."
+          "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture moving",
+          "section": "3-4.12.2",
+          "reason": "Listed only in the I district, not in C."
         },
         {
           "term": "loading dock",
           "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
           "section": "Article 12",
-          "reason": "Flex Industrial definition; not a C district use."
+          "reason": "Part of the Flex Industrial definition; describes a building feature, not warehousing."
+        },
+        {
+          "term": "storage of goods",
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "Article 12",
+          "reason": "Definition only; no C use names warehouse."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Wholesale establishments but not warehouses generally",
+          "section": "3-4.10.3",
+          "reason": "The C use expressly excludes warehouses."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Contractor’s office and warehouse without outdoor storage",
+          "section": "3-4.12.2",
+          "reason": "I district use, not C."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Self-service mini-warehouse",
+          "section": "3-4.12.3",
+          "reason": "I district use, and self-storage is excluded from the class."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
+          "section": "Article 12",
+          "reason": "Self-storage definition, excluded from the class."
         }
       ],
-      "notes": "Wholesale establishments are conditional in C but are expressly 'not warehouses generally'. Section 2-10 applies (prohibited_by_default)."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -137,13 +137,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -154,10 +154,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -167,13 +171,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -184,10 +188,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -197,13 +205,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -214,7 +222,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -222,7 +230,7 @@
           "term": "canopy",
           "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy, unrelated to cannabis."
+          "reason": "Building canopy/awning structure, unrelated to cannabis."
         },
         {
           "term": "canopy",
@@ -240,15 +248,19 @@
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type."
+          "reason": "Sign type, unrelated."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition."
+          "reason": "Sign definition, unrelated."
         }
-      ]
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -258,13 +270,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -275,10 +287,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -288,13 +304,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.10.2. Permitted Uses (by-right)",
-        "section": "3-4.10.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -305,17 +321,21 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Automotive battery retail and service, not grid-scale energy storage; also listed only in I."
+          "section": "3-4.12.3",
+          "reason": "Automotive battery retail/service in the I district, not grid-scale energy storage."
         }
-      ]
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -325,13 +345,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -342,7 +362,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -350,16 +370,19 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no use list for this district names a data center."
+          "reason": "Definition only; no use list for this district names data centers."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition line."
+          "reason": "Same definition; not a listed use in this district."
         }
       ],
-      "notes": "Section 2-10 applies (prohibited_by_default)."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -369,13 +392,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -386,60 +409,57 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
-          "term": "warehouse",
-          "quote": "Wholesale establishments but not warehouses generally",
-          "section": "3-4.10.3.",
-          "reason": "C district use that excludes warehouses; not this district."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Contractor’s office and warehouse without outdoor storage",
-          "section": "3-4.12.2.",
-          "reason": "Listed only in I."
-        },
-        {
           "term": "distribution center",
-          "quote": "Wholesale establishment, storage warehouse, or distribution center.",
-          "section": "3-4.12.2.",
-          "reason": "Listed only in I."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Self-service mini-warehouse",
-          "section": "3-4.12.3.",
-          "reason": "Self-storage is excluded and listed only in I."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
-          "section": "Article 12",
-          "reason": "Self-storage definition, excluded."
-        },
-        {
-          "term": "storage of goods",
-          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-          "section": "Article 12",
-          "reason": "Definition only; not listed in this district."
-        },
-        {
-          "term": "loading dock",
-          "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
-          "section": "Article 12",
-          "reason": "Berm definition, unrelated."
+          "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture moving",
+          "section": "3-4.12.2",
+          "reason": "Listed only in the I district, not in CBD."
         },
         {
           "term": "loading dock",
           "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
           "section": "Article 12",
-          "reason": "Flex Industrial definition, not a CBD use."
+          "reason": "Part of the Flex Industrial definition; describes a building feature, not warehousing."
+        },
+        {
+          "term": "storage of goods",
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "Article 12",
+          "reason": "Definition only; no CBD use names warehouse."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Wholesale establishments but not warehouses generally",
+          "section": "3-4.10.3",
+          "reason": "C district use that expressly excludes warehouses."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Contractor’s office and warehouse without outdoor storage",
+          "section": "3-4.12.2",
+          "reason": "I district use, not CBD."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Self-service mini-warehouse",
+          "section": "3-4.12.3",
+          "reason": "I district use, and self-storage is excluded from the class."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
+          "section": "Article 12",
+          "reason": "Self-storage definition, excluded from the class."
         }
       ],
-      "notes": "Section 2-10 applies (prohibited_by_default)."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -449,13 +469,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -466,10 +486,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -479,13 +503,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -496,10 +520,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -509,13 +537,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -526,7 +554,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -534,7 +562,7 @@
           "term": "canopy",
           "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy, unrelated to cannabis."
+          "reason": "Building canopy/awning structure, unrelated to cannabis."
         },
         {
           "term": "canopy",
@@ -552,15 +580,19 @@
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type."
+          "reason": "Sign type, unrelated."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition."
+          "reason": "Sign definition, unrelated."
         }
-      ]
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -570,13 +602,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -587,10 +619,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -600,13 +636,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.11.2 Permitted Uses (by-right)",
-        "section": "3-4.11.2"
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -617,17 +653,21 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Automotive battery retail and service, not energy storage; listed only in I."
+          "section": "3-4.12.3",
+          "reason": "Automotive battery retail/service in the I district, not grid-scale energy storage."
         }
-      ]
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -637,13 +677,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.12.2. Permitted Uses (by-right)",
-        "section": "3-4.12.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -654,7 +694,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -662,16 +702,20 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no I district use list names a data center."
+          "reason": "Definition only; no use list for this district names data centers."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition line."
+          "reason": "Same definition; not a listed use in this district."
         }
       ],
-      "notes": "Section 2-10 applies (prohibited_by_default). 'Flex Office and Industrial uses' is defined as light industrial with offices and does not cover a data center."
+      "notes": "A 2021 data center text amendment (ZTA 2021-0321) is listed as affecting Articles 3, 9 and 12, but no I district use list in the provided text names data centers.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -679,13 +723,13 @@
       "use_class": "warehouse_distribution",
       "status": "permitted",
       "local_uses": [
-        "Wholesale establishment, storage warehouse, or distribution center.",
+        "Wholesale establishment, storage warehouse, or distribution center. furniture moving",
         "Contractor’s office and warehouse without outdoor storage"
       ],
       "evidence": {
         "kind": "prose",
-        "quote": "Wholesale establishment, storage warehouse, or distribution center.",
-        "section": "3-4.12.2."
+        "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture moving",
+        "section": "3-4.12.2"
       },
       "source": {
         "id": "us-5183136-zo-art3",
@@ -701,10 +745,14 @@
           "from": null,
           "to": "permitted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "Self-service mini-warehouse (SUP) is excluded self-storage and not mapped."
+      "notes": "Self-service mini-warehouse (conditional) is self-storage and excluded from the class.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -714,13 +762,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.12.2. Permitted Uses (by-right)",
-        "section": "3-4.12.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -731,11 +779,15 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [],
-      "notes": "Only light manufacturing is listed. Section 2-10 applies (prohibited_by_default)."
+      "notes": "I district allows only light manufacturing; no heavy industry or hazmat use is listed.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -748,7 +800,7 @@
       "evidence": {
         "kind": "prose",
         "quote": "Fuel, coal, oil distribution storage yards",
-        "section": "3-4.12.3."
+        "section": "3-4.12.3"
       },
       "source": {
         "id": "us-5183136-zo-art3",
@@ -764,10 +816,14 @@
           "from": null,
           "to": "conditional",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "Mapped as bulk fuel storage; LP gas is not named specifically."
+      "notes": "Mapped to bulk fuel storage; LP-gas is not named expressly.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -777,13 +833,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.12.2. Permitted Uses (by-right)",
-        "section": "3-4.12.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -794,7 +850,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -802,7 +858,7 @@
           "term": "canopy",
           "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy, unrelated to cannabis."
+          "reason": "Building canopy/awning structure, unrelated to cannabis."
         },
         {
           "term": "canopy",
@@ -820,16 +876,19 @@
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type."
+          "reason": "Sign type, unrelated."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition."
+          "reason": "Sign definition, unrelated."
         }
       ],
-      "notes": "'Nurseries and greenhouses' is a general horticultural use, not licensed cannabis cultivation."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -839,13 +898,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.12.2. Permitted Uses (by-right)",
-        "section": "3-4.12.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -856,10 +915,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -869,13 +932,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.12.3. Permissible Uses (by special use permit upon approval of the Town Council)",
-        "section": "3-4.12.3."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -886,17 +949,21 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Automotive battery retail and service, not grid-scale energy storage."
+          "section": "3-4.12.3",
+          "reason": "Automotive battery retail/service, not grid-scale energy storage."
         }
-      ]
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -906,13 +973,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -923,7 +990,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -931,16 +998,19 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no use list for this district names a data center."
+          "reason": "Definition only; no use list for this district names data centers."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition line."
+          "reason": "Same definition; not a listed use in this district."
         }
       ],
-      "notes": "Section 2-10 applies (prohibited_by_default)."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -950,13 +1020,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -967,60 +1037,57 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
-          "term": "warehouse",
-          "quote": "Wholesale establishments but not warehouses generally",
-          "section": "3-4.10.3.",
-          "reason": "C district use that excludes warehouses; not this district."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Contractor’s office and warehouse without outdoor storage",
-          "section": "3-4.12.2.",
-          "reason": "Listed only in I."
-        },
-        {
           "term": "distribution center",
-          "quote": "Wholesale establishment, storage warehouse, or distribution center.",
-          "section": "3-4.12.2.",
-          "reason": "Listed only in I."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Self-service mini-warehouse",
-          "section": "3-4.12.3.",
-          "reason": "Self-storage is excluded and listed only in I."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
-          "section": "Article 12",
-          "reason": "Self-storage definition, excluded."
-        },
-        {
-          "term": "storage of goods",
-          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-          "section": "Article 12",
-          "reason": "Definition only; not listed in this district."
-        },
-        {
-          "term": "loading dock",
-          "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
-          "section": "Article 12",
-          "reason": "Berm definition, unrelated."
+          "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture moving",
+          "section": "3-4.12.2",
+          "reason": "Listed only in the I district, not in PSP."
         },
         {
           "term": "loading dock",
           "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
           "section": "Article 12",
-          "reason": "Flex Industrial definition, not a PSP use."
+          "reason": "Part of the Flex Industrial definition; describes a building feature, not warehousing."
+        },
+        {
+          "term": "storage of goods",
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "Article 12",
+          "reason": "Definition only; no PSP use names warehouse."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Wholesale establishments but not warehouses generally",
+          "section": "3-4.10.3",
+          "reason": "C district use that expressly excludes warehouses."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Contractor’s office and warehouse without outdoor storage",
+          "section": "3-4.12.2",
+          "reason": "I district use, not PSP."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Self-service mini-warehouse",
+          "section": "3-4.12.3",
+          "reason": "I district use, and self-storage is excluded from the class."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
+          "section": "Article 12",
+          "reason": "Self-storage definition, excluded from the class."
         }
       ],
-      "notes": "Section 2-10 applies (prohibited_by_default)."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1030,13 +1097,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -1047,10 +1114,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1060,13 +1131,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -1077,10 +1148,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1090,13 +1165,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -1107,7 +1182,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -1115,7 +1190,7 @@
           "term": "canopy",
           "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy, unrelated to cannabis."
+          "reason": "Building canopy/awning structure, unrelated to cannabis."
         },
         {
           "term": "canopy",
@@ -1133,15 +1208,19 @@
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type."
+          "reason": "Sign type, unrelated."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition."
+          "reason": "Sign definition, unrelated."
         }
-      ]
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1151,13 +1230,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -1168,10 +1247,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "absence_hits": []
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1181,13 +1264,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-4.9.2. Permitted Uses (by-right)",
-        "section": "3-4.9.2."
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": false,
       "checked_at": "2026-10-10",
@@ -1198,17 +1281,21 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Automotive battery retail and service, not energy storage; listed only in I."
+          "section": "3-4.12.3",
+          "reason": "Automotive battery retail/service in the I district, not grid-scale energy storage."
         }
-      ]
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1218,13 +1305,13 @@
       "local_uses": [],
       "evidence": {
         "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
       },
       "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
       },
       "parcel_specific": true,
       "checked_at": "2026-10-10",
@@ -1235,7 +1322,341 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "data center",
+          "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+          "section": "Article 12",
+          "reason": "Definition only; no PUD use list names data centers."
+        },
+        {
+          "term": "data storage",
+          "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+          "section": "Article 12",
+          "reason": "Same definition; not a listed use."
+        }
+      ],
+      "notes": "PUD is an overlay; uses depend on the underlying district plus those listed in 3-5.2.5.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "PUD",
+      "use_class": "warehouse_distribution",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "distribution center",
+          "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture moving",
+          "section": "3-4.12.2",
+          "reason": "Listed only in the I district, not in the PUD lists."
+        },
+        {
+          "term": "loading dock",
+          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
+          "section": "Article 12",
+          "reason": "Part of the Flex Industrial definition; describes a building feature, not warehousing."
+        },
+        {
+          "term": "storage of goods",
+          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
+          "section": "Article 12",
+          "reason": "Definition only; no PUD use names warehouse."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Wholesale establishments but not warehouses generally",
+          "section": "3-4.10.3",
+          "reason": "C district use that expressly excludes warehouses."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Contractor’s office and warehouse without outdoor storage",
+          "section": "3-4.12.2",
+          "reason": "I district use, not in PUD lists."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Self-service mini-warehouse",
+          "section": "3-4.12.3",
+          "reason": "I district use, and self-storage is excluded from the class."
+        },
+        {
+          "term": "warehouse",
+          "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
+          "section": "Article 12",
+          "reason": "Self-storage definition, excluded from the class."
+        }
+      ],
+      "notes": "PUD adds C-district commercial uses by SUP; C district has no warehouse use.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "PUD",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "PUD",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "PUD",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "canopy",
+          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+          "section": "Article 12",
+          "reason": "Building canopy/awning structure, unrelated to cannabis."
+        },
+        {
+          "term": "canopy",
+          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+          "section": "Article 12",
+          "reason": "Architectural canopy definition."
+        },
+        {
+          "term": "canopy",
+          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+          "section": "Article 12",
+          "reason": "Architectural canopy definition."
+        },
+        {
+          "term": "canopy",
+          "quote": "marquee signs, suspended signs, and canopy signs.",
+          "section": "Article 12",
+          "reason": "Sign type, unrelated."
+        },
+        {
+          "term": "canopy",
+          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+          "section": "Article 12",
+          "reason": "Sign definition, unrelated."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "PUD",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "PUD",
+      "use_class": "battery_storage",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "battery",
+          "quote": "Tire and battery sales and service, tire recapping and retreading",
+          "section": "3-4.12.3",
+          "reason": "Automotive battery retail/service in the I district, not grid-scale energy storage."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "Planned Residential Developmen",
+      "use_class": "datacenter",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -1249,322 +1670,14 @@
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition line."
+          "reason": "Same definition; not a use listed in the PUD."
         }
       ],
-      "notes": "PUD is an overlay; underlying district uses also apply. Section 2-10 applies (prohibited_by_default)."
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
-      "use_class": "warehouse_distribution",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "warehouse",
-          "quote": "Wholesale establishments but not warehouses generally",
-          "section": "3-4.10.3.",
-          "reason": "C district use that excludes warehouses, so the PUD's C-use SUP does not reach warehouses."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Contractor’s office and warehouse without outdoor storage",
-          "section": "3-4.12.2.",
-          "reason": "Listed only in I; the PUD list draws only on C uses."
-        },
-        {
-          "term": "distribution center",
-          "quote": "Wholesale establishment, storage warehouse, or distribution center.",
-          "section": "3-4.12.2.",
-          "reason": "Listed only in I."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Self-service mini-warehouse",
-          "section": "3-4.12.3.",
-          "reason": "Self-storage is excluded and listed only in I."
-        },
-        {
-          "term": "warehouse",
-          "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
-          "section": "Article 12",
-          "reason": "Self-storage definition, excluded."
-        },
-        {
-          "term": "storage of goods",
-          "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
-          "section": "Article 12",
-          "reason": "Definition only; not listed in PUD."
-        },
-        {
-          "term": "loading dock",
-          "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
-          "section": "Article 12",
-          "reason": "Berm definition, unrelated."
-        },
-        {
-          "term": "loading dock",
-          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
-          "section": "Article 12",
-          "reason": "Flex Industrial definition, not a PUD use."
-        }
-      ],
-      "notes": "PUD is an overlay; underlying district uses also apply. Section 2-10 applies (prohibited_by_default)."
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": []
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": []
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
-          "section": "Article 12",
-          "reason": "Architectural canopy, unrelated to cannabis."
-        },
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Architectural canopy definition."
-        },
-        {
-          "term": "canopy",
-          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
-          "section": "Article 12",
-          "reason": "Architectural canopy definition."
-        },
-        {
-          "term": "canopy",
-          "quote": "marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Sign type."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Sign definition."
-        }
-      ]
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
-      "use_class": "utility_generation",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": []
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "PUD",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "3-5.2.5 Use Regulations.",
-        "section": "3-5.2.5"
-      },
-      "source": {
-        "id": "us-5183136-zo-art3",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/5115/Article-3---Zoning-Districts-PDF",
-        "date": "2026-07-14"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3.",
-          "reason": "Automotive battery retail and service, not energy storage; listed only in I."
-        }
-      ]
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "Planned Residential Developmen",
-      "use_class": "datacenter",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": true,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "data center",
-          "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
-          "section": "Article 12",
-          "reason": "Definition only; no use of this name is listed as permitted or permissible in this district."
-        },
-        {
-          "term": "data storage",
-          "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
-          "section": "Article 12",
-          "reason": "Same definition; not a use listed in this district."
-        }
-      ],
-      "notes": "Uses-not-listed clause: unlisted_rule is prohibited_by_default. PD row is the PUD overlay (3-5.2); underlying district rules apply."
+      "notes": "PUD is an overlay in the text (3-5.2). Uses are limited to those listed plus the underlying district's uses. The district name 'Planned Residential Developmen' is mapped to the PUD. unlisted_rule is prohibited_by_default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1591,7 +1704,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -1599,43 +1712,43 @@
           "term": "distribution center",
           "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "Permitted only in the I district; not listed in this district."
-        },
-        {
-          "term": "loading dock",
-          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
-          "section": "Article 12",
-          "reason": "Part of the Flex Industrial definition; not a use listed in this district."
+          "reason": "Permitted only in the I district; not listed in the PUD."
         },
         {
           "term": "loading dock",
           "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
           "section": "Article 12",
-          "reason": "Berm definition; unrelated to a warehouse use."
+          "reason": "Berm definition; not a use."
+        },
+        {
+          "term": "loading dock",
+          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
+          "section": "Article 12",
+          "reason": "Flex Industrial definition; not a use listed in the PUD."
         },
         {
           "term": "storage of goods",
           "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
           "section": "Article 12",
-          "reason": "Definition only; no warehouse use is listed in this district."
+          "reason": "Definition only; warehouse is not listed in the PUD."
         },
         {
           "term": "warehouse",
           "quote": "Wholesale establishments but not warehouses generally",
           "section": "3-4.10.3",
-          "reason": "C district use that expressly excludes warehouses; not listed here."
+          "reason": "C district entry that excludes warehouses."
         },
         {
           "term": "warehouse",
           "quote": "Contractor’s office and warehouse without outdoor storage",
           "section": "3-4.12.2",
-          "reason": "I district use; not listed here."
+          "reason": "I district contractor's office."
         },
         {
           "term": "warehouse",
           "quote": "Self-service mini-warehouse",
           "section": "3-4.12.3",
-          "reason": "Self-storage is excluded from the class; I district only."
+          "reason": "Self-storage, excluded from the class; I district only."
         },
         {
           "term": "warehouse",
@@ -1644,7 +1757,10 @@
           "reason": "Self-storage definition, excluded from the class."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default. The PUD allows C district uses by SUP, but the C district wholesale use excludes warehouses."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1671,10 +1787,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1701,10 +1821,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1731,42 +1855,45 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Awning definition; a structure, not cannabis."
         },
         {
           "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
           "section": "Article 12",
-          "reason": "Awning definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type; unrelated to cannabis."
+          "reason": "Sign type, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
+          "reason": "Sign definition, unrelated to cannabis."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1793,10 +1920,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1823,7 +1954,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -1831,10 +1962,13 @@
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
           "section": "3-4.12.3",
-          "reason": "Automotive retail and service use in the I district; not grid-scale energy storage."
+          "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1861,7 +1995,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -1869,16 +2003,19 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no use of this name is listed as permitted or permissible in this district."
+          "reason": "Definition only; no R-10 use list names a data center."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition; not a use listed in this district."
+          "reason": "Same definition; not a use listed in R-10."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1905,7 +2042,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -1913,43 +2050,43 @@
           "term": "distribution center",
           "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "Permitted only in the I district; not listed in this district."
-        },
-        {
-          "term": "loading dock",
-          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
-          "section": "Article 12",
-          "reason": "Part of the Flex Industrial definition; not a use listed in this district."
+          "reason": "Permitted only in the I district; not listed in R-10."
         },
         {
           "term": "loading dock",
           "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
           "section": "Article 12",
-          "reason": "Berm definition; unrelated to a warehouse use."
+          "reason": "Berm definition; not a use."
+        },
+        {
+          "term": "loading dock",
+          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
+          "section": "Article 12",
+          "reason": "Flex Industrial definition; not a use listed in R-10."
         },
         {
           "term": "storage of goods",
           "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
           "section": "Article 12",
-          "reason": "Definition only; no warehouse use is listed in this district."
+          "reason": "Definition only; warehouse is not listed in R-10."
         },
         {
           "term": "warehouse",
           "quote": "Wholesale establishments but not warehouses generally",
           "section": "3-4.10.3",
-          "reason": "C district use that expressly excludes warehouses; not listed here."
+          "reason": "C district entry that excludes warehouses."
         },
         {
           "term": "warehouse",
           "quote": "Contractor’s office and warehouse without outdoor storage",
           "section": "3-4.12.2",
-          "reason": "I district use; not listed here."
+          "reason": "I district contractor's office."
         },
         {
           "term": "warehouse",
           "quote": "Self-service mini-warehouse",
           "section": "3-4.12.3",
-          "reason": "Self-storage is excluded from the class; I district only."
+          "reason": "Self-storage, excluded from the class; I district only."
         },
         {
           "term": "warehouse",
@@ -1958,7 +2095,10 @@
           "reason": "Self-storage definition, excluded from the class."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -1985,10 +2125,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2015,10 +2159,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2045,42 +2193,45 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Awning definition; a structure, not cannabis."
         },
         {
           "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
           "section": "Article 12",
-          "reason": "Awning definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type; unrelated to cannabis."
+          "reason": "Sign type, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
+          "reason": "Sign definition, unrelated to cannabis."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2107,10 +2258,15 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "notes": "The R-10 SUP entry for treatment plants, transmission lines, substations and similar facilities does not name or define electric generating plants.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2137,7 +2293,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2145,10 +2301,13 @@
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
           "section": "3-4.12.3",
-          "reason": "Automotive retail and service use in the I district; not grid-scale energy storage."
+          "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2175,7 +2334,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2183,16 +2342,19 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no use of this name is listed as permitted or permissible in this district."
+          "reason": "Definition only; no R-15 use list names a data center."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition; not a use listed in this district."
+          "reason": "Same definition; not a use listed in R-15."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2219,7 +2381,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2227,43 +2389,43 @@
           "term": "distribution center",
           "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "Permitted only in the I district; not listed in this district."
-        },
-        {
-          "term": "loading dock",
-          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
-          "section": "Article 12",
-          "reason": "Part of the Flex Industrial definition; not a use listed in this district."
+          "reason": "Permitted only in the I district; not listed in R-15."
         },
         {
           "term": "loading dock",
           "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
           "section": "Article 12",
-          "reason": "Berm definition; unrelated to a warehouse use."
+          "reason": "Berm definition; not a use."
+        },
+        {
+          "term": "loading dock",
+          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
+          "section": "Article 12",
+          "reason": "Flex Industrial definition; not a use listed in R-15."
         },
         {
           "term": "storage of goods",
           "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
           "section": "Article 12",
-          "reason": "Definition only; no warehouse use is listed in this district."
+          "reason": "Definition only; warehouse is not listed in R-15."
         },
         {
           "term": "warehouse",
           "quote": "Wholesale establishments but not warehouses generally",
           "section": "3-4.10.3",
-          "reason": "C district use that expressly excludes warehouses; not listed here."
+          "reason": "C district entry that excludes warehouses."
         },
         {
           "term": "warehouse",
           "quote": "Contractor’s office and warehouse without outdoor storage",
           "section": "3-4.12.2",
-          "reason": "I district use; not listed here."
+          "reason": "I district contractor's office."
         },
         {
           "term": "warehouse",
           "quote": "Self-service mini-warehouse",
           "section": "3-4.12.3",
-          "reason": "Self-storage is excluded from the class; I district only."
+          "reason": "Self-storage, excluded from the class; I district only."
         },
         {
           "term": "warehouse",
@@ -2272,7 +2434,10 @@
           "reason": "Self-storage definition, excluded from the class."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2299,10 +2464,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2329,10 +2498,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2359,42 +2532,45 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Awning definition; a structure, not cannabis."
         },
         {
           "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
           "section": "Article 12",
-          "reason": "Awning definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type; unrelated to cannabis."
+          "reason": "Sign type, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
+          "reason": "Sign definition, unrelated to cannabis."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2421,10 +2597,15 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "notes": "The R-15 SUP entry for treatment plants, transmission lines, substations and similar facilities does not name or define electric generating plants.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2451,7 +2632,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2459,10 +2640,13 @@
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
           "section": "3-4.12.3",
-          "reason": "Automotive retail and service use in the I district; not grid-scale energy storage."
+          "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2489,7 +2673,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2497,16 +2681,19 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no use of this name is listed as permitted or permissible in this district."
+          "reason": "Definition only; no R-6 use list names a data center."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition; not a use listed in this district."
+          "reason": "Same definition; not a use listed in R-6."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2533,7 +2720,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2541,43 +2728,43 @@
           "term": "distribution center",
           "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "Permitted only in the I district; not listed in this district."
-        },
-        {
-          "term": "loading dock",
-          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
-          "section": "Article 12",
-          "reason": "Part of the Flex Industrial definition; not a use listed in this district."
+          "reason": "Permitted only in the I district; not listed in R-6."
         },
         {
           "term": "loading dock",
           "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
           "section": "Article 12",
-          "reason": "Berm definition; unrelated to a warehouse use."
+          "reason": "Berm definition; not a use."
+        },
+        {
+          "term": "loading dock",
+          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
+          "section": "Article 12",
+          "reason": "Flex Industrial definition; not a use listed in R-6."
         },
         {
           "term": "storage of goods",
           "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
           "section": "Article 12",
-          "reason": "Definition only; no warehouse use is listed in this district."
+          "reason": "Definition only; warehouse is not listed in R-6."
         },
         {
           "term": "warehouse",
           "quote": "Wholesale establishments but not warehouses generally",
           "section": "3-4.10.3",
-          "reason": "C district use that expressly excludes warehouses; not listed here."
+          "reason": "C district entry that excludes warehouses."
         },
         {
           "term": "warehouse",
           "quote": "Contractor’s office and warehouse without outdoor storage",
           "section": "3-4.12.2",
-          "reason": "I district use; not listed here."
+          "reason": "I district contractor's office."
         },
         {
           "term": "warehouse",
           "quote": "Self-service mini-warehouse",
           "section": "3-4.12.3",
-          "reason": "Self-storage is excluded from the class; I district only."
+          "reason": "Self-storage, excluded from the class; I district only."
         },
         {
           "term": "warehouse",
@@ -2586,7 +2773,10 @@
           "reason": "Self-storage definition, excluded from the class."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2613,10 +2803,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2643,10 +2837,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2673,42 +2871,45 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Awning definition; a structure, not cannabis."
         },
         {
           "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
           "section": "Article 12",
-          "reason": "Awning definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type; unrelated to cannabis."
+          "reason": "Sign type, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
+          "reason": "Sign definition, unrelated to cannabis."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2735,10 +2936,15 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "notes": "The R-6 SUP entry for treatment plants, transmission lines, substations and similar facilities does not name or define electric generating plants.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2765,7 +2971,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2773,10 +2979,13 @@
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
           "section": "3-4.12.3",
-          "reason": "Automotive retail and service use in the I district; not grid-scale energy storage."
+          "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2803,7 +3012,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2811,16 +3020,19 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no use of this name is listed as permitted or permissible in this district."
+          "reason": "Definition only; no RMF use list names a data center."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition; not a use listed in this district."
+          "reason": "Same definition; not a use listed in RMF."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2847,7 +3059,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -2855,43 +3067,43 @@
           "term": "distribution center",
           "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "Permitted only in the I district; not listed in this district."
-        },
-        {
-          "term": "loading dock",
-          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
-          "section": "Article 12",
-          "reason": "Part of the Flex Industrial definition; not a use listed in this district."
+          "reason": "Permitted only in the I district; not listed in RMF."
         },
         {
           "term": "loading dock",
           "quote": "as a parking area) or of a building (such as a loading dock). Berms typically range in height from two (2)",
           "section": "Article 12",
-          "reason": "Berm definition; unrelated to a warehouse use."
+          "reason": "Berm definition; not a use."
+        },
+        {
+          "term": "loading dock",
+          "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
+          "section": "Article 12",
+          "reason": "Flex Industrial definition; not a use listed in RMF."
         },
         {
           "term": "storage of goods",
           "quote": "Warehouse: A building used primarily for the storage of goods and materials.",
           "section": "Article 12",
-          "reason": "Definition only; no warehouse use is listed in this district."
+          "reason": "Definition only; warehouse is not listed in RMF."
         },
         {
           "term": "warehouse",
           "quote": "Wholesale establishments but not warehouses generally",
           "section": "3-4.10.3",
-          "reason": "C district use that expressly excludes warehouses; not listed here."
+          "reason": "C district entry that excludes warehouses."
         },
         {
           "term": "warehouse",
           "quote": "Contractor’s office and warehouse without outdoor storage",
           "section": "3-4.12.2",
-          "reason": "I district use; not listed here."
+          "reason": "I district contractor's office."
         },
         {
           "term": "warehouse",
           "quote": "Self-service mini-warehouse",
           "section": "3-4.12.3",
-          "reason": "Self-storage is excluded from the class; I district only."
+          "reason": "Self-storage, excluded from the class; I district only."
         },
         {
           "term": "warehouse",
@@ -2900,7 +3112,10 @@
           "reason": "Self-storage definition, excluded from the class."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2927,10 +3142,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2957,10 +3176,14 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -2987,42 +3210,45 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Awning definition; a structure, not cannabis."
         },
         {
           "term": "canopy",
-          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
           "section": "Article 12",
-          "reason": "Awning definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
           "section": "Article 12",
-          "reason": "Architectural canopy definition; unrelated to cannabis."
+          "reason": "Building canopy, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign type; unrelated to cannabis."
+          "reason": "Sign type, unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
           "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
+          "reason": "Sign definition, unrelated to cannabis."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3049,10 +3275,15 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "absence_hits": [],
+      "notes": "The RMF SUP entry for treatment plants, transmission lines, substations and similar facilities does not name or define electric generating plants.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3079,7 +3310,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -3087,10 +3318,13 @@
           "term": "battery",
           "quote": "Tire and battery sales and service, tire recapping and retreading",
           "section": "3-4.12.3",
-          "reason": "Automotive retail and service use in the I district; not grid-scale energy storage."
+          "reason": "Automotive battery retail and service in the I district; not grid-scale storage."
         }
       ],
-      "notes": "unlisted_rule is prohibited_by_default."
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3117,7 +3351,7 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
@@ -3125,16 +3359,68 @@
           "term": "data center",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Definition only; no use in the RO permitted or permissible lists (3-4.8.2, 3-4.8.3) names a data center."
+          "reason": "Definition only; no RO permitted or permissible use list names a data center."
         },
         {
           "term": "data storage",
           "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
           "section": "Article 12",
-          "reason": "Same definition line; it defines the term but does not allow it as a use in RO."
+          "reason": "Same definition; it is not a listed use in RO."
         }
       ],
-      "notes": "Section 2-10 says unlisted uses are prohibited by default (unlisted_rule: prohibited_by_default). The cell stays unlisted."
+      "notes": "Uses-not-listed clause (2-10) makes unlisted uses prohibited by default; the cell stays unlisted. The source_id for the Article 12 definition quotes is inferred because that page was not in the supplied text.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "RT",
+      "use_class": "datacenter",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "data center",
+          "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+          "section": "Article 12",
+          "reason": "Definition only; no RT permitted or permissible use list names a data center."
+        },
+        {
+          "term": "data storage",
+          "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
+          "section": "Article 12",
+          "reason": "Same definition; it is not a listed use in RT."
+        }
+      ],
+      "notes": "Uses-not-listed clause (2-10) makes unlisted uses prohibited by default; the cell stays unlisted. The source_id for the Article 12 definition quotes is inferred because that page was not in the supplied text.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3161,21 +3447,21 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "distribution center",
-          "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
+          "quote": "- Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "Permitted only in the I district; not listed in RO."
+          "reason": "Permitted only in the I district, not RO."
         },
         {
           "term": "loading dock",
           "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
           "section": "Article 12",
-          "reason": "Part of the Flex Industrial definition; not an RO use."
+          "reason": "Part of the Flex Industrial definition; it is not a RO use."
         },
         {
           "term": "loading dock",
@@ -3191,267 +3477,40 @@
         },
         {
           "term": "warehouse",
-          "quote": "Wholesale establishments but not warehouses generally",
+          "quote": "- Wholesale establishments but not warehouses generally",
           "section": "3-4.10.3",
-          "reason": "C district special use; not RO."
+          "reason": "C district use list; excludes warehouses and does not apply to RO."
         },
         {
           "term": "warehouse",
-          "quote": "Contractor’s office and warehouse without outdoor storage",
+          "quote": "- Contractor’s office and warehouse without outdoor storage",
           "section": "3-4.12.2",
-          "reason": "I district use; not RO."
+          "reason": "I district use only."
         },
         {
           "term": "warehouse",
-          "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
+          "quote": "- Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "I district use; not RO."
+          "reason": "I district use only."
         },
         {
           "term": "warehouse",
-          "quote": "Self-service mini-warehouse",
+          "quote": "- Self-service mini-warehouse",
           "section": "3-4.12.3",
-          "reason": "I district use, and self-storage is excluded from the class."
+          "reason": "Self-storage is excluded from the class and listed only in the I district."
         },
         {
           "term": "warehouse",
           "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
           "section": "Article 12",
-          "reason": "Self-storage definition, excluded from the class."
+          "reason": "Self-storage definition, which the class excludes."
         }
       ],
-      "notes": "Unlisted uses are prohibited by default under 2-10; the cell stays unlisted."
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
-      "use_class": "heavy_industrial_hazmat",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [],
-      "notes": "No taxonomy terms occur in the code. Unlisted uses are prohibited by default under 2-10."
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
-      "use_class": "lp_gas",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [],
-      "notes": "No taxonomy terms occur in the code. Unlisted uses are prohibited by default under 2-10."
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
-      "use_class": "cannabis_cultivation_processing",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "canopy",
-          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
-          "section": "Article 12",
-          "reason": "Building canopy definition; unrelated to cannabis."
-        },
-        {
-          "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
-          "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
-        },
-        {
-          "term": "canopy",
-          "quote": "marquee signs, suspended signs, and canopy signs.",
-          "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
-        },
-        {
-          "term": "canopy",
-          "quote": "Cornices, canopies, awnings, eaves, or other such similar feature, all of which are at least",
-          "section": "2-18.1",
-          "reason": "Yard encroachment rule for architectural features; unrelated to cannabis."
-        }
-      ],
-      "notes": "Unlisted uses are prohibited by default under 2-10."
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
-      "use_class": "utility_generation",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [],
-      "notes": "No taxonomy terms occur in the code. The RO special use list includes 'Treatment plants, water storage tanks, major transmission lines or pipelines...' but these are not generating plants. Unlisted uses are prohibited by default under 2-10."
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RO",
-      "use_class": "battery_storage",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "battery",
-          "quote": "Tire and battery sales and service, tire recapping and retreading",
-          "section": "3-4.12.3",
-          "reason": "Vehicle battery retail and service in the I district; not grid-scale energy storage."
-        }
-      ],
-      "notes": "Unlisted uses are prohibited by default under 2-10."
-    },
-    {
-      "jurisdiction_id": "us-5183136",
-      "district_code": "RT",
-      "use_class": "datacenter",
-      "status": "unlisted",
-      "local_uses": [],
-      "evidence": {
-        "kind": "absence",
-        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
-        "section": "2-10"
-      },
-      "source": {
-        "id": "us-5183136-zo-art2",
-        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
-        "date": "2026-10-10"
-      },
-      "parcel_specific": false,
-      "checked_at": "2026-10-10",
-      "stale": false,
-      "history": [
-        {
-          "date": "2026-10-10",
-          "from": null,
-          "to": "unlisted",
-          "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
-        }
-      ],
-      "absence_hits": [
-        {
-          "term": "data center",
-          "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
-          "section": "Article 12",
-          "reason": "Definition only; no use in the RT permitted or permissible lists (3-4.4.2, 3-4.4.3) names a data center."
-        },
-        {
-          "term": "data storage",
-          "quote": "Data Center: A facility containing one or more large-scale computer systems used for data storage and",
-          "section": "Article 12",
-          "reason": "Same definition line; it defines the term but does not allow it as a use in RT."
-        }
-      ],
-      "notes": "Unlisted uses are prohibited by default under 2-10; the cell stays unlisted."
+      "notes": "2-10 says uses not listed are prohibited; the cell stays unlisted. The source_id for the Article 12 quotes is inferred.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3478,21 +3537,21 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "distribution center",
-          "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
+          "quote": "- Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "Permitted only in the I district; not listed in RT."
+          "reason": "Permitted only in the I district, not RT."
         },
         {
           "term": "loading dock",
           "quote": "with one or more loading docks, and not more than half of the gross floor area used for offices.",
           "section": "Article 12",
-          "reason": "Part of the Flex Industrial definition; not an RT use."
+          "reason": "Part of the Flex Industrial definition; it is not a RT use."
         },
         {
           "term": "loading dock",
@@ -3508,36 +3567,75 @@
         },
         {
           "term": "warehouse",
-          "quote": "Wholesale establishments but not warehouses generally",
+          "quote": "- Wholesale establishments but not warehouses generally",
           "section": "3-4.10.3",
-          "reason": "C district special use; not RT."
+          "reason": "C district use list; excludes warehouses and does not apply to RT."
         },
         {
           "term": "warehouse",
-          "quote": "Contractor’s office and warehouse without outdoor storage",
+          "quote": "- Contractor’s office and warehouse without outdoor storage",
           "section": "3-4.12.2",
-          "reason": "I district use; not RT."
+          "reason": "I district use only."
         },
         {
           "term": "warehouse",
-          "quote": "Wholesale establishment, storage warehouse, or distribution center. furniture",
+          "quote": "- Wholesale establishment, storage warehouse, or distribution center. furniture",
           "section": "3-4.12.2",
-          "reason": "I district use; not RT."
+          "reason": "I district use only."
         },
         {
           "term": "warehouse",
-          "quote": "Self-service mini-warehouse",
+          "quote": "- Self-service mini-warehouse",
           "section": "3-4.12.3",
-          "reason": "I district use, and self-storage is excluded from the class."
+          "reason": "Self-storage is excluded from the class and listed only in the I district."
         },
         {
           "term": "warehouse",
           "quote": "Mini-Warehouse: A structure containing separate storage spaces of varying sizes leased or owned on an",
           "section": "Article 12",
-          "reason": "Self-storage definition, excluded from the class."
+          "reason": "Self-storage definition, which the class excludes."
         }
       ],
-      "notes": "Unlisted uses are prohibited by default under 2-10; the cell stays unlisted."
+      "notes": "2-10 says uses not listed are prohibited; the cell stays unlisted. The source_id for the Article 12 quotes is inferred.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "RO",
+      "use_class": "heavy_industrial_hazmat",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [],
+      "notes": "No term hits for this class; 2-10 prohibits unlisted uses by default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3564,11 +3662,50 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [],
-      "notes": "No taxonomy terms occur in the code. Unlisted uses are prohibited by default under 2-10."
+      "notes": "No term hits for this class; 2-10 prohibits unlisted uses by default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "RO",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [],
+      "notes": "No term hits for this class; 2-10 prohibits unlisted uses by default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3595,11 +3732,81 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [],
-      "notes": "No taxonomy terms occur in the code. Unlisted uses are prohibited by default under 2-10."
+      "notes": "No term hits for this class; 2-10 prohibits unlisted uses by default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "RO",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "canopy",
+          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+          "section": "Article 12",
+          "reason": "Awning or canopy structure definition; unrelated to cannabis."
+        },
+        {
+          "term": "canopy",
+          "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
+          "section": "Article 12",
+          "reason": "Building canopy definition; unrelated to cannabis."
+        },
+        {
+          "term": "canopy",
+          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
+          "section": "Article 12",
+          "reason": "Building canopy definition; unrelated to cannabis."
+        },
+        {
+          "term": "canopy",
+          "quote": "marquee signs, suspended signs, and canopy signs.",
+          "section": "Article 12",
+          "reason": "Sign type; unrelated to cannabis."
+        },
+        {
+          "term": "canopy",
+          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+          "section": "Article 12",
+          "reason": "Sign definition; unrelated to cannabis."
+        }
+      ],
+      "notes": "2-10 prohibits unlisted uses by default. The source_id for the Article 12 quotes is inferred.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3626,10 +3833,16 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
+        {
+          "term": "canopy",
+          "quote": "structure may be raised or retracted to a flat position against the building, but not including a canopy or",
+          "section": "Article 12",
+          "reason": "Awning or canopy structure definition; unrelated to cannabis."
+        },
         {
           "term": "canopy",
           "quote": "Canopy: A structure, other than an awning, made of cloth, metal, or other material which may be a",
@@ -3638,24 +3851,63 @@
         },
         {
           "term": "canopy",
-          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+          "quote": "patrons or automobiles, or as a decorative feature on a building wall. A canopy is not a completely enclosed",
           "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
+          "reason": "Building canopy definition; unrelated to cannabis."
         },
         {
           "term": "canopy",
           "quote": "marquee signs, suspended signs, and canopy signs.",
           "section": "Article 12",
-          "reason": "Sign definition; unrelated to cannabis."
+          "reason": "Sign type; unrelated to cannabis."
         },
         {
           "term": "canopy",
-          "quote": "Cornices, canopies, awnings, eaves, or other such similar feature, all of which are at least",
-          "section": "2-18.1",
-          "reason": "Yard encroachment rule for architectural features; unrelated to cannabis."
+          "quote": "Sign, Canopy: A sign attached to the soffit or fascia of a canopy.",
+          "section": "Article 12",
+          "reason": "Sign definition; unrelated to cannabis."
         }
       ],
-      "notes": "Unlisted uses are prohibited by default under 2-10."
+      "notes": "2-10 prohibits unlisted uses by default. The source_id for the Article 12 quotes is inferred.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "RO",
+      "use_class": "utility_generation",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [],
+      "notes": "No term hits for this class. The RO utilities entry covers distribution and local service lines, not generation. 2-10 prohibits unlisted uses by default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3682,11 +3934,57 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [],
-      "notes": "No taxonomy terms occur in the code. The RT special use list includes 'Treatment plants, water storage tanks, major transmission lines or pipelines...' but these are not generating plants. Unlisted uses are prohibited by default under 2-10."
+      "notes": "No term hits for this class. The RT utilities entry covers distribution and local service lines, not generation. 2-10 prohibits unlisted uses by default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-5183136",
+      "district_code": "RO",
+      "use_class": "battery_storage",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+        "section": "2-10"
+      },
+      "source": {
+        "id": "us-5183136-zo-art2",
+        "url": "https://www.warrentonva.gov/DocumentCenter/View/3533/Article-2--General-Provisions-PDF",
+        "date": "2026-10-10"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-10",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-10",
+          "from": null,
+          "to": "unlisted",
+          "by": "claude",
+          "ref": "extract-us-5183136-20261010T233535Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "battery",
+          "quote": "- Tire and battery sales and service, tire recapping and retreading",
+          "section": "3-4.12.3",
+          "reason": "Retail sales and service of vehicle batteries in the I district; not grid-scale energy storage."
+        }
+      ],
+      "notes": "2-10 prohibits unlisted uses by default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     },
     {
       "jurisdiction_id": "us-5183136",
@@ -3713,20 +4011,28 @@
           "from": null,
           "to": "unlisted",
           "by": "claude",
-          "ref": "extract-us-5183136-20261010T090931Z"
+          "ref": "extract-us-5183136-20261010T233535Z"
         }
       ],
       "absence_hits": [
         {
           "term": "battery",
-          "quote": "Tire and battery sales and service, tire recapping and retreading",
+          "quote": "- Tire and battery sales and service, tire recapping and retreading",
           "section": "3-4.12.3",
-          "reason": "Vehicle battery retail and service in the I district; not grid-scale energy storage."
+          "reason": "Retail sales and service of vehicle batteries in the I district; not grid-scale energy storage."
         }
       ],
-      "notes": "Unlisted uses are prohibited by default under 2-10."
+      "notes": "2-10 prohibits unlisted uses by default.",
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
     }
   ],
+  "matched_text_counts": {
+    "quote:raw": 84,
+    "section:raw": 84
+  },
   "rejected": [],
   "missing": []
 }
