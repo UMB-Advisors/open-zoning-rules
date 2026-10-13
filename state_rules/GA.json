@@ -1,0 +1,103 @@
+[
+  {
+    "id": "ga-datacenter",
+    "state": "GA",
+    "use_class": "datacenter",
+    "effect": "none_found",
+    "citation": "O.C.G.A. 48-8-3(68.1) (sales tax exemption only)",
+    "conditions": [
+      "No statute preempting local zoning of data centers was found. Triage reported only a sales tax exemption; it was not read in this step, and the status of 2024-2026 data-center bills was not confirmed on the legislature's site."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "ga-warehouse_distribution",
+    "state": "GA",
+    "use_class": "warehouse_distribution",
+    "effect": "none_found",
+    "conditions": [
+      "No statute found limiting local zoning of warehouse or distribution uses. The search was not exhaustive and was not confirmed against the legislature's site."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "ga-heavy_industrial_hazmat",
+    "state": "GA",
+    "use_class": "heavy_industrial_hazmat",
+    "effect": "local_ban_preempted",
+    "citation": "O.C.G.A. 12-8-79; Ga. L. 1979, p. 1127, s. 21 (Georgia Hazardous Waste Management Act)",
+    "quote": "no action, ordinance, regulation or law of any county, municipality or other political subdivision shall operate to prevent the location or operation of a hazardous waste facility holding a valid Hazardous Waste Facility Permit",
+    "url": "https://dlg.usg.edu/record/dlg_zlgl_396303239/fulltext.text",
+    "effective_date": "1979-04-16",
+    "conditions": [
+      "Narrow: applies only to hazardous waste treatment, storage or disposal facilities that hold a state permit; not general heavy industry or chemical plants.",
+      "The same section lets a local government challenge a facility's compliance with the Act or its permit.",
+      "Primary-host exception: the URL is the Digital Library of Georgia scan of the 1979 session laws (University System of Georgia), not the legislature's own site, which has no copy of the 1979 act. The current codified text of O.C.G.A. 12-8-79 was not read.",
+      "Effective upon approval by the Governor (Section 24); approved April 16, 1979."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "ga-lp_gas",
+    "state": "GA",
+    "use_class": "lp_gas",
+    "effect": "local_ban_preempted",
+    "citation": "O.C.G.A. 46-1-6(b), HB 150 (2021) as amended by HB 374 (2023); O.C.G.A. 10-1-270",
+    "quote": "No governmental entity of this state shall adopt any policy that restricts or prohibits, or has the effect of restricting or prohibiting, based on the type or source of energy or fuel to be delivered or the appliance to be used:",
+    "url": "https://www.legis.ga.gov/api/legislation/document/20232024/220435",
+    "effective_date": "unknown",
+    "conditions": [
+      "Preempts fuel-type bans on LP gas connection and sales of liquefied petroleum gas. It does not mention zoning, siting or bulk storage, so local zoning of LP gas facilities is not shown to be preempted; the effect value is a judgement call (the Florida row for a similar statute is none_found).",
+      "The bill PDF interleaves line numbers with the text; the quote matches once line-number lines are removed.",
+      "Effective upon approval by the Governor; the approval date was not read from a primary page."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "ga-cannabis_cultivation_processing",
+    "state": "GA",
+    "use_class": "cannabis_cultivation_processing",
+    "effect": "none_found",
+    "citation": "O.C.G.A. 16-12-215(a), HB 324 (2019, Georgia's Hope Act)",
+    "quote": "No licensee shall operate in any location, whether for cultivation, harvesting, and processing of marijuana or for processing, manufacturing, packaging, or distributing low THC oil, within a 3,000 foot radius of a covered entity",
+    "url": "https://www.legis.ga.gov/api/legislation/document/20192020/187578",
+    "setbacks": [
+      {
+        "value": 3000,
+        "unit": "ft",
+        "from": "a covered entity, property boundary to property boundary (state rule, in addition to local zoning)"
+      }
+    ],
+    "conditions": [
+      "No clause preempts or occupies local zoning of production or processing.",
+      "Dispensing is outside this class; local rules for dispensing licensees were not checked."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "ga-utility_generation",
+    "state": "GA",
+    "use_class": "utility_generation",
+    "effect": "local_standards_capped",
+    "citation": "O.C.G.A. 46-3-69.1(b), HB 300 (2024)",
+    "quote": "No county or municipal corporation shall impose on a grantee who has entered into a solar power facility agreement that conforms to the requirements of this Code section financial assurance requirements relating to the removal or decommissioning of solar power facilities.",
+    "url": "https://www.legis.ga.gov/api/legislation/document/20232024/229527",
+    "effective_date": "2024-07-01",
+    "conditions": [
+      "Narrow: caps only local decommissioning-bond requirements for solar leased under a conforming agreement.",
+      "No state siting preemption for generating plants was found; whether a Public Service Commission certificate displaces zoning was not checked.",
+      "The bill PDF interleaves line numbers with the text; the quote matches once line-number lines are removed."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "ga-battery_storage",
+    "state": "GA",
+    "use_class": "battery_storage",
+    "effect": "none_found",
+    "conditions": [
+      "No battery storage siting preemption was found. The search was not exhaustive and was not confirmed against the legislature's site."
+    ],
+    "checked_at": "2026-10-09"
+  }
+]

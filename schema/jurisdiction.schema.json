@@ -35,7 +35,7 @@
       "pattern": "^[A-Z]{2}$"
     },
     "unlisted_rule": {
-      "enum": ["none", "prohibited_by_default"]
+      "enum": ["none", "prohibited_by_default", "unknown"]
     },
     "unlisted_rule_quote": {
       "type": "object",
@@ -53,9 +53,14 @@
       }
     },
     "code_version": {
-      "type": "string",
-      "maxLength": 10,
-      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      "anyOf": [
+        {
+          "type": "string",
+          "maxLength": 10,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        { "const": "unknown" }
+      ]
     },
     "conditional_zoning_unmapped": {
       "type": "boolean"

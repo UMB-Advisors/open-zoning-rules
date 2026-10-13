@@ -1,0 +1,2721 @@
+{
+  "jurisdiction_id": "us-1304000",
+  "name": "City of Atlanta",
+  "type": "municipality",
+  "state": "GA",
+  "unlisted_rule": "unknown",
+  "code_version": "unknown",
+  "conditional_zoning_unmapped": false,
+  "sources": [
+    "us-1304000-gis-zoning",
+    "us-1304000-gis-overlay"
+  ],
+  "districts": [
+    {
+      "district_code": "C-1",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-1"
+      }
+    },
+    {
+      "district_code": "C-1-C",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-1-C"
+      }
+    },
+    {
+      "district_code": "C-2",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-2"
+      }
+    },
+    {
+      "district_code": "C-2-C",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-2-C"
+      }
+    },
+    {
+      "district_code": "C-3",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-3"
+      }
+    },
+    {
+      "district_code": "C-3-C",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-3-C"
+      }
+    },
+    {
+      "district_code": "C-4",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-4"
+      }
+    },
+    {
+      "district_code": "C-4-C",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-4-C"
+      }
+    },
+    {
+      "district_code": "C-5",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-5"
+      }
+    },
+    {
+      "district_code": "C-5-C",
+      "district_name": "Commercial",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "C-5-C"
+      }
+    },
+    {
+      "district_code": "FCR-3",
+      "district_name": "Fulton County Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "FCR-3"
+      }
+    },
+    {
+      "district_code": "HC-20A SA1",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20A SA1"
+      }
+    },
+    {
+      "district_code": "HC-20A SA2",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20A SA2"
+      }
+    },
+    {
+      "district_code": "HC-20A SA3",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20A SA3"
+      }
+    },
+    {
+      "district_code": "HC-20A SA4",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20A SA4"
+      }
+    },
+    {
+      "district_code": "HC-20A SA4-C",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20A SA4-C"
+      }
+    },
+    {
+      "district_code": "HC-20A SA5",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20A SA5"
+      }
+    },
+    {
+      "district_code": "HC-20B",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20B"
+      }
+    },
+    {
+      "district_code": "HC-20C SA1",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20C SA1"
+      }
+    },
+    {
+      "district_code": "HC-20C SA2",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20C SA2"
+      }
+    },
+    {
+      "district_code": "HC-20C SA3",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20C SA3"
+      }
+    },
+    {
+      "district_code": "HC-20C SA3-C",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20C SA3-C"
+      }
+    },
+    {
+      "district_code": "HC-20C SA4",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20C SA4"
+      }
+    },
+    {
+      "district_code": "HC-20D",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20D"
+      }
+    },
+    {
+      "district_code": "HC-20E",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20E"
+      }
+    },
+    {
+      "district_code": "HC-20N SA1",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20N SA1"
+      }
+    },
+    {
+      "district_code": "HC-20N SA2",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "HC-20N SA2"
+      }
+    },
+    {
+      "district_code": "I-1",
+      "district_name": "Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "I-1"
+      }
+    },
+    {
+      "district_code": "I-1-C",
+      "district_name": "Industrial",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "I-1-C"
+      }
+    },
+    {
+      "district_code": "I-2",
+      "district_name": "Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "I-2"
+      }
+    },
+    {
+      "district_code": "I-2-C",
+      "district_name": "Industrial",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "I-2-C"
+      }
+    },
+    {
+      "district_code": "I-MIX",
+      "district_name": "Industrial",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "I-MIX"
+      }
+    },
+    {
+      "district_code": "I-MIX-C",
+      "district_name": "Industrial",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "I-MIX-C"
+      }
+    },
+    {
+      "district_code": "I-Mix-C",
+      "district_name": "Industrial",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "I-Mix-C"
+      }
+    },
+    {
+      "district_code": "LD Briarcliff Plaza",
+      "district_name": "Landmark District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "LD Briarcliff Plaza"
+      }
+    },
+    {
+      "district_code": "LD Mean Street",
+      "district_name": "Landmark District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "LD Mean Street"
+      }
+    },
+    {
+      "district_code": "LD Pratt- Pullman",
+      "district_name": "Landmark District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "LD Pratt- Pullman"
+      }
+    },
+    {
+      "district_code": "LW",
+      "district_name": "Live Work",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "LW"
+      }
+    },
+    {
+      "district_code": "LW-C",
+      "district_name": "Live Work",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "LW-C"
+      }
+    },
+    {
+      "district_code": "MR-1",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-1"
+      }
+    },
+    {
+      "district_code": "MR-1-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-1-C"
+      }
+    },
+    {
+      "district_code": "MR-2",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-2"
+      }
+    },
+    {
+      "district_code": "MR-2-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-2-C"
+      }
+    },
+    {
+      "district_code": "MR-3",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-3"
+      }
+    },
+    {
+      "district_code": "MR-3-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-3-C"
+      }
+    },
+    {
+      "district_code": "MR-3A-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-3A-C"
+      }
+    },
+    {
+      "district_code": "MR-4-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-4-C"
+      }
+    },
+    {
+      "district_code": "MR-4A",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-4A"
+      }
+    },
+    {
+      "district_code": "MR-4A-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-4A-C"
+      }
+    },
+    {
+      "district_code": "MR-4B",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-4B"
+      }
+    },
+    {
+      "district_code": "MR-4B-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-4B-C"
+      }
+    },
+    {
+      "district_code": "MR-5A",
+      "district_name": "MR-5A",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-5A"
+      }
+    },
+    {
+      "district_code": "MR-5A-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-5A-C"
+      }
+    },
+    {
+      "district_code": "MR-MU",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MR-MU"
+      }
+    },
+    {
+      "district_code": "MRC-1",
+      "district_name": "Multi-Family Residential",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MRC-1"
+      }
+    },
+    {
+      "district_code": "MRC-1-C",
+      "district_name": "Multi-Family Residential",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MRC-1-C"
+      }
+    },
+    {
+      "district_code": "MRC-2",
+      "district_name": "Multi-Family Residential",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MRC-2"
+      }
+    },
+    {
+      "district_code": "MRC-2-C",
+      "district_name": "Multi-Family Residential",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MRC-2-C"
+      }
+    },
+    {
+      "district_code": "MRC-3",
+      "district_name": "Multi-Family Residential",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MRC-3"
+      }
+    },
+    {
+      "district_code": "MRC-3-C",
+      "district_name": "Multi-Family Residential",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "MRC-3-C"
+      }
+    },
+    {
+      "district_code": "NC-1",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-1"
+      }
+    },
+    {
+      "district_code": "NC-10 SA1",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-10 SA1"
+      }
+    },
+    {
+      "district_code": "NC-10 SA2",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-10 SA2"
+      }
+    },
+    {
+      "district_code": "NC-11",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-11"
+      }
+    },
+    {
+      "district_code": "NC-12 SA1",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-12 SA1"
+      }
+    },
+    {
+      "district_code": "NC-12 SA2",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-12 SA2"
+      }
+    },
+    {
+      "district_code": "NC-13",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-13"
+      }
+    },
+    {
+      "district_code": "NC-14",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-14"
+      }
+    },
+    {
+      "district_code": "NC-15",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-15"
+      }
+    },
+    {
+      "district_code": "NC-16",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-16"
+      }
+    },
+    {
+      "district_code": "NC-2",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-2"
+      }
+    },
+    {
+      "district_code": "NC-3",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-3"
+      }
+    },
+    {
+      "district_code": "NC-4",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-4"
+      }
+    },
+    {
+      "district_code": "NC-5",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-5"
+      }
+    },
+    {
+      "district_code": "NC-5-C",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-5-C"
+      }
+    },
+    {
+      "district_code": "NC-6",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-6"
+      }
+    },
+    {
+      "district_code": "NC-7",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-7"
+      }
+    },
+    {
+      "district_code": "NC-7-C",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-7-C"
+      }
+    },
+    {
+      "district_code": "NC-8",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-8"
+      }
+    },
+    {
+      "district_code": "NC-9",
+      "district_name": "Neighborhood Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "NC-9"
+      }
+    },
+    {
+      "district_code": "O-I",
+      "district_name": "Office-Institutional",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "O-I"
+      }
+    },
+    {
+      "district_code": "O-I-C",
+      "district_name": "Office-Institutional",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "O-I-C"
+      }
+    },
+    {
+      "district_code": "PD-H",
+      "district_name": "Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "PD-H"
+      }
+    },
+    {
+      "district_code": "PD-H1",
+      "district_name": "Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "PD-H1"
+      }
+    },
+    {
+      "district_code": "PD-H2",
+      "district_name": "Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "PD-H2"
+      }
+    },
+    {
+      "district_code": "PD-MU",
+      "district_name": "Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "PD-MU"
+      }
+    },
+    {
+      "district_code": "PD-OC",
+      "district_name": "Planned Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "PD-OC"
+      }
+    },
+    {
+      "district_code": "Poncey-Highland SA1",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "Poncey-Highland SA1"
+      }
+    },
+    {
+      "district_code": "Poncey-Highland SA2",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "Poncey-Highland SA2"
+      }
+    },
+    {
+      "district_code": "Poncey-Highland SA3",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "Poncey-Highland SA3"
+      }
+    },
+    {
+      "district_code": "Poncey-Highland SA4",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "Poncey-Highland SA4"
+      }
+    },
+    {
+      "district_code": "Poncey-Highland SA5",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "Poncey-Highland SA5"
+      }
+    },
+    {
+      "district_code": "Poncey-Highland SA6",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "Poncey-Highland SA6"
+      }
+    },
+    {
+      "district_code": "Poncey-Highland SA7",
+      "district_name": "Historic",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "Poncey-Highland SA7"
+      }
+    },
+    {
+      "district_code": "R-1",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-1"
+      }
+    },
+    {
+      "district_code": "R-2",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-2"
+      }
+    },
+    {
+      "district_code": "R-2A",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-2A"
+      }
+    },
+    {
+      "district_code": "R-2A-C",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-2A-C"
+      }
+    },
+    {
+      "district_code": "R-2B",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-2B"
+      }
+    },
+    {
+      "district_code": "R-3",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-3"
+      }
+    },
+    {
+      "district_code": "R-3-C",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-3-C"
+      }
+    },
+    {
+      "district_code": "R-3A",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-3A"
+      }
+    },
+    {
+      "district_code": "R-4",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-4"
+      }
+    },
+    {
+      "district_code": "R-4-C",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-4-C"
+      }
+    },
+    {
+      "district_code": "R-4A",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-4A"
+      }
+    },
+    {
+      "district_code": "R-4A-C",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-4A-C"
+      }
+    },
+    {
+      "district_code": "R-4B",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-4B"
+      }
+    },
+    {
+      "district_code": "R-4B-C",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-4B-C"
+      }
+    },
+    {
+      "district_code": "R-5",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-5"
+      }
+    },
+    {
+      "district_code": "R-5-C",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-5-C"
+      }
+    },
+    {
+      "district_code": "R-LC",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-LC"
+      }
+    },
+    {
+      "district_code": "R-LC-C",
+      "district_name": "Single Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "R-LC-C"
+      }
+    },
+    {
+      "district_code": "RG-1",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-1"
+      }
+    },
+    {
+      "district_code": "RG-1-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-1-C"
+      }
+    },
+    {
+      "district_code": "RG-2",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-2"
+      }
+    },
+    {
+      "district_code": "RG-2-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-2-C"
+      }
+    },
+    {
+      "district_code": "RG-3",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-3"
+      }
+    },
+    {
+      "district_code": "RG-3-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-3-C"
+      }
+    },
+    {
+      "district_code": "RG-4",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-4"
+      }
+    },
+    {
+      "district_code": "RG-4-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-4-C"
+      }
+    },
+    {
+      "district_code": "RG-5",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-5"
+      }
+    },
+    {
+      "district_code": "RG-5-C",
+      "district_name": "Multi-Family Residential",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "RG-5-C"
+      }
+    },
+    {
+      "district_code": "SPI-1 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-1 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-1 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-1 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-1 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-1 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-1 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-1 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-1 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-1 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-1 SA6",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-1 SA6"
+      }
+    },
+    {
+      "district_code": "SPI-1 SA7",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-1 SA7"
+      }
+    },
+    {
+      "district_code": "SPI-11 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-11 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-11 SA6",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-11 SA6"
+      }
+    },
+    {
+      "district_code": "SPI-11 SA8",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-11 SA8"
+      }
+    },
+    {
+      "district_code": "SPI-11 SA9",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-11 SA9"
+      }
+    },
+    {
+      "district_code": "SPI-12 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-12 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-12 SA1-C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-12 SA1-C"
+      }
+    },
+    {
+      "district_code": "SPI-12 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-12 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-12 SA2-C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-12 SA2-C"
+      }
+    },
+    {
+      "district_code": "SPI-12 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-12 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-12 SA3-C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-12 SA3-C"
+      }
+    },
+    {
+      "district_code": "SPI-12 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-12 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA4-C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA4-C"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA6",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA6"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA7",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA7"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA8",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA8"
+      }
+    },
+    {
+      "district_code": "SPI-15 SA9",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-15 SA9"
+      }
+    },
+    {
+      "district_code": "SPI-16 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-16 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-16 SA1C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-16 SA1C"
+      }
+    },
+    {
+      "district_code": "SPI-16 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-16 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-16 SA2 JSTA",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-16 SA2 JSTA"
+      }
+    },
+    {
+      "district_code": "SPI-16 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-16 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-17 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-17 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-17 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-17 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-17 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-17 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-17 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-17 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA10",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA10"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA6",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA6"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA7",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA7"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA8",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA8"
+      }
+    },
+    {
+      "district_code": "SPI-18 SA9",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-18 SA9"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA10",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA10"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA11",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA11"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA5-C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA5-C"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA6",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA6"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA7",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA7"
+      }
+    },
+    {
+      "district_code": "SPI-19 SA8",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-19 SA8"
+      }
+    },
+    {
+      "district_code": "SPI-2 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-2 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-2 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-2 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-2 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-2 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-2 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-2 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-2 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-2 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-20 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-20 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-20 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-20 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-20 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-20 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-20 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-20 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-20 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-20 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-20 SA6",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-20 SA6"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA10",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA10"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA7",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA7"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA8",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA8"
+      }
+    },
+    {
+      "district_code": "SPI-21 SA9",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-21 SA9"
+      }
+    },
+    {
+      "district_code": "SPI-22 SA-1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-22 SA-1"
+      }
+    },
+    {
+      "district_code": "SPI-22 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-22 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-22 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-22 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-22 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-22 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-22 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-22 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-26",
+      "district_name": "Chastain Galloway School SPI",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-26"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA3-C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA3-C"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA5-C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA5-C"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA6",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA6"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA7",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA7"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA8",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA8"
+      }
+    },
+    {
+      "district_code": "SPI-3 SA9",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-3 SA9"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA 11",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA 11"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA10",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA10"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA11",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA11"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA12",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA12"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA13",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA13"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA5",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA5"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA6",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA6"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA7",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA7"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA8",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA8"
+      }
+    },
+    {
+      "district_code": "SPI-4 SA9",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-4 SA9"
+      }
+    },
+    {
+      "district_code": "SPI-5 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-5 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-5 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-5 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-5 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-5 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-7 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-7 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-7 SA2A",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-7 SA2A"
+      }
+    },
+    {
+      "district_code": "SPI-7 SA2B",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-7 SA2B"
+      }
+    },
+    {
+      "district_code": "SPI-7 SA2C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-7 SA2C"
+      }
+    },
+    {
+      "district_code": "SPI-7 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-7 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-9 SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-9 SA1"
+      }
+    },
+    {
+      "district_code": "SPI-9 SA2",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-9 SA2"
+      }
+    },
+    {
+      "district_code": "SPI-9 SA2-C",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-9 SA2-C"
+      }
+    },
+    {
+      "district_code": "SPI-9 SA3",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-9 SA3"
+      }
+    },
+    {
+      "district_code": "SPI-9 SA4",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-9 SA4"
+      }
+    },
+    {
+      "district_code": "SPI-9-C SA1",
+      "district_name": "Special Public Interest",
+      "family": "mixed",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22",
+        "field": "ZONECLASS",
+        "value": "SPI-9-C SA1"
+      }
+    },
+    {
+      "district_code": "BELTLINE",
+      "district_name": "BeltLine Overlay District",
+      "family": "overlay",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/21",
+        "field": "ZONECLASS",
+        "value": "Beltline"
+      }
+    }
+  ]
+}

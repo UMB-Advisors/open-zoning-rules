@@ -14,6 +14,7 @@ SCHEMA_NAMES = (
     "state_rule.schema.json",
     "sources.schema.json",
     "jurisdiction.schema.json",
+    "known_answers.schema.json",
 )
 CLASS_IDS = [
     "datacenter",
@@ -306,6 +307,28 @@ def test_bad_date_fails() -> None:
     assert errors("record.schema.json", record)
     record["checked_at"] = "2026-10-09\n"
     assert errors("record.schema.json", record)
+
+
+def test_triage_unknown_values() -> None:
+    document = jurisdiction("unknown")
+    document["code_version"] = "unknown"
+    assert errors("jurisdiction.schema.json", document) == []
+    document["code_version"] = "2026"
+    assert errors("jurisdiction.schema.json", document)
+    document["unlisted_rule"] = "maybe"
+    assert errors("jurisdiction.schema.json", document)
+
+    source_document = minimal_sources()
+    source_document["sources"][0]["source_date"] = "unknown"
+    assert errors("sources.schema.json", source_document) == []
+    source_document["sources"][0]["source_date"] = "in force"
+    assert errors("sources.schema.json", source_document)
+
+    rule = preempting_rule()
+    rule["effective_date"] = "unknown"
+    assert errors("state_rule.schema.json", rule) == []
+    rule["effective_date"] = "2026"
+    assert errors("state_rule.schema.json", rule)
 
 
 def test_http_url_fails() -> None:

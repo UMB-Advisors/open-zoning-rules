@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "source_id": "us-51061-gis-zoning",
+      "jurisdiction_id": "us-51061",
+      "kind": "gis_layer",
+      "url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0?f=json",
+      "fetched_at": "2026-10-10T06:44:02Z",
+      "source_date": "2026-09-16",
+      "sha256": "4213cf4efc62c7aa555299598fc60f94b4715af44a98428f56df5bb145944882",
+      "licence_terms": {
+        "text": "No licence on the zoning item; other org items carry a no-liability disclaimer."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted",
+      "arcgis_org_id": "oAoeYJ1kqmAwcEC2"
+    }
+  ]
+}

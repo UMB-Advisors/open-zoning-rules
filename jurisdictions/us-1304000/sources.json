@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "source_id": "us-1304000-gis-zoning",
+      "jurisdiction_id": "us-1304000",
+      "kind": "gis_layer",
+      "url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/22?f=json",
+      "fetched_at": "2026-10-10T06:44:17Z",
+      "source_date": "2026-08-25",
+      "sha256": "09235ef752a532eff7d31b5ad0d611a1d3ac334119cad71f98520422e8c6839f",
+      "licence_terms": {
+        "text": "Published as Open Data on the city hub; copyrightText, licenseInfo and accessInformation are empty."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted"
+    },
+    {
+      "source_id": "us-1304000-gis-overlay",
+      "jurisdiction_id": "us-1304000",
+      "kind": "gis_layer",
+      "url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer/21?f=json",
+      "fetched_at": "2026-10-10T06:44:18Z",
+      "source_date": "unknown",
+      "sha256": "308e895215d14270d61781717f6b7e36f1bd69fca73f55a47e26a67b4de406b9",
+      "licence_terms": {
+        "text": "Published as Open Data on the city hub; no licence text found."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted"
+    }
+  ]
+}

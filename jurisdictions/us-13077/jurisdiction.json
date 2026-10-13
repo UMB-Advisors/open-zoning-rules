@@ -1,0 +1,576 @@
+{
+  "jurisdiction_id": "us-13077",
+  "name": "Coweta County",
+  "type": "county",
+  "state": "GA",
+  "unlisted_rule": "unknown",
+  "code_version": "unknown",
+  "conditional_zoning_unmapped": false,
+  "sources": [
+    "us-13077-zoning-division",
+    "us-13077-gis-zoning"
+  ],
+  "districts": [
+    {
+      "district_code": "C",
+      "district_name": "C",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C"
+      }
+    },
+    {
+      "district_code": "C-1c",
+      "district_name": "C-1c",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-1c"
+      }
+    },
+    {
+      "district_code": "C-2",
+      "district_name": "C-2",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-2"
+      }
+    },
+    {
+      "district_code": "C-2c",
+      "district_name": "C-2c",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-2c "
+      }
+    },
+    {
+      "district_code": "C-3",
+      "district_name": "C-3",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-3"
+      }
+    },
+    {
+      "district_code": "C-3c",
+      "district_name": "C-3c",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-3c"
+      }
+    },
+    {
+      "district_code": "C-4",
+      "district_name": "C-4",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-4"
+      }
+    },
+    {
+      "district_code": "C-4c",
+      "district_name": "C-4c",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-4c"
+      }
+    },
+    {
+      "district_code": "C-5",
+      "district_name": "C-5",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-5"
+      }
+    },
+    {
+      "district_code": "C-6",
+      "district_name": "C-6",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-6"
+      }
+    },
+    {
+      "district_code": "C-6c",
+      "district_name": "C-6c",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-6c"
+      }
+    },
+    {
+      "district_code": "C-7",
+      "district_name": "C-7",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-7"
+      }
+    },
+    {
+      "district_code": "C-7c",
+      "district_name": "C-7c",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-7c"
+      }
+    },
+    {
+      "district_code": "C-8",
+      "district_name": "C-8",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-8"
+      }
+    },
+    {
+      "district_code": "C-8 Vague Boundary",
+      "district_name": "C-8 Vague Boundary",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-8 Vague Boundary"
+      }
+    },
+    {
+      "district_code": "C-8c",
+      "district_name": "C-8c",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-8c"
+      }
+    },
+    {
+      "district_code": "C-9",
+      "district_name": "C-9",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-9"
+      }
+    },
+    {
+      "district_code": "C-9c",
+      "district_name": "C-9c",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-9c"
+      }
+    },
+    {
+      "district_code": "C-cond",
+      "district_name": "C-cond",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "C-cond"
+      }
+    },
+    {
+      "district_code": "CC",
+      "district_name": "CC",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "CC"
+      }
+    },
+    {
+      "district_code": "CUP",
+      "district_name": "CUP",
+      "family": "other",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "CUP"
+      }
+    },
+    {
+      "district_code": "Cc",
+      "district_name": "Cc",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "Cc"
+      }
+    },
+    {
+      "district_code": "LM",
+      "district_name": "LM",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "LM"
+      }
+    },
+    {
+      "district_code": "LMc",
+      "district_name": "LMc",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "LMc"
+      }
+    },
+    {
+      "district_code": "M",
+      "district_name": "M",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "M"
+      }
+    },
+    {
+      "district_code": "M-Cond",
+      "district_name": "M-Cond",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "M-Cond"
+      }
+    },
+    {
+      "district_code": "MHD",
+      "district_name": "MHD",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "MHD"
+      }
+    },
+    {
+      "district_code": "Mc",
+      "district_name": "Mc",
+      "family": "industrial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "Mc"
+      }
+    },
+    {
+      "district_code": "NC",
+      "district_name": "NC",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "NC"
+      }
+    },
+    {
+      "district_code": "NCc",
+      "district_name": "NCc",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "NCc"
+      }
+    },
+    {
+      "district_code": "O-I",
+      "district_name": "O-I",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "O-I"
+      }
+    },
+    {
+      "district_code": "O-Ic",
+      "district_name": "O-Ic",
+      "family": "commercial",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "O-Ic"
+      }
+    },
+    {
+      "district_code": "R-2",
+      "district_name": "R-2",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "R-2"
+      }
+    },
+    {
+      "district_code": "R-2c",
+      "district_name": "R-2c",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "R-2c"
+      }
+    },
+    {
+      "district_code": "R-PDP",
+      "district_name": "R-PDP",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "R-PDP"
+      }
+    },
+    {
+      "district_code": "RC",
+      "district_name": "RC",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC"
+      }
+    },
+    {
+      "district_code": "RC (AF)",
+      "district_name": "RC (AF)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC (AF)"
+      }
+    },
+    {
+      "district_code": "RC (R-1)",
+      "district_name": "RC (R-1)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC (R-1)"
+      }
+    },
+    {
+      "district_code": "RC (R-160)",
+      "district_name": "RC (R-160)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC (R-160)"
+      }
+    },
+    {
+      "district_code": "RC (R-200)",
+      "district_name": "RC (R-200)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC (R-200)"
+      }
+    },
+    {
+      "district_code": "RC (R-350)",
+      "district_name": "RC (R-350)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC (R-350)"
+      }
+    },
+    {
+      "district_code": "RC (RFA)",
+      "district_name": "RC (RFA)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC (RFA)"
+      }
+    },
+    {
+      "district_code": "RC (RR)",
+      "district_name": "RC (RR)",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC (RR)"
+      }
+    },
+    {
+      "district_code": "RC PE",
+      "district_name": "RC PE",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC PE"
+      }
+    },
+    {
+      "district_code": "RC-SUP",
+      "district_name": "RC-SUP",
+      "family": "agricultural",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RC-SUP"
+      }
+    },
+    {
+      "district_code": "RCc",
+      "district_name": "RCc",
+      "family": "agricultural",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RCc"
+      }
+    },
+    {
+      "district_code": "RCc (R-160c)",
+      "district_name": "RCc (R-160c)",
+      "family": "agricultural",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RCc (R-160c)"
+      }
+    },
+    {
+      "district_code": "RCc (RFAc)",
+      "district_name": "RCc (RFAc)",
+      "family": "agricultural",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RCc (RFAc)"
+      }
+    },
+    {
+      "district_code": "RI-Bc",
+      "district_name": "RI-Bc",
+      "family": "residential",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RI-Bc"
+      }
+    },
+    {
+      "district_code": "RRCC",
+      "district_name": "RRCC",
+      "family": "agricultural",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RRCC"
+      }
+    },
+    {
+      "district_code": "RRCCc",
+      "district_name": "RRCCc",
+      "family": "agricultural",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+        "field": "ZoningLabel",
+        "value": "RRCCc"
+      }
+    }
+  ]
+}

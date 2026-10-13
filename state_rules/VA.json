@@ -1,0 +1,100 @@
+[
+  {
+    "id": "va-datacenter",
+    "state": "VA",
+    "use_class": "datacenter",
+    "effect": "none_found",
+    "citation": "Va. Code § 15.2-2209.5 (2026, cc. 567, 568)",
+    "quote": "Nothing in this section shall be construed to prohibit, limit, or otherwise supersede existing local zoning authority.",
+    "url": "https://law.lis.virginia.gov/vacode/15.2-2209.5/",
+    "conditions": [
+      "Procedural only: for a new high energy use facility (100 MW or more) the locality must require a sound-profile site assessment and a utility substation and transmission form before approving a rezoning, special exception or special use permit."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "va-warehouse_distribution",
+    "state": "VA",
+    "use_class": "warehouse_distribution",
+    "effect": "none_found",
+    "url": "https://law.lis.virginia.gov/vacodefull/title15.2/chapter22/",
+    "conditions": [
+      "Scanned Va. Code Title 15.2 ch. 22 (planning and zoning); 'warehousing' appears only in definitions and farm winery, brewery and distillery provisions. Chapters 9 and 21 were reported scanned by triage."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "va-heavy_industrial_hazmat",
+    "state": "VA",
+    "use_class": "heavy_industrial_hazmat",
+    "effect": "none_found",
+    "citation": "Va. Code § 27-97 (Statewide Fire Prevention Code)",
+    "quote": "The Fire Prevention Code shall prescribe regulations to be complied with for the protection of life and property from the hazards of fire or explosion and for the handling, storage, sale, and use of fireworks, explosives, or blasting agents",
+    "url": "https://law.lis.virginia.gov/vacode/27-97/",
+    "conditions": [
+      "A fire code, not a siting preemption. No preemption found in the zoning title."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "va-lp_gas",
+    "state": "VA",
+    "use_class": "lp_gas",
+    "effect": "none_found",
+    "url": "https://law.lis.virginia.gov/vacodefull/title15.2/chapter22/",
+    "conditions": [
+      "No 'propane' or 'liquefied petroleum' in Va. Code Title 15.2 ch. 22; triage also reports none in ch. 9, ch. 21 or Title 27 ch. 9."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "va-cannabis_cultivation_processing",
+    "state": "VA",
+    "use_class": "cannabis_cultivation_processing",
+    "effect": "local_ban_preempted",
+    "citation": "Va. Code § 4.1-629 A and C (2026, Sp. Sess. I, c. 1)",
+    "quote": "No county, city, or town shall, except as provided in § 4.1-630 , adopt any ordinance or resolution that regulates or prohibits the cultivation, processing, possession, sale, distribution, handling, transportation, consumption, use, advertising, or dispensing of marijuana or marijuana products in the Commonwealth.",
+    "url": "https://law.lis.virginia.gov/vacode/4.1-629/",
+    "effective_date": "unknown",
+    "conditions": [
+      "Subsection C preserves 'local zoning and land use requirements' for licensed businesses: an outright local ban is preempted, but districting, special use permits and standards stay local.",
+      "No local opt-out or referendum provision was found in Title 4.1 chapters 6-16.",
+      "Effective date not established: the section page shows none, and the 2026 Special Session I chapter page was not reachable."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "va-utility_generation",
+    "state": "VA",
+    "use_class": "utility_generation",
+    "effect": "local_standards_capped",
+    "citation": "Va. Code § 15.2-2288.8 A (2020, cc. 385, 414; 2021 Sp. Sess. I, cc. 57, 58; 2026, cc. 1005, 1068)",
+    "quote": "Vegetative visual screening requirements shall not be required to exceed three feet at planting, shall be between 25 and 50 feet wide, and shall allow for consideration of preexisting natural or manmade visual barriers.",
+    "url": "https://law.lis.virginia.gov/vacode/15.2-2288.8/",
+    "effective_date": "unknown",
+    "conditions": [
+      "Applies only to ground-mounted solar of 1 MW or more serving other property; the locality uses a special exception or a siting agreement (§ 15.2-2316.7) and keeps its criteria within statutory ranges.",
+      "A locality need not approve any application.",
+      "Setback ranges (not fixed values): 150-200 ft from occupied dwellings and community buildings on nonparticipating property; 50-100 ft from roadbed; 50 ft (25 MW or less) or 100 ft (over 25 MW) from wetlands and perennial streams; 100-125 ft in Chesapeake Bay Preservation Areas; 50-75 ft from nonparticipating property lines; panel height 25 ft or less at full tilt.",
+      "Other generation types: no preemption found.",
+      "Effective date not established: the section page shows none for the 2026 amendments."
+    ],
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "va-battery_storage",
+    "state": "VA",
+    "use_class": "battery_storage",
+    "effect": "local_ban_preempted",
+    "citation": "Va. Code § 15.2-2316.10 (2026, cc. 1011, 1076)",
+    "quote": "Such battery energy storage project shall not require a special exception or be subject to any other local land use approval.",
+    "url": "https://law.lis.virginia.gov/vacode/15.2-2316.10/",
+    "effective_date": "unknown",
+    "conditions": [
+      "Only for storage within a parcel that already has an approved special exception for a solar facility, with rated storage capacity of 100% or less of that facility's nameplate capacity; it is then deemed a permitted accessory use in all zoning districts.",
+      "Stand-alone energy storage remains under local special exception (§ 15.2-2288.8 B) or optional siting agreements (§ 15.2-2316.7).",
+      "Effective date not established: the section page shows none."
+    ],
+    "checked_at": "2026-10-09"
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "jurisdiction_id": "us-5183136",
+  "name": "Town of Warrenton",
+  "type": "municipality",
+  "state": "VA",
+  "unlisted_rule": "prohibited_by_default",
+  "unlisted_rule_quote": {
+    "quote": "Unless it is otherwise clear from the context of the lists or other regulations of this Ordinance, uses not specifically listed are prohibited.",
+    "section": "2-10"
+  },
+  "code_version": "2026-07-14",
+  "conditional_zoning_unmapped": true,
+  "sources": [
+    "us-5183136-zo-page",
+    "us-5183136-zo-art2",
+    "us-5183136-zo-art3",
+    "us-5183136-zo-art12",
+    "us-5183136-gis-zoning"
+  ],
+  "districts": [
+    {
+      "district_code": "C",
+      "district_name": "C Commercial District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "C"
+      }
+    },
+    {
+      "district_code": "CBD",
+      "district_name": "CBD Central Business District",
+      "family": "commercial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "CBD"
+      }
+    },
+    {
+      "district_code": "I",
+      "district_name": "I Industrial District",
+      "family": "industrial",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "I"
+      }
+    },
+    {
+      "district_code": "PSP",
+      "district_name": "PSP Public-Semi-Public Institutional District",
+      "family": "other",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "PSP"
+      }
+    },
+    {
+      "district_code": "PUD",
+      "district_name": "Planned Unit Development",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "PUD"
+      }
+    },
+    {
+      "district_code": "Planned Residential Developmen",
+      "district_name": "Planned Residential Developmen",
+      "family": "PD",
+      "parcel_specific": true,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "Planned Residential Developmen"
+      }
+    },
+    {
+      "district_code": "R-10",
+      "district_name": "R-10 Residential District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "R-10"
+      }
+    },
+    {
+      "district_code": "R-15",
+      "district_name": "R-15 Residential District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "R-15"
+      }
+    },
+    {
+      "district_code": "R-6",
+      "district_name": "R-6 Residential District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "R-6"
+      }
+    },
+    {
+      "district_code": "RMF",
+      "district_name": "RMF Residential Multifamily District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "RMF"
+      }
+    },
+    {
+      "district_code": "RO",
+      "district_name": "RO Residential Office District",
+      "family": "mixed",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "RO"
+      }
+    },
+    {
+      "district_code": "RT",
+      "district_name": "RT Residential Townhouse District",
+      "family": "residential",
+      "parcel_specific": false,
+      "geometry_ref": {
+        "layer_url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+        "field": "ZONING_NAM",
+        "value": "RT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "sources": [
+    {
+      "source_id": "us-12057-ldc-page",
+      "jurisdiction_id": "us-12057",
+      "kind": "ordinance",
+      "url": "https://hcfl.gov/businesses/zoning/land-development-code",
+      "fetched_at": "2026-10-10T06:43:18Z",
+      "source_date": "unknown",
+      "sha256": "bef6a1b6298a55b52e70415d1d4d384a2b575993edfe58d0d5f86fcc03e83d2d",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch"
+    },
+    {
+      "source_id": "us-12057-ldc-supp50",
+      "jurisdiction_id": "us-12057",
+      "kind": "ordinance",
+      "url": "https://hcfl.gov/assets/blt1a23ec775ace42f5/file",
+      "final_url": "https://assets.contentstack.io/v3/assets/blteea73b27b731f985/blt1a23ec775ace42f5/LDC%20Supplement%2050.pdf?environment=production",
+      "fetched_at": "2026-10-10T06:43:16Z",
+      "source_date": "2022-06-15",
+      "sha256": "df0185a9a91d4ba70f50678d106d9715274c23b8d39e747a0d577f4c996421f8",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "analyst_fetch"
+    },
+    {
+      "source_id": "us-12057-bocc-2026-08-05",
+      "jurisdiction_id": "us-12057",
+      "kind": "minutes",
+      "url": "https://eagenda.hcfl.gov/portal/PTL29560/search?D=08/05/2026&T=Regular%20BOCC%20Meeting&Y=Backup&o=F-2.pdf",
+      "fetched_at": "2026-10-10T06:43:21Z",
+      "source_date": "2026-08-05",
+      "sha256": "77a38b1c3c252fa81c4da8a534930a498a0a3f73b4d99eee2f0daa1c780a96fd",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok"
+    },
+    {
+      "source_id": "us-12057-gis-zoning",
+      "jurisdiction_id": "us-12057",
+      "kind": "gis_layer",
+      "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Zoning/FeatureServer/0?f=json",
+      "fetched_at": "2026-10-10T06:43:22Z",
+      "source_date": "2026-10-10",
+      "sha256": "e37e25c8316415bb0569206dec738dadd805f1c59ca89e78b02f0e171d39cdc1",
+      "licence_terms": {
+        "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/1b99b0e8d38d4a85916fb9018b8f74c1?f=json"
+      },
+      "redistribute_geometry": "yes",
+      "triage": "ok",
+      "arcgis_org_id": "apTfC6SUmnNfnxuF"
+    }
+  ]
+}

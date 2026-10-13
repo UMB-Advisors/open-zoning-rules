@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "source_id": "us-51107-zo-ch3",
+      "jurisdiction_id": "us-51107",
+      "kind": "ordinance",
+      "url": "https://www.loudoun.gov/DocumentCenter/View/178327/Ch-3-Uses-11-21-23-Clean",
+      "fetched_at": "2026-10-10T06:43:33Z",
+      "source_date": "2023-11-21",
+      "sha256": "f7951d80b9940516ca0502289adac1bfdb80ccf2c61759437f7135143c14b969",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok"
+    },
+    {
+      "source_id": "us-51107-zo-ch12",
+      "jurisdiction_id": "us-51107",
+      "kind": "ordinance",
+      "url": "https://www.loudoun.gov/DocumentCenter/View/178336/Ch-12-Definitions-11-21-23-Clean",
+      "fetched_at": "2026-10-10T06:43:35Z",
+      "source_date": "2023-11-21",
+      "sha256": "5d446525f59902769d637ee1ea2a3f1bf3de97436c2f60e63e76d56183cc6f78",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok"
+    },
+    {
+      "source_id": "us-51107-zo-faq",
+      "jurisdiction_id": "us-51107",
+      "kind": "ordinance",
+      "url": "https://www.loudoun.gov/6201",
+      "final_url": "https://www.loudoun.gov/6201/Zoning-Ordinance---Frequently-Asked-Ques",
+      "fetched_at": "2026-10-10T06:43:38Z",
+      "source_date": "unknown",
+      "sha256": "b3fcbab9c3d45b2b31d9fba9500e3800b09e99625ee6645c6f1428572498be57",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok"
+    },
+    {
+      "source_id": "us-51107-dc-phase1",
+      "jurisdiction_id": "us-51107",
+      "kind": "amendment",
+      "url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta",
+      "fetched_at": "2026-10-10T06:43:40Z",
+      "source_date": "2025-03-18",
+      "sha256": "5515e1538ae8884fdce938f565e55036b130fe05e4d07520cff2e4c7f2ed79ee",
+      "licence_terms": {
+        "text": "Enacted local law and public record; publisher terms are not stated on the page."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok"
+    },
+    {
+      "source_id": "us-51107-gis-zoning",
+      "jurisdiction_id": "us-51107",
+      "kind": "gis_layer",
+      "url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3?f=json",
+      "fetched_at": "2026-10-10T06:43:41Z",
+      "source_date": "2026-07-30",
+      "sha256": "9e4b98c1cb34966d67c29c534b18d420b4c3a6fd005c9fc2e41fe3db67eaed20",
+      "licence_terms": {
+        "text": "Disclaimer only; no open-data licence found.",
+        "url": "https://logis.loudoun.gov/loudoun/disclaimer.html"
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "geometry_restricted"
+    }
+  ]
+}
