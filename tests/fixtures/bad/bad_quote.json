@@ -1,0 +1,33 @@
+{
+  "jurisdiction_id": "us-00000",
+  "district_code": "I-1",
+  "use_class": "warehouse_distribution",
+  "status": "permitted",
+  "local_uses": [
+    "Warehouse"
+  ],
+  "evidence": {
+    "kind": "prose",
+    "quote": "Warehouse is allowed in I-1 by a sentence that does not appear in the adopted text.",
+    "section": "Sec. 4-2"
+  },
+  "source": {
+    "id": "us-00000-zo",
+    "url": "https://planning.example.org/zoning/ordinance.pdf",
+    "date": "2026-06-30"
+  },
+  "confidence": "B",
+  "review": "agree",
+  "parcel_specific": false,
+  "checked_at": "2026-09-01",
+  "stale": false,
+  "history": [
+    {
+      "date": "2026-06-30",
+      "from": null,
+      "to": "permitted",
+      "by": "extractor",
+      "ref": "table-4-2"
+    }
+  ]
+}

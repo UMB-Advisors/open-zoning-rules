@@ -1,0 +1,62 @@
+[
+  {
+    "id": "zz-datacenter",
+    "state": "ZZ",
+    "use_class": "datacenter",
+    "effect": "none_found",
+    "checked_at": "2026-09-01"
+  },
+  {
+    "id": "zz-warehouse_distribution",
+    "state": "ZZ",
+    "use_class": "warehouse_distribution",
+    "effect": "none_found",
+    "checked_at": "2026-09-01"
+  },
+  {
+    "id": "zz-heavy_industrial_hazmat",
+    "state": "ZZ",
+    "use_class": "heavy_industrial_hazmat",
+    "effect": "none_found",
+    "checked_at": "2026-09-01"
+  },
+  {
+    "id": "zz-lp_gas",
+    "state": "ZZ",
+    "use_class": "lp_gas",
+    "effect": "none_found",
+    "checked_at": "2026-09-01"
+  },
+  {
+    "id": "zz-cannabis_cultivation_processing",
+    "state": "ZZ",
+    "use_class": "cannabis_cultivation_processing",
+    "effect": "local_ban_preempted",
+    "citation": "s. 999.01(4)",
+    "quote": "A local government may not ban medical marijuana treatment center cultivation or processing.",
+    "url": "https://legislature.example.org/statutes/999.01",
+    "effective_date": "2026-01-01",
+    "setbacks": [
+      {
+        "value": 500,
+        "unit": "ft",
+        "from": "schools"
+      }
+    ],
+    "checked_at": "2026-09-01"
+  },
+  {
+    "id": "zz-utility_generation",
+    "state": "ZZ",
+    "use_class": "utility_generation",
+    "effect": "none_found",
+    "checked_at": "2026-09-01"
+  },
+  {
+    "id": "zz-battery_storage",
+    "state": "ZZ",
+    "use_class": "battery_storage",
+    "effect": "none_found",
+    "checked_at": "2026-09-01"
+  }
+]

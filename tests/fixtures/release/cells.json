@@ -1,0 +1,573 @@
+[
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-1",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "B",
+    "review": "agree",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-1",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Warehouse"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Warehouse | I-1 Light Industrial | P",
+      "section": "Sec. 4-2",
+      "row_label": "Warehouse",
+      "column_header": "I-1 Light Industrial",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "B",
+    "review": "agree",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": [
+      {
+        "date": "2026-06-30",
+        "from": null,
+        "to": "permitted",
+        "by": "extractor",
+        "ref": "table-4-2"
+      }
+    ]
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-1",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "prohibited",
+    "local_uses": [
+      "Heavy industry"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Heavy industry | I-1 Light Industrial | (blank = not permitted)",
+      "section": "Sec. 4-2",
+      "row_label": "Heavy industry",
+      "column_header": "I-1 Light Industrial",
+      "symbol": "blank"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "B",
+    "review": "agree",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-1",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "single",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-1",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "conditional",
+    "local_uses": [
+      "Medical marijuana treatment center"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Medical marijuana treatment center | I-1 Light Industrial | C",
+      "section": "Sec. 4-2",
+      "row_label": "Medical marijuana treatment center",
+      "column_header": "I-1 Light Industrial",
+      "symbol": "C"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "single",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-1",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "disputed",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-1",
+    "use_class": "battery_storage",
+    "status": "conditional",
+    "local_uses": [
+      "Battery energy storage system"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Battery energy storage system | I-1 Light Industrial | C",
+      "section": "Sec. 4-2",
+      "row_label": "Battery energy storage system",
+      "column_header": "I-1 Light Industrial",
+      "symbol": "C"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "disputed",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-2",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "disputed",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-2",
+    "use_class": "warehouse_distribution",
+    "status": "permitted",
+    "local_uses": [
+      "Warehouse"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Warehouse | I-2 Heavy Industrial | P",
+      "section": "Sec. 4-2",
+      "row_label": "Warehouse",
+      "column_header": "I-2 Heavy Industrial",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "single",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-2",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "permitted",
+    "local_uses": [
+      "Heavy industry"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Heavy industry | I-2 Heavy Industrial | P",
+      "section": "Sec. 4-2",
+      "row_label": "Heavy industry",
+      "column_header": "I-2 Heavy Industrial",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "single",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-2",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "B",
+    "review": "agree",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-2",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "conditional",
+    "local_uses": [
+      "Medical marijuana treatment center"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Medical marijuana treatment center | I-2 Heavy Industrial | C",
+      "section": "Sec. 4-2",
+      "row_label": "Medical marijuana treatment center",
+      "column_header": "I-2 Heavy Industrial",
+      "symbol": "C"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "disputed",
+    "preemption": {
+      "state_rule_id": "zz-cannabis_cultivation_processing",
+      "effect": "local_ban_preempted"
+    },
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-2",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "single",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "I-2",
+    "use_class": "battery_storage",
+    "status": "permitted",
+    "local_uses": [
+      "Battery energy storage system"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Battery energy storage system | I-2 Heavy Industrial | P",
+      "section": "Sec. 4-2",
+      "row_label": "Battery energy storage system",
+      "column_header": "I-2 Heavy Industrial",
+      "symbol": "P"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "B",
+    "review": "agree",
+    "parcel_specific": false,
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "PD-1",
+    "use_class": "datacenter",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "single",
+    "parcel_specific": true,
+    "see_case": "https://planning.example.org/rezoning-cases",
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "PD-1",
+    "use_class": "warehouse_distribution",
+    "status": "conditional",
+    "local_uses": [
+      "Warehouse"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Warehouse | PD-1 Planned Development | C",
+      "section": "Sec. 4-2",
+      "row_label": "Warehouse",
+      "column_header": "PD-1 Planned Development",
+      "symbol": "C"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "agree",
+    "parcel_specific": true,
+    "see_case": "https://planning.example.org/rezoning-cases",
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "PD-1",
+    "use_class": "heavy_industrial_hazmat",
+    "status": "conditional",
+    "local_uses": [
+      "Heavy industry"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Heavy industry | PD-1 Planned Development | C",
+      "section": "Sec. 4-2",
+      "row_label": "Heavy industry",
+      "column_header": "PD-1 Planned Development",
+      "symbol": "C"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "disputed",
+    "parcel_specific": true,
+    "see_case": "https://planning.example.org/rezoning-cases",
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "PD-1",
+    "use_class": "lp_gas",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "disputed",
+    "parcel_specific": true,
+    "see_case": "https://planning.example.org/rezoning-cases",
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "PD-1",
+    "use_class": "cannabis_cultivation_processing",
+    "status": "conditional",
+    "local_uses": [
+      "Medical marijuana treatment center"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Medical marijuana treatment center | PD-1 Planned Development | C",
+      "section": "Sec. 4-2",
+      "row_label": "Medical marijuana treatment center",
+      "column_header": "PD-1 Planned Development",
+      "symbol": "C"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "agree",
+    "parcel_specific": true,
+    "see_case": "https://planning.example.org/rezoning-cases",
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "PD-1",
+    "use_class": "utility_generation",
+    "status": "unlisted",
+    "local_uses": [],
+    "evidence": {
+      "kind": "absence",
+      "quote": "Sec. 4-2 Table of Permitted Uses",
+      "section": "Sec. 4-2"
+    },
+    "absence_hits": [],
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "agree",
+    "parcel_specific": true,
+    "see_case": "https://planning.example.org/rezoning-cases",
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  },
+  {
+    "jurisdiction_id": "us-00000",
+    "district_code": "PD-1",
+    "use_class": "battery_storage",
+    "status": "conditional",
+    "local_uses": [
+      "Battery energy storage system"
+    ],
+    "evidence": {
+      "kind": "table",
+      "quote": "Battery energy storage system | PD-1 Planned Development | C",
+      "section": "Sec. 4-2",
+      "row_label": "Battery energy storage system",
+      "column_header": "PD-1 Planned Development",
+      "symbol": "C"
+    },
+    "source": {
+      "id": "us-00000-zo",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "date": "2026-06-30"
+    },
+    "confidence": "C",
+    "review": "single",
+    "parcel_specific": true,
+    "see_case": "https://planning.example.org/rezoning-cases",
+    "checked_at": "2026-09-01",
+    "stale": false,
+    "history": []
+  }
+]

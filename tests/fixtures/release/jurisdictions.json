@@ -1,0 +1,53 @@
+[
+  {
+    "jurisdiction_id": "us-00000",
+    "name": "Example County",
+    "type": "county",
+    "state": "ZZ",
+    "unlisted_rule": "prohibited_by_default",
+    "unlisted_rule_quote": {
+      "quote": "Any use not listed in Table 4-2 is prohibited.",
+      "section": "Sec. 4-3"
+    },
+    "code_version": "2026-06-30",
+    "conditional_zoning_unmapped": false,
+    "sources": [
+      "us-00000-zo"
+    ],
+    "districts": [
+      {
+        "district_code": "I-1",
+        "district_name": "Light Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.example.org/arcgis/rest/services/Zoning/MapServer/0",
+          "field": "ZONE",
+          "value": "I-1"
+        }
+      },
+      {
+        "district_code": "I-2",
+        "district_name": "Heavy Industrial",
+        "family": "industrial",
+        "parcel_specific": false,
+        "geometry_ref": {
+          "layer_url": "https://gis.example.org/arcgis/rest/services/Zoning/MapServer/0",
+          "field": "ZONE",
+          "value": "I-2"
+        }
+      },
+      {
+        "district_code": "PD-1",
+        "district_name": "Planned Development",
+        "family": "PD",
+        "parcel_specific": true,
+        "geometry_ref": {
+          "layer_url": "https://gis.example.org/arcgis/rest/services/Zoning/MapServer/0",
+          "field": "ZONE",
+          "value": "PD-1"
+        }
+      }
+    ]
+  }
+]

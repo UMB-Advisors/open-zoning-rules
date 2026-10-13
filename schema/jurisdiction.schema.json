@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/UMB-Advisors/open-zoning-rules/schema/jurisdiction.schema.json",
+  "title": "Jurisdiction",
+  "description": "One jurisdictions.json item: identity, the unlisted-use rule, the code version, sources, and districts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "jurisdiction_id",
+    "name",
+    "type",
+    "state",
+    "unlisted_rule",
+    "code_version",
+    "conditional_zoning_unmapped",
+    "sources",
+    "districts"
+  ],
+  "properties": {
+    "jurisdiction_id": {
+      "type": "string",
+      "maxLength": 10,
+      "pattern": "^us-([0-9]{5}|[0-9]{7})$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": ["county", "municipality", "township"]
+    },
+    "state": {
+      "type": "string",
+      "maxLength": 2,
+      "pattern": "^[A-Z]{2}$"
+    },
+    "unlisted_rule": {
+      "enum": ["none", "prohibited_by_default"]
+    },
+    "unlisted_rule_quote": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quote", "section"],
+      "properties": {
+        "quote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "code_version": {
+      "type": "string",
+      "maxLength": 10,
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "conditional_zoning_unmapped": {
+      "type": "boolean"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "districts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "district_code",
+          "district_name",
+          "family",
+          "parcel_specific",
+          "geometry_ref"
+        ],
+        "properties": {
+          "district_code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "district_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "family": {
+            "enum": [
+              "residential",
+              "commercial",
+              "industrial",
+              "agricultural",
+              "mixed",
+              "overlay",
+              "PD",
+              "other"
+            ]
+          },
+          "parcel_specific": {
+            "type": "boolean"
+          },
+          "geometry_ref": {
+            "oneOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["path"],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["layer_url", "field", "value"],
+                "properties": {
+                  "layer_url": {
+                    "type": "string",
+                    "pattern": "^https://"
+                  },
+                  "field": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "value": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "if": {
+    "properties": {
+      "unlisted_rule": { "const": "prohibited_by_default" }
+    },
+    "required": ["unlisted_rule"]
+  },
+  "then": {
+    "required": ["unlisted_rule_quote"]
+  }
+}

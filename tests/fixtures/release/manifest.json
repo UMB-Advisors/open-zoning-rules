@@ -1,0 +1,42 @@
+{
+  "schema": "zoning-atlas.release/0.1",
+  "version": "0.1.0",
+  "published": "2026-10-09",
+  "licence": "CC-BY-4.0",
+  "schema_url": "https://github.com/UMB-Advisors/open-zoning-rules/blob/v0.1.0/schema/record.schema.json",
+  "files": [
+    {
+      "format": "json",
+      "path": "cells.json",
+      "sha256": "4bb0bc9098bdd35e3059c404ea662b1d834fb08419f745fe07189e505b3f8102"
+    },
+    {
+      "format": "json",
+      "path": "jurisdictions.json",
+      "sha256": "6d0edd83eb8ad98fb77fa0308498555fa52b590ec980cfed57b99cc4ddb3233e"
+    },
+    {
+      "format": "json",
+      "path": "sources.json",
+      "sha256": "4fa10e6efac17ff68f361785c58c2c144f1751de917ae3162c081d63ac4914f4"
+    },
+    {
+      "format": "json",
+      "path": "state_rules.json",
+      "sha256": "2629ad7db6e2580ce0ca8bf6b4330d3dd9d9f41f92b9189ae8b40c9657d32f46"
+    }
+  ],
+  "stale_after_months": 12,
+  "denylist": [
+    "municode.com",
+    "amlegal.com",
+    "ecode360.com",
+    "generalcode.com",
+    "zoningatlas.org",
+    "landuselabs.com",
+    "codepublishing.com",
+    "sterlingcodifiers.com",
+    "franklinlegal.net"
+  ],
+  "reliance_notice": "This is a research dataset, not a legal determination. Before relying on any answer, at every grade, get a zoning verification letter or use determination from the planning department, or a land-use attorney or planner."
+}

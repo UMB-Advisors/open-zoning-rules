@@ -1,0 +1,23 @@
+{
+  "jurisdiction_id": "us-00000",
+  "district_code": "I-2",
+  "use_class": "heavy_industrial_hazmat",
+  "status": "unlisted",
+  "local_uses": [],
+  "evidence": {
+    "kind": "absence",
+    "quote": "Sec. 4-2 Table of Permitted Uses",
+    "section": "Sec. 4-2"
+  },
+  "source": {
+    "id": "us-00000-zo",
+    "url": "https://planning.example.org/zoning/ordinance.pdf",
+    "date": "2026-06-30"
+  },
+  "confidence": "C",
+  "review": "single",
+  "parcel_specific": false,
+  "checked_at": "2026-09-01",
+  "stale": false,
+  "history": []
+}

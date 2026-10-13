@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "source_id": "us-00000-zo",
+      "jurisdiction_id": "us-00000",
+      "kind": "ordinance",
+      "url": "https://planning.example.org/zoning/ordinance.pdf",
+      "fetched_at": "2026-09-01T00:00:00Z",
+      "source_date": "2026-06-30",
+      "sha256": "69ada257eeb991fd2fe3e997f5a0f5accc4e9e94896a3f6b930d6370ef50b372",
+      "licence_terms": {
+        "text": "Public record."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok"
+    },
+    {
+      "source_id": "zz-statute",
+      "jurisdiction_id": "us-00000",
+      "kind": "statute",
+      "url": "https://legislature.example.org/statutes/999.01",
+      "fetched_at": "2026-09-01T00:00:00Z",
+      "source_date": "2026-01-01",
+      "sha256": "74d43d4a877aa4be7a58c8d84c3b0e59e289db96438f656cf2aecd09a290175f",
+      "licence_terms": {
+        "text": "Public statute."
+      },
+      "redistribute_geometry": "unknown",
+      "triage": "ok"
+    }
+  ]
+}
