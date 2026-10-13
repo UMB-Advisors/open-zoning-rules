@@ -1,0 +1,4 @@
+# Private terms are HMAC-SHA256 digests, not plain hashes, because short names are dictionary-reversible.
+# Set FINGERPRINT_KEY and add a digest with:
+# FINGERPRINT_KEY=... uv run python -m ozr.fingerprints --digest "term"
+# One hexadecimal digest per non-comment line.
