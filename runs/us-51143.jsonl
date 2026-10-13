@@ -24,3 +24,4 @@
 {"step": "grade", "run_id": "grade-us-51143-f33fd45590b0b703", "at": "2026-10-11T16:54:42Z", "published": 53, "withheld": 45}
 {"step": "regate", "run_id": "regate-us-51143-956bce1f15db8cdb", "at": "2026-10-11T18:17:37Z", "files": {"cells.extracted.json": {"cells": 42, "rejected": 56}, "cells.review.codex.json": {"cells": 28, "rejected": 70}, "cells.review.grok.json": {"cells": 20, "rejected": 78}}}
 {"step": "grade", "run_id": "grade-us-51143-6045a7019991eb7f", "at": "2026-10-11T18:28:53Z", "published": 33, "withheld": 65}
+{"step": "review-grok", "run_id": "review-grok-us-51143-20261013T133044Z", "at": "2026-10-13T13:30:47Z", "error": "model CLI exited 1: Error: Internal error: {\n  \"message\": \"API error (status 402 Payment Required): Grok Build usage balance exhausted\",\n  \"http_status\": 402\n}", "input_tokens": 0, "output_tokens": 0, "cache_read_tokens": 0, "cache_write_tokens": 0, "cost_usd": 0, "wall_s": 0, "calls": 0, "retries": 0}
