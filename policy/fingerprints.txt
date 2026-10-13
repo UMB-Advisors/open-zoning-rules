@@ -2,3 +2,8 @@
 # Set FINGERPRINT_KEY and add a digest with:
 # FINGERPRINT_KEY=... uv run python -m ozr.fingerprints --digest "term"
 # One hexadecimal digest per non-comment line.
+fbe02ebc8548082593fbfd5f0be698def4a0124493c320d9ebd2130f8e2c90af
+0e59d99bdc0527698ec0704beab105745acf630a5e6af5be9d9923f25532eca3
+5bfeea480c403f2306189d4e4ea70449fdaa6f3e8601dc14043692acbeda15bb
+47a68b1c8b6e1a2b5cbe6200aff24df1aeca8787b1e6c296e5378136be235ea1
+13f5e7ee0c573e9064147ac4e7a5d37badd06cd49edb604449c5a074f41627db
