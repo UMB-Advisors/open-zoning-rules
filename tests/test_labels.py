@@ -6,10 +6,11 @@ import hashlib
 import json
 from pathlib import Path
 
+import pytest
 from ozr.extract import run as extract
 from ozr.gates import TABLE_TEXT_MARKER
 from ozr.labels import _images
-from ozr.models import ModelResult
+from ozr.models import ModelError, ModelResult
 from ozr.review import run as review
 from ozr.segment import segment_jurisdiction
 from pdfgen import make_pdf
@@ -147,6 +148,20 @@ def test_marker_page_suffix_in_source_id_is_stripped(tiny_root: Path) -> None:
     assert any("source_id not in sources" in error for error in output["rejected"][0]["errors"])
 
 
+def test_image_name_page_suffix_in_source_id_is_stripped(tiny_root: Path) -> None:
+    # Page images are named "<source_id>-p<page>.png"; a reviewer that cites the image name still means the source.
+    _prepare(tiny_root)
+    valid = json.loads(_good())
+    valid["cells"][0]["source_id"] = "us-00000-zo-p2"
+    output = extract(tiny_root, "us-00000", lambda *_args: _result(json.dumps(valid)), "2026-10-10")
+    assert output["cells"][0]["source"]["id"] == "us-00000-zo"
+
+    unknown = json.loads(_good())
+    unknown["cells"][0]["source_id"] = "us-99999-zo-p2"
+    output = extract(tiny_root, "us-00000", lambda *_args: _result(json.dumps(unknown)), "2026-10-10")
+    assert any("source_id not in sources" in error for error in output["rejected"][0]["errors"])
+
+
 def test_grok_review_is_never_given_images(tiny_root: Path) -> None:
     _prepare(tiny_root)
     seen: dict[str, list] = {}
@@ -269,6 +284,36 @@ def test_labelling_is_chunked_by_district_and_usage_is_summed(tiny_root: Path) -
     assert ledger["cache_read_tokens"] == 6
     assert ledger["cache_write_tokens"] == 8
     assert ledger["cost_usd"] == 0.02
+
+
+def test_a_malformed_chunk_is_retried_once(tiny_root: Path) -> None:
+    _prepare(tiny_root)
+    calls = 0
+
+    def call(_prompt, _images, _workdir):
+        nonlocal calls
+        calls += 1
+        return _result('{"cells": [ {"a": 1} {"b": 2} ]}') if calls == 1 else _result(_good())
+
+    output = extract(tiny_root, "us-00000", call, "2026-10-10")
+    assert output["cells"][0]["district_code"] == "I-1"
+    ledger = json.loads((tiny_root / "runs" / "us-00000.jsonl").read_text().splitlines()[-1])
+    assert ledger["calls"] == 2
+    assert ledger["retries"] == 1
+
+
+def test_a_chunk_malformed_twice_raises_and_records_both_calls(tiny_root: Path) -> None:
+    _prepare(tiny_root)
+
+    def call(_prompt, _images, _workdir):
+        return _result('{"cells": [ {"a": 1} {"b": 2} ]}')
+
+    with pytest.raises(ModelError):
+        extract(tiny_root, "us-00000", call, "2026-10-10")
+    ledger = json.loads((tiny_root / "runs" / "us-00000.jsonl").read_text().splitlines()[-1])
+    assert "error" in ledger
+    assert ledger["calls"] == 2
+    assert ledger["retries"] == 1
 
 
 def test_image_cap_keeps_pages_naming_a_taxonomy_term(tiny_root: Path) -> None:

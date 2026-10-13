@@ -1,0 +1,4689 @@
+{
+  "jurisdiction_id": "us-51143",
+  "prompt": "review.v1.md",
+  "model": "codex:balanced",
+  "run_id": "review-codex-us-51143-20261011T005609Z",
+  "checked_at": "2026-10-11",
+  "cells": [
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "warehouse_distribution",
+      "status": "permitted",
+      "local_uses": [
+        "Agricultural warehouses"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "• Agricultural warehouses",
+        "section": "Sec. 35-178"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "permitted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 35-178. PERMITTED USES",
+        "section": "Sec. 35-178"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "Listed only for M-SVMS, not A-1."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "A-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 35-178. PERMITTED USES",
+        "section": "Sec. 35-178"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-346. PERMITTED USES",
+        "section": "SEC. 35-346"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "Listed only for M-SVMS, not B-1."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-346. PERMITTED USES",
+        "section": "SEC. 35-346"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-365. PERMITTED USES",
+        "section": "SEC. 35-365"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "Listed only for M-SVMS, not B-2."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "B-2",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-365. PERMITTED USES",
+        "section": "SEC. 35-365"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-530. PERMITTED USES",
+        "section": "SEC. 35-530"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "Listed only for M-SVMS, not C-1."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "C-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-530. PERMITTED USES",
+        "section": "SEC. 35-530"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-170. ESTABLISHMENT OF DISTRICTS",
+        "section": "SEC. 35-170"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "Listed only for M-SVMS; DZ is not an established district."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "DZ",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-170. ESTABLISHMENT OF DISTRICTS",
+        "section": "SEC. 35-170"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-383. PERMITTED USES",
+        "section": "SEC. 35-383"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "This occurrence is listed for M-SVMS, not M-1."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-383. PERMITTED USES",
+        "section": "SEC. 35-383"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "warehouse_distribution",
+      "status": "permitted",
+      "local_uses": [
+        "warehousing operations"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "This district is established to provide locations for larger scale manufacturing, processing, and warehousing operations which may require extensive community facilities and access to transportation facilities have open storage and service areas and generate heavy truck traffic.",
+        "section": "SEC. 35-401"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "permitted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-402. PERMITTED USES",
+        "section": "SEC. 35-402"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "This occurrence is listed for M-SVMS, not M-2."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-2",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-402. PERMITTED USES",
+        "section": "SEC. 35-402"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "M-SVMS",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-534. PERMITTED USES",
+        "section": "SEC. 35-534"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "MHP",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 35-317. PERMITTED USES",
+        "section": "Sec. 35-317"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "This occurrence is listed for M-SVMS, not MHP."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "MHP",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "Sec. 35-317. PERMITTED USES",
+        "section": "Sec. 35-317"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "R-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-222 PERMITTED USES",
+        "section": "SEC. 35-222"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534",
+          "reason": "This occurrence is listed for M-SVMS, not R-1."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "R-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-222 PERMITTED USES",
+        "section": "SEC. 35-222"
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-267. PERMITTED USES",
+        "section": "SEC. 35-267."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534.",
+          "reason": "Listed only in M-SVMS, not RC-1."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-192. PERMITTED USES",
+        "section": "SEC. 35-192."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534.",
+          "reason": "Listed only in M-SVMS, not RE."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-280. PERMITTED USES",
+        "section": "SEC. 35-280."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534.",
+          "reason": "Listed only in M-SVMS, not RMF."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "lp_gas",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-294. PERMITTED USES",
+        "section": "SEC. 35-294."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [
+        {
+          "term": "LP gas",
+          "quote": "• LP gas and natural gas storage",
+          "section": "SEC. 35-534.",
+          "reason": "Listed only in M-SVMS, not RPD."
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-267. PERMITTED USES",
+        "section": "SEC. 35-267."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-192. PERMITTED USES",
+        "section": "SEC. 35-192."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RMF",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-280. PERMITTED USES",
+        "section": "SEC. 35-280."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "cannabis_cultivation_processing",
+      "status": "unlisted",
+      "local_uses": [],
+      "evidence": {
+        "kind": "absence",
+        "quote": "SEC. 35-294. PERMITTED USES",
+        "section": "SEC. 35-294."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "unlisted",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "absence_hits": [],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RC-1",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Public utilities (substations, power generation, water and sewer treatment plants)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "• Public utilities (substations, power generation, water and sewer treatment plants)",
+        "section": "SEC. 35-268."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RE",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Power generation"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "• Power generation",
+        "section": "SEC. 35-193."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": false,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    },
+    {
+      "jurisdiction_id": "us-51143",
+      "district_code": "RPD",
+      "use_class": "utility_generation",
+      "status": "conditional",
+      "local_uses": [
+        "Public utilities (including substations, power generation)"
+      ],
+      "evidence": {
+        "kind": "prose",
+        "quote": "• Public utilities (including substations, power generation)",
+        "section": "SEC. 35-295."
+      },
+      "source": {
+        "id": "us-51143-zo-ch35",
+        "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+        "date": "2026-08-18"
+      },
+      "parcel_specific": true,
+      "checked_at": "2026-10-11",
+      "stale": false,
+      "history": [
+        {
+          "date": "2026-10-11",
+          "from": null,
+          "to": "conditional",
+          "by": "codex",
+          "ref": "review-codex-us-51143-20261011T005609Z"
+        }
+      ],
+      "matched_text": {
+        "section": "raw",
+        "quote": "raw"
+      }
+    }
+  ],
+  "matched_text_counts": {
+    "quote:raw": 32,
+    "section:raw": 32
+  },
+  "rejected": [
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "A-1",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 35-178. PERMITTED USES",
+          "section": "Sec. 35-178"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data centers",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS, not A-1."
+          },
+          {
+            "term": "servers",
+            "quote": "computer and/or network equipment, systems, servers,",
+            "section": "SEC. 35-536",
+            "reason": "Part of the M-SVMS Data Center definition, not an A-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/A-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "A-1",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 35-178. PERMITTED USES",
+          "section": "Sec. 35-178"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+            "section": "Division 12",
+            "reason": "This is the M-2 district, not A-1."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish an A-1 use."
+          },
+          {
+            "term": "smelting",
+            "quote": "• Smelting operations",
+            "section": "SEC. 35-402",
+            "reason": "Listed in M-2, not A-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/A-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "A-1",
+        "use_class": "utility_generation",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 35-178. PERMITTED USES",
+          "section": "Sec. 35-178"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "power plant",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish an A-1 use."
+          },
+          {
+            "term": "power station",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish an A-1 use."
+          },
+          {
+            "term": "solar energy facility",
+            "quote": "Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141.",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS, not A-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/A-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
+        "us-51143/A-1/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "A-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 35-178. PERMITTED USES",
+          "section": "Sec. 35-178"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "BESS",
+            "quote": "Battery Energy Storage Project (BESS)",
+            "section": "SEC. 35-143",
+            "reason": "The cited provision concerns battery projects accessory to approved solar facilities, not a stand-alone A-1 use."
+          },
+          {
+            "term": "battery",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not list a stand-alone A-1 use."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not list a stand-alone A-1 use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "NFPA 855, Standard for the Installation of Stationary Energy Storage Systems;",
+            "section": "SEC. 35-144",
+            "reason": "A safety-standard reference does not establish an A-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/A-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/A-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-1",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-346. PERMITTED USES",
+          "section": "SEC. 35-346"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data centers",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS, not B-1."
+          },
+          {
+            "term": "servers",
+            "quote": "computer and/or network equipment, systems, servers,",
+            "section": "SEC. 35-536",
+            "reason": "Part of the M-SVMS Data Center definition, not a B-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-1",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-346. PERMITTED USES",
+          "section": "SEC. 35-346"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "This is an A-1 use, not B-1."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-1 use."
+          },
+          {
+            "term": "fulfillment center",
+            "quote": "Warehousing and Distribution",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS use definition does not establish a B-1 use."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "Truck/Freight Terminal",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/B-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-1",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-346. PERMITTED USES",
+          "section": "SEC. 35-346"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+            "section": "Division 12",
+            "reason": "This is the M-2 district, not B-1."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-1 use."
+          },
+          {
+            "term": "smelting",
+            "quote": "• Smelting operations",
+            "section": "SEC. 35-402",
+            "reason": "Listed in M-2, not B-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-1",
+        "use_class": "utility_generation",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-346. PERMITTED USES",
+          "section": "SEC. 35-346"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "power plant",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-1 use."
+          },
+          {
+            "term": "power station",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-1 use."
+          },
+          {
+            "term": "solar energy facility",
+            "quote": "Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141.",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS, not B-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
+        "us-51143/B-1/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-346. PERMITTED USES",
+          "section": "SEC. 35-346"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "BESS",
+            "quote": "Battery Energy Storage Project (BESS)",
+            "section": "SEC. 35-143",
+            "reason": "The cited provision concerns battery projects accessory to approved solar facilities, not a stand-alone B-1 use."
+          },
+          {
+            "term": "battery",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not list a stand-alone B-1 use."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not list a stand-alone B-1 use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "NFPA 855, Standard for the Installation of Stationary Energy Storage Systems;",
+            "section": "SEC. 35-144",
+            "reason": "A safety-standard reference does not establish a B-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/B-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-2",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-365. PERMITTED USES",
+          "section": "SEC. 35-365"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data centers",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS, not B-2."
+          },
+          {
+            "term": "servers",
+            "quote": "computer and/or network equipment, systems, servers,",
+            "section": "SEC. 35-536",
+            "reason": "Part of the M-SVMS Data Center definition, not a B-2 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-2/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-2",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-365. PERMITTED USES",
+          "section": "SEC. 35-365"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "This is an A-1 use, not B-2."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-2 use."
+          },
+          {
+            "term": "fulfillment center",
+            "quote": "Warehousing and Distribution",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS use definition does not establish a B-2 use."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "Truck/Freight Terminal",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-2 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-2/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/B-2/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-2",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-365. PERMITTED USES",
+          "section": "SEC. 35-365"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+            "section": "Division 12",
+            "reason": "This is the M-2 district, not B-2."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-2 use."
+          },
+          {
+            "term": "smelting",
+            "quote": "• Smelting operations",
+            "section": "SEC. 35-402",
+            "reason": "Listed in M-2, not B-2."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-2/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-2",
+        "use_class": "utility_generation",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-365. PERMITTED USES",
+          "section": "SEC. 35-365"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "power plant",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-2 use."
+          },
+          {
+            "term": "power station",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a B-2 use."
+          },
+          {
+            "term": "solar energy facility",
+            "quote": "Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141.",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS, not B-2."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-2/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
+        "us-51143/B-2/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "B-2",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-365. PERMITTED USES",
+          "section": "SEC. 35-365"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "BESS",
+            "quote": "Battery Energy Storage Project (BESS)",
+            "section": "SEC. 35-143",
+            "reason": "The cited provision concerns battery projects accessory to approved solar facilities, not a stand-alone B-2 use."
+          },
+          {
+            "term": "battery",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not list a stand-alone B-2 use."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not list a stand-alone B-2 use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "NFPA 855, Standard for the Installation of Stationary Energy Storage Systems;",
+            "section": "SEC. 35-144",
+            "reason": "A safety-standard reference does not establish a B-2 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/B-2/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/B-2/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "C-1",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-530. PERMITTED USES",
+          "section": "SEC. 35-530"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data centers",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS, not C-1."
+          },
+          {
+            "term": "servers",
+            "quote": "computer and/or network equipment, systems, servers,",
+            "section": "SEC. 35-536",
+            "reason": "Part of the M-SVMS Data Center definition, not a C-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/C-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "C-1",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-530. PERMITTED USES",
+          "section": "SEC. 35-530"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "This is an A-1 use, not C-1."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a C-1 use."
+          },
+          {
+            "term": "fulfillment center",
+            "quote": "Warehousing and Distribution",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS use definition does not establish a C-1 use."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "Truck/Freight Terminal",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a C-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/C-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/C-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "C-1",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-530. PERMITTED USES",
+          "section": "SEC. 35-530"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+            "section": "Division 12",
+            "reason": "This is the M-2 district, not C-1."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a C-1 use."
+          },
+          {
+            "term": "smelting",
+            "quote": "• Smelting operations",
+            "section": "SEC. 35-402",
+            "reason": "Listed in M-2, not C-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/C-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "C-1",
+        "use_class": "utility_generation",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-530. PERMITTED USES",
+          "section": "SEC. 35-530"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "power plant",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a C-1 use."
+          },
+          {
+            "term": "power station",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a C-1 use."
+          },
+          {
+            "term": "solar energy facility",
+            "quote": "Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141.",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS, not C-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/C-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
+        "us-51143/C-1/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "C-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-530. PERMITTED USES",
+          "section": "SEC. 35-530"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "BESS",
+            "quote": "Battery Energy Storage Project (BESS)",
+            "section": "SEC. 35-143",
+            "reason": "The cited provision concerns battery projects accessory to approved solar facilities, not a stand-alone C-1 use."
+          },
+          {
+            "term": "battery",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not list a stand-alone C-1 use."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not list a stand-alone C-1 use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "NFPA 855, Standard for the Installation of Stationary Energy Storage Systems;",
+            "section": "SEC. 35-144",
+            "reason": "A safety-standard reference does not establish a C-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/C-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/C-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "DZ",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-170. ESTABLISHMENT OF DISTRICTS",
+          "section": "SEC. 35-170"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "Data centers",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS; DZ is not an established district."
+          },
+          {
+            "term": "servers",
+            "quote": "computer and/or network equipment, systems, servers,",
+            "section": "SEC. 35-536",
+            "reason": "Part of the M-SVMS Data Center definition; DZ is not an established district."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/DZ/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "DZ",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-170. ESTABLISHMENT OF DISTRICTS",
+          "section": "SEC. 35-170"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "Sec. 35-178",
+            "reason": "This is an A-1 use; DZ is not an established district."
+          },
+          {
+            "term": "freight",
+            "quote": "Truck/Freight Terminal",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a DZ use."
+          },
+          {
+            "term": "fulfillment center",
+            "quote": "Warehousing and Distribution",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS use definition does not establish a DZ use."
+          },
+          {
+            "term": "truck terminal",
+            "quote": "Truck/Freight Terminal",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a DZ use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/DZ/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/DZ/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "DZ",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-170. ESTABLISHMENT OF DISTRICTS",
+          "section": "SEC. 35-170"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+            "section": "Division 12",
+            "reason": "This is M-2; DZ is not an established district."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a DZ use."
+          },
+          {
+            "term": "smelting",
+            "quote": "• Smelting operations",
+            "section": "SEC. 35-402",
+            "reason": "Listed in M-2; DZ is not an established district."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/DZ/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "DZ",
+        "use_class": "utility_generation",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-170. ESTABLISHMENT OF DISTRICTS",
+          "section": "SEC. 35-170"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "power plant",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a DZ use."
+          },
+          {
+            "term": "power station",
+            "quote": "Power Station",
+            "section": "SEC. 35-536",
+            "reason": "The M-SVMS definition does not establish a DZ use."
+          },
+          {
+            "term": "solar energy facility",
+            "quote": "Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141.",
+            "section": "SEC. 35-534",
+            "reason": "Listed only for M-SVMS; DZ is not an established district."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/DZ/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
+        "us-51143/DZ/utility_generation: absence gate: 'power plant' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "DZ",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-170. ESTABLISHMENT OF DISTRICTS",
+          "section": "SEC. 35-170"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "BESS",
+            "quote": "Battery Energy Storage Project (BESS)",
+            "section": "SEC. 35-143",
+            "reason": "The cited provision concerns battery projects accessory to approved solar facilities; DZ is not an established district."
+          },
+          {
+            "term": "battery",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not establish a DZ use."
+          },
+          {
+            "term": "battery energy storage",
+            "quote": "Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "SEC. 35-143",
+            "reason": "The provision is limited to accessory projects and does not establish a DZ use."
+          },
+          {
+            "term": "energy storage system",
+            "quote": "NFPA 855, Standard for the Installation of Stationary Energy Storage Systems;",
+            "section": "SEC. 35-144",
+            "reason": "A safety-standard reference does not establish a DZ use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/DZ/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/DZ/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-1",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-383. PERMITTED USES",
+          "section": "SEC. 35-383"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "computer equipment",
+            "quote": "• Computer equipment manufacturing",
+            "section": "SEC. 35-383",
+            "reason": "Manufacturing computer equipment does not cover a facility whose primary use is housing servers and network equipment."
+          },
+          {
+            "term": "data center",
+            "quote": "• Data centers",
+            "section": "SEC. 35-534",
+            "reason": "This occurrence is a use listed only for M-SVMS, not M-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-1",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-383. PERMITTED USES",
+          "section": "SEC. 35-383"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "SEC. 35-383",
+            "reason": "An agricultural warehouse does not expressly cover general warehouse and distribution use."
+          },
+          {
+            "term": "freight",
+            "quote": "• Truck and freight terminals",
+            "section": "SEC. 35-383",
+            "reason": "The occurrence does not establish a general warehouse and distribution use from the supplied text."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/M-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-1",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-383. PERMITTED USES",
+          "section": "SEC. 35-383"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+            "section": "Division 12",
+            "reason": "This identifies M-2, not M-1."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy | Processing or converting raw or unfinished materials into different articles or substances, often with significant external effects (e.g., noise, smoke, vibration, odor) or risks involving hazardous materials.",
+            "section": "SEC. 35-536",
+            "reason": "This is an M-SVMS definition and does not establish the use in M-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-1",
+        "use_class": "utility_generation",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-383. PERMITTED USES",
+          "section": "SEC. 35-383"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "power station",
+            "quote": "Power Station | A facility, system, or similar use whose primary purpose is the generation, production, storage, transmission, distribution and/or offsetting of electric power for offsite and/or onsite consumption, fueled by transmission power, natural gas, wind, solar, battery, and/or another form of renewable or nonrenewable energy.",
+            "section": "SEC. 35-536",
+            "reason": "This M-SVMS definition does not establish Power Station as an M-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-1/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
+        "us-51143/M-1/utility_generation: absence gate: 'power plant' occurs in the code and is not explained",
+        "us-51143/M-1/utility_generation: absence gate: 'solar energy facility' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-383. PERMITTED USES",
+          "section": "SEC. 35-383"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143",
+            "reason": "The occurrence identifies accessory projects and does not establish stand-alone battery storage in M-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/M-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-2",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-402. PERMITTED USES",
+          "section": "SEC. 35-402"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "• Data centers",
+            "section": "SEC. 35-534",
+            "reason": "This occurrence is listed for M-SVMS, not M-2."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-2/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
+        "us-51143/M-2/datacenter: absence gate: 'servers' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-2",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "permitted",
+        "local_uses": [
+          "Chemicals manufacturing"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:\n• Chemicals manufacturing",
+          "section": "SEC. 35-402"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-2/heavy_industrial_hazmat: quote not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-2",
+        "use_class": "utility_generation",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-402. PERMITTED USES",
+          "section": "SEC. 35-402"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "power station",
+            "quote": "Power Station | A facility, system, or similar use whose primary purpose is the generation, production, storage, transmission, distribution and/or offsetting of electric power for offsite and/or onsite consumption, fueled by transmission power, natural gas, wind, solar, battery, and/or another form of renewable or nonrenewable energy.",
+            "section": "SEC. 35-536",
+            "reason": "This M-SVMS definition does not establish a utility-scale power station in M-2."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-2/utility_generation: absence gate: 'megawatt' occurs in the code and is not explained",
+        "us-51143/M-2/utility_generation: absence gate: 'power plant' occurs in the code and is not explained",
+        "us-51143/M-2/utility_generation: absence gate: 'solar energy facility' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-2",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-402. PERMITTED USES",
+          "section": "SEC. 35-402"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143",
+            "reason": "The occurrence identifies accessory projects and does not establish stand-alone battery storage in M-2."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-2/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/M-2/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-SVMS",
+        "use_class": "datacenter",
+        "status": "permitted",
+        "local_uses": [
+          "Data centers"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Within the M-SVMS District, permitted uses shall be for the following:\n• Data centers",
+          "section": "SEC. 35-534"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "A facility used primarily for the storage, management, processing, and transmission of digital data, which houses computer and/or network equipment, systems, servers, appliances, and other associated components related to digital data operations.",
+          "section": "SEC. 35-536"
+        }
+      },
+      "errors": [
+        "us-51143/M-SVMS/datacenter: quote not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-SVMS",
+        "use_class": "warehouse_distribution",
+        "status": "permitted",
+        "local_uses": [
+          "Warehousing and Distribution"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Within the M-SVMS District, permitted uses shall be for the following:\n• Warehousing and Distribution",
+          "section": "SEC. 35-534"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Enclosed storage, warehousing, and dispatching of goods; typical uses include wholesale distributors, e commerce fulfillment centers, storage warehouses, data centers, and moving/storage firms; incidental fleet parking/fueling may be accessory.",
+          "section": "SEC. 35-536"
+        }
+      },
+      "errors": [
+        "us-51143/M-SVMS/warehouse_distribution: quote not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-SVMS",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "permitted",
+        "local_uses": [
+          "Manufacturing (heavy)"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Within the M-SVMS District, permitted uses shall be for the following:\n• Manufacturing (heavy)",
+          "section": "SEC. 35-534"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "definition_evidence": {
+          "quote": "Processing or converting raw or unfinished materials into different articles or substances, often with significant external effects (e.g., noise, smoke, vibration, odor) or risks involving hazardous materials.",
+          "section": "SEC. 35-536"
+        }
+      },
+      "errors": [
+        "us-51143/M-SVMS/heavy_industrial_hazmat: quote not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-SVMS",
+        "use_class": "lp_gas",
+        "status": "permitted",
+        "local_uses": [
+          "LP gas and natural gas storage"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Within the M-SVMS District, permitted uses shall be for the following:\n• LP gas and natural gas storage",
+          "section": "SEC. 35-534"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-SVMS/lp_gas: quote not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-SVMS",
+        "use_class": "utility_generation",
+        "status": "permitted",
+        "local_uses": [
+          "Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141."
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "Within the M-SVMS District, permitted uses shall be for the following:\n• Utility-Scale Solar Energy Facility (≥1 megawatt), subject to §35-141.",
+          "section": "SEC. 35-534"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "permitted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-SVMS/utility_generation: quote not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "M-SVMS",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-534. PERMITTED USES",
+          "section": "SEC. 35-534"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143",
+            "reason": "The occurrence identifies accessory projects and does not establish a stand-alone BESS use."
+          },
+          {
+            "term": "battery",
+            "quote": "Power Station | A facility, system, or similar use whose primary purpose is the generation, production, storage, transmission, distribution and/or offsetting of electric power for offsite and/or onsite consumption, fueled by transmission power, natural gas, wind, solar, battery, and/or another form of renewable or nonrenewable energy.",
+            "section": "SEC. 35-536",
+            "reason": "Power Station is a definition, not a listed M-SVMS use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/M-SVMS/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/M-SVMS/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "MHP",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 35-317. PERMITTED USES",
+          "section": "Sec. 35-317"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "• Data centers",
+            "section": "SEC. 35-534",
+            "reason": "This occurrence is listed for M-SVMS, not MHP."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/MHP/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
+        "us-51143/MHP/datacenter: absence gate: 'servers' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "MHP",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 35-317. PERMITTED USES",
+          "section": "Sec. 35-317"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "SEC. 35-383",
+            "reason": "This occurrence is in M-1 and does not establish warehouse distribution in MHP."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/MHP/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
+        "us-51143/MHP/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/MHP/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "MHP",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 35-317. PERMITTED USES",
+          "section": "Sec. 35-317"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+            "section": "Division 12",
+            "reason": "This identifies M-2, not MHP."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/MHP/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
+        "us-51143/MHP/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "MHP",
+        "use_class": "utility_generation",
+        "status": "conditional",
+        "local_uses": [
+          "Public utilities (including substations, power generation, water and sewer plants for treatment)"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "The following uses shall be permitted only by special use permit:\n• Public utilities (including substations, power generation, water and sewer plants for treatment)",
+          "section": "SEC. 35-318"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/MHP/utility_generation: quote not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "MHP",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "Sec. 35-317. PERMITTED USES",
+          "section": "Sec. 35-317"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143",
+            "reason": "The occurrence identifies accessory projects and does not establish stand-alone battery storage in MHP."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/MHP/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/MHP/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "R-1",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-222 PERMITTED USES",
+          "section": "SEC. 35-222"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "• Data centers",
+            "section": "SEC. 35-534",
+            "reason": "This occurrence is listed for M-SVMS, not R-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/R-1/datacenter: absence gate: 'computer equipment' occurs in the code and is not explained",
+        "us-51143/R-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "R-1",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-222 PERMITTED USES",
+          "section": "SEC. 35-222"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "SEC. 35-383",
+            "reason": "This occurrence is in M-1 and does not establish warehouse distribution in R-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/R-1/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
+        "us-51143/R-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/R-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "R-1",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-222 PERMITTED USES",
+          "section": "SEC. 35-222"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Division 12. Industrial District (M-2) - Heavy Industry",
+            "section": "Division 12",
+            "reason": "This identifies M-2, not R-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/R-1/heavy_industrial_hazmat: absence gate: 'hazardous materials' occurs in the code and is not explained",
+        "us-51143/R-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "R-1",
+        "use_class": "utility_generation",
+        "status": "conditional",
+        "local_uses": [
+          "Public utilities (including substations, power generation, water and sewer plants for treatment)"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "The following uses shall be permitted only by special use permit:\n• Public utilities (including substations, power generation, water and sewer plants for treatment),",
+          "section": "SEC. 35-223"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/R-1/utility_generation: quote not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "R-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-222 PERMITTED USES",
+          "section": "SEC. 35-222"
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143",
+            "reason": "The occurrence identifies accessory projects and does not establish stand-alone battery storage in R-1."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/R-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/R-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RC-1",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-267. PERMITTED USES",
+          "section": "SEC. 35-267."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "• Data centers",
+            "section": "SEC. 35-534.",
+            "reason": "Listed only in M-SVMS, not RC-1."
+          },
+          {
+            "term": "computer equipment",
+            "quote": "• Computer equipment manufacturing",
+            "section": "SEC. 35-383.",
+            "reason": "Manufacturing is not a data center."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RC-1/datacenter: absence gate: 'servers' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RE",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-192. PERMITTED USES",
+          "section": "SEC. 35-192."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "• Data centers",
+            "section": "SEC. 35-534.",
+            "reason": "Listed only in M-SVMS, not RE."
+          },
+          {
+            "term": "computer equipment",
+            "quote": "• Computer equipment manufacturing",
+            "section": "SEC. 35-383.",
+            "reason": "Manufacturing is not a data center."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RE/datacenter: absence gate: 'servers' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RMF",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-280. PERMITTED USES",
+          "section": "SEC. 35-280."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "• Data centers",
+            "section": "SEC. 35-534.",
+            "reason": "Listed only in M-SVMS, not RMF."
+          },
+          {
+            "term": "computer equipment",
+            "quote": "• Computer equipment manufacturing",
+            "section": "SEC. 35-383.",
+            "reason": "Manufacturing is not a data center."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RMF/datacenter: absence gate: 'servers' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RPD",
+        "use_class": "datacenter",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-294. PERMITTED USES",
+          "section": "SEC. 35-294."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "data center",
+            "quote": "• Data centers",
+            "section": "SEC. 35-534.",
+            "reason": "Listed only in M-SVMS, not RPD."
+          },
+          {
+            "term": "computer equipment",
+            "quote": "• Computer equipment manufacturing",
+            "section": "SEC. 35-383.",
+            "reason": "Manufacturing is not a data center."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RPD/datacenter: absence gate: 'servers' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RC-1",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-267. PERMITTED USES",
+          "section": "SEC. 35-267."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "SEC. 35-534.",
+            "reason": "Agricultural warehouse is not general warehouse and distribution."
+          },
+          {
+            "term": "fulfillment center",
+            "quote": "Warehousing and Distribution",
+            "section": "SEC. 35-534.",
+            "reason": "This local use is not listed in RC-1."
+          },
+          {
+            "term": "freight",
+            "quote": "• Large equipment transportation facilities",
+            "section": "SEC. 35-534.",
+            "reason": "Listed only in M-SVMS and does not establish RC-1 permission."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RC-1/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
+        "us-51143/RC-1/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/RC-1/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RE",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-192. PERMITTED USES",
+          "section": "SEC. 35-192."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "SEC. 35-534.",
+            "reason": "Agricultural warehouse is not general warehouse and distribution."
+          },
+          {
+            "term": "fulfillment center",
+            "quote": "Warehousing and Distribution",
+            "section": "SEC. 35-534.",
+            "reason": "This local use is not listed in RE."
+          },
+          {
+            "term": "freight",
+            "quote": "• Large equipment transportation facilities",
+            "section": "SEC. 35-534.",
+            "reason": "Listed only in M-SVMS and does not establish RE permission."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RE/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
+        "us-51143/RE/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/RE/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RMF",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-280. PERMITTED USES",
+          "section": "SEC. 35-280."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "SEC. 35-534.",
+            "reason": "Agricultural warehouse is not general warehouse and distribution."
+          },
+          {
+            "term": "fulfillment center",
+            "quote": "Warehousing and Distribution",
+            "section": "SEC. 35-534.",
+            "reason": "This local use is not listed in RMF."
+          },
+          {
+            "term": "freight",
+            "quote": "• Large equipment transportation facilities",
+            "section": "SEC. 35-534.",
+            "reason": "Listed only in M-SVMS and does not establish RMF permission."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RMF/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
+        "us-51143/RMF/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/RMF/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RPD",
+        "use_class": "warehouse_distribution",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-294. PERMITTED USES",
+          "section": "SEC. 35-294."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "warehouse",
+            "quote": "• Agricultural warehouses",
+            "section": "SEC. 35-534.",
+            "reason": "Agricultural warehouse is not general warehouse and distribution."
+          },
+          {
+            "term": "fulfillment center",
+            "quote": "Warehousing and Distribution",
+            "section": "SEC. 35-534.",
+            "reason": "This local use is not listed in RPD."
+          },
+          {
+            "term": "freight",
+            "quote": "• Large equipment transportation facilities",
+            "section": "SEC. 35-534.",
+            "reason": "Listed only in M-SVMS and does not establish RPD permission."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RPD/warehouse_distribution: absence gate: 'freight' occurs in the code and is not explained",
+        "us-51143/RPD/warehouse_distribution: absence gate: 'fulfillment center' occurs in the code and is not explained",
+        "us-51143/RPD/warehouse_distribution: absence gate: 'truck terminal' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RC-1",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-267. PERMITTED USES",
+          "section": "SEC. 35-267."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+            "section": "SEC. 35-402.",
+            "reason": "Applies to M-2, not RC-1."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy | Processing or converting raw or unfinished materials into different articles or substances, often with significant external effects (e.g., noise, smoke, vibration, odor) or risks involving hazardous materials.",
+            "section": "SEC. 35-536.",
+            "reason": "M-SVMS definition does not create an RC-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RC-1/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RE",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-192. PERMITTED USES",
+          "section": "SEC. 35-192."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+            "section": "SEC. 35-402.",
+            "reason": "Applies to M-2, not RE."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy | Processing or converting raw or unfinished materials into different articles or substances, often with significant external effects (e.g., noise, smoke, vibration, odor) or risks involving hazardous materials.",
+            "section": "SEC. 35-536.",
+            "reason": "M-SVMS definition does not create an RE use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RE/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RMF",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-280. PERMITTED USES",
+          "section": "SEC. 35-280."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+            "section": "SEC. 35-402.",
+            "reason": "Applies to M-2, not RMF."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy | Processing or converting raw or unfinished materials into different articles or substances, often with significant external effects (e.g., noise, smoke, vibration, odor) or risks involving hazardous materials.",
+            "section": "SEC. 35-536.",
+            "reason": "M-SVMS definition does not create an RMF use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RMF/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RPD",
+        "use_class": "heavy_industrial_hazmat",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-294. PERMITTED USES",
+          "section": "SEC. 35-294."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "heavy industry",
+            "quote": "Within the heavy industry industrial district (M-2), the following uses are permitted:",
+            "section": "SEC. 35-402.",
+            "reason": "Applies to M-2, not RPD."
+          },
+          {
+            "term": "hazardous materials",
+            "quote": "Manufacturing, Heavy | Processing or converting raw or unfinished materials into different articles or substances, often with significant external effects (e.g., noise, smoke, vibration, odor) or risks involving hazardous materials.",
+            "section": "SEC. 35-536.",
+            "reason": "M-SVMS definition does not create an RPD use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RPD/heavy_industrial_hazmat: absence gate: 'smelting' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RMF",
+        "use_class": "utility_generation",
+        "status": "conditional",
+        "local_uses": [
+          "Public utilities (including substations, power generation, water and sewer plants for treatment)"
+        ],
+        "evidence": {
+          "kind": "prose",
+          "quote": "• Public utilities (including substations, power generation, water and sewer plants for treatment)",
+          "section": "SEC. 35-281."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "conditional",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RMF/utility_generation: section not found in source"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RC-1",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-267. PERMITTED USES",
+          "section": "SEC. 35-267."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143.",
+            "reason": "The identified BESS provision is expressly limited to accessory projects and does not establish a stand-alone RC-1 use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RC-1/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/RC-1/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RE",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-192. PERMITTED USES",
+          "section": "SEC. 35-192."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143.",
+            "reason": "The identified BESS provision is expressly limited to accessory projects and does not establish a stand-alone RE use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RE/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/RE/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/RE/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/RE/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/RE/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RMF",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-280. PERMITTED USES",
+          "section": "SEC. 35-280."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": false,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143.",
+            "reason": "The identified BESS provision is expressly limited to accessory projects and does not establish a stand-alone RMF use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RMF/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/RMF/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    },
+    {
+      "cell": {
+        "jurisdiction_id": "us-51143",
+        "district_code": "RPD",
+        "use_class": "battery_storage",
+        "status": "unlisted",
+        "local_uses": [],
+        "evidence": {
+          "kind": "absence",
+          "quote": "SEC. 35-294. PERMITTED USES",
+          "section": "SEC. 35-294."
+        },
+        "source": {
+          "id": "us-51143-zo-ch35",
+          "url": "https://www.pittsylvaniacountyva.gov/DocumentCenter/View/1268/Chapter-35---Zoning-PDF",
+          "date": "2026-08-18"
+        },
+        "parcel_specific": true,
+        "checked_at": "2026-10-11",
+        "stale": false,
+        "history": [
+          {
+            "date": "2026-10-11",
+            "from": null,
+            "to": "unlisted",
+            "by": "codex",
+            "ref": "review-codex-us-51143-20261011T005609Z"
+          }
+        ],
+        "absence_hits": [
+          {
+            "term": "battery",
+            "quote": "§ 35-143. Battery Energy Storage Projects Accessory to Approved Solar Facilities",
+            "section": "§ 35-143.",
+            "reason": "The identified BESS provision is expressly limited to accessory projects and does not establish a stand-alone RPD use."
+          }
+        ]
+      },
+      "errors": [
+        "us-51143/RPD/battery_storage: absence gate: 'BESS' occurs in the code and is not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'battery energy storage' occurs in the code and is not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'energy storage system' occurs in the code and is not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'inverter' occurs in the code and is not explained",
+        "us-51143/RPD/battery_storage: absence gate: 'megawatt-hour' occurs in the code and is not explained"
+      ]
+    }
+  ],
+  "missing": [
+    [
+      "A-1",
+      "datacenter"
+    ],
+    [
+      "A-1",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "A-1",
+      "utility_generation"
+    ],
+    [
+      "A-1",
+      "battery_storage"
+    ],
+    [
+      "B-1",
+      "datacenter"
+    ],
+    [
+      "B-1",
+      "warehouse_distribution"
+    ],
+    [
+      "B-1",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "B-1",
+      "utility_generation"
+    ],
+    [
+      "B-1",
+      "battery_storage"
+    ],
+    [
+      "B-2",
+      "datacenter"
+    ],
+    [
+      "B-2",
+      "warehouse_distribution"
+    ],
+    [
+      "B-2",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "B-2",
+      "utility_generation"
+    ],
+    [
+      "B-2",
+      "battery_storage"
+    ],
+    [
+      "C-1",
+      "datacenter"
+    ],
+    [
+      "C-1",
+      "warehouse_distribution"
+    ],
+    [
+      "C-1",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "C-1",
+      "utility_generation"
+    ],
+    [
+      "C-1",
+      "battery_storage"
+    ],
+    [
+      "DZ",
+      "datacenter"
+    ],
+    [
+      "DZ",
+      "warehouse_distribution"
+    ],
+    [
+      "DZ",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "DZ",
+      "utility_generation"
+    ],
+    [
+      "DZ",
+      "battery_storage"
+    ],
+    [
+      "M-1",
+      "datacenter"
+    ],
+    [
+      "M-1",
+      "warehouse_distribution"
+    ],
+    [
+      "M-1",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "M-1",
+      "utility_generation"
+    ],
+    [
+      "M-1",
+      "battery_storage"
+    ],
+    [
+      "M-2",
+      "datacenter"
+    ],
+    [
+      "M-2",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "M-2",
+      "utility_generation"
+    ],
+    [
+      "M-2",
+      "battery_storage"
+    ],
+    [
+      "M-SVMS",
+      "datacenter"
+    ],
+    [
+      "M-SVMS",
+      "warehouse_distribution"
+    ],
+    [
+      "M-SVMS",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "M-SVMS",
+      "lp_gas"
+    ],
+    [
+      "M-SVMS",
+      "utility_generation"
+    ],
+    [
+      "M-SVMS",
+      "battery_storage"
+    ],
+    [
+      "MHP",
+      "datacenter"
+    ],
+    [
+      "MHP",
+      "warehouse_distribution"
+    ],
+    [
+      "MHP",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "MHP",
+      "utility_generation"
+    ],
+    [
+      "MHP",
+      "battery_storage"
+    ],
+    [
+      "R-1",
+      "datacenter"
+    ],
+    [
+      "R-1",
+      "warehouse_distribution"
+    ],
+    [
+      "R-1",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "R-1",
+      "utility_generation"
+    ],
+    [
+      "R-1",
+      "battery_storage"
+    ],
+    [
+      "RC-1",
+      "datacenter"
+    ],
+    [
+      "RC-1",
+      "warehouse_distribution"
+    ],
+    [
+      "RC-1",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "RC-1",
+      "battery_storage"
+    ],
+    [
+      "RE",
+      "datacenter"
+    ],
+    [
+      "RE",
+      "warehouse_distribution"
+    ],
+    [
+      "RE",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "RE",
+      "battery_storage"
+    ],
+    [
+      "RMF",
+      "datacenter"
+    ],
+    [
+      "RMF",
+      "warehouse_distribution"
+    ],
+    [
+      "RMF",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "RMF",
+      "utility_generation"
+    ],
+    [
+      "RMF",
+      "battery_storage"
+    ],
+    [
+      "RPD",
+      "datacenter"
+    ],
+    [
+      "RPD",
+      "warehouse_distribution"
+    ],
+    [
+      "RPD",
+      "heavy_industrial_hazmat"
+    ],
+    [
+      "RPD",
+      "battery_storage"
+    ]
+  ]
+}

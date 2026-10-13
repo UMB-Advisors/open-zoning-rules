@@ -71,16 +71,19 @@ def _error(message: str, completed: Any | None = None) -> ModelError:
 
 def _run(argv: list[str], prompt: str, workdir: Path, runner: Any, timeout: float, clock: Any) -> tuple[Any, float]:
     started = clock()
-    completed = runner(
-        argv,
-        input=prompt,
-        cwd=workdir,
-        env=_environment(),
-        capture_output=True,
-        text=True,
-        timeout=timeout,
-        check=False,
-    )
+    try:
+        completed = runner(
+            argv,
+            input=prompt,
+            cwd=workdir,
+            env=_environment(),
+            capture_output=True,
+            text=True,
+            timeout=timeout,
+            check=False,
+        )
+    except subprocess.TimeoutExpired as error:
+        raise ModelError(f"model CLI timed out after {timeout:g}s") from error
     wall_s = clock() - started
     if completed.returncode != 0:
         raise _error(f"model CLI exited {completed.returncode}", completed)
@@ -266,7 +269,7 @@ def run_grok(
     *,
     runner: Any = subprocess.run,
     clock: Any = time.monotonic,
-    timeout: float = 1800,
+    timeout: float = 3600,
 ) -> ModelResult:
     """Run Grok on text-only inputs from its isolated working directory."""
     (workdir / "prompt.txt").write_text(prompt, encoding="utf-8")

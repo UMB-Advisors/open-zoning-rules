@@ -1,0 +1,3130 @@
+{
+  "seed": 0,
+  "n": 10,
+  "targeted": true,
+  "flip_symbols": {
+    "P": "S",
+    "PS": "S",
+    "SE": "P",
+    "S": "P",
+    "C": "P",
+    "CU": "P",
+    "SUP": "P",
+    "X": "P"
+  },
+  "flips": [
+    {
+      "line_no": 2646,
+      "line_before": "Energy Storage, Utility Scale | 4.07.02 |  |  |  |  |  |  |  |  |  |  |  | S",
+      "line_after": "Energy Storage, Utility Scale | 4.07.02 |  |  |  |  |  |  |  |  |  |  |  | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3177,
+      "line_before": "Energy Storage, Utility Scale | 4.07.02 | S | M | M | M",
+      "line_after": "Energy Storage, Utility Scale | 4.07.02 | P | M | M | M",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 601,
+      "line_before": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  | S |  |  | ",
+      "line_after": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  | P |  |  | ",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1986,
+      "line_before": "Energy Storage, Utility Scale | 4.07.02 | S |  |  |  |  |  |  |  | S | S | S",
+      "line_after": "Energy Storage, Utility Scale | 4.07.02 | P |  |  |  |  |  |  |  | P | P | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1986,
+      "line_before": "Energy Storage, Utility Scale | 4.07.02 | S |  |  |  |  |  |  |  | S | S | S",
+      "line_after": "Energy Storage, Utility Scale | 4.07.02 | P |  |  |  |  |  |  |  | P | P | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1986,
+      "line_before": "Energy Storage, Utility Scale | 4.07.02 | S |  |  |  |  |  |  |  | S | S | S",
+      "line_after": "Energy Storage, Utility Scale | 4.07.02 | P |  |  |  |  |  |  |  | P | P | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1986,
+      "line_before": "Energy Storage, Utility Scale | 4.07.02 | S |  |  |  |  |  |  |  | S | S | S",
+      "line_after": "Energy Storage, Utility Scale | 4.07.02 | P |  |  |  |  |  |  |  | P | P | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3091,
+      "line_before": "Data Center | 4.06.02 | S | P | P | P",
+      "line_after": "Data Center | 4.06.02 | P | S | S | S",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3091,
+      "line_before": "Data Center | 4.06.02 | S | P | P | P",
+      "line_after": "Data Center | 4.06.02 | P | S | S | S",
+      "from": "P",
+      "to": "S",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3091,
+      "line_before": "Data Center | 4.06.02 | S | P | P | P",
+      "line_after": "Data Center | 4.06.02 | P | S | S | S",
+      "from": "P",
+      "to": "S",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3091,
+      "line_before": "Data Center | 4.06.02 | S | P | P | P",
+      "line_after": "Data Center | 4.06.02 | P | S | S | S",
+      "from": "P",
+      "to": "S",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3044,
+      "line_before": "Data Center 4.06.02 S P P P",
+      "line_after": "Data Center 4.06.02 P S S S",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3044,
+      "line_before": "Data Center 4.06.02 S P P P",
+      "line_after": "Data Center 4.06.02 P S S S",
+      "from": "P",
+      "to": "S",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3044,
+      "line_before": "Data Center 4.06.02 S P P P",
+      "line_after": "Data Center 4.06.02 P S S S",
+      "from": "P",
+      "to": "S",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3044,
+      "line_before": "Data Center 4.06.02 S P P P",
+      "line_after": "Data Center 4.06.02 P S S S",
+      "from": "P",
+      "to": "S",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1333,
+      "line_before": "Energy Storage, Utility Scale | 4.07.02 |  |  |  |  |  |  |  |  | S |  |  |  |  | S",
+      "line_after": "Energy Storage, Utility Scale | 4.07.02 |  |  |  |  |  |  |  |  | P |  |  |  |  | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1333,
+      "line_before": "Energy Storage, Utility Scale | 4.07.02 |  |  |  |  |  |  |  |  | S |  |  |  |  | S",
+      "line_after": "Energy Storage, Utility Scale | 4.07.02 |  |  |  |  |  |  |  |  | P |  |  |  |  | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1254,
+      "line_before": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  |  | S | P | S",
+      "line_after": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  |  | P | S | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1254,
+      "line_before": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  |  | S | P | S",
+      "line_after": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  |  | P | S | P",
+      "from": "P",
+      "to": "S",
+      "flip_detected": true
+    },
+    {
+      "line_no": 1254,
+      "line_before": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  |  | S | P | S",
+      "line_after": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  |  | P | S | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    },
+    {
+      "line_no": 3176,
+      "line_before": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility |  |  |  | S | S",
+      "line_after": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility |  |  |  | P | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": false
+    },
+    {
+      "line_no": 3176,
+      "line_before": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility |  |  |  | S | S",
+      "line_after": "Electric Generating Plant and Transmission Facility/Utility Generating Plant or Transmission Facility |  |  |  | P | P",
+      "from": "S",
+      "to": "P",
+      "flip_detected": false
+    },
+    {
+      "line_no": 2568,
+      "line_before": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  | S | ",
+      "line_after": "Wholesale Distribution, Warehousing and Storage | 4.06.10 |  |  |  |  |  |  |  |  |  |  | P | ",
+      "from": "S",
+      "to": "P",
+      "flip_detected": true
+    }
+  ],
+  "rows_flipped": 10,
+  "flipped_cells": 25,
+  "flipped_cells_changed": 11,
+  "unflipped_cells": 365,
+  "unflipped_cells_changed": 1,
+  "detection_rate": 0.44,
+  "flipped_outcomes": {
+    "to_conditional": 4,
+    "to_permitted": 5,
+    "dropped": 0,
+    "other_change": 2,
+    "unchanged": 14
+  },
+  "expected_direction": 9,
+  "expected_rate": 0.36,
+  "noise_rate": 0.003,
+  "cells": [
+    {
+      "key": "us-51107/A10/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A10/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A10/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A10/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A10/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A10/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A10/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A3/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A3/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A3/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A3/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A3/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A3/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/A3/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR1/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR1/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR1/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR1/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR1/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR1/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR1/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR2/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR2/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR2/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR2/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR2/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR2/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/AR2/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/C1/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/C1/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/C1/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/C1/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/C1/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/C1/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/C1/warehouse_distribution",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCCC/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCCC/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCCC/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCCC/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCCC/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCCC/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCCC/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCNC/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCNC/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCNC/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCNC/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCNC/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCNC/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCNC/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCSC/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCSC/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCSC/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCSC/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCSC/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCSC/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CCSC/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CLI/battery_storage",
+      "before": "conditional",
+      "after": "permitted",
+      "flipped": true,
+      "outcome": "to_permitted"
+    },
+    {
+      "key": "us-51107/CLI/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CLI/datacenter",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/CLI/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CLI/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CLI/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CLI/warehouse_distribution",
+      "before": "conditional",
+      "after": "permitted",
+      "flipped": true,
+      "outcome": "to_permitted"
+    },
+    {
+      "key": "us-51107/CR1/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR1/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR1/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR1/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR1/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR1/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR1/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR2/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR2/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR2/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR2/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR2/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR2/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR2/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR3/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR3/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR3/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR3/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR3/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR3/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR3/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR4/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR4/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR4/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR4/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR4/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR4/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/CR4/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GB/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GB/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GB/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GB/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GB/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GB/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GB/warehouse_distribution",
+      "before": "permitted",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "to_conditional"
+    },
+    {
+      "key": "us-51107/GI/battery_storage",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/GI/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GI/datacenter",
+      "before": "permitted",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "to_conditional"
+    },
+    {
+      "key": "us-51107/GI/heavy_industrial_hazmat",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GI/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/GI/utility_generation",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/GI/warehouse_distribution",
+      "before": "permitted",
+      "after": "permitted",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/IP/battery_storage",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/IP/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/IP/datacenter",
+      "before": "permitted",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "to_conditional"
+    },
+    {
+      "key": "us-51107/IP/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/IP/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/IP/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/IP/warehouse_distribution",
+      "before": "permitted",
+      "after": "permitted",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/JLMA1/battery_storage",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/JLMA1/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA1/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA1/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA1/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA1/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA1/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA2/battery_storage",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/JLMA2/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA2/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA2/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA2/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA2/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA2/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA20/battery_storage",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/JLMA20/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA20/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA20/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA20/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA20/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA20/warehouse_distribution",
+      "before": "conditional",
+      "after": "prohibited",
+      "flipped": true,
+      "outcome": "other_change"
+    },
+    {
+      "key": "us-51107/JLMA3/battery_storage",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/JLMA3/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA3/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA3/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA3/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA3/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/JLMA3/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/MRHI/battery_storage",
+      "before": null,
+      "after": "conditional",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/MRHI/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/MRHI/datacenter",
+      "before": "permitted",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "to_conditional"
+    },
+    {
+      "key": "us-51107/MRHI/heavy_industrial_hazmat",
+      "before": "permitted",
+      "after": "permitted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/MRHI/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/MRHI/utility_generation",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/MRHI/warehouse_distribution",
+      "before": "permitted",
+      "after": "permitted",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/OP/battery_storage",
+      "before": null,
+      "after": "conditional",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/OP/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/OP/datacenter",
+      "before": "conditional",
+      "after": "permitted",
+      "flipped": true,
+      "outcome": "to_permitted"
+    },
+    {
+      "key": "us-51107/OP/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/OP/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/OP/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/OP/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDAAAR/battery_storage",
+      "before": null,
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDAAAR/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDAAAR/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDAAAR/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDAAAR/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDAAAR/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDAAAR/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCCRC/battery_storage",
+      "before": null,
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCCRC/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCCRC/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCCRC/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCCRC/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCCRC/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCCRC/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCH/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCH/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCH/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCH/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCH/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCH/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDCH/warehouse_distribution",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDGI/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDGI/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDGI/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDGI/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDGI/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDGI/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDGI/warehouse_distribution",
+      "before": "unlisted",
+      "after": null,
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH3/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH3/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH3/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH3/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH3/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH3/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH3/warehouse_distribution",
+      "before": "unlisted",
+      "after": null,
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH4/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH4/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH4/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH4/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH4/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH4/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH4/warehouse_distribution",
+      "before": "unlisted",
+      "after": null,
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH6/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH6/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH6/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH6/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH6/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH6/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDH6/warehouse_distribution",
+      "before": "unlisted",
+      "after": null,
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDIP/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDIP/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDIP/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDIP/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDIP/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDIP/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDIP/warehouse_distribution",
+      "before": "unlisted",
+      "after": null,
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDMUB/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDMUB/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDMUB/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDMUB/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDMUB/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDMUB/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDMUB/warehouse_distribution",
+      "before": "conditional",
+      "after": "permitted",
+      "flipped": true,
+      "outcome": "to_permitted"
+    },
+    {
+      "key": "us-51107/PDOP/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDOP/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDOP/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDOP/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDOP/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDOP/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDOP/warehouse_distribution",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRDP/battery_storage",
+      "before": "conditional",
+      "after": "permitted",
+      "flipped": true,
+      "outcome": "to_permitted"
+    },
+    {
+      "key": "us-51107/PDRDP/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRDP/datacenter",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/PDRDP/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRDP/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRDP/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRDP/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRV/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRV/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRV/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRV/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRV/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRV/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDRV/warehouse_distribution",
+      "before": "conditional",
+      "after": "prohibited",
+      "flipped": true,
+      "outcome": "other_change"
+    },
+    {
+      "key": "us-51107/PDSA/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSA/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSA/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSA/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSA/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSA/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSA/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSC/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSC/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSC/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSC/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSC/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSC/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PDSC/warehouse_distribution",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PUD-1/battery_storage",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PUD-1/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PUD-1/datacenter",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PUD-1/heavy_industrial_hazmat",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PUD-1/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PUD-1/utility_generation",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/PUD-1/warehouse_distribution",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R1/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R1/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R1/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R1/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R1/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R1/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R1/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R16/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R16/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R16/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R16/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R16/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R16/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R16/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R2/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R2/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R2/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R2/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R2/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R2/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R2/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R24/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R24/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R24/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R24/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R24/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R24/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R24/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R3/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R3/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R3/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R3/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R3/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R3/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R3/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R4/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R4/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R4/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R4/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R4/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R4/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R4/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R8/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R8/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R8/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R8/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R8/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R8/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/R8/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/RC/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/RC/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/RC/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/RC/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/RC/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/RC/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/RC/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN16/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN16/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN16/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN16/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN16/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN16/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN16/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN24/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN24/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN24/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN24/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN24/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN24/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN24/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN8/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN8/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN8/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN8/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN8/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN8/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/SCN8/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TC/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TC/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TC/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TC/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TC/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TC/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TC/warehouse_distribution",
+      "before": "prohibited",
+      "after": "conditional",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR10/battery_storage",
+      "before": "conditional",
+      "after": "conditional",
+      "flipped": true,
+      "outcome": "unchanged"
+    },
+    {
+      "key": "us-51107/TR10/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR10/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR10/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR10/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR10/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR10/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1LF/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1LF/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1LF/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1LF/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1LF/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1LF/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1LF/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1UBF/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1UBF/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1UBF/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1UBF/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1UBF/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1UBF/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR1UBF/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR2/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR2/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR2/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR2/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR2/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR2/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR2/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LBR/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LBR/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LBR/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LBR/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LBR/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LBR/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LBR/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LF/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LF/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LF/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LF/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LF/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LF/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3LF/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3UBF/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3UBF/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3UBF/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3UBF/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3UBF/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3UBF/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TR3UBF/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TRC/battery_storage",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TRC/cannabis_cultivation_processing",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TRC/datacenter",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TRC/heavy_industrial_hazmat",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TRC/lp_gas",
+      "before": "unlisted",
+      "after": "unlisted",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TRC/utility_generation",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    },
+    {
+      "key": "us-51107/TRC/warehouse_distribution",
+      "before": "prohibited",
+      "after": "prohibited",
+      "flipped": false,
+      "outcome": null
+    }
+  ],
+  "cells_compared": 399,
+  "status_changed": 21,
+  "quote_changed": 110,
+  "flips_detected": 21,
+  "flips_total": 23,
+  "changed_keys": [
+    "us-51107/C1/battery_storage",
+    "us-51107/C1/cannabis_cultivation_processing",
+    "us-51107/C1/datacenter",
+    "us-51107/C1/heavy_industrial_hazmat",
+    "us-51107/C1/lp_gas",
+    "us-51107/C1/utility_generation",
+    "us-51107/C1/warehouse_distribution",
+    "us-51107/CLI/battery_storage",
+    "us-51107/CLI/warehouse_distribution",
+    "us-51107/CR2/cannabis_cultivation_processing",
+    "us-51107/CR2/lp_gas",
+    "us-51107/CR2/utility_generation",
+    "us-51107/CR3/cannabis_cultivation_processing",
+    "us-51107/CR3/lp_gas",
+    "us-51107/CR3/utility_generation",
+    "us-51107/CR4/cannabis_cultivation_processing",
+    "us-51107/CR4/lp_gas",
+    "us-51107/CR4/utility_generation",
+    "us-51107/GB/cannabis_cultivation_processing",
+    "us-51107/GB/lp_gas",
+    "us-51107/GB/utility_generation",
+    "us-51107/GB/warehouse_distribution",
+    "us-51107/GI/cannabis_cultivation_processing",
+    "us-51107/GI/datacenter",
+    "us-51107/GI/lp_gas",
+    "us-51107/GI/utility_generation",
+    "us-51107/IP/datacenter",
+    "us-51107/JLMA20/warehouse_distribution",
+    "us-51107/MRHI/battery_storage",
+    "us-51107/MRHI/datacenter",
+    "us-51107/MRHI/utility_generation",
+    "us-51107/OP/battery_storage",
+    "us-51107/OP/datacenter",
+    "us-51107/OP/utility_generation",
+    "us-51107/PDAAAR/battery_storage",
+    "us-51107/PDAAAR/utility_generation",
+    "us-51107/PDCCRC/battery_storage",
+    "us-51107/PDCCRC/utility_generation",
+    "us-51107/PDCH/battery_storage",
+    "us-51107/PDCH/cannabis_cultivation_processing",
+    "us-51107/PDCH/datacenter",
+    "us-51107/PDCH/heavy_industrial_hazmat",
+    "us-51107/PDCH/lp_gas",
+    "us-51107/PDCH/utility_generation",
+    "us-51107/PDCH/warehouse_distribution",
+    "us-51107/PDGI/battery_storage",
+    "us-51107/PDGI/cannabis_cultivation_processing",
+    "us-51107/PDGI/datacenter",
+    "us-51107/PDGI/heavy_industrial_hazmat",
+    "us-51107/PDGI/lp_gas",
+    "us-51107/PDGI/utility_generation",
+    "us-51107/PDGI/warehouse_distribution",
+    "us-51107/PDH3/battery_storage",
+    "us-51107/PDH3/cannabis_cultivation_processing",
+    "us-51107/PDH3/datacenter",
+    "us-51107/PDH3/heavy_industrial_hazmat",
+    "us-51107/PDH3/lp_gas",
+    "us-51107/PDH3/utility_generation",
+    "us-51107/PDH3/warehouse_distribution",
+    "us-51107/PDH4/battery_storage",
+    "us-51107/PDH4/cannabis_cultivation_processing",
+    "us-51107/PDH4/datacenter",
+    "us-51107/PDH4/heavy_industrial_hazmat",
+    "us-51107/PDH4/lp_gas",
+    "us-51107/PDH4/utility_generation",
+    "us-51107/PDH4/warehouse_distribution",
+    "us-51107/PDH6/battery_storage",
+    "us-51107/PDH6/cannabis_cultivation_processing",
+    "us-51107/PDH6/datacenter",
+    "us-51107/PDH6/heavy_industrial_hazmat",
+    "us-51107/PDH6/lp_gas",
+    "us-51107/PDH6/utility_generation",
+    "us-51107/PDH6/warehouse_distribution",
+    "us-51107/PDIP/battery_storage",
+    "us-51107/PDIP/cannabis_cultivation_processing",
+    "us-51107/PDIP/datacenter",
+    "us-51107/PDIP/heavy_industrial_hazmat",
+    "us-51107/PDIP/lp_gas",
+    "us-51107/PDIP/utility_generation",
+    "us-51107/PDIP/warehouse_distribution",
+    "us-51107/PDMUB/warehouse_distribution",
+    "us-51107/PDOP/battery_storage",
+    "us-51107/PDOP/cannabis_cultivation_processing",
+    "us-51107/PDOP/datacenter",
+    "us-51107/PDOP/heavy_industrial_hazmat",
+    "us-51107/PDOP/lp_gas",
+    "us-51107/PDOP/utility_generation",
+    "us-51107/PDOP/warehouse_distribution",
+    "us-51107/PDRDP/battery_storage",
+    "us-51107/PDRV/battery_storage",
+    "us-51107/PDRV/datacenter",
+    "us-51107/PDRV/heavy_industrial_hazmat",
+    "us-51107/PDRV/utility_generation",
+    "us-51107/PDRV/warehouse_distribution",
+    "us-51107/SCN16/cannabis_cultivation_processing",
+    "us-51107/SCN16/lp_gas",
+    "us-51107/SCN24/cannabis_cultivation_processing",
+    "us-51107/SCN24/lp_gas",
+    "us-51107/SCN8/cannabis_cultivation_processing",
+    "us-51107/SCN8/lp_gas",
+    "us-51107/TC/cannabis_cultivation_processing",
+    "us-51107/TC/lp_gas",
+    "us-51107/TC/warehouse_distribution",
+    "us-51107/TR10/cannabis_cultivation_processing",
+    "us-51107/TR10/lp_gas",
+    "us-51107/TR1LF/utility_generation",
+    "us-51107/TR1UBF/utility_generation",
+    "us-51107/TR2/utility_generation",
+    "us-51107/TR3LBR/utility_generation",
+    "us-51107/TR3LF/utility_generation"
+  ],
+  "result": "changed"
+}
