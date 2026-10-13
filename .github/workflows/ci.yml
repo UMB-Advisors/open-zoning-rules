@@ -26,6 +26,11 @@ jobs:
         env:
           FINGERPRINT_KEY: ${{ secrets.FINGERPRINT_KEY }}
         run: |
+          # Forks never receive secrets; maintainers' pushes to main re-run this with the key.
+          if [ -z "$FINGERPRINT_KEY" ] && [ "${{ github.event.pull_request.head.repo.fork }}" = "true" ]; then
+            echo "::notice::fingerprint check skipped: fork pull requests have no FINGERPRINT_KEY"
+            exit 0
+          fi
           base="${{ github.event.pull_request.base.sha || github.event.before }}"
           if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ]; then
             uv run python -m ozr.fingerprints
